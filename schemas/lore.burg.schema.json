@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BurgLore",
+  "type": "object",
+  "required": ["entity","summary","adventureHooks","hashOfInputs"],
+  "properties": {
+    "entity": { "type":"object", "required":["type","id"], "properties":{
+      "type":{"const":"burg"}, "id":{"oneOf":[{"type":"integer"},{"type":"string"}]}
+    }},
+    "summary": {"type":"string", "maxLength": 400},
+    "factions": {"type":"array","items":{"type":"object","properties":{"name":{"type":"string"},"motive":{"type":"string"},"strength":{"type":"string"}}}, "maxItems": 3},
+    "notables": {"type":"array","items":{"type":"object","properties":{"name":{"type":"string"},"role":{"type":"string"},"secret":{"type":"string"}}}, "maxItems": 3},
+    "adventureHooks": {"type":"array","items":{"type":"object","required":["title","setup"],"properties":{"title":{"type":"string"},"setup":{"type":"string"},"complication":{"type":"string"},"reward":{"type":"string"}}}, "maxItems": 3},
+    "dependsOn": {"type":"array","items":{"type":"object","properties":{"type":{"type":"string"},"id":{},"fields":{"type":"array","items":{"type":"string"}}}}},
+    "hashOfInputs": {"type":"string"}
+  }
+}

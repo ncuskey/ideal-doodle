@@ -1,0 +1,10 @@
+{
+  "id": 6,
+  "name": "Aber",
+  "color": "#ffd92f",
+  "capitalBurgId": 6,
+  "neighbors": [
+    10,
+    14
+  ]
+}

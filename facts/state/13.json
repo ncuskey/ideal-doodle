@@ -1,0 +1,12 @@
+{
+  "id": 13,
+  "name": "Rilorbaria",
+  "color": "#65cec5",
+  "capitalBurgId": 13,
+  "neighbors": [
+    4,
+    10,
+    9,
+    0
+  ]
+}

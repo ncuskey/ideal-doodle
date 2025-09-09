@@ -1,0 +1,4479 @@
+{
+  "nodes": [
+    "world:world",
+    "state:0",
+    "state:1",
+    "state:10",
+    "state:11",
+    "state:12",
+    "state:13",
+    "state:14",
+    "state:15",
+    "state:16",
+    "state:2",
+    "state:3",
+    "state:4",
+    "state:5",
+    "state:6",
+    "state:7",
+    "state:8",
+    "state:9",
+    "burg:1",
+    "burg:10",
+    "burg:100",
+    "burg:101",
+    "burg:102",
+    "burg:103",
+    "burg:104",
+    "burg:105",
+    "burg:106",
+    "burg:107",
+    "burg:108",
+    "burg:109",
+    "burg:11",
+    "burg:110",
+    "burg:111",
+    "burg:112",
+    "burg:113",
+    "burg:114",
+    "burg:115",
+    "burg:116",
+    "burg:117",
+    "burg:118",
+    "burg:119",
+    "burg:12",
+    "burg:120",
+    "burg:121",
+    "burg:122",
+    "burg:123",
+    "burg:124",
+    "burg:125",
+    "burg:126",
+    "burg:127",
+    "burg:128",
+    "burg:129",
+    "burg:13",
+    "burg:130",
+    "burg:131",
+    "burg:132",
+    "burg:133",
+    "burg:134",
+    "burg:135",
+    "burg:136",
+    "burg:137",
+    "burg:138",
+    "burg:139",
+    "burg:14",
+    "burg:140",
+    "burg:141",
+    "burg:142",
+    "burg:143",
+    "burg:144",
+    "burg:145",
+    "burg:146",
+    "burg:147",
+    "burg:148",
+    "burg:149",
+    "burg:15",
+    "burg:150",
+    "burg:151",
+    "burg:152",
+    "burg:153",
+    "burg:154",
+    "burg:155",
+    "burg:156",
+    "burg:157",
+    "burg:158",
+    "burg:159",
+    "burg:16",
+    "burg:160",
+    "burg:161",
+    "burg:162",
+    "burg:163",
+    "burg:164",
+    "burg:165",
+    "burg:166",
+    "burg:167",
+    "burg:168",
+    "burg:169",
+    "burg:17",
+    "burg:170",
+    "burg:171",
+    "burg:172",
+    "burg:173",
+    "burg:174",
+    "burg:175",
+    "burg:176",
+    "burg:177",
+    "burg:178",
+    "burg:179",
+    "burg:18",
+    "burg:180",
+    "burg:181",
+    "burg:182",
+    "burg:183",
+    "burg:184",
+    "burg:185",
+    "burg:186",
+    "burg:187",
+    "burg:188",
+    "burg:189",
+    "burg:19",
+    "burg:190",
+    "burg:191",
+    "burg:192",
+    "burg:193",
+    "burg:194",
+    "burg:195",
+    "burg:196",
+    "burg:197",
+    "burg:198",
+    "burg:199",
+    "burg:2",
+    "burg:20",
+    "burg:200",
+    "burg:201",
+    "burg:202",
+    "burg:203",
+    "burg:204",
+    "burg:205",
+    "burg:206",
+    "burg:207",
+    "burg:208",
+    "burg:209",
+    "burg:21",
+    "burg:210",
+    "burg:211",
+    "burg:212",
+    "burg:213",
+    "burg:214",
+    "burg:215",
+    "burg:216",
+    "burg:217",
+    "burg:218",
+    "burg:219",
+    "burg:22",
+    "burg:220",
+    "burg:221",
+    "burg:222",
+    "burg:223",
+    "burg:224",
+    "burg:225",
+    "burg:226",
+    "burg:227",
+    "burg:228",
+    "burg:229",
+    "burg:23",
+    "burg:230",
+    "burg:231",
+    "burg:232",
+    "burg:233",
+    "burg:234",
+    "burg:235",
+    "burg:236",
+    "burg:237",
+    "burg:238",
+    "burg:239",
+    "burg:24",
+    "burg:240",
+    "burg:241",
+    "burg:242",
+    "burg:243",
+    "burg:244",
+    "burg:245",
+    "burg:246",
+    "burg:247",
+    "burg:248",
+    "burg:249",
+    "burg:25",
+    "burg:250",
+    "burg:251",
+    "burg:252",
+    "burg:253",
+    "burg:254",
+    "burg:255",
+    "burg:256",
+    "burg:257",
+    "burg:258",
+    "burg:259",
+    "burg:26",
+    "burg:260",
+    "burg:261",
+    "burg:262",
+    "burg:263",
+    "burg:264",
+    "burg:265",
+    "burg:266",
+    "burg:267",
+    "burg:268",
+    "burg:269",
+    "burg:27",
+    "burg:270",
+    "burg:271",
+    "burg:272",
+    "burg:273",
+    "burg:274",
+    "burg:275",
+    "burg:276",
+    "burg:277",
+    "burg:278",
+    "burg:279",
+    "burg:28",
+    "burg:280",
+    "burg:281",
+    "burg:282",
+    "burg:283",
+    "burg:284",
+    "burg:285",
+    "burg:286",
+    "burg:287",
+    "burg:288",
+    "burg:289",
+    "burg:29",
+    "burg:290",
+    "burg:291",
+    "burg:292",
+    "burg:293",
+    "burg:294",
+    "burg:295",
+    "burg:296",
+    "burg:297",
+    "burg:298",
+    "burg:299",
+    "burg:3",
+    "burg:30",
+    "burg:300",
+    "burg:301",
+    "burg:302",
+    "burg:303",
+    "burg:304",
+    "burg:305",
+    "burg:306",
+    "burg:307",
+    "burg:308",
+    "burg:309",
+    "burg:31",
+    "burg:310",
+    "burg:311",
+    "burg:312",
+    "burg:313",
+    "burg:314",
+    "burg:315",
+    "burg:316",
+    "burg:317",
+    "burg:318",
+    "burg:319",
+    "burg:32",
+    "burg:320",
+    "burg:321",
+    "burg:322",
+    "burg:323",
+    "burg:324",
+    "burg:325",
+    "burg:326",
+    "burg:327",
+    "burg:328",
+    "burg:329",
+    "burg:33",
+    "burg:330",
+    "burg:331",
+    "burg:332",
+    "burg:333",
+    "burg:334",
+    "burg:335",
+    "burg:336",
+    "burg:337",
+    "burg:338",
+    "burg:339",
+    "burg:34",
+    "burg:340",
+    "burg:341",
+    "burg:342",
+    "burg:343",
+    "burg:344",
+    "burg:345",
+    "burg:346",
+    "burg:347",
+    "burg:348",
+    "burg:349",
+    "burg:35",
+    "burg:350",
+    "burg:351",
+    "burg:352",
+    "burg:353",
+    "burg:354",
+    "burg:355",
+    "burg:356",
+    "burg:357",
+    "burg:358",
+    "burg:359",
+    "burg:36",
+    "burg:360",
+    "burg:361",
+    "burg:362",
+    "burg:363",
+    "burg:364",
+    "burg:365",
+    "burg:366",
+    "burg:367",
+    "burg:368",
+    "burg:369",
+    "burg:37",
+    "burg:370",
+    "burg:371",
+    "burg:372",
+    "burg:373",
+    "burg:374",
+    "burg:375",
+    "burg:376",
+    "burg:377",
+    "burg:378",
+    "burg:379",
+    "burg:38",
+    "burg:380",
+    "burg:381",
+    "burg:382",
+    "burg:383",
+    "burg:384",
+    "burg:385",
+    "burg:386",
+    "burg:387",
+    "burg:388",
+    "burg:389",
+    "burg:39",
+    "burg:390",
+    "burg:391",
+    "burg:392",
+    "burg:393",
+    "burg:394",
+    "burg:395",
+    "burg:396",
+    "burg:397",
+    "burg:398",
+    "burg:399",
+    "burg:4",
+    "burg:40",
+    "burg:400",
+    "burg:401",
+    "burg:402",
+    "burg:403",
+    "burg:404",
+    "burg:405",
+    "burg:406",
+    "burg:407",
+    "burg:408",
+    "burg:409",
+    "burg:41",
+    "burg:410",
+    "burg:411",
+    "burg:412",
+    "burg:413",
+    "burg:414",
+    "burg:415",
+    "burg:416",
+    "burg:417",
+    "burg:418",
+    "burg:419",
+    "burg:42",
+    "burg:420",
+    "burg:421",
+    "burg:422",
+    "burg:423",
+    "burg:424",
+    "burg:425",
+    "burg:426",
+    "burg:427",
+    "burg:428",
+    "burg:429",
+    "burg:43",
+    "burg:430",
+    "burg:431",
+    "burg:432",
+    "burg:433",
+    "burg:434",
+    "burg:435",
+    "burg:436",
+    "burg:437",
+    "burg:438",
+    "burg:439",
+    "burg:44",
+    "burg:440",
+    "burg:441",
+    "burg:442",
+    "burg:443",
+    "burg:444",
+    "burg:445",
+    "burg:446",
+    "burg:447",
+    "burg:448",
+    "burg:449",
+    "burg:45",
+    "burg:450",
+    "burg:451",
+    "burg:452",
+    "burg:453",
+    "burg:454",
+    "burg:455",
+    "burg:456",
+    "burg:457",
+    "burg:458",
+    "burg:459",
+    "burg:46",
+    "burg:460",
+    "burg:461",
+    "burg:462",
+    "burg:463",
+    "burg:464",
+    "burg:465",
+    "burg:466",
+    "burg:467",
+    "burg:468",
+    "burg:469",
+    "burg:47",
+    "burg:470",
+    "burg:471",
+    "burg:472",
+    "burg:473",
+    "burg:474",
+    "burg:475",
+    "burg:476",
+    "burg:477",
+    "burg:478",
+    "burg:48",
+    "burg:49",
+    "burg:5",
+    "burg:50",
+    "burg:51",
+    "burg:52",
+    "burg:53",
+    "burg:54",
+    "burg:55",
+    "burg:56",
+    "burg:57",
+    "burg:58",
+    "burg:59",
+    "burg:6",
+    "burg:60",
+    "burg:61",
+    "burg:62",
+    "burg:63",
+    "burg:64",
+    "burg:65",
+    "burg:66",
+    "burg:67",
+    "burg:68",
+    "burg:69",
+    "burg:7",
+    "burg:70",
+    "burg:71",
+    "burg:72",
+    "burg:73",
+    "burg:74",
+    "burg:75",
+    "burg:76",
+    "burg:77",
+    "burg:78",
+    "burg:79",
+    "burg:8",
+    "burg:80",
+    "burg:81",
+    "burg:82",
+    "burg:83",
+    "burg:84",
+    "burg:85",
+    "burg:86",
+    "burg:87",
+    "burg:88",
+    "burg:89",
+    "burg:9",
+    "burg:90",
+    "burg:91",
+    "burg:92",
+    "burg:93",
+    "burg:94",
+    "burg:95",
+    "burg:96",
+    "burg:97",
+    "burg:98",
+    "burg:99"
+  ],
+  "edges": [
+    {
+      "from": "state:0",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:1",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:10",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:11",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:12",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:13",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:14",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:15",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:16",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:2",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:3",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:4",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:5",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:6",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:7",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:8",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "state:9",
+      "to": "world:world",
+      "fields": [
+        "ruler",
+        "warState",
+        "religionSpread"
+      ]
+    },
+    {
+      "from": "burg:1",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:10",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:100",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:101",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:102",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:103",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:104",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:105",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:106",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:107",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:108",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:109",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:11",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:110",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:111",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:112",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:113",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:114",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:115",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:116",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:117",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:118",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:119",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:12",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:120",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:121",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:122",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:123",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:124",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:125",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:126",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:127",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:128",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:129",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:13",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:130",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:131",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:132",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:133",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:134",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:135",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:136",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:137",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:138",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:139",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:14",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:140",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:141",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:142",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:143",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:144",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:145",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:146",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:147",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:148",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:149",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:15",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:150",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:151",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:152",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:153",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:154",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:155",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:156",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:157",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:158",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:159",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:16",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:160",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:161",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:162",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:163",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:164",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:165",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:166",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:167",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:168",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:169",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:17",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:170",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:171",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:172",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:173",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:174",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:175",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:176",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:177",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:178",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:179",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:18",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:180",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:181",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:182",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:183",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:184",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:185",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:186",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:187",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:188",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:189",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:19",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:190",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:191",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:192",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:193",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:194",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:195",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:196",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:197",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:198",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:199",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:2",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:20",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:200",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:201",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:202",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:203",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:204",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:205",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:206",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:207",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:208",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:209",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:21",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:210",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:211",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:212",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:213",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:214",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:215",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:216",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:217",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:218",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:219",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:22",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:220",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:221",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:222",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:223",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:224",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:225",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:226",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:227",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:228",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:229",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:23",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:230",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:231",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:232",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:233",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:234",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:235",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:236",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:237",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:238",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:239",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:24",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:240",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:241",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:242",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:243",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:244",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:245",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:246",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:247",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:248",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:249",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:25",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:250",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:251",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:252",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:253",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:254",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:255",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:256",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:257",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:258",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:259",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:26",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:260",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:261",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:262",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:263",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:264",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:265",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:266",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:267",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:268",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:269",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:27",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:270",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:271",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:272",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:273",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:274",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:275",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:276",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:277",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:278",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:279",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:28",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:280",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:281",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:282",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:283",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:284",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:285",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:286",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:287",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:288",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:289",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:29",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:290",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:291",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:292",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:293",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:294",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:295",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:296",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:297",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:298",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:299",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:3",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:30",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:300",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:301",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:302",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:303",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:304",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:305",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:306",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:307",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:308",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:309",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:31",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:310",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:311",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:312",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:313",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:314",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:315",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:316",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:317",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:318",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:319",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:32",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:320",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:321",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:322",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:323",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:324",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:325",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:326",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:327",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:328",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:329",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:33",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:330",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:331",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:332",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:333",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:334",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:335",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:336",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:337",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:338",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:339",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:34",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:340",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:341",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:342",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:343",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:344",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:345",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:346",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:347",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:348",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:349",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:35",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:350",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:351",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:352",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:353",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:354",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:355",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:356",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:357",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:358",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:359",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:36",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:360",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:361",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:362",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:363",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:364",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:365",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:366",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:367",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:368",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:369",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:37",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:370",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:371",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:372",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:373",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:374",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:375",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:376",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:377",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:378",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:379",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:38",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:380",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:381",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:382",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:383",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:384",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:385",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:386",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:387",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:388",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:389",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:39",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:390",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:391",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:392",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:393",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:394",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:395",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:396",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:397",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:398",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:399",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:4",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:40",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:400",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:401",
+      "to": "state:4",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:402",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:403",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:404",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:405",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:406",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:407",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:408",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:409",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:41",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:410",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:411",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:412",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:413",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:414",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:415",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:416",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:417",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:418",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:419",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:42",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:420",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:421",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:422",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:423",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:424",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:425",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:426",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:427",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:428",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:429",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:43",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:430",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:431",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:432",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:433",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:434",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:435",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:436",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:437",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:438",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:439",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:44",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:440",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:441",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:442",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:443",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:444",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:445",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:446",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:447",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:448",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:449",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:45",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:450",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:451",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:452",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:453",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:454",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:455",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:456",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:457",
+      "to": "state:16",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:458",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:459",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:46",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:460",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:461",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:462",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:463",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:464",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:465",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:466",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:467",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:468",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:469",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:47",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:470",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:471",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:472",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:473",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:474",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:475",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:476",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:477",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:478",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:48",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:49",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:5",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:50",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:51",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:52",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:53",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:54",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:55",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:56",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:57",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:58",
+      "to": "state:3",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:59",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:6",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:60",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:61",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:62",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:63",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:64",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:65",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:66",
+      "to": "state:10",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:67",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:68",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:69",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:7",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:70",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:71",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:72",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:73",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:74",
+      "to": "state:7",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:75",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:76",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:77",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:78",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:79",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:8",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:80",
+      "to": "state:12",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:81",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:82",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:83",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:84",
+      "to": "state:15",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:85",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:86",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:87",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:88",
+      "to": "state:11",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:89",
+      "to": "state:6",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:9",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:90",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:91",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:92",
+      "to": "state:13",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:93",
+      "to": "state:9",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:94",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:95",
+      "to": "state:8",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:96",
+      "to": "state:14",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:97",
+      "to": "state:5",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:98",
+      "to": "state:2",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    },
+    {
+      "from": "burg:99",
+      "to": "state:1",
+      "fields": [
+        "ruler",
+        "warState"
+      ]
+    }
+  ]
+}

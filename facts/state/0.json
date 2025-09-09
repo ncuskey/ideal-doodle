@@ -1,0 +1,17 @@
+{
+  "id": 0,
+  "name": "Neutrals",
+  "capitalBurgId": null,
+  "neighbors": [
+    4,
+    2,
+    11,
+    5,
+    9,
+    13,
+    10,
+    14,
+    16,
+    12
+  ]
+}

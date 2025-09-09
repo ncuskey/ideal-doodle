@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Slor'th",
+  "color": "#66c2a5",
+  "capitalBurgId": 1,
+  "neighbors": [
+    3,
+    12,
+    15
+  ],
+  "ruler": "King Aldric"
+}

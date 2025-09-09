@@ -1,0 +1,11 @@
+{
+  "id": 7,
+  "name": "Bhiagab",
+  "color": "#73e3a7",
+  "capitalBurgId": 7,
+  "neighbors": [
+    14,
+    15,
+    12
+  ]
+}

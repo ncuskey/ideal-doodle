@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "name": "Duntefia",
+  "color": "#e78ac3",
+  "capitalBurgId": 4,
+  "neighbors": [
+    0,
+    11,
+    13
+  ]
+}

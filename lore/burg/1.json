@@ -1,0 +1,18 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 1
+  },
+  "summary": "A bustling trading town known for its markets and craftsmen.",
+  "adventureHooks": [
+    {
+      "title": "Hook 1",
+      "setup": "Setup 1"
+    },
+    {
+      "title": "Hook 2",
+      "setup": "Setup 2"
+    }
+  ],
+  "hashOfInputs": "c0c9c053843de5d5f066ebf00782f2b31687a63c49f2ac57cb7bcfd5e6401346"
+}

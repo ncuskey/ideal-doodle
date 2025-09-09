@@ -1,0 +1,22 @@
+{
+  "name": "southia-lore",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "facts:build": "tsx src/pipelines/buildFacts.ts",
+    "graph:build": "tsx src/pipelines/buildGraph.ts",
+    "lore:burg": "tsx src/pipelines/genBurgLore.ts",
+    "lore:state": "tsx src/pipelines/genStateLore.ts",
+    "events:apply": "tsx src/pipelines/applyEvents.ts",
+    "test:hash": "tsx src/tests/hash.test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.57.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.0",
+    "typescript": "^5.6.3"
+  }
+}

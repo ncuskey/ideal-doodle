@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "name": "Gatesinia",
+  "color": "#fc8d62",
+  "capitalBurgId": 2,
+  "neighbors": [
+    0,
+    11,
+    16
+  ]
+}

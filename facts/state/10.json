@@ -1,0 +1,12 @@
+{
+  "id": 10,
+  "name": "Arelerglosia",
+  "color": "#d3a8d8",
+  "capitalBurgId": 10,
+  "neighbors": [
+    6,
+    13,
+    14,
+    0
+  ]
+}

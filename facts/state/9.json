@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "name": "Eraisia",
+  "color": "#959edc",
+  "capitalBurgId": 9,
+  "neighbors": [
+    11,
+    13,
+    5,
+    0,
+    12
+  ]
+}

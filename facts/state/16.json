@@ -1,0 +1,12 @@
+{
+  "id": 16,
+  "name": "Iahzit",
+  "color": "#d79edf",
+  "capitalBurgId": 16,
+  "neighbors": [
+    2,
+    11,
+    0,
+    5
+  ]
+}

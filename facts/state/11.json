@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "name": "Chipleteria",
+  "color": "#abf760",
+  "capitalBurgId": 11,
+  "neighbors": [
+    0,
+    2,
+    4,
+    9,
+    16
+  ]
+}

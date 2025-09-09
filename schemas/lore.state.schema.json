@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateLore",
+  "type": "object",
+  "required": ["entity","summary","adventureHooks","hashOfInputs"],
+  "properties": {
+    "entity": { "type":"object", "required":["type","id"], "properties":{
+      "type":{"const":"state"}, "id":{"oneOf":[{"type":"integer"},{"type":"string"}]}
+    }},
+    "summary": {"type":"string", "maxLength": 500},
+    "history": {"type":"array","items":{"type":"string"}, "maxItems": 5},
+    "adventureHooks": {"type":"array","items":{"type":"object","required":["title","setup"],"properties":{"title":{"type":"string"},"setup":{"type":"string"},"escalation":{"type":"string"}}}, "maxItems": 3},
+    "hashOfInputs": {"type":"string"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "name": "Brat",
+  "color": "#a6d854",
+  "capitalBurgId": 5,
+  "neighbors": [
+    0,
+    9,
+    12,
+    16
+  ]
+}
