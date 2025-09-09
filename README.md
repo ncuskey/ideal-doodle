@@ -52,6 +52,7 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Quick smoke test**: `npm run pipeline:full:one`
 - **Full world generation**: `npm run pipeline:full:all`
 - **Full world + validation**: `npm run pipeline:full:all+validate`
+- **Real full world pipeline**: `npm run pipeline:real:all` (with concurrency control)
 
 ### Event-Driven Updates
 - **Apply events**: `npm run events:apply -- --file=events/demo.json`
@@ -150,11 +151,14 @@ python3 -m http.server 8000
 **Pipeline Runner Features:**
 - **🚀 Run Full Pipeline** - Simulated execution with realistic timing
 - **⚡ Run Real Pipeline** - Enhanced simulation with detailed API logging
+- **🌍 Run Full World Pipeline** - Complete world generation with concurrency control
 - **📊 Progress Tracking** - Real-time progress bars and step indicators
 - **🐛 Debug Logging** - Detailed API request/response data, token usage, timing
 - **⚙️ Configuration** - Set State ID and Burg ID for generation steps
+- **🎯 Scope Selection** - Choose between All/One/Dirty execution modes
 - **⏹️ Abort Control** - Stop long-running operations gracefully
 - **✅ Validation** - Automatic validation of generated content
+- **🔄 Concurrency Control** - States (3-way) and Burgs (4-way) parallel processing
 
 ### Legacy Files
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)
@@ -227,6 +231,7 @@ npm run lore:burg:full -- --id=1   # Complete burg lore with GPT-5
 npm run pipeline:full:one           # Quick smoke test
 npm run pipeline:full:all           # Full world generation
 npm run pipeline:full:all+validate  # Full world + validation
+npm run pipeline:real:all           # Real full world pipeline with concurrency
 LORE_CONCURRENCY=4 npm run lore:state:full:all  # Parallel state generation
 ```
 

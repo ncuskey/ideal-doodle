@@ -20,6 +20,7 @@
     "pipeline:full:one": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full -- --id=1 && npm run lore:burg:full -- --id=1",
     "pipeline:full:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all",
     "pipeline:full:all+validate": "npm run pipeline:full:all && npm run validate:lore",
+    "pipeline:real:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && cross-env LORE_CONCURRENCY=3 npm run lore:state:full:all && cross-env LORE_CONCURRENCY=4 npm run lore:burg:full:all && npm run validate:lore && npm run catalog:build",
     "pipeline:abort": "tsx src/pipelines/abort.ts",
     "pipeline:abort:clear": "tsx src/pipelines/abortClear.ts",
     "validate:lore": "tsx src/pipelines/validateAllLore.ts",
@@ -36,6 +37,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "cross-env": "^10.0.0",
     "tsx": "^4.16.0",
     "typescript": "^5.6.3"
   }

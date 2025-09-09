@@ -9,7 +9,7 @@ async function runOne(id: number, children: Set<ChildProcess>) {
   if (await isAbortRequested()) return;
   await new Promise<void>((resolve, reject) => {
     const child = spawn("node", ["./node_modules/.bin/tsx", "src/pipelines/genBurgLoreFull.ts", `--id=${id}`],
-      { env: process.env, stdio: "ignore" });
+      { env: process.env, stdio: "inherit" });
     children.add(child);
     child.on("exit", (code, signal) => {
       children.delete(child);

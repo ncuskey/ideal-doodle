@@ -136,6 +136,7 @@ npm run lore:burg:full:all   # Generate all burg lore (parallel)
 npm run pipeline:full:one    # Quick smoke test (1 state + 1 burg)
 npm run pipeline:full:all    # Full world generation
 npm run pipeline:full:all+validate  # Full world + validation
+npm run pipeline:real:all    # Real full world pipeline with concurrency control
 LORE_CONCURRENCY=4 npm run lore:state:full:all  # Custom concurrency
 ```
 
@@ -171,11 +172,13 @@ python3 -m http.server 8000
 
 **Dashboard Features:**
 - **Test Suite**: 19 tests across 5 categories (utilities, validation, pipelines, events, integration)
-- **Pipeline Runner**: Two modes - simulated and real execution with detailed API logging
+- **Pipeline Runner**: Three modes - simulated, real execution, and full world pipeline with concurrency control
+- **Scope Selection**: Choose between All/One/Dirty execution modes
 - **Lore Explorer**: Hierarchical navigation with kingdom cards, search, and lettermark shields
 - **Debug Panel**: Real-time logging with timestamps and detailed API request/response data
 - **Abort Control**: Stop long-running operations gracefully
 - **Validation**: Automatic validation of generated content
+- **Concurrency Control**: States (3-way) and Burgs (4-way) parallel processing
 
 ### Legacy Interfaces
 ```bash
@@ -200,3 +203,5 @@ Intelligent model selection for cost optimization:
 - **TypeScript**: ES2022 modules
 - **Node.js**: File system operations
 - **Crypto**: SHA-256 hashing
+- **cross-env**: Cross-platform environment variable support
+- **p-limit**: Concurrency control for parallel operations
