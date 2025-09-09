@@ -66,7 +66,14 @@
     "pipeline:abort:clear": "tsx src/pipelines/abortClear.ts",
 
     "test:hash": "tsx src/tests/hash.test.ts",
-    "server": "tsx src/server.ts"
+    "server": "tsx src/server.ts",
+
+    "qa:time": "tsx src/qa/timeRun.ts --",
+    "qa:diff": "tsx src/qa/diffJson.ts",
+    "qa:dirty": "tsx src/qa/lsDirty.ts",
+    "qa:validate": "tsx src/qa/validate.ts",
+    "qa:run:safe": "LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 LORE_MAX_RETRIES=8 LORE_JITTER_MS=200 DEBUG=rl tsx src/qa/timeRun.ts --",
+    "qa:dryhint": "node -e \"console.log('Use DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js before any npm script')\""
   },
   "dependencies": {
     "dotenv": "^17.2.2",
@@ -76,6 +83,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "ajv": "^8.12.0",
     "cross-env": "^10.0.0",
     "tsx": "^4.16.0",
     "typescript": "^5.6.3"

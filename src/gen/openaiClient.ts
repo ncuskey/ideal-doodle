@@ -1,68 +1,86 @@
+// src/gen/openaiClient.ts
+/* eslint-disable no-console */
 import OpenAI from "openai";
-import "dotenv/config"; // <-- loads .env
 
-export const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+export const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+  // You can set baseURL here if needed; leaving default.
+});
 
-// ---- Rate-limit helpers ----
-const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
-const jitter = (ms: number) => Math.round(ms * (0.85 + Math.random() * 0.3)); // ±15%
-
-function parseHeaderMs(v?: string) {
-  if (!v) return undefined;
-  // supports "1200" (ms) or "1.2s" / "1m6.299s"
-  const simple = v.match(/^(\d+(?:\.\d+)?)(ms|s|m)?$/i);
-  if (simple) {
-    const n = parseFloat(simple[1]);
-    const u = (simple[2] || "ms").toLowerCase();
-    if (u === "ms") return Math.round(n);
-    if (u === "s")  return Math.round(n * 1000);
-    if (u === "m")  return Math.round(n * 60_000);
-  }
-  const total =
-    (v.match(/(\d+(?:\.\d+)?)m/)?.[1] ? parseFloat(v.match(/(\d+(?:\.\d+)?)m/)![1]) * 60_000 : 0) +
-    (v.match(/(\d+(?:\.\d+)?)s/)?.[1] ? parseFloat(v.match(/(\d+(?:\.\d+)?)s/)![1]) * 1000 : 0) +
-    (v.match(/(\d+(?:\.\d+)?)ms/)?.[1] ? parseFloat(v.match(/(\d+(?:\.\d+)?)ms/)![1]) : 0);
-  return total || undefined;
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
 }
 
-/**
- * Wrap an OpenAI call with smart retries for 429s.
- * Honors server-provided retry hints and falls back to capped exponential backoff with jitter.
- *
- * Tuning knobs (env):
- *   OPENAI_MAX_RETRIES (default 8)
- *   OPENAI_BASE_DELAY_MS (default 500)
- */
+// Simple pacing to stay below org TPM (tokens per minute).
+// We don't know exact tokens per call, so we use an AVG estimate.
+// You can tune with envs to match your account limits and prompts.
+const TPM = Number(process.env.LORE_TPM_LIMIT ?? 30000);
+const AVG_TOKENS = Number(process.env.LORE_AVG_REQ_TOKENS ?? 800); // rough per-call avg
+const MIN_GAP_MS = Math.ceil((AVG_TOKENS / Math.max(TPM, 1)) * 60_000); // ms between starts
+const MAX_RETRIES = Number(process.env.LORE_MAX_RETRIES ?? 8);
+const JITTER_MS = Number(process.env.LORE_JITTER_MS ?? 150);
+
+let lastStart = 0;
+
+// Gate start times so we don't burst above TPM
+async function paceGate(label?: string) {
+  const now = Date.now();
+  const wait = lastStart + MIN_GAP_MS - now;
+  if (wait > 0) {
+    if (process.env.DEBUG?.includes("pace")) {
+      console.log(`[pace] waiting ${wait}ms before ${label || "call"}`);
+    }
+    await sleep(wait);
+  }
+  lastStart = Date.now();
+}
+
+function headerMs(h: Headers, key: string): number | null {
+  const v = h.get(key);
+  if (!v) return null;
+  if (v.endsWith("ms")) return Number(v.replace(/ms$/, "")) || null;
+  if (/^\d+(\.\d+)?$/.test(v)) return Math.round(Number(v) * 1000);
+  return null;
+}
+
 export async function withRateLimitRetry<T>(
-  fn: () => Promise<T>,
-  opts: { maxRetries?: number; baseDelayMs?: number } = {}
+  call: () => Promise<T>,
+  label?: string
 ): Promise<T> {
-  const maxRetries = opts.maxRetries ?? Number(process.env.OPENAI_MAX_RETRIES ?? 8);
-  const baseDelay  = opts.baseDelayMs  ?? Number(process.env.OPENAI_BASE_DELAY_MS ?? 500);
+  let attempt = 0;
+  for (;;) {
+    await paceGate(label);
 
-  for (let attempt = 0; ; attempt++) {
     try {
-      return await fn();
+      const out = await call();
+      return out;
     } catch (err: any) {
-      const is429 = err?.status === 429 || err?.code === "rate_limit_exceeded";
-      if (!is429 || attempt >= maxRetries) throw err;
+      const status = err?.status || err?.code;
+      const headers: Headers | undefined = err?.headers;
+      const is429 = Number(status) === 429 || err?.code === "rate_limit_exceeded";
+      const is503 = Number(status) === 503;
+      if (!(is429 || is503) || attempt >= MAX_RETRIES) {
+        // Surface non-retryable or exhausted
+        if (process.env.DEBUG?.includes("rl")) {
+          console.error(`[rl] giving up after ${attempt} attempts:`, err?.message || err);
+        }
+        throw err;
+      }
 
-      const h = err?.headers ?? {};
-      const ra = parseHeaderMs(h["retry-after-ms"]) ?? parseHeaderMs(h["retry-after"]);
-      const reset = parseHeaderMs(h["x-ratelimit-reset-tokens"]);
+      // Compute backoff
+      const hRetryMs =
+        (headers && (headerMs(headers, "retry-after-ms") ??
+        headerMs(headers, "x-ratelimit-reset-tokens"))) ?? null;
 
-      const exp = baseDelay * 2 ** attempt;
-      const wait = jitter(Math.min(30_000, ra ?? reset ?? exp));
-      // Compact console log for your dashboard stream:
-      // Example: [429] retrying in 1244ms (attempt 2/8)
-      console.log(`[429] retrying in ${wait}ms (attempt ${attempt + 1}/${maxRetries})`);
+      const base = hRetryMs ?? (2000 + attempt * 800);
+      const jitter = Math.floor(Math.random() * (JITTER_MS + 1));
+      const wait = base + jitter;
+
+      attempt++;
+      const why = is429 ? "429 rate limit" : "503 unavailable";
+      console.warn(`[rl] ${why}; backing off ${wait}ms (attempt ${attempt}/${MAX_RETRIES}) ${label ? "→ "+label : ""}`);
       await sleep(wait);
-      continue;
+      // next loop
     }
   }
 }
-
-// Quality-first
-export const MODEL_FULL = "gpt-5";        // use for full lore (state/burg deep)
-export const MODEL_SUMMARY = "gpt-5-nano"; // use for batch summaries
-export const MODEL_CHEAP = "gpt-5-mini";   // use for partial regen, cheap hooks

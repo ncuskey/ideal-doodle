@@ -132,6 +132,12 @@ LoreGen/
     │   ├── openaiClient.ts # OpenAI client setup (with rate-limit wrapper)
     │   ├── structured.ts   # Structured outputs helper
     │   └── systemPrompts.ts # Enhanced system prompts
+    ├── qa/                 # QA / Debug utilities
+    │   ├── patchDryRun.js  # Universal dry-run patch (no file writes)
+    │   ├── timeRun.ts      # Timer utility for any command
+    │   ├── diffJson.ts     # JSON diff utility (files/directories)
+    │   ├── lsDirty.ts      # Quick dirty list checker
+    │   └── validate.ts     # Schema validation utility
     ├── validate/           # Validation
     │   ├── lore.ts         # Lore validation rules
     │   └── rich.ts         # Rich lore validation
@@ -330,6 +336,22 @@ npm run lore:state:hooks -- --id=1 # Refresh state hooks only (cheap)
 npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries (efficient)
 ```
 
+### QA / Debug Utilities
+```bash
+npm run qa:time -- <command>                    # Time any command execution
+npm run qa:diff -- --left=<path> --right=<path> # Compare JSON files/directories
+npm run qa:dirty                                # Show current dirty list
+npm run qa:validate -- --schema=<schema> --dir=<dir> # Validate against schemas
+npm run qa:run:safe -- <command>                # Run with rate limiting + timing
+npm run qa:dryhint                              # Show dry-run usage instructions
+
+# Dry-run any pipeline (no file writes)
+DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js npm run canon:burg:outline
+
+# Rate-limit safe execution with custom limits
+LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
+```
+
 ### Unified Dashboard
 ```bash
 # Open unified dashboard in browser
@@ -373,3 +395,4 @@ Intelligent model selection for cost optimization:
 - **Crypto**: SHA-256 hashing
 - **cross-env**: Cross-platform environment variable support
 - **p-limit**: Concurrency control for parallel operations
+- **ajv**: JSON schema validation for QA utilities

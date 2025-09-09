@@ -139,6 +139,14 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Validate all lore**: `npm run validate:lore`
 - **Validate subset**: `npm run validate:lore:subset -- --states=1,2 --burgs=10,11`
 
+### QA / Debug Utilities
+- **Time any command**: `npm run qa:time -- <command>`
+- **Compare JSON files/directories**: `npm run qa:diff -- --left=<path> --right=<path>`
+- **Show dirty list**: `npm run qa:dirty`
+- **Validate against schemas**: `npm run qa:validate -- --schema=<schema> --dir=<dir>`
+- **Run with rate limiting + timing**: `npm run qa:run:safe -- <command>`
+- **Show dry-run usage**: `npm run qa:dryhint`
+
 ## 🎯 Model Strategy
 
 Intelligent model selection for optimal cost/quality balance:
@@ -325,12 +333,17 @@ open http://localhost:3002
 - **Hierarchical Consistency**: Each layer references and builds upon the previous
 - **Cheap Regeneration**: Outline passes are fast and can be run frequently
 
-### Robust Rate Limiting
+### Robust Rate Limiting & QA Tools
 - **Auto-retry with exponential backoff**: Handles OpenAI 429 rate limit errors gracefully
 - **Server-provided retry hints**: Honors OpenAI's retry-after headers
 - **Configurable limits**: Environment variables for max retries and base delays
 - **Jittered delays**: Prevents thundering herd problems
 - **Compact logging**: Clear retry status for monitoring
+- **Dry-run mode**: Test pipelines without writing files using `DRY_RUN=1`
+- **Timing utilities**: Measure execution time of any command
+- **JSON diffing**: Compare outputs and see exactly what changed
+- **Schema validation**: Validate generated content against JSON schemas
+- **Dirty tracking**: Quick status checks for entities needing regeneration
 
 ### Smart Caching & Dependency Tracking
 - Lore files store `hashOfInputs` for intelligent regeneration
@@ -528,6 +541,30 @@ npm run validate:lore:subset -- --states=1,2 --burgs=10,11  # Validate subset
 ```bash
 npm run lore:burg:hooks -- --id=1  # Just refresh adventure hooks
 npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries
+```
+
+**QA / Debug Utilities:**
+```bash
+# Time any command execution
+npm run qa:time -- npm run canon:province:outline
+
+# Dry-run any pipeline (no file writes)
+DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js npm run canon:burg:outline
+
+# Compare outputs against snapshots
+tsx src/qa/diffJson.ts --left=rendered/burg --right=_snap/rendered/burg
+
+# Check current dirty status
+npm run qa:dirty
+
+# Validate JSON against schemas
+npm run qa:validate -- --schema=schemas/render_burg.schema.json --dir=rendered/burg
+
+# Run with rate limiting + timing
+npm run qa:run:safe -- npm run links:suggest
+
+# Rate-limit safe execution with custom limits
+LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
 ```
 
 **Build Catalog & View Results:**
