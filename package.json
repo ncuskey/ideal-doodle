@@ -4,7 +4,6 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/cli.ts",
-
     "canon:world:outline": "tsx src/pipelines/canonWorldOutline.ts",
     "canon:interstate:outline": "tsx src/pipelines/canonInterstateOutline.ts",
     "canon:state:outline": "tsx src/pipelines/canonStateOutline.ts",
@@ -12,74 +11,73 @@
     "canon:province:outline": "tsx src/pipelines/canonProvinceOutline.ts",
     "canon:burg:outline": "tsx src/pipelines/canonBurgOutline.ts",
     "canon:markers:index": "tsx src/pipelines/buildMarkerIndex.ts",
-
     "links:suggest": "tsx src/pipelines/crossLinkSuggest.ts",
     "hooks:accept": "tsx src/pipelines/hooksAccept.ts",
     "quests:activate": "tsx src/pipelines/questsActivate.ts",
-
     "facts:build": "tsx src/pipelines/buildFacts.ts",
     "facts:derive": "tsx src/pipelines/buildDerived.ts",
     "facts:promptpacks": "tsx src/pipelines/buildPromptPacks.ts",
     "graph:build": "tsx src/pipelines/buildGraph.ts",
     "links:build": "tsx src/pipelines/buildLinkSuggestions.ts",
-
     "lore:state": "tsx src/pipelines/genStateLore.ts",
     "lore:state:full": "tsx src/pipelines/genStateLoreFull.ts",
     "lore:state:full:all": "tsx src/pipelines/genAllStateLoreFull.ts",
     "lore:state:hooks": "tsx src/pipelines/refreshStateHooks.ts",
-
     "lore:burg": "tsx src/pipelines/genBurgLore.ts",
     "lore:burg:full": "tsx src/pipelines/genBurgLoreFull.ts",
     "lore:burg:full:all": "tsx src/pipelines/genAllBurgLoreFull.ts",
     "lore:burg:hooks": "tsx src/pipelines/refreshBurgHooks.ts",
-
     "lore:dirty": "tsx src/pipelines/regenDirty.ts",
-
     "validate:lore": "tsx src/pipelines/validateAllLore.ts",
     "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
-
     "events:apply+regen": "npm run events:apply -- --file=events/demo.json && tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
     "events:plan": "tsx src/pipelines/eventsPlan.ts",
     "events:apply": "tsx src/pipelines/eventsApply.ts",
     "events:rollback": "tsx src/pipelines/eventsRollback.ts",
-
     "overlays:build": "tsx src/pipelines/overlaysFromState.ts",
     "render:dirty": "tsx src/pipelines/renderDirty.ts",
     "render:all": "tsx src/pipelines/renderDirty.ts --all",
     "render:md:all": "tsx src/pipelines/renderMarkdown.ts --kind=all",
     "render:md:burg": "tsx src/pipelines/renderMarkdown.ts --kind=burg --id=",
     "render:md:state": "tsx src/pipelines/renderMarkdown.ts --kind=state --id=",
-
     "catalog:build": "tsx src/pipelines/buildCatalog.ts",
-
     "heraldry:gen": "tsx src/pipelines/genHeraldry.ts",
     "heraldry:gen:states": "tsx src/pipelines/genHeraldry.ts --kind=state",
     "heraldry:gen:provinces": "tsx src/pipelines/genHeraldry.ts --kind=province",
     "heraldry:gen:burgs": "tsx src/pipelines/genHeraldry.ts --kind=burg",
-
     "pipeline:full:one": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full -- --id=1 && npm run lore:burg:full -- --id=1",
     "pipeline:full:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all",
     "pipeline:full:all+validate": "npm run pipeline:full:all && npm run validate:lore",
     "pipeline:real:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all && npm run validate:lore && npm run catalog:build",
-
     "pipeline:abort": "tsx src/pipelines/abort.ts",
     "pipeline:abort:clear": "tsx src/pipelines/abortClear.ts",
-
     "test:hash": "tsx src/tests/hash.test.ts",
     "server": "tsx src/server.ts",
-
     "qa:time": "tsx src/qa/timeRun.ts --",
     "qa:diff": "tsx src/qa/diffJson.ts",
     "qa:dirty": "tsx src/qa/lsDirty.ts",
     "qa:validate": "tsx src/qa/validate.ts",
     "qa:run:safe": "LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 LORE_MAX_RETRIES=8 LORE_JITTER_MS=200 DEBUG=rl tsx src/qa/timeRun.ts --",
-    "qa:dryhint": "node -e \"console.log('Use DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js before any npm script')\""
+    "qa:dryhint": "node -e \"console.log('Use DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js before any npm script')\"",
+    "next:dev": "next dev",
+    "next:build": "next build",
+    "next:start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
     "dotenv": "^17.2.2",
     "express": "^4.18.2",
+    "next": "^15.5.2",
     "openai": "^4.57.0",
     "p-limit": "^7.1.1",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13",
     "zod": "^3.23.8"
   },
   "devDependencies": {

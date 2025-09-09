@@ -102,6 +102,18 @@ LoreGen/
 │   ├── lore.state.schema.json             # State lore schema
 │   ├── lore.burg.full.schema.json         # Rich burg lore schema
 │   └── lore.state.full.schema.json        # Rich state lore schema
+├── app/                    # Next.js App Router application
+│   ├── layout.tsx         # Root layout with global styles
+│   ├── page.tsx           # Home page with navigation links
+│   ├── globals.css        # Tailwind CSS global styles
+│   └── burgs/             # Burg viewer pages
+│       └── [id]/          # Dynamic burg detail pages
+│           └── page.tsx   # Burg detail page with heraldry, overlays, hooks, markers
+├── public/                # Static assets (Next.js)
+│   └── assets/            # Symlinked to ../assets for heraldry access
+├── next.config.js         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── postcss.config.js      # PostCSS configuration
 ├── loregen-dashboard.html  # Unified HTML dashboard (test suite + pipeline runner + hierarchical lore explorer)
 ├── lore-viewer.html        # Legacy HTML viewer for generated lore
 ├── test-suite.html         # Legacy HTML test suite for functionality verification
@@ -352,6 +364,16 @@ DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js npm run canon:burg:outl
 LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
 ```
 
+### Next.js Burg Viewer
+```bash
+npm run next:dev                                # Start development server
+npm run next:build                              # Build for production
+npm run next:start                              # Start production server
+
+# Access burg viewer at http://localhost:3000/burgs/[id]
+# Example: http://localhost:3000/burgs/1
+```
+
 ### Unified Dashboard
 ```bash
 # Open unified dashboard in browser
@@ -396,3 +418,7 @@ Intelligent model selection for cost optimization:
 - **cross-env**: Cross-platform environment variable support
 - **p-limit**: Concurrency control for parallel operations
 - **ajv**: JSON schema validation for QA utilities
+- **Next.js**: React framework for burg viewer UI
+- **React**: UI library for burg viewer components
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **@tailwindcss/postcss**: PostCSS plugin for Tailwind CSS

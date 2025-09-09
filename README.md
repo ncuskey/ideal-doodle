@@ -58,6 +58,15 @@ A comprehensive world-building system that generates rich lore for fantasy world
 
 9. **View Results**
    ```bash
+   # Option 1: Next.js Burg Viewer (Modern React UI)
+   npm run next:dev
+   # Open http://localhost:3000/burgs/1
+   
+   # Option 2: Express Dashboard (Full Pipeline Control)
+   npm run server
+   # Open http://localhost:3002
+   
+   # Option 3: Static HTML (Legacy)
    python3 -m http.server 8000
    # Open http://localhost:8000/loregen-dashboard.html
    ```
@@ -146,6 +155,11 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Validate against schemas**: `npm run qa:validate -- --schema=<schema> --dir=<dir>`
 - **Run with rate limiting + timing**: `npm run qa:run:safe -- <command>`
 - **Show dry-run usage**: `npm run qa:dryhint`
+
+### Next.js Burg Viewer
+- **Start development server**: `npm run next:dev`
+- **Build for production**: `npm run next:build`
+- **Start production server**: `npm run next:start`
 
 ## 🎯 Model Strategy
 
@@ -263,8 +277,27 @@ schemas/            # JSON schemas
 └── lore.burg.full.schema.json
 ```
 
-## 🎨 Lore Explorer
+## 🎨 Viewing Options
 
+### Next.js Burg Viewer (Modern React UI)
+A beautiful, responsive React application for exploring burg details:
+
+- **Modern UI**: Built with Next.js 15, React 19, and Tailwind CSS
+- **Burg Details**: Complete burg information with heraldry, overlays, and active hooks
+- **Heraldry Display**: Shows coat of arms from generated SVG assets
+- **Overlay Pills**: Population, trade, law enforcement, and damage status
+- **Active Hooks**: Lists all active quest hooks with rationale
+- **Nearby Markers**: Shows markers from index with legend text and runes
+- **Responsive Design**: Works perfectly on desktop and mobile
+- **Fast Navigation**: Direct links to specific burgs via `/burgs/[id]`
+
+**Usage:**
+```bash
+npm run next:dev
+# Open http://localhost:3000/burgs/1
+```
+
+### Lore Explorer (HTML Dashboard)
 A hierarchical HTML explorer for navigating generated content:
 
 - **Two-pane layout**: Left sidebar for navigation, right panel for details
@@ -570,6 +603,16 @@ LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
 **Build Catalog & View Results:**
 ```bash
 npm run catalog:build  # Create compact UI index
+
+# Option 1: Next.js Burg Viewer (Modern React UI)
+npm run next:dev
+# Open http://localhost:3000/burgs/1
+
+# Option 2: Express Dashboard (Full Pipeline Control)
+npm run server
+# Open http://localhost:3002
+
+# Option 3: Static HTML (Legacy)
 python3 -m http.server 8000
 # Navigate to http://localhost:8000/loregen-dashboard.html
 ```
