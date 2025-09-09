@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7f0eafad",
+  "burg_id": 58,
+  "name": "Burg_58",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-labour"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "ship-repair",
+    "salvage"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "shipmasters' syndicate",
+    "salvagers' crew",
+    "harbormaster's office"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "supply delays"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "tide-festival customs",
+    "salt-curing cuisine",
+    "shipwright rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "failed augury"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents; long-range mind influence banned"
+  ],
+  "notes": [
+    "state unknown",
+    "population n/a",
+    "target burg 58"
+  ],
+  "generated_at": "2025-09-09T04:35:27.918Z"
+}

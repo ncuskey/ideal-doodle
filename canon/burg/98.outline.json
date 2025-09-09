@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_39cc8f5d",
+  "burg_id": 98,
+  "name": "Burg_98",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "transhipment",
+    "smuggling"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-wardens",
+    "smuggler-ring",
+    "clan-council"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-disruptions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "sea-focused cuisine: dried fish, kelp, smoked shellfish",
+    "ritual calendar keyed to local tides and moon phases"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supplier theft",
+    "missing-shipments"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Navigational auguries do not replace charts and seamanship"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial baseline tech",
+    "Strategic minor harbor serving nearby islands and coastal traders"
+  ],
+  "generated_at": "2025-09-09T04:38:14.962Z"
+}

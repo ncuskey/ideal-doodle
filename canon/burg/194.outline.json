@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b6d2fe65",
+  "burg_id": 194,
+  "name": "Harrow's Dock",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-harvesting",
+    "ritual-supplying",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Shrine Keepers",
+    "Smuggler Ring",
+    "Saltwrights"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "silted-channel",
+    "corrupt-guild-officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect with tidal idioms",
+    "Diet heavy on preserved fish and kelp",
+    "Ritual tattoos mark crew status"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-run",
+    "ritual-heist"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no true resurrection magics",
+    "long-range mind-influence outlawed"
+  ],
+  "notes": [
+    "pier partly collapsed; seasonal storms worsen access",
+    "navigation aided by auguries but charts and pilots required"
+  ],
+  "generated_at": "2025-09-09T04:15:12.185Z"
+}

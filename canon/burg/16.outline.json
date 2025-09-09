@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_de64e16d",
+  "burg_id": 16,
+  "name": "Burg_16",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "ritual-magic-node",
+    "riverine",
+    "market-crossroads"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river-trade",
+    "fish-curing",
+    "ritual-reagent-trade",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "pilots-guild",
+    "merchant-collective",
+    "harbor-temple"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry-on-waterways",
+    "corrupt-port-officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialects dominant; Coastal Tongues understood",
+    "Tide-day ancestor rites shape business calendars",
+    "Diet: salted fish, fermented seaweed, river-grain porridges"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "tide-omen"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents or specialist labor",
+    "Combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "State affiliation unknown; functions as a minor logistics node",
+    "Population data unavailable; vulnerable to supply shocks"
+  ],
+  "generated_at": "2025-09-09T04:13:05.671Z"
+}

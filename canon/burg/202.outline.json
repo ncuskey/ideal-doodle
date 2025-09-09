@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1f6bda39",
+  "burg_id": 202,
+  "name": "Burg_202",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-processing",
+    "ritual-component workshops",
+    "waystation for coastal traffic"
+  ],
+  "factions_local": [
+    "Harbor Clan",
+    "Ritual Lodge",
+    "Coastal Traders"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal isolation",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "ship-blessing and tide-offering rites",
+    "cuisine centered on salt-preserved fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "wind-swept outpost on shoals; limited arable land",
+    "navigational auguries used but local charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:15:45.593Z"
+}

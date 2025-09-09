@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e5e501d3",
+  "burg_id": 386,
+  "name": "Burg_386",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal fishing",
+    "reagent trade",
+    "waystation services"
+  ],
+  "factions_local": [
+    "harbor master's guild",
+    "reagent merchants' syndicate",
+    "sea-rite priests"
+  ],
+  "problems": [
+    "supply scarcity",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Island Creole loanwords",
+    "ship-blessing customs and small sea-offerings",
+    "diet: salted fish, fermented seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "no long-range mind-influence; no instant resurrection"
+  ],
+  "notes": [
+    "small lighthouse/night beacon tended by guild",
+    "frequent waypoint for coastal traders and ritual couriers"
+  ],
+  "generated_at": "2025-09-09T04:28:10.290Z"
+}

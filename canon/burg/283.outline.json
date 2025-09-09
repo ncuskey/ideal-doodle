@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_313f8213",
+  "burg_id": 283,
+  "name": "Burg_283",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "transshipment"
+  ],
+  "factions_local": [
+    "shipmasters-guild",
+    "ritual-circle",
+    "smugglers-cell"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "resource-strain"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "ancestor-veneration rituals common",
+    "seaweed-salted cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-run",
+    "ritual-crisis"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents"
+  ],
+  "notes": [
+    "population unknown or transient",
+    "navigational-auguries used but not infallible"
+  ],
+  "generated_at": "2025-09-09T04:21:17.859Z"
+}

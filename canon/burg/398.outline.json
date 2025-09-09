@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8d7c20cd",
+  "burg_id": 398,
+  "name": "Burg_398",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritualist Lodge",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "supply intermittency"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "smoked and salted seafood cuisine",
+    "strict reagent-taboo customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries exist but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:28:56.331Z"
+}

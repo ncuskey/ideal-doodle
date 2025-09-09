@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_salt_flats_of_vell",
+  "checksum": "fnv1a_540e93c",
+  "name": "Salt Flats of Vell",
+  "aliases": [
+    "Vell Flats",
+    "Vell Saltworks"
+  ],
+  "tags": [
+    "salt-production",
+    "coastal-flats",
+    "seasonal-labor",
+    "ritual-salts"
+  ],
+  "role_in_state": "Primary salt supplier and reagent-crystallization hub",
+  "economy_niches": [
+    "solar evaporation saltworks (large pans)",
+    "crystallized ritual-reagent processing",
+    "salt caravans and longshore transshipment",
+    "brine-harvested preservative for fisheries"
+  ],
+  "culture_adjustments": [
+    "seasonal migratory labor camps supplant permanent burg life",
+    "boat-house identity attenuated; caravan/raft kin-lines stronger",
+    "specialized apprenticeship in crystallization and pan-care",
+    "taboos and songs tied to harvest timing and pan edges"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation/flash-flooding",
+    "caravan raiding and banditry",
+    "salt-pan collapse/over-extraction",
+    "wind-driven corrosion of tools"
+  ],
+  "constraints": [
+    "scarce freshwater forces seasonal operation and limits industry",
+    "reliance on imported reagents for high-value crystallizations"
+  ],
+  "notes": [
+    "salt pans carry sacred status in local rites; specific crusts reserved for offerings",
+    "provincial output essential for fish preservation across State_15"
+  ],
+  "generated_at": "2025-09-09T04:04:53.367Z"
+}

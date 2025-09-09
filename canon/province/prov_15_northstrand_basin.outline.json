@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_northstrand_basin",
+  "checksum": "fnv1a_915806d6",
+  "name": "Northstrand Basin",
+  "aliases": [
+    "Northstrand",
+    "North Strand Basin"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "saltworks",
+    "shipbuilding",
+    "transshipment"
+  ],
+  "role_in_state": "Northern transshipment & ship-repair hub",
+  "economy_niches": [
+    "coastal fishing fleets",
+    "shipbuilding and repair",
+    "longshore trade and transshipment",
+    "salt-works and salt trade",
+    "ritual-reagent import and storage"
+  ],
+  "culture_adjustments": [
+    "stronger boat-house autonomy relative to state centers",
+    "stricter seasonal voyage taboos during fog/winter",
+    "oral chart variants kept as family-boat secrets",
+    "apprenticeships emphasize hull repair and augury integration"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "harbor siltation and shoaling",
+    "longshore banditry and smuggling",
+    "reagent theft and fires"
+  ],
+  "constraints": [
+    "limited arable hinterland",
+    "reliance on imported ritual reagents",
+    "seasonal navigation blackout in dense fogs"
+  ],
+  "notes": [
+    "keeper-songs adapt charts to local tidal quirks",
+    "saltworks supply much of the state's preserved-fish trade",
+    "yards favor shallow-draft repair and lighters for transshipment"
+  ],
+  "generated_at": "2025-09-09T04:04:51.100Z"
+}

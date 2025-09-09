@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_ninefold_port",
+  "checksum": "fnv1a_ba654b63",
+  "name": "Ninefold Port",
+  "aliases": [
+    "Ninefold",
+    "Ninefold Harbor",
+    "Ninefold Harbour"
+  ],
+  "tags": [
+    "maritime",
+    "shipbuilding",
+    "saltworks",
+    "trade-hub",
+    "navigational-augury"
+  ],
+  "role_in_state": "primary maritime entrepôt and shipbuilding hub",
+  "economy_niches": [
+    "maritime trade brokerage and transshipment",
+    "shipbuilding & repair (keelwright guilds)",
+    "saltworks and fish-curing for long voyages",
+    "navigational-augury services and pilotage",
+    "bonded warehousing and customs brokerage"
+  ],
+  "culture_adjustments": [
+    "ritualized launch and keel-binding ceremonies intensified",
+    "port-dialect mercantile argot more compressed and loanword-rich",
+    "stronger clan-led dock governance than elsewhere in state",
+    "guild-chartered secrecy in shipwright technical registers",
+    "market-day contract adjudication folded into public rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "piracy and privateering",
+    "salt-pan fires",
+    "ritual reagent shortages",
+    "port-borne epidemics"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "combustion-derived industry limited (no high-pressure steam megatech)",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "dock layout follows nine tidal berths tied to augury slots",
+    "launch-day markets double as contract courts and oath-places",
+    "keelwright registers contain guarded procedural charms for hull cures"
+  ],
+  "generated_at": "2025-09-09T04:08:40.289Z"
+}

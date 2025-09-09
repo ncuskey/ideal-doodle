@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_northern_estuary",
+  "checksum": "fnv1a_63d7b00c",
+  "name": "Northern Estuary",
+  "aliases": [
+    "North Estuary",
+    "Upper Estuary",
+    "Estuarine Headlands"
+  ],
+  "tags": [
+    "estuary",
+    "salt-flats",
+    "ship-repair",
+    "guild-harbor",
+    "rife-tides"
+  ],
+  "role_in_state": "Primary saltworks and repair harbor",
+  "economy_niches": [
+    "salt production & curing",
+    "shipbuilding & repair",
+    "fisheries & smokehouses",
+    "ritual-augury reagent marshes",
+    "coastal trade transshipment"
+  ],
+  "culture_adjustments": [
+    "Stronger tide-focused seasonal calendar",
+    "Guild magistrates dominate small harbors",
+    "Ancestor-sea rites more frequent and public",
+    "Practical conservatism toward augury reagents",
+    "Coastal Tongues dialect with riveric loanwords"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "salt marsh disease",
+    "guild conflicts",
+    "reagent scarcity"
+  ],
+  "constraints": [
+    "Limited inland grain — reliant on imports",
+    "Ritual magic consumes scarce imported reagents",
+    "No large-scale combustion industry permitted"
+  ],
+  "notes": [
+    "Critical node for coastal navigation calendar updates",
+    "Seasonal storms drive repair and curing demand",
+    "Major source of State_16's salt exports"
+  ],
+  "generated_at": "2025-09-09T04:05:14.295Z"
+}

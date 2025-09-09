@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_88ecc04d",
+  "burg_id": 301,
+  "name": "Burg_301",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-reagent depot",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-coven",
+    "coastal-smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm-disruption",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "annual tide-blessing festival",
+    "diet heavy on salted fish and seaweed",
+    "rituals depend on imported reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "state governance weak or undocumented",
+    "tech baseline near-medieval to early-industrial",
+    "port limited by seasonal storms"
+  ],
+  "generated_at": "2025-09-09T04:22:33.351Z"
+}

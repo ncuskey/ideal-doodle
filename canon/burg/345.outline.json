@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bfadb18d",
+  "burg_id": 345,
+  "name": "Burg_345",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-labour"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-component harvesting",
+    "waystation trade",
+    "smallcraft repair"
+  ],
+  "factions_local": [
+    "harbormaster's kin",
+    "ritual guild",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "bandit raids on night approaches",
+    "religious friction between cults"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "work cycles tied to tides and moon phases",
+    "salt-preserved dishes, seaweed use",
+    "superstitious about auguries and ship spirits"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no high-pressure steam megatechs",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "population unknown; functions as a resupply outpost",
+    "exposed to frequent storms that disrupt schedules"
+  ],
+  "generated_at": "2025-09-09T04:25:37.160Z"
+}

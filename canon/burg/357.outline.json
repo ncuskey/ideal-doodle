@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_51101933",
+  "burg_id": 357,
+  "name": "Burg_357",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "transit/waystation",
+    "ritual-supply depot",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual apothecaries",
+    "coastal militia",
+    "smugglers' circle"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "storm damage to quays",
+    "banditry on approach roads"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in everyday speech",
+    "ritual ship-blessing customs",
+    "diet heavy on salt-fermented fish",
+    "informal barter culture around ritual goods"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "sea-monster harassment",
+    "sacred relic theft"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "tech baseline: near-medieval to early industrial",
+    "navigational auguries used but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:26:23.111Z"
+}

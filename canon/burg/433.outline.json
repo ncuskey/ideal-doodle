@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6821ff45",
+  "burg_id": 433,
+  "name": "Burg_433",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trading",
+    "waystation",
+    "boat-maintenance"
+  ],
+  "factions_local": [
+    "Fisherfolk Guild",
+    "Apothecarists' Circle",
+    "Mariners' Lodge",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "coastal erosion",
+    "sporadic banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide-feast and ancestor offerings",
+    "salt-fermented fish cuisine",
+    "nets doubled as ritual charms"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "tide-omen unrest"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "limited combustion industry; no high-pressure steam"
+  ],
+  "notes": [
+    "State affiliation unknown",
+    "Population data unavailable",
+    "minor strategic coastal stop for shipping lanes"
+  ],
+  "generated_at": "2025-09-09T04:31:30.215Z"
+}

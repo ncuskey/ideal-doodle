@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7b519fe9",
+  "burg_id": 369,
+  "name": "Burg_369",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "fishing",
+    "waystation/landing",
+    "small ship maintenance"
+  ],
+  "factions_local": [
+    "merchant-guildlet",
+    "ritual-collective",
+    "shorewatch",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "economic precarity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "seafood-and-seaweed dietary staples",
+    "rituals tied to tides and seasonal visits of reagent traders"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual component",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind control rare/banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech with pervasive ritual trade",
+    "frontier outpost dependent on irregular reagent shipments"
+  ],
+  "generated_at": "2025-09-09T04:26:57.996Z"
+}

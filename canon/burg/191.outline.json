@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8dbe97a3",
+  "burg_id": 191,
+  "name": "Burg_191",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply depot",
+    "small market"
+  ],
+  "factions_local": [
+    "temple-keepers",
+    "traders' cell",
+    "harbor-watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "smuggling pressure"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant spoken",
+    "ancestor-veneration rituals prominent",
+    "salt-preserved seafood cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "lighthouse failure"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is banned/institutional taboo",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "population unknown; functions as a small resupply outpost",
+    "serves nearby routes and ritual supply lines"
+  ],
+  "generated_at": "2025-09-09T04:15:04.503Z"
+}

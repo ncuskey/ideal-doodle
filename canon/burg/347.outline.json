@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d99b5771",
+  "burg_id": 347,
+  "name": "Burg_347",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-processing",
+    "ritual-component trade",
+    "small-ship provisioning"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-keepers",
+    "coastal-clan elders",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "periodic storm damage",
+    "pirate raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks a Coastal Tongues dialect with Riveric loanwords",
+    "meals heavy on salted fish and fermented shellfish",
+    "harbor-front ancestor offerings before voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ships",
+    "ritual-supply shortage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:25:44.471Z"
+}

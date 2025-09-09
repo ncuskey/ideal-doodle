@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_269ea943",
+  "burg_id": 111,
+  "name": "Burg_111",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal-haven",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "coastal fishing",
+    "transshipment point"
+  ],
+  "factions_local": [
+    "shipmasters' guild",
+    "ritual-scribes",
+    "smuggling ring"
+  ],
+  "problems": [
+    "scarce reagents",
+    "banditry on approaches",
+    "corrupt customs"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "seafood-curing cuisine",
+    "strict reagent-handling taboos"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-raid",
+    "missing-ship"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "Population unknown; transient crews dominate",
+    "Small harbour with shallow approaches; navigational auguries supplement charts"
+  ],
+  "generated_at": "2025-09-09T04:10:01.970Z"
+}

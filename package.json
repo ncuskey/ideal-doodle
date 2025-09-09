@@ -9,6 +9,8 @@
     "canon:interstate:outline": "tsx src/pipelines/canonInterstateOutline.ts",
     "canon:state:outline": "tsx src/pipelines/canonStateOutline.ts",
     "canon:state:outline:one": "tsx src/pipelines/canonStateOutline.ts --id=",
+    "canon:province:outline": "tsx src/pipelines/canonProvinceOutline.ts",
+    "canon:burg:outline": "tsx src/pipelines/canonBurgOutline.ts",
 
     "facts:build": "tsx src/pipelines/buildFacts.ts",
     "facts:derive": "tsx src/pipelines/buildDerived.ts",

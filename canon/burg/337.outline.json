@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_23577353",
+  "burg_id": 337,
+  "name": "Burg_337",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-harbor",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent brokerage",
+    "boatbuilding",
+    "salt/fish curing",
+    "ritual services"
+  ],
+  "factions_local": [
+    "Harbormasters' Syndicate",
+    "Ancestor Circle",
+    "Tide-Pact Ritual House"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal flooding",
+    "smuggling gangs"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect variant dominant",
+    "ritualized trade etiquette governs transactions",
+    "cuisine centers on salted fish and river greens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "spirit placation"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magic",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Small river-mouth outpost serving inland trade routes",
+    "Population and formal state ties undocumented"
+  ],
+  "generated_at": "2025-09-09T04:25:01.249Z"
+}

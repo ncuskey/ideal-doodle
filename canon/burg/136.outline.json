@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_66ffcdc5",
+  "burg_id": 136,
+  "name": "Burg_136",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-ingredient-gathering",
+    "small-scale-fishing",
+    "waystation-trade"
+  ],
+  "factions_local": [
+    "sea-tide-priests",
+    "local-ritual-coven",
+    "itinerant-merchant-syndicate"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry-on-routes",
+    "supply-irregularity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "daily ritualized work practices",
+    "seafood-and-preserved-salt cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent-shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "no-true-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "population unknown; transient residents common",
+    "navigational-auguries used but charts required"
+  ],
+  "generated_at": "2025-09-09T04:11:29.560Z"
+}

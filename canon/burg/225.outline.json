@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_92bfdfe7",
+  "burg_id": 225,
+  "name": "Burg_225",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supplies",
+    "waystation"
+  ],
+  "factions_local": [
+    "merchant-captaincy",
+    "ritual-syndicate",
+    "shore-militia"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect heavy in nautical terms",
+    "salt-preserving cuisine; dried fish staples",
+    "local rituals keyed to tidal cycles"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "mysterious-vessel"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imports"
+  ],
+  "notes": [
+    "population unknown; transient crews and traders",
+    "minor coastal stop reliant on imported reagents"
+  ],
+  "generated_at": "2025-09-09T04:17:12.153Z"
+}

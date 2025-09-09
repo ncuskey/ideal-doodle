@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_saltwater_marshes",
+  "checksum": "fnv1a_b2a0fcf1",
+  "name": "Saltwater Marshes",
+  "aliases": [
+    "Marshward",
+    "Saltfen"
+  ],
+  "tags": [
+    "coastal",
+    "saltworks",
+    "fisheries",
+    "marsh",
+    "navigational-augury-node"
+  ],
+  "role_in_state": "Primary salt and fish supplier",
+  "economy_niches": [
+    "salt evaporation pans and refining",
+    "estuarine fisheries and smoked-fish exports",
+    "reedcrafts, thatch and levee timbers for shipyards",
+    "piloted tidal-channel transport and navigational-augury services"
+  ],
+  "culture_adjustments": [
+    "stronger Sea-Tide ritualism centered on tide-offerings and marsh-spirits",
+    "kinship organized around salt-worker households rather than inland clan hierarchies",
+    "port-dialect enriched with saltwork and reedcraft technical registers",
+    "practical adaptation to recurrent flooding reduces land-ownership ceremonialism"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "storm surge",
+    "brackish-water disease",
+    "smuggling and illicit transshipment",
+    "saltworkers' labor unrest"
+  ],
+  "constraints": [
+    "thin, saline soils — limited arable land",
+    "seasonal navigability for larger vessels",
+    "ritual magic dependent on scarce imported reagents",
+    "coastal erosion undermines long-term infrastructure"
+  ],
+  "notes": [
+    "saltworks bound by state contracts and tax levies",
+    "local augury workshops specialize in tide prediction for pans",
+    "reedbeds are strategic resources for levees and roofing"
+  ],
+  "generated_at": "2025-09-09T04:08:31.006Z"
+}

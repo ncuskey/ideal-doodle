@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9bcb92e7",
+  "burg_id": 157,
+  "name": "Burg_157",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Elder Tide-Remembrancers",
+    "Smugglers' Ring",
+    "Skiffowners' Collective"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "boat-wake ancestor rites",
+    "salt-preserved cuisine",
+    "driftwood talisman craft"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries supplement charts but don't replace seamanship",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "seasonal population flux",
+    "local waypoint for coastal traffic",
+    "limited arable land"
+  ],
+  "generated_at": "2025-09-09T04:12:49.546Z"
+}

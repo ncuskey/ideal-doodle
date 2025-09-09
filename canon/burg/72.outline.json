@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cefa5941",
+  "burg_id": 72,
+  "name": "Burg_72",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-transshipment",
+    "pilotage",
+    "lightkeeping"
+  ],
+  "factions_local": [
+    "Harbormasters' Guild",
+    "Ancestor Shrine Keepers",
+    "Coastal Militia",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling-led-corruption",
+    "storm-damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "diet heavy on salted fish and seaweed preserves",
+    "ritual offerings to tide before voyaging"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "shipwrecks"
+  ],
+  "constraints": [
+    "limited-ritual-reagents",
+    "no-long-range-mind-magic",
+    "combustion-industry-limited"
+  ],
+  "notes": [
+    "supplies arrive irregularly by coastal traders",
+    "navigational auguries used alongside charts",
+    "population fluxes with shipping season"
+  ],
+  "generated_at": "2025-09-09T04:36:38.694Z"
+}

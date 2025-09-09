@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_77383235",
+  "burg_id": 99,
+  "name": "Burg_99",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "crossroads"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "roadside inn",
+    "trade relay",
+    "reagent broker",
+    "ferry crossing"
+  ],
+  "factions_local": [
+    "ferrymen guild",
+    "itinerant ritualists",
+    "caravan masters"
+  ],
+  "problems": [
+    "supply scarcity",
+    "banditry",
+    "reagent smuggling"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric-Coastal dialect mix",
+    "hospitality rituals for travelers",
+    "diet: salted fish and barter breads"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "disappearances"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "state-level data unknown; pop≈n/a",
+    "strategic waypoint on minor trade route"
+  ],
+  "generated_at": "2025-09-09T04:38:20.673Z"
+}

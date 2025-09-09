@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_782b405",
+  "burg_id": 453,
+  "name": "Burg_453",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-hub",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river-trade",
+    "ritual-component production",
+    "fishing",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "river-guild",
+    "shrine-circle",
+    "merchant-clan",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry on river",
+    "seasonal-flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "ancestor-veneration customs",
+    "smoked-river-fish cuisine",
+    "tide-festival rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-heist",
+    "river-flood"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "population unknown",
+    "strategic river crossing with small ritual labs"
+  ],
+  "generated_at": "2025-09-09T04:33:23.879Z"
+}

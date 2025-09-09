@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b3c88383",
+  "burg_id": 201,
+  "name": "Burg_201",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-trade",
+    "provisioning",
+    "small-scale fishing",
+    "carting/transport"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritualist enclave",
+    "merchant family",
+    "elders' council"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "bandit raids on routes",
+    "corruption among dock officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with Riveric loanwords",
+    "ritual gift-exchange customs tied to trade",
+    "diet heavy on salted fish and kelp"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing shipments",
+    "ritual reagent theft"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; serves as small supply/relay point",
+    "near-medieval tech with localized ritual practices"
+  ],
+  "generated_at": "2025-09-09T04:15:41.931Z"
+}

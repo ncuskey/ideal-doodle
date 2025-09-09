@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_36638add",
+  "burg_id": 244,
+  "name": "Burg_244",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "fishing",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "shore-fishing",
+    "salt-harvest",
+    "ritual reagent depot",
+    "ferry waystation"
+  ],
+  "factions_local": [
+    "Temple-Pier guild",
+    "Boatwrights' cooperative",
+    "Smuggler coterie",
+    "Militia watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "supply delays"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with sea-metaphors",
+    "Diet heavy on salted fish and seaweed",
+    "Tide-blessing festivals tied to fishing seasons",
+    "Local craftwork: carved figureheads and nets"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind-influence is banned and rare",
+    "No instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "Small pier with a ruined beacon used for navigation auguries",
+    "Seasonal surge of travelers during tide-festivals"
+  ],
+  "generated_at": "2025-09-09T04:18:24.414Z"
+}

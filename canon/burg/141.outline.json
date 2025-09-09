@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1a198761",
+  "burg_id": 141,
+  "name": "Burg_141",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "fisher-haven",
+    "waystation"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbor-clan",
+    "merchant-brotherhood cell"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "harsh-weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "strict ritual etiquette around reagent trade",
+    "seafood-and-ferments local cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "strange-tide omens"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-reagents"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "navigational auguries exist but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:11:50.174Z"
+}

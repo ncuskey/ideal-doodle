@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_low_delta",
+  "checksum": "fnv1a_e75dfe72",
+  "name": "Low Delta",
+  "aliases": [
+    "The Delta",
+    "Lowmarch"
+  ],
+  "tags": [
+    "delta",
+    "saltworks",
+    "reagents",
+    "tidal-farms",
+    "ship-repair"
+  ],
+  "role_in_state": "tidal foodbelt, reagent landing & repair hub",
+  "economy_niches": [
+    "preserved seafood & curing houses",
+    "saltworks and brine-extraction",
+    "reagent import, storage, and repacking",
+    "shipbreaking and hull repairs on sheltered flats"
+  ],
+  "culture_adjustments": [
+    "stronger tide-calendar rituals tied to planting/catching cycles",
+    "guild courts dominate local dispute resolution over distant magistrates",
+    "practical syncretism: ancestor rites incorporate tide-omens",
+    "oral Coastal Tongues variants with many marine metaphors"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salt-water intrusion",
+    "disease from standing brine-pools",
+    "seasonal brigandry on tidal routes"
+  ],
+  "constraints": [
+    "limited heavy industry due to marshy ground",
+    "ritual magic consumes imported reagents (logistics constrained)"
+  ],
+  "notes": [
+    "navigation relies on local auguries plus tide-charts",
+    "guilds control reagent quotas and pier access"
+  ],
+  "generated_at": "2025-09-09T04:05:38.186Z"
+}

@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c2ad38ab",
+  "burg_id": 445,
+  "name": "Burg_445",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "trade-stop",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "merchant-guildlet",
+    "ritual-collectors",
+    "local-militia"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-lines"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "ritual-craft traditions",
+    "salt-preserved cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "scarce-reagents",
+    "missing-merchant"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents; long-range mind influence rare/banned"
+  ],
+  "notes": [
+    "population unknown; records sparse",
+    "strategic minor stop for regional travel"
+  ],
+  "generated_at": "2025-09-09T04:32:19.821Z"
+}

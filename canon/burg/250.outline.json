@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_65a99dd7",
+  "burg_id": 250,
+  "name": "Burg_250",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-hub",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-trade",
+    "fishing",
+    "coastal-waypoint",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Sea-Tide shrine",
+    "Merchant Brotherhood agents",
+    "Fishermen's coop",
+    "Reagent brokers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling conflicts",
+    "supply delays"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "strong seafaring superstitions",
+    "preserved fish and seaweed staples",
+    "ritual etiquette tied to trade deals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigational auguries present but limited",
+    "positioned on minor channel or reef for waystation role"
+  ],
+  "generated_at": "2025-09-09T04:18:59.199Z"
+}

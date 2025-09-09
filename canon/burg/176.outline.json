@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8a5dc395",
+  "burg_id": 176,
+  "name": "Burg_176",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-labour depot",
+    "fishing support",
+    "waystation trade"
+  ],
+  "factions_local": [
+    "ritual-guild cell",
+    "harbor cooperative",
+    "itinerant merchants"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "supply isolation",
+    "coastal erosion"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "sea-oriented cuisine (dried fish, kelp)",
+    "ritual calendar tied to tides"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ritualist"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents or specialist local labor",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "population data unavailable; transient and small",
+    "serves as resupply point on coastal routes"
+  ],
+  "generated_at": "2025-09-09T04:14:01.258Z"
+}

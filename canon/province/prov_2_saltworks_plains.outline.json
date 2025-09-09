@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_saltworks_plains",
+  "checksum": "fnv1a_e7cd4664",
+  "name": "Saltworks Plains",
+  "aliases": [
+    "Salt Flats",
+    "Plains of Brine"
+  ],
+  "tags": [
+    "saltworks",
+    "coastal-plain",
+    "reagent-hub",
+    "guild-dominated"
+  ],
+  "role_in_state": "Primary salt & reagent production hub",
+  "economy_niches": [
+    "Salt extraction and processing",
+    "Salted seafood curing and preservation",
+    "Reagent refining, repackaging and export",
+    "Salt caravan logistics and storage"
+  ],
+  "culture_adjustments": [
+    "Guilds control land allotment and labor rotations",
+    "Tide-calendar adapted to evaporation and harvest cycles",
+    "Brine-harvesting rituals more elaborate than coastal rites",
+    "Practical flood-avoidance folkways over seafaring lore"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "soil salinization",
+    "banditry on salt caravans",
+    "guild monopolies / disputes"
+  ],
+  "constraints": [
+    "Ritual magic depends on scarce imported reagents",
+    "Limited freshwater restricts urban growth",
+    "No heavy industrialization (tech constraint)"
+  ],
+  "notes": [
+    "Key node in state reagent trade chain",
+    "Saltworks guilds wield quasi-legal authority",
+    "Landscape shifts rapidly after storm surges"
+  ],
+  "generated_at": "2025-09-09T04:05:51.676Z"
+}

@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9abca68d",
+  "burg_id": 376,
+  "name": "Burg_376",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "reagent-trade",
+    "waystation/transit"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor-Remembrance Circle",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "scarcity-of-ritual-reagents",
+    "bandit/brigand raids",
+    "deteriorating-piers"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "dialect: Coastal Tongues variant",
+    "custom: offerings before voyages",
+    "cuisine: salted fish, seaweed preserves"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-heist",
+    "haunted-shore"
+  ],
+  "constraints": [
+    "ritual-magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "population data unavailable; small/transient community"
+  ],
+  "generated_at": "2025-09-09T04:27:30.960Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_798014d5",
+  "burg_id": 323,
+  "name": "Burg_323",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river ferry/waystation",
+    "ritual-reagent brokerage",
+    "inn/tavern",
+    "small boat repair"
+  ],
+  "factions_local": [
+    "Ferrymen's Co-op",
+    "Reagent Brokers' Ring",
+    "Ancestor-Priest Circle"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling clashes",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialect",
+    "river-offering customs at current-turning",
+    "diet heavy on salted/smoked fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ferryman",
+    "stolen ritual reagent"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence institutionally banned"
+  ],
+  "notes": [
+    "state affiliation unclear",
+    "seasonal population spikes with reagent caravans"
+  ],
+  "generated_at": "2025-09-09T04:24:03.421Z"
+}

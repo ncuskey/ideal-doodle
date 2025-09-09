@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d569fbcf",
+  "burg_id": 427,
+  "name": "Burg_427",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "small-scale fishing",
+    "waystation harbor",
+    "boat repair & netting"
+  ],
+  "factions_local": [
+    "Harbormaster's Office",
+    "Reagent Broker",
+    "Tide-Temple Circle",
+    "Boatwrights' Cooperative"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "bandit raids",
+    "tax extortion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant spoken",
+    "tide-based ritual calendar",
+    "diet: fish, preserved seaweed, salted goods",
+    "crafts: netting, small-boat carpentry"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "navigation auguries exist but don't replace charts/seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual labs common; reagent trade vital",
+    "combustion industry limited"
+  ],
+  "generated_at": "2025-09-09T04:30:53.786Z"
+}

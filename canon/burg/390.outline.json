@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2662e28d",
+  "burg_id": 390,
+  "name": "Burg_390",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation services",
+    "ritual reagent trade",
+    "coastal fishing",
+    "charcoal/woodcraft"
+  ],
+  "factions_local": [
+    "merchant guild",
+    "ritualists' enclave",
+    "harbormasters",
+    "smuggler ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on approaches",
+    "harbor siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues primary; Island Creole influences",
+    "salt-preserved fish staples",
+    "ritualized harbor oaths before voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "shallow harbor limits ship size",
+    "seasonal fogs disrupt navigational auguries"
+  ],
+  "generated_at": "2025-09-09T04:28:22.489Z"
+}

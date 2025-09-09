@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_89bdfd83",
+  "burg_id": 159,
+  "name": "Burg_159",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-gathering",
+    "waypoint-provisioning",
+    "small-scale-trade"
+  ],
+  "factions_local": [
+    "harbor-wardens",
+    "ritual-smiths",
+    "skiff-smugglers",
+    "elders-council"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "seasonal-storms",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "sea-protein-heavy cuisine",
+    "ritual tattoos for seafaring rites",
+    "night-fishing customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-skiff"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned/rare",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "near-coast waypoint; charts required",
+    "limited population data"
+  ],
+  "generated_at": "2025-09-09T04:12:52.723Z"
+}

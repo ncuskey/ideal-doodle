@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7a8ee5ed",
+  "burg_id": 255,
+  "name": "Burg_255",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "boat maintenance"
+  ],
+  "factions_local": [
+    "Fishermen's Knot (guild)",
+    "Tide-Shrine Circle",
+    "Coastal Smugglers"
+  ],
+  "problems": [
+    "isolation",
+    "reagent scarcity",
+    "smuggling pressure"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "diet of salted fish and seaweed",
+    "regular tide-offering ceremonies",
+    "boatwright and net-mending traditions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing pilgrim",
+    "reagent shortage"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "long-range mind influence banned locally"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline; limited combustion industry",
+    "navigational auguries supplement but do not replace charts and seamanship"
+  ],
+  "generated_at": "2025-09-09T04:19:13.387Z"
+}

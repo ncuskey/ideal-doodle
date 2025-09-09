@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_578e255d",
+  "burg_id": 280,
+  "name": "Burg_280",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "reagent-trade",
+    "waystation-services"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ancestor-priests",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "seasonal-supply-constraints"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-blessing rituals common",
+    "diet: salted fish, seaweed, preserved goods"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-heist",
+    "disappearing-fishermen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-reagents"
+  ],
+  "notes": [
+    "navigational waystation near hazardous shoals",
+    "population swells seasonally with traders and ritualists"
+  ],
+  "generated_at": "2025-09-09T04:21:00.943Z"
+}

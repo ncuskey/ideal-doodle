@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_641b4d43",
+  "burg_id": 180,
+  "name": "Burg_180",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-lab",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "provisioning",
+    "reagent-trade",
+    "pilgrim-supply",
+    "coastal-smuggling"
+  ],
+  "factions_local": [
+    "harbor-masters",
+    "reagent-merchants",
+    "pilgrim-guild",
+    "coastal-watch"
+  ],
+  "problems": [
+    "reagent-shortages",
+    "banditry",
+    "smuggling",
+    "scarcity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "salted fish and seaweed staples",
+    "pilgrim hospitality rituals at waystations",
+    "night-market barter customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-pilgrim"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "small harbor and ritual-supply node on coastal route",
+    "limited combustion industry; local crafts and ritual services dominate"
+  ],
+  "generated_at": "2025-09-09T04:14:17.592Z"
+}

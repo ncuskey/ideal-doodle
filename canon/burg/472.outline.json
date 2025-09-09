@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f99eff4f",
+  "burg_id": 472,
+  "name": "Burg_472",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "waypoint"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent trading",
+    "pilotage/guide services",
+    "ship repair"
+  ],
+  "factions_local": [
+    "Harbormasters' Guild",
+    "Ancestor-Keepers (local shrine)",
+    "Pilots' Syndicate",
+    "Smugglers' Ring (informal)"
+  ],
+  "problems": [
+    "scarce imported ritual reagents",
+    "storm damage and flood risk",
+    "banditry/smuggling pressure",
+    "isolation from major markets"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks a Coastal Tongues dialect with Riveric loanwords",
+    "regular sea-blessing rituals and tide festivals",
+    "diet centered on salted fish, seaweed, and preserved goods",
+    "stilted/raised wooden architecture to resist floods"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "missing pilot/guide"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "population unknown; functions chiefly as a maritime waypoint",
+    "strategic for small-ship coastal routes between islands"
+  ],
+  "generated_at": "2025-09-09T04:34:22.659Z"
+}

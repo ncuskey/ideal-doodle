@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f82a686d",
+  "burg_id": 208,
+  "name": "Burg_208",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual-workshops (reagent services)",
+    "provisioning/waystation",
+    "light ship repair"
+  ],
+  "factions_local": [
+    "Sea-Tide shrine keepers",
+    "Saltworkers/boatwrights guild",
+    "Loose smuggling crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "supply intermittency",
+    "storm damage vulnerability"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole dialect with Coastal Tongue loanwords",
+    "tide-offering customs and nightly lamp processions",
+    "diet: salted/fermented fish, tubers; communal hull-feasts"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagents",
+    "failed tide-ritual"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no resurrection/true life-replacement magic"
+  ],
+  "notes": [
+    "population unknown; relies on irregular supply runs",
+    "navigational augury used but charts and seamanship remain essential"
+  ],
+  "generated_at": "2025-09-09T04:16:01.666Z"
+}

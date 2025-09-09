@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1bf85153",
+  "burg_id": 342,
+  "name": "Burg_342",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply",
+    "waypoint"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply trade",
+    "lightship services",
+    "salvage"
+  ],
+  "factions_local": [
+    "Tide-Mothers Circle",
+    "Mariners' Lodge",
+    "Salvage Guild",
+    "Smugglers' Cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "frequent shipwrecks",
+    "smuggling",
+    "local corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "seaweed-and-shellfish cuisine",
+    "annual tide-festival",
+    "stilted dwellings and boardwalks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no_instant_resurrection",
+    "rituals_consume_imported_reagents",
+    "limited_combustion_industry"
+  ],
+  "notes": [
+    "strategic waypoint for island routes",
+    "small permanent population; seasonal influx of ritual pilgrims and salvagers"
+  ],
+  "generated_at": "2025-09-09T04:25:21.699Z"
+}

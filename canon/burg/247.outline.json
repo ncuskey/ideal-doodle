@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3d56aa43",
+  "burg_id": 247,
+  "name": "Burg_247",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "pilotage/steersmen",
+    "reagent brokerage",
+    "salt-curing",
+    "waystation services"
+  ],
+  "factions_local": [
+    "Harbormaster's Hold",
+    "Ritualist Lodge",
+    "Pilot Guild",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "seasonal storms",
+    "smuggling pressure"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in speech",
+    "boat-centered daily life and festivals",
+    "salt-preserved seafood staple",
+    "ancestor-veneration for lost sailors"
+  ],
+  "quest_hook_slots": [
+    "missing pilots",
+    "reagent smuggling",
+    "ominous ancestral omen"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval to early industrial tech with limited combustion industry",
+    "Navigational auguries exist but don't replace charts/seamanship"
+  ],
+  "generated_at": "2025-09-09T04:18:38.748Z"
+}

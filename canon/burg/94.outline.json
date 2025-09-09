@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8f4ef6d5",
+  "burg_id": 94,
+  "name": "Burg_94",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent processing",
+    "waypoint trade",
+    "boatbuilding"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritual Circle",
+    "Merchant Brokers",
+    "Clan Elders"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "salt-preserved fish staples",
+    "visible tide-rituals tied to harbor safety",
+    "strong boatcraft and haulage customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "tide-omen"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "long-range mind influence is rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "navigational auguries exist but don't replace charts and seamanship",
+    "tech baseline near-medieval to early industrial; limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:38:02.006Z"
+}

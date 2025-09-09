@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_aba144a9",
+  "burg_id": 440,
+  "name": "Burg_440",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supplier",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-fishing",
+    "provisioning",
+    "reagent-trade",
+    "smuggling"
+  ],
+  "factions_local": [
+    "harborwatch",
+    "reagent-merchants",
+    "shore-priests",
+    "privateers"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "supply-disruption",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "formal ritual etiquette around reagent handling",
+    "seafood-focused cuisine with fermented condiments"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-shipment",
+    "ritual-accident"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Population unknown; transient crews dominate",
+    "Navigational auguries used but cannot replace charts and seamanship"
+  ],
+  "generated_at": "2025-09-09T04:31:55.710Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_23d26717",
+  "burg_id": 173,
+  "name": "Burg_173",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "riverine",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river-landing",
+    "ritual-supply",
+    "fishing"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "ritual-kinship",
+    "smuggling crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect speakers",
+    "salt-preserved cuisine",
+    "boat-festival rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearing cargo"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents; long-range mind influence rare/banned"
+  ],
+  "notes": [
+    "navigational auguries used but do not replace charts",
+    "port dependent on seasonal trade; reagent arrivals irregular"
+  ],
+  "generated_at": "2025-09-09T04:13:52.148Z"
+}

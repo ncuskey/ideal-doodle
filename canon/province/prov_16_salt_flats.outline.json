@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_salt_flats",
+  "checksum": "fnv1a_68b2e930",
+  "name": "Salt Flats",
+  "aliases": [
+    "Saltworks",
+    "Dry Pans"
+  ],
+  "tags": [
+    "salt-production",
+    "tidal-pans",
+    "provisioning"
+  ],
+  "role_in_state": "Primary salt supplier and coastal provisioning hub",
+  "economy_niches": [
+    "evaporative salt harvesting for curing and trade",
+    "salt-curing workshops supplying fisheries",
+    "reagent-grade brine concentrate for ritual auguries",
+    "seasonal caravan & flotilla exports",
+    "ship-provisioning (salted stores, preservatives)"
+  ],
+  "culture_adjustments": [
+    "rigorous seasonal labor cycles tied to tides and sun-calendar",
+    "strong pan-guild control over access and harvest rights",
+    "sparse, utilitarian settlements with communal processing yards",
+    "heightened ancestor-sea rites focused on preservation and patience"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge inundation",
+    "salt-laden dust storms",
+    "banditry during harvest seasons",
+    "over-salinization of adjacent farmland"
+  ],
+  "constraints": [
+    "short, predictable harvest window tied to dry season",
+    "reliance on imported reagents and fuel for some processing",
+    "limited freshwater — habitation concentrated around wells"
+  ],
+  "notes": [
+    "Guilds regulate access; disputes disrupt statewide salt supply",
+    "Strategic for provisioning long voyages and curing fisheries",
+    "Ritual magic there favors preservative and augury rites"
+  ],
+  "generated_at": "2025-09-09T04:05:29.229Z"
+}

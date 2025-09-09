@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_727c6753",
+  "burg_id": 384,
+  "name": "Burg_384",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-workshop",
+    "supply-station",
+    "waystation-trade"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "trader-merchant-cohort",
+    "local-council"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "uses Coastal Tongues dialect",
+    "ancestor-veneration customs",
+    "salt-preserved seafood common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-run",
+    "disappearances"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-reagents"
+  ],
+  "notes": [
+    "population unknown",
+    "near-medieval to early-industrial tech with local ritual magic"
+  ],
+  "generated_at": "2025-09-09T04:28:04.134Z"
+}

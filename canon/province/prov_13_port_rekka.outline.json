@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_port_rekka",
+  "checksum": "fnv1a_28a85e9d",
+  "name": "Port Rekka",
+  "aliases": [
+    "Rekka Harbor",
+    "Ember Quay"
+  ],
+  "tags": [
+    "coastal",
+    "port",
+    "shipyard",
+    "saltworks",
+    "trade-hub"
+  ],
+  "role_in_state": "primary seaport, shipbuilding and reagent transshipment hub",
+  "economy_niches": [
+    "shipbuilding and repair",
+    "fisheries and preserved fish exports",
+    "saltworks and brine processing",
+    "transshipment of imported ritual reagents",
+    "chartcraft, rope- and sailmaking guilds"
+  ],
+  "culture_adjustments": [
+    "stronger guild authority and court customs than inland towns",
+    "crew-identity often supersedes kin-clan obligations",
+    "higher tolerance for foreign crews and Island Creole lingua franca",
+    "ritual navigation practices visible in daily work (portable auguries)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "piracy",
+    "shipyard fire",
+    "reagent-supply interruption"
+  ],
+  "constraints": [
+    "limited heavy combustion industry (no high-pressure steam works)",
+    "ritual magic dependent on scarce imported reagents",
+    "harbour expansion constrained by reefs and tidal channels"
+  ],
+  "notes": [
+    "key transshipment point for state-wide ritual reagents",
+    "guilds control berth allocation and chart-licensing",
+    "seasonal monsoon windows restrict safe sailings"
+  ],
+  "generated_at": "2025-09-09T04:03:48.945Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6c535f55",
+  "burg_id": 378,
+  "name": "Burg_378",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-trade",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-depot",
+    "harbor-waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "reagent-merchant-house",
+    "local-militia"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "isolation",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "seafood-heavy cuisine with ritual offerings",
+    "strong taboos around salvaged items"
+  ],
+  "quest_hook_slots": [
+    "missing-reagent-shipment",
+    "ritual-backlash",
+    "smuggling-ring"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline with ritual magic consuming imported reagents",
+    "navigational-auguries exist but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:27:35.735Z"
+}

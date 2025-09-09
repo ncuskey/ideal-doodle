@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_shipwright_quarter",
+  "checksum": "fnv1a_f67a4bac",
+  "name": "Shipwright Quarter",
+  "aliases": [
+    "The Yards",
+    "Keelbank",
+    "Cordage Lane"
+  ],
+  "tags": [
+    "shipbuilding",
+    "guild-district",
+    "harbor-adjacent",
+    "maritime-industry",
+    "ritual-treatments"
+  ],
+  "role_in_state": "Primary shipbuilding and maritime outfitting district",
+  "economy_niches": [
+    "Hull construction and repairs",
+    "Sailmaking and cordage workshops",
+    "Artisan fittings and smithing for vessels",
+    "Reagent harvesting and preparation for hull-preserving rituals",
+    "Charter brokers and provisioning agents"
+  ],
+  "culture_adjustments": [
+    "Guild hierarchy and apprenticeship overtly shape daily life and legal standing",
+    "Work rhythm tied to tide-calendar more strictly than state norm",
+    "Rituals integrated into build process; material-magic pragmatism over doctrinal display",
+    "Stronger contractual language and notarized oral pledges than rural coastal areas"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "fire-hazard",
+    "storm-driven-damage",
+    "dock-collapse",
+    "guild-feud/strikes",
+    "smuggling/contraband"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Waterfront space and slipways are highly constrained",
+    "Guild regulations limit rapid industrial expansion"
+  ],
+  "notes": [
+    "Seasonal tide festivals mark fleet delivery and apprentice elevation",
+    "Apprenticeship networks supply skilled labor across state fleets"
+  ],
+  "generated_at": "2025-09-09T04:07:22.664Z"
+}

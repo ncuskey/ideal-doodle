@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d10a8b5b",
+  "burg_id": 135,
+  "name": "Burg_135",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "transshipment",
+    "ritual-supplies",
+    "small-scale shiprepair"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Tide-Mystics (local shrine)",
+    "Dockside Cutters (smugglers)",
+    "Merchant Agents"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and lawlessness",
+    "seasonal storms",
+    "disease outbreaks"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "salt-cured seafood staples",
+    "tide-festivals with small ritual offerings",
+    "strict barter etiquette at docks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual-failure"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Rituals consume scarce imported reagents; economy tied to supply lines",
+    "Long-range mind-influence rare and institutionally banned"
+  ],
+  "notes": [
+    "small population, seasonal trade",
+    "limited freshwater sources",
+    "serves as coastal stop between larger ports"
+  ],
+  "generated_at": "2025-09-09T04:11:31.374Z"
+}

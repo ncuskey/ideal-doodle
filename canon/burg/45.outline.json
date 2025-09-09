@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_681f4eb1",
+  "burg_id": 45,
+  "name": "Burg_45",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent brokerage",
+    "waystation for coastal traffic",
+    "small-scale fishing",
+    "smuggling transits"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent Syndicate",
+    "Pilgrim House"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry on approach roads",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "harbor ancestor rites are common",
+    "diet: salted fish, seaweed, spice stews",
+    "ritual barter etiquette governs major trades"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ancestral omen"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts or seamanship",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "combustion industry limited; ritual labs central"
+  ],
+  "generated_at": "2025-09-09T04:32:40.820Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9663f6d3",
+  "burg_id": 397,
+  "name": "Burg_397",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent_supply",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbormaster_cabinet",
+    "ritual_reagent_traders",
+    "skiff_crews"
+  ],
+  "problems": [
+    "reagent_scarcity",
+    "banditry",
+    "supply_isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal dialect mix (Coastal Tongues/Island Creole)",
+    "tide-based ritual calendar",
+    "seafood-centered cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing_reagents",
+    "shipwreck_salvage"
+  ],
+  "constraints": [
+    "no_instant_resurrection",
+    "limited_combustion_industry",
+    "rituals_require_imported_reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but charts required"
+  ],
+  "generated_at": "2025-09-09T04:28:47.318Z"
+}

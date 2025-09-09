@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_62e40c8d",
+  "burg_id": 354,
+  "name": "Burg_354",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-node",
+    "market-crossing"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ferrying & tolls",
+    "smoked-fish curing",
+    "ritual-supply trade",
+    "seasonal market"
+  ],
+  "factions_local": [
+    "Ferriesmen's Syndicate",
+    "Shrine Coterie",
+    "Market Stewards",
+    "Riverwatch"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit raids on ferries",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Speaks Riveric Dialect with Coastal loanwords",
+    "River funerary rites and tide-timed markets",
+    "Diet focused on smoked fish and reed-breads",
+    "Communal ritual-labor guilds organize key services"
+  ],
+  "quest_hook_slots": [
+    "stolen reagents",
+    "ferryman disappearance",
+    "festival sabotage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries supplemental only"
+  ],
+  "notes": [
+    "Tech: near-medieval to early-industrial; limited combustion industry",
+    "State governance unknown — likely semi-autonomous river precinct"
+  ],
+  "generated_at": "2025-09-09T04:26:07.621Z"
+}

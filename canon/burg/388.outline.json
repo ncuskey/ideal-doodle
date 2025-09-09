@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_73805e23",
+  "burg_id": 388,
+  "name": "Burg_388",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-shrine",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation services",
+    "altar maintenance",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "shrine custodians",
+    "shipmasters' cohort",
+    "coastal clan elders",
+    "smugglers"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "banditry on approach",
+    "religious friction"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "sea-based festivals and offerings",
+    "diet: preserved fish, kelp, fermented shellfish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual failure",
+    "missing fisherfolk"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "long-range mind influence is rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "tech baseline: near-medieval with pervasive localized ritual craft",
+    "local authority loose; state affiliation unknown"
+  ],
+  "generated_at": "2025-09-09T04:28:16.527Z"
+}

@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_77f68fd",
+  "burg_id": 439,
+  "name": "Gullbridge Outpost",
+  "state_id": 0,
+  "province_id": "prov_unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "smuggling waystation",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Harbor Crier Guild",
+    "Reagent Syndicate",
+    "Ancestor Shrine Wardens"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling competition",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced speech",
+    "seaweed-and-shellfish cuisine",
+    "kinship tied to boat crews",
+    "small ritual shrines at piers"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual failure"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries exist but cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "strategic waypoint on a coastal route",
+    "supplies arrive irregularly by small coasters"
+  ],
+  "generated_at": "2025-09-09T04:31:55.405Z"
+}

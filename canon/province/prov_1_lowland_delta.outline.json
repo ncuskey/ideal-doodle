@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_lowland_delta",
+  "checksum": "fnv1a_b20b06b3",
+  "name": "Lowland Delta",
+  "aliases": [
+    "The Delta",
+    "Siltmarches"
+  ],
+  "tags": [
+    "delta",
+    "estuary",
+    "transshipment",
+    "tidal-marsh"
+  ],
+  "role_in_state": "Primary transshipment node and tidal-augury service hub",
+  "economy_niches": [
+    "Shallow-draft shipbuilding and repair",
+    "Longshore transshipment and cargo sorting",
+    "Salt and cured-fish processing",
+    "Reedcrafts, rope and thatch production",
+    "Tidal ritual-augury for pilots and cargo"
+  ],
+  "culture_adjustments": [
+    "Stronger tide-focused folklore and daily rites than inland ports",
+    "Boat-folk kinship networks override formal guild hierarchy",
+    "Gift-exchange emphasizes offerings to currents and pilots",
+    "Oral port-laws codified locally by tide-wardens",
+    "Seasonal migration between marsh camps and urban piers"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "channel-shift",
+    "marsh-fever",
+    "smuggling",
+    "embankment-collapse"
+  ],
+  "constraints": [
+    "Shifting silt limits deep-hull construction",
+    "Ritual magic dependent on delayed imported reagents",
+    "Little arable land — food supply relies on imports",
+    "Navigational auguries unreliable where channels rework seasonally"
+  ],
+  "notes": [
+    "Key node for imported reagent commerce to state guilds",
+    "Communal maintenance of embankments tied to ritual calendars",
+    "Guild oversight often negotiated with boat-folk councils"
+  ],
+  "generated_at": "2025-09-09T04:39:37.028Z"
+}

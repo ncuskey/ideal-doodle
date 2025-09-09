@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_70e00d2f",
+  "burg_id": 319,
+  "name": "Burg_319",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "Fishing",
+    "Reagent trading",
+    "Waystation for coasters",
+    "Ship salvage/repair"
+  ],
+  "factions_local": [
+    "Harbormasters' Council",
+    "Reagent Merchants",
+    "Ancestor-Wake Circle",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "Scarcity of imported ritual reagents",
+    "Smuggling and law evasion",
+    "Storm damage to landings"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect predominant",
+    "Communal wake-feasts for lost sailors",
+    "Diet heavy on salted fish, kelp and preserved shellfish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "sea-omen"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is locally banned"
+  ],
+  "notes": [
+    "Population unknown; mapped as an outpost waystation",
+    "Navigational auguries used but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:23:49.228Z"
+}

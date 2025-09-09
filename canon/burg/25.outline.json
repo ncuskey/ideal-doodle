@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4dc1e331",
+  "burg_id": 25,
+  "name": "Burg_25",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "harbor",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-components trade",
+    "waystation for coastal craft",
+    "smuggling/transit"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-supplier guild",
+    "smuggler-clan",
+    "elders' council"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "banditry on supply routes",
+    "corruption among port officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-tinged coastal dialect",
+    "tide offerings and small ancestor shrines",
+    "diet: salt-preserved fish and seaweed",
+    "local navigational augury rituals common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ancestor unrest/haunting"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigation still requires charts and seamanship"
+  ],
+  "generated_at": "2025-09-09T04:18:45.714Z"
+}

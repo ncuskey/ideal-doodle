@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_767c6d6d",
+  "burg_id": 237,
+  "name": "Burg_237",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "reagent-depot",
+    "fishing",
+    "waystation",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "waters-mouth guild",
+    "ritual-collectors circle",
+    "harbor-watch"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "coastal-erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect prevalent",
+    "sea-salted cuisine, fermented fish staples",
+    "strong lineage-offering customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "sea disappearances"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "minor waypoint on coastal trade routes",
+    "near tidal estuary, boats essential"
+  ],
+  "generated_at": "2025-09-09T04:17:57.993Z"
+}

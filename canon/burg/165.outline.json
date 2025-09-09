@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_34090475",
+  "burg_id": 165,
+  "name": "Burg_165",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "crossroads-market",
+    "ritual-supply",
+    "herbal-trade"
+  ],
+  "factions_local": [
+    "Merchant Brotherhood",
+    "Ancestor Shrine Wardens",
+    "Militia Council"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "militia infighting"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "ritual offerings tied to salted seafood",
+    "commerce mixes coin and barter"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown; transient travelers common",
+    "strategic minor waypoint for regional trade"
+  ],
+  "generated_at": "2025-09-09T04:13:27.212Z"
+}

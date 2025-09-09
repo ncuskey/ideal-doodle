@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_45072115",
+  "burg_id": 363,
+  "name": "Burg_363",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "ritual-labor",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply",
+    "fishing",
+    "waystation-trade"
+  ],
+  "factions_local": [
+    "lab-guild",
+    "harbourers",
+    "coastal-clans"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "seafaring customs",
+    "fish-centered cuisine",
+    "ritualized trade etiquette"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supply shortage",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries exist but don't replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:26:40.741Z"
+}

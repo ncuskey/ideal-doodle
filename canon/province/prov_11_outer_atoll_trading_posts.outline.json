@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_outer_atoll_trading_posts",
+  "checksum": "fnv1a_3cd6a43a",
+  "name": "Outer Atoll Trading Posts",
+  "aliases": [
+    "Outer Atoll",
+    "Atoll Posts"
+  ],
+  "tags": [
+    "maritime",
+    "atoll",
+    "transshipment",
+    "saltworks",
+    "augury-hubs"
+  ],
+  "role_in_state": "Peripheral transshipment and provisioning ring",
+  "economy_niches": [
+    "Light craft shipbuilding and reef repair",
+    "Salt-curing and dried-provisions processing",
+    "Transshipment and coastal convoy provisioning",
+    "Navigational-augury lodges and chart brokerage",
+    "Storage and resale of imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "Stronger Island Creole and Riveric loan-words in dockside argot",
+    "More fluid patronage: crews and seasonal captains dilute strict patriliny",
+    "Tide-based timekeeping adapted for reef-harvest cycles",
+    "Practical multilingual literacy concentrated in stevedores and augurs",
+    "Ancestor rites combine ship-offerings with quick-market memorials"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "reef-grounding",
+    "piracy",
+    "supply-chain-interruption",
+    "water-scarcity"
+  ],
+  "constraints": [
+    "Scarce freshwater limits permanent population",
+    "Ritual reagents expensive and controlled by mainland guilds",
+    "No heavy or high-pressure industry on fragile atolls"
+  ],
+  "notes": [
+    "Key relay points for long-distance convoys and augury updates",
+    "Seasonal population flux — market booms during monsoon windows",
+    "Strategic choke points for state trade; lightly garrisoned"
+  ],
+  "generated_at": "2025-09-09T04:03:12.295Z"
+}

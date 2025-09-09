@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_573ad08d",
+  "burg_id": 116,
+  "name": "Burg_116",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "ritual-supply",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "small-scale fishing",
+    "transit/waystation"
+  ],
+  "factions_local": [
+    "Reagent Merchants' Syndicate",
+    "Tide-Seers (animist)",
+    "Harbormaster's House"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry on supply routes",
+    "ritual theft/sabotage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "salt-curing and seaweed cuisine",
+    "strong tide superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "missing sailors"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "combustion industry limited"
+  ],
+  "notes": [
+    "population unknown; functions as coastal ritual-supply outpost",
+    "navigational auguries used but local charts and seamanship essential"
+  ],
+  "generated_at": "2025-09-09T04:10:22.718Z"
+}

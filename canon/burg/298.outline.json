@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c48a2daf",
+  "burg_id": 298,
+  "name": "Burg_298",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagents",
+    "waystation"
+  ],
+  "factions_local": [
+    "Dockworkers' Guild",
+    "Tide-Ritualists",
+    "Skiff-Masters",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "hazardous shoals"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Island Creole with Coastal Tongue influences",
+    "strong tide-rituals and ancestor observances",
+    "diet: salted fish, seaweed stews, fermented brews"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing lighthouse keeper",
+    "reagent heist"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "navigational auguries cannot replace charts and seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "generated_at": "2025-09-09T04:22:28.437Z"
+}

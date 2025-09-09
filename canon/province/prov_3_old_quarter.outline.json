@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_old_quarter",
+  "checksum": "fnv1a_d5b51278",
+  "name": "Old Quarter",
+  "aliases": [
+    "Old Town",
+    "Quarter of the Keels"
+  ],
+  "tags": [
+    "urban",
+    "historic",
+    "harbor",
+    "guild-hub"
+  ],
+  "role_in_state": "historic mercantile and ritual core",
+  "economy_niches": [
+    "archival and charter brokers",
+    "augury houses and relic shops",
+    "longshore logistics and lighterage",
+    "taverns and lodging for mariners",
+    "specialist repair yards and apprenticeships"
+  ],
+  "culture_adjustments": [
+    "older Coastal Tongues dialect and conservative social codes",
+    "strong guild patronage; apprenticeship precedence over innovation",
+    "ancestor-shrine rites woven into commercial contracts and leases",
+    "market pidgin concentrated here; multilingual brokers dominate"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "fire_hazard",
+    "storm_surge_flooding",
+    "disease_outbreaks",
+    "smuggling_and_organized_theft"
+  ],
+  "constraints": [
+    "limited open land; vertical expansion restricted by heritage guild statutes",
+    "ritual services constrained by costly imported reagents",
+    "guild-monopolies restrict new commercial entrants"
+  ],
+  "notes": [
+    "foundational quarter of State_3's port; many charter archives kept here",
+    "labyrinthine streets hinder wheeled traffic; goods often transshipped by hand or boat",
+    "patronage networks and guild tribunals commonly resolve disputes"
+  ],
+  "generated_at": "2025-09-09T04:06:10.017Z"
+}

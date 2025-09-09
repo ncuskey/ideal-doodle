@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_602a2bed",
+  "burg_id": 239,
+  "name": "Burg_239",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "small",
+  "economy_roles": [
+    "waystation for regional trade",
+    "reagent brokerage (ritual supplies)",
+    "subsistence farming",
+    "artisan workshops"
+  ],
+  "factions_local": [
+    "merchant family syndicate",
+    "temple circle (ancestor rites)",
+    "harbor/road wardens",
+    "small artisan guild"
+  ],
+  "problems": [
+    "reagent scarcity and price gouging",
+    "smuggling along trade routes",
+    "occasional bandit raids"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence with Riveric loanwords",
+    "market days include ritualized bargains",
+    "strong kinship obligations govern disputes",
+    "local cuisine: salted fish, spiced rootcakes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing guide/escort"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement; long-range mind influence rare/forbidden"
+  ],
+  "notes": [
+    "outpost on a secondary trade route; population undocumented"
+  ],
+  "generated_at": "2025-09-09T04:18:01.766Z"
+}

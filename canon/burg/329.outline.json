@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d6e1e009",
+  "burg_id": 329,
+  "name": "Burg_329",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "fishing",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "ship-repair",
+    "smuggling"
+  ],
+  "factions_local": [
+    "fishers' guild",
+    "ritual circle",
+    "harbor-merchant syndicate",
+    "shore-watch militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling turf wars"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole loanwords",
+    "sea-festival offerings and keel-singing",
+    "diet heavy on salted fish and kelp preserves"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fisherfolk"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "No instant resurrection or long-range mind-control; limited combustion industry"
+  ],
+  "notes": [
+    "State unknown; population data unavailable",
+    "Near-medieval to early-industrial tech baseline with pervasive ritual practice"
+  ],
+  "generated_at": "2025-09-09T04:24:39.243Z"
+}

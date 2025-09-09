@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6d522851",
+  "burg_id": 81,
+  "name": "Burg_81",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal waystation",
+    "ritual-reagent depot",
+    "small-scale fishing",
+    "guide & pilot services"
+  ],
+  "factions_local": [
+    "Harbormaster's Council",
+    "Reagent Syndicate",
+    "Ancestor-Shrine Circle",
+    "Smugglers' Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggler violence",
+    "corrupt harbor dues",
+    "ritual byproduct contamination"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "meals centered on salted fish, tubers, fermented seaweed",
+    "seamanship rites tied to ancestor veneration",
+    "barter-heavy, favors and oaths valued over coin"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "lost pilots/navigation failures"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "relies on incoming ships for most imported reagents",
+    "seasonal storms can isolate the outpost for weeks",
+    "local ritual workshops require imported, scarce components"
+  ],
+  "generated_at": "2025-09-09T04:37:13.446Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a363841d",
+  "burg_id": 442,
+  "name": "Burg_442",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "remote",
+    "coastal",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent depot",
+    "pilotage & charts",
+    "salvage and fishing"
+  ],
+  "factions_local": [
+    "Harbor Syndicate",
+    "Shrine-Keeper Circle",
+    "Pilot-Guild",
+    "Coastal Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and illicit trade",
+    "neglected governance",
+    "sporadic storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "language: Coastal Tongues with Island Creole loanwords",
+    "custom: ship-blessings and tide-offerings",
+    "cuisine: salted fish and preserved kelp",
+    "social: barter and favor-based transactions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "stranded-ship"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries require charts and seamanship",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown; likely transient mariner mix",
+    "small strategic harbor for coastal voyages",
+    "limited combustion industry; labor-intensive ritual work"
+  ],
+  "generated_at": "2025-09-09T04:32:12.936Z"
+}

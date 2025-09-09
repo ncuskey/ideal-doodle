@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ee4368b1",
+  "burg_id": 64,
+  "name": "Burg_64",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "supply relay",
+    "ritual-reagent broker",
+    "small-scale fishing",
+    "smuggler waypoint"
+  ],
+  "factions_local": [
+    "merchant syndicate",
+    "coastal militia",
+    "ritual guild",
+    "smuggler band"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "bandit raids",
+    "jurisdiction disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "tide-mark festivals and offering rites",
+    "diet heavy on pickled fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "near-medieval to early industrial tech baseline",
+    "navigational auguries exist but cannot replace charts and seamanship",
+    "population unknown"
+  ],
+  "generated_at": "2025-09-09T04:36:01.473Z"
+}

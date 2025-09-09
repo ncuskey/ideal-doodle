@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3bd3e963",
+  "burg_id": 403,
+  "name": "Burg_403",
+  "state_id": 0,
+  "province_id": "",
+  "tags": [
+    "coastal",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent brokerage",
+    "ship provisioning",
+    "fishing",
+    "ritual-lab services"
+  ],
+  "factions_local": [
+    "Harbor Syndicate",
+    "House of Tides (ritual atelier)",
+    "Pilgrim Provisioners"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "navigational hazards"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Speaks Coastal Tongues dialect",
+    "Salt-curing and seaweed cuisine",
+    "Ship-blessing rites before departure"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipment",
+    "wreck salvage",
+    "smuggling ring"
+  ],
+  "constraints": [
+    "Rituals consume scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence banned"
+  ],
+  "notes": [
+    "Navigational auguries used locally but charts and seamanship remain essential",
+    "Limited combustion industry; workshops rely on hand and ritual labor"
+  ],
+  "generated_at": "2025-09-09T04:29:25.961Z"
+}

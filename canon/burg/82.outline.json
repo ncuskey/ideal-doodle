@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_94fdc141",
+  "burg_id": 82,
+  "name": "Burg_82",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "local-ancestral-clergy",
+    "coastal-fisher-guild",
+    "itinerant-ritual-merchants"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling/bandits",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "daily tide-omen rituals",
+    "seafood-and-dried-reagent cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "tide-omen"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no high-pressure steam megatechs",
+    "long-range mind influence banned/rare"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "navigational auguries exist but seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:37:20.722Z"
+}

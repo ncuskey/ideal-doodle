@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_port_of_skiffs",
+  "checksum": "fnv1a_2da4b283",
+  "name": "Port of Skiffs",
+  "aliases": [
+    "Skiffport",
+    "Skiffhaven"
+  ],
+  "tags": [
+    "river-port",
+    "shipyards",
+    "reagent-broker",
+    "transshipment"
+  ],
+  "role_in_state": "Primary riverine transshipment and small-ship repair hub",
+  "economy_niches": [
+    "Skiff- and shallop-building & repair",
+    "Riverine transshipment & lighterage",
+    "Ritual-reagent brokerage and storage",
+    "Pilotage, chartering and contract arbitration"
+  ],
+  "culture_adjustments": [
+    "Crew-centric social networks supplant some clan authority",
+    "Contracts and tariffs practiced as public ritual",
+    "Ancestor-feasts staged aboard vessels and at quays",
+    "Oral navigational lore codified into local pilot guilds"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "fire (wood yards)",
+    "piracy & smuggling",
+    "river-borne disease"
+  ],
+  "constraints": [
+    "Berth congestion limits physical expansion",
+    "Dependence on imported reagents for ritual trade"
+  ],
+  "notes": [
+    "Guilds control pilot licenses and tariff enforcement",
+    "High turnover of transient crews shapes local custom"
+  ],
+  "generated_at": "2025-09-09T04:39:16.275Z"
+}

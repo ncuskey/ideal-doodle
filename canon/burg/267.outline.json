@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f1b03797",
+  "burg_id": 267,
+  "name": "Burg_267",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "island",
+    "harbor",
+    "ritual-beacon"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "beacon-rituals",
+    "transshipment",
+    "smuggling"
+  ],
+  "factions_local": [
+    "shipmasters' guild",
+    "beacon keepers",
+    "clan council",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "supply intermittency"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole dialect with Coastal Tongue loanwords",
+    "seafood-heavy cuisine, fermented fish staples",
+    "nightly beacon rites tied to fishing seasons",
+    "strong seamanship and superstitious navigation customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents and local specialist labor",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence is banned and rare"
+  ],
+  "notes": [
+    "permanent population small; reliant on visiting supply ships",
+    "beacon ritual doubles as navigational aid and market catalyst"
+  ],
+  "generated_at": "2025-09-09T04:20:02.105Z"
+}

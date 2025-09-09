@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5761531d",
+  "burg_id": 95,
+  "name": "Burg_95",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-reagent depot",
+    "pilgrimage waypoint"
+  ],
+  "factions_local": [
+    "harbor-masters guild",
+    "reagent-collectors",
+    "ancestor-clan elders",
+    "itinerant-priesthood"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "supply delays"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "seasonal sea-blessing festivals",
+    "diet centered on salt-preserved fish and sea greens",
+    "harvest rituals tied to tide cycles"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen-reagents",
+    "missing-pilgrim"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "Near-medieval to early industrial tech with localized ritual magic",
+    "navigational auguries assist but don't replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:38:16.348Z"
+}

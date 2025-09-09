@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_64cfa3bb",
+  "burg_id": 142,
+  "name": "Burg_142",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-storage",
+    "waystation-trade",
+    "small-scale-ship-repair"
+  ],
+  "factions_local": [
+    "merchant-guildlet",
+    "sea-rite-cult",
+    "shipwrights-guild",
+    "harbor-watch"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "banditry-at-sea"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "daily-tide offerings and salted-preservation cuisine",
+    "barter-rituals tied to shipment blessings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "ritual-magic consumes scarce imported reagents",
+    "no instant-resurrection or mind-control magics"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "small population; strategic minor harbor on local lane"
+  ],
+  "generated_at": "2025-09-09T04:11:54.322Z"
+}

@@ -1,0 +1,62 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_grand_harbor_district",
+  "checksum": "fnv1a_fb8b99b3",
+  "name": "Grand Harbor District",
+  "aliases": [
+    "Grand Harbor",
+    "Central Dockward"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "trade-hub",
+    "augury",
+    "salt-works"
+  ],
+  "role_in_state": "primary maritime entrepôt",
+  "economy_niches": [
+    "shipbuilding & repair",
+    "long-distance cargo transshipment",
+    "salt & reagent warehousing",
+    "navigational-augury services",
+    "fisheries processing & salting",
+    "maritime credit & insurance houses"
+  ],
+  "culture_adjustments": [
+    "heightened cosmopolitanism; heavy loanwords in local Coastal Tongues",
+    "merchant-guild authority supersedes civic councils on port law",
+    "tide-based schedules enforced as legal time for commerce",
+    "practical literacy extends into dockcrafts and augur apprentices",
+    "patrilineal house patronage organized around dock gangs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal surge / flood",
+    "dock fires",
+    "piracy & smuggling",
+    "guild faction violence",
+    "reagent theft"
+  ],
+  "constraints": [
+    "limited hinterland for expansion; density-driven logistics",
+    "pier access and repair controlled by guild charters",
+    "ritual magic reliant on imported reagents (scarce)",
+    "navigational auguries cannot replace seamanship or charts"
+  ],
+  "notes": [
+    "nightly bell-tide marks official closing of cargo gates",
+    "major node for imported reagents used by state augurs",
+    "shipwright guilds maintain semi-autonomous courts"
+  ],
+  "generated_at": "2025-09-09T04:02:51.787Z"
+}

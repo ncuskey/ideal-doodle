@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_978cc595",
+  "burg_id": 271,
+  "name": "Burg_271",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-ingredient trade",
+    "fishing",
+    "ferry service"
+  ],
+  "factions_local": [
+    "merchant brotherhood agents",
+    "tide-priesthood",
+    "dockworkers' cooperative",
+    "licensed ferrymen"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "bandit raids on lanes",
+    "supply disruptions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect; sea-salt vocabulary",
+    "Diet heavy on salted/fermented seafood",
+    "Dockside blessing rituals before voyages",
+    "Informal barter and hospitality customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent theft",
+    "disappearing ferries"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents; no instant resurrection or life-replacement magics",
+    "Long-range mind influence rare/forbidden; combustion industry limited"
+  ],
+  "notes": [
+    "Population small/outpost; exact number unknown",
+    "Navigational auguries used but do not replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:20:23.242Z"
+}

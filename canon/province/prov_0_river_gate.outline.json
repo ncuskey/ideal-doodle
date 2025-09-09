@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_river_gate",
+  "checksum": "fnv1a_ce9188b0",
+  "name": "River Gate",
+  "aliases": [
+    "Rivergate",
+    "Gatebend"
+  ],
+  "tags": [
+    "riverine",
+    "port",
+    "saltworks",
+    "trade-gateway"
+  ],
+  "role_in_state": "primary riverine trade gate and customs hub",
+  "economy_niches": [
+    "riverine trade transshipment",
+    "shipbuilding & repair (boatwright guilds)",
+    "salt evaporation & processing",
+    "ritual-reagent brokerage & storage",
+    "grain aggregation & shipping"
+  ],
+  "culture_adjustments": [
+    "more cosmopolitan — frequent transient crews and merchants",
+    "contract and tariff practice intensified in local courts",
+    "ancestor-feasting adapted to dockside ceremonies and voyageurs",
+    "boatwright guilds hold outsized civic influence",
+    "oral navigational lore supplemented by ledger-scribed routes"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation & shoaling",
+    "river piracy/banditry",
+    "tariff disputes & smuggling",
+    "reagent theft"
+  ],
+  "constraints": [
+    "limited heavy combustion industry",
+    "seasonal dependence on river levels",
+    "ritual magic requires scarce imported reagents",
+    "institutional ban on long-range mind influence affects intelligence-gathering"
+  ],
+  "notes": [
+    "major customs and toll collection point for State_0",
+    "reagent brokerage ties local fortunes to maritime import lines",
+    "silt management is constant civic expenditure"
+  ],
+  "generated_at": "2025-09-09T04:39:21.578Z"
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_twin_harbors",
+  "checksum": "fnv1a_3fe1db16",
+  "name": "Twin Harbors",
+  "aliases": [
+    "Twinports",
+    "Doublehaven"
+  ],
+  "tags": [
+    "coastal",
+    "maritime",
+    "reagent-hub",
+    "guild-dominated",
+    "saltworks"
+  ],
+  "role_in_state": "Primary transshipment & shipbuilding center",
+  "economy_niches": [
+    "Transshipment hub for ritual reagents and imported supplies",
+    "Shipbuilding, repair yards and fittings workshops",
+    "Salted and preserved seafood processing and export",
+    "Maritime brokerage, insurance and freight contracting",
+    "Repair-labor pools specializing in ritual-compatible vessels"
+  ],
+  "culture_adjustments": [
+    "Guild courts hold stronger civic authority than in hinterland towns",
+    "Tide-calendar tightly integrated with work schedules and public rites",
+    "Navigation auguries are commercialized and routinized",
+    "Practical, contract-focused mercantile morality outweighs heraldic status"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "harbor fires",
+    "smuggling and contraband",
+    "guild faction clashes"
+  ],
+  "constraints": [
+    "Ritual auguries consume scarce imported reagents; storage and supply are chokepoints",
+    "Limited adoption of high-pressure combustion industry",
+    "Long-range mind-influence practices prohibited in commercial law"
+  ],
+  "notes": [
+    "Key transit node for reagent imports serving coastal ritual networks",
+    "Guild-controlled docks settle most maritime disputes and contracts"
+  ],
+  "generated_at": "2025-09-09T04:05:34.335Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8504eda5",
+  "burg_id": 420,
+  "name": "Burg_420",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-node",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbormaster",
+    "small-merchant-lodge"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "jurisdiction-ambiguity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ritual offerings tied to fishing season",
+    "salt-preserved cuisine, communal boat feasts"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "disappearing-ships"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual magic pervasive and material-dependent"
+  ],
+  "generated_at": "2025-09-09T04:30:29.385Z"
+}

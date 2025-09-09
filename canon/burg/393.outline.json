@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_703df583",
+  "burg_id": 393,
+  "name": "Burg_393",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferry-tolls",
+    "provisions-for-rituals",
+    "waystation-trade",
+    "fish-smoking"
+  ],
+  "factions_local": [
+    "Ferrywrights' Guild",
+    "Ancestor-Remembrance Circle",
+    "Riverwatch",
+    "Covert Brokers"
+  ],
+  "problems": [
+    "banditry along approaches",
+    "reagent scarcity",
+    "seasonal flooding",
+    "corrupt toll-collection"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialect with Coastal Tongue influences",
+    "diet heavy on smoked riverfish and fermented riverweed",
+    "regular ancestor-wake communal meals",
+    "ferrymark trading hours shape daily rhythm"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing ferryman"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "strategic but precarious river crossing; small permanent population"
+  ],
+  "generated_at": "2025-09-09T04:28:31.809Z"
+}

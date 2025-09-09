@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6d76b469",
+  "burg_id": 181,
+  "name": "Burg_181",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trading",
+    "coastal fishing",
+    "waystation services",
+    "small-scale craft"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent Syndicate",
+    "Ancestor Shrine Circle",
+    "Smuggler Cells"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "corruption among brokers"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues with Riveric loanwords",
+    "rituals tied to sea harvests",
+    "preserved fish and sea-salted cuisine",
+    "suspicious of outsiders carrying reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortfall",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "population unknown; transient traders common",
+    "strategic waypoint for coastal traders"
+  ],
+  "generated_at": "2025-09-09T04:14:23.754Z"
+}

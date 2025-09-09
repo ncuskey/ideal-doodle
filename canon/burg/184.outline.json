@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c32a4793",
+  "burg_id": 184,
+  "name": "Burg_184",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "harbor",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-fishing-fleet",
+    "ritual-reagent-harvest",
+    "waystation-services",
+    "coastal-trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "reagent-collectors",
+    "ritual-clan",
+    "shorewatch"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "pirate-raids",
+    "isolation",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "seafood-centric cuisine",
+    "ritual-marking tattoos"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "navigational-auguries-not-substitute"
+  ],
+  "notes": [
+    "small strategic harbor on a minor trade route",
+    "depends on imported reagents for ritual economy"
+  ],
+  "generated_at": "2025-09-09T04:14:34.280Z"
+}

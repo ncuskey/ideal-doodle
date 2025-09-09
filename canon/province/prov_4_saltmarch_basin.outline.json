@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_saltmarch_basin",
+  "checksum": "fnv1a_e919d7ce",
+  "name": "Saltmarch Basin",
+  "aliases": [
+    "Salt Marshes",
+    "Saltmarch"
+  ],
+  "tags": [
+    "coastal",
+    "saltworks",
+    "marsh",
+    "transshipment",
+    "provisioning"
+  ],
+  "role_in_state": "Primary salt supplier and lowland transshipment hub",
+  "economy_niches": [
+    "brane-salt production and export",
+    "fish salting & preservation for fleets",
+    "harbor provisioning (rope, pitch, dried stores)",
+    "reed/thatched boat materials and repair",
+    "transshipment of imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "marsh-specialist seamanship and tidecraft distinct from open-sea lore",
+    "guild salt-master families hold outsized civic power",
+    "local argot heavy with salt-working and brine terms",
+    "seasonal labor migration tied to salting cycle"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "storm-surge",
+    "salt-induced soil degradation",
+    "epidemic in condensed worker housing",
+    "banditry on salt roads"
+  ],
+  "constraints": [
+    "seasonal tidal access limits overland movement",
+    "chronic freshwater scarcity inland",
+    "ritual magic reliant on imported reagents via transshipment"
+  ],
+  "notes": [
+    "salt taxes and guild dues fund state fleets and port services",
+    "saltworks infrastructure requires continual maintenance and specialized labor",
+    "marsh pilots are critical to safe entry and local trade"
+  ],
+  "generated_at": "2025-09-09T04:06:30.738Z"
+}

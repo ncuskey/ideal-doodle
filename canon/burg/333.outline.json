@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fd395593",
+  "burg_id": 333,
+  "name": "Burg_333",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply relay",
+    "small-scale fishing"
+  ],
+  "factions_local": [
+    "Harborwrights",
+    "Ritual Choir (lay)",
+    "Coastal Traders' Lodge"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "bandit raids on supply caravans",
+    "unchecked smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal-influenced Riveric dialect",
+    "diet heavy on preserved fish and kelp",
+    "public rituals timed to local tides"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "missing fishing crews"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace charts/seamanship",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "localized ritual magic integral to trade",
+    "sparse administrative oversight"
+  ],
+  "generated_at": "2025-09-09T04:24:57.019Z"
+}

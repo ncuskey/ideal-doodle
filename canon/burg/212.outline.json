@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6272c843",
+  "burg_id": 212,
+  "name": "Burg_212",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-provisioning",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormaster's Crew",
+    "Ritual Stewardship Cell",
+    "Coastal Kin-Council"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply unpredictability"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with heavy slurs",
+    "sea-anchored cuisine (salt-ferments)",
+    "rituals mark tidal cycles"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing supply ship",
+    "stolen ritual reagents"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no long-range mind-influence tolerated"
+  ],
+  "notes": [
+    "population unknown",
+    "strategic waypoint on coastal route"
+  ],
+  "generated_at": "2025-09-09T04:16:25.832Z"
+}

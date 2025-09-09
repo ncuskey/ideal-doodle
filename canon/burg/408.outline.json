@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bf9c9859",
+  "burg_id": 408,
+  "name": "Burg_408",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbor Watch",
+    "Ancestor Circle",
+    "Dockside Syndicate"
+  ],
+  "problems": [
+    "scarce reagents",
+    "supply disruptions",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "sea-harvest cuisine (salted fish, kelp bread)",
+    "ritual craftwork integrated into daily trade"
+  ],
+  "quest_hook_slots": [
+    "ritual reagent theft",
+    "missing sloop",
+    "ancestor-spirit disturbance"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "population small/undocumented",
+    "near-medieval to early-industrial tech with ritual dependency"
+  ],
+  "generated_at": "2025-09-09T04:29:40.841Z"
+}

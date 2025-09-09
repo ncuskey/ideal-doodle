@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e4226c9d",
+  "burg_id": 56,
+  "name": "Burg_56",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation",
+    "ritual-lab services",
+    "salt/seaweed harvest"
+  ],
+  "factions_local": [
+    "harvesters' cooperative",
+    "ritual-house of the Tides",
+    "coastal militia",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "irregular supply ships",
+    "banditry on approach routes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-based ritual calendar governs work cycles",
+    "diet centered on salted fish and kelp products"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech level",
+    "localized ritual services are a key export"
+  ],
+  "generated_at": "2025-09-09T04:35:24.563Z"
+}

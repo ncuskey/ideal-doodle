@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3f3715ed",
+  "burg_id": 231,
+  "name": "Burg_231",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "waystation",
+    "small-drydock"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Shrine Circle",
+    "Reagent Merchants",
+    "Smuggler Coterie"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "supply isolation",
+    "smuggling",
+    "sporadic storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect prevalent",
+    "rituals tied to fishing seasons",
+    "diet heavy on smoked/salted fish",
+    "strong superstition about ancestor-omens at sea"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipment",
+    "ancestor-omen at sea",
+    "smuggling interdiction"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries can't replace charts or seamanship",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "tech: near-medieval to early industrial",
+    "outpost depends on seasonal trade and reagent caravans"
+  ],
+  "generated_at": "2025-09-09T04:17:36.950Z"
+}

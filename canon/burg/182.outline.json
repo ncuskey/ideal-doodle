@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d57cc303",
+  "burg_id": 182,
+  "name": "Burg_182",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "small-scale fishing",
+    "waystation/relay",
+    "cartage & packing"
+  ],
+  "factions_local": [
+    "porters' guild",
+    "ritual-lab consortium",
+    "coastal shrine circle",
+    "smugglers' knot"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "official corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues common with Riveric trade pidgin",
+    "diet heavy on salted fish and seaweed",
+    "ritualized barter and package blessings",
+    "tattooed crew identity marks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearing shipments"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "navigational-auguries-auxiliary-only",
+    "ritual-magic-consumes-scarce-imported-reagents"
+  ],
+  "notes": [
+    "near-medieval tech with local ritual labs",
+    "minor anchorage; seasonal shelter only"
+  ],
+  "generated_at": "2025-09-09T04:14:28.591Z"
+}

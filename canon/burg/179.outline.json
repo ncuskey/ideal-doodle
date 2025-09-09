@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_342fe5a3",
+  "burg_id": 179,
+  "name": "Burg_179",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-harvest",
+    "ritual-supply trade",
+    "harbor-services"
+  ],
+  "factions_local": [
+    "shipowners' guild",
+    "ritual-smiths",
+    "tidal-priesthood"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "resource-depletion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in speech",
+    "sea-salting and smoked-fish cuisine",
+    "rituals tied to tides and drift-reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "strange-tide omens",
+    "missing-reagent shipments"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial baseline",
+    "Navigational auguries in use",
+    "State affiliation unknown"
+  ],
+  "generated_at": "2025-09-09T04:14:10.671Z"
+}

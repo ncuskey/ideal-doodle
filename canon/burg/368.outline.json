@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_49b57f17",
+  "burg_id": 368,
+  "name": "Burg_368",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-node",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ingredient-trade",
+    "ferry-tolls",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ancestor Shrine Keepers",
+    "Riverwatch",
+    "Smugglers' Cell"
+  ],
+  "problems": [
+    "scarce-ritual-reagents",
+    "banditry-on-waterways",
+    "seasonal-flooding",
+    "tax-pressures-from-passing-guilds"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with coastal loanwords",
+    "salted-fish and fermented-riverweed staples",
+    "tide-linked communal rituals",
+    "boating festivals mark merchant seasons"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-boat",
+    "ritual-reagent-theft"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "narrow economy tied to passing traffic and reagent shipments",
+    "navigational-auguries used but charts and seamanship still required"
+  ],
+  "generated_at": "2025-09-09T04:26:55.813Z"
+}

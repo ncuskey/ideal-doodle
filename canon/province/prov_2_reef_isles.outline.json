@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_reef_isles",
+  "checksum": "fnv1a_f3d9e72e",
+  "name": "Reef Isles",
+  "aliases": [
+    "The Shoals",
+    "Inner Reefs"
+  ],
+  "tags": [
+    "coastal",
+    "islands",
+    "reef",
+    "maritime",
+    "shipyards"
+  ],
+  "role_in_state": "secondary maritime repair and transshipment hub",
+  "economy_niches": [
+    "small-ship repair & careening",
+    "salting and preserving seafood",
+    "reef-harvest (coral craft, pearls, sponges)",
+    "reagent transshipment and lightware storage",
+    "salterns and tidal saltworks"
+  ],
+  "culture_adjustments": [
+    "islander dialect of Coastal Tongues with reef-specific terms",
+    "shipwright clans and house-collectives overshadow formal guild halls",
+    "tide-calendar variants controlling work and augury schedules",
+    "strong acceptance of pragmatic smuggling and barter networks"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "navigational hazards (reef shoals)",
+    "seasonal storms and surge",
+    "piracy and smuggling",
+    "resource depletion (overharvest of reef goods)",
+    "coral-borne pests and fouling"
+  ],
+  "constraints": [
+    "shallow waters limit large-dock heavy industry",
+    "ritual reagents reliant on imported supply lines"
+  ],
+  "notes": [
+    "favored waypoint for State_2 coastal convoys",
+    "local augury practices adapted to microtides",
+    "informal regulatory zone for reagent trade"
+  ],
+  "generated_at": "2025-09-09T04:05:48.175Z"
+}

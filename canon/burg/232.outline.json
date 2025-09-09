@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d5db4093",
+  "burg_id": 232,
+  "name": "Burg_232",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "river-port",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river trade",
+    "fishing",
+    "ritual reagent brokerage",
+    "boat repair"
+  ],
+  "factions_local": [
+    "river-guild",
+    "ritual-lodge",
+    "fisherfolk-coop"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialects dominant",
+    "dockside ancestor-offerings",
+    "smoked/salted fish cuisine",
+    "boat-centric festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "disappearances"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection",
+    "navigational auguries cannot replace charts"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual workshops at docks",
+    "state-level details unknown"
+  ],
+  "generated_at": "2025-09-09T04:17:41.200Z"
+}

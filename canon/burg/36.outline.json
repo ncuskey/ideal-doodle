@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9dbb7671",
+  "burg_id": 36,
+  "name": "Burg_36",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-labor",
+    "harbor"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "maritime-trade",
+    "ship-repair"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ancestor Circle",
+    "Shrine-Keepers"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry-on-shores",
+    "trade-rivalry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues common; Riveric pidgin in markets",
+    "seafood-heavy cuisine; tide-based festivals",
+    "ritual labor organized as guild-like crews"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-ingredient-theft",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "tech: near-medieval to early-industrial",
+    "navigational-auguries present but cannot replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:26:25.777Z"
+}

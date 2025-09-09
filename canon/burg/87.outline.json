@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4d095405",
+  "burg_id": 87,
+  "name": "Burg_87",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishery",
+    "waystation-trade",
+    "reagent-processing"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Shipwrights' Circle",
+    "Ancestor Remembrance Lodge"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "smuggling",
+    "storm-damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salt-preserved cuisine",
+    "ritual barter customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-shortage",
+    "stormwreck salvage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "ritual-magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown; strategic coastal waypoint",
+    "navigational auguries used but charts essential"
+  ],
+  "generated_at": "2025-09-09T04:37:32.630Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_kaiharbor",
+  "checksum": "fnv1a_1faf0287",
+  "name": "Kaiharbor",
+  "aliases": [
+    "Kai Harbor",
+    "Kai's Haven",
+    "Harbor of Kai"
+  ],
+  "tags": [
+    "maritime",
+    "reef",
+    "port",
+    "guild-hub"
+  ],
+  "role_in_state": "Primary deepwater shipbuilding and long-distance trade hub",
+  "economy_niches": [
+    "shipbuilding & repair yards",
+    "reef-harvested reagents (alkaline salts, sponges)",
+    "saltworks & fisheries",
+    "maritime trade brokerage and insurance",
+    "rope, sailcraft and metal fittings artisans"
+  ],
+  "culture_adjustments": [
+    "Strong guild legalism — contracts override some customary norms",
+    "Tide-calendar rituals tied to berthing schedules",
+    "More cosmopolitan dialects and loanwords from Island Creole crews",
+    "Heightened shipwreck memorial culture; annual wake-processions inform local identity"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef navigation hazards",
+    "seasonal storm surge & flooding",
+    "smuggling & piracy nodes",
+    "guild labor strikes affecting shipyards"
+  ],
+  "constraints": [
+    "relies on scarce imported ritual reagents for major rites",
+    "tidal windows constrain shipyard and reagent harvest scheduling",
+    "industrial growth limited by low-pressure combustion tech and guild regulations"
+  ],
+  "notes": [
+    "Major node for State_6 maritime tariffs and convoy musters",
+    "Port auguries used to schedule berthing and reef-harvests, not to replace seamanship",
+    "Seasonal festivals attract migrant crews and boost short-term labor supply"
+  ],
+  "generated_at": "2025-09-09T04:07:16.513Z"
+}

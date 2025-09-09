@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a4a4d503",
+  "burg_id": 308,
+  "name": "Burg_308",
+  "state_id": 0,
+  "province_id": "",
+  "tags": [
+    "coastal",
+    "reagent-hub",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-harbor",
+    "reagent-transshipment",
+    "fishing",
+    "local-market"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-brokers",
+    "clan-elders"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "storm-damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "seafood-heavy cuisine",
+    "ship-blessing rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost-ritual-cargo",
+    "blighted-altar"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion-industry"
+  ],
+  "notes": [
+    "minor port on reagent route",
+    "seasonal market during tide-fest"
+  ],
+  "generated_at": "2025-09-09T04:23:02.186Z"
+}

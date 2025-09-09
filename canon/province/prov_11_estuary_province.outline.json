@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_estuary_province",
+  "checksum": "fnv1a_899f5ada",
+  "name": "Estuary Province",
+  "aliases": [
+    "The Mouth",
+    "Saltmarsh Marches"
+  ],
+  "tags": [
+    "estuary",
+    "salt-works",
+    "navigation",
+    "augury-hub",
+    "fisheries"
+  ],
+  "role_in_state": "Primary salt-reagent supplier and navigational-augury gateway",
+  "economy_niches": [
+    "salt pans & reagent refinement",
+    "estuarine shipbuilding & repair",
+    "salted fisheries & provisioning",
+    "navigational-augury services",
+    "reedcrafts & small-boat trades"
+  ],
+  "culture_adjustments": [
+    "stronger Riveric Dialect influence on coastal speech",
+    "augur households hold greater civic authority",
+    "tide-anchored ancestor rites emphasize estuarine voyages",
+    "guild-run quay-justice often overrides port-patronage norms"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "siltation & shoal shifts",
+    "marsh-borne disease",
+    "quay-banditry"
+  ],
+  "constraints": [
+    "soft, flood-prone soils limit heavy industry",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "critical supplier of state salt and reagent inputs",
+    "guilds tightly regulate augur access and quay rights",
+    "ports clustered on levees and raised causeways"
+  ],
+  "generated_at": "2025-09-09T04:03:01.604Z"
+}

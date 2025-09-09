@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_hinter_ridge_settlements",
+  "checksum": "fnv1a_d64e1a8c",
+  "name": "Hinter-Ridge Settlements",
+  "aliases": [
+    "Hinter-Ridge",
+    "Ridge-Holdings"
+  ],
+  "tags": [
+    "hinterland",
+    "ridge",
+    "charcoal",
+    "transhumance",
+    "waystation"
+  ],
+  "role_in_state": "resource & pass-control hinterland",
+  "economy_niches": [
+    "charcoal & ritual-reagent kilns",
+    "seasonal grazing & wool",
+    "stone quarries & lime",
+    "passway inns & waystation trade",
+    "small-scale rivercraft repair"
+  ],
+  "culture_adjustments": [
+    "Highland Cant primary; Riveric Dialects secondary",
+    "strong clan land-tenure and kin arbitration over formal contracts",
+    "ancestor-feasts anchored to ridge landmarks and cists",
+    "barter, tolls and familiarity-based deals replace strict tariff routines",
+    "labor organized around seasonal transhumance and kiln cycles"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies",
+      "Sea-Tide Animisms"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "landslide",
+    "banditry",
+    "seasonal pass closure",
+    "wildfire"
+  ],
+  "constraints": [
+    "limited arable land",
+    "poor heavy-transport access",
+    "ritual-reagent exports subject to state levies"
+  ],
+  "notes": [
+    "supplies kiln reagents crucial to ritual magic economy",
+    "hosts tolls and small markets serving river caravans",
+    "seasonal workforce export to lowland saltworks and shipyards"
+  ],
+  "generated_at": "2025-09-09T04:39:36.694Z"
+}

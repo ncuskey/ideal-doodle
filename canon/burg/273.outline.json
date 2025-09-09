@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2054efb5",
+  "burg_id": 273,
+  "name": "Burg_273",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "augury-supplies",
+    "waystation"
+  ],
+  "factions_local": [
+    "Tidekeeper Shrine",
+    "Shipwrights' Circle",
+    "Coastwatch Militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "coastal erosion",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "ritual songs tied to tides",
+    "diet heavy on preserved fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "failed-augury",
+    "missing-reagent caravan"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries supplement but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:20:29.305Z"
+}

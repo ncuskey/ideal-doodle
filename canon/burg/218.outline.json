@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1f2f5abf",
+  "burg_id": 218,
+  "name": "Burg_218",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fisherfolk",
+    "ritual-lab",
+    "waystation",
+    "small-market"
+  ],
+  "factions_local": [
+    "local-clan",
+    "ritual-coterie",
+    "itinerant-merchant-brotherhood"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "supply-fragility",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues / Riveric Dialect blend",
+    "fish-preserving rituals central to economy",
+    "tattooed seafarer customs & ancestor petitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ritual-ingredient",
+    "wreck-salvage-dispute"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "long-range-mind-magic-banned"
+  ],
+  "notes": [
+    "navigational-auguries supplement but do not replace charts",
+    "limited combustion-derived industry"
+  ],
+  "generated_at": "2025-09-09T04:16:47.122Z"
+}

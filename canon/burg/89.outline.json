@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_18902ac1",
+  "burg_id": 89,
+  "name": "Burg_89",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-dependency"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply",
+    "fishing",
+    "waystation",
+    "small-scale-trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-practitioners",
+    "merchant-brotherhood"
+  ],
+  "problems": [
+    "scarcity-of-ritual-reagents",
+    "isolation-and-supply-issues",
+    "banditry-on-approaches"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "local rites tied to material offerings",
+    "diet heavy on smoked fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-ships"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "tech: near-medieval to early-industrial",
+    "likely coastal/outpost role supporting navigation and rituals"
+  ],
+  "generated_at": "2025-09-09T04:37:42.620Z"
+}

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_inner_docklands",
+  "checksum": "fnv1a_d85c5822",
+  "name": "Inner Docklands",
+  "aliases": [
+    "Inner Docks",
+    "Quayside Ward"
+  ],
+  "tags": [
+    "port",
+    "guild-hub",
+    "saltworks",
+    "reagent-trade"
+  ],
+  "role_in_state": "Primary maritime hub and reagent/augury exchange",
+  "economy_niches": [
+    "ship repair & outfitting",
+    "salt curing & fish preserves",
+    "reagent warehousing and trade",
+    "augury desks and cargo-focused rituals",
+    "smoking houses & packing for export"
+  ],
+  "culture_adjustments": [
+    "Guild-run civic identity supersedes neighborhood kinship",
+    "Pragmatic syncretism: mixed rites for quick loading/unloading",
+    "Creole coastal speech more common than formal Coastal Tongues",
+    "Higher tolerance for foreign crews and hybrid customs",
+    "Workday rhythms dictated by tide-calendar and cargo schedules"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "flooding/tidal surge",
+    "dock fires",
+    "smuggling and contraband",
+    "labor strikes/unrest",
+    "reagent spoilage/theft"
+  ],
+  "constraints": [
+    "Limited quay space; vertical storage pressure",
+    "Ritual magic depends on scarce imported reagents",
+    "Combustion/steam industry limited by state constraints"
+  ],
+  "notes": [
+    "Primary entry point for state reagent imports and duties",
+    "Guild tribunals handle most commercial disputes",
+    "Navigational auguries offered but cannot replace charts/seamanship"
+  ],
+  "generated_at": "2025-09-09T04:05:09.994Z"
+}

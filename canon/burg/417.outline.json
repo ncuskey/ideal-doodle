@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_13bdb3ed",
+  "burg_id": 417,
+  "name": "Burg_417",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-trade",
+    "ferry-crossing"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small transshipment hub",
+    "ferry services",
+    "salted-fish curing",
+    "ritual reagent brokerage"
+  ],
+  "factions_local": [
+    "ferrymen's cadre",
+    "river-guilder agents",
+    "healer-ritualists",
+    "coastal smugglers (loose)"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and tariff skirmishes",
+    "periodic flood damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant with Coastal Tongue loanwords",
+    "diet heavy on salted and smoked fish",
+    "tide-and-harbor festivals tie communal obligations to ritual magic use"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagent",
+    "disappearing ferryman"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "tech baseline near-medieval with localized ritual tech reliance",
+    "navigational auguries used but seamanship still required"
+  ],
+  "generated_at": "2025-09-09T04:30:13.238Z"
+}

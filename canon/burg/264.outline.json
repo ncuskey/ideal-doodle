@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_59f09ce9",
+  "burg_id": 264,
+  "name": "Burg_264",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply depot",
+    "transit-stop"
+  ],
+  "factions_local": [
+    "harbormaster group",
+    "ritual-herbalists",
+    "sea-priests"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "smuggling",
+    "periodic bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "ship-blessing rituals common",
+    "diet heavy on salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual shipment",
+    "supply scarcity"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval tech with local ritual magic",
+    "population unknown; functions as small harbor outpost"
+  ],
+  "generated_at": "2025-09-09T04:19:51.966Z"
+}

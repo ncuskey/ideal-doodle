@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6f6a2db5",
+  "burg_id": 428,
+  "name": "Burg_428",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply-depot",
+    "fishing",
+    "coastal-trade-stop",
+    "smuggler-cache"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbormaster-clan",
+    "smugglers-ring",
+    "ancestor-circle"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "harbor-siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "boat-blessing rites common",
+    "salt-curing and fermented fish cuisine",
+    "gift-exchange for harbor favors"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-theft",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigational-auguries-limited"
+  ],
+  "notes": [
+    "population unknown; transient seasonal traffic",
+    "small strategic harbor; maps sparse"
+  ],
+  "generated_at": "2025-09-09T04:31:05.455Z"
+}

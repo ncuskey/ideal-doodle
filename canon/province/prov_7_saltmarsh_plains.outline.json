@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_saltmarsh_plains",
+  "checksum": "fnv1a_23143a64",
+  "name": "Saltmarsh Plains",
+  "aliases": [
+    "Saltmarsh Plains",
+    "Salt Plain of State 7"
+  ],
+  "tags": [
+    "saltmarsh",
+    "estuary",
+    "saltworks",
+    "marshcraft",
+    "tide-festival"
+  ],
+  "role_in_state": "bulk salt supplier and estuarine food source",
+  "economy_niches": [
+    "saltworks and solar pans",
+    "estuary agriculture (brackish grains/sea-grain)",
+    "eel and brackish-fish pens",
+    "reagent reed & marsh-herb harvesting",
+    "peat cutting and low-grade fuel"
+  ],
+  "culture_adjustments": [
+    "stronger marshcraft and reed-boat traditions",
+    "tide-calendar rituals outrank distant-star navigational rites locally",
+    "fewer Island Creole loanwords; conservative Coastal Tongues forms persist",
+    "salt-harvest labor guilds dominate coastal social structure",
+    "seasonal shoreward/ upland labor migration tied to tides"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salinization",
+    "disease (mosquito-borne)",
+    "siltation and channel shift"
+  ],
+  "constraints": [
+    "limited high-quality timber for large shipbuilding",
+    "seasonal access dependent on high tides",
+    "ritual magic costs rise due to imported reagent needs"
+  ],
+  "notes": [
+    "principal bulk salt supplier for State_7 trade networks",
+    "local Sea-Tide rites timed to salt-harvest and embankment works",
+    "constant dredging and embankment maintenance required"
+  ],
+  "generated_at": "2025-09-09T04:07:49.564Z"
+}

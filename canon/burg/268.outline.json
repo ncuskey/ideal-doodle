@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a4a073d9",
+  "burg_id": 268,
+  "name": "Burg_268",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "waystation trade",
+    "ritual reagent depot",
+    "boat repair"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual apothecaries",
+    "coastal militia",
+    "smuggling ring"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "intermittent supply lines",
+    "banditry on approaches",
+    "harsh tidal erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with riveric loanwords",
+    "tide-harvesting and offering customs",
+    "diet heavy on salted fish and fermented seaweeds",
+    "stilted wooden architecture resilient to tides"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipment",
+    "tide-spirit disturbances",
+    "smuggling exposed"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "navigational auguries exist but do not replace seamanship",
+    "combustion industry limited; no high-pressure steam tech",
+    "state affiliation unknown; governance likely loose"
+  ],
+  "generated_at": "2025-09-09T04:20:04.264Z"
+}

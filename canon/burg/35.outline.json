@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8382c3d5",
+  "burg_id": 35,
+  "name": "Burg_35",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "small-scale trade",
+    "ritual-reagent brokerage",
+    "transshipment"
+  ],
+  "factions_local": [
+    "Dockworkers' Guild",
+    "Acolytes of the Tide",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "harbor siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect",
+    "tide-based ancestor shrines",
+    "salt-curing cuisine",
+    "seamanship superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "strange tides"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "long-range mind influence banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech; limited combustion",
+    "navigational auguries exist but do not replace charts",
+    "state unknown"
+  ],
+  "generated_at": "2025-09-09T04:25:58.046Z"
+}

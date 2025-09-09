@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a09cdf19",
+  "burg_id": 260,
+  "name": "Burg_260",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small harbor services",
+    "ritual reagent trade",
+    "salted-fish provisioning"
+  ],
+  "factions_local": [
+    "Harbormaster's Crew",
+    "Ritual Brokers' Syndicate",
+    "Ancestor-Remembrance Circle"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "smuggling/banditry",
+    "seasonal storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "prow-offering tide rituals",
+    "diet: salted fish, seaweed, fermented grains"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigational auguries used but seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:19:31.592Z"
+}

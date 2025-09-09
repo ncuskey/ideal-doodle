@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_40bbf075",
+  "burg_id": 341,
+  "name": "Burg_341",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "fishing",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "river-clan elders",
+    "merchant-shipwrights",
+    "ritual-guild"
+  ],
+  "problems": [
+    "scarce reagents",
+    "seasonal flooding",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with soft sibilants",
+    "Ancestor-veneration days shape labor cycles",
+    "Diet heavy on smoked fish and river greens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supply theft",
+    "flood relief"
+  ],
+  "constraints": [
+    "Ritual magic consumes imported reagents or specialized labor",
+    "No instant resurrection or true life-replacement magics",
+    "Combustion-derived industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Population unknown; transient traders common",
+    "Navigational auguries used but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:25:20.963Z"
+}

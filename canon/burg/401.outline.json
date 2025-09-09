@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2297a993",
+  "burg_id": 401,
+  "name": "Burg_401",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "waystation",
+    "salt-production"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-priests",
+    "salt-makers",
+    "coastal-smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "marsh-borne disease",
+    "corrupt harbor fees"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "sea-superstitions govern sailing and hunting",
+    "preserved-fish cuisine; salted goods staple",
+    "barter common; small-coin economy"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Population unknown; transient harbor traffic",
+    "Minor waypoint for coastal navigation",
+    "State authority minimal; local guilds enforce order"
+  ],
+  "generated_at": "2025-09-09T04:29:21.725Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_78ac993f",
+  "burg_id": 270,
+  "name": "Burg_270",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "small-scale trade",
+    "ritual-supply",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-apothecaries",
+    "clan-matriarchs"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "tax-pressures"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "tide-based festivals and boat-processions",
+    "cuisine: salt-preserved fish, seaweed condiments"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent shortage",
+    "heir-dispute"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "population unknown",
+    "serves nearby islets; navigation aids present but limited"
+  ],
+  "generated_at": "2025-09-09T04:20:17.155Z"
+}

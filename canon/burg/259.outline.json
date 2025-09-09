@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_70f1594d",
+  "burg_id": 259,
+  "name": "Burg_259",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "small",
+  "economy_roles": [
+    "reagent foragers",
+    "small-scale fishing",
+    "salt-cured fish trade",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Harborfolk Cooperative",
+    "Reagent Collectors' Circle",
+    "Elder Council"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "seasonal storm damage",
+    "coastal bandits"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced speech",
+    "tide-blessing rites before harvest",
+    "diet of salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "tidepool disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "small cove port, limited deep-draft access",
+    "navigational auguries supplement charts"
+  ],
+  "generated_at": "2025-09-09T04:19:31.806Z"
+}

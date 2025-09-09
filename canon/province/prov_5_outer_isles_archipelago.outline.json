@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_outer_isles_archipelago",
+  "checksum": "fnv1a_9e33bba3",
+  "name": "Outer Isles Archipelago",
+  "aliases": [
+    "Outer Isles",
+    "Isles of Tides",
+    "Salt-ward Isles"
+  ],
+  "tags": [
+    "archipelago",
+    "fisheries",
+    "shipbuilding",
+    "saltworks",
+    "ritual-reagents"
+  ],
+  "role_in_state": "maritime outpost & small-ship hub",
+  "economy_niches": [
+    "small-boat fisheries and salting",
+    "coastal shipbuilding (sloops, longboats)",
+    "harvest/processing of ritual reagents (seaweeds, sponges, resins)",
+    "pilotage and augury services for coastal trade",
+    "seasonal salt and kelp cottage industry"
+  ],
+  "culture_adjustments": [
+    "stronger clan-guild autonomy; local captains override distant sea-law",
+    "oral ballads focus on single-ship sagas and island-origin myths",
+    "practical, short-range auguries specialized for local channels",
+    "heavier Island Creole lexical influence in everyday speech",
+    "communal boat-sheds and collective labor rites for ship-launches"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-exposure",
+    "piracy and raiding",
+    "resource depletion (fishbeds, kelp)",
+    "supply-line fragility"
+  ],
+  "constraints": [
+    "limited arable land",
+    "reliance on imported bulky reagents for high-demand rituals",
+    "no heavy combustion industry (fuel scarce)"
+  ],
+  "notes": [
+    "key source of pilots, charts, and low-tonnage coastal craft",
+    "population fluxes seasonally with fishing and salting cycles"
+  ],
+  "generated_at": "2025-09-09T04:07:05.523Z"
+}

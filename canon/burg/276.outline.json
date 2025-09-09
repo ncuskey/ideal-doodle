@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_eb7d7b83",
+  "burg_id": 276,
+  "name": "Burg_276",
+  "state_id": 0,
+  "province_id": "",
+  "tags": [
+    "none",
+    "crossroads",
+    "ritual-workshop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal trade",
+    "ritual reagent processing",
+    "fisherfolk",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual guild",
+    "smugglers",
+    "ancestor-clergy"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "daily tide-offerings and ancestor altars",
+    "diet: smoked fish and fermented seaweed",
+    "crafts: beadwork and reagent distillation"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "tide-omen"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "state unknown; light provincial oversight",
+    "serves as waypoint for coastal and riverine trade"
+  ],
+  "generated_at": "2025-09-09T04:20:56.581Z"
+}

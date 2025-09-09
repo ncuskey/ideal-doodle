@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fa040a65",
+  "burg_id": 6,
+  "name": "Burg_6",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-lab",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual reagent harvesting",
+    "waystation/ship services",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "tide-shrine clan",
+    "harborwich merchants",
+    "boatwright cooperative",
+    "shadow-smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling-run conflict",
+    "supply shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole base with Riveric loanwords",
+    "tide-offering rituals shape daily schedule",
+    "diet heavy on salted fish, seaweed, preserved goods",
+    "craft focus: small boats, nets, ceremonial trinkets"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-component theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control nets",
+    "navigational auguries aid but don't replace charts"
+  ],
+  "notes": [
+    "limited combustion industry; manual and wind power dominant",
+    "local augurers prized for tide-reading during storms"
+  ],
+  "generated_at": "2025-09-09T04:35:39.412Z"
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_38230995",
+  "burg_id": 39,
+  "name": "Burg_39",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-curing",
+    "reagent-brokering",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Fisher-Row Guild",
+    "Tide-Offering House",
+    "Coastal Smugglers",
+    "Visiting Merchant Line"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling conflicts",
+    "religious friction"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical cant",
+    "communal boat rites tied to tides",
+    "diet: salted fish and seaweed",
+    "rituals require imported reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "strange tides"
+  ],
+  "constraints": [
+    "No instant resurrection; ritual magic consumes scarce imported reagents",
+    "Long-range mind influence banned; navigational auguries cannot replace charts",
+    "Combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech with pervasive material-component rituals",
+    "Rocky cove outpost reliant on seasonal trade and visiting ships"
+  ],
+  "generated_at": "2025-09-09T04:28:24.528Z"
+}

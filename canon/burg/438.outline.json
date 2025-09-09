@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7b74c12b",
+  "burg_id": 438,
+  "name": "Burg_438",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-ingredient trade",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Fisherfolk Guild",
+    "Tide-Animists Circle",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "tidal siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet: salted fish, seaweed, preserved shellfish",
+    "customs: tide-based rites and small-boat festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing dredge",
+    "tidal-ghosts"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries used but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:32:06.979Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d52ee2db",
+  "burg_id": 144,
+  "name": "Burg_144",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent transshipment",
+    "small-scale fishing",
+    "waystation/pilotage"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent House",
+    "Ancestor Circle",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling pressure"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "ritualized seamanship customs",
+    "seafood-centered cuisine",
+    "deference to navigational elders"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "ancestral relic recovery"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection",
+    "navigational auguries limited (don't replace charts)"
+  ],
+  "notes": [
+    "small population, ephemeral records",
+    "serves nearby reef shipping lane"
+  ],
+  "generated_at": "2025-09-09T04:12:04.279Z"
+}

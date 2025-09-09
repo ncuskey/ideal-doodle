@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c98d7be9",
+  "burg_id": 321,
+  "name": "Burg_321",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply-production",
+    "ship-repair"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-collectors",
+    "elders-council"
+  ],
+  "problems": [
+    "scarce-imports",
+    "smuggling",
+    "storm-damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with heavy nautical slang",
+    "ancestor-feast cycle tied to tides",
+    "salt-preserved cuisine and fish-curing techniques",
+    "seafaring superstitions shape daily rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supply theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial with pervasive localized ritual magic",
+    "small strategic harbor servicing larger coastal trade routes"
+  ],
+  "generated_at": "2025-09-09T04:23:57.049Z"
+}

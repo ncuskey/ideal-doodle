@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_258e3e45",
+  "burg_id": 316,
+  "name": "Burg_316",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "harbor-waystation",
+    "ritual-supply-trading",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "shore-clan",
+    "ritual-herbalists",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "navigation-hazards",
+    "infrastructure-decay"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "sea-salted cuisine; pickling common",
+    "ritual offerings integrated into trade",
+    "local taboo against public maps"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "failed-ritual",
+    "missing-shipment"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned",
+    "navigation auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "state affiliation unknown; likely border/outpost",
+    "population small and transient",
+    "use NPCs: harbormaster, ritual-merchant, tide-priest"
+  ],
+  "generated_at": "2025-09-09T04:23:37.250Z"
+}

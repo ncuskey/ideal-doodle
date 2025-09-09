@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f7af9f4f",
+  "burg_id": 429,
+  "name": "Burg_429",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "small-scale fishing",
+    "harbor services",
+    "smuggling hub"
+  ],
+  "factions_local": [
+    "Harbormaster's Lodge",
+    "Ancestor Circle (local)",
+    "Merchant Cutter Syndicate",
+    "Tidepriest Sects"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling & piracy",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "dialect: Coastal Tongues with Riveric loanwords",
+    "custom: nightly tide-offerings",
+    "cuisine: salted fish, fermented seaweed",
+    "governance: de facto harbormaster and elders"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind magic banned"
+  ],
+  "notes": [
+    "state assignment unknown; population unknown",
+    "strategic minor harbor on coastal trade routes"
+  ],
+  "generated_at": "2025-09-09T04:31:09.676Z"
+}

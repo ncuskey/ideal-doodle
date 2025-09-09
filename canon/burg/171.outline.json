@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7fe44773",
+  "burg_id": 171,
+  "name": "Burg_171",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-provision"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferry/toll",
+    "fish-curing",
+    "ritual reagent trade",
+    "timber milling"
+  ],
+  "factions_local": [
+    "Ferrymen Guild",
+    "Shrine-keeper Kinship",
+    "Reagent Merchant Agent",
+    "Riverwatch Band"
+  ],
+  "problems": [
+    "banditry on approaches",
+    "scarcity of imported reagents",
+    "silted landing and seasonal floods"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect with coastal loanwords",
+    "Diet heavy on smoked/pressed river fish",
+    "Funerary boat rites and tide-timed festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "ferry sabotage"
+  ],
+  "constraints": [
+    "Rituals consume scarce imported reagents or local labor",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Tech baseline: near-medieval to early-industrial; navigational auguries augment but do not replace charts",
+    "Outpost reliant on seasonal trade and single main landing"
+  ],
+  "generated_at": "2025-09-09T04:13:49.095Z"
+}

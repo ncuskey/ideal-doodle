@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_78329b05",
+  "burg_id": 455,
+  "name": "Burg_455",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-reagent depot",
+    "local market"
+  ],
+  "factions_local": [
+    "merchant guildlet",
+    "ritual caretakers",
+    "coastal wardens"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue pidgin",
+    "ritual barter customs",
+    "salt-preserved diet"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing caravans"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce reagents",
+    "limited combustion industry"
+  ],
+  "notes": [
+    "small settlement on coastal spit",
+    "supplies seasonal; reliant on passing trade"
+  ],
+  "generated_at": "2025-09-09T04:33:00.725Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_87159a63",
+  "burg_id": 353,
+  "name": "Burg_353",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "rite-for-hire",
+    "boat repair",
+    "waystation trade"
+  ],
+  "factions_local": [
+    "ritual guild",
+    "boatmen's crew",
+    "merchant middlemen"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal floods",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect dominant",
+    "fish-and-rice cuisine",
+    "public river-rituals at dawn",
+    "strong kinship obligations"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "ritual malfunction"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and banned",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "navigational auguries used but do not replace charts",
+    "near-medieval tech with localized ritual magic",
+    "supply lines seasonal"
+  ],
+  "generated_at": "2025-09-09T04:26:04.133Z"
+}

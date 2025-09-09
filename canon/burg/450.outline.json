@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1efc4253",
+  "burg_id": 450,
+  "name": "Burg_450",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-augury",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "augury services (navigational)",
+    "transshipment/waypoint trade",
+    "salt and cured fish production"
+  ],
+  "factions_local": [
+    "Augury Guild (local augurs)",
+    "Fisherfolk Council",
+    "Small-time smugglers",
+    "Shrine Circle (Sea-Tide animists)"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "seasonal storm isolation",
+    "smuggling and tariff evasion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ship-blessing and tide-offering rituals common",
+    "diet heavy on salted fish and fermented sea vegetables",
+    "crafts: driftwood talismans and navigational charts with ritual marks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagents",
+    "failed augury / lost convoy"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts or seamanship",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "population unknown; pitch as small, tightly knit harbor community"
+  ],
+  "generated_at": "2025-09-09T04:32:42.636Z"
+}

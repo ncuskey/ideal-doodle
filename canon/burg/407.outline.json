@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cd043223",
+  "burg_id": 407,
+  "name": "Burg_407",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-supply-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual supply depot",
+    "coastal fishing",
+    "ship repair",
+    "small market"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Shrine Keepers (Ancestor)",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "isolation",
+    "weather damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "dialect: Coastal Tongues influence",
+    "tide-offering customs",
+    "diet: dried fish & seaweed",
+    "suspicious of outsiders"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "tidal omens"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "navigational auguries do not replace charts"
+  ],
+  "notes": [
+    "resupply point for coastal traders",
+    "perennial low population; records spotty"
+  ],
+  "generated_at": "2025-09-09T04:29:35.876Z"
+}

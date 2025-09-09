@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_eb683777",
+  "burg_id": 223,
+  "name": "Burg_223",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "unknown_population",
+    "coastal-influence",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-component trade",
+    "small-scale fishing",
+    "provisioning"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-lineage",
+    "itinerant-merchants"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry on routes",
+    "resource instability"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal Tongues influence; mixed Riveric loanwords",
+    "strong ancestor-visiting customs",
+    "diet heavy on preserved fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing-sailors"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "small transient population; seasonal traffic",
+    "serves larger coastal routes as resupply node"
+  ],
+  "generated_at": "2025-09-09T04:17:06.904Z"
+}

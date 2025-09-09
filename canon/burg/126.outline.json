@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4cda20f7",
+  "burg_id": 126,
+  "name": "Burg_126",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-harvest"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-ingredient gathering",
+    "fishing",
+    "waystation",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "harvesters' guild",
+    "mariners' coop",
+    "ritual-keepers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "communal ancestor rites tied to fishing seasons",
+    "seafood-and-dried-kelp cuisine"
+  ],
+  "quest_hook_slots": [
+    "reagent-theft",
+    "shipwreck salvage",
+    "missing-elder"
+  ],
+  "constraints": [
+    "No instant resurrection/true life-replacement magics",
+    "Rituals require scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech",
+    "Navigational auguries exist but do not replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:10:55.639Z"
+}

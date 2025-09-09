@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_91b7a5e3",
+  "burg_id": 410,
+  "name": "Burg_410",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-workshop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "pilotage",
+    "ritual-lab services",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual-practitioners circle",
+    "shipwright cooperative",
+    "smuggler ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dominant dialect with Riveric loanwords",
+    "diet: preserved & fermented seafood",
+    "tide-blessing seasonal festivals",
+    "crafts: rope, timber, simple augury tokens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "tech: near-medieval to early-industrial with localized ritual magic",
+    "pop≈n/a"
+  ],
+  "generated_at": "2025-09-09T04:29:47.308Z"
+}

@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ce35d685",
+  "burg_id": 477,
+  "name": "Burg_477",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-trading",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "Reagent Guild (local)",
+    "Harborwatch",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "smuggling",
+    "coastal raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "dialect: Coastal Tongues",
+    "tide-offering customs",
+    "cuisine: smoked/salted fish",
+    "wariness of strangers"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "limited imported reagents for rituals",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "state unknown; population n/a",
+    "tech baseline: near-medieval to early industrial with ritual magic dependence"
+  ],
+  "generated_at": "2025-09-09T04:34:40.849Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a347568f",
+  "burg_id": 371,
+  "name": "Burg_371",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-provisioning",
+    "harbor-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-provisioning",
+    "local-trade",
+    "smuggling"
+  ],
+  "factions_local": [
+    "fishermen's guild",
+    "ritual-labour lodge",
+    "harbormaster clique",
+    "smuggler ring"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "harbor-siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "fermented seafood staples",
+    "tide-calendar festivals with small offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "angered-tide-spirit"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence; no resurrection magics"
+  ],
+  "notes": [
+    "population unknown; seasonal fluctuation",
+    "shallow approach limits ship size; goods transshipped"
+  ],
+  "generated_at": "2025-09-09T04:27:14.455Z"
+}

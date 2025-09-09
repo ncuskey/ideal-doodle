@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_951db9a3",
+  "burg_id": 106,
+  "name": "Burg_106",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-labor",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor depot",
+    "transit/waystation",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "Ancestor Shrine Keepers",
+    "Tidewright Guild",
+    "Smugglers' Ring",
+    "Harbormaster's Office"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids on coastal routes",
+    "jurisdictional dispute",
+    "infrastructure decay"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "ritual feasts tied to tidal calendar",
+    "seaweed-salted cuisine",
+    "shore-burial taboos"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "long-range mind-influence is banned"
+  ],
+  "notes": [
+    "population unknown; seasonal influx of ritual workers",
+    "navigational augury practiced locally but does not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:09:41.102Z"
+}

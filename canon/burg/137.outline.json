@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ec25e6d7",
+  "burg_id": 137,
+  "name": "Burg_137",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "waystation",
+    "ritual-hub",
+    "coastal-influence"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation-trade",
+    "ritual-supplies",
+    "local-fish-preservation"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "merchant-clan",
+    "village-militia"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "isolation",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in speech",
+    "strong household ancestor rites",
+    "diet centered on salted/preserved fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-supply",
+    "disappearances"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "navigational-auguries-not-substitutes"
+  ],
+  "notes": [
+    "ritual magic consumes imported reagents",
+    "settlement reliant on irregular coastal/river supply"
+  ],
+  "generated_at": "2025-09-09T04:11:41.124Z"
+}

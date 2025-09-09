@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cca509f9",
+  "burg_id": 34,
+  "name": "Burg_34",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-lab",
+    "crossroads"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent transshipment",
+    "waystation services",
+    "artisanal repairs",
+    "pilotage/navigation aids"
+  ],
+  "factions_local": [
+    "merchant guildlet",
+    "ritual-labor collective",
+    "harbor militia",
+    "smuggling ring"
+  ],
+  "problems": [
+    "scarce reagents",
+    "banditry on approaches",
+    "corrupt lighten-of-duty"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-inflected dialect with loanwords",
+    "ritual etiquette governs handling of reagents",
+    "seafood-forward cuisine and preserved fare",
+    "preference for barter and promissory notes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen-reagent scheme",
+    "missing pilots/guides"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown; functions as strategic waypoint",
+    "limited formal records; local memory prioritized"
+  ],
+  "generated_at": "2025-09-09T04:25:19.829Z"
+}

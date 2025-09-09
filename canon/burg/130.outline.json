@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_400281ad",
+  "burg_id": 130,
+  "name": "Burg_130",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-reagent trade",
+    "small-scale fishing"
+  ],
+  "factions_local": [
+    "harbormaster guild",
+    "ritualist traders",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "coastal banditry",
+    "contested tidal shoals"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "evening tide-offerings common",
+    "diet heavy on salted and smoked fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no true life-replacement or instant resurrection"
+  ],
+  "notes": [
+    "serves as coastal resupply point for ritual routes",
+    "strategic shoals complicate navigation"
+  ],
+  "generated_at": "2025-09-09T04:11:10.749Z"
+}

@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_21b290c1",
+  "burg_id": 38,
+  "name": "Burg_38",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-port",
+    "fisheries",
+    "ritual-labor provisioning",
+    "coastal-waystation"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "tide-ritual priesthood",
+    "coastal smugglers"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry on supply roads",
+    "isolation from major markets"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "diet heavy on salted fish and seaweed",
+    "tide-based seasonal festivals and rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearing boats"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline; limited combustion industry",
+    "navigational auguries present but do not replace charts/seamanship"
+  ],
+  "generated_at": "2025-09-09T04:27:51.644Z"
+}

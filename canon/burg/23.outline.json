@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_51f8c43d",
+  "burg_id": 23,
+  "name": "Burg_23",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "pilotage",
+    "fishing",
+    "reagent depot"
+  ],
+  "factions_local": [
+    "Harbormaster's Circle",
+    "Reagent Syndicate",
+    "Pilots' Brotherhood"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with island loanwords",
+    "Cuisine: salted fish, seaweed stews",
+    "Rituals tied to tide and star-calendar observances"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing pilot",
+    "stolen reagents"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents; long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "Tech: near-medieval to early industrial; limited combustion industry",
+    "Function: small coastal outpost and reagent waypoint"
+  ],
+  "generated_at": "2025-09-09T04:17:31.368Z"
+}

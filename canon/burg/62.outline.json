@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cfe45e75",
+  "burg_id": 62,
+  "name": "Burg_62",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-harbor",
+    "reagent-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "harbor services",
+    "fishing",
+    "ritual labor outsourcing"
+  ],
+  "factions_local": [
+    "Merchants' Lodge",
+    "Dockworkers' Guild",
+    "Shrine of Ancestors",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and corruption",
+    "tidal flooding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with coastal loanwords",
+    "docks-centered ancestor rituals at low tide",
+    "diet: salted fish and fermented riverweed",
+    "market stalls timed to tides"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen reagent cache",
+    "disappearing dredge crew"
+  ],
+  "constraints": [
+    "scarce imported ritual reagents",
+    "long-range mind influence legally banned",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "sits at a tidal estuary controlling a ford and reagent shipments",
+    "navigational auguries used; charts unreliable"
+  ],
+  "generated_at": "2025-09-09T04:35:56.505Z"
+}

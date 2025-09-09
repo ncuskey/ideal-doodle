@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_harbor_city_quarter",
+  "checksum": "fnv1a_d6a0a33",
+  "name": "Harbor City Quarter",
+  "aliases": [
+    "The Quarter",
+    "Harbor Quarter"
+  ],
+  "tags": [
+    "harbor",
+    "shipwright-guild",
+    "longshore-trade",
+    "saltworks",
+    "reagent-hub",
+    "Coastal-Tongues"
+  ],
+  "role_in_state": "Primary port, shipbuilding and reagent trade hub",
+  "economy_niches": [
+    "shipbuilding and repair (guild slips)",
+    "longshore brokerage & transshipment",
+    "fish curing and salt processing",
+    "storage and re-export of ritual reagents",
+    "skilled maritime apprenticeships (crew supply)"
+  ],
+  "culture_adjustments": [
+    "apprenticeship hierarchy stronger than rural kin ties",
+    "boat-house identity supersedes residential neighbourhoods",
+    "oral navigational songs maintained as commercial charts",
+    "stricter seasonal voyage taboos enforced by guild councils",
+    "practical fusion of merchant liturgies into daily trade rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "warehouse fires",
+    "overcrowding / sanitation",
+    "smuggling of reagents",
+    "guild strikes / berth disputes"
+  ],
+  "constraints": [
+    "limited land for expansion (dense wharves)",
+    "guild monopoly on slips and drydocks",
+    "ritual reagents subject to heavy inspection and tariffs"
+  ],
+  "notes": [
+    "maintains registry of chart-keepers and lead pilots",
+    "port duties and reagent tariffs are major revenue source",
+    "seasonal partial closures during storm season"
+  ],
+  "generated_at": "2025-09-09T04:05:05.634Z"
+}

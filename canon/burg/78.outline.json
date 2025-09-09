@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e74ba569",
+  "burg_id": 78,
+  "name": "Burg_78",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supplies-trade",
+    "ship-repair",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritual Circle",
+    "Smuggler Crew",
+    "Coastal Clan"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "banditry",
+    "authority distrust"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "seafood-and-seaweed cuisine",
+    "rituals timed to tides"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "tide-spirit unrest"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind-influence banned"
+  ],
+  "notes": [
+    "state authority weak/unknown",
+    "small transient population",
+    "depends on incoming ships for reagents and trade"
+  ],
+  "generated_at": "2025-09-09T04:36:58.612Z"
+}

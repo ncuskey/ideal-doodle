@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_38bfdfef",
+  "burg_id": 214,
+  "name": "Burg_214",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-hamlet",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferrying",
+    "fishing",
+    "ritual-reagent-gathering",
+    "smallcraft-repair"
+  ],
+  "factions_local": [
+    "ferry-guild",
+    "herbalists-coven",
+    "boat-families"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "seasonal-flooding",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "boat-focused daily life and rites",
+    "ritual craft integrated into trades",
+    "heavy reliance on imported reagents"
+  ],
+  "quest_hook_slots": [
+    "reagent-smuggling",
+    "disappearing-ferries",
+    "ritual-contamination"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "ritual-magic-consumes-scarce-reagents",
+    "long-range-mind-influence-rare-and-banned"
+  ],
+  "notes": [
+    "population unknown; small/outpost scale",
+    "tech: near-medieval to early-industrial with ritual adjuncts"
+  ],
+  "generated_at": "2025-09-09T04:16:34.333Z"
+}

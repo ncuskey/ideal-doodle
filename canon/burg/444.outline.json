@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d6652e59",
+  "burg_id": 444,
+  "name": "Burg_444",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "waypoint for coastal traders",
+    "small-scale fishing",
+    "salt harvesting"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "apothecary-coven",
+    "clan elders",
+    "smuggling ring"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "bandit raids on skiffs",
+    "flood damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect predominant",
+    "daily sea-offering customs",
+    "diet: salted fish and fermented seaweed",
+    "ritual labor specialization: reagent scavengers"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearing fishing vessels"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents; high cost limits prolonged use",
+    "Navigational auguries aid but don't replace charts and seamanship"
+  ],
+  "notes": [
+    "State affiliation unknown; frontier governance",
+    "Population transient; many sailors and itinerant ritualists"
+  ],
+  "generated_at": "2025-09-09T04:32:21.953Z"
+}

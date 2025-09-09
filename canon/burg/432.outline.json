@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f1068707",
+  "burg_id": 432,
+  "name": "Burg_432",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "waystation",
+    "reagent supply",
+    "artisanal fishing"
+  ],
+  "factions_local": [
+    "ritualcrafters",
+    "harbor guild",
+    "clan elders"
+  ],
+  "problems": [
+    "scarcity",
+    "banditry",
+    "infrastructure decay"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "public rituals tied to reagent cycles",
+    "seafood-forward cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearances"
+  ],
+  "constraints": [
+    "rituals require scarce reagents",
+    "no long-range mind control"
+  ],
+  "notes": [
+    "population unknown; records sparse",
+    "access via coastal track and small harbor"
+  ],
+  "generated_at": "2025-09-09T04:31:24.516Z"
+}

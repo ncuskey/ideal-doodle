@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1bbbbd5",
+  "burg_id": 52,
+  "name": "Burg_52",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-stop",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual-reagent transit",
+    "pilgrim waypoint",
+    "local market for ships"
+  ],
+  "factions_local": [
+    "harbor guildlet",
+    "reagent brokers",
+    "pilgrim caretakers",
+    "smuggler crew"
+  ],
+  "problems": [
+    "supply scarcity",
+    "smuggling and law evasion",
+    "periodic storms disrupting traffic"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy on salted fish, seaweed, fermented shellfish",
+    "ship-blessing rituals common before voyages",
+    "practical clothing layered for wind and salt"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipment",
+    "smuggling ring exposed",
+    "sacred relic damaged in storm"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "population data unavailable; functions as low-population coastal node",
+    "near-medieval to early-industrial tech with localized ritual practices"
+  ],
+  "generated_at": "2025-09-09T04:35:09.138Z"
+}

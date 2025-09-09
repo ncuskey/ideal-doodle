@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_468cf677",
+  "burg_id": 375,
+  "name": "Burg_375",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "port",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation",
+    "ritual-reagent trade"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual-collectors",
+    "elders-council"
+  ],
+  "problems": [
+    "scarce imports",
+    "banditry",
+    "inter-sect tension"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salt-preserved cuisine",
+    "tide-blessing festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost-reagent recovery",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "navigational auguries cannot replace charts",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "shallow port accessible at low tide only",
+    "population small and transient"
+  ],
+  "generated_at": "2025-09-09T04:27:26.216Z"
+}

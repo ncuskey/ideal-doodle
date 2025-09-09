@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_drydock_quarter",
+  "checksum": "fnv1a_e4b3c48",
+  "name": "Drydock Quarter",
+  "aliases": [
+    "Drydock Ward",
+    "Slipworks"
+  ],
+  "tags": [
+    "maritime",
+    "industrial",
+    "guild-district",
+    "provisioning"
+  ],
+  "role_in_state": "Primary ship-repair and outfitting hub",
+  "economy_niches": [
+    "ship repair & refitting",
+    "keel and hull carpentry",
+    "salt-curing & ship provisions",
+    "rigging, ropework & chandlery",
+    "reagent storage & reagent-driven workshop supply"
+  ],
+  "culture_adjustments": [
+    "Guild schedules often override tide-ceremony timetables",
+    "High transient sailor population weakens strict patrilineal control",
+    "Practical literacy concentrated among foremen, quartermasters and augurs",
+    "Ancestor rites adapted into workshop/night-watch shrines"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "fire-hazard (tar & sawdust)",
+    "industrial-accidents",
+    "reagent-theft",
+    "guild-strike / labor unrest"
+  ],
+  "constraints": [
+    "Harbor authority quotas limit new slip construction",
+    "Space-constrained quayside geometry",
+    "Combustion-derived industry restricted by ordinance and safety"
+  ],
+  "notes": [
+    "Primary maintenance point for state fleet and major merchantmen",
+    "Augury houses colocated with chandlers and provisioners",
+    "Night-shift rituals maintain watch over slips"
+  ],
+  "generated_at": "2025-09-09T04:03:05.702Z"
+}

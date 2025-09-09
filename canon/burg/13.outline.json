@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_513f8a35",
+  "burg_id": 13,
+  "name": "Burg_13",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "river-trade",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river trade",
+    "fishing",
+    "ritual-supply depot",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormasters' Ring",
+    "Ancestor-Remembrance Cell",
+    "Augur's Lodge",
+    "Smuggler Coterie"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit raids",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "daily trade includes ritual offerings",
+    "diet: smoked fish and riverweed",
+    "crafts: small-boat carpentry"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual mishap",
+    "supply shortage"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "Tech: near-medieval to early industrial; limited combustion industry",
+    "Small/outpost scale; population sparse or transient"
+  ],
+  "generated_at": "2025-09-09T04:11:02.625Z"
+}

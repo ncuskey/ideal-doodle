@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bc8d171f",
+  "burg_id": 391,
+  "name": "Saltward Outpost",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fisheries",
+    "reagent brokerage",
+    "small-scale ship repair"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritualists' lodge",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "supply disruptions",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence; simple pidgin with fisher idioms",
+    "diet focused on salted fish and fermented seaweed",
+    "daily work infused with small, component-based rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing shipment",
+    "ritual contamination"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual craft essential to economy"
+  ],
+  "generated_at": "2025-09-09T04:28:25.318Z"
+}

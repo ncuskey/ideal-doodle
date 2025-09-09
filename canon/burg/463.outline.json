@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f7acac6f",
+  "burg_id": 463,
+  "name": "Burg_463",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation/relay",
+    "reagent depot",
+    "coastal fishing",
+    "pilotage/guide services"
+  ],
+  "factions_local": [
+    "harbormaster's clique",
+    "reagent brokers",
+    "pilgrim lodge",
+    "shadow skiff crew"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "bandit/smuggler raids",
+    "silted/treacherous channel",
+    "administrative corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ritual token exchange common in trade",
+    "diet heavy on smoked/fermented seafood",
+    "customary tipping of pilots with small votive offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "strange tides/omens"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "serves as transshipment point for ritual supplies",
+    "local pilots hold outsized informal power"
+  ],
+  "generated_at": "2025-09-09T04:33:36.279Z"
+}

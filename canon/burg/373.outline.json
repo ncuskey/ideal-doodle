@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_71ede6d3",
+  "burg_id": 373,
+  "name": "Burg_373",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "harbor-waystation",
+    "ritual-labor",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "coastal banditry",
+    "silted/shallow harbor"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-offering customs",
+    "diet: salted fish and kelp",
+    "sea shanties and navigation songs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "desecration of tidal shrine"
+  ],
+  "constraints": [
+    "no instant resurrection; ritual magic consumes scarce imported reagents",
+    "navigational auguries exist but do not replace charts; combustion industry limited"
+  ],
+  "notes": [
+    "population unknown; small outpost character",
+    "blend of Coastal Tongues and Riveric influences"
+  ],
+  "generated_at": "2025-09-09T04:27:18.467Z"
+}

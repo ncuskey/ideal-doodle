@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_41dd8d7",
+  "burg_id": 168,
+  "name": "Burg_168",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outport",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation for coastal traffic",
+    "ritual-labor provisioning",
+    "small-scale fishing",
+    "ship repair services"
+  ],
+  "factions_local": [
+    "harbor wardens",
+    "ritual guildlet",
+    "trader families",
+    "outlying clan elders"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "irregular supply ships",
+    "coastal raiders/piracy"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole influence in speech",
+    "seafood-heavy cuisine",
+    "tide-based ritual calendar",
+    "informal barter traditions"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipment",
+    "ritual theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; transient seasonal traffic",
+    "dependent on periodic supply runs",
+    "serves as minor navigational stop with local augury practices"
+  ],
+  "generated_at": "2025-09-09T04:13:29.165Z"
+}

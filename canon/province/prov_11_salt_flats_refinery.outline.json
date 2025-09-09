@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_salt_flats_refinery",
+  "checksum": "fnv1a_b00a6cf",
+  "name": "Salt Flats & Refinery",
+  "aliases": [
+    "Salt Flats Refinery",
+    "The Saltworks"
+  ],
+  "tags": [
+    "saltworks",
+    "reagent_hub",
+    "coastal-flats",
+    "export_node"
+  ],
+  "role_in_state": "State's primary salt and ritual-reagent supplier",
+  "economy_niches": [
+    "salt evaporation and refinement",
+    "reagent extraction & concentration for ritual magic",
+    "packing, curing and barrel-provisioning for long voyages",
+    "maritime supply staging (barrels, cooperage, stores)",
+    "seasonal labor leasing and augur-support services"
+  ],
+  "culture_adjustments": [
+    "timekeeping keyed to evaporation/harvest cycles rather than tide-hours",
+    "weaker centralized guild control; many independent salt-house operators",
+    "practical literacy concentrated in foremen, augur-liaisons and merchants",
+    "greater female participation in processing roles compared with port cores",
+    "ancestral rites emphasize flatland/ground spirits alongside Sea-Tide cults"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "corrosive infrastructure decay",
+    "salt-pond breach / flooding",
+    "smuggling of valuable reagents",
+    "labor unrest during narrow harvest windows",
+    "seasonal storm surge"
+  ],
+  "constraints": [
+    "scarce freshwater limits population and expansion",
+    "ritual magic processing depends on imported scarce reagents",
+    "heavy combustion industry restricted by regional limits",
+    "production tied to narrow, weather-dependent harvest periods"
+  ],
+  "notes": [
+    "critical supplier to State_11 shipbuilding, fisheries and long voyages",
+    "refinery kilns and concentration pits require regulated fuels and hearth-rituals",
+    "strategic chokepoint for reagent trade; politically sensitive and often policed"
+  ],
+  "generated_at": "2025-09-09T04:03:16.082Z"
+}

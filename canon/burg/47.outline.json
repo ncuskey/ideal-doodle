@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_84d302ad",
+  "burg_id": 47,
+  "name": "Burg_47",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-magic",
+    "harbor"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "salt-curing",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "shrineminders (Ancestor cult)",
+    "mariners' guild",
+    "merchant petty-syndicate",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry on approaches",
+    "silted harbor"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric borrowings",
+    "annual ancestor-feast sea-procession",
+    "diet heavy on salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "shrines under threat"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "state unknown; border/outpost character",
+    "population data unavailable"
+  ],
+  "generated_at": "2025-09-09T04:34:20.407Z"
+}

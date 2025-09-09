@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8f28d1af",
+  "burg_id": 351,
+  "name": "Burg_351",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation/provisions",
+    "ritual-reagents trade",
+    "ferry and carrying services"
+  ],
+  "factions_local": [
+    "small merchant cell",
+    "ritual-syndicate (lab buyers)",
+    "river-wardens"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry along approaches",
+    "supply disruptions in wet season"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Island Creole loanwords",
+    "Custom of barter-and-ritual for valuable reagents",
+    "Diet centered on smoked/salted river fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ferryman"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind-influence is rare and banned"
+  ],
+  "notes": [
+    "Population unknown; functions as a logistical halt on a river route",
+    "Strategic for ritual supply lines despite small size"
+  ],
+  "generated_at": "2025-09-09T04:26:03.848Z"
+}

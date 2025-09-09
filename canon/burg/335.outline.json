@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_dfc55cc7",
+  "burg_id": 335,
+  "name": "Burg_335",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "fishing",
+    "reagent-trade",
+    "ritual-labor"
+  ],
+  "factions_local": [
+    "ritualist-clan",
+    "trader-guild",
+    "harbor-watch"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "seafood and pickled cuisine",
+    "voyage-offering customs",
+    "local sigil-craft for small rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "relic-hunt",
+    "reagent-run"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "navigational-auguries-limited"
+  ],
+  "notes": [
+    "near-medieval tech with ritual-magic reliance",
+    "remote coastal waystation",
+    "imports required for many rituals"
+  ],
+  "generated_at": "2025-09-09T04:24:58.806Z"
+}

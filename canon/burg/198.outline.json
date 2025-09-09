@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e4fb8f15",
+  "burg_id": 198,
+  "name": "Burg_198",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-provisioning",
+    "waystation",
+    "salt-harvest"
+  ],
+  "factions_local": [
+    "Captain's Lodge",
+    "Ritual Guild",
+    "Pilgrim Brotherhood",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "isolation",
+    "banditry",
+    "supply-shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-offerings & ancestor votives",
+    "seafood-salt cuisine",
+    "star-superstitions guide festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-supplies",
+    "failed-ritual"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries supplement but do not replace seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "access limited by tidal bar; periodic resupply windows"
+  ],
+  "generated_at": "2025-09-09T04:15:25.827Z"
+}

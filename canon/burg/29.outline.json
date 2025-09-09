@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4c9d1629",
+  "burg_id": 29,
+  "name": "Burg_29",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply trade",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormaster Circle",
+    "Ancestor Remembrancers",
+    "Coastal Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal isolation",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect mix",
+    "seaweed-and-smoked-fish cuisine",
+    "ritual etiquette tied to tides"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ships",
+    "stolen-ritual-reagents"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech with local ritual magic",
+    "Navigational auguries exist but don't replace charts",
+    "Population small/seasonal; records sparse"
+  ],
+  "generated_at": "2025-09-09T04:21:40.734Z"
+}

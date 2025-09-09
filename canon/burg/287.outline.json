@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d9345283",
+  "burg_id": 287,
+  "name": "Burg_287",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "waystation services"
+  ],
+  "factions_local": [
+    "shipmasters' guild",
+    "reagent merchants",
+    "coastal militia",
+    "smuggling ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "seasonal storms",
+    "limited fresh water"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "seafood-heavy cuisine",
+    "tide-offering festival"
+  ],
+  "quest_hook_slots": [
+    "reagent theft",
+    "shipwreck salvage",
+    "ritual backlash"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "population data unavailable; small outpost role"
+  ],
+  "generated_at": "2025-09-09T04:21:21.528Z"
+}

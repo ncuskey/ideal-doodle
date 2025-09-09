@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e6ffc8c7",
+  "burg_id": 366,
+  "name": "Burg_366",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "reagent-hub",
+    "riverine",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "boat repair",
+    "fisheries",
+    "ritual labor"
+  ],
+  "factions_local": [
+    "river merchants",
+    "ritual consortium",
+    "boatwrights",
+    "smuggler ring"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry along river",
+    "seasonal flood damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect predominant",
+    "tide-blessing ceremonies",
+    "frugal preserved-fish cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing ritual barges"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "long-range mind influence banned",
+    "combustion industry limited"
+  ],
+  "notes": [
+    "population unknown; transient river traffic",
+    "local economy tied to ritual supply chains"
+  ],
+  "generated_at": "2025-09-09T04:27:00.354Z"
+}

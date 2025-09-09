@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_728728a3",
+  "burg_id": 414,
+  "name": "Burg_414",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "subsistence fishing",
+    "reagent trading",
+    "waystation",
+    "small-scale ship repair"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "ritual-priesthood",
+    "smuggler band"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "isolated supply lines",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "sea-blessing rites and small shrines",
+    "diet of salted fish and foraged seaweed",
+    "local craft: hull and net repair"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishing crew"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigational auguries present but limited"
+  ],
+  "generated_at": "2025-09-09T04:30:16.377Z"
+}

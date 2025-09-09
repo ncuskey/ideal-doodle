@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_clifftop_dominions",
+  "checksum": "fnv1a_84b17201",
+  "name": "Clifftop Dominions",
+  "aliases": [
+    "Clifftops",
+    "Rackholds"
+  ],
+  "tags": [
+    "coastal",
+    "cliffs",
+    "shipbuilding",
+    "transshipment"
+  ],
+  "role_in_state": "fortress-dominant maritime transshipment hub",
+  "economy_niches": [
+    "cliff-built shipwright yards",
+    "salt-pans and fish processing",
+    "transshipment chokepoints (cargo lightering)",
+    "quarrying of cliffstone and ballast",
+    "ritual-augury lookouts and wind-omen services"
+  ],
+  "culture_adjustments": [
+    "noble/guild militarization of ports and watch-chains",
+    "gift-exchange favors lookout services and victuals over coin",
+    "vertical-seamanship skills (climbing, ropecraft) emphasized",
+    "folk rites focus on cliff-ancestry and wind/sea omens"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "sea-shear erosion",
+    "rockfall and landslip",
+    "privateering and coastal raiding",
+    "reagent supply bottlenecks"
+  ],
+  "constraints": [
+    "limited arable and flat land",
+    "steep access restricts heavy overland traffic",
+    "ritual reagents costly and mostly imported"
+  ],
+  "notes": [
+    "serves as watch-chain for State_1 shipping lanes",
+    "guilds control cliff-drydock leases and levies",
+    "no named burgs provided in hints"
+  ],
+  "generated_at": "2025-09-09T04:02:15.719Z"
+}

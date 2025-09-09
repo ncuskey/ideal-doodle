@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d51af015",
+  "burg_id": 352,
+  "name": "Burg_352",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fisherfolk",
+    "reagent depot",
+    "waystation"
+  ],
+  "factions_local": [
+    "shipowners' kin",
+    "ritual-guild",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce reagents",
+    "bandit raids",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ritual barter common (fish for reagents)",
+    "diet: salted fish, seaweed, root starches"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ship"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned"
+  ],
+  "notes": [
+    "serves nearby coastal trade routes as resupply point",
+    "navigational auguries used but charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:26:01.859Z"
+}

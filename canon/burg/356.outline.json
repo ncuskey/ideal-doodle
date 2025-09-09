@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d1949d6d",
+  "burg_id": 356,
+  "name": "Burg_356",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "outpost",
+    "reagent-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "reagent trade",
+    "pilotage services"
+  ],
+  "factions_local": [
+    "merchant brotherhood cell",
+    "ritual lodge",
+    "harbor masters"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply delays"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence on local dialect",
+    "tide-linked festival calendar",
+    "diet: preserved fish and seaweed staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "lost pilot"
+  ],
+  "constraints": [
+    "no true resurrection magics",
+    "rituals require scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown",
+    "likely strategic coastal waypoint"
+  ],
+  "generated_at": "2025-09-09T04:26:18.487Z"
+}

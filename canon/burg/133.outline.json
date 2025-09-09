@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_113f3677",
+  "burg_id": 133,
+  "name": "Burg_133",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "small-scale trade",
+    "ritual reagent brokerage",
+    "transit stop"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritualwrights' Circle",
+    "Coastal Clan",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry on supply routes",
+    "storm and harbor damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "seafood- and salt-preserved cuisine",
+    "tide-timed ritual calendar",
+    "suspicious of outsiders and fast deals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "missing boats/crews"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace seamanship"
+  ],
+  "notes": [
+    "Population unknown; transient seasonal traffic",
+    "State affiliation unclear; pragmatic local governance"
+  ],
+  "generated_at": "2025-09-09T04:11:20.541Z"
+}

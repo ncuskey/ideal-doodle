@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2b5c9d6f",
+  "burg_id": 331,
+  "name": "Burg_331",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent storage",
+    "coastal fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormasters",
+    "Reagent Depot Guild",
+    "Skiffwrights"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "smuggling",
+    "coastal banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "dialect: Coastal Tongues with Island Creole loanwords",
+    "markets timed to tides and fishing runs",
+    "diet: salted fish, kelp preserves, spiced legumes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual contamination"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence or instant resurrection"
+  ],
+  "notes": [
+    "state-level affiliation unknown",
+    "minor stop on coastal trade route"
+  ],
+  "generated_at": "2025-09-09T04:24:38.544Z"
+}

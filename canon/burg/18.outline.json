@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8c8587bd",
+  "burg_id": 18,
+  "name": "Burg_18",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-labs",
+    "harbor"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ritual-provisioning",
+    "fishing",
+    "local trade",
+    "repair yards"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbormasters guild",
+    "shipwrights",
+    "smuggler ring"
+  ],
+  "problems": [
+    "scarce reagents",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole loanwords",
+    "dawn ancestor-offerings on the quay",
+    "diet: salted fish and fermented seaweed",
+    "shipwright craft mixed with ritual practice"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Rituals consume scarce imported reagents or specialized labor",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries exist but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:14:18.388Z"
+}

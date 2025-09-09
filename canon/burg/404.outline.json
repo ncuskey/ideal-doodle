@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4fe64559",
+  "burg_id": 404,
+  "name": "Burg_404",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "hidden",
+    "outlier",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-labor",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Ancestor Circle",
+    "Scrap Traders",
+    "Chartless Carters"
+  ],
+  "problems": [
+    "isolation",
+    "reagent scarcity",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
+  ],
+  "culture_notes": [
+    "language: Coastal Tongues influence / creole",
+    "custom: nightly lantern offerings at shrine",
+    "cuisine: salted fish, fermented grains",
+    "social: kin-clan networks, transient visitors"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost relic",
+    "strange omens"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion industry (no high-pressure steam megatechs)"
+  ],
+  "notes": [
+    "population unknown or transient",
+    "often omitted from formal charts (hence '404')"
+  ],
+  "generated_at": "2025-09-09T04:29:32.785Z"
+}

@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c416f12f",
+  "burg_id": 261,
+  "name": "Burg_261",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferry-landing",
+    "reagent-trading",
+    "fishing",
+    "seasonal-market"
+  ],
+  "factions_local": [
+    "Ferry Guild",
+    "Reagent Collectors",
+    "Elders' Council"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "silted-dock"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Coastal loanwords",
+    "Dried-fish and river-soup cuisine",
+    "Boat festivals timed to tide-rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ferries",
+    "reagent-theft"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Transient population; traffic-driven economy",
+    "Strategic small crossing on feeder route"
+  ],
+  "generated_at": "2025-09-09T04:19:41.868Z"
+}

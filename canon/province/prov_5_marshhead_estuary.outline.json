@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_marshhead_estuary",
+  "checksum": "fnv1a_56675642",
+  "name": "Marshhead Estuary",
+  "aliases": [
+    "Marshhead",
+    "The Mouth"
+  ],
+  "tags": [
+    "estuary",
+    "saltmarsh",
+    "lighterage",
+    "tide-plain"
+  ],
+  "role_in_state": "Tidal transshipment and reagent supplier",
+  "economy_niches": [
+    "small-craft shipbuilding (reed & clinker lighter boats)",
+    "estuarine fisheries & shellfish beds",
+    "salt-pans and fish-salting",
+    "harvest of ritual reagents (peat, brackish algae, marsh herbs)",
+    "tidal transshipment / lighterage for larger merchant fleets"
+  ],
+  "culture_adjustments": [
+    "Coastal Tongues mixed with Riveric loanwords and idioms",
+    "heightened veneration of marsh/estuary spirits and fog omens",
+    "port guild structures weakened in favor of kin-based lightering crews",
+    "oral tradition emphasizes cautionary estuary ballads and smuggling lore"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "tidal surge",
+    "siltation and channel shoaling",
+    "marsh-borne disease",
+    "smuggling & piracy"
+  ],
+  "constraints": [
+    "seasonal navigability (restricted by tide and storm windows)",
+    "scarce arable land—reliance on imports",
+    "building requires piled foundations on soft ground",
+    "ritual auguries degraded by marsh miasma → higher reagent consumption"
+  ],
+  "notes": [
+    "key supplier of salt and ritual reagents for state ceremonies",
+    "lighterage crafts are essential logistical nodes for State_5 shipping",
+    "local customary law emphasizes tidal salvage and intertidal rights"
+  ],
+  "generated_at": "2025-09-09T04:07:10.795Z"
+}

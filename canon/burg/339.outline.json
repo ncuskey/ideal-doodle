@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7163771f",
+  "burg_id": 339,
+  "name": "Burg_339",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "fishing",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagents trade",
+    "waystation",
+    "lightkeeping"
+  ],
+  "factions_local": [
+    "shipmasters' guild",
+    "ritual-syndicate",
+    "coastal militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salt-cured cuisine",
+    "ship-blessing rituals",
+    "mariner tattoo traditions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing supply ships",
+    "ritual reagent theft"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no long-range mind influence; institutionally banned"
+  ],
+  "notes": [
+    "population unknown; transient seasonal workers",
+    "vulnerable to seasonal storms"
+  ],
+  "generated_at": "2025-09-09T04:25:18.426Z"
+}

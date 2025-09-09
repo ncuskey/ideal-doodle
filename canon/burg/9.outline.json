@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_452f6c7b",
+  "burg_id": 9,
+  "name": "Burg_9",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-coven",
+    "smugglers"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry-along-inlet",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence",
+    "tide-feasts and keel-blessing rites",
+    "salt-preserved cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ritual-reagent",
+    "disappearing-boats"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigational-auguries-are-advisory-only"
+  ],
+  "notes": [
+    "population unknown",
+    "limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:37:48.940Z"
+}

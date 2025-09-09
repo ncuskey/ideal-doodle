@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4292f355",
+  "burg_id": 464,
+  "name": "Burg_464",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "riverside trade",
+    "reagent procurement",
+    "fishing",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Riverwardens",
+    "Reagent Guild",
+    "Boatwrights' Syndicate",
+    "Ancestor Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "seasonal flooding",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "funerary wakes tied to river rites",
+    "smoked fish staple",
+    "stilt and boat-built architecture"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipments",
+    "smuggling ring",
+    "levee breach / flood threat"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "population unknown; outpost-scale",
+    "sits on minor river trade route"
+  ],
+  "generated_at": "2025-09-09T04:33:53.269Z"
+}

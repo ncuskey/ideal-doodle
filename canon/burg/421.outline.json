@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_15be554f",
+  "burg_id": 421,
+  "name": "Burg_421",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "pilgrim/crew provisioning"
+  ],
+  "factions_local": [
+    "harbormasters' guild",
+    "ritualist coterie",
+    "fishermen cooperative"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "public sea-blessing rites",
+    "diet: salted fish, algae cakes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "rite sabotage"
+  ],
+  "constraints": [
+    "no long-range mind influence",
+    "rituals consume imported reagents"
+  ],
+  "notes": [
+    "low population; sparse records",
+    "exposed small port; reliant on coastal navigation"
+  ],
+  "generated_at": "2025-09-09T04:30:33.139Z"
+}

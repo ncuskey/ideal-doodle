@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_35a54c55",
+  "burg_id": 327,
+  "name": "Burg_327",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply harvesting",
+    "waystation provisioning"
+  ],
+  "factions_local": [
+    "hereditary-keepers",
+    "itinerant-ritualists",
+    "coastal-traders"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry on supply routes",
+    "resource depletion (kelp/fish)"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant dialect",
+    "harvest-tide communal ceremonies",
+    "diet: saltfish, seaweed, preserved goods"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "sea-spirits unrest",
+    "missing supply shipment"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned"
+  ],
+  "notes": [
+    "population unknown; ephemeral settlement pattern",
+    "strategic minor coastal waypoint",
+    "combustion industry minimal"
+  ],
+  "generated_at": "2025-09-09T04:24:13.497Z"
+}

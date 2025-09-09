@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_high_cliffs",
+  "checksum": "fnv1a_858c40ae",
+  "name": "High Cliffs",
+  "aliases": [
+    "Cliffward",
+    "Sea-Edge Heights"
+  ],
+  "tags": [
+    "coastal",
+    "cliffs",
+    "estuary-sentinel",
+    "timber-terraces"
+  ],
+  "role_in_state": "estuary lookout and timber source",
+  "economy_niches": [
+    "timber harvesting for shipbuilding",
+    "rope and sailcloth workshops",
+    "salt-pans on ledges",
+    "cliff-slope herb gardens for ritual reagents",
+    "skiff fisheries and kelp gathering"
+  ],
+  "culture_adjustments": [
+    "stronger cliff-singing navigation chants",
+    "preference for hidden coves and smuggling lore over large ports",
+    "accent enriched with clipped Highland Cant loanwords",
+    "seasonal rock-climbing rites keyed to tidal rhythms",
+    "ancestor veneration tied to family cliff-sites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "coastal erosion",
+    "rockslides",
+    "storm-driven isolation",
+    "smuggling and bandit coves"
+  ],
+  "constraints": [
+    "limited flat arable land",
+    "dangerous access for large cargo ships",
+    "ritual reagents often require import or difficult cliff-harvest",
+    "seasonal road and path closures during storms"
+  ],
+  "notes": [
+    "source of high-quality ship timbers for State_7 yards",
+    "vital lookout stations for estuary currents",
+    "local ropecraft prized across state markets"
+  ],
+  "generated_at": "2025-09-09T04:07:57.263Z"
+}

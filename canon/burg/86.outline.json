@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_59723839",
+  "burg_id": 86,
+  "name": "Burg_86",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-reagent trade",
+    "boat repair",
+    "herbal harvesting"
+  ],
+  "factions_local": [
+    "harbormaster_guild",
+    "ritualist_circle",
+    "smugglers",
+    "shorewatch"
+  ],
+  "problems": [
+    "scarce_imports",
+    "banditry",
+    "supply_disruptions",
+    "ritual_reagent_shortage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "seaweed-and-smoked-fish cuisine",
+    "tide-cycle ritual customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Navigational auguries cannot replace charts or seamanship",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "small pier and slipway; transient crew traffic",
+    "population undocumented; seasonal flux"
+  ],
+  "generated_at": "2025-09-09T04:37:31.858Z"
+}

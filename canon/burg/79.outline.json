@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e4051bf5",
+  "burg_id": 79,
+  "name": "Burg_79",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "small-scale fishing",
+    "waystation relay"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Reagent Merchant Family",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "Tide-offering customs",
+    "Diet of preserved fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply shortage",
+    "strange tides"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind-influence rare and institutionally banned",
+    "Limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Near shoals; navigational hazards",
+    "Minor reagent relay for inland cults",
+    "Transient population of sailors and laborers"
+  ],
+  "generated_at": "2025-09-09T04:37:02.809Z"
+}

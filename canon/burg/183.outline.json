@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7a5815ad",
+  "burg_id": 183,
+  "name": "Burg_183",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-lab supply-cache",
+    "waystation for coastal traffic",
+    "limited-fishing and barter"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "ship-captain's-clan",
+    "coastal-wardens"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "supply-ship dependence",
+    "banditry on coastal tracks"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence on dialect",
+    "diet heavy on preserved fish and ship-provisions",
+    "local customs revolve around tide-rituals and cargo rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-run",
+    "ritual-failure"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; functions as small coastal outpost",
+    "accessible by sea and infrequent coastal caravan runs"
+  ],
+  "generated_at": "2025-09-09T04:14:27.626Z"
+}

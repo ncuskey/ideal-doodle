@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_98961ac5",
+  "burg_id": 172,
+  "name": "Burg_172",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "small",
+  "economy_roles": [
+    "waystation",
+    "artisanal-rituals",
+    "small-market",
+    "subsistence-agriculture"
+  ],
+  "factions_local": [
+    "local-council",
+    "merchant-guild",
+    "ritual-priests",
+    "militia"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "rituals integrated into daily trade",
+    "seafood-forward cuisine",
+    "tattooing and ancestor tokens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-supply-crisis",
+    "ancestral-omen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "ritual-magic-consumes-scarce-imported-reagents",
+    "limited-combustion-industry-no-high-pressure-steam"
+  ],
+  "notes": [
+    "state_id unknown; set to 0",
+    "suitable as small coastal outpost or waystation"
+  ],
+  "generated_at": "2025-09-09T04:13:51.592Z"
+}

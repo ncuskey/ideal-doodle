@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_63d2e939",
+  "burg_id": 21,
+  "name": "Burg_21",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-harbor",
+    "fishing",
+    "ritual-lab-support",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-circle",
+    "smuggler-band"
+  ],
+  "problems": [
+    "scarce-imported-reagents",
+    "coastal-storms",
+    "smuggling-driven-corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loan-words",
+    "seafood-and-salted-provisions cuisine",
+    "tide-superstitions and ritual offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-fisher"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "navigational auguries used but charts and seamanship still required",
+    "limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "generated_at": "2025-09-09T04:16:10.270Z"
+}

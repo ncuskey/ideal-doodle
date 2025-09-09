@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f6c49d93",
+  "burg_id": 292,
+  "name": "Burg_292",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-magic"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-component depot",
+    "fisherfolk",
+    "waystation/relay"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual syndicate",
+    "coastal kin-clan"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "intermittent provisioning"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-blessing and nets-mending communal rites",
+    "diet centered on preserved and smoked seafood",
+    "ritual handling of imported reagents common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing shipments",
+    "ritual contamination"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but seamanship essential"
+  ],
+  "generated_at": "2025-09-09T04:21:51.562Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d5172ed9",
+  "burg_id": 422,
+  "name": "Burg_422",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-trading"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishery",
+    "ritual reagent brokerage",
+    "waystation/harbor services"
+  ],
+  "factions_local": [
+    "harbormasters' cooperative",
+    "ritual brokers' network",
+    "ancestral-priesthood cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "occasional raiding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Island Creole loanwords",
+    "seafood-and-salt-forward cuisine",
+    "strong seafarer ancestor-veneration customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry (no high-pressure steam megatechs)"
+  ],
+  "notes": [
+    "navigational auguries used but do not replace charts/skill",
+    "population unknown; settlement acts as coastal waypoint"
+  ],
+  "generated_at": "2025-09-09T04:30:41.980Z"
+}

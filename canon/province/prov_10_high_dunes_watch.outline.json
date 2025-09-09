@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_high_dunes_watch",
+  "checksum": "fnv1a_e92a4dda",
+  "name": "High Dunes Watch",
+  "aliases": [
+    "High Dunes",
+    "Dunes Watch",
+    "Watch of High Dunes"
+  ],
+  "tags": [
+    "coastal",
+    "watch",
+    "salt-pans",
+    "augury-node",
+    "low-agriculture"
+  ],
+  "role_in_state": "coastal defensive and salt-provisioning outpost",
+  "economy_niches": [
+    "salt-curing and pans",
+    "coastal salvage & ship repair",
+    "navigational augury & lookout services",
+    "small-boat fisheries and cured fish",
+    "dune-harvested fuel and thatch"
+  ],
+  "culture_adjustments": [
+    "dune-superstitions and sand-ward rituals prominent",
+    "apprenticeship tied to rotational watch duty rather than central guild halls",
+    "watch-family kin-lines dominate offices and rites",
+    "tide-festivals emphasize protection from sand-winds and shipwreck rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-sand encroachment",
+    "saltwater inundation",
+    "smuggling and piracy",
+    "supply isolation seasonally",
+    "banditry on dune-tracks"
+  ],
+  "constraints": [
+    "scarce fresh water limits population and large workshops",
+    "shifting dunes prevent major harbor construction",
+    "ritual magic dependent on imported reagents with slow resupply"
+  ],
+  "notes": [
+    "linear watchtower chain links province into state augury network",
+    "daily bearing reports dispatched to state convoys and guilds",
+    "salt production operates under state guild license and quotas"
+  ],
+  "generated_at": "2025-09-09T04:02:56.422Z"
+}

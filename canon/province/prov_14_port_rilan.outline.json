@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_port_rilan",
+  "checksum": "fnv1a_d86a10c9",
+  "name": "Port Rilan",
+  "aliases": [
+    "Rilan",
+    "Rilan Haven"
+  ],
+  "tags": [
+    "port",
+    "shipyards",
+    "saltworks",
+    "augury-hub",
+    "coastal-trade"
+  ],
+  "role_in_state": "primary commercial port and augury center",
+  "economy_niches": [
+    "fishing and preserved seafood",
+    "shipbuilding and repair",
+    "saltworks and salt export",
+    "pilotage, charts and augury services",
+    "coastal bazaar for regional trade"
+  ],
+  "culture_adjustments": [
+    "stronger guild and harbour-clan authority over apprenticeship rites",
+    "coastal tongue dialect compressed with nautical jargon",
+    "public sea-rituals emphasize pragmatic safety over liturgy",
+    "ancestor veneration concentrated in shipwright and captain lineages"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "piracy and smuggling",
+    "guild feuds",
+    "salt-pan fires"
+  ],
+  "constraints": [
+    "limited hinterland arable land",
+    "ritual auguries consume scarce imported reagents",
+    "seasonal blockades during monsoon months"
+  ],
+  "notes": [
+    "strategic choke-point for coastal trade routes",
+    "apprenticeship courts mediate harbour disputes",
+    "saltworks require seasonal influx of migrant labour"
+  ],
+  "generated_at": "2025-09-09T04:04:25.053Z"
+}

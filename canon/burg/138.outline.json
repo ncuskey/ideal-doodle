@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4b147ccd",
+  "burg_id": 138,
+  "name": "Burg_138",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "waystation",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "harbor-wardens",
+    "ritual-guild",
+    "trader-clan",
+    "ancestor-priests"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "bandit-raids",
+    "supply-uncertainty"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "seaweed-and-fish staples",
+    "tide-linked ritual calendar",
+    "kinship house networks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fisherfolk"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence institutionally banned"
+  ],
+  "notes": [
+    "State-level data absent; settlement marginal and loosely governed",
+    "important as a coastal waystation and ritual supply point"
+  ],
+  "generated_at": "2025-09-09T04:11:36.039Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e5861a4f",
+  "burg_id": 379,
+  "name": "Burg_379",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-syndicate",
+    "coastal-wardens"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "weather-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "ship-blessing tide festivals",
+    "salt-preserved seafood cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-failure",
+    "missing-supply"
+  ],
+  "constraints": [
+    "rituals-consume-scarce-reagents",
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "population unknown; intermittent resupply",
+    "local navigational-auguries support pilots",
+    "limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:27:42.091Z"
+}

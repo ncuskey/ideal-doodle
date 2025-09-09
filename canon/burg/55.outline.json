@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_de53c7ed",
+  "burg_id": 55,
+  "name": "Saltwatch Quay",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-curing",
+    "reagent processing",
+    "waystation for coastal traders"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Saltworkers' Cooperative",
+    "Ritual Circle of Tides",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "smuggling and banditry",
+    "coastal erosion",
+    "neglect by distant authorities"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "diet heavy on cured and pickled fish",
+    "seasonal tide-and-ancestor festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "small, seasonal population; traders dominate"
+  ],
+  "generated_at": "2025-09-09T04:35:30.279Z"
+}

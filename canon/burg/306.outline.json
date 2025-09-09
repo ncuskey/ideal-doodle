@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_edce0313",
+  "burg_id": 306,
+  "name": "Burg_306",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply",
+    "fishing",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Shipmasters' Guild",
+    "Ritualist Circle",
+    "Customs Watch",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "scarcity",
+    "banditry",
+    "corruption",
+    "resource-competition"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Coastal loanwords",
+    "seafood- and salt-preservation cuisine",
+    "ritual token exchange common at docks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-crew",
+    "ritual-theft"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "state affiliation unknown; frontier outpost character",
+    "supply reliant on irregular coastal/river traffic",
+    "navigational auguries used but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:22:47.994Z"
+}

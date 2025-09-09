@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6484b209",
+  "burg_id": 105,
+  "name": "Burg_105",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "small-scale fishing",
+    "waystation/landing",
+    "saltworks"
+  ],
+  "factions_local": [
+    "harbormaster's office",
+    "ritual-blenders' coven",
+    "merchant-brotherhood cell",
+    "smuggler ring"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "smuggling/banditry",
+    "water/food seasonality"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ritual offerings to tides before departures",
+    "diet heavy on salted fish and seaweed",
+    "local craft: blending and preserving reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-mishap",
+    "missing-ship"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries cannot replace seamanship"
+  ],
+  "notes": [
+    "small population, functions as reagent transshipment point",
+    "strategic for coastal supply lines despite limited industry"
+  ],
+  "generated_at": "2025-09-09T04:09:37.834Z"
+}

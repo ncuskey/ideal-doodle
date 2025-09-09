@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_502d996f",
+  "burg_id": 221,
+  "name": "Burg_221",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "outpost",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "small-scale fishing",
+    "charter/guides"
+  ],
+  "factions_local": [
+    "ritual-guild cell",
+    "harbormasters",
+    "coastal smugglers"
+  ],
+  "problems": [
+    "scarce reagents",
+    "banditry on approach paths",
+    "fragile supply lines"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "seafood-and-dried-fish staples",
+    "ritual etiquette around offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind-influence rare and banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but charts required"
+  ],
+  "generated_at": "2025-09-09T04:16:58.497Z"
+}

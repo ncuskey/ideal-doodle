@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_saltreach_harbor",
+  "checksum": "fnv1a_5661680c",
+  "name": "Saltreach Harbor",
+  "aliases": [
+    "Saltreach",
+    "The Reach",
+    "Salt-Reach Port"
+  ],
+  "tags": [
+    "coastal",
+    "port",
+    "saltworks",
+    "shipbuilding",
+    "augury-node"
+  ],
+  "role_in_state": "Primary salt and repair port",
+  "economy_niches": [
+    "salt-curing_and_fish",
+    "shipbuilding_and_repair",
+    "maritime_trade_hub",
+    "port_finance_and_credit",
+    "ritual-augury_services"
+  ],
+  "culture_adjustments": [
+    "strong sailors' cant with salt jargon",
+    "guild patronage dominates civic offices",
+    "ritual tides and auguries more frequent and public",
+    "multilingual dockside pidgin with Island Creole loanwords",
+    "seasonal labor influx shapes festival calendar"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge_and_flooding",
+    "salt-soil_freshwater_scarcity",
+    "piracy_and_smuggling",
+    "guild_strikes_and_patronage_conflict"
+  ],
+  "constraints": [
+    "limited hinterland freshwater",
+    "quays restrict very large vessels",
+    "ritual auguries consume imported reagents"
+  ],
+  "notes": [
+    "key node in state salt supply chain",
+    "ship guilds control apprenticeship and labor pools"
+  ],
+  "generated_at": "2025-09-09T04:05:58.128Z"
+}

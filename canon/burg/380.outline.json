@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_20705983",
+  "burg_id": 380,
+  "name": "Burg_380",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-trading",
+    "fishing",
+    "waystation/provisions"
+  ],
+  "factions_local": [
+    "Harbormaster's Council",
+    "Coastal Clan",
+    "Ritual Workshop Gild"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "piracy",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongue with Island Creole loanwords",
+    "diet heavy on smoked fish and seaweed ferments",
+    "rituals tied to tides; nightly lantern offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "missing sailors"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech blended with local ritual practices"
+  ],
+  "generated_at": "2025-09-09T04:27:45.138Z"
+}

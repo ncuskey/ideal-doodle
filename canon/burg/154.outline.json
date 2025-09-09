@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b638c4a5",
+  "burg_id": 154,
+  "name": "Burg_154",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply provisioning",
+    "transshipment/waystation",
+    "smuggling conduit"
+  ],
+  "factions_local": [
+    "Harbormaster's Crew",
+    "Shrine-Keepers (sea rites)",
+    "Riggers' Consortium",
+    "Shadow-Lighters (smugglers)"
+  ],
+  "problems": [
+    "scarcity of imported ritual reagents",
+    "seasonal storm damage",
+    "smuggling-driven corruption",
+    "banditry on hinterland roads"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Dialect: Coastal Tongues variant with nautical slang",
+    "Cuisine: salted fish, seaweed preserves, fermented shellfish",
+    "Customs: nightly tide-offerings and small ancestor-safety rites before voyages",
+    "Skills: ropework, sail-repair, small-boat seamanship"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagents",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind-control or instant resurrection"
+  ],
+  "notes": [
+    "population unknown; functions as minor coastal stop and ritual supply point",
+    "limited defensive works; reliant on natural harbor and armed boats"
+  ],
+  "generated_at": "2025-09-09T04:12:42.846Z"
+}

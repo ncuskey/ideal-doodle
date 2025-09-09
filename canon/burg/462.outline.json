@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b824d029",
+  "burg_id": 462,
+  "name": "Burg_462",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-ingredient trade",
+    "small-scale ship repair",
+    "pilotage/guiding"
+  ],
+  "factions_local": [
+    "harbor-master's guild",
+    "ritual-clade",
+    "smuggling ring",
+    "elders' council"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "competition for reagent access"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical loanwords",
+    "daily offerings to tide-spirits",
+    "salt-preserved cuisine",
+    "strong kin-ancestor obligations"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-herbalist",
+    "ritual-sabotage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-rare-reagents",
+    "no-long-range-mind-control"
+  ],
+  "notes": [
+    "navigational-auguries practiced alongside charts",
+    "combustion-limited craft and repair economy"
+  ],
+  "generated_at": "2025-09-09T04:33:50.858Z"
+}

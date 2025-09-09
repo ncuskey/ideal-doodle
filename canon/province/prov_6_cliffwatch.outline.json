@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_cliffwatch",
+  "checksum": "fnv1a_a1d94d13",
+  "name": "Cliffwatch",
+  "aliases": [
+    "The Watchcliffs",
+    "Gullspine"
+  ],
+  "tags": [
+    "coastal",
+    "reef-rich",
+    "maritime-guard",
+    "saltworks"
+  ],
+  "role_in_state": "maritime sentinel and reef-harvester",
+  "economy_niches": [
+    "reef reagent harvesting",
+    "saltworks & fish curing",
+    "pilotage & navigational services",
+    "ship maintenance & small-scale shipbuilding",
+    "artisan ropework & metal fittings"
+  ],
+  "culture_adjustments": [
+    "lookout and watch rites dominate daily schedule",
+    "stronger clan/boathouse orientation over large guild halls",
+    "rituals timed to micro-tide cycles unique to local reefs",
+    "heightened suspicion of strangers and passing merchant crews",
+    "oral laments emphasize shipwreck survival and cliff rescue"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff erosion",
+    "storm surge",
+    "reef-poaching conflicts",
+    "smuggling & piracy",
+    "supply-line isolation in bad weather"
+  ],
+  "constraints": [
+    "limited arable land",
+    "ritual magic dependent on imported reagents",
+    "industrial work constrained by cliff access and low-pressure tech"
+  ],
+  "notes": [
+    "seasonal festivals tied to spring tides",
+    "pilots function as semi-guild agents for long-distance trade",
+    "local economy ties reef reagents to distant ritual markets"
+  ],
+  "generated_at": "2025-09-09T04:07:39.613Z"
+}

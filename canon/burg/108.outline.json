@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_397a2773",
+  "burg_id": 108,
+  "name": "Burg_108",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "river-harbor",
+    "ritual-trading"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishery",
+    "ritual-supplies brokerage",
+    "transshipment point"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritualist coterie",
+    "clan-elders"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "smuggling",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric-influenced Coastal Tongue dialect",
+    "boat-altars and ancestor offerings common",
+    "taboos around reagent handling"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing shipment",
+    "stolen ritual token"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "near river mouth; uses navigational augury alongside charts",
+    "tech baseline near-medieval with local ritual craft"
+  ],
+  "generated_at": "2025-09-09T04:09:42.976Z"
+}

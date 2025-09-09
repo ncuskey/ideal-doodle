@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_765fca9d",
+  "burg_id": 15,
+  "name": "Burg_15",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-trade"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "maritime trade",
+    "ritual reagent trading",
+    "fishing",
+    "ship maintenance"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Reagent Merchants",
+    "Ancestor-Priest Circle",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "scarce reagents",
+    "smuggling",
+    "storm damage",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "navigation auguries used alongside charts",
+    "seafood-preservation cuisine",
+    "strong ancestor-veneration rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "storm-omen unrest"
+  ],
+  "constraints": [
+    "no-instant-resurrection-or-life-replacement-magic",
+    "rituals consume scarce imported reagents; limited combustion industry"
+  ],
+  "notes": [
+    "small coastal port on rocky shoreline",
+    "navigational auguries practiced but cannot replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:12:24.132Z"
+}

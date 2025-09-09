@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f51b6fef",
+  "burg_id": 278,
+  "name": "Burg_278",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-workshop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-workshop",
+    "fishing",
+    "coastal-trade"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "skippers-cooperative",
+    "elders-council"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "coastal-erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues + Island Creole blend",
+    "seafood-heavy, fermented-fish preserves common",
+    "tide-linked rituals and navigation customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no long-range mind-influence; institutionally banned",
+    "navigational auguries supplement but do not replace seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech level",
+    "state jurisdiction unknown; local governance dominant"
+  ],
+  "generated_at": "2025-09-09T04:20:44.293Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_34c32fcd",
+  "burg_id": 338,
+  "name": "Burg_338",
+  "state_id": 0,
+  "province_id": "province_unknown",
+  "tags": [
+    "coastal",
+    "ritual-lab",
+    "outpost"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent trade",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormasters",
+    "Ritual Meisters",
+    "Skiffwrights' Guild"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with island loanwords",
+    "strong ancestor-veneration at household shrines",
+    "diet heavy on smoked fish and seaweed preserves"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual component theft",
+    "mysterious tides"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind control; navigational augury limited"
+  ],
+  "notes": [
+    "population unknown; strategic for reagent transshipment",
+    "accessible by coastal skiff only at high tide"
+  ],
+  "generated_at": "2025-09-09T04:25:01.001Z"
+}

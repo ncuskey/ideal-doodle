@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ae28e063",
+  "burg_id": 300,
+  "name": "Burg_300",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation/relay",
+    "reagent transshipment"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent Brokers",
+    "Tidewatch Animists"
+  ],
+  "problems": [
+    "supply scarcity",
+    "banditry on approach",
+    "unstable prices for reagents"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole lingua franca with Coastal Tongue loanwords",
+    "ritualized trade etiquette for reagent handling",
+    "salt-curing and seaweed-heavy cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ancestor-omen"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "population unknown; seasonal influx of crews",
+    "strategic minor node for reagent routes",
+    "small permanent garrison and merchant watch"
+  ],
+  "generated_at": "2025-09-09T04:22:27.953Z"
+}

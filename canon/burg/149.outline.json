@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3c1ebe01",
+  "burg_id": 149,
+  "name": "Burg_149",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "reagent-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent transshipment",
+    "coastal trade",
+    "fishing"
+  ],
+  "factions_local": [
+    "merchant guild",
+    "ritualist lodge",
+    "harbormaster's office",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "ritual procurement customs shape local commerce",
+    "seafood-heavy cuisine; salt-curing common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishing crews"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Small rocky cove outpost with a single stone quay",
+    "Limited formal state oversight; local powers hold sway"
+  ],
+  "generated_at": "2025-09-09T04:12:26.222Z"
+}

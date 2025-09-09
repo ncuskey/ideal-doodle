@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_67aeec09",
+  "burg_id": 123,
+  "name": "Burg_123",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "waystation",
+    "ritual-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "supply depot",
+    "ritual-ingredient trade",
+    "navigator-support"
+  ],
+  "factions_local": [
+    "ritual-syndicate",
+    "merchant-crew",
+    "harbormaster's watch"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "smuggling",
+    "bandit raids",
+    "jurisdictional friction"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "diet heavy on salted/smoked seafood",
+    "local customs emphasize ritual offerings before voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supply theft",
+    "missing navigational charts"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is banned"
+  ],
+  "notes": [
+    "population unknown — treat as small/outpost",
+    "location flexible (coastal or riverine)"
+  ],
+  "generated_at": "2025-09-09T04:10:41.729Z"
+}

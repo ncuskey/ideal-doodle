@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4d4a5319",
+  "burg_id": 60,
+  "name": "Burg_60",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-works"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ritual-Labourers Circle",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry",
+    "shipwreck-prone shoals"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with Riveric loanwords",
+    "Diet: salted and fermented fish, seaweed",
+    "Daily small rites at quays for safe passage",
+    "Ancestor-veneration integrated into harbor life"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost ritual reagents",
+    "wreck salvage"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech with localized ritual magic",
+    "Strategic minor harbor / resupply outpost"
+  ],
+  "generated_at": "2025-09-09T04:35:49.319Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_44652955",
+  "burg_id": 299,
+  "name": "Burg_299",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-labour"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent transshipment",
+    "waystation/harbor fees",
+    "light fishing",
+    "augury services"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Reagent Merchant Cartel",
+    "Augury Circle",
+    "Coastal Militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "shipwreck salvage disputes",
+    "seasonal storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with clipped loanwords",
+    "ritual offerings before voyages",
+    "salt-preserved cuisine and dried fish",
+    "superstitious seamanship customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "shipwreck salvage",
+    "augury mishap"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind influence allowed",
+    "combustion industry limited (no high-pressure steam)"
+  ],
+  "notes": [
+    "Population small and variable; records sparse",
+    "Serves as resupply point for longer voyages",
+    "Navigation uses charts plus local auguries"
+  ],
+  "generated_at": "2025-09-09T04:22:24.730Z"
+}

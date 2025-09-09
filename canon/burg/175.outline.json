@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f71b29eb",
+  "burg_id": 175,
+  "name": "Burg_175",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale provisioning",
+    "ritual-component processing",
+    "coastal fishing",
+    "transit trade / informal storage"
+  ],
+  "factions_local": [
+    "Harbor Cooperative",
+    "Compound of Ritual Appentices",
+    "Independent Skiffmen"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "smuggling and informal trade",
+    "sporadic banditry on supply routes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks a Coastal Tongues dialect with Riveric loan-forms",
+    "meals heavy on preserved fish, seaweed, spiced starches",
+    "ritual schedules tied to tidal and lunar markers"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagents",
+    "supply-convoy ambushes"
+  ],
+  "constraints": [
+    "no-true-resurrection: irreversible death common",
+    "rituals consume scarce imported reagents; supply-sensitive"
+  ],
+  "notes": [
+    "small outpost reliant on periodic coastal shipments",
+    "local ritualists skilled but limited by reagent access"
+  ],
+  "generated_at": "2025-09-09T04:14:01.209Z"
+}

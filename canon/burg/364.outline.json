@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7955eca7",
+  "burg_id": 364,
+  "name": "Burg_364",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-ingredient trade",
+    "fishing",
+    "ferrying",
+    "wayside-inn"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-collectors",
+    "ferry-operators",
+    "clan-elders"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects with Coastal Tongues loanwords",
+    "seafood- and smoke-preserved diet",
+    "local festivals tied to reagent arrival"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ferry disaster"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "navigation auguries cannot replace charts"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "limited combustion industry",
+    "rituals require specialist labor"
+  ],
+  "generated_at": "2025-09-09T04:26:53.552Z"
+}

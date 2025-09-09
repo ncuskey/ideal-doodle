@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_82abd0e3",
+  "burg_id": 447,
+  "name": "Burg_447",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "local-trade",
+    "light-crafting"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-priesthood",
+    "river-pirates",
+    "merchant-clan"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "siltation",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Riveric Dialects dominant",
+    "ancestor-feast cycles",
+    "salt-and-fish cuisine",
+    "ritual markings common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-scarcity",
+    "silt-blockage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-rare-reagents"
+  ],
+  "notes": [
+    "exact location unspecified",
+    "population unknown",
+    "navigational-auguries in use"
+  ],
+  "generated_at": "2025-09-09T04:32:33.937Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_bay_of_tides",
+  "checksum": "fnv1a_cdc952e7",
+  "name": "Bay of Tides",
+  "aliases": [
+    "Tidehaven",
+    "The Salt Reach"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "shipyards",
+    "saltworks",
+    "navigation-hub"
+  ],
+  "role_in_state": "principal saltworks, shipbuilding and transshipment hub",
+  "economy_niches": [
+    "salt evaporation & refining",
+    "fish curing & preserves",
+    "shipbuilding, repair & outfitting",
+    "maritime transshipment and pilotage",
+    "handling/import storage of ritual reagents"
+  ],
+  "culture_adjustments": [
+    "seamanship fused with routine navigational auguries",
+    "dockside guilds outrank inland household councils",
+    "oath-bound house networks control labor allotments",
+    "practical syncretism of Sea-Tide rites into daily work"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "coastal erosion",
+    "salinization of hinterland soils",
+    "shipyard fires",
+    "smuggling/black-market reagent trade"
+  ],
+  "constraints": [
+    "ritual magic depends on scarce imported reagents",
+    "harbor depth limits largest oceangoing hulls",
+    "limited fresh water for expanded agriculture"
+  ],
+  "notes": [
+    "strategic chokepoint for State_8 maritime routes",
+    "seasonal dry-docking and surge months enforce trade cycles"
+  ],
+  "generated_at": "2025-09-09T04:08:07.002Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e03e57cb",
+  "burg_id": 430,
+  "name": "Burg_430",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "harbor trading",
+    "ritual-laboratory services",
+    "preserved-fish & saltworks",
+    "waystation/ship-provisioning"
+  ],
+  "factions_local": [
+    "harbormasters' council",
+    "ritual-labor guild",
+    "ancestral-clan elders",
+    "merchant skiff-owners"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry on coastal lanes",
+    "corrupt harbor permits",
+    "hazardous local currents"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced pidgin speech",
+    "ship-blessing and tide-offering customs",
+    "diet: salted fish, seaweed preserves",
+    "small-scale craft of navigation talismans"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "ancestral curse"
+  ],
+  "constraints": [
+    "Ritual magic requires scarce imported reagents",
+    "No instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "minor trade outpost on coastal route",
+    "navigational auguries used but charts/seamanship still required"
+  ],
+  "generated_at": "2025-09-09T04:31:07.773Z"
+}

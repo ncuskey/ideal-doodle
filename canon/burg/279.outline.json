@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_690767f5",
+  "burg_id": 279,
+  "name": "Burg_279",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "lighthouse",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "lighthouse maintenance",
+    "reagent transshipment",
+    "fishing",
+    "salting & curing"
+  ],
+  "factions_local": [
+    "Harbormaster's Watch",
+    "Reagent Brokers' Syndicate",
+    "Ancestor Tender Circle",
+    "Tidewardens"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "ancestor-tide feasts",
+    "salted-fish cuisine",
+    "ritualized bartering customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "ancestor unrest"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace seamanship"
+  ],
+  "notes": [
+    "remote rocky islet",
+    "seasonal crew influx during trading season"
+  ],
+  "generated_at": "2025-09-09T04:20:55.067Z"
+}

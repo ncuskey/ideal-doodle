@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e24cf1a7",
+  "burg_id": 177,
+  "name": "Burg_177",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "small-scale ritual-labor",
+    "waystation for coastal traders",
+    "salt-preservation"
+  ],
+  "factions_local": [
+    "harbor council",
+    "ritual circle (local adepts)",
+    "shipwrights' guild",
+    "smugglers' coterie"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "coastal banditry/smuggling",
+    "supply scarcity in bad weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect with Riveric loanwords",
+    "tide-offerings and nightly lantern rites",
+    "diet focused on salt-preserved fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "ritual disruption at high tide"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "small, weather-vulnerable outpost serving coastal traffic",
+    "navigational auguries used but charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:14:08.991Z"
+}

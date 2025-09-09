@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c8c7623",
+  "burg_id": 409,
+  "name": "Burg_409",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-magic"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent trading",
+    "small-scale shipwrights",
+    "coastal guides"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "reagent merchants",
+    "ancestor-priests",
+    "smugglers"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "banditry/smuggling",
+    "harbor siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with island loanwords",
+    "pre-departure tide-offerings common",
+    "diet heavy on salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no instant resurrection or long-range mind-influence"
+  ],
+  "notes": [
+    "population unknown; function: minor reagent landing and waystation",
+    "strategic but vulnerable harbor; silting limits larger vessels"
+  ],
+  "generated_at": "2025-09-09T04:29:50.503Z"
+}

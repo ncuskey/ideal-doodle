@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c21c3935",
+  "burg_id": 219,
+  "name": "Burg_219",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "fishing",
+    "ritual-supplier"
+  ],
+  "factions_local": [
+    "fishermen's coop",
+    "ritual-smiths",
+    "smuggling ring"
+  ],
+  "problems": [
+    "scarce reagents",
+    "bandit raids",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "seafood-heavy cuisine; salted and smoked staples",
+    "tidal ancestor-shrines and small ritual lighthouses"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no high-pressure steam industry; limited combustion tech"
+  ],
+  "notes": [
+    "tidal causeway access at low water",
+    "minor harbor; navigational auguries supplement charts"
+  ],
+  "generated_at": "2025-09-09T04:16:56.675Z"
+}

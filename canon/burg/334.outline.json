@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c5116475",
+  "burg_id": 334,
+  "name": "Burg_334",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor-for-hire",
+    "forage-and-herbal-trade"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbor-council",
+    "smuggling-ring"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry-on-estuary",
+    "seasonal-food-shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect influence",
+    "tide-feast and driftwood offerings",
+    "salt-curing and seaweeds in cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ritual-reagents",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "ritual-magic consumes scarce imported reagents",
+    "no long-range mind-influence allowed"
+  ],
+  "notes": [
+    "population unknown; seasonal ebb-and-flow",
+    "access via narrow estuary, risky tides"
+  ],
+  "generated_at": "2025-09-09T04:24:57.632Z"
+}

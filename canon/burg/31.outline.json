@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c3712e25",
+  "burg_id": 31,
+  "name": "Burg_31",
+  "state_id": 0,
+  "province_id": "unknown_province",
+  "tags": [
+    "coastal",
+    "ritual-supply",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply",
+    "fishing",
+    "chart-copying",
+    "smuggling"
+  ],
+  "factions_local": [
+    "ritual_guild",
+    "shipmasters_coop",
+    "coastal_militia"
+  ],
+  "problems": [
+    "reagent_scarcity",
+    "smuggling_conflicts",
+    "poor_charts"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide-offering customs",
+    "preserved-fish staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent_heist",
+    "missing_navigator"
+  ],
+  "constraints": [
+    "no_instant_resurrection",
+    "rituals_consume_scarce_imported_reagents",
+    "navigational_auguries_do_not_replace_charts"
+  ],
+  "notes": [
+    "State unknown; frontier outpost",
+    "Population unknown; seasonal flux"
+  ],
+  "generated_at": "2025-09-09T04:23:17.851Z"
+}

@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_32376c95",
+  "burg_id": 215,
+  "name": "Burg_215",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "waystation",
+    "small-scale repair"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritualist-collective",
+    "coast-watch"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "reagent-shortage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole dialect",
+    "seaweed-and-fish staples",
+    "oral navigational chants"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "ominous-tide-omen"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection / life-replacement",
+    "limited-combustion industry"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "small coastal rest-stop, population n/a"
+  ],
+  "generated_at": "2025-09-09T04:16:31.038Z"
+}

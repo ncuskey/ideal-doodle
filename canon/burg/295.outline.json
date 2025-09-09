@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_66128e85",
+  "burg_id": 295,
+  "name": "Burg_295",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost",
+    "ritual-harvest"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-harvest",
+    "ritual-labor-for-harvests"
+  ],
+  "factions_local": [
+    "Headman council",
+    "Tide-ritual circle",
+    "Saltworkers cooperative",
+    "Coastal smugglers"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry along supply routes",
+    "resource-strain on fish stocks"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Speaks Coastal Tongues dialect with nautical idioms",
+    "Diet centered on salted fish and seaweed preserves",
+    "Ritual calendar tied to tides and ancestral offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent-shortage",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "Ritual magic requires scarce imported reagents",
+    "No instant resurrection or long-range mind control"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech with localized ritual craft",
+    "Navigational auguries used but seamanship still required"
+  ],
+  "generated_at": "2025-09-09T04:21:57.503Z"
+}

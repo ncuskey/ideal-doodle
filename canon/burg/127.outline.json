@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fe54f51",
+  "burg_id": 127,
+  "name": "Burg_127",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-landing",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "ferry-traffic",
+    "small-market"
+  ],
+  "factions_local": [
+    "ferrymen-guild",
+    "ritual-collectors",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "seasonal-flooding",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "seafood-forward cuisine",
+    "nightly lantern-rituals",
+    "superstitious seamanship"
+  ],
+  "quest_hook_slots": [
+    "missing-ritual-reagents",
+    "impending-flood",
+    "smuggling-ring"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "navigational-auguries used alongside charts"
+  ],
+  "generated_at": "2025-09-09T04:10:56.548Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_93302103",
+  "burg_id": 252,
+  "name": "Burg_252",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply cache",
+    "provisioning (fishing)",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "ritual-guild outpost",
+    "traders' relay",
+    "local watch",
+    "smuggler ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply unreliability",
+    "harsh weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect mix",
+    "practical barter customs",
+    "diet: salted fish, dried seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent run",
+    "missing convoy"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "small, largely transient population",
+    "likely at a river mouth or minor harbor",
+    "serves as relay on coastal trade/ritual routes"
+  ],
+  "generated_at": "2025-09-09T04:19:10.662Z"
+}

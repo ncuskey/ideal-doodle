@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bcb746fd",
+  "burg_id": 415,
+  "name": "Burg_415",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "outpost",
+    "smuggling-node"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river trade",
+    "fishery",
+    "ritual-labor services",
+    "smuggling"
+  ],
+  "factions_local": [
+    "boatmen's guild",
+    "shrine-keepers",
+    "riverbaron's retainers",
+    "smugglers' syndicate"
+  ],
+  "problems": [
+    "banditry along the channel",
+    "scarcity of ritual reagents",
+    "seasonal tidal flooding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects",
+    "boat-christening and ancestor-feast customs",
+    "diet centered on smoked fish and reed-bakes",
+    "practical salt-weathered clothing styles"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearing boats"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Navigational auguries cannot replace charts or seamanship",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Small, loosely governed river outpost with unclear population",
+    "Strategic crossing and stopping point for inland-coastal trade"
+  ],
+  "generated_at": "2025-09-09T04:30:02.591Z"
+}

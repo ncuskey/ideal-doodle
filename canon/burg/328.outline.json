@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_45f6dd7f",
+  "burg_id": 328,
+  "name": "Burg_328",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-lab",
+    "waystation",
+    "smuggling"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "captains-council",
+    "smugglers-network"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corrupt port officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal dialect with Island Creole loanwords",
+    "diet: salted fish, kelp, preserved provisions",
+    "ceremonies tied to tide-calendar",
+    "seamanship valued over landholdings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent shortage",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "ritual magic requires scarce reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "navigational auguries exist but do not replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:24:27.059Z"
+}

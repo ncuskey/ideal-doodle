@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7bc07be9",
+  "burg_id": 303,
+  "name": "Burg_303",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-labor",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "Ancestor-Shrine",
+    "Harbormaster's Council",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "scarce-ritual-reagents",
+    "banditry",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "Dawn ash-offering ritual",
+    "Barter-heavy; coin scarce"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-augur"
+  ],
+  "constraints": [
+    "rituals require imported reagents",
+    "no instant resurrection",
+    "long-range mind magics banned"
+  ],
+  "notes": [
+    "Population unknown",
+    "Near-medieval to early-industrial tech baseline"
+  ],
+  "generated_at": "2025-09-09T04:22:49.735Z"
+}

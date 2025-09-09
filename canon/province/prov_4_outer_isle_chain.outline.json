@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_outer_isle_chain",
+  "checksum": "fnv1a_adb8b17b",
+  "name": "Outer Isle Chain",
+  "aliases": [
+    "Outer Isles",
+    "Chain of Outliers"
+  ],
+  "tags": [
+    "archipelago",
+    "maritime",
+    "transshipment",
+    "nav-augury"
+  ],
+  "role_in_state": "offshore transshipment, pilotage and navigational outposts",
+  "economy_niches": [
+    "pilotage, lighthouse and harbor fees",
+    "saltworks, kelp products and salted fish export",
+    "small-scale shipbuilding & repair yards",
+    "transshipment hub for imported ritual reagents",
+    "seasonal provisioning and salvage services"
+  ],
+  "culture_adjustments": [
+    "stronger ship-kin networks over land kinship",
+    "port-dialect retains more foreign loanwords",
+    "local augury rites tied to specific currents and rocks",
+    "guilds exercise greater autonomous authority",
+    "high seasonal population fluctuation; visitor-heavy customs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-exposure",
+    "reef/navigation hazards",
+    "piracy/privateering",
+    "supply shortages in winter"
+  ],
+  "constraints": [
+    "limited arable land and freshwater",
+    "dependence on mainland imports for ritual reagents",
+    "restricted large-scale combustion industry (fuel scarcity)"
+  ],
+  "notes": [
+    "favored relay point for navigational auguries",
+    "lighthouse upkeep often a guild obligation",
+    "seasonal labor markets tied to fishing and transshipment"
+  ],
+  "generated_at": "2025-09-09T04:06:43.432Z"
+}

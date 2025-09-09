@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f0dbd4eb",
+  "burg_id": 5,
+  "name": "Burg_5",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-component trade",
+    "waystation/market"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-syndicate",
+    "clan-council"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit/raider raids",
+    "corrupt harbor officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "strong ancestor veneration in household rituals",
+    "seafood and preserved kelp staples",
+    "local crafts tied to ritual tool-making"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "shipwreck relic"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "reagent-scarcity-for-rituals",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "localized ritual magic common and material-intensive",
+    "state-level details unknown"
+  ],
+  "generated_at": "2025-09-09T04:34:52.969Z"
+}

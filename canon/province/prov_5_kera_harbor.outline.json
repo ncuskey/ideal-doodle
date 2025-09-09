@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_kera_harbor",
+  "checksum": "fnv1a_58e9fb3a",
+  "name": "Kera Harbor",
+  "aliases": [
+    "Kera",
+    "The Salt Mouth"
+  ],
+  "tags": [
+    "coastal",
+    "harbor",
+    "shipbuilding",
+    "saltworks",
+    "reagent-trade",
+    "maritime-law"
+  ],
+  "role_in_state": "Primary shipbuilding and reagent-trade gateway",
+  "economy_niches": [
+    "wooden ship construction and repair",
+    "fish-salting and bulk salt export",
+    "long-distance provisioning for reagent caravans",
+    "transshipment hub for ritual reagents",
+    "guilded maritime insurance and arbitration"
+  ],
+  "culture_adjustments": [
+    "stricter clan-guild control of berths and labor",
+    "oral ballads emphasize seamanship over inland lineage",
+    "navigation rituals more formalized; augurers prized",
+    "commercial legalism extended into daily port life",
+    "higher tolerance for foreign crews and languages"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge and cyclone",
+    "smuggling and contraband rings",
+    "reef-and-channel navigation hazards",
+    "port fires in saltworks or dry docks"
+  ],
+  "constraints": [
+    "limited local timber; reliant on imported spars",
+    "reagent supply bottlenecks during embargoes",
+    "constrained expansion by reefs and shallows"
+  ],
+  "notes": [
+    "chokepoint for state maritime trade",
+    "host to state-licensed augury houses",
+    "central node for salt-and-reagent taxes"
+  ],
+  "generated_at": "2025-09-09T04:06:44.358Z"
+}

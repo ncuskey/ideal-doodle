@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_dfd3d82f",
+  "burg_id": 210,
+  "name": "Burg_210",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "reagent-stop",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "reagent brokerage",
+    "ship provisioning",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Dockmasters' Guild",
+    "Reagent Brokers",
+    "Ancestor Circle",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling crackdowns",
+    "tidal erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical argot",
+    "diet: smoked fish, seaweed, salted provisions",
+    "regular tide-festivals and small votive offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen reagents",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind influence",
+    "limited combustion industry; no high-pressure steamworks"
+  ],
+  "notes": [
+    "sheltered cove; frequent coastal trader waypoint",
+    "seasonal population surge during trading season"
+  ],
+  "generated_at": "2025-09-09T04:16:24.504Z"
+}

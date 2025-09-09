@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_cliffwatch",
+  "checksum": "fnv1a_a1552274",
+  "name": "Cliffwatch",
+  "aliases": [
+    "The Watchcliffs",
+    "Highlight"
+  ],
+  "tags": [
+    "coastal",
+    "cliff",
+    "lighthouse",
+    "pilotage"
+  ],
+  "role_in_state": "coastal sentinel and piloting hub",
+  "economy_niches": [
+    "steep-shelf fisheries (shelf-line nets and cliff-hauls)",
+    "navigation-augury & lighthouse maintenance",
+    "cliffside salt-evaporation terraces",
+    "guano harvesting and lime production",
+    "small-craft repair yards and pilotage fees"
+  ],
+  "culture_adjustments": [
+    "kinship organized around lookout-rotations rather than ship clans",
+    "rituals emphasize wind, fog and stone as sacred elements",
+    "harbor-law favors piloting rights and signal claims over cargo disputes",
+    "seasonal labor timed to cliff-bird cycles as well as monsoons"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "rockfall/erosion",
+    "fog-driven wrecks",
+    "maritime raids",
+    "reagent scarcity for ritual magic"
+  ],
+  "constraints": [
+    "limited arable land",
+    "difficult overland access — high transport costs",
+    "heavy reliance on imported ritual reagents"
+  ],
+  "notes": [
+    "signal chains and lighthouses form informal communication network",
+    "pilotage guilds exercise strong local authority",
+    "favored staging point for short-coast trade and salvage operations"
+  ],
+  "generated_at": "2025-09-09T04:03:32.498Z"
+}

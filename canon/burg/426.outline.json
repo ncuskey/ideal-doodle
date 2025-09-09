@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_abefc259",
+  "burg_id": 426,
+  "name": "Burg_426",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-harbor",
+    "fishery",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "tide-priesthood",
+    "smugglers",
+    "ritual-crafters"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "harsh-weather",
+    "corrupt-harbormaster"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole with Riveric loanwords",
+    "tide-offering ceremonies",
+    "seaweed-and-smoked-fish cuisine",
+    "barter-focused social norms"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ritual-reagents",
+    "shipwreck-diversion"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "state association unknown",
+    "population unknown; functions as coastal ritual resupply and waypoint"
+  ],
+  "generated_at": "2025-09-09T04:30:57.910Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_28196717",
+  "burg_id": 122,
+  "name": "Burg_122",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "reagent-stop",
+    "fishing-hamlet"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferry crossing/tolls",
+    "ritual reagent exchange",
+    "small-scale fishery",
+    "boatsmith/repair"
+  ],
+  "factions_local": [
+    "Ferrymasters' Cooperative",
+    "Reagent Merchants' Guild",
+    "Ancestor-Remembrance Priests",
+    "River Vigilants (militia)"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal flooding and silt",
+    "bandit ambushes on the river"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialect with Coastal loanwords",
+    "boat-centered rites and offerings",
+    "diet heavy on smoked river fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ferryman",
+    "reagent theft"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts and seamanship"
+  ],
+  "notes": [
+    "strategic shallow river crossing; silt shifts seasonally",
+    "small, transient population with many travelers"
+  ],
+  "generated_at": "2025-09-09T04:10:44.379Z"
+}

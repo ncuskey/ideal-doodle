@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5d8618b",
+  "burg_id": 115,
+  "name": "Burg_115",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent depot",
+    "coastal trade",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "trader guild",
+    "ritual circle",
+    "harbor militia",
+    "elders' council"
+  ],
+  "problems": [
+    "scarce reagents",
+    "bandit raids",
+    "supply delays",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ship-blessing rites common",
+    "diet: salted fish and kelp",
+    "barter-preferred economy"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing sailors"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No long-range mind influence; institutionally banned",
+    "No instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries exist but do not replace seamanship",
+    "State authority unknown; local autonomy likely"
+  ],
+  "generated_at": "2025-09-09T04:10:16.540Z"
+}

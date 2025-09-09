@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_outer_isles",
+  "checksum": "fnv1a_84cec6ea",
+  "name": "Outer Isles",
+  "aliases": [
+    "Outer Archipelago",
+    "Windward Skerries"
+  ],
+  "tags": [
+    "island",
+    "maritime",
+    "archipelago",
+    "reagent-hub",
+    "shipwrights"
+  ],
+  "role_in_state": "maritime relay, ship-repair chain and buffer",
+  "economy_niches": [
+    "seasonal fisheries & preserved foods",
+    "shipbuilding, careening & hull repair",
+    "saltworks and curing industries",
+    "transshipment of ritual reagents / augury waystations",
+    "coastal relay trade & pilotage services"
+  ],
+  "culture_adjustments": [
+    "stronger local guild autonomy vs. mainland civic councils",
+    "dialectal Coastal Tongues variant with island lexemes",
+    "ritual life keyed to immediate tide-storm cycles",
+    "maritime ancestor cults emphasize rock-line offerings",
+    "practical syncretism favors shipwright patron rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge and seasonal isolation",
+    "piracy/privateering",
+    "supply-chain bottlenecks",
+    "reagent scarcity for ritual services"
+  ],
+  "constraints": [
+    "limited arable land; food imports required",
+    "access windows constrained by seasonal weather",
+    "no large-scale combustion industry; craft-scale only"
+  ],
+  "notes": [
+    "key transshipment point for reagents and augury services",
+    "acts as strategic maritime buffer and pilot network",
+    "guild networks control most shoreside infrastructure"
+  ],
+  "generated_at": "2025-09-09T04:05:33.525Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c4750053",
+  "burg_id": 236,
+  "name": "Burg_236",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-harvest",
+    "small-scale-fishing",
+    "waystation",
+    "ritual-supply-depot"
+  ],
+  "factions_local": [
+    "harvesters-guild",
+    "ritual-clerics",
+    "skippers-cooperative",
+    "smugglers-cell"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry-on-coast",
+    "supply-uncertainty"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "sea-memorial ceremonies for drowned kin",
+    "diet based on salt-preserved fish and seaweeds"
+  ],
+  "quest_hook_slots": [
+    "missing-reagents",
+    "smuggling",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents; trade-dependent"
+  ],
+  "notes": [
+    "Population small and seasonal; often transient sailors",
+    "Strategic minor node for collecting ritual materials and servicing coastal traffic"
+  ],
+  "generated_at": "2025-09-09T04:17:54.157Z"
+}

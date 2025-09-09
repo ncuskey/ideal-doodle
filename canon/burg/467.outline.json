@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_55c8fe87",
+  "burg_id": 467,
+  "name": "Burg_467",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-reagent-trade",
+    "waystation-services"
+  ],
+  "factions_local": [
+    "sea-shrine-clan",
+    "small-merchant-coop",
+    "harbor-watch"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "seasonal-storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "Diet heavy on salted fish and seaweeds",
+    "Evening tide rituals visible from shore"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-failure",
+    "missing-ships"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "Small anchorage, strategic waypoint for coastal traffic",
+    "Population low/variable; records scarce"
+  ],
+  "generated_at": "2025-09-09T04:33:58.967Z"
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_isle_of_lores",
+  "checksum": "fnv1a_65410c54",
+  "name": "Isle of Lores",
+  "aliases": [
+    "Lore Isle",
+    "Isle of Lore"
+  ],
+  "tags": [
+    "island",
+    "navigational-archive",
+    "lighthouse-hold",
+    "specialist-shipwrights"
+  ],
+  "role_in_state": "navigational-lore & ritual-augury hub",
+  "economy_niches": [
+    "navigational-augury services and charts",
+    "lighthouse-chronicle publishing and compendia",
+    "fine shipwright joinery & ornamentation",
+    "salted fisheries and boutique saltworks",
+    "trade in sailing-lore manuscripts and diagrams"
+  ],
+  "culture_adjustments": [
+    "ritual seamanship infused with scholastic augury practices",
+    "clan-guild patronage favors lore-keepers over pure merchants",
+    "oral-archive emphasis; apprenticeships prioritize copying and memory",
+    "stricter vetting of outsiders and itinerant augurers"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "reef-hazard",
+    "smuggling & illicit chart trade",
+    "resource-scarcity (freshwater, timber)",
+    "augury-backlash (ritual failure harms vessels)"
+  ],
+  "constraints": [
+    "limited freshwater and arable land",
+    "ritual magic consumes scarce imported reagents",
+    "no institutional long-range mind-influence allowed"
+  ],
+  "notes": [
+    "hosts lighthouse-chronicles used by state navigators",
+    "small, high-skilled shipwright workshops export decorative work"
+  ],
+  "generated_at": "2025-09-09T04:08:42.883Z"
+}

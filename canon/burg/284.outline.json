@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_307505b5",
+  "burg_id": 284,
+  "name": "Burg_284",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal trading post",
+    "ritual reagent brokerage",
+    "fishing"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "reagent coterie",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling networks"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect spoken",
+    "tide-blessing festivals",
+    "barter and credit rituals tied to ritual magic"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "limited combustion industry; no megatechs",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline with ritual-component economy",
+    "population unknown; outpost-scale harbor"
+  ],
+  "generated_at": "2025-09-09T04:21:13.806Z"
+}

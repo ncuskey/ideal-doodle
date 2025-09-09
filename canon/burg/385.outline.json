@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d73e37b5",
+  "burg_id": 385,
+  "name": "Burg_385",
+  "state_id": "unknown",
+  "province_id": "unknown",
+  "tags": [
+    "river-port",
+    "ritual-lab",
+    "crossroads"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river trade",
+    "ritual workshops",
+    "fishing",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Tidal Brokers Guild",
+    "Ancestor-Clan Elders",
+    "Ritual Artisans' Circle",
+    "Smugglers' Quarter"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids on barges",
+    "corrupt tolls",
+    "stagnant-water illness"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect dominant",
+    "rituals tied to imported reagents",
+    "pickled fish and riverweed cuisine",
+    "boat-carving craft tradition"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing barges"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval with localized ritual magic",
+    "population unknown; strategic river bend"
+  ],
+  "generated_at": "2025-09-09T04:28:03.958Z"
+}

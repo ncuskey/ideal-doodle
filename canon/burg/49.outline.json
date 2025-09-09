@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a4f94029",
+  "burg_id": 49,
+  "name": "Burg_49",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "transshipment",
+    "boatcraft"
+  ],
+  "factions_local": [
+    "Sea-Tide Shrine",
+    "Seafarers' Co-op",
+    "Market Syndicate"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with sea-related idioms",
+    "ritualized departure and landing blessings",
+    "diet heavy on salted fish and kelp",
+    "local craftsmen specialize in boat repair and net-making"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "storm-omen",
+    "missing shipment"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind influence; navigational auguries cannot replace charts"
+  ],
+  "notes": [
+    "population unknown; functions as a reagent transshipment stop",
+    "built on a sheltered inlet with modest quay infrastructure"
+  ],
+  "generated_at": "2025-09-09T04:34:59.115Z"
+}

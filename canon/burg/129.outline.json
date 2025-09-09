@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_db4aff55",
+  "burg_id": 129,
+  "name": "Burg_129",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-mouth",
+    "reagent-waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "small-scale fishing",
+    "boat repair",
+    "waystation services"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ritualist Lodge",
+    "Smuggler Coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal flooding",
+    "smuggling pressure"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "Tidal festival calendar",
+    "Diet: salted fish and fermented kelp"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "strange tides"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace seamanship",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "Small outpost at a minor channel mouth, services passing vessels",
+    "Strategic for local reagent import/export and short-range augury readings"
+  ],
+  "generated_at": "2025-09-09T04:11:05.052Z"
+}

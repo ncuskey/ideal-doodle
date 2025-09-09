@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c6d9ec5d",
+  "burg_id": 406,
+  "name": "Burg_406",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-curing",
+    "ferry-service",
+    "transshipment of ritual reagents"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ancestor Lodge",
+    "Ritual Traders' Consortium",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "decaying pier",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with island loanwords",
+    "tide-festival calendar",
+    "diet heavy on salted fish and seaweed",
+    "seamanship rituals woven into daily work"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "disappearing ferryman"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but do not replace charts",
+    "state authority unclear (state_id=0)"
+  ],
+  "generated_at": "2025-09-09T04:29:29.680Z"
+}

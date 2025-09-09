@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_great_keelyards",
+  "checksum": "fnv1a_b6acae8c",
+  "name": "Great Keelyards",
+  "aliases": [
+    "Keelyards",
+    "Great Keelworks"
+  ],
+  "tags": [
+    "shipbuilding",
+    "reagents-hub",
+    "salt-works",
+    "boat-house-guilds"
+  ],
+  "role_in_state": "primary shipbuilding and reagent transshipment hub",
+  "economy_niches": [
+    "keel-based shipbuilding and repair",
+    "longshore trade in ritual reagents",
+    "salt evaporation and packing",
+    "rope, sail and caulking crafts",
+    "apprenticeship schools for seafaring craftsmen",
+    "warehousing and transshipment for coastal trade"
+  ],
+  "culture_adjustments": [
+    "boat-houses operate as hereditary guild households",
+    "launch and keel-mark rites more formalized and public",
+    "stronger commercial legalism over kin ties in port dealings",
+    "seasonal taboos extended to reagent handling and storage",
+    "practical fusion of ritual and craft standards for export quality"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "dockyard fire (timber/reefs)",
+    "reagent contamination",
+    "labor unrest",
+    "coastal raids/piracy"
+  ],
+  "constraints": [
+    "dense flammable stores limit open-flame processes",
+    "harbor siltation requires regular dredging",
+    "chartered shipwright monopolies restrict new workshops"
+  ],
+  "notes": [
+    "keel-marks and launch rites registered by boat-house elders",
+    "supplies vital for state fleets and ritual supply chains",
+    "navigational songs kept locally for launching and harboring"
+  ],
+  "generated_at": "2025-09-09T04:04:51.111Z"
+}

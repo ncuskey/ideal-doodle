@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_outer_isles_archipelago",
+  "checksum": "fnv1a_afc1dcf",
+  "name": "Outer Isles Archipelago",
+  "aliases": [
+    "Outer Isles",
+    "Keeper's Chain",
+    "Boat-house Archipelago"
+  ],
+  "tags": [
+    "archipelago",
+    "maritime",
+    "reagent-hub",
+    "pilotage",
+    "saltworks"
+  ],
+  "role_in_state": "coastal reagent entrepôt and pilotage hub",
+  "economy_niches": [
+    "coastal fishing and net-hauls",
+    "small-shipbuilding and repair",
+    "saltworks and fish-curing",
+    "longshore trade in ritual reagents",
+    "pilotage, chart-keeping and guide services"
+  ],
+  "culture_adjustments": [
+    "boat-house identity supersedes inland kin networks",
+    "keepers maintain proprietary oral charts and laws",
+    "stricter seasonal voyage taboos and rites",
+    "practical sea-rituals dominate over formal merchant liturgy",
+    "high seasonal population flux; floating/temporary households common"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal storms/cyclones",
+    "piracy and raiding",
+    "overfishing/resource depletion",
+    "winter isolation and supply disruption"
+  ],
+  "constraints": [
+    "limited arable land — heavy import dependence",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts; keepers control access"
+  ],
+  "notes": [
+    "no major burgs; population clustered in skerries and boat-houses",
+    "serves as state pilot-training ground and reagent transshipment point"
+  ],
+  "generated_at": "2025-09-09T04:05:17.136Z"
+}

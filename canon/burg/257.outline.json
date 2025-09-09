@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a34080d5",
+  "burg_id": 257,
+  "name": "Burg_257",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ship provisioning",
+    "fish curing",
+    "ritual reagent depot",
+    "market transit"
+  ],
+  "factions_local": [
+    "dockmasters' guild",
+    "ritual apprentices' circle",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "smuggling and bribery",
+    "seasonal isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with island loanwords",
+    "ship-blessing and salt-harvest rites",
+    "diet centered on salt-cured fish and sea vegetables"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual theft"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is banned and rare",
+    "combustion industry limited — no high-pressure steam tech"
+  ],
+  "notes": [
+    "located on a narrow inlet; dependent on seasonal coastal traffic",
+    "navigational auguries used but local charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:19:24.612Z"
+}

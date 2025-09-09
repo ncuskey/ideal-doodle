@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1be23995",
+  "burg_id": 204,
+  "name": "Burg_204",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-supply",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supplies",
+    "waystation-services",
+    "provisions-trade"
+  ],
+  "factions_local": [
+    "guild-of-rituals",
+    "merchant-brotherhood",
+    "local-council",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "mixed dialects (Coastal Tongues + Riveric Dialects)",
+    "ritual-mark tattooing common",
+    "diet leans on preserved provisions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-run",
+    "ancestral-visions"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "population unknown; functions as a small resupply/outpost",
+    "strategic stop on regional ritual trade routes"
+  ],
+  "generated_at": "2025-09-09T04:15:55.212Z"
+}

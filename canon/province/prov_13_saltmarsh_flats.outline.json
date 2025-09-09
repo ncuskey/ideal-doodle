@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_saltmarsh_flats",
+  "checksum": "fnv1a_21b200c7",
+  "name": "Saltmarsh Flats",
+  "aliases": [
+    "Saltmarsh",
+    "The Flats"
+  ],
+  "tags": [
+    "coastal",
+    "saltworks",
+    "marsh",
+    "tide-dependent",
+    "resource-export"
+  ],
+  "role_in_state": "Lowland salt and tidal-fish supplier; labor reserve for coastal trade",
+  "economy_niches": [
+    "Salt pans and brine evaporation",
+    "Tidal and shallow-water fisheries (flat skiffs)",
+    "Harvesting seaweeds and brackish reagents for ritual use",
+    "Small-craft repair and shoreward boatbuilding",
+    "Seasonal labor provision for state ports"
+  ],
+  "culture_adjustments": [
+    "Kin-clan obligations outweigh formal guild membership",
+    "Daily labor paced by tidal rites and communal tide-keepers",
+    "Practical, low-draft seamanship (skiffs, rafts) specialized to mudflats",
+    "Informal barter networks stronger than coin economy",
+    "Local Coastal Tongues dialect with island creole influences"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "tidal-storms",
+    "salt-erosion",
+    "smuggling",
+    "seasonal disease vectors"
+  ],
+  "constraints": [
+    "Limited arable land; agric. marginal",
+    "Soft ground prevents heavy industry or large docks",
+    "Dependence on imported ritual reagents and coastal trade",
+    "Seasonal access for larger vessels (shallow channels)"
+  ],
+  "notes": [
+    "Key source of state salt and brine-derived ritual reagents",
+    "Boundaries and usable flats shift with tides—ephemeral claims",
+    "Strong reserve of seasonal labor supports nearby shipyards"
+  ],
+  "generated_at": "2025-09-09T04:03:51.926Z"
+}

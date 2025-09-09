@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_46517665",
+  "burg_id": 240,
+  "name": "Burg_240",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-supply",
+    "small-market"
+  ],
+  "factions_local": [
+    "harbormaster-guild",
+    "ritual-practitioners",
+    "trader-clique"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ritual meals emphasize preserved fish and sea herbs",
+    "strong seafaring superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "ritual-failure"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "supplied intermittently by coastal traders",
+    "navigational auguries used but charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:18:14.900Z"
+}

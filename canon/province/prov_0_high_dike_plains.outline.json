@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_high_dike_plains",
+  "checksum": "fnv1a_59f570bb",
+  "name": "High Dike Plains",
+  "aliases": [
+    "High Dike Belt",
+    "Salt Dike Flats"
+  ],
+  "tags": [
+    "flood-managed",
+    "saltworks",
+    "riverine",
+    "dike-craft"
+  ],
+  "role_in_state": "Primary flood-control and salt-production belt",
+  "economy_niches": [
+    "salt-evaporation beds and trade",
+    "dike construction/maintenance guild labor",
+    "lowland grain cultivation for river markets",
+    "flatboat repair and seasonal barging",
+    "reed-harvests for ritual reagents and thatch"
+  ],
+  "culture_adjustments": [
+    "dike-guild license and seniority outrank clan primacy locally",
+    "seasonal labor migrations tied to ebb/flood cycles",
+    "ancestor feasts include sluice-blessing rites",
+    "contracts and tolls enforced at sluice-gates by local magistrates",
+    "practical sea-tide lore merged into Riveric speech with coastal loanwords"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "dike-collapse",
+    "salt-intrusion",
+    "banditry on seasonal roads",
+    "crop blight from saline seepage"
+  ],
+  "constraints": [
+    "year-round dike maintenance required; labor shortages in lean season",
+    "ritual magics for flood augury consume scarce imported reagents",
+    "limited heavy industrial expansion due to soil and water management"
+  ],
+  "notes": [
+    "sluice tolls and salt-taxes are major revenue for state coffers",
+    "provincial dike overseer (appointed) holds strong local authority",
+    "lands are semi-reclaimed — neglect reverts parcels to marsh quickly"
+  ],
+  "generated_at": "2025-09-09T04:39:21.033Z"
+}

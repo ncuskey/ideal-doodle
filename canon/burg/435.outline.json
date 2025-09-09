@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4aa635ed",
+  "burg_id": 435,
+  "name": "Burg_435",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-haven"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-clan",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with heavy sea metaphors",
+    "daily small-scale ritual offerings tied to fishing",
+    "preserved-seafood and kelp-based staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-priest"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "isolated harbor reliant on intermittent supply ships",
+    "population small and seasonally fluctuating with crews"
+  ],
+  "generated_at": "2025-09-09T04:31:30.022Z"
+}

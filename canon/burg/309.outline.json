@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bc31c48d",
+  "burg_id": 309,
+  "name": "Burg_309",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-trade",
+    "coastal"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-labor and reagent brokerage",
+    "small-scale fishing and preservation",
+    "transit point for coastal cargo",
+    "local craft: rope, nets, salted goods"
+  ],
+  "factions_local": [
+    "Porters' Cooperative",
+    "House of Minor Rites",
+    "Coastal Kinclan",
+    "Itinerant Merchant-Brokers"
+  ],
+  "problems": [
+    "scarce imported ritual reagents",
+    "banditry on approach routes",
+    "supply isolation in storms",
+    "local magical contamination incidents"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Coastal Tongue influence with Riveric pidgin trade speech",
+    "dockside ancestor offerings and ritual knots",
+    "diet: salt-preserved fish, seaweed, hardy grains",
+    "practical layered dress for damp, windy climate"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "strange tides/omens"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents or specialized local labor",
+    "Long-range mind-influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; transient workforce common",
+    "limited combustion industry; craft-based production"
+  ],
+  "generated_at": "2025-09-09T04:23:07.971Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b1a9fb5",
+  "burg_id": 217,
+  "name": "Burg_217",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishery",
+    "harbor-waystation",
+    "ritual-supply"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-guild",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "tide-based festivals",
+    "diet: salted fish and seaweeds"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-sacrament",
+    "stormwrecks"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imports",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "navigational-auguries used locally",
+    "limited combustion industry; small workshops"
+  ],
+  "generated_at": "2025-09-09T04:16:44.210Z"
+}

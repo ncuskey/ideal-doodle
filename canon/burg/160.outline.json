@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ccd64317",
+  "burg_id": 160,
+  "name": "Burg_160",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-trade",
+    "fishing",
+    "ritual-services",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbor-Merchant Guild",
+    "Reagent Collectors' Lodge",
+    "Ancestor Shrine Stewardship"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "smuggling through back channels",
+    "periodic bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant; loanwords from Island Creole",
+    "diet heavy on salted fish, seaweed, dried herbs",
+    "customs emphasize tide-offerings and ledger-based patronage"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind control or instant resurrection"
+  ],
+  "notes": [
+    "small, strategic coastal outpost handling rare ritual imports",
+    "local economy fragile and tied to occasional shipping lanes"
+  ],
+  "generated_at": "2025-09-09T04:13:05.369Z"
+}

@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5d9b3eff",
+  "burg_id": 359,
+  "name": "Burg_359",
+  "province_id": "unknown",
+  "tags": [
+    "ritual-dependent",
+    "estuary",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply node",
+    "fishing",
+    "transshipment/warehousing"
+  ],
+  "factions_local": [
+    "ritual-cabal",
+    "harbormaster's clique",
+    "caravan agent house"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit raids on roads",
+    "supply disruptions in bad weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced Riveric dialect",
+    "diet heavy on smoked fish and seaweed",
+    "ritualized loading/unloading etiquette",
+    "strong tide superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries limited; seamanship needed"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "small estuarine harbor with fragile supply lines"
+  ],
+  "generated_at": "2025-09-09T04:26:19.640Z",
+  "state_id": 0
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b1c57ec1",
+  "burg_id": 61,
+  "name": "Burg_61",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "fishing",
+    "resupply waypoint",
+    "smuggling conduit"
+  ],
+  "factions_local": [
+    "Ritualists' Cabal",
+    "Fisherfolk Council",
+    "Captains' Syndicate",
+    "Harbor Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling violence",
+    "storm damage",
+    "corruption (harbor fees)"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Island Creole loanwords",
+    "tide-based festivals and rites",
+    "diet of salted fish, kelp preserves",
+    "artisan ritual charms for sailors"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing lighthouse keeper"
+  ],
+  "constraints": [
+    "ritual magic requires imported reagents",
+    "no long-range mind control available or permitted",
+    "no instant resurrection/true life-replacement magics"
+  ],
+  "notes": [
+    "strategic resupply point on coastal route",
+    "vulnerable to pirate raids and supply-chain disruption"
+  ],
+  "generated_at": "2025-09-09T04:36:04.768Z"
+}

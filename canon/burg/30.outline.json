@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_16643bc1",
+  "burg_id": 30,
+  "name": "Burg_30",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor-for-hire",
+    "waystation",
+    "local-trade"
+  ],
+  "factions_local": [
+    "temple-circle",
+    "harbor-guild",
+    "smugglers",
+    "fishing-clan"
+  ],
+  "problems": [
+    "scarcity-of-ritual-reagents",
+    "banditry",
+    "harbor-siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ancestor-veneration at public wakes",
+    "salt-preserved fish cuisine",
+    "ritual tattoos mark specialist families"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "missing-priest"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "navigational-auguries present but charts essential",
+    "limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:22:27.951Z"
+}

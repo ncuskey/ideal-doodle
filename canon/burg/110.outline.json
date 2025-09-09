@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e877b4d5",
+  "burg_id": 110,
+  "name": "Burg_110",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-port",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent transshipment",
+    "fishing",
+    "shipwright repairs",
+    "waystation trade"
+  ],
+  "factions_local": [
+    "Harbor Syndicate",
+    "Ritual Suppliers' Guild",
+    "Ancestor Circle",
+    "Independent Skiffmen"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "supply volatility",
+    "seasonal storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole dialect mixed with Coastal Tongues",
+    "sea-blessed festivals tied to star-calendar rites",
+    "salt-preserving cuisine and boat-smoked fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "shipwreck salvage",
+    "ritual reagent theft"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents and specialized labor"
+  ],
+  "notes": [
+    "Population unknown; transient maritime crews dominate",
+    "Navigational auguries used but cannot replace charts and seamanship"
+  ],
+  "generated_at": "2025-09-09T04:09:59.221Z"
+}

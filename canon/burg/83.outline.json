@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_eba10855",
+  "burg_id": 83,
+  "name": "Burg_83",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-magic"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-depot",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "fishermen-guild",
+    "ritual-keepers",
+    "trader-cooperative"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "supply-line-disruption",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues variant",
+    "seafood-heavy cuisine",
+    "ritual offerings for safe passage"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-heist",
+    "missing-lighthouse-keeper"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "navigational-auguries exist but do not replace charts",
+    "combustion industry limited"
+  ],
+  "generated_at": "2025-09-09T04:37:26.299Z"
+}

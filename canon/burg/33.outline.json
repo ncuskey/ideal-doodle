@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e983170d",
+  "burg_id": 33,
+  "name": "Burg_33",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent procurement",
+    "coastal fishing",
+    "waystation trade"
+  ],
+  "factions_local": [
+    "ritual guild depot",
+    "merchant agent",
+    "harbor watch",
+    "smuggler ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "supply delays",
+    "theft and smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "Ritual work rhythms shape market hours",
+    "Diet: salted fish, seaweed; reagent-smoking preservation"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing shipment",
+    "ritual reagent theft"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Population unknown; administrative state unknown",
+    "Near-medieval to early-industrial tech with localized ritual magic"
+  ],
+  "generated_at": "2025-09-09T04:24:35.005Z"
+}

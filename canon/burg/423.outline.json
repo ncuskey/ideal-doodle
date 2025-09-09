@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_b6ed5cf7",
+  "burg_id": 423,
+  "name": "Burg_423",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-lab",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual reagent exchange",
+    "waystation trade"
+  ],
+  "factions_local": [
+    "harbormaster coop",
+    "ritualists' circle",
+    "smuggler crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply irregularity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole dialect influence",
+    "strong seafaring superstitions",
+    "communal barter customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "sea disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "sparse population, waypoint role",
+    "limited fresh water and supplies"
+  ],
+  "generated_at": "2025-09-09T04:30:38.624Z"
+}

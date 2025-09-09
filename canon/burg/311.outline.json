@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fd7bd4ef",
+  "burg_id": 311,
+  "name": "Burg_311",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-market",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supplies",
+    "coastal-trade",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritual-Scribes",
+    "Smugglers' Coterie",
+    "Fisher Cooperative"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "tidal erosion",
+    "smuggling",
+    "corrupt harbor-master"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "seafood- and salt-forward cuisine",
+    "nightly tide-rites shape schedules",
+    "barter-heavy local economy"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent shipment",
+    "ritual failure affecting tides"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace charts"
+  ],
+  "notes": [
+    "tech: near-medieval to early industrial",
+    "limited combustion industry; no high-pressure megatech",
+    "local navigational charts prized"
+  ],
+  "generated_at": "2025-09-09T04:23:10.110Z"
+}

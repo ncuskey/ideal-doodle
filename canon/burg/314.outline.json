@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_da31e125",
+  "burg_id": 314,
+  "name": "Burg_314",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal-outpost",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-curing",
+    "ritual-component trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-clan",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "seasonal storms",
+    "supply-shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-linked mourning and offering rites",
+    "diet: salted fish, seaweed, preserved goods",
+    "navigation-augury rituals common before sailings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence is banned"
+  ],
+  "notes": [
+    "population unknown; likely transient fishermen and itinerant ritualists",
+    "small resupply point for coastal traffic; vulnerable in storms"
+  ],
+  "generated_at": "2025-09-09T04:23:35.088Z"
+}

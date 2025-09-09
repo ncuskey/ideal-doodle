@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4ca20aed",
+  "burg_id": 275,
+  "name": "Burg_275",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "river-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river trade",
+    "fishing",
+    "ritual-ingredient gathering",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "ritual collectors' cartel",
+    "riverwatch militia"
+  ],
+  "problems": [
+    "banditry on river routes",
+    "scarcity of ritual reagents",
+    "smuggling and tariff disputes",
+    "jurisdictional friction with distant state"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects with Coastal Tongue loanwords",
+    "diet heavy on salted and smoked fish",
+    "tide-offering custom before departures"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagent",
+    "missing convoy"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents; long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "population unknown; classified as a small outpost",
+    "accessible primarily by river; navigational auguries supplement charts"
+  ],
+  "generated_at": "2025-09-09T04:20:41.731Z"
+}

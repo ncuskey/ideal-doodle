@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_dec293f5",
+  "burg_id": 11,
+  "name": "Burg_11",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation/shipstores",
+    "reagent-trade",
+    "small-ship repair"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "reagent merchants",
+    "Ancestor-Remembrance shrine",
+    "local smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids on supply boats",
+    "silted/shallow entrance"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "tide-and-ancestor festivals govern schedule",
+    "diet: salted fish, fermented seaweed",
+    "local crafts: driftwood talismans for rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing navigator",
+    "reagent run"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "state jurisdiction unclear",
+    "population small/scattered; exact number unknown"
+  ],
+  "generated_at": "2025-09-09T04:09:53.719Z"
+}

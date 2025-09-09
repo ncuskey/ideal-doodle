@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_381e35b3",
+  "burg_id": 344,
+  "name": "Burg_344",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply",
+    "small-trade"
+  ],
+  "factions_local": [
+    "harbor-clan",
+    "ritual-provisioners",
+    "itinerant-merchants"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence",
+    "ritual feasting & gift exchange",
+    "fish-and-seaweed cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "ritual-magic consumes scarce imported reagents",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "population data not available"
+  ],
+  "generated_at": "2025-09-09T04:25:44.080Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a6be2dd5",
+  "burg_id": 372,
+  "name": "Burg_372",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "small-market",
+    "ritual-supply"
+  ],
+  "factions_local": [
+    "clan-hold",
+    "ritual-conclave",
+    "itinerant-merchants"
+  ],
+  "problems": [
+    "isolation",
+    "scarcity",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with Riveric loanwords",
+    "salt-curing and dried-fish cuisine",
+    "daily ancestor-shrine visits common",
+    "ritual labor tied to imported reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-cutoff",
+    "ritual-accident"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals consume scarce imported reagents",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "population unknown; strategic coastal waypoint",
+    "local demand for reagent-handlers and small markets"
+  ],
+  "generated_at": "2025-09-09T04:27:22.521Z"
+}

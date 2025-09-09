@@ -23,6 +23,8 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run canon:world:outline        # World-level context (eras, civilizations, tech/magic)
    npm run canon:interstate:outline   # Inter-state relationships (alliances, wars, trade)
    npm run canon:state:outline        # Per-state outlines (factions, culture, regions)
+   npm run canon:province:outline     # Province outlines (synthetic from state regions)
+   npm run canon:burg:outline         # Burg outlines (from fact data)
    ```
 
 4. **Generate Rich Lore**
@@ -56,6 +58,8 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Inter-state outline**: `npm run canon:interstate:outline`
 - **State outlines (all)**: `npm run canon:state:outline`
 - **State outline (one)**: `npm run canon:state:outline:one -- ID`
+- **Province outlines**: `npm run canon:province:outline`
+- **Burg outlines**: `npm run canon:burg:outline`
 
 ### Rich Lore Generation
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
@@ -112,10 +116,18 @@ canon/              # Canon outlines (two-pass foundation)
 │   └── outline.json # Eras, civilizations, tech/magic baseline
 ├── interstate/     # Inter-state relationships
 │   └── outline.json # Alliances, wars, treaties, trade blocs
-└── state/          # Per-state outlines
-    ├── 0.outline.json # State 0 outline (factions, culture, regions)
-    ├── 1.outline.json # State 1 outline
-    └── ...           # All state outlines
+├── state/          # Per-state outlines
+│   ├── 0.outline.json # State 0 outline (factions, culture, regions)
+│   ├── 1.outline.json # State 1 outline
+│   └── ...           # All state outlines
+├── province/       # Province outlines (synthetic from state regions)
+│   ├── prov_0_port_of_skiffs.outline.json
+│   ├── prov_0_lower_marshes.outline.json
+│   └── ...           # All province outlines
+└── burg/           # Burg outlines (from fact data)
+    ├── 1.outline.json
+    ├── 2.outline.json
+    └── ...           # All burg outlines
 
 index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
@@ -137,6 +149,8 @@ schemas/            # JSON schemas
 ├── world_canon_outline.schema.json
 ├── interstate_outline.schema.json
 ├── state_outline.schema.json
+├── province_outline.schema.json
+├── burg_outline.schema.json
 ├── lore.state.full.schema.json
 └── lore.burg.full.schema.json
 ```
@@ -276,6 +290,8 @@ npm run graph:build        # Build dependencies
 npm run canon:world:outline        # World-level context
 npm run canon:interstate:outline   # Inter-state relationships
 npm run canon:state:outline        # All state outlines
+npm run canon:province:outline     # Province outlines (synthetic from state regions)
+npm run canon:burg:outline         # Burg outlines (from fact data)
 # Or single state: npm run canon:state:outline:one -- 1
 ```
 

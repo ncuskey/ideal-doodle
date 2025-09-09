@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_70dee843",
+  "burg_id": 151,
+  "name": "Burg_151",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "undocumented",
+    "frontier"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "subsistence farming",
+    "smallcraft workshops",
+    "local trade",
+    "ritual-supply gathering"
+  ],
+  "factions_local": [
+    "Village Elders",
+    "Herbalists' Circle",
+    "Itinerant Ritualists",
+    "River/Coast Boat Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
+  ],
+  "culture_notes": [
+    "mixed dialect influences (Coastal/Riveric traces)",
+    "daily life structured by ritual obligations",
+    "diet focused on preserved staples and local catch",
+    "festivals tied to stars and harvest"
+  ],
+  "quest_hook_slots": [
+    "ritual reagent shortage",
+    "disappearances of elders"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population undocumented; entry scant",
+    "near-medieval tech with localized ritual practices"
+  ],
+  "generated_at": "2025-09-09T04:12:30.062Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_old_port_quarter",
+  "checksum": "fnv1a_a05aa250",
+  "name": "Old Port Quarter",
+  "aliases": [
+    "Old Quarter",
+    "Quayward"
+  ],
+  "tags": [
+    "maritime",
+    "guild-district",
+    "harbor",
+    "transshipment"
+  ],
+  "role_in_state": "historic transshipment and service hub",
+  "economy_niches": [
+    "ship repair, chandlery and ropeworks",
+    "salt and fish processing wharves",
+    "bonded storage and re-export of imported reagents",
+    "ritual-augury stalls for short voyages",
+    "longshore transshipment and labor contracting"
+  ],
+  "culture_adjustments": [
+    "tighter guild control over daily life and hiring",
+    "oral port-laws and captain-focused gift-exchange ritual amplified",
+    "dense dockside argot/pidgin layered on Coastal Tongues",
+    "boardinghouses and inns oriented to transient crews",
+    "practical syncretism of rites tailored to departure/arrival"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal surge / floodplain",
+    "dockfire (dense timber construction)",
+    "smuggling and organized theft",
+    "crowd-borne disease outbreaks",
+    "ritual reagent theft / contamination"
+  ],
+  "constraints": [
+    "very limited buildable space; vertical/overwater sprawl only",
+    "guild regulations restrict new enterprises",
+    "ritual services reliant on scarce imported reagents"
+  ],
+  "notes": [
+    "core of the state's shipbuilding/trade chain; archival records often oral",
+    "layered quays and refuse make groundworks and archaeology difficult"
+  ],
+  "generated_at": "2025-09-09T04:02:30.635Z"
+}

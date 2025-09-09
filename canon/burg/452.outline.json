@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7877674f",
+  "burg_id": 452,
+  "name": "Burg_452",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply depot",
+    "small-scale fishing",
+    "waystation/reshop",
+    "coastal trade hub"
+  ],
+  "factions_local": [
+    "Ritual Suppliers' Guild",
+    "Harbormaster's Syndicate",
+    "Ancestor Shrine Custodians"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "piracy and smuggling",
+    "supply-chain isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant spoken",
+    "diet centered on preserved seafood and smoked fare",
+    "public rituals tied to fishing seasons",
+    "strong deference to ancestor-officiants"
+  ],
+  "quest_hook_slots": [
+    "reagent theft",
+    "ritual accident",
+    "smuggler crackdown"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned",
+    "limited combustion industry (no high-pressure steam megatech)"
+  ],
+  "notes": [
+    "reachable by coastal coaster and rough road",
+    "good staging point for nearby islands and reefs"
+  ],
+  "generated_at": "2025-09-09T04:32:57.482Z"
+}

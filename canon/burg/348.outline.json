@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c3fe4d33",
+  "burg_id": 348,
+  "name": "Tidebreak",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "small-scale fishing",
+    "inn & provisioning",
+    "dockside repair"
+  ],
+  "factions_local": [
+    "Harbor Merchants' Compact",
+    "Tidebind Ritual Circle",
+    "Longshore Workers' Guild",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "intermittent reagent shortages",
+    "smuggling & black-market tension",
+    "hazardous tidal access"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy on smoked & pickled seafood",
+    "tide-based rites schedule local festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "ritual magic depends on scarce imported reagents",
+    "long-range mind-influence is socially/legal taboo",
+    "combustion industry minimal — no high-pressure steam tech"
+  ],
+  "notes": [
+    "shallow harbor; larger vessels offload at high tide",
+    "population transient; many seasonal traders"
+  ],
+  "generated_at": "2025-09-09T04:25:39.174Z"
+}

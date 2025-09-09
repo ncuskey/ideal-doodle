@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_lowmarsh_hinterland",
+  "checksum": "fnv1a_ccf4e880",
+  "name": "Lowmarsh Hinterland",
+  "aliases": [
+    "Low Marsh Hinterland",
+    "Lowmarsh Flats"
+  ],
+  "tags": [
+    "marsh",
+    "estuary-hinterland",
+    "agricultural",
+    "reagent-gathering"
+  ],
+  "role_in_state": "Food, peat and reagent supplier to coastal ports",
+  "economy_niches": [
+    "Estuarine aquaculture (oysters, eel-farms)",
+    "Peat-cutting & charcoal for ritual smokes",
+    "Saltmarsh reed and thatch production",
+    "Silt-rich grain and bulb cultivation",
+    "Wild-reagent foraging (seaweeds, shell-salts, bog-herbs)"
+  ],
+  "culture_adjustments": [
+    "More inland-focused kin obligations; less seafaring life",
+    "Local barter networks stronger than formal guild apprenticeships",
+    "Dialect mixes Coastal Tongues with Riveric loanwords",
+    "Peat-ritual practices blend ancestor rites with land stewardship"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "peat-fire",
+    "saltwater intrusion",
+    "banditry"
+  ],
+  "constraints": [
+    "Seasonal road isolation during spring floods",
+    "Ritual harvest quotas enforced by coastal houses",
+    "Limited heavy-combustion industry (no high-pressure steam)"
+  ],
+  "notes": [
+    "Peat pits double as ritual sites and reagent stores",
+    "Exports routed through state ports; subject to guild tariffs"
+  ],
+  "generated_at": "2025-09-09T04:08:24.104Z"
+}

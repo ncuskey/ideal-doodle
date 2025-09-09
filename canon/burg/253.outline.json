@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2cdfe4f5",
+  "burg_id": 253,
+  "name": "Burg_253",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-hub",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small fishing pier",
+    "ritual-reagent depot",
+    "transit stop for coastal traders"
+  ],
+  "factions_local": [
+    "pierworkers' syndicate",
+    "Sea-Tide shrine",
+    "reagent merchants' agent"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "seasonal storm damage",
+    "smuggling and informal tolls"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-tinged Coastal Tongue dialect",
+    "strong ancestor-singing at dusk",
+    "diet: salted fish, kelp preserves, dried legumes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing mariner"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic requires scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "rocky spit with a short, weather-beaten pier; vital stop on coastal run"
+  ],
+  "generated_at": "2025-09-09T04:19:07.727Z"
+}

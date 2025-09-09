@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_outer_shoals",
+  "checksum": "fnv1a_b7327658",
+  "name": "Outer Shoals",
+  "aliases": [
+    "The Shoals",
+    "Outer Reef"
+  ],
+  "tags": [
+    "estuary",
+    "shoals",
+    "saltworks",
+    "harvest-reagents",
+    "lightships"
+  ],
+  "role_in_state": "Maritime hazard buffer and specialty reagent harvester",
+  "economy_niches": [
+    "kelp/seaweed harvest for ritual reagents",
+    "tidal saltworks and shallow-water fisheries",
+    "lightship, buoy and skiffbuilding/repair",
+    "salvage, ship‑breaking and wreck-wares trade"
+  ],
+  "culture_adjustments": [
+    "Stronger shoal-superstitions; rites keyed to low-tide windows",
+    "Dialect preserves archaic Coastal Tongues forms + heavier Island Creole loanwords",
+    "Local authority vested in lighthouse-keepers and saltmasters",
+    "Economy and social life centered on salvage/local barter over long-range trade",
+    "Festival calendar emphasizes storm-watch and tidal clearances"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "shoal-navigation hazards",
+    "storm-surge and flooding",
+    "saltwork blight (algal mats)",
+    "smugglers and wreck-piracy"
+  ],
+  "constraints": [
+    "Very limited arable land; reliant on food imports",
+    "Shallow waters restrict large-ship yards and heavy industry",
+    "Seasonal access windows for larger vessels",
+    "Ritual magic dependent on scarce imported reagents"
+  ],
+  "notes": [
+    "Key supplier of kelp-based ritual reagents used statewide",
+    "Natural lighthouses are hereditary offices with civic powers",
+    "Serves as early-warning belt for storms and approaching fleets"
+  ],
+  "generated_at": "2025-09-09T04:07:49.084Z"
+}

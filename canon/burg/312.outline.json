@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_14abd26d",
+  "burg_id": 312,
+  "name": "Burg_312",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "Coastal fishing",
+    "Supply depot",
+    "Reagent exchange",
+    "Small ship repair"
+  ],
+  "factions_local": [
+    "Harbormaster's guild",
+    "Reagent traders' cartel",
+    "Ancestor chapel",
+    "Smugglers' ring"
+  ],
+  "problems": [
+    "Reagent scarcity",
+    "Storm damage",
+    "Banditry",
+    "Corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "Sea-faring rites and ancestor offerings",
+    "Diet heavy on salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing crew"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magic",
+    "Navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Population unknown; transient maritime traffic",
+    "Weather-exposed coastal location"
+  ],
+  "generated_at": "2025-09-09T04:23:23.528Z"
+}

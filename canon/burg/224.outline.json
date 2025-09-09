@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1d621ad9",
+  "burg_id": 224,
+  "name": "Burg_224",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "salvage",
+    "waystation"
+  ],
+  "factions_local": [
+    "Fishing Guild",
+    "Sea-Tide Circle",
+    "Smugglers' Ring",
+    "Reef-Keepers"
+  ],
+  "problems": [
+    "scarce reagents",
+    "storm damage",
+    "smuggling",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues + Island Creole dialect mix",
+    "Tide-blessing & salvage festivals",
+    "Cuisine: salted fish, fermented seaweed",
+    "Net-weaving & ritual talisman craft"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "reef-guardian disturbance"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Navigational auguries aid but cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Port lacks formal charter; informal rules dominate"
+  ],
+  "generated_at": "2025-09-09T04:17:11.204Z"
+}

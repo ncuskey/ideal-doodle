@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c482f36d",
+  "burg_id": 27,
+  "name": "Burg_27",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply",
+    "market-haven"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "provisioning & shipchandler",
+    "fishing & saltworks",
+    "smuggling & freight"
+  ],
+  "factions_local": [
+    "merchant guild",
+    "reagent brokers",
+    "tide-shamans",
+    "dockworkers cooperative"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit smugglers",
+    "supply disruptions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues common; Island Creole pidgin among crews",
+    "tide-festivals and ship-blessings",
+    "diet heavy on salted fish and fermented seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence banned; auguries limited"
+  ],
+  "notes": [
+    "population unknown; small harbor outpost",
+    "key resupply point between islands",
+    "vulnerable to storms and naval blockades"
+  ],
+  "generated_at": "2025-09-09T04:20:15.621Z"
+}

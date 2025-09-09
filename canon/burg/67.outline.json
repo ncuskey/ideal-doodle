@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_61a3b395",
+  "burg_id": 67,
+  "name": "Burg_67",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent relay",
+    "coastal fishing",
+    "harbor waystation"
+  ],
+  "factions_local": [
+    "Reagent House (merchant)",
+    "Harborwrights' Guild",
+    "Shrine of Tidal Mothers",
+    "Smugglers' Coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal supply cutoff",
+    "smuggling and piracy",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "tide-blessing ceremonies before voyages",
+    "diet heavy on smoked fish and fermented sea greens",
+    "barter-heavy local economy"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost reagent shipment",
+    "lighthouse haunting"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "notes": [
+    "strategic relay point for ritual reagent convoys",
+    "shoreline shoals shift seasonally; charts often outdated"
+  ],
+  "generated_at": "2025-09-09T04:36:18.497Z"
+}

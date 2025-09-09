@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_lower_drylands",
+  "checksum": "fnv1a_d560570b",
+  "name": "Lower Drylands",
+  "aliases": [
+    "Drylands",
+    "Lower Drylands Fringe"
+  ],
+  "tags": [
+    "arid",
+    "salt-flats",
+    "coastal-fringe",
+    "caravan-waypoint"
+  ],
+  "role_in_state": "provisioner of salted goods and caravan staging for maritime trade",
+  "economy_niches": [
+    "salt-evaporation pans and saltworks",
+    "fish salting and curing camps",
+    "caravan provisioning and pack-animal services",
+    "timber drying/seasoning for ship repairs",
+    "navigational-augury relays (coastal guidance)"
+  ],
+  "culture_adjustments": [
+    "stronger clan-land tenure than port-based kinship",
+    "rituals emphasize water-conservation and land-ancestors over open-sea rites",
+    "contract etiquette more barter- and caravan-focused than shipboard jargon",
+    "ceremonial seamanship exists but adapted to overland caravan launches"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "water scarcity",
+    "saline soil degradation",
+    "banditry along caravan routes",
+    "salt-storms and episodic coastal surge"
+  ],
+  "constraints": [
+    "scarce fresh water restricts heavy industry and ritual water-uses",
+    "ritual magic requires imported reagents and specialized labor",
+    "no high-pressure combustion industry permitted by state norms"
+  ],
+  "notes": [
+    "seasonal workforce shifts between salterns and coastal ports",
+    "supplies salted provisions and seasoned timber to State_9 shipyards",
+    "local augury stations coordinate with maritime guides but cannot replace charts"
+  ],
+  "generated_at": "2025-09-09T04:08:54.927Z"
+}

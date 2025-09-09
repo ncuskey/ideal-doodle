@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6fdfafef",
+  "burg_id": 326,
+  "name": "Burg_326",
+  "state_id": 0,
+  "province_id": "",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual reagent trade",
+    "small-scale fishing",
+    "waystation services",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Reagent Broker's Cell",
+    "Boatwright Cooperative",
+    "Tidewatchers (animist clergy)",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "isolation/poor resupply",
+    "banditry and smuggling",
+    "ritual-safety incidents"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-based festivals and omens",
+    "diet heavy on preserved seafood and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries supplementary only"
+  ],
+  "notes": [
+    "small outpost; population unknown",
+    "serves as a coastal supply node for ritualists and sailors",
+    "limited heavy-industry; craftsmanship and barter dominate"
+  ],
+  "generated_at": "2025-09-09T04:24:13.108Z"
+}

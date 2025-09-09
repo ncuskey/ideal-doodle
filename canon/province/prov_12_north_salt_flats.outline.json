@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_north_salt_flats",
+  "checksum": "fnv1a_e4997ac3",
+  "name": "North Salt-Flats",
+  "aliases": [
+    "White Flats",
+    "Saltplain"
+  ],
+  "tags": [
+    "saltworks",
+    "tidal-flats",
+    "monsoon-zone",
+    "low-population"
+  ],
+  "role_in_state": "primary salt and preservation supplier",
+  "economy_niches": [
+    "solar evaporation saltworks (bulk salt production)",
+    "fish-salting and long-preservation trades",
+    "seasonal salt caravans and coastal transshipment",
+    "licensed navigational-augury for tidal harvesting"
+  ],
+  "culture_adjustments": [
+    "salt-matriarch/clan rituals outrank distant harbor clans locally",
+    "higher reliance on seasonal migrant labor over permanent burgs",
+    "laws emphasize shared pans and timed harvests over ship law",
+    "practical taboos around freshwater use and salt cross-contamination"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "salt-encroachment (soil salinization)",
+    "caravan banditry",
+    "seasonal isolation (monsoon)"
+  ],
+  "constraints": [
+    "scarce fresh water for settlement expansion",
+    "limited local timber for shipbuilding",
+    "ritual-magic dependent on imported reagents"
+  ],
+  "notes": [
+    "province is a steady revenue source for State_12",
+    "labor and harvests tied strictly to monsoon/tidal calendar",
+    "evaporation pans double as navigational and augury landmarks"
+  ],
+  "generated_at": "2025-09-09T04:03:28.225Z"
+}

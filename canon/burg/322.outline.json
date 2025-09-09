@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_44baa54f",
+  "burg_id": 322,
+  "name": "Burg_322",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent trade",
+    "ship provisioning",
+    "inn/waystation"
+  ],
+  "factions_local": [
+    "Harbormaster's Office",
+    "Reagent Merchant Guild",
+    "Ancestor-Remembrance Shrine",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "smuggling",
+    "storm damage",
+    "periodic bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "seafood- and kelp-centered cuisine",
+    "ritualized harbor blessings before voyages",
+    "suspicious of outsiders during reagent shortages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual mishap",
+    "missing reagent shipment"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and locally banned",
+    "ritual magic consumes scarce imported reagents; trade-dependent"
+  ],
+  "notes": [
+    "population small; seasonal crews swell numbers",
+    "minor harbor on a coastal trade lane; strategic for reagent transshipment"
+  ],
+  "generated_at": "2025-09-09T04:24:03.824Z"
+}

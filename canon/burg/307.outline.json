@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e032a389",
+  "burg_id": 307,
+  "name": "Burg_307",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-collection"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent harvesting",
+    "waystation/trading post",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Harbormen's Guild",
+    "Reagent Families",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "bandit raids on night boats",
+    "corrupt harbormaster skimming fees"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant with Island Creole loanwords",
+    "Tide-honoring festivals tied to fishing calendar",
+    "Cuisine: salted fish and seaweed preserves",
+    "Taboos around offering the last catch to ancestors"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing tide-priest"
+  ],
+  "constraints": [
+    "Ritual magic requires scarce imported reagents",
+    "No instant resurrection; long-range mind influence banned",
+    "Combustion industry limited — no high-pressure steam machinery"
+  ],
+  "notes": [
+    "Likely estuarine/outbound coastal location",
+    "Small, transient population with seasonal fishers"
+  ],
+  "generated_at": "2025-09-09T04:22:57.400Z"
+}

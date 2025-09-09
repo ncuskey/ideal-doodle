@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2c517935",
+  "burg_id": 26,
+  "name": "Burg_26",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-hub",
+    "boat-fleet"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supplies",
+    "boat-repair",
+    "local-trade"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-guild",
+    "fisherfolk-council"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "smuggling",
+    "seasonal-flooding"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects",
+    "river-blended cuisine (smoked fish, riverweed)",
+    "evening ancestor-offerings at docks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-priest"
+  ],
+  "constraints": [
+    "rituals consume imported reagents",
+    "no long-range mind-control usage",
+    "limited combustion industry"
+  ],
+  "notes": [
+    "near-medieval tech with local ritual practices",
+    "small seasonal population fluctuation"
+  ],
+  "generated_at": "2025-09-09T04:19:34.725Z"
+}

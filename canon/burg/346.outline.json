@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c34cd543",
+  "burg_id": 346,
+  "name": "Burg_346",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waypoint-trade",
+    "reagent-depot",
+    "fishing",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "harbormaster-guild",
+    "reagent-merchant-family",
+    "shrine-keepers",
+    "smugglers-ring"
+  ],
+  "problems": [
+    "scarce-imported-reagents",
+    "banditry/smuggling",
+    "weather-disruption"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric/Coastal dialect mix",
+    "fish-and-smoked-preserve cuisine",
+    "rituals timed to tides and ancestor-days",
+    "trade etiquette favors ledger-gifts"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "ritual-accident"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind-influence banned",
+    "no high-pressure combustion industry"
+  ],
+  "notes": [
+    "population unknown; strategic small riverside/island outpost",
+    "serves as regional reagent transfer point"
+  ],
+  "generated_at": "2025-09-09T04:25:40.541Z"
+}

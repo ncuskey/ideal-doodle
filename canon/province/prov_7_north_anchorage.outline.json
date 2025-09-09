@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_north_anchorage",
+  "checksum": "fnv1a_6565a6d0",
+  "name": "North Anchorage",
+  "aliases": [
+    "Northern Anchorage",
+    "Northward Anchorage"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "shipyards",
+    "saltworks"
+  ],
+  "role_in_state": "Primary northern shipbuilding and estuary trade hub",
+  "economy_niches": [
+    "shipbuilding (small craft & longboats)",
+    "estuary fisheries and saltworks",
+    "rope, sail and timbersmith workshops",
+    "reagent transshipment and storage",
+    "boat repair, careening and chandlery"
+  ],
+  "culture_adjustments": [
+    "heightened tide-festival calendar — anchorage rites more elaborate",
+    "port jargon contains more Island Creole loanwords",
+    "practical seamanship ethos; chart-savvy captains prized over ritual navigators",
+    "dockside kin-clans dominate labour allocation and slip access"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding and storm surge",
+    "siltation and channel shift",
+    "river-approach raiding/banditry",
+    "interruption of reagent import lines"
+  ],
+  "constraints": [
+    "limited hinterland arable; reliant on imports",
+    "ritual magic consumes scarce imported reagents",
+    "industrial methods constrained to handcraft and low-pressure technologies"
+  ],
+  "notes": [
+    "preferred anchorage for state convoys during winter tides",
+    "local ropecraft guild controls slip and careening priority"
+  ],
+  "generated_at": "2025-09-09T04:07:45.226Z"
+}

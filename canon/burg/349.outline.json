@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_91235615",
+  "burg_id": 349,
+  "name": "Burg_349",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ritual-workshop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trading",
+    "ritual workshop",
+    "fishing",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Ritual Guild",
+    "Shipmasters' Cooperative",
+    "Harbor Watch",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Coastal Tongues loanwords",
+    "Fish-and-smoked-seafood cuisine",
+    "Small public offerings before voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "shrine disturbances"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "state unknown; peripheral to major polities",
+    "population data unavailable"
+  ],
+  "generated_at": "2025-09-09T04:25:44.259Z"
+}

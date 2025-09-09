@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_estuary_marches",
+  "checksum": "fnv1a_a8d514ee",
+  "name": "Estuary Marches",
+  "aliases": [
+    "Marches of the Estuary",
+    "Brackwater Marches"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "marsh",
+    "transshipment",
+    "saltworks"
+  ],
+  "role_in_state": "Primary transshipment and saltfish supply zone",
+  "economy_niches": [
+    "Saltworks & salted-fish export",
+    "Small-boat repair & reed-boatwrighting",
+    "Transshipment & customs for inland trade",
+    "Reagent storage & repackaging for ritual imports",
+    "Brackish aquaculture (oysters, eel traps)"
+  ],
+  "culture_adjustments": [
+    "Stronger Riveric Dialect substratum in local speech",
+    "Kinship organized around marsh guilds rather than ship crews",
+    "Auguries emphasize currents, mud-tides and reed-signs",
+    "Practical aversion to deep-sea voyages; focus on coastal piloting",
+    "High tolerance for salvage, jury-rigging and adaptive craft"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation",
+    "smuggling & illicit reagent markets",
+    "marsh-borne disease",
+    "silt-shifting/navigation hazards",
+    "tidal ambushes by bandit skiffs"
+  ],
+  "constraints": [
+    "Infrastructure vulnerable to daily tides and shifting channels",
+    "Ritual magic consumption constrained by imported reagent scarcity",
+    "Guild-controlled waterfront access limits small operators",
+    "Marsh substrate prevents heavy industrial/steam expansion"
+  ],
+  "notes": [
+    "Buffers open-sea routes and inland rivers; pivotal for pilotage",
+    "Saltworks often held by state guilds; labour negotiated locally",
+    "Navigation auguries essential but require local pilot knowledge"
+  ],
+  "generated_at": "2025-09-09T04:06:32.616Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c125844d",
+  "burg_id": 288,
+  "name": "Burg_288",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "small-scale trade",
+    "saltworks"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ritual Brotherhood",
+    "Saltworkers' Cooperative"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "dockside ancestor offerings",
+    "salted-fish cuisine",
+    "tide festival"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "Tech baseline: near-medieval to early industrial",
+    "navigational auguries exist but are limited"
+  ],
+  "generated_at": "2025-09-09T04:21:32.100Z"
+}

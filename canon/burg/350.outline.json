@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_597aa135",
+  "burg_id": 350,
+  "name": "Burg_350",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-depot",
+    "fishing",
+    "transit-stop"
+  ],
+  "factions_local": [
+    "harbormaster",
+    "ritual-house",
+    "coastal-traders",
+    "watch-crew"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "seasonal-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue with island loanwords",
+    "salt-preserved cuisine",
+    "tide-prayer nights"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigational-auguries-cannot-replace-seamanship"
+  ],
+  "notes": [
+    "small pier; seasonal surf hazards",
+    "local economy tied to passing coasters"
+  ],
+  "generated_at": "2025-09-09T04:25:59.121Z"
+}

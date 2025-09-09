@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ba3c7ebf",
+  "burg_id": 269,
+  "name": "Burg_269",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-port",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labors",
+    "transshipment",
+    "smuggling"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual-house (tide)",
+    "smuggler ring",
+    "coastal militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raiding",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks a Coastal Tongues dialect",
+    "tide-based festivals and offerings",
+    "salt-preserved cuisine heavy on fish",
+    "strong superstition about stars and currents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "bewitched beacon"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or long-range mind-control (banned)",
+    "limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "population unknown; many transient crews and seasonal workers",
+    "minimal state oversight; local guilds control trade"
+  ],
+  "generated_at": "2025-09-09T04:20:13.976Z"
+}

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_19259b45",
+  "burg_id": 336,
+  "name": "Burg_336",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fisheries",
+    "ritual-reagent trade",
+    "ship provisioning",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor-Remembrance Circle",
+    "Smugglers' Knot",
+    "Militia Watch"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "smuggling",
+    "coastal erosion",
+    "militia underfunded"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "tide-based market calendar",
+    "seaweed and cured fish cuisine",
+    "ancestor veneration tied to fishing rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ritual-reagents",
+    "wreck salvage"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Near-medieval to early industrial tech",
+    "Localized ritual magic common; reagent scarcity shapes trade",
+    "State-level details unknown"
+  ],
+  "generated_at": "2025-09-09T04:25:00.610Z"
+}

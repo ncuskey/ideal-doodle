@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_windward_shoals",
+  "checksum": "fnv1a_5f869f6",
+  "name": "Windward Shoals",
+  "aliases": [
+    "Windward",
+    "The Shoals",
+    "Windward Reefs"
+  ],
+  "tags": [
+    "coastal",
+    "reef",
+    "pilotage",
+    "maritime-guild",
+    "reagent-source"
+  ],
+  "role_in_state": "Strategic pilotage hub and reef-reagent supplier",
+  "economy_niches": [
+    "reef-harvested ritual reagents (coral resins, sponge salts)",
+    "light shipbuilding and repair (reefal craft, pilot skiffs)",
+    "saltworks & fisheries (tide-flushed saltings, smoked fish)",
+    "pilotage, guides & charting services",
+    "rope, netting and artisan rigging"
+  ],
+  "culture_adjustments": [
+    "Tide-calendar dominates daily law and work rhythms beyond state norm",
+    "Guild-led pilot families hold quasi-legal authority over waters",
+    "Stronger oral rites for lost mariners and reef-memorial liturgies",
+    "Taboos against certain reef harvests during spawning tides",
+    "Practical seamanship idioms infuse Coastal Tongues speech locally"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef-navigation hazards",
+    "seasonal storm surge",
+    "piracy and pilotage extortion",
+    "local reagent depletion"
+  ],
+  "constraints": [
+    "Ritual magic here consumes scarce imported reagents",
+    "Navigational auguries supplement but do not replace charts/pilots",
+    "Combustion industry limited by lack of heavy steam tech"
+  ],
+  "notes": [
+    "Key pilotage chokepoints confer strategic leverage to local guilds",
+    "Produces reagents critical to state coastal rituals",
+    "Seasonal festivals timed to spring tides draw visiting merchants"
+  ],
+  "generated_at": "2025-09-09T04:07:27.195Z"
+}

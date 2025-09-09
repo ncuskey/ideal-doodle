@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_cliffward_march",
+  "checksum": "fnv1a_2594fa98",
+  "name": "Cliffward March",
+  "aliases": [
+    "Cliffward",
+    "Falshore March"
+  ],
+  "tags": [
+    "coastal",
+    "cliffs",
+    "watchpost",
+    "ship-repair"
+  ],
+  "role_in_state": "frontline coastal defense and ship-repair hub",
+  "economy_niches": [
+    "cliffside shipyards (repair, careening)",
+    "salt-terrace fish-curing",
+    "harbor augury booths for coastal navigation",
+    "limestone quarrying for ballast and masonry",
+    "pilotage and tolls at lee coves"
+  ],
+  "culture_adjustments": [
+    "practical seamanship prioritized over mercantile pageantry",
+    "strong cliff-watch and beacon traditions distinct from port epics",
+    "heavy use of pilot/watch pidgin vocabulary",
+    "guild oaths tied to coastal defense duties",
+    "seasonal cliff-festivals replace some inland port rituals"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "rockslide",
+    "smuggling",
+    "guild-tension"
+  ],
+  "constraints": [
+    "limited flat land for expansion due to sheer cliffs",
+    "scarce imported ritual reagents subject to maritime disruption",
+    "no high-pressure steam megainfrastructure (state tech constraint)"
+  ],
+  "notes": [
+    "hereditary pilot registers held by local guilds",
+    "augury booths concentrated at headlands for safe approach"
+  ],
+  "generated_at": "2025-09-09T04:06:27.777Z"
+}

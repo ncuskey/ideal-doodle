@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2fb137d7",
+  "burg_id": 355,
+  "name": "Burg_355",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-lighthouse"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply transshipment",
+    "lantern-keeping / beacon services",
+    "seasonal salt-harvest"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Keeper Circle (lantern cult)",
+    "Smugglers' Ring",
+    "Coastal Militia"
+  ],
+  "problems": [
+    "scarce imported ritual reagents",
+    "smuggling and black-market trade",
+    "storm damage and supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with clipped nautical terms",
+    "Diet heavy on salted fish, seaweed, preserved kelp",
+    "Nightly lantern rites to calm sea-spirits",
+    "Wary of outsiders; hospitality tied to gift-offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-ingredient theft",
+    "storm-omen investigations"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents; costly and regulated",
+    "Long-range mind-influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "Near-medieval tech with pervasive localized ritual practices",
+    "Beacon atop an old brazier used in navigation augury"
+  ],
+  "generated_at": "2025-09-09T04:26:28.688Z"
+}

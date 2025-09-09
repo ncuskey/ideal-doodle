@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fc003b17",
+  "burg_id": 265,
+  "name": "Burg_265",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "waystation/inn",
+    "small-boat fishing",
+    "barter & repair"
+  ],
+  "factions_local": [
+    "apothecarists' coterie",
+    "harbor guild",
+    "riverwardens",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "river banditry",
+    "administrative limbo"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric-Coastal dialect mix",
+    "long-boat processions for safe passage",
+    "pickled fish, reagent-infused teas common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "river disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion industry — no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "border/outpost with unknown state affiliation",
+    "frequent stop for itinerant ritualists and navigational augurs"
+  ],
+  "generated_at": "2025-09-09T04:19:53.134Z"
+}

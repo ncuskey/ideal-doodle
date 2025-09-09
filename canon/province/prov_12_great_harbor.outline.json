@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_great_harbor",
+  "checksum": "fnv1a_6906f709",
+  "name": "Great Harbor",
+  "aliases": [
+    "The Great Harbor",
+    "Great Port",
+    "Harbor of Tides"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "saltworks",
+    "navigational-augury",
+    "fisheries",
+    "merchant-hub"
+  ],
+  "role_in_state": "Primary naval and commercial hub",
+  "economy_niches": [
+    "Deepwater shipbuilding and repair",
+    "Seasonal monsoon fisheries and processing",
+    "Saltworks and salted-fish export",
+    "Naval navigational-augury services",
+    "Coastal trade brokerage and warehousing"
+  ],
+  "culture_adjustments": [
+    "Dockside guilds supersede some kinship functions",
+    "Harbor law and customs more codified than rural oral traditions",
+    "Higher density of foreign merchants; more cosmopolitan etiquette",
+    "Ritual seamanship rites are more frequent and guild-controlled",
+    "Marketplace speech contains more Island Creole loanforms"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "salt-water corrosion",
+    "port fires",
+    "smuggling and piracy",
+    "labor strikes"
+  ],
+  "constraints": [
+    "Ritual navigational auguries consume scarce imported reagents controlled by guilds",
+    "Limited combustion/steam industry capacity; no high-pressure megatech",
+    "Long-range mind-influence magics are banned"
+  ],
+  "notes": [
+    "Monsoonal fisheries drive seasonal labor peaks",
+    "Shipyards require steady timber imports and protected slipways"
+  ],
+  "generated_at": "2025-09-09T04:03:17.626Z"
+}

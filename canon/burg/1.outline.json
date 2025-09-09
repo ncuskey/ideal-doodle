@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4e082ccb",
+  "burg_id": 1,
+  "name": "Burg_1",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "harvest-collection"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harvest-clan",
+    "coastal-watch"
+  ],
+  "problems": [
+    "scarcity",
+    "banditry",
+    "supply-dependence"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal-tongue influence",
+    "seasonal sea-blessing festival",
+    "salt-preserved cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent-theft",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "pop: n/a",
+    "near-medieval tech baseline"
+  ],
+  "generated_at": "2025-09-09T04:09:21.524Z"
+}

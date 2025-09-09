@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c33ff6f1",
+  "burg_id": 325,
+  "name": "Burg_325",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-port"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply trade",
+    "inn & lodging",
+    "boatsmithing"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smugglers' Ring",
+    "Harbormaster's Council"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "salt damage to craft"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Speaks Coastal Tongues with Island Creole borrowings",
+    "Docks as focus for nightly offerings",
+    "Diet heavy on smoked/salted fish and seaweed",
+    "Tide-song work rhythms and superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "Rocky inlet harbor, exposed to storms",
+    "Small permanent population; seasonal sailors and ritual-pilgrims"
+  ],
+  "generated_at": "2025-09-09T04:24:20.043Z"
+}

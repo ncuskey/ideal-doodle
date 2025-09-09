@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fe78a1b7",
+  "burg_id": 412,
+  "name": "Burg_412",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-depot",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "fishing",
+    "waystation/trading post",
+    "small market"
+  ],
+  "factions_local": [
+    "merchant guildlet",
+    "ritual-collectors",
+    "harbor wardens",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry along routes",
+    "corruption in permits",
+    "resource depletion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with maritime loanwords",
+    "diet focused on smoked/cured fish",
+    "customs favor ritual offerings before departures"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual contamination"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "State affiliation unknown",
+    "Serves itinerant ritualists, mariners, and small-scale traders"
+  ],
+  "generated_at": "2025-09-09T04:29:55.283Z"
+}

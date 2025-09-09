@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4c438315",
+  "burg_id": 437,
+  "name": "Burg_437",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supplies",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-coven",
+    "coastal-watch"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect predominates",
+    "salt-preserved cuisine and seaweed staples",
+    "frequent small offerings at shore shrines"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen-ritual-reagent",
+    "missing-sailor"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents or specialized burg-labors"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries used but do not replace charts/seamanship",
+    "Population small; records sparse"
+  ],
+  "generated_at": "2025-09-09T04:31:51.622Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cb4408e5",
+  "burg_id": 305,
+  "name": "Burg_305",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "harbor services",
+    "reagent gathering",
+    "pilgrim provisioning"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "ritual-collectors",
+    "ancestral chapel caretakers",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "smuggling and banditry",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues / Island Creole mix in everyday speech",
+    "tide festivals and ancestor offerings at shoreline",
+    "diet heavy on salted fish, seaweed, preserved goods"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "tidal-curse"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents or specialized local labor",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "State unspecified; functions as a minor frontier harbor and ritual node",
+    "Population not recorded; transient seasonal traffic"
+  ],
+  "generated_at": "2025-09-09T04:22:53.158Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_259ec45b",
+  "burg_id": 249,
+  "name": "Burg_249",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-depot",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "boat repair",
+    "fisheries",
+    "coastal lodging"
+  ],
+  "factions_local": [
+    "ritual-runner guild",
+    "fisher cooperative",
+    "harbormaster's office"
+  ],
+  "problems": [
+    "smuggling",
+    "reagent scarcity",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "seaweed-and-fish cuisine",
+    "tide-festival and boat-blessing rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "missing lighthouse keeper"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection; long-range mind influence banned",
+    "Navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Population transient and poorly documented",
+    "Key stop for coastal traders and reagent runners"
+  ],
+  "generated_at": "2025-09-09T04:18:55.336Z"
+}

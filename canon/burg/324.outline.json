@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bb9223af",
+  "burg_id": 324,
+  "name": "Burg_324",
+  "state_id": 0,
+  "province_id": "prov_unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-reagent depot",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-crew",
+    "ritual-collectors",
+    "traders' guildlet",
+    "coastal-clan"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salt-blessed rites for sailors",
+    "diet heavy on smoked/fermented fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagent shipments",
+    "sea-omen"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence is rare/banned"
+  ],
+  "notes": [
+    "Near-medieval tech with localized ritual practice",
+    "Small outpost serving coastal navigation and pilgrims",
+    "Dependent on imported reagents and outside trade"
+  ],
+  "generated_at": "2025-09-09T04:24:16.133Z"
+}

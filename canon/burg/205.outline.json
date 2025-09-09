@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5db70ec3",
+  "burg_id": 205,
+  "name": "Burg_205",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "unmapped",
+    "coastal-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent brokerage",
+    "waystation/harbor services",
+    "scavenged salvage trade"
+  ],
+  "factions_local": [
+    "harbor-master crew",
+    "reagent runners",
+    "ancestor-shrine custodians"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "smuggling and illicit trade",
+    "isolation during storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole with Coastal Tongues loanwords",
+    "tide-honoring communal rituals",
+    "diet focused on salted fish and preserved seaweed"
+  ],
+  "quest_hook_slots": [
+    "missing reagent shipments",
+    "smuggling ring",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind-influence; navigational auguries limited"
+  ],
+  "notes": [
+    "population unknown; likely transient and seasonal",
+    "acts as local waypoint for small coasters and reagent couriers"
+  ],
+  "generated_at": "2025-09-09T04:15:55.236Z"
+}

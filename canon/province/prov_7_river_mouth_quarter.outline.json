@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_river_mouth_quarter",
+  "checksum": "fnv1a_9b33d8e4",
+  "name": "River-mouth Quarter",
+  "aliases": [
+    "Mouthside",
+    "Quarter of the Tides"
+  ],
+  "tags": [
+    "estuary",
+    "port-district",
+    "timbersmiths",
+    "saltworks"
+  ],
+  "role_in_state": "primary estuarine port and reagent transit node",
+  "economy_niches": [
+    "ship outfitting & repair",
+    "saltworks and fish-curing",
+    "reagent transshipment and bonded storage",
+    "rope, net and timbersmith workshops",
+    "tide-scheduled market for coastal trade"
+  ],
+  "culture_adjustments": [
+    "dockside slang with Island Creole loanwords",
+    "festival calendar keyed to local spring-neap tides",
+    "practical workshop etiquette over inland ritual formalism",
+    "higher multiethnic crew turnover and cuisine fusion"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "saline intrusion",
+    "smuggling and piracy",
+    "crowd-borne disease"
+  ],
+  "constraints": [
+    "limited quay space constrains expansion",
+    "ritual magic depends on scarce imported reagents",
+    "no heavy steam industrialization permitted"
+  ],
+  "notes": [
+    "seasonal access varies with spring-neap tides",
+    "pilot guild controls estuary approaches"
+  ],
+  "generated_at": "2025-09-09T04:08:00.761Z"
+}

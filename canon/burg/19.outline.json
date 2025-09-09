@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5fb7c635",
+  "burg_id": 19,
+  "name": "Burg_19",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply depot",
+    "small ship repair"
+  ],
+  "factions_local": [
+    "harbormaster's council",
+    "ritual coven",
+    "merchant runners"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "seasonal storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "seafood preservation cuisine",
+    "crafts incorporate ritual motifs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual shipment",
+    "storm-wreck salvage"
+  ],
+  "constraints": [
+    "No instant resurrection",
+    "Long-range mind influence banned",
+    "Rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial baseline",
+    "Navigational auguries used but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:14:52.485Z"
+}

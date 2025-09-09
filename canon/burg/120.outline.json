@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4435ba37",
+  "burg_id": 120,
+  "name": "Burg_120",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "outpost",
+    "ritual-station"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "coastal fishing",
+    "waystation trade",
+    "ritual-support services"
+  ],
+  "factions_local": [
+    "merchant syndicate",
+    "ritual-keepers",
+    "harbor watch",
+    "smuggler cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "isolation",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide-offering customs",
+    "salt-preserved cuisine",
+    "apprentice ritualists"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing vessel"
+  ],
+  "constraints": [
+    "rituals need scarce imported reagents",
+    "navigational auguries supplement but don't replace charts"
+  ],
+  "notes": [
+    "resupply by coastal trader weekly",
+    "nav-augury shrine on headland"
+  ],
+  "generated_at": "2025-09-09T04:10:39.251Z"
+}

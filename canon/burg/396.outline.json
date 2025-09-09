@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fdd588d5",
+  "burg_id": 396,
+  "name": "Burg_396",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "crossroads",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-trade",
+    "supply-depot"
+  ],
+  "factions_local": [
+    "local-merchants-guild",
+    "ritual-scribe-house",
+    "riverwardens",
+    "smuggling-ring"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry",
+    "dependence-on-imports"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "mix of Coastal Tongues and Riveric idioms",
+    "commerce rituals tied to trade etiquette",
+    "preservation-heavy cuisine (dried, salted, smoked)"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-heist",
+    "missing-caravan"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind influence; navigational auguries limited"
+  ],
+  "notes": [
+    "population unknown; seasonal traffic flux",
+    "strategic relay for reagent and trade shipments"
+  ],
+  "generated_at": "2025-09-09T04:29:04.999Z"
+}

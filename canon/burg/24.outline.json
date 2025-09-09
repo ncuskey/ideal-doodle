@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_adb26729",
+  "burg_id": 24,
+  "name": "Burg_24",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trading",
+    "waystation/inn",
+    "small-scale fishing"
+  ],
+  "factions_local": [
+    "harbormaster's guildlet",
+    "ritual-lab coterie",
+    "merchant smugglers"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "banditry on hinter routes",
+    "isolation/lack of official support"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "dusk ancestor-offering customs",
+    "salt-preserved fish staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual mishap/curse"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection magics allowed",
+    "long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "tech: near-medieval → early industrial + localized ritual magic"
+  ],
+  "generated_at": "2025-09-09T04:18:09.872Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ac47b53",
+  "burg_id": 186,
+  "name": "Burg_186",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-trade"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ferrying",
+    "ritual-supply",
+    "fishery",
+    "local-market"
+  ],
+  "factions_local": [
+    "Guild of Ferrymen",
+    "Shrinekeepers",
+    "Market Consortium",
+    "Riverwatch militia"
+  ],
+  "problems": [
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "smuggling",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect with Riveric loanwords",
+    "daily small-scale offerings at river shrines",
+    "diet heavy on smoked fish and river herbs"
+  ],
+  "quest_hook_slots": [
+    "missing-ferry-boat",
+    "stolen-reagents",
+    "ritual-curse"
+  ],
+  "constraints": [
+    "rituals consume rare imported reagents",
+    "long-range mind influence is banned/rare",
+    "limited combustion industry; no high-pressure steam tech"
+  ],
+  "notes": [
+    "state authority unclear; semi-autonomous local governance",
+    "navigational auguries used for crossing tides but charts remain essential"
+  ],
+  "generated_at": "2025-09-09T04:14:41.479Z"
+}

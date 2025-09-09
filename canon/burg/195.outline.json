@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e92ad5b",
+  "burg_id": 195,
+  "name": "Burg_195",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waypoint"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferry waypoint",
+    "reagent staging",
+    "fishing"
+  ],
+  "factions_local": [
+    "Local Council",
+    "Fisherfolk Cooperative",
+    "Ritual Apothecaries",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply unreliability"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect predominant",
+    "dockside ancestor offerings",
+    "salt-cured cuisine",
+    "ritualized pre-departure rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ferryman"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown",
+    "strategic coastal waypoint",
+    "limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:15:14.677Z"
+}

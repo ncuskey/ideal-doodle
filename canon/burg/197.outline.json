@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bdbfcc77",
+  "burg_id": 197,
+  "name": "Burg_197",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "fishing",
+    "minor ship repairs",
+    "waystation services"
+  ],
+  "factions_local": [
+    "ritual guildhouse",
+    "harbormasters",
+    "merchant house",
+    "clan elders"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry on supply routes",
+    "isolation in bad weather",
+    "corrupt harbor fees"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ancestor offerings at docks",
+    "salt-preserved fish staples",
+    "ritual etiquette governs trade"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "haunted shrine"
+  ],
+  "constraints": [
+    "rituals require rare imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "population data n/a",
+    "suitable for small maritime/ritual adventures"
+  ],
+  "generated_at": "2025-09-09T04:15:21.634Z"
+}

@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_63b15729",
+  "burg_id": 282,
+  "name": "Burg_282",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-port",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "barter-hub",
+    "ritual-reagent-trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-smiths",
+    "elders-circle"
+  ],
+  "problems": [
+    "supply-scarcity",
+    "banditry",
+    "reagent-shortage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect dominant",
+    "sea-remembrance wakes common",
+    "salt-preserved fish cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned"
+  ],
+  "notes": [
+    "population unknown; strategic river bend",
+    "navigation auguries used but charts required"
+  ],
+  "generated_at": "2025-09-09T04:21:06.662Z"
+}

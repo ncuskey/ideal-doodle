@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_28cc95a9",
+  "burg_id": 42,
+  "name": "Burg_42",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-transit"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "ship-repair"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Tide Fraternity",
+    "Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "tidal erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide rites and harbor festivals",
+    "seafood and kelp fermentation"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing crew"
+  ],
+  "constraints": [
+    "Rituals consume scarce imported reagents",
+    "No high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Small, transient population",
+    "Waystation on coastal routes"
+  ],
+  "generated_at": "2025-09-09T04:30:23.679Z"
+}

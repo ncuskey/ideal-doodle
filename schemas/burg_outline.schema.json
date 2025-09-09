@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "burg_outline.schema.json",
+  "title": "Burg Outline",
+  "type": "object",
+  "required": [
+    "world_id",
+    "burg_id",
+    "name",
+    "state_id",
+    "tags",
+    "size_hint",
+    "economy_roles",
+    "factions_local",
+    "problems",
+    "religion_presence",
+    "culture_notes",
+    "constraints",
+    "notes"
+  ],
+  "properties": {
+    "world_id": { "type": "string" },
+    "checksum": { "type": "string" },
+    "burg_id": { "type": "integer" },
+    "name": { "type": "string" },
+    "state_id": { "type": "integer" },
+    "province_id": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "size_hint": { "type": "string" },
+    "economy_roles": { "type": "array", "items": { "type": "string" } },
+    "factions_local": { "type": "array", "items": { "type": "string" } },
+    "problems": { "type": "array", "items": { "type": "string" } },
+    "religion_presence": { "type": "array", "items": { "type": "string" } },
+    "culture_notes": { "type": "array", "items": { "type": "string" } },
+    "quest_hook_slots": {
+      "description": "0–3 suggested hook themes (labels only, not full hooks).",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

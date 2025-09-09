@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_90e4ed05",
+  "burg_id": 158,
+  "name": "Burg_158",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "small",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-supply-trading",
+    "waystation-services"
+  ],
+  "factions_local": [
+    "shipmasters-circle",
+    "ritual-wardens",
+    "trader-clan"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "storm-damage",
+    "bandit-raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric Dialect influence in speech",
+    "fish-and-seaweed cuisine",
+    "ritual-status tied to material offerings",
+    "tight-knit kin groups"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-artifact-theft",
+    "missing-captain"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic integration",
+    "serves as a resupply/waystation on coastal routes"
+  ],
+  "generated_at": "2025-09-09T04:12:53.730Z"
+}

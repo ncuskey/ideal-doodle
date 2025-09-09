@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_saltflats_of_kera",
+  "checksum": "fnv1a_7a827b02",
+  "name": "Saltflats of Kera",
+  "aliases": [
+    "Kera Flats",
+    "Kera Saltflats"
+  ],
+  "tags": [
+    "saltworks",
+    "brine-marsh",
+    "longshore-export",
+    "augury-node"
+  ],
+  "role_in_state": "Primary salt and curing supplier; tidal-augury staging area",
+  "economy_niches": [
+    "solar evaporation saltworks and bulk salt export",
+    "salt-curing for fisheries and leather artisans",
+    "seasonal brine-harvests (shrimp, saltscale products)",
+    "longshore transshipment and caravan packing",
+    "localized ritual-augury platforms using salt plains"
+  ],
+  "culture_adjustments": [
+    "salt-centric toponymy and rites replacing some sea-naming rituals",
+    "seasonal migrant labor norms; workforce moves with tides and harvest cycles",
+    "strong taboos on freshwater waste and inland-water usage",
+    "dialectal Coastal Tongues variant heavy with brine lexicon and tide-terms",
+    "fewer full-scale shipyards; emphasis on small craft, barges and hauling crews"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "salt-storms",
+    "brine-subsidence and ground collapse",
+    "caravan-banditry on salt roads",
+    "freshwater scarcity",
+    "ritual-reagent import disruption"
+  ],
+  "constraints": [
+    "fragile evaporite ecology limits agriculture and heavy construction",
+    "seasonal access for large vessels; dependent on tidal windows",
+    "ritual magic consumes imported reagents not locally produced"
+  ],
+  "notes": [
+    "flat plains double as lent seasonal augury stages—visible from sea lanes",
+    "strategically vital for provisioning state fisheries and curing guilds"
+  ],
+  "generated_at": "2025-09-09T04:02:36.690Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3cbe430d",
+  "burg_id": 332,
+  "name": "Burg_332",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent-trade",
+    "small-scale-fishing",
+    "waystation-services"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-workcaste",
+    "itinerant-merchant-clan"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "sporadic-banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "maritime rites timed to tides and fish runs",
+    "diet: salted fish, fermented kelp"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-navigator"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magic",
+    "long-range mind-influence banned"
+  ],
+  "notes": [
+    "state administration unknown",
+    "population data unavailable",
+    "small ritual supply hub for nearby coasts"
+  ],
+  "generated_at": "2025-09-09T04:24:42.666Z"
+}

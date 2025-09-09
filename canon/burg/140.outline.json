@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9e7e460b",
+  "burg_id": 140,
+  "name": "Burg_140",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fisheries",
+    "minor-trade",
+    "ritual-labor",
+    "boat-repair"
+  ],
+  "factions_local": [
+    "Harbormasters",
+    "Shipwrights' Guild",
+    "Ancestor Circle",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "coastal erosion",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with Island Creole loanwords",
+    "seafood-focused cuisine; salt-curing common",
+    "regular tide-offerings and small ancestor shrines"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual theft",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "lies near tricky shoals; navigational auguries used",
+    "supplies intermittent; reliant on larger ports for bulk goods"
+  ],
+  "generated_at": "2025-09-09T04:11:52.321Z"
+}

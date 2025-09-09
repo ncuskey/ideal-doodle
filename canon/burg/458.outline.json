@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_86fa7173",
+  "burg_id": 458,
+  "name": "Burg_458",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor-for-hire",
+    "small-scale-trade"
+  ],
+  "factions_local": [
+    "Harbor Cooperative",
+    "Itinerant Ritualists",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "scarce-ritual-reagents",
+    "storm-damage",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dominant with Island Creole pidgin",
+    "diet: salted fish, seaweed preserves",
+    "tide-timed rituals and calendars"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "shipwreck-recovery"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "long-range-mind-magic-banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational-auguries supplement but do not replace charts/seamanship"
+  ],
+  "generated_at": "2025-09-09T04:33:19.222Z"
+}

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_rivermouths",
+  "checksum": "fnv1a_1daecb24",
+  "name": "Rivermouths",
+  "aliases": [
+    "River Mouths",
+    "Estuarine Harbors"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "pilotage",
+    "salt-works",
+    "shipbuilding"
+  ],
+  "role_in_state": "estuarine trade, pilotage and salt production hub",
+  "economy_niches": [
+    "river-and-coastal fishing",
+    "shipbuilding & repair (flatboats & sea-smacks)",
+    "saltworks & fish-curing",
+    "pilotage and augury-services",
+    "estuary trade & transshipment"
+  ],
+  "culture_adjustments": [
+    "strong river-clan patronage alongside harbour clans",
+    "oral pilot-charts emphasize tides and silt patterns over open-sea lore",
+    "augury rites focused on estuary tides and river-spirits",
+    "guild apprenticeship and harbour dues are stricter and more institutional",
+    "seasonal flood-festival replaces some open-coast ceremonial dates"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation & shoaling",
+    "storm-surge",
+    "riverine piracy",
+    "guild conflicts over pilotage rights"
+  ],
+  "constraints": [
+    "scarce timber for large hulls; reliant on imported lumber",
+    "ritual auguries consume imported reagents and skilled labour; costly",
+    "limited arable hinterland; food imports required"
+  ],
+  "notes": [
+    "key node for State_14 maritime taxes and apprenticeship records",
+    "navigational auguries are legally regulated; pilots hold chart-knowledge monopoly"
+  ],
+  "generated_at": "2025-09-09T04:04:50.497Z"
+}

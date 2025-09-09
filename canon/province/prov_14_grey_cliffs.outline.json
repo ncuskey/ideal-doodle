@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_grey_cliffs",
+  "checksum": "fnv1a_c8da52c3",
+  "name": "Grey Cliffs",
+  "aliases": [
+    "Greycliff",
+    "Cliffs of Grey"
+  ],
+  "tags": [
+    "coastal",
+    "cliffport",
+    "augury-nexus",
+    "salt-terraces"
+  ],
+  "role_in_state": "primary northern harbour and augury outpost",
+  "economy_niches": [
+    "small-ship construction and repair",
+    "cliff-face saltworks and drying terraces",
+    "pilot-augury services for coastal trade",
+    "fishing for deep-water shoals",
+    "quarry stone for hulls and slipways"
+  ],
+  "culture_adjustments": [
+    "stronger clan harbour patronage tied to cliff ledges",
+    "oral pilot-charts emphasize cliff-formed landmarks",
+    "seasonal sea-rituals concentrated on cliff altars",
+    "tighter guild control of apprentices due to limited yard space"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "sea-surge",
+    "cliff-erosion/landslide",
+    "pirate raiding",
+    "supply bottleneck"
+  ],
+  "constraints": [
+    "scarce flat land limits expansion",
+    "freshwater is seasonally scarce",
+    "ritual auguries consume imported reagents"
+  ],
+  "notes": [
+    "harbour law enforces licensed pilot-augurs",
+    "guild workshops occupy terraces and caves"
+  ],
+  "generated_at": "2025-09-09T04:04:33.824Z"
+}

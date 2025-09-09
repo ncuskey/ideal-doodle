@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2d1de535",
+  "burg_id": 73,
+  "name": "Burg_73",
+  "state_id": "unknown",
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-labor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-gathering",
+    "waystation-trade",
+    "light-repair"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "Sea-Tide Shrine",
+    "coastal-clan"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "banditry along approaches",
+    "supply-line disruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "tide-blessing rites common",
+    "preserved seafood and smoke-curing cuisine",
+    "barter culture around ritual components"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-shrine-supplies",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown",
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but do not replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:36:38.530Z"
+}

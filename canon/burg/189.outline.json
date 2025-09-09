@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_27c006d9",
+  "burg_id": 189,
+  "name": "Burg_189",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "pilot-guides"
+  ],
+  "factions_local": [
+    "shipwrights' guild",
+    "reagent-merchants",
+    "elder-kin council"
+  ],
+  "problems": [
+    "scarcity",
+    "smuggling",
+    "coastal-erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "ancestor-feast obligations shape labor rhythms",
+    "diet heavy on salt-preserved fish and seaweeds"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-fisher"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-bans",
+    "rituals-consume-imported-reagents"
+  ],
+  "notes": [
+    "near-medieval tech with ritual-magic dependence",
+    "population small and supply-dependent"
+  ],
+  "generated_at": "2025-09-09T04:14:50.208Z"
+}

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_ten_harbor",
+  "checksum": "fnv1a_763cf7ef",
+  "name": "Ten Harbor",
+  "aliases": [
+    "Tenharbor",
+    "Deca-Haven"
+  ],
+  "tags": [
+    "maritime",
+    "harbor",
+    "shipbuilding",
+    "augury",
+    "guild-town"
+  ],
+  "role_in_state": "Primary maritime gateway and ritual-augury port",
+  "economy_niches": [
+    "shipbuilding & repair",
+    "longshore trade transshipment",
+    "fisheries and salt-curing",
+    "guildcraft exports (tooling, rigging)",
+    "ritual-augury services for captains"
+  ],
+  "culture_adjustments": [
+    "stronger tide-festival calendar tied to harbor silt cycles",
+    "apprenticeship often spent aboard merchant crews as well as guild yards",
+    "dockside shrines and augurs more integrated into daily commerce",
+    "practical seamanship vocab dominates Coastal Tongues variants"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "harbor-siltation",
+    "smuggling & illicit trade",
+    "guild conflict over slips",
+    "reagent-supply disruption"
+  ],
+  "constraints": [
+    "ritual-augury depends on scarce imported reagents",
+    "limited deep-water berths due to silting",
+    "no large-scale combustion industry"
+  ],
+  "notes": [
+    "strategic node for State_10 longshore commerce",
+    "boatwright lineages control major yards",
+    "local augurs sell pilotage services to inbound fleets"
+  ],
+  "generated_at": "2025-09-09T04:02:28.945Z"
+}

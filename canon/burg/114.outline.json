@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a49cec55",
+  "burg_id": 114,
+  "name": "Burg_114",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-component trade",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "saltwrights' syndicate",
+    "shrine-cabal",
+    "itinerant merchants"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit raids on supply routes",
+    "bureaucratic graft"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole accent dominant",
+    "ritualized barter and gift-giving",
+    "salt-preserved diets; smoked fish staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace seamanship"
+  ],
+  "notes": [
+    "population unknown; transient merchant presence",
+    "resupply point for coastal traders",
+    "limited combustion industry — small furnaces only"
+  ],
+  "generated_at": "2025-09-09T04:10:06.914Z"
+}

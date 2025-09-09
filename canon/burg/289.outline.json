@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_902b0983",
+  "burg_id": 289,
+  "name": "Burg_289",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "outpost",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-supply",
+    "coastal-fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-practitioners",
+    "smugglers",
+    "ancestor-clan"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "reagent-shortage",
+    "harsh-weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole influences",
+    "seafood-centric cuisine; salt-preserving customs",
+    "ancestor-offerings at boathouses",
+    "superstitious navigation rituals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-starvation",
+    "shipwreck-salvage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; sparse settlement pattern",
+    "near-medieval to early-industrial tech baseline",
+    "serves as coastal waystation and ritual resupply point"
+  ],
+  "generated_at": "2025-09-09T04:21:37.387Z"
+}

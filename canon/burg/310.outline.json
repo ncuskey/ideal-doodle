@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_98bbdd0d",
+  "burg_id": 310,
+  "name": "Burg_310",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent trade",
+    "shipwright",
+    "provisioning"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Shrine Keepers",
+    "Smuggler Ring",
+    "Captains' Council"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "jurisdiction disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide-linked rituals and festivals",
+    "seafood-centric cuisine",
+    "navigation superstitions and auguries"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "storm omen"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early industrial tech baseline",
+    "small outport; population unknown",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:23:13.139Z"
+}

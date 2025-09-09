@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_daaf932b",
+  "burg_id": 3,
+  "name": "Burg_3",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-magic",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation trade",
+    "ritual reagent transit",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Sea-Tide Shrine",
+    "Coastal Mariners' Syndicate",
+    "Smugglers' Ring",
+    "Harbormaster's Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corrosive salt decay",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Dialect: Coastal Tongues with Riveric loanwords",
+    "Cuisine: salted fish, seaweed stews",
+    "Customs: tide-offerings and ship-blessing rites",
+    "Dress: oilcloth garments, traded ritual beads"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is banned",
+    "Navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Near-medieval to early industrial tech baseline",
+    "Small, often-transient population of sailors and traders",
+    "Strategic coastal waypoint for reagent and coastal trade"
+  ],
+  "generated_at": "2025-09-09T04:22:26.109Z"
+}

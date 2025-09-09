@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2cdc10f5",
+  "burg_id": 248,
+  "name": "Burg_248",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-workshop",
+    "fishermen",
+    "reagent-trade"
+  ],
+  "factions_local": [
+    "tide-shrine-coven",
+    "artisan-ritual-guild",
+    "harbor-smugglers"
+  ],
+  "problems": [
+    "scarcity-of-reagents",
+    "banditry",
+    "harsh-weather"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "household ancestor-shrines",
+    "salt-cured seafood staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "strange-disappearances"
+  ],
+  "constraints": [
+    "rituals-consume-scarce-imported-reagents",
+    "no-instant-resurrection"
+  ],
+  "notes": [
+    "population unknown; sparse records",
+    "local navigational-augury complements charts"
+  ],
+  "generated_at": "2025-09-09T04:18:50.852Z"
+}

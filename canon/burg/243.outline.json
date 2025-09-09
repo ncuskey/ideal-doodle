@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_48769a13",
+  "burg_id": 243,
+  "name": "Burg_243",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-gathering",
+    "waystation"
+  ],
+  "factions_local": [
+    "Reagent Traders",
+    "Temple Keepers",
+    "Skiffmen Guild"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "isolation",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "ancestor-offering customs",
+    "marine-based diet"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortages",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "navigational auguries supplement but do not replace charts",
+    "near-medieval to early-industrial tech baseline"
+  ],
+  "generated_at": "2025-09-09T04:18:21.689Z"
+}

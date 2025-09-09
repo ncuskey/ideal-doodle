@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_salt_flats_processing_belt",
+  "checksum": "fnv1a_37649e4e",
+  "name": "Salt Flats & Processing Belt",
+  "aliases": [
+    "Salt Belt",
+    "Processing Flats"
+  ],
+  "tags": [
+    "coastal",
+    "salt-production",
+    "fish-curing",
+    "industrial-belt",
+    "estuary-edge"
+  ],
+  "role_in_state": "Primary salt & provisioning hub for maritime trade",
+  "economy_niches": [
+    "Salt extraction, crystallization and refinement",
+    "Fish salting, curing and long-term preservation",
+    "Cooperage and barrel/packaging manufacture",
+    "Storage, drying and staging of imported ritual reagents",
+    "Ship provisioning and low-draft lightering services"
+  ],
+  "culture_adjustments": [
+    "Work-oriented, day-shift guild rhythms over long-voyage rites",
+    "Lower prestige for open-sea captains; higher for master coopers and processors",
+    "Frequent seasonal migrant labor; multilingual pockets in estuary hubs",
+    "Practical ritual use focused on preservation and spoilage-prevention",
+    "Contract-heavy dispute culture; oath-letters and tally-systems common"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salt-pan contamination",
+    "fires in drying yards",
+    "labor unrest",
+    "smuggling and lash-up trade"
+  ],
+  "constraints": [
+    "Ritual processes consume scarce imported reagents",
+    "Freshwater scarcity for processing",
+    "Shallow approaches limit large-ship access"
+  ],
+  "notes": [
+    "Linear province along estuary; production timed to low-spring tides",
+    "Guilds control most processing stages and export permits",
+    "Salt levies are a major state revenue stream"
+  ],
+  "generated_at": "2025-09-09T04:08:12.367Z"
+}

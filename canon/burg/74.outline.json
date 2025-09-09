@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c613d361",
+  "burg_id": 74,
+  "name": "Burg_74",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-trade",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent exchange",
+    "lighthouse provisioning",
+    "smuggling waypoint"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smugglers' Ring",
+    "Coastal Militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "Ancestor veneration tied to fishing seasons",
+    "imported spices and reagents prized",
+    "nautical augury rituals commonplace"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing pilot"
+  ],
+  "constraints": [
+    "rituals consume imported reagents",
+    "no instant resurrection",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:36:44.996Z"
+}

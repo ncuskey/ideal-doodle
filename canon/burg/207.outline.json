@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3ff58853",
+  "burg_id": 207,
+  "name": "Burg_207",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation/trade-post",
+    "small-scale fishing",
+    "reagent storage/relay",
+    "ritual-labour services"
+  ],
+  "factions_local": [
+    "harbormaster guildlet",
+    "ritualist lodge",
+    "fisher cooperative",
+    "coastal smugglers"
+  ],
+  "problems": [
+    "scarcity of imported ritual reagents",
+    "banditry/sea raiders",
+    "intermittent supply lines",
+    "jurisdictional disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-timed rituals and festivals",
+    "diet heavy on fish, seaweed, preserved goods",
+    "cautious hospitality toward strangers"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-supply heist",
+    "disappearing ships"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is banned/rare",
+    "combustion industry and heavy steam limited"
+  ],
+  "notes": [
+    "depends on sea lanes and occasional supply runners",
+    "navigational auguries used but do not replace charts",
+    "provincial/administrative status unknown"
+  ],
+  "generated_at": "2025-09-09T04:16:05.528Z"
+}

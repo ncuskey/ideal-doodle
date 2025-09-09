@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_harbor_basin",
+  "checksum": "fnv1a_8b2acb05",
+  "name": "Harbor Basin",
+  "aliases": [
+    "Harbour Basin"
+  ],
+  "tags": [
+    "coastal",
+    "trade-hub",
+    "shipyards",
+    "salt-works",
+    "augury-services"
+  ],
+  "role_in_state": "primary transshipment and shipbuilding hub",
+  "economy_niches": [
+    "shipbuilding & repair (dry docks, caulking guilds)",
+    "longshore transshipment & bonded warehousing",
+    "salt and fish processing",
+    "ritual-augury for navigation and voyage rites",
+    "import/re-export brokerage for scarce reagents"
+  ],
+  "culture_adjustments": [
+    "guild authority supersedes kinship in urban governance",
+    "port-law and gift-exchange formalized into public ritual",
+    "heightened seamanship superstitions and augury customs",
+    "multilingual merchant etiquette (Coastal Tongues dominant)",
+    "practical syncretism: docks host both secular trade rites and shrine offerings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / tidal flooding",
+    "dockfire outbreaks",
+    "smuggling & contraband networks",
+    "guild strikes and labor unrest",
+    "reagent-theft targeting augury stores"
+  ],
+  "constraints": [
+    "heavy dependence on imported reagents for ritual augury",
+    "guild monopolies restrict access to docks and dry docks",
+    "timber scarcity limits construction of very large hulls"
+  ],
+  "notes": [
+    "customs houses and bonded sanctuaries concentrate state revenue",
+    "dry docks double as ritual workshops for navigational auguries",
+    "port-laws recorded orally; local adjudicators are guild-appointed"
+  ],
+  "generated_at": "2025-09-09T04:39:37.949Z"
+}

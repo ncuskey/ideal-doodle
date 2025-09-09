@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_67e432d9",
+  "burg_id": 242,
+  "name": "Burg_242",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "reagent-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "fishing",
+    "toll collection",
+    "smuggling support"
+  ],
+  "factions_local": [
+    "Merchant syndicate",
+    "Shrine-keepers (Sea-Tide)",
+    "River-crew guild",
+    "Smugglers' ring"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "bandit ambushes",
+    "corrupt tolls",
+    "contaminated water"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric Dialects dominant",
+    "Boat-funeral customs",
+    "Diet: salted fish & river greens",
+    "Gift-exchange at shrines"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "river spirit unrest"
+  ],
+  "constraints": [
+    "Rituals require scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned"
+  ],
+  "notes": [
+    "Population unknown; transient, traffic-centric",
+    "Located on a navigable river crossing",
+    "Modest warehouses for ritual reagents"
+  ],
+  "generated_at": "2025-09-09T04:18:20.520Z"
+}

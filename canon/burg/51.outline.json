@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1d18d245",
+  "burg_id": 51,
+  "name": "Burg_51",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-supply"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "boat repair",
+    "local market"
+  ],
+  "factions_local": [
+    "Dockworkers' Cooperative",
+    "House of Tide-Charms (ritual suppliers)",
+    "Smuggler Crew",
+    "Tide-Priests"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and corruption",
+    "storm damage",
+    "pirate raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect with Island Creole borrowings",
+    "diet centered on preserved fish, seaweed, salted kelp",
+    "strong seamanship and tide-omen customs",
+    "ritual labor visible in market life"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "ominous tide-omens"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Port reliant on seasonal trade for ritual reagents",
+    "Navigational auguries used but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:35:04.205Z"
+}

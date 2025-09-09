@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5edb2ca3",
+  "burg_id": 454,
+  "name": "Burg_454",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "fishing",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "small-ship repair",
+    "ritual-labor provisioning",
+    "transshipment (smuggling)"
+  ],
+  "factions_local": [
+    "dockwrights' guild",
+    "ritual-providers' cabal",
+    "harbor elders",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "resource shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "salted-fish and seaweed cuisine",
+    "boatbuilding folkcraft and knotwork",
+    "strong ritual etiquette around voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagent",
+    "stranded/mysterious ship"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "long-range mind influence banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "navigational auguries exist but don't replace charts",
+    "tech baseline near-medieval with localized ritual craft",
+    "state affiliation unknown"
+  ],
+  "generated_at": "2025-09-09T04:33:01.895Z"
+}

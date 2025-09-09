@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4ab2bf07",
+  "burg_id": 128,
+  "name": "Burg_128",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply",
+    "waystation"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ritual Lodge",
+    "Smuggler Syndicate"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "smuggling",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "sea-launching and blessing rituals",
+    "communal salted-fish cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-reagent shortage",
+    "mysterious disappearance at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "population unknown",
+    "limited combustion-derived industry",
+    "serves minor channel traffic"
+  ],
+  "generated_at": "2025-09-09T04:11:09.364Z"
+}

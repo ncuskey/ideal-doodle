@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5586ae6d",
+  "burg_id": 431,
+  "name": "Burg_431",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "river-harbor",
+    "ritual-node",
+    "sparsely-populated"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing/smoking",
+    "small-scale barter",
+    "ritual-labour & reagent processing"
+  ],
+  "factions_local": [
+    "harbor guildmen",
+    "river ferrymen",
+    "ancestor-priest circle"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "bandit raids on river traffic",
+    "sporadic food shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect dominant",
+    "custom of offerings to river and dead",
+    "diet heavy on smoked fish and preserved greens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "missing ferryman"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "population not recorded / very small"
+  ],
+  "generated_at": "2025-09-09T04:31:16.806Z"
+}

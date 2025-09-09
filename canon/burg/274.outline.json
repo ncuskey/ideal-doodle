@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1cacd397",
+  "burg_id": 274,
+  "name": "Burg_274",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-reagents",
+    "waystation"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ritual-reagent brokerage",
+    "fishing",
+    "ship-provisioning",
+    "coastal-trade"
+  ],
+  "factions_local": [
+    "merchant-house",
+    "ritual-guild",
+    "harbormaster's council",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry/smuggling",
+    "corruption in port fees",
+    "harbor silting"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "diet heavy on salted and smoked fish",
+    "ritual labor woven into daily trade customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magic",
+    "long-range mind influence is banned"
+  ],
+  "notes": [
+    "small port on a secondary route; reliant on visiting traders",
+    "seasonal storms disrupt supply lines"
+  ],
+  "generated_at": "2025-09-09T04:20:36.435Z"
+}

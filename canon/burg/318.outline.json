@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5f2bba8d",
+  "burg_id": 318,
+  "name": "Burg_318",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual reagent trade",
+    "waypoint resupply",
+    "boat repair"
+  ],
+  "factions_local": [
+    "Shrine-Keepers",
+    "Harbor Guild",
+    "Coastal Clan",
+    "Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm disruption",
+    "tidal erosion",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with heavy nautical jargon",
+    "diet: salted fish, seaweed, preserved kelp stews",
+    "dockside tide-prayers and ancestor-calling before voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "tidal anomaly"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence allowed",
+    "limited combustion industry"
+  ],
+  "notes": [
+    "state unaligned; small strategic harbor waypoint",
+    "population undocumented; seasonal trade flux"
+  ],
+  "generated_at": "2025-09-09T04:23:41.345Z"
+}

@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_shipwright_quarter_north_dock",
+  "checksum": "fnv1a_f96f1229",
+  "name": "Shipwright Quarter (North Dock)",
+  "aliases": [
+    "North Dock",
+    "Shipwright Quarter",
+    "The Slip"
+  ],
+  "tags": [
+    "shipbuilding",
+    "dockyard",
+    "guild-district",
+    "ritual-augury-hub",
+    "salt-exposure"
+  ],
+  "role_in_state": "Primary shipbuilding and ritual-augury support for maritime trade",
+  "economy_niches": [
+    "Keel and hull construction (large merchantmen)",
+    "Sailcloth, rope and rigging workshops",
+    "Repair, careening and provisioning services",
+    "Salt-curing and fish-provision supply",
+    "Processing and trade of ritual reagents for navigation auguries"
+  ],
+  "culture_adjustments": [
+    "Guild hierarchy overrides clan patronage in labor allocation",
+    "Shipbuilding songs encode practical construction knowledge",
+    "Routine integration of augury rites into launch and repair",
+    "Higher artisan influx → more Island Creole loanwords in trade slang"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "coastal-flooding",
+    "industrial-fire",
+    "worker-disputes",
+    "smuggling",
+    "ritual-reagent-scarcity"
+  ],
+  "constraints": [
+    "Limited adoption of high-pressure steam industry",
+    "Ritual auguries consume scarce imported reagents",
+    "Guild control restricts free movement of skilled labor"
+  ],
+  "notes": [
+    "Critical node in state maritime logistics",
+    "Augury workshops require secure reagent storage and inspection",
+    "Shipways vulnerable to spring storm surge and ice-stress"
+  ],
+  "generated_at": "2025-09-09T04:07:05.182Z"
+}

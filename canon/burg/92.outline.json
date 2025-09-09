@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_19a55d45",
+  "burg_id": 92,
+  "name": "Burg_92",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing and salted-fish trade",
+    "ritual-reagent brokerage",
+    "boat repair and ropeworks",
+    "seasonal smuggling"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ancestral Shrine Keepers",
+    "Smugglers' Ring",
+    "Merchant Brotherhood agent post"
+  ],
+  "problems": [
+    "shortage of imported ritual reagents",
+    "banditry along inlet channels",
+    "siltation and harbor maintenance",
+    "local corruption of permit system"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "diet centered on salted fish, seaweed, and shellfish",
+    "tide-linked rituals and seasonal boat blessings",
+    "crafts: net-making, tarred rope, small-boat carpentry"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "mysterious wreck"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "navigational auguries used but do not replace charts",
+    "small harbor requires annual dredging; dredge taxes contentious"
+  ],
+  "generated_at": "2025-09-09T04:37:54.213Z"
+}

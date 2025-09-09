@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_88ae4839",
+  "burg_id": 41,
+  "name": "Burg_41",
+  "state_id": 0,
+  "province_id": "prov_unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual-labor/offerings",
+    "boat repair",
+    "local barter trade"
+  ],
+  "factions_local": [
+    "Tide-Reader Cabal",
+    "Fishermen's Cooperative",
+    "Harbormaster's Office",
+    "Shadow Skiff Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "sporadic banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues with Island Creole borrowings",
+    "tide-offering rituals shape daily schedule",
+    "preserved fish and seaweed staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "tide-omen"
+  ],
+  "constraints": [
+    "no true resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries exist but cannot replace seamanship"
+  ],
+  "notes": [
+    "population undocumented; strategic minor landing",
+    "local economy tied to ritual supply lines"
+  ],
+  "generated_at": "2025-09-09T04:29:45.365Z"
+}

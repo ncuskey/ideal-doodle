@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_saltworks_archipelago",
+  "checksum": "fnv1a_e77e223b",
+  "name": "Saltworks Archipelago",
+  "aliases": [
+    "Saltworks",
+    "Saltern Isles"
+  ],
+  "tags": [
+    "archipelago",
+    "salt-production",
+    "longshore-trade",
+    "guild-dominated"
+  ],
+  "role_in_state": "Primary salt producer and coastal transshipment hub",
+  "economy_niches": [
+    "solar salterns & salt refining",
+    "fish curing and salted fish export",
+    "small-vessel shipbuilding and repair",
+    "reagent storage and re-export for ritual suppliers",
+    "navigational augury services for salt routes"
+  ],
+  "culture_adjustments": [
+    "Island-variant Coastal Tongues with distinct sea-shanty corpus",
+    "Salt-guild ritual and gift-exchange dominates local contracts",
+    "Stronger emphasis on practical sea-omen rites of Sea-Tide tradition",
+    "Tidal-lease tenure and seasonal migrant labor for harvests"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge and tidal flooding",
+    "salt-pit contamination/alkali leaching",
+    "piracy and raiding on small isles",
+    "trade embargoes or port blockades",
+    "reagent spoilage in humid storage"
+  ],
+  "constraints": [
+    "scarce fresh water limits population and agriculture",
+    "corrosive environment restricts heavy industry and steamworks",
+    "ritual magic dependent on imported reagents with fragile supply lines"
+  ],
+  "notes": [
+    "Local governance heavily influenced by Salt Guilds and longshoremen fraternities",
+    "Tidal leases create overlapping communal and private rights; seasonal workforce flux"
+  ],
+  "generated_at": "2025-09-09T04:02:23.096Z"
+}

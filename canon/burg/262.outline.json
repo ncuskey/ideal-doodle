@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7ca92fb5",
+  "burg_id": 262,
+  "name": "Burg_262",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-port"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labor",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-syndicate",
+    "coastal-clan"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "storm-damage",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "boat-centered rites",
+    "seaweed-based cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-scarcity",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "population unknown",
+    "serves as minor resupply point for coastal routes"
+  ],
+  "generated_at": "2025-09-09T04:19:45.425Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_36032de3",
+  "burg_id": 304,
+  "name": "Burg_304",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "small fisherfolk port",
+    "waystation for coastal traders"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "merchant syndicate",
+    "ritualist lodge"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "seasonal storms",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "seafood and smoke-preserved rations",
+    "folk augury rituals tied to tides"
+  ],
+  "quest_hook_slots": [
+    "reagent theft",
+    "shipwreck salvage",
+    "smuggled relics"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence institutionally banned"
+  ],
+  "notes": [
+    "resupply by coastal packet at irregular intervals",
+    "navigational augury station present but not a replacement for charts"
+  ],
+  "generated_at": "2025-09-09T04:22:50.372Z"
+}

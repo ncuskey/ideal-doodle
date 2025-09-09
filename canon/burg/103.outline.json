@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_459931ed",
+  "burg_id": 103,
+  "name": "Burg_103",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-halt",
+    "ritual-supply"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ferry-crossing",
+    "ritual reagent trade",
+    "fish smoking",
+    "local market"
+  ],
+  "factions_local": [
+    "Ferry Guild",
+    "Apothecary Collective",
+    "Ancestor-Keeper Lodge"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids on roads",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant; loanwords from Coastal Tongues",
+    "Regular river-offering rites tied to harvest/fishing",
+    "Diet heavy on smoked fish, freshwater algae cakes"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "ferry disaster"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries supplement but do not replace seamanship"
+  ],
+  "notes": [
+    "Small riverside waypoint controlling a ford and ferry",
+    "Seasonal siltation affects trade; reagent traders travel infrequently"
+  ],
+  "generated_at": "2025-09-09T04:09:17.149Z"
+}

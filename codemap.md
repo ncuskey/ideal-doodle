@@ -19,10 +19,18 @@ LoreGen/
 │   │   └── outline.json    # Eras, civilizations, tech/magic baseline
 │   ├── interstate/         # Inter-state relationships
 │   │   └── outline.json    # Alliances, wars, treaties, trade blocs
-│   └── state/              # Per-state outlines
-│       ├── 0.outline.json  # State 0 outline (factions, culture, regions)
-│       ├── 1.outline.json  # State 1 outline
-│       └── ...             # All state outlines
+│   ├── state/              # Per-state outlines
+│   │   ├── 0.outline.json  # State 0 outline (factions, culture, regions)
+│   │   ├── 1.outline.json  # State 1 outline
+│   │   └── ...             # All state outlines
+│   ├── province/           # Province outlines (synthetic from state regions)
+│   │   ├── prov_0_port_of_skiffs.outline.json
+│   │   ├── prov_0_lower_marshes.outline.json
+│   │   └── ...             # All province outlines
+│   └── burg/               # Burg outlines (from fact data)
+│       ├── 1.outline.json
+│       ├── 2.outline.json
+│       └── ...             # All burg outlines
 ├── index/                  # Graph & indexing
 │   ├── graph.json          # DAG: burg → state → world
 │   ├── catalog.json        # UI catalog (kingdoms + burgs)
@@ -42,6 +50,8 @@ LoreGen/
 │   ├── world_canon_outline.schema.json    # World canon outline schema
 │   ├── interstate_outline.schema.json     # Inter-state outline schema
 │   ├── state_outline.schema.json          # State outline schema
+│   ├── province_outline.schema.json       # Province outline schema
+│   ├── burg_outline.schema.json           # Burg outline schema
 │   ├── lore.burg.schema.json              # Burg lore schema
 │   ├── lore.state.schema.json             # State lore schema
 │   ├── lore.burg.full.schema.json         # Rich burg lore schema
@@ -84,6 +94,8 @@ LoreGen/
         ├── canonWorldOutline.ts      # Generate world canon outline
         ├── canonInterstateOutline.ts # Generate inter-state outline
         ├── canonStateOutline.ts      # Generate state outlines
+        ├── canonProvinceOutline.ts   # Generate province outlines (synthetic from state regions)
+        ├── canonBurgOutline.ts       # Generate burg outlines (from fact data)
         ├── genBurgLore.ts      # Generate burg lore (full quality)
         ├── genStateLore.ts     # Generate state lore (full quality)
         ├── genBurgLoreFull.ts  # Generate rich burg lore
@@ -104,7 +116,7 @@ LoreGen/
 4. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
 5. **Graph Building** → `index/graph.json`
 6. **Catalog Building** → `index/catalog.json`
-7. **Canon Outline Generation** → `canon/{world,interstate,state}/`
+7. **Canon Outline Generation** → `canon/{world,interstate,state,province,burg}/`
 8. **Rich Lore Generation** → `lore/{state,burg}/`
 9. **Event Application** → Updates facts + generates seeds
 10. **Dirty Regeneration** → Targeted updates based on seeds
@@ -118,6 +130,8 @@ LoreGen/
 - **World Canon Outline**: Global context (eras, civilizations, tech/magic baseline)
 - **Inter-State Outline**: Relationships between states (alliances, wars, trade blocs)
 - **State Outlines**: Per-state foundations (factions, culture, regions, constraints)
+- **Province Outlines**: Synthetic provinces from state regions (economy niches, culture adjustments, risks)
+- **Burg Outlines**: Burg-level foundations (size hints, economy roles, factions, quest hooks)
 - **Hierarchical Consistency**: Each layer references and builds upon the previous
 - **Rate-Limit Integration**: Uses `withRateLimitRetry()` for robust API calls
 - **Cheap Regeneration**: Outline passes are fast and can be run frequently
@@ -148,6 +162,8 @@ npm run facts:derive         # Compute derived statistics
 npm run facts:promptpacks    # Create LLM-optimized fact packs
 npm run graph:build          # Build dependency graph
 npm run catalog:build        # Build UI catalog
+npm run canon:province:outline # Generate province outlines
+npm run canon:burg:outline   # Generate burg outlines
 npm run lore:burg:full -- --id=1  # Generate rich burg lore
 npm run lore:state:full -- --id=1 # Generate rich state lore
 npm run events:apply -- --file=events/demo.json

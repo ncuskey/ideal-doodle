@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5cb570cb",
+  "burg_id": 146,
+  "name": "Burg_146",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-hub",
+    "reagent-trade"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "reagent market",
+    "river transport",
+    "boat repair",
+    "smoked-fish processing"
+  ],
+  "factions_local": [
+    "riverboat guild",
+    "apothecary collective",
+    "elders council",
+    "smuggler ring"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "bandit raids on barges",
+    "seasonal flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects",
+    "boat-funeral and blessing rites common",
+    "diet: smoked riverfish and fermented greens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "river-flood relief"
+  ],
+  "constraints": [
+    "no true resurrection magics",
+    "rituals consume rare imported reagents",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual workshops",
+    "population unknown; transient river traffic significant"
+  ],
+  "generated_at": "2025-09-09T04:12:07.649Z"
+}

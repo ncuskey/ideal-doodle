@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d31a5aab",
+  "burg_id": 441,
+  "name": "Burg_441",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node",
+    "fishing"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade & storage",
+    "fishing & salt-curing",
+    "ship provisioning",
+    "small-scale craft barter"
+  ],
+  "factions_local": [
+    "Harbormasters' Ring",
+    "Reagent Syndicate",
+    "Ancestor Circle (local)",
+    "Skiff-Owners' Guild"
+  ],
+  "problems": [
+    "scarce imported ritual reagents",
+    "smuggling through coves",
+    "salt-driven decay of timber/warehouses",
+    "periodic bandit raids on shore"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Island Creole influence",
+    "strong ritual etiquette around reagent handling",
+    "diet heavy on salted fish, seaweed, fermented shell",
+    "tide-linked festivals honoring ancestors and safe passage"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "holds minor navigational hazard points used by local pilots"
+  ],
+  "generated_at": "2025-09-09T04:32:11.184Z"
+}

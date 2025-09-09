@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_outer_shoals",
+  "checksum": "fnv1a_8281615f",
+  "name": "Outer Shoals",
+  "aliases": [
+    "The Shoals",
+    "Outer Bank"
+  ],
+  "tags": [
+    "coastal",
+    "shoals",
+    "fisheries",
+    "saltworks",
+    "chartcraft"
+  ],
+  "role_in_state": "Maritime resource and navigational buffer",
+  "economy_niches": [
+    "shoreline and reef fisheries (net- and trap-fishing)",
+    "saltworks and drying-berths",
+    "small-ship repair and keel-laying slips",
+    "chartmaking, beacon upkeep, and pilotage fees",
+    "transshipment of imported ritual reagents and low-duty cargo"
+  ],
+  "culture_adjustments": [
+    "stronger risk-tolerance among crews; rites emphasize hazard appeasement",
+    "guild dominance concentrated in pilot and beacon fraternities",
+    "looser kin-clan ties on transient work fleets; more contract-based obligations",
+    "oral chart traditions elevated above written logs; ritualized nightly soundings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef hazards",
+    "seasonal storm surge",
+    "smuggling & illicit transshipment",
+    "resource overharvest"
+  ],
+  "constraints": [
+    "minimal arable land; food imports required",
+    "freshwater scarcity on outer banks",
+    "ritual magic dependent on imported reagents",
+    "strict guild licensing for pilotage and shipworks"
+  ],
+  "notes": [
+    "seasonal shoal charts updated by pilot guilds; charts are state-sensitive assets",
+    "beacon shrines combine Sea-Tide rites with practical lamp maintenance",
+    "saltworks and drying beds occupy most usable shore area"
+  ],
+  "generated_at": "2025-09-09T04:04:06.224Z"
+}

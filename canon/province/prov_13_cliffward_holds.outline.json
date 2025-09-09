@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_cliffward_holds",
+  "checksum": "fnv1a_3d2686b1",
+  "name": "Cliffward Holds",
+  "aliases": [
+    "Cliffward",
+    "The Holds"
+  ],
+  "tags": [
+    "coastal",
+    "fortified",
+    "cliffside",
+    "shipwright-hubs",
+    "salt-terraces"
+  ],
+  "role_in_state": "Defensive maritime bulwark and concentrated shipbuilding node",
+  "economy_niches": [
+    "Cliffside shipyards and repair slips",
+    "Terraced saltworks and salting houses",
+    "Tiered fisheries and drying platforms",
+    "Storage and transshipment of imported ritual reagents",
+    "Guano/seaweed fertilizer harvest for terraced gardens"
+  ],
+  "culture_adjustments": [
+    "Stronger clan-keep loyalties over guild neutrality",
+    "Ritual navigation tied to fixed cliff flash-sites",
+    "Practical fatalism about storms and losses at sea",
+    "Elevated military ritualism and watch-duty culture",
+    "Conservative attitudes toward inland innovations"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "landslide",
+    "storm-isolation",
+    "pirate-raids"
+  ],
+  "constraints": [
+    "Limited arable land; dependence on imports",
+    "Access constrained to steep trails and small harbors",
+    "High maintenance cost for terraces and fortifications"
+  ],
+  "notes": [
+    "Shipwright guilds control keel quotas tied to watch-ward obligations",
+    "Saltworks use layered evaporation on narrow terraces",
+    "Navigation auguries anchored to cliff-scar rites rather than open charts"
+  ],
+  "generated_at": "2025-09-09T04:03:47.914Z"
+}

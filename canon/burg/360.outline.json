@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6f2cdb17",
+  "burg_id": 360,
+  "name": "Burg_360",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-reagents",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent depot",
+    "provisioning stop",
+    "fishing/saltworks",
+    "toll collection"
+  ],
+  "factions_local": [
+    "Waystation Merchants",
+    "Shrine of the Tidal Mothers",
+    "Coastal Militia",
+    "Smuggling Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and corruption",
+    "storm damage to supplies"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole inflection",
+    "diet: salted fish, seaweed, preserved goods",
+    "tide-linked rituals for safe passage",
+    "trade customs emphasize binding oaths"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost reagent shipment",
+    "tidal omen"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "remote waypoint on a coastal route",
+    "supplies precarious after recent storms"
+  ],
+  "generated_at": "2025-09-09T04:26:39.911Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_outer_archipelago",
+  "checksum": "fnv1a_befe5f59",
+  "name": "Outer Archipelago",
+  "aliases": [
+    "Outer Isles",
+    "Tide-Ring"
+  ],
+  "tags": [
+    "maritime",
+    "transshipment",
+    "reef-network",
+    "augury-harbors"
+  ],
+  "role_in_state": "transshipment & navigational buffer",
+  "economy_niches": [
+    "small-ship construction & repair",
+    "longshore transshipment & brokerage",
+    "fisheries, drying & salt-curing",
+    "rope, sailcloth and net guildcraft",
+    "ritual-augury tide-guidance services"
+  ],
+  "culture_adjustments": [
+    "coastal Tongues dialects with reef-naming lexicon",
+    "strong reef-superstitions and talisman use",
+    "sea-life apprenticeships begin earlier; shore rites simplified",
+    "practical seamanship prioritized over guild ceremony"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm & rogue-wave damage",
+    "reef-grounding incidents",
+    "piracy and smuggling hubs",
+    "seasonal supply isolation"
+  ],
+  "constraints": [
+    "scarce arable land; food imports required",
+    "ritual auguries consume imported reagents"
+  ],
+  "notes": [
+    "serves as navigational buffer and pilot staging for State_10",
+    "seasonal tide-festivals anchor local calendar"
+  ],
+  "generated_at": "2025-09-09T04:02:42.737Z"
+}

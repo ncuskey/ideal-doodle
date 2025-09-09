@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5ad840d3",
+  "burg_id": 203,
+  "name": "Burg_203",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-depot",
+    "small-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trading",
+    "small-scale fishing",
+    "supplies waystation"
+  ],
+  "factions_local": [
+    "harbor crew",
+    "ritual merchants",
+    "local clan elders"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling rings",
+    "coastal erosion",
+    "sporadic banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "sea-salt preserved cuisine",
+    "ritual barter customs",
+    "strong ancestor-veneration aboard ships"
+  ],
+  "quest_hook_slots": [
+    "reagent smuggling",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind-influence banned"
+  ],
+  "notes": [
+    "state jurisdiction unknown",
+    "population data unavailable"
+  ],
+  "generated_at": "2025-09-09T04:15:50.339Z"
+}

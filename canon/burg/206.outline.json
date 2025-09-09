@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_be129759",
+  "burg_id": 206,
+  "name": "Burg_206",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "reagent-depot"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "landing/waystation",
+    "small-scale fishing",
+    "reagent transshipment"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "reagent traders' clique",
+    "ritual-keepers (local shrine)"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "seasonal supply interruptions",
+    "occasional bandit/smuggler raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect with nautical jargon",
+    "diet: salted fish, kelp preserves, barter staples",
+    "local ceremonies center on safe passage and reagent blessings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry (no high-pressure steam megatech)"
+  ],
+  "notes": [
+    "small sheltered cove serving irregular shipping routes",
+    "population fluctuates with shipping and ritual seasons"
+  ],
+  "generated_at": "2025-09-09T04:16:02.587Z"
+}

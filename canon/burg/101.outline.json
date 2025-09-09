@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_813695c9",
+  "burg_id": 101,
+  "name": "Burg_101",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "port",
+    "ritual-reagent-trade"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "ship-repair",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent Syndicate",
+    "Coastwatch Militia",
+    "Tide-Animist Coterie"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "smuggling-rings",
+    "reef-hazards"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "tide-blessing rituals",
+    "salted-fish cuisine",
+    "barter-first trade etiquette"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "strange-tide-sighting"
+  ],
+  "constraints": [
+    "Rituals consume scarce imported reagents",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "population n/a",
+    "strategic reef-lined inlet, useful as waystation"
+  ],
+  "generated_at": "2025-09-09T04:09:20.814Z"
+}

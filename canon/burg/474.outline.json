@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3db581d3",
+  "burg_id": 474,
+  "name": "Burg_474",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "trade-stop",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "minor-trade",
+    "reagent-processing",
+    "ship-repair"
+  ],
+  "factions_local": [
+    "harbor-masters",
+    "shipwrights-guild",
+    "reagent-collectors",
+    "ancestor-chapel"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "coastal-erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ship-blessing rituals common",
+    "diet heavy on salted fish and seaweed",
+    "rituals rely on imported reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "disappearances"
+  ],
+  "constraints": [
+    "ritual-magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry (no high-pressure megatech)"
+  ],
+  "notes": [
+    "population unknown",
+    "navigational auguries practiced but charts required"
+  ],
+  "generated_at": "2025-09-09T04:34:28.903Z"
+}

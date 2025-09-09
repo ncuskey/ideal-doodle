@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_df86a855",
+  "burg_id": 88,
+  "name": "Burg_88",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "waystation/repairs",
+    "ritual-augury services",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "harbormaster's crew",
+    "Tide-Shrine keepers",
+    "coastal smugglers",
+    "repairwrights' cooperative"
+  ],
+  "problems": [
+    "shortage of imported ritual reagents",
+    "seasonal storm isolation",
+    "smuggling-driven violence"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical idioms",
+    "preservation-heavy cuisine (salt, smoke, pickling)",
+    "star-calendar fishing rites observed before long voyages"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech with limited combustion industry",
+    "strategic small harbor used as repair/relay point for regional traffic"
+  ],
+  "generated_at": "2025-09-09T04:37:35.846Z"
+}

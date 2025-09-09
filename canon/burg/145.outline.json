@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7841fb51",
+  "burg_id": 145,
+  "name": "Burg_145",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent trade",
+    "small ship repair",
+    "saltworks/sea-harvest"
+  ],
+  "factions_local": [
+    "Sea-Tide shrine circle",
+    "Merchant skiffs guild",
+    "ritual apothecaries",
+    "coastal militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling/bandit raids",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with riveric loanwords",
+    "tide-focused festivals and offerings",
+    "diet heavy on fish, kelp, preserved salt",
+    "shellcraft and ritual knotwork crafts"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind control",
+    "navigational auguries complement but do not replace seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "strategic small harbor for coastal traffic",
+    "tension between shrine keepers and merchants over reagent access"
+  ],
+  "generated_at": "2025-09-09T04:12:07.650Z"
+}

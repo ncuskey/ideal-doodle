@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_403a7cfd",
+  "burg_id": 330,
+  "name": "Burg_330",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "pilotage/harbormaster",
+    "light ship repair"
+  ],
+  "factions_local": [
+    "Sea-Tide wardens",
+    "Skiffwrights' guild",
+    "Coastal traders",
+    "Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "supply delays",
+    "smuggling",
+    "superstition tensions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongue dialect with island loanwords",
+    "seafood- and salt-preserved cuisine",
+    "strong customs around tide-rituals and voyage-remembrance"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "stranded ritualist"
+  ],
+  "constraints": [
+    "no true resurrection or life-replacement magic",
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "population unknown; dependent on coastal shipping and tides",
+    "navigational auguries used but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:24:44.322Z"
+}

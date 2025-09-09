@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c0375d0d",
+  "burg_id": 112,
+  "name": "Burg_112",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "salt-curing",
+    "reagent transshipment",
+    "wreck-salvage"
+  ],
+  "factions_local": [
+    "Fisher's Co-stead",
+    "Tide-Wardens (animist ritualists)",
+    "Reagent Midden Traders",
+    "Hidden Cove Smugglers"
+  ],
+  "problems": [
+    "scarcity of imported ritual reagents",
+    "banditry/smuggling",
+    "coastal erosion and dangerous reefs",
+    "seasonal isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical jargon",
+    "offerings to sea-spirits common before voyages",
+    "diet: salted fish, seaweed, simple traded staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reef hauntings",
+    "reagent theft"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents; shapes trade",
+    "no instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "population unknown; largely transient and seasonal",
+    "suits low-level coastal/outpost adventure scenes"
+  ],
+  "generated_at": "2025-09-09T04:09:58.509Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5a7af31f",
+  "burg_id": 290,
+  "name": "Burg_290",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-haven",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-fishing-haven",
+    "provisioning-stop",
+    "ritual-components-trading",
+    "smuggling-node"
+  ],
+  "factions_local": [
+    "harbormaster-clique",
+    "ritual-syndicate",
+    "coastal-merchant-cartel",
+    "kinship-council"
+  ],
+  "problems": [
+    "scarce-imports",
+    "sea-raider-banditry",
+    "corruption-in-permits",
+    "resource-depletion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "strong seafarer superstitions and tide-rituals",
+    "trade etiquette is highly ritualized",
+    "salt-preservation and smoke-curing cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-shortage",
+    "ritual-component-heist"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "state authority minimal; local bodies govern daily life",
+    "population transient; many seasonal workers"
+  ],
+  "generated_at": "2025-09-09T04:21:40.855Z"
+}

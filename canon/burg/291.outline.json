@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d78c1935",
+  "burg_id": 291,
+  "name": "Burg_291",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-reagents",
+    "harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent trade",
+    "small-ship repair",
+    "informal smuggling"
+  ],
+  "factions_local": [
+    "keeper-priesthood",
+    "cargo-guild",
+    "coastal-watch",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling conflicts",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "diet heavy on salted fish, seaweed, shellfish",
+    "tide-linked rituals govern work and festivals",
+    "barter-heavy, informal trust networks"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind-control; navigational auguries limited"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "small protected cove; strategic for coastal trade",
+    "state authority remote/uncertain"
+  ],
+  "generated_at": "2025-09-09T04:21:52.529Z"
+}

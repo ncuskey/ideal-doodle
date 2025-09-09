@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_69fff0d9",
+  "burg_id": 76,
+  "name": "Burg_76",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverside",
+    "ritual-labour"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river-fishing",
+    "ritual-workshops",
+    "local-market"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Choir",
+    "Ritual Workhouse"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "silted docks",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
+  ],
+  "culture_notes": [
+    "Riveric Dialect common",
+    "household ancestor altars",
+    "diet: smoked fish and river grains"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "population unknown; transient river traffic"
+  ],
+  "generated_at": "2025-09-09T04:36:55.645Z"
+}

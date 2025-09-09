@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_6237312f",
+  "burg_id": 320,
+  "name": "Burg_320",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "supply depot",
+    "ritual-reagent trade",
+    "fishing + salt curing",
+    "waystation for coastal traders"
+  ],
+  "factions_local": [
+    "small merchant guildlet",
+    "ritual circle (local seers)",
+    "coastal militia",
+    "smuggler crew"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry along approach routes",
+    "harsh weather disrupting trade"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "regular ship-blessing and net-offering rituals",
+    "diet heavy on salted fish, seaweed, preserved goods",
+    "crafts: boat repair, netmaking, simple carpentry"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fisherfolk"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion industry; no high-pressure steam tech",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "shallow harbor—only small vessels and lighters",
+    "remote waystation on a coastal trade route",
+    "population small and partly transient (crews, traders)"
+  ],
+  "generated_at": "2025-09-09T04:23:54.277Z"
+}

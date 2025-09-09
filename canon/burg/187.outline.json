@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_644bcdf5",
+  "burg_id": 187,
+  "name": "Burg_187",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "trade-node"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "salt-harvesting",
+    "ritual-labour",
+    "local-market-trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-collective",
+    "merchant-brotherhood",
+    "coastal-militia"
+  ],
+  "problems": [
+    "scarcity-of-ritual-reagents",
+    "banditry-on-approaches",
+    "storm-damage-to-infrastructure",
+    "local-corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "tide-rituals shape daily schedule",
+    "diet heavy on fish, seaweed, preserved salt"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagent-shipment",
+    "failed-tide-ritual"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "long-range-mind-influence-rare-and-banned"
+  ],
+  "notes": [
+    "port depends on imported reagents for local rituals",
+    "navigational-auguries used alongside charts"
+  ],
+  "generated_at": "2025-09-09T04:14:41.485Z"
+}

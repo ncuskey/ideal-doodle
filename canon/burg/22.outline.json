@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_68783dc5",
+  "burg_id": 22,
+  "name": "Burg_22",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "isolated",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagents trade",
+    "fishing",
+    "small-ship repair",
+    "local market"
+  ],
+  "factions_local": [
+    "cult-circle",
+    "merchant-family",
+    "harbor-militia",
+    "ritual-apothecaries"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "bandit raids",
+    "ritual accidents"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues + Riveric Dialect mix",
+    "formal ritual etiquette in daily life",
+    "seafood-heavy cuisine",
+    "tide-linked seasonal festivals"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen reagent cache",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "ritual-magic-consumes-scarce-imported-reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech",
+    "navigational auguries exist but do not replace charts",
+    "state affiliation unknown"
+  ],
+  "generated_at": "2025-09-09T04:16:50.765Z"
+}

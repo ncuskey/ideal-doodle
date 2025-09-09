@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_866a2247",
+  "burg_id": 238,
+  "name": "Burg_238",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "shrine",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "salt-harvest",
+    "ritual-labor",
+    "small-scale-fishing",
+    "transshipment"
+  ],
+  "factions_local": [
+    "Shrine Custodians",
+    "Tide-kin Caster Circle",
+    "Skiffmen's Guild",
+    "Smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "coastal erosion",
+    "bandit raids",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal dialect of Coastal Tongues",
+    "morning tide-blessing rituals",
+    "dried-seaweed and preserved fish diet",
+    "carved ancestor tokens common"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent scarcity",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts and seamanship"
+  ],
+  "notes": [
+    "population unknown; many transient skiff crews",
+    "small harbor usable at high tide; strategic for local coasting traffic"
+  ],
+  "generated_at": "2025-09-09T04:18:00.655Z"
+}

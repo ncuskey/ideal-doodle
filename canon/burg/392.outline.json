@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_509e269d",
+  "burg_id": 392,
+  "name": "Burg_392",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-laboratory",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-supply-lab",
+    "waystation-trade"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbor-masters",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "salt-preservation cuisine",
+    "reef-offering harbor festival"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-run",
+    "lost-navigation-chart"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents"
+  ],
+  "notes": [
+    "seasonal storms intermittently close the harbor",
+    "small ceremonial lighthouse doubles as ritual site"
+  ],
+  "generated_at": "2025-09-09T04:28:34.066Z"
+}

@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_90c3f2e5",
+  "burg_id": 161,
+  "name": "Burg_161",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-transit",
+    "waystation",
+    "minor-ship-repair"
+  ],
+  "factions_local": [
+    "harbormaster",
+    "reagent-merchant-guild",
+    "shrine-keepers"
+  ],
+  "problems": [
+    "scarce-imports",
+    "smuggling",
+    "storm-damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongue with Island Creole borrowings",
+    "tide-harvest festivals and barter rituals",
+    "diet: salt-cured fish, seaweed, preserved kelp"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "storm-omen"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries supplement but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:13:14.831Z"
+}

@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d7069dd",
+  "burg_id": 200,
+  "name": "Burg_200",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-trading"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-trade",
+    "waystation-for-sailors",
+    "salt-harvest"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-syndicate",
+    "clan-kin-council"
+  ],
+  "problems": [
+    "scarcity-of-ritual-reagents",
+    "supply-isolation",
+    "banditry-at-sea"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with riveric loanwords",
+    "diet heavy on salted fish, seaweed, preserved legumes",
+    "tide-honoring rites shape work and festival calendar"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "disappearances-at-sea"
+  ],
+  "constraints": [
+    "rituals-consume-scarce-imported-reagents",
+    "no-instant-resurrection-or-life-replacement",
+    "long-range-mind-influence-rare-and-banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech level",
+    "navigational-auguries available but seamanship still required"
+  ],
+  "generated_at": "2025-09-09T04:15:40.978Z"
+}

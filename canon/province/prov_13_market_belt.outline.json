@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_market_belt",
+  "checksum": "fnv1a_a29d0209",
+  "name": "Market Belt",
+  "aliases": [
+    "Market Belt",
+    "prov_13_market_belt"
+  ],
+  "tags": [
+    "market-belt",
+    "transshipment",
+    "guild-hub",
+    "coastal"
+  ],
+  "role_in_state": "maritime transshipment and toll hub",
+  "economy_niches": [
+    "transshipment and bonded warehousing",
+    "auctions, tolls and market brokerage",
+    "re-export of imported ritual reagents",
+    "ship chandlery, ropemaking and repairs",
+    "salt and barrel brokerage"
+  ],
+  "culture_adjustments": [
+    "cosmopolitan dialect mix from visiting crews",
+    "guild arbitration often supersedes kin-clan courts",
+    "rituals focused on cargo blessings and market days",
+    "practical contract literacy valued over seamanship rank"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Merchant Brotherhood Liturgies"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "smuggling",
+    "guild feuds",
+    "port congestion",
+    "market fires"
+  ],
+  "constraints": [
+    "limited heavy industry and high-capital works",
+    "ritual commerce depends on scarce imported reagents"
+  ],
+  "notes": [
+    "market tolls fund state and guild defenses",
+    "seasonal fair weeks create peak congestion and prices"
+  ],
+  "generated_at": "2025-09-09T04:04:17.218Z"
+}

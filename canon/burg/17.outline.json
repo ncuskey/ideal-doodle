@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_afbca09d",
+  "burg_id": 17,
+  "name": "Burg_17",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-node",
+    "reagent-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river-trade",
+    "fishing",
+    "reagent-transshipment",
+    "ritual-labor"
+  ],
+  "factions_local": [
+    "Harbormaster's Circle",
+    "Ritual Scriptorium",
+    "Smuggler Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on river",
+    "corruption in permits"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric-influenced Coastal Tongue dialect",
+    "strong ancestor veneration",
+    "tide-linked ritual calendar"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ancestor relic",
+    "reagent supply run"
+  ],
+  "constraints": [
+    "no true-resurrection magic",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "small outpost; population unknown",
+    "depends on imported reagents and river traffic"
+  ],
+  "generated_at": "2025-09-09T04:13:37.859Z"
+}

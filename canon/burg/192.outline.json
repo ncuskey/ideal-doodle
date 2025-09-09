@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_84be5e2d",
+  "burg_id": 192,
+  "name": "Burg_192",
+  "state_id": 0,
+  "province_id": "province_unknown",
+  "tags": [
+    "outpost",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual reagent depot",
+    "fishermen",
+    "waystation",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "ritual confraternity",
+    "coastal merchants",
+    "harbor militia"
+  ],
+  "problems": [
+    "scarcity of reagents",
+    "bandit raids",
+    "supply irregularity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "tide-shrine tithes common",
+    "diet heavy on salt-cured fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual cargo"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare and banned",
+    "navigational auguries useful but not a substitute for charts"
+  ],
+  "notes": [
+    "sparse population and records",
+    "strategic coastal waypoint for reagent shipments"
+  ],
+  "generated_at": "2025-09-09T04:15:05.489Z"
+}

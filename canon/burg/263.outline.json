@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5530443f",
+  "burg_id": 263,
+  "name": "Burg_263",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "small-harbor transshipment",
+    "ritual-reagent brokerage",
+    "smuggler waypoint"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual-broker cabal",
+    "reef fishermen clan",
+    "coastal smugglers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling conflicts",
+    "jurisdictional dispute"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole influence",
+    "seafood and fermented fish staples",
+    "rituals tied to imported reagents and barter",
+    "cautious hospitality; strangers questioned"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "lost-ritual reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents or special labors",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "Population data sparse; location likely coastal waypoint",
+    "Useful as a resupply/black-market stop for nearby sea routes"
+  ],
+  "generated_at": "2025-09-09T04:19:52.385Z"
+}

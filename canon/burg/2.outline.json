@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f914d00d",
+  "burg_id": 2,
+  "name": "Burg_2",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent transshipment",
+    "harbor services"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritualist house",
+    "smuggler ring",
+    "coastal militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "silted inlet",
+    "jurisdictional dispute"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "ritualized morning tide rites",
+    "salt-cured fish cuisine",
+    "transient, multiethnic population"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearing fishermen"
+  ],
+  "constraints": [
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "sheltered inlet, prone to silt build-up",
+    "strategic waypoint for coastal traders",
+    "population small and seasonal"
+  ],
+  "generated_at": "2025-09-09T04:15:39.234Z"
+}

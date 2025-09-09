@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8cfb633d",
+  "burg_id": 156,
+  "name": "Burg_156",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-dependent",
+    "dockside"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ship-chandler",
+    "ritual-supply",
+    "local-market"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-guild",
+    "coastal-elders",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "seasonal-famine",
+    "banditry",
+    "harbor-disease"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "dockside ancestor-offerings",
+    "salted fish and fermented seaweed cuisine",
+    "tide-blessing festival"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "ritual-sabotage"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational-auguries supplement but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:12:48.646Z"
+}

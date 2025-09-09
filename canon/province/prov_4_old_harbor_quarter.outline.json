@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_old_harbor_quarter",
+  "checksum": "fnv1a_90457923",
+  "name": "Old Harbor Quarter",
+  "aliases": [
+    "Old Harbor",
+    "Harbor Quarter",
+    "The Old Wharf"
+  ],
+  "tags": [
+    "port",
+    "shipyards",
+    "transshipment",
+    "saltworks",
+    "guild-district"
+  ],
+  "role_in_state": "Historic core port and transshipment quarter",
+  "economy_niches": [
+    "Small-shipbuilding and repair (boatwright guilds)",
+    "Fish salting, smoking and barrel-packing",
+    "Salt storage, grading and export packing",
+    "Consignment/transshipment of imported ritual reagents",
+    "Taverns, lodging and sailors' services"
+  ],
+  "culture_adjustments": [
+    "Denser Coastal Tongues port-dialect with many trader loanwords",
+    "Stronger guild arbitration and civic privileges than hinterlands",
+    "Maritime ritual practices concentrated in public quays",
+    "More cosmopolitan contact rituals due to transshipment traffic",
+    "Practical skepticism toward inland ascetic orders"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / coastal flooding",
+    "warehouse fire (dense timber buildings)",
+    "smuggling and graft at customs points",
+    "contagion in crowded lodging"
+  ],
+  "constraints": [
+    "Limited buildable space; vertical densification only",
+    "Guild-controlled permits restrict new enterprises",
+    "Dependence on imported reagents for ritual-linked trades"
+  ],
+  "notes": [
+    "Navigation-augury booths concentrated near main piers",
+    "Guild courts handle most commercial disputes locally",
+    "Older quays are uneven and require frequent maintenance"
+  ],
+  "generated_at": "2025-09-09T04:06:45.909Z"
+}

@@ -1,0 +1,48 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_42270fd",
+  "burg_id": 459,
+  "name": "Burg_459",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "provisioning",
+    "ritual reagent trade",
+    "fisherfolk"
+  ],
+  "factions_local": [
+    "Reagent Merchant House",
+    "Harbormaster's Office",
+    "Ancestor-Remembrance Circle"
+  ],
+  "problems": [
+    "smuggling",
+    "scarcity of reagents",
+    "coastal erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "coastal dialect of Coastal Tongues",
+    "tide-linked ritual offerings common",
+    "preservation and caching of fish and reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "erosion crisis"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned locally"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but do not replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:33:20.133Z"
+}

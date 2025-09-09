@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "province_outline.schema.json",
+  "title": "Province Outline",
+  "type": "object",
+  "required": [
+    "world_id",
+    "state_id",
+    "province_id",
+    "name",
+    "role_in_state",
+    "economy_niches",
+    "culture_adjustments",
+    "religion_profile",
+    "settlements_hint",
+    "risks",
+    "constraints",
+    "notes"
+  ],
+  "properties": {
+    "world_id": { "type": "string" },
+    "state_id": { "type": "integer" },
+    "province_id": { "type": "string" },
+    "checksum": { "type": "string" },
+    "name": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "role_in_state": { "type": "string" },
+    "economy_niches": { "type": "array", "items": { "type": "string" } },
+    "culture_adjustments": { "type": "array", "items": { "type": "string" } },
+    "religion_profile": {
+      "type": "object",
+      "required": ["families_present"],
+      "properties": {
+        "families_present": { "type": "array", "items": { "type": "string" } },
+        "dominant": { "type": "string" }
+      }
+    },
+    "settlements_hint": {
+      "description": "IDs or names of notable burgs in this province (hints only).",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "risks": { "type": "array", "items": { "type": "string" } },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

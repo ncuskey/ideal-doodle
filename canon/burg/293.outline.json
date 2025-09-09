@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c2c21255",
+  "burg_id": 293,
+  "name": "Burg_293",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-node",
+    "ritual-supply"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ritual-component trade",
+    "waystation/market",
+    "small-scale fishing",
+    "craft workshops"
+  ],
+  "factions_local": [
+    "ritual-priesthood",
+    "traders' syndicate",
+    "river-clan elders"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "smuggling of ritual paraphernalia"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Riveric Dialect dominant",
+    "Ancestor veneration shapes local rites",
+    "diet: smoked fish and river vegetables",
+    "market days set by ritual calendar"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagent",
+    "disappearances along river"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "near-medieval to early industrial tech with ritual dependencies"
+  ],
+  "generated_at": "2025-09-09T04:22:01.987Z"
+}

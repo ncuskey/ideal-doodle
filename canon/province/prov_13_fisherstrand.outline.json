@@ -1,0 +1,63 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_fisherstrand",
+  "checksum": "fnv1a_c0991f8a",
+  "name": "Fisherstrand",
+  "aliases": [
+    "The Strand",
+    "Fisher's Strand",
+    "Saltshore"
+  ],
+  "tags": [
+    "coastal",
+    "fisheries",
+    "shipbuilding",
+    "saltworks",
+    "guild-led"
+  ],
+  "role_in_state": "Primary fisheries and shipbuilding hub",
+  "economy_niches": [
+    "Large-scale salted fisheries",
+    "Small-craft shipbuilding and repair",
+    "Saltworks and fish-curing",
+    "Coastal trade and reagent transshipment",
+    "Seasonal labor supply for long-range fleets"
+  ],
+  "culture_adjustments": [
+    "Stronger clan control over boat lanes and quotas",
+    "Ritualized night-navigation practices more elaborate and frequent",
+    "Guild courts override kin-councils in maritime disputes",
+    "Higher social tolerance for petty smuggling tied to livelihoods",
+    "Women prominent in fish-markets and curing industries"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "piracy",
+    "harbor siltation",
+    "overfishing",
+    "saltworks contamination"
+  ],
+  "constraints": [
+    "Limited arable hinterland",
+    "Dependence on imported ritual reagents",
+    "Guild charters restrict establishment of new burgs",
+    "Combustion-derived industry capped by low-pressure steam norms"
+  ],
+  "notes": [
+    "Seasonal migration to open-ocean fleets shapes labor rhythms",
+    "Major supplier of salted provisions for State_13",
+    "Local guilds maintain private nav-augury workshops (rituals consume costly reagents)",
+    "Harbor maintenance requires recurring communal levies"
+  ],
+  "generated_at": "2025-09-09T04:04:08.159Z"
+}

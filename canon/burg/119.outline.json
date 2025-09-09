@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cbeee9f3",
+  "burg_id": 119,
+  "name": "Burg_119",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "crossroads",
+    "ritual-stop"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "waystation",
+    "ritual-supply depot",
+    "ferry services",
+    "local craftworks"
+  ],
+  "factions_local": [
+    "merchant-lodge",
+    "ritual-brethren",
+    "river-watch",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corrupt tolls"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric-influenced dialect",
+    "ritualized gift economy",
+    "smoked/salted fish staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ferryman"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no true resurrection magics",
+    "long-range mind-influence taboo"
+  ],
+  "notes": [
+    "Tech: near-medieval to early-industrial with local ritual labs",
+    "Population unknown; small outpost on trade route"
+  ],
+  "generated_at": "2025-09-09T04:10:19.543Z"
+}

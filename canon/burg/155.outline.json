@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a54e52fb",
+  "burg_id": 155,
+  "name": "Burg_155",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-workshop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-collection",
+    "coastal-fishing",
+    "waystation",
+    "salt-curing"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "boatmen-clan",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "supply-isolation",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence",
+    "ritualized trade etiquette",
+    "preservation-heavy cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagents",
+    "sea-bound-claim"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-require-scarce-reagents"
+  ],
+  "notes": [
+    "population: n/a",
+    "state: unknown",
+    "navigational-augury in limited use"
+  ],
+  "generated_at": "2025-09-09T04:12:49.360Z"
+}

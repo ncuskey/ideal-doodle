@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f4de69b3",
+  "burg_id": 131,
+  "name": "Burg_131",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent transshipment",
+    "small-scale ship repairs"
+  ],
+  "factions_local": [
+    "Tide-wardens (animist clergy)",
+    "Harbor Syndicate",
+    "Reagent Traders' Collective"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling tensions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole dialect with Coastal Tongue influence",
+    "seafood- and seaweed-heavy cuisine",
+    "ritual offerings tied to departing ships"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply shortage",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "combustion-derived industry limited"
+  ],
+  "notes": [
+    "population unknown/seasonal; many transient crews",
+    "minor stop for navigational auguries and reagent shipments"
+  ],
+  "generated_at": "2025-09-09T04:11:17.979Z"
+}

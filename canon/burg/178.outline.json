@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_523bff7d",
+  "burg_id": 178,
+  "name": "Burg_178",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "remote",
+    "harbor",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent transit/warehousing",
+    "subsistence farming"
+  ],
+  "factions_local": [
+    "shrine caretakers",
+    "harbor guild (informal)",
+    "itinerant merchants",
+    "militia watch"
+  ],
+  "problems": [
+    "reagent shortages",
+    "supply delays",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "ancestor-feast customs central to social calendar",
+    "diet: salted fish, seaweed, preserved shellfish",
+    "crafts: net-mending and ritual-carved talismans"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing fishermen"
+  ],
+  "constraints": [
+    "relies on scarce imported ritual reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry and heavy machinery"
+  ],
+  "notes": [
+    "state-level records incomplete; governance nominal",
+    "population seasonal; fishers and transient merchants dominate"
+  ],
+  "generated_at": "2025-09-09T04:14:17.635Z"
+}

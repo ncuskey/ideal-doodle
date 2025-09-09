@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3e500dd3",
+  "burg_id": 285,
+  "name": "Burg_285",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "reagent brokerage",
+    "harbor waystation",
+    "salt curing"
+  ],
+  "factions_local": [
+    "Fisherfolk Syndicate",
+    "Tide-Caller Circle",
+    "Reagent Merchants' Consortium",
+    "Harbor Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "isolation",
+    "tide-driven floods"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with island loanwords",
+    "diet heavy on pickled fish and cured salt fare",
+    "tide-based ritual calendar and harbor superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual failure"
+  ],
+  "constraints": [
+    "Ritual magic requires scarce imported reagents",
+    "No instant resurrection or true life-replacement magics",
+    "Limited combustion-derived industry"
+  ],
+  "notes": [
+    "Sheltered inlet acting as link between islands and river routes",
+    "Small population; official census unknown",
+    "Navigational auguries supplement but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:21:21.210Z"
+}

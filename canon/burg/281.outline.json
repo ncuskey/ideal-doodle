@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_9c1c57d3",
+  "burg_id": 281,
+  "name": "Burg_281",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-port"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-workshop",
+    "small-scale fishing",
+    "waystation/ship-provisions",
+    "salt-and-dried-fish trade"
+  ],
+  "factions_local": [
+    "ritual-guildlet",
+    "harbor-cooperative",
+    "elder-council",
+    "smugglers' clique"
+  ],
+  "problems": [
+    "scarce imported reagents",
+    "banditry on coastal approaches",
+    "corruption in port permits"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy on salted fish and seaweed preserves",
+    "local taboos around night-time auguries and ship rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing ritual reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech level",
+    "navigational auguries used but charts and seamanship required"
+  ],
+  "generated_at": "2025-09-09T04:20:58.223Z"
+}

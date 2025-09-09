@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_headland_forts",
+  "checksum": "fnv1a_b7a7853e",
+  "name": "Headland Forts",
+  "aliases": [
+    "The Promontories",
+    "Watchmantles"
+  ],
+  "tags": [
+    "coastal",
+    "fortified",
+    "piloting",
+    "ritual-augury",
+    "saltworks"
+  ],
+  "role_in_state": "Coastal defense and piloting hub",
+  "economy_niches": [
+    "pilotage, harbor dues and passage rights",
+    "guarded reagent transshipment & storage",
+    "small-scale ship repair and careening yards",
+    "saltworks and smoked/preserved seafood",
+    "garrison provisioning & mercenary hire"
+  ],
+  "culture_adjustments": [
+    "militarized tide-calendar with watch-rituals",
+    "guild-militia dominance over civic matters",
+    "augury sanctuaries at promontories monetized for pilots",
+    "stronger ancestor-remembrance for lost seafarers",
+    "practical funerary rites favor cliff/sea interment"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "cliff-erosion",
+    "piracy/raiders",
+    "supply blockade",
+    "fortification decay"
+  ],
+  "constraints": [
+    "limited arable land and inland access",
+    "reliance on imported ritual reagents",
+    "narrow coastal terraces restrict expansion"
+  ],
+  "notes": [
+    "seasonal garrison rotations tied to tide-calendar",
+    "pilots' guild controls passage fees and local law enforcement",
+    "navigation auguries provided but consume scarce reagents"
+  ],
+  "generated_at": "2025-09-09T04:05:51.662Z"
+}

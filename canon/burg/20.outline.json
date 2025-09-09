@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_ba471df1",
+  "burg_id": 20,
+  "name": "Burg_20",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-hamlet",
+    "ritual-stop"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "ferrying",
+    "fish-curing",
+    "ritual-supply",
+    "local-trade"
+  ],
+  "factions_local": [
+    "ferrymen-guild",
+    "ritual-apprentices",
+    "merchant-boatters",
+    "ancestral-clan-council"
+  ],
+  "problems": [
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "river-pirates"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Coastal Tongues loanwords",
+    "Ancestor-river rites shape daily schedule",
+    "Smoked fish and fermented river-vegetables staple",
+    "Boat-built kin chambers; ceremonies aboard"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-ferry",
+    "stolen-reagents"
+  ],
+  "constraints": [
+    "rituals require scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries assist but do not replace seamanship"
+  ],
+  "notes": [
+    "Small outpost serving ritual travelers and river traffic",
+    "Limited state oversight; strong local customs"
+  ],
+  "generated_at": "2025-09-09T04:15:32.667Z"
+}

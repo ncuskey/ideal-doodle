@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5e31df3d",
+  "burg_id": 381,
+  "name": "Burg_381",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "ritual-cache"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "reagent depot",
+    "small-scale fishing",
+    "relay trading"
+  ],
+  "factions_local": [
+    "augur-lodge",
+    "salt-traders cooperative",
+    "ancestral-shrine keepers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "isolation",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Coastal loanwords",
+    "communal ancestor feasts",
+    "diet: salted fish and root gruels"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "ancestral omens"
+  ],
+  "constraints": [
+    "no instant resurrection; long-range mind influence rare and banned",
+    "ritual magic consumes scarce imported reagents",
+    "combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "population unknown",
+    "acts as reagent relay for inland ritual sites"
+  ],
+  "generated_at": "2025-09-09T04:27:52.844Z"
+}

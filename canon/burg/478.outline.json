@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_27d22bab",
+  "burg_id": 478,
+  "name": "Burg_478",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "harbor resupply",
+    "ritual reagent gathering",
+    "fishing",
+    "pilotage services"
+  ],
+  "factions_local": [
+    "Harbormasters' Guild",
+    "Tidewatch Clan",
+    "Pilots' Brotherhood",
+    "Reagent Peddlers"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "coastal banditry",
+    "corrupt docking permits",
+    "seasonal isolation from storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Island Creole loanwords",
+    "strong seafaring superstitions and pilot rites",
+    "diet centered on fish, seaweed, preserved goods",
+    "pilots and ritual-suppliers hold social prestige"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "strange tides"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "navigation auguries supplement but do not replace charts",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "waystation on coastal pilot route",
+    "seasonal supply vessels determine prosperity"
+  ],
+  "generated_at": "2025-09-09T04:34:45.483Z"
+}

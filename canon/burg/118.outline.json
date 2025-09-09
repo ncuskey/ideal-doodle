@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_11896dd5",
+  "burg_id": 118,
+  "name": "Burg_118",
+  "state_id": 0,
+  "province_id": "prov_unknown",
+  "tags": [
+    "harbor",
+    "reagent-trade",
+    "waystation"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "reagent trade",
+    "fishing",
+    "dockside services",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Guild of Tide-Readers",
+    "Merchant Consortium",
+    "Dockworkers' Cooperative",
+    "Ancestor Shrine Keepers"
+  ],
+  "problems": [
+    "scarcity of imported reagents",
+    "bandit raids on coastal roads",
+    "sanitation and disease risk",
+    "guild corruption and extortion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole loanwords",
+    "voyage-offering rituals common before departures",
+    "diet heavy on salted fish and reagent-spiced stews",
+    "markets peak at tide change for arriving caravans"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing priest"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "State jurisdiction currently unclear",
+    "serves as strategic waypoint for coastal traders and ritual caravans"
+  ],
+  "generated_at": "2025-09-09T04:10:19.278Z"
+}

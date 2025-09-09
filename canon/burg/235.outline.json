@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_80597c5",
+  "burg_id": 235,
+  "name": "Burg_235",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverside",
+    "ritual-supply",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-component trade",
+    "ferry/waystation",
+    "small-scale fishing"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "ritual-suppliers' cartel",
+    "boatmen's cooperative"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "storm damage",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Mixed Riveric-Coastal dialect",
+    "Seafood-heavy diet",
+    "Ritual taboos around night launches"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "shrine desecration"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence banned"
+  ],
+  "notes": [
+    "exposed small harbor, poor shelter in storms",
+    "serves as a ferry node between larger settlements"
+  ],
+  "generated_at": "2025-09-09T04:17:51.746Z"
+}

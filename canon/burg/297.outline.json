@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_728e8df5",
+  "burg_id": 297,
+  "name": "Burg_297",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "lighthouse-tithes",
+    "ritual-lab-services"
+  ],
+  "factions_local": [
+    "Harbor Watch",
+    "Pilgrim Circle",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "Ancestor-tide offerings common",
+    "diet: salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "strange tides"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "combustion industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial tech baseline",
+    "strategic coastal waystation; population unknown"
+  ],
+  "generated_at": "2025-09-09T04:22:13.568Z"
+}

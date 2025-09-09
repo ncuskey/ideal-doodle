@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7f0e627d",
+  "burg_id": 43,
+  "name": "Burg_43",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "harbor services",
+    "reagent trade",
+    "waystation resupply",
+    "fishing and salting"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Reagent Merchants' Syndicate",
+    "Ancestor-Remembrance Circle",
+    "Volunteer Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal isolation",
+    "smuggling",
+    "religious friction"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ritualized offerings to tides and ancestors",
+    "diet heavy on salted and smoked fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply crisis",
+    "botched ritual"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare and banned",
+    "combustion-derived industry limited"
+  ],
+  "notes": [
+    "population unknown; seasonal fluctuations likely",
+    "serves a minor channel landing and passing coastal traffic",
+    "local economy depends on passing ships and ritual consignments"
+  ],
+  "generated_at": "2025-09-09T04:31:13.846Z"
+}

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_acf9e90d",
+  "burg_id": 96,
+  "name": "Burg_96",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "harbor",
+    "ritual-supply",
+    "waystation"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "ritual reagent trade",
+    "boat repair",
+    "local market"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Reagent Collectors' Circle",
+    "Elders' Council",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "tidal flooding",
+    "guild corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect predominates",
+    "ebb-tide festival honoring sea-spirits",
+    "diet: salted fish & kelp",
+    "low-tide ancestor shrines and offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "mysterious tide change"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magic",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "small harbor settlement vulnerable to storms",
+    "dockside ritual labor concentrated in a few families",
+    "population size uncertain"
+  ],
+  "generated_at": "2025-09-09T04:38:06.077Z"
+}

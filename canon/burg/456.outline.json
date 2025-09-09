@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_59e74807",
+  "burg_id": 456,
+  "name": "Burg_456",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small harbor",
+    "ritual reagent trade",
+    "fishing",
+    "waystation"
+  ],
+  "factions_local": [
+    "Shrine Circle",
+    "Harbormasters' Syndicate",
+    "Smugglers' Crows",
+    "Militia Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "isolated supply lines",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Coastal Tongues dialect",
+    "tide-superstitions and morning offerings",
+    "salt-preserved cuisine",
+    "ritual songs at dawn"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "tech: near-medieval to early industrial with localized ritual magic",
+    "population unknown; likely small outpost",
+    "strategic waypoint for coastal trade"
+  ],
+  "generated_at": "2025-09-09T04:33:06.699Z"
+}

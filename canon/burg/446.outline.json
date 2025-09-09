@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_fb0833e5",
+  "burg_id": 446,
+  "name": "Burg_446",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-depot",
+    "waystation",
+    "small-scale-fishing",
+    "timber-cutting"
+  ],
+  "factions_local": [
+    "Harbormaster's Council",
+    "Ancestor-Shrine Circle",
+    "Smugglers' Knot"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggling",
+    "jurisdictional-disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "funerary incense rites common",
+    "smoked-salt cuisine",
+    "augury tokens used in navigation"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "tidal-omen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imports",
+    "navigational-auguries-auxiliary-only"
+  ],
+  "notes": [
+    "small transient population",
+    "resupply stop for coastal traders",
+    "local economy tied to itinerant ritual teams"
+  ],
+  "generated_at": "2025-09-09T04:32:37.734Z"
+}

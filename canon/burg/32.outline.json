@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_12cff1b9",
+  "burg_id": 32,
+  "name": "Burg_32",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-trade",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "fishing",
+    "waystation services"
+  ],
+  "factions_local": [
+    "Shrine Custodians",
+    "Coastal Skippers",
+    "Reagent Merchants",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "isolation",
+    "smuggling",
+    "superstition-driven unrest"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "mixed Coastal Tongues / Riveric dialect",
+    "ritual-heavy calendar",
+    "seaweed-fermentation cuisine",
+    "barter-oriented customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing navigator/chart"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "navigational-auguries-limited",
+    "rituals-consume-scarce-imported-reagents"
+  ],
+  "notes": [
+    "remote tidal inlet harbor",
+    "frequent storms disrupt supplies"
+  ],
+  "generated_at": "2025-09-09T04:23:54.771Z"
+}

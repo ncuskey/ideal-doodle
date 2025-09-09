@@ -1,0 +1,62 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_outlying_fishing_isles",
+  "checksum": "fnv1a_e77695d8",
+  "name": "Outlying Fishing Isles",
+  "aliases": [
+    "Outlying Isles",
+    "Fishing Isles"
+  ],
+  "tags": [
+    "maritime",
+    "islands",
+    "fisheries",
+    "saltworks",
+    "navigation-augury",
+    "seasonal-economy"
+  ],
+  "role_in_state": "seasonal fish and salt supplier; navigational-augury outposts",
+  "economy_niches": [
+    "monsoonal deep-water fisheries (dry-salting and curing)",
+    "salt-evaporation pans and packed-salt export",
+    "small craft and repair yards for coastal fleets",
+    "provisioning and low-scale navigational-augury services",
+    "seabird guano and fertilizer gathering",
+    "seasonal migrant labor housing and ship victualling"
+  ],
+  "culture_adjustments": [
+    "Island Creole speech layers over Coastal Tongues; nautical argot widespread",
+    "looser clan control — crew-based affiliations supersede lineage at sea",
+    "stronger secrecy around augury rites; local harbor-elders hold practical authority",
+    "seasonal mobility normal: dry-season hubs swell, monsoon camps disperse",
+    "pragmatic tolerance of illicit trade and informal credit networks"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-exposure",
+    "isolation/supply-disruption",
+    "piracy and smuggling",
+    "overfishing/resource-depletion",
+    "seasonal labor bottlenecks (monsoons)"
+  ],
+  "constraints": [
+    "scarce arable land limits self-sufficiency",
+    "reliance on imported ritual reagents for major repairs",
+    "limited heavy-industry capability (no high-pressure steam tech)"
+  ],
+  "notes": [
+    "harbor-elders arbitrate under state law but often apply local custom",
+    "service to state shipping includes augury fees and pilotage",
+    "population flux between isles and mainland shapes governance and trade"
+  ],
+  "generated_at": "2025-09-09T04:04:05.817Z"
+}

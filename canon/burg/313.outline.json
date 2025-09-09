@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3a8fb663",
+  "burg_id": 313,
+  "name": "Burg_313",
+  "state_id": -1,
+  "province_id": "",
+  "tags": [
+    "harbor",
+    "reagent-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent brokerage",
+    "ship repair",
+    "waystation provisioning"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "ritual lodge",
+    "smuggler coterie"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "corrupt harbormaster"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced Coastal Tongue dialect",
+    "sea-blessing ceremonies common",
+    "diet: salted fish and fermented seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual mishap"
+  ],
+  "constraints": [
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magic",
+    "limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "population unknown; intermittent traffic",
+    "serves as coastal resupply and reagent transit point"
+  ],
+  "generated_at": "2025-09-09T04:23:26.736Z"
+}

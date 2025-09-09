@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_877ec3",
+  "burg_id": 102,
+  "name": "Burg_102",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-supply"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual reagent exchange",
+    "waystation for coastal traders",
+    "charter boat services"
+  ],
+  "factions_local": [
+    "Sea-Tide animist clan",
+    "Ancestor-Remembrance shrine keepers",
+    "itinerant merchant agents",
+    "local skiffmasters (informal)"
+  ],
+  "problems": [
+    "scarcity of imported ritual reagents",
+    "seasonal supply disruptions",
+    "coastal banditry/smuggling",
+    "jurisdictional friction over landing rights"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "speech: Coastal Tongues with Riveric loanwords",
+    "custom: small tide-based ancestor offerings at landings",
+    "cuisine: salted fish, kelp-ferments, ship-brewed ales"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual site dispute"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind control or instant resurrection"
+  ],
+  "notes": [
+    "navigational auguries used but skilled pilots required",
+    "small natural cove limits large vessels; seasonal siltation"
+  ],
+  "generated_at": "2025-09-09T04:09:18.400Z"
+}

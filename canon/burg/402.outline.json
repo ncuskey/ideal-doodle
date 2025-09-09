@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cb93c1f5",
+  "burg_id": 402,
+  "name": "Burg_402",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waypoint",
+    "fishing"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal trading post",
+    "subsistence fishing",
+    "reagent transshipment",
+    "ship repair"
+  ],
+  "factions_local": [
+    "shrine-keepers (Sea-Tide)",
+    "traders' syndicate",
+    "smugglers' crew",
+    "shipwrights' guild"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "pirate raids",
+    "storm damage",
+    "lawlessness"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole with Riveric loanwords",
+    "tide-offering customs",
+    "diet: salted fish and fermented seaweed",
+    "navigation superstitions and local auguries"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reef wreck salvage",
+    "reagent theft"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "hidden reef waypoint",
+    "census unreliable; seasonal population spikes"
+  ],
+  "generated_at": "2025-09-09T04:29:16.188Z"
+}

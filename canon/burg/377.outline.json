@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4ba7eec3",
+  "burg_id": 377,
+  "name": "Burg_377",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-labour",
+    "waystation"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "harbour-collective",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "seafood-centered cuisine",
+    "ritual-tattoo tradition"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual-backfire",
+    "missing-ship"
+  ],
+  "constraints": [
+    "rituals-consume-scarce-imported-reagents",
+    "no-instant-resurrection"
+  ],
+  "notes": [
+    "near-medieval tech with localized ritual magic",
+    "navigational-auguries supplement but don't replace charts"
+  ],
+  "generated_at": "2025-09-09T04:27:32.361Z"
+}

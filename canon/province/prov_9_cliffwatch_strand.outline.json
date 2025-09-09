@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_cliffwatch_strand",
+  "checksum": "fnv1a_90d56309",
+  "name": "Cliffwatch Strand",
+  "aliases": [
+    "Cliffwatch",
+    "The Strand"
+  ],
+  "tags": [
+    "coastal",
+    "harbor-watch",
+    "saltworks",
+    "ship-repair",
+    "navigational-augury"
+  ],
+  "role_in_state": "maritime sentinel and coastal repair hub",
+  "economy_niches": [
+    "coastal ship repair & careening",
+    "salt-evaporation terraces",
+    "cliff-net fisheries (shore pelagics & shellfish)",
+    "navigational-augury lookouts & licensed pilotage",
+    "small-craft shipbuilding (keelboats, longboats)"
+  ],
+  "culture_adjustments": [
+    "ritual cliff-watch wakes and night-vigils distinct from port launches",
+    "compressed Coastal Tongues register with cliff-top nautical terms",
+    "stronger ancestor-veneration focused on sea-fallen kin at cliff shrines",
+    "watch-clans enforce kin-based harbor governance and access",
+    "practical hull-repair craft traditions prioritized over large-vessel ceremony"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "piracy & smuggling",
+    "seasonal supply-isolation"
+  ],
+  "constraints": [
+    "no deep-water docks — large oceangoing ships cannot berth",
+    "augury rituals consume rare imported reagents",
+    "careening and launches confined to calm-season windows"
+  ],
+  "notes": [
+    "sentinel posts levy passage and pilotage fees on coastal traders",
+    "salt-terraces and lookouts are often co-located for economy and cover",
+    "shipwright registers adapted to rugged shore materials and quick repairs"
+  ],
+  "generated_at": "2025-09-09T04:08:40.489Z"
+}

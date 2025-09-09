@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_cdfa67d5",
+  "burg_id": 71,
+  "name": "Burg_71",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent transshipment",
+    "inn & lodging",
+    "local craftwork (boat repair)"
+  ],
+  "factions_local": [
+    "Harbormaster's Watch",
+    "Reagent Merchants' Consortium",
+    "Ancestor-Cult Keepers"
+  ],
+  "problems": [
+    "scarcity of ritual reagents",
+    "seasonal storm damage",
+    "occasional banditry/smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "mixed Coastal Tongues / Island Creole dialect",
+    "tide-offering rituals common",
+    "diet heavy on salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearances at sea"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned"
+  ],
+  "notes": [
+    "tech: near-medieval to early industrial",
+    "important minor stop for reagent shipments"
+  ],
+  "generated_at": "2025-09-09T04:36:30.255Z"
+}

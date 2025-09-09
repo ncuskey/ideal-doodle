@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7faa8b85",
+  "burg_id": 48,
+  "name": "Burg_48",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "supply-stop",
+    "ritual-workshop",
+    "local-market",
+    "craftsman-hosting"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "merchant-family",
+    "militia-captain",
+    "clergy-scribe"
+  ],
+  "problems": [
+    "scarce-ritual-reagents",
+    "banditry-on-routes",
+    "supply-delays"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
+  ],
+  "culture_notes": [
+    "mixed Coastal/Riveric dialect",
+    "ancestor-feasts structure calendar",
+    "ritualized barter etiquette"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagent",
+    "ritual-accident"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-imported-reagents"
+  ],
+  "notes": [
+    "transient population; waystation character",
+    "key node for reagent transshipment"
+  ],
+  "generated_at": "2025-09-09T04:34:56.655Z"
+}

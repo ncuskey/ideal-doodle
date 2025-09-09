@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_e1850457",
+  "burg_id": 124,
+  "name": "Burg_124",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-harvesting",
+    "ritual-labor",
+    "ship-provisioning"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritual Circle",
+    "Coastal Clan"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "ship-blessing ceremonies",
+    "salted-smoked cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing ritualist"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection magics",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "small, transient population",
+    "resupply and ritual waypoint for coastal traffic"
+  ],
+  "generated_at": "2025-09-09T04:10:41.116Z"
+}

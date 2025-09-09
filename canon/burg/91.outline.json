@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_2304db95",
+  "burg_id": 91,
+  "name": "Burg_91",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-crossing",
+    "ritual-outpost",
+    "coastal"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ferrying",
+    "ritual-reagents-trade",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbormaster's Consortium",
+    "Ritual Scribes' Lodge",
+    "Ferry Operators' Guild",
+    "Shadow-Carters (smugglers)"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "storm-surge-damage",
+    "corrupt-harbor-officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues variant spoken",
+    "diet heavy on fish and seaweed",
+    "dockside ancestor-offerings common",
+    "ritual barter accepted as currency"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "scarce-reagent-supply",
+    "missing-ferryman"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "long-range-mind-influence-rare-and-banned"
+  ],
+  "notes": [
+    "located at a shifting river mouth",
+    "seasonal isolation during monsoon",
+    "local pilots required due to shoals"
+  ],
+  "generated_at": "2025-09-09T04:37:48.957Z"
+}

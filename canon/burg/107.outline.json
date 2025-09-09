@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a3fd7e65",
+  "burg_id": 107,
+  "name": "Burg_107",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "riverine",
+    "ferry",
+    "ritual-labors"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ferrying and transport",
+    "fish-processing and smokehouses",
+    "ritual-reagent brokerage",
+    "seasonal market trade"
+  ],
+  "factions_local": [
+    "ferrymen's informal guild",
+    "reagent-collectors cooperative",
+    "ancestor-priest circle",
+    "small militia/riverwatch"
+  ],
+  "problems": [
+    "reagent scarcity and price gouging",
+    "seasonal flooding and siltation",
+    "smuggling and illicit trade"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with coastal loanwords",
+    "Boat-centric customs and tide feasts",
+    "Barter-heavy, ritualized transactions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "flood/dike failure"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial baseline with localized ritual magic",
+    "Population unknown; functions as local transport/reagent node",
+    "State affiliation unclear"
+  ],
+  "generated_at": "2025-09-09T04:09:39.086Z"
+}

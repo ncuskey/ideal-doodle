@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_8321f2b9",
+  "burg_id": 185,
+  "name": "Burg_185",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "river-haven",
+    "ritual-labor",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river-trade",
+    "reagent-transshipment",
+    "fishing"
+  ],
+  "factions_local": [
+    "Harbormasters' Guild",
+    "Reagent Consortium",
+    "Shrine-Stewards",
+    "Smugglers' Cell"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "banditry",
+    "siltation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects with Coastal loanwords",
+    "nightly river-song ritual",
+    "diet: smoked fish & fermented paste"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing-reagent",
+    "river-silt-blockage"
+  ],
+  "constraints": [
+    "rituals-require-scarce-imported-reagents",
+    "no-high-pressure-steam-megatech"
+  ],
+  "notes": [
+    "state affiliation unknown; supply links fragile",
+    "navigational auguries used but do not replace charts"
+  ],
+  "generated_at": "2025-09-09T04:14:39.320Z"
+}

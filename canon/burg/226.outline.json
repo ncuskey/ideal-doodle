@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_52554c25",
+  "burg_id": 226,
+  "name": "Burg_226",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "fishing",
+    "reagent-trading",
+    "smuggling"
+  ],
+  "factions_local": [
+    "merchant-house",
+    "ritual-circle",
+    "harbormaster",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "isolation",
+    "banditry",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "superstitious seafarers",
+    "salt-preserved cuisine",
+    "ritual craft skills"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "disappearances"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no long-range mind influence (banned)",
+    "limited combustion industry"
+  ],
+  "notes": [
+    "population unknown",
+    "state assignment pending"
+  ],
+  "generated_at": "2025-09-09T04:17:21.505Z"
+}

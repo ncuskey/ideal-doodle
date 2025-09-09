@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f521d759",
+  "burg_id": 68,
+  "name": "Burg_68",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent brokerage",
+    "pilgrim services",
+    "lightship maintenance"
+  ],
+  "factions_local": [
+    "Harbor Cant-Guild",
+    "Ancestor Shrine Circle",
+    "Reagent Merchant House",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids on coastal lanes",
+    "seasonal flooding/erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with tidal idioms",
+    "annual tidefestival pilgrimage",
+    "salt-fermented fish and seaweed staples"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "failed ritual",
+    "missing shrine-keeper"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind control; no instant resurrection"
+  ],
+  "notes": [
+    "small harbor and ritual waypoint for coastal shipping",
+    "population swells during pilgrimage season"
+  ],
+  "generated_at": "2025-09-09T04:36:21.961Z"
+}

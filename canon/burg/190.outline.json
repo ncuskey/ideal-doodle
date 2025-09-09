@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_45903455",
+  "burg_id": 190,
+  "name": "Burg_190",
+  "state_id": 0,
+  "province_id": "province_unknown",
+  "tags": [
+    "coastal",
+    "port",
+    "reagent-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent-collection",
+    "fishing",
+    "transshipment",
+    "rope-and-sail-repairs"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-contractors",
+    "sea-shaman-circle",
+    "smugglers"
+  ],
+  "problems": [
+    "scarce-imports",
+    "storm-damage",
+    "guild-rivalry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "salt-curing cuisine and dried fish",
+    "shipwright and tide-blessing customs"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "storm-omens",
+    "missing-reagents"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts and seamanship",
+    "no instant resurrection or true life-replacement magics"
+  ],
+  "notes": [
+    "population unknown; transient seafaring populace",
+    "minor resupply hub for nearby islands"
+  ],
+  "generated_at": "2025-09-09T04:15:00.532Z"
+}

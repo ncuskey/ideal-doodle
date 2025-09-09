@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7650c2d3",
+  "burg_id": 443,
+  "name": "Burg_443",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "ritual-component depot",
+    "local fishing",
+    "small-scale market"
+  ],
+  "factions_local": [
+    "Augury Relay (navigators)",
+    "Trader's Cooperative",
+    "Ancestor-Remembrance Shrine"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "coastal erosion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect with nautical slang",
+    "annual ship-bone remembrance",
+    "diet heavy on salt-preserved fish and kelp"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "disappearing augury",
+    "scarce reagents"
+  ],
+  "constraints": [
+    "no long-range mind influence allowed",
+    "rituals require imported/specialist reagents"
+  ],
+  "notes": [
+    "state and population unknown",
+    "serves as navigational/ritual relay at a minor harbor or river mouth"
+  ],
+  "generated_at": "2025-09-09T04:32:20.655Z"
+}

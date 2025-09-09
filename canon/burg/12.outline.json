@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a8fae925",
+  "burg_id": 12,
+  "name": "Burg_12",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-shrine"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "pilgrimage stop",
+    "fish-processing",
+    "salt-harvest",
+    "reagent-trade node"
+  ],
+  "factions_local": [
+    "Shrine Guild",
+    "Harbormasters",
+    "Pilgrim-vendors",
+    "Coastal boat-clans"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "seasonal storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced Coastal Tongue dialect",
+    "sea-procession ancestor rites yearly",
+    "salted-fish cuisine, ritual offerings incorporated"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "sacred-reagent theft",
+    "seafaring disappearance"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
+  ],
+  "notes": [
+    "resupply intermittent; navigational auguries supplement charts",
+    "combustion industry limited; local workshops rely on manual/mechanical tech"
+  ],
+  "generated_at": "2025-09-09T04:10:24.630Z"
+}

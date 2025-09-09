@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_95dfee35",
+  "burg_id": 473,
+  "name": "Burg_473",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-reagent trade",
+    "small-scale fishing",
+    "pilotage & fees",
+    "supply depot"
+  ],
+  "factions_local": [
+    "Reagent Merchant House",
+    "Shipwrights' Co-op",
+    "Ancestor Cult Circle",
+    "Harbormaster's Office"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "isolation & supply delays",
+    "smuggling & black market",
+    "cult/merchant tension"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole dominant; Coastal Tongues influence",
+    "tide-festival calendar; prow-shrine ancestor offerings",
+    "naval superstitions shape rites and commerce"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents; navigational auguries cannot replace charts"
+  ],
+  "notes": [
+    "tech baseline: near-medieval to early industrial",
+    "state authority weak/unknown; local factions hold sway"
+  ],
+  "generated_at": "2025-09-09T04:34:27.164Z"
+}

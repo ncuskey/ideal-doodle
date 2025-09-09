@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c86fce6f",
+  "burg_id": 234,
+  "name": "Burg_234",
+  "state_id": -1,
+  "province_id": "prov_unknown",
+  "tags": [
+    "coastal",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent transshipment",
+    "ship repairs"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-guild",
+    "itinerant merchants"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "smuggling",
+    "sporadic bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Island Creole-influenced dialect",
+    "sea-blessing festivals",
+    "diet heavy on salted/fermented fish"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but charts/skill required"
+  ],
+  "generated_at": "2025-09-09T04:17:43.863Z"
+}

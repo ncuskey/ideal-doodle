@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_da195269",
+  "burg_id": 383,
+  "name": "Burg_383",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-stop"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-service",
+    "waystation",
+    "forager-supply"
+  ],
+  "factions_local": [
+    "ritual-house",
+    "traders-syndicate",
+    "border-militia"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in speech",
+    "strong ancestor-veneration rituals",
+    "sea-supplied simple diet"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "supply-run",
+    "disappearances"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
+  ],
+  "notes": [
+    "population unknown; remote waypoint",
+    "strategic for ritual pilgrims and small-scale trade"
+  ],
+  "generated_at": "2025-09-09T04:27:56.249Z"
+}

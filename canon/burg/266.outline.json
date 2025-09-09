@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d7faedcd",
+  "burg_id": 266,
+  "name": "Burg_266",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-curing",
+    "ritual-foraging",
+    "small-scale-trade"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ancestral-priests",
+    "merchant-boatters",
+    "smugglers"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "weather-isolation",
+    "banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Island Creole trade pidgin",
+    "Daily tide-offering ritual",
+    "Preserved fish central to diet",
+    "Shipyard songs and seamanship superstitions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "haunted-shrine"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "long-range-mind-influence-banned"
+  ],
+  "notes": [
+    "Population unknown; seasonal flux",
+    "Relies on charted sea lanes and navigational auguries"
+  ],
+  "generated_at": "2025-09-09T04:19:56.266Z"
+}

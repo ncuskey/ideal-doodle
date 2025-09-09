@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_baacb8fd",
+  "burg_id": 451,
+  "name": "Burg_451",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "ritual-laboratory",
+    "subsistence-fishing",
+    "waystation-trading"
+  ],
+  "factions_local": [
+    "ritual-guild",
+    "boatmen-clan",
+    "merchant-prospectors"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "bandit-raids",
+    "supply-shortages"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect heavy with sea jargon",
+    "rituals tied to seasonal catches",
+    "barter-focused, communal kitchens"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "dwindling-ritual-reagents",
+    "missing-fishermen"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "rituals-require-scarce-imports",
+    "limited-combustion-industry"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigational-auguries supplement seamanship",
+    "long-range-mind-influence institutionally banned"
+  ],
+  "generated_at": "2025-09-09T04:32:54.023Z"
+}

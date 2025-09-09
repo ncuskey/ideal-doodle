@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3142fa63",
+  "burg_id": 340,
+  "name": "Burg_340",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "coastal-supply",
+    "ritual-reagent trade"
+  ],
+  "factions_local": [
+    "local-militia",
+    "reagent-traders' guild",
+    "tide-priesthood",
+    "smugglers"
+  ],
+  "problems": [
+    "isolation",
+    "reagent scarcity",
+    "storm damage",
+    "smuggling conflict"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salted-fish and seaweed cuisine",
+    "tide-blessing rituals",
+    "navigation superstitions; auguries respected but charts required"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing supply ship"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace charts or seamanship"
+  ],
+  "notes": [
+    "population unknown; intermittent occupancy",
+    "serves as resupply/relay point",
+    "dependent on maritime trade and imported reagents"
+  ],
+  "generated_at": "2025-09-09T04:25:20.936Z"
+}

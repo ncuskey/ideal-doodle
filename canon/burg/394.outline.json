@@ -1,0 +1,52 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f4e21685",
+  "burg_id": 394,
+  "name": "Burg_394",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "transit-hub",
+    "provisioning",
+    "ritual-reagent trade"
+  ],
+  "factions_local": [
+    "Transit Guild",
+    "Herbalists' Circle",
+    "Shrine Caretakers",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
+  ],
+  "culture_notes": [
+    "coastal-toned dialect influence",
+    "trade rituals govern bargaining",
+    "preservation-focused cuisine (salt, smoke)"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent shortage",
+    "missing navigator"
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown; clientele transient",
+    "near-medieval to early-industrial baseline with ritualized craft"
+  ],
+  "generated_at": "2025-09-09T04:28:42.884Z"
+}

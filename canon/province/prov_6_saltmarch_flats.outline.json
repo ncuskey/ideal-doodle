@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_saltmarch_flats",
+  "checksum": "fnv1a_a6c0f3be",
+  "name": "Saltmarch Flats",
+  "aliases": [
+    "Salt Marsh",
+    "The Flats",
+    "Brineflats"
+  ],
+  "tags": [
+    "coastal",
+    "wetland",
+    "saltworks",
+    "reef-reagents",
+    "provisioning"
+  ],
+  "role_in_state": "Primary salt & reagent supplier; tidal provisioning hub",
+  "economy_niches": [
+    "salt-pans and crystallization works",
+    "reef-harvested ritual reagents (resins, mineral salts, dried algal products)",
+    "tidal fisheries with curing/preservation workshops",
+    "boat provisioning, ropework and hull-smithing for small craft",
+    "seasonal salt auctions and brokers for long-distance traders"
+  ],
+  "culture_adjustments": [
+    "tide-based calendar dominates work cycles and festivals",
+    "local salt-guilds wield greater social/legal power than distant ship guilds",
+    "Coastal Tongues dialect heavy with salvage, drying and brining terminology",
+    "ritual life centered on reef-offerings and drying rites tied to harvest tides",
+    "high seasonal labor migration for harvest windows; transient settlements common"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding and storm surge",
+    "salt corrosion of infrastructure",
+    "reef depletion and reagent scarcity",
+    "smuggling and reef-piracy"
+  ],
+  "constraints": [
+    "very limited fresh water; reliant on imports",
+    "brine environment prevents heavy metallurgy and long-lived machinery",
+    "reef reagent harvests legally restricted and seasonally limited"
+  ],
+  "notes": [
+    "seasonal salt harvests drive labor flows and local markets",
+    "salt flats serve as nautical landmarks and legal markers for leases",
+    "critical node in ritual reagent supply chains for state magic practices"
+  ],
+  "generated_at": "2025-09-09T04:07:28.477Z"
+}

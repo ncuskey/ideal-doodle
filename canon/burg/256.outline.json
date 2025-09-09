@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bbbb992b",
+  "burg_id": 256,
+  "name": "Burg_256",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "timber export",
+    "ritual-lab services",
+    "small-ship repair"
+  ],
+  "factions_local": [
+    "Harbormaster",
+    "Shipwrights' Knot",
+    "Ancestor Shrine Circle",
+    "Smuggling Crew"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "storm damage",
+    "bandit raids",
+    "smuggling tensions"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "sea-ritual calendar governs fishing seasons",
+    "salt-preserved cuisine (fish, kelp)",
+    "strong ancestor-veneration funerary rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent heist",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "limited combustion industry"
+  ],
+  "notes": [
+    "access via single rocky inlet",
+    "economy seasonal and shipping-dependent"
+  ],
+  "generated_at": "2025-09-09T04:19:19.381Z"
+}

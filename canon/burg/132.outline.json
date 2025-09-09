@@ -1,0 +1,49 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_7187ab85",
+  "burg_id": 132,
+  "name": "Burg_132",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-labour",
+    "waystation"
+  ],
+  "factions_local": [
+    "harbor-guild",
+    "ritual-coven",
+    "itinerant-merchants"
+  ],
+  "problems": [
+    "piracy",
+    "reagent scarcity",
+    "seasonal storm damage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues influence in dialect",
+    "sea-ritual calendar important",
+    "salt-preserved cuisine; kin-based households"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "population unknown",
+    "accessible mainly by coastal skiff; local auguries used"
+  ],
+  "generated_at": "2025-09-09T04:11:18.562Z"
+}

@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_38966653",
+  "burg_id": 272,
+  "name": "Burg_272",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "ritual-lab/altar services",
+    "local trading post"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Priests",
+    "Smuggler Cell"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "isolation/poor overland links",
+    "periodic banditry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Riveric-influenced dialect",
+    "seafood-and-smoked-cuisine",
+    "rituals tied to imported reagents"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "missing-priest"
+  ],
+  "constraints": [
+    "no instant resurrection or true life-replacement magic",
+    "ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline with localized ritual magic",
+    "navigational auguries used but seamanship needed"
+  ],
+  "generated_at": "2025-09-09T04:20:21.252Z"
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_75a4f56f",
+  "burg_id": 229,
+  "name": "Burg_229",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-outpost"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-reagent brokerage",
+    "small-scale shiprepair",
+    "smuggling"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Local Ritual Circle",
+    "Smuggler Band",
+    "Coastal Watch"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "bandit raids",
+    "import dependency",
+    "seasonal storms"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "ancestor-shrine customs",
+    "smoked seafood specialty",
+    "seasonal boat processions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "no long-range mind-influence",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "near-medieval to early industrial tech baseline",
+    "navigation uses charts plus limited auguries",
+    "no true resurrection or life-replacement magics"
+  ],
+  "generated_at": "2025-09-09T04:17:28.760Z"
+}

@@ -1,0 +1,51 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_971a555",
+  "burg_id": 358,
+  "name": "Burg_358",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation",
+    "fishing",
+    "ritual-reagent trade"
+  ],
+  "factions_local": [
+    "Coastal Wharfmen",
+    "Reagent Syndicate",
+    "Tidewatch Clan"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "isolation",
+    "smuggling"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "diet heavy on preserved fish and kelp",
+    "regular tide-offerings and ship-blessing rites"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagents",
+    "shipwreck salvage"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion-derived industry"
+  ],
+  "notes": [
+    "state affiliation unknown",
+    "serves as a maritime waypoint and small reagent market"
+  ],
+  "generated_at": "2025-09-09T04:26:20.202Z"
+}

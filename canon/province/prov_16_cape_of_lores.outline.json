@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_cape_of_lores",
+  "checksum": "fnv1a_adfa4709",
+  "name": "Cape of Lores",
+  "aliases": [
+    "Lorescape",
+    "Cape Lores",
+    "The Promontory"
+  ],
+  "tags": [
+    "maritime",
+    "cape",
+    "ritual-hub",
+    "shipyards",
+    "saltworks",
+    "augury-market"
+  ],
+  "role_in_state": "primary headland relay for coastal trade and ritual auguries",
+  "economy_niches": [
+    "ship repair & smallcraft construction",
+    "salt pans, curing & smokehouses",
+    "fisheries, preserves & kelp harvest",
+    "ritual-augury services and reagent trade",
+    "lighthouse, pilotage & guide services"
+  ],
+  "culture_adjustments": [
+    "stronger cult of winds and wreck-lore tied to promontory features",
+    "seasonal navigation calendar centered on cape wind-leaps",
+    "promontory clans control landing strips and augury shrines (more oligarchic)",
+    "greater suspicion of inland merchants; emphasis on local maritime autonomy"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "cliff-erosion",
+    "piracy and smuggling",
+    "reagent-scarcity"
+  ],
+  "constraints": [
+    "ritual magic dependent on scarce imported reagents",
+    "combustion industry limited by tech baseline",
+    "long-range mind-influence institutionally banned"
+  ],
+  "notes": [
+    "important relay for state coastal calendars and pilot training",
+    "cape auguries enhance navigation but never replace charts or seamanship"
+  ],
+  "generated_at": "2025-09-09T04:05:27.771Z"
+}

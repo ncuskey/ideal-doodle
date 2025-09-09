@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_windward_isles",
+  "checksum": "fnv1a_cb3f66ae",
+  "name": "Windward Isles",
+  "aliases": [
+    "Windward Archipelago",
+    "Windward Isles"
+  ],
+  "tags": [
+    "island",
+    "archipelago",
+    "maritime",
+    "transshipment"
+  ],
+  "role_in_state": "offshore transshipment and augury network",
+  "economy_niches": [
+    "transshipment_and_coastal_trade",
+    "lightship_and_lighthouse_services",
+    "small-ship_building_and_repair",
+    "salt-curing_and_fish_processing",
+    "ritual-augury_station_network"
+  ],
+  "culture_adjustments": [
+    "stronger Sea-Tide vocabulary and navigational ritual per-isle",
+    "port pidgins with Island Creole substrate",
+    "harbor clans mediate apprenticeships (more kin-based than guild-based)",
+    "seasonal sea-chant cycles fixed to local wind patterns"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "coral-reef_hazards",
+    "piracy_raids",
+    "supply_embargoes"
+  ],
+  "constraints": [
+    "limited fresh water",
+    "scarce arable land",
+    "dependence_on_imported_ritual_reagents",
+    "exposed_to_wind-driven_shipping_limits"
+  ],
+  "notes": [
+    "seasonal monsoon windows control peak traffic",
+    "augury stations are strategic and reagent-hungry",
+    "important waypoint for State_3 maritime finance routes"
+  ],
+  "generated_at": "2025-09-09T04:06:10.996Z"
+}

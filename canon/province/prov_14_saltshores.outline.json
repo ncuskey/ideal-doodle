@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_saltshores",
+  "checksum": "fnv1a_cb7c7a42",
+  "name": "Saltshores",
+  "aliases": [
+    "Brinemarch",
+    "Salt Shore"
+  ],
+  "tags": [
+    "coastal",
+    "salt-production",
+    "shipbuilding",
+    "augury-hub"
+  ],
+  "role_in_state": "Primary salt supplier and coastal trade-anchor",
+  "economy_niches": [
+    "large-scale saltworks and evaporation pans",
+    "fish curing and salted-provision export",
+    "coastal shipbuilding and repair yards",
+    "paid augury services for coastal pilots",
+    "salt-financed credit for merchant caravans"
+  ],
+  "culture_adjustments": [
+    "strong ritual focus on salt as offering/component",
+    "harbour clans dominate apprenticeship and patronage",
+    "oral pilot-charts emphasized over inland record-keeping",
+    "seasonal work rhythms tied to tides and evaporation cycles"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge/coastal flooding",
+    "salt-pan fires and worker accidents",
+    "smuggling and pirate shadowing",
+    "tidal isolation of flats",
+    "labor unrest in guilded yards"
+  ],
+  "constraints": [
+    "scarce freshwater limits inland agriculture",
+    "ritual magic consumes imported reagents, raising export costs",
+    "low tides restrict large-ship access to some yards"
+  ],
+  "notes": [
+    "annual salt-harvest rites fund local augury houses",
+    "guilds control coastal leases and salt-privileges",
+    "salt tax is a major revenue stream for State_14"
+  ],
+  "generated_at": "2025-09-09T04:04:26.045Z"
+}

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_882bff55",
+  "burg_id": 150,
+  "name": "Burg_150",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation",
+    "ritual-harbor"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation provisioning",
+    "ritual-reagent trade",
+    "shipwright services"
+  ],
+  "factions_local": [
+    "harbor priesthood",
+    "merchant cutters",
+    "shipwright clan",
+    "smugglers' ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling pressure",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "sea-augury customs",
+    "salted-fish cuisine",
+    "ritualized provisioning"
+  ],
+  "quest_hook_slots": [
+    "stolen reagents",
+    "missing waypoint beacon",
+    "smuggled relics"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "population unknown",
+    "strategic navigational waypoint",
+    "limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T04:12:30.163Z"
+}

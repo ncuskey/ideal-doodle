@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_83106f9d",
+  "burg_id": 174,
+  "name": "Burg_174",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "ritual-lab",
+    "river-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "ferry crossing",
+    "boat repair",
+    "smoked-fish curing"
+  ],
+  "factions_local": [
+    "Ancestor-Remembrance shrine",
+    "ferrymen's guild",
+    "reagent merchants"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on approaches",
+    "seasonal tidal flooding"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric Dialect common; Coastal Tongues influence",
+    "tide-based festivals and ancestor offerings",
+    "diet: smoked fish, brined seaweed",
+    "local craft: small-scale ritual component work"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual contamination"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace seamanship"
+  ],
+  "notes": [
+    "tech: near-medieval to early-industrial; limited combustion",
+    "location unspecified; assumed riverside outpost",
+    "population unknown"
+  ],
+  "generated_at": "2025-09-09T04:13:50.378Z"
+}

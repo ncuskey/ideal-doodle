@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f48cc269",
+  "burg_id": 163,
+  "name": "Burg_163",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "waystation",
+    "fishing"
+  ],
+  "factions_local": [
+    "Reagent Brotherhood",
+    "Coastal Mariner's Guild",
+    "Local Militia",
+    "Smuggler Crew"
+  ],
+  "problems": [
+    "supply scarcity",
+    "bandit raids",
+    "sect rivalry"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "dockside ancestor offerings",
+    "preserved-fish cuisine",
+    "barter-focused social norms"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "ritual reagent theft"
+  ],
+  "constraints": [
+    "no instant resurrection",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and banned"
+  ],
+  "notes": [
+    "population unknown; transient traffic high",
+    "resupply irregular; hazardous approaches"
+  ],
+  "generated_at": "2025-09-09T04:13:12.360Z"
+}

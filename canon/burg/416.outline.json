@@ -1,0 +1,50 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_f04d8a6f",
+  "burg_id": 416,
+  "name": "Burg_416",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "fishing",
+    "transit waystation"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ritual House (local)",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect influence",
+    "tide-based ritual calendar",
+    "seafood-and-smoked cuisine"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "ritual disruption"
+  ],
+  "constraints": [
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace charts; long-range mind influence banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech baseline",
+    "limited combustion industry; no high-pressure megatech"
+  ],
+  "generated_at": "2025-09-09T04:30:10.630Z"
+}

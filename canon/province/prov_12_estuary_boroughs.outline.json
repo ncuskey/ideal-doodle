@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_estuary_boroughs",
+  "checksum": "fnv1a_b5a8662d",
+  "name": "Estuary Boroughs",
+  "aliases": [
+    "Estuary Burghs",
+    "Mouthboroughs"
+  ],
+  "tags": [
+    "coastal",
+    "estuary",
+    "harbor",
+    "shipbuilding",
+    "saltworks"
+  ],
+  "role_in_state": "Maritime trade, transshipment and navigational-augury hub",
+  "economy_niches": [
+    "river-mouth fisheries and brackish aquaculture",
+    "small- to medium-vessel shipbuilding and repair",
+    "saltworks and salt-curing workshops",
+    "transshipment, chandlery and market-slips",
+    "paid navigational-augury services for coastal voyagers"
+  ],
+  "culture_adjustments": [
+    "Stronger clan control of slips and harbor rights than hinterland",
+    "Blends Coastal Tongues with Riveric Dialect loan-forms in trade argot",
+    "Higher ritualization of tide-watching and channel-charms",
+    "Seasonal migrant labor increases multicultural temporary settlements",
+    "Practical tolerance for salvage and informal privateering"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain and storm-surge",
+    "siltation and shifting channels",
+    "salt-intrusion to farms",
+    "smuggling and low-level piracy"
+  ],
+  "constraints": [
+    "Tidal channels limit vessel size and heavy industry",
+    "Ritual-augury services consume scarce imported reagents",
+    "Seasonal (monsoonal) labor cycles constrain year-round production"
+  ],
+  "notes": [
+    "Constant dredging and channel-charms required; guilds control dredge-licenses",
+    "Harbor law enforced by borough courts and clan arbitrators",
+    "Saltworks and curers concentrate downwind; strong odor zones near estuary mouth"
+  ],
+  "generated_at": "2025-09-09T04:03:27.159Z"
+}

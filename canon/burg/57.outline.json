@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a2bb4895",
+  "burg_id": 57,
+  "name": "Burg_57",
+  "province_id": "",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-magic"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "small-scale fishing",
+    "reagent trading",
+    "boat repair",
+    "waypoint provisioning"
+  ],
+  "factions_local": [
+    "harbor guild",
+    "tide-priest circle",
+    "scavenger crews",
+    "merchant brokers"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "tidal flooding",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues + Island Creole mix",
+    "seafood-heavy cuisine",
+    "tide and augury taboos",
+    "oral charting traditions"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipments",
+    "tide-shrine desecration"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "long-range mind influence banned",
+    "navigational auguries limited"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech with ritual magic requiring imported reagents",
+    "rocky inlet port serving local island routes",
+    "acts as minor waypoint rather than major trade hub"
+  ],
+  "generated_at": "2025-09-09T04:35:29.673Z",
+  "state_id": 0
+}

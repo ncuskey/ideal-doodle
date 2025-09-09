@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_glassmarsh",
+  "checksum": "fnv1a_af72fb11",
+  "name": "Glassmarsh",
+  "aliases": [
+    "The Glass Marsh",
+    "Shimmerfen"
+  ],
+  "tags": [
+    "marsh",
+    "glassworks",
+    "estuary",
+    "salt-works",
+    "ritual-supplies"
+  ],
+  "role_in_state": "specialized supplier of ritual materials and coastal craft fittings",
+  "economy_niches": [
+    "alkali-glass production (sea-sand + kelp ash)",
+    "harvested reed & peat for ritual wicks/fuel",
+    "salt pans and tidal salt extraction",
+    "processing of shoreline detritus for augury components",
+    "maintenance/repair services for small coastal craft"
+  ],
+  "culture_adjustments": [
+    "Coastal Tongues dialect heavy in mirror/glass metaphors",
+    "guild secrecy: kiln masters control trade and apprenticeships",
+    "seasonal 'mirror-tide' customs tied to glassmaking cycles",
+    "practical fatalism toward tidal loss; emphasis on salvage rights"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salt-corrosion infrastructure decay",
+    "kiln-accidents and glass-dust health hazards",
+    "seasonal navigational fog and grounding"
+  ],
+  "constraints": [
+    "scarce inland timber for kiln fuel",
+    "ritual reagents costly and often imported",
+    "no high-pressure steam tech for industrial kilns"
+  ],
+  "notes": [
+    "kiln-masters form quasi-guild clergy for augury-related production",
+    "glass fragments commonly used as votive offerings and divinatory tools"
+  ],
+  "generated_at": "2025-09-09T04:06:09.000Z"
+}

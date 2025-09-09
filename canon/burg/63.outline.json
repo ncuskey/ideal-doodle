@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5dc3c825",
+  "burg_id": 63,
+  "name": "Burg_63",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "reagent-trade"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent supply depot",
+    "small-scale fishing",
+    "waystation/relay",
+    "coastal repair yard"
+  ],
+  "factions_local": [
+    "harbormaster's guild",
+    "sea-shrine caretakers",
+    "merchant syndicate",
+    "smuggling crew"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry on supply routes",
+    "corruption among officials"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect dominant",
+    "ritual-heavy seafaring customs",
+    "diet: salted fish and seaweed"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "missing reagent shipment",
+    "sea-spirit unrest"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magic",
+    "Ritual magic consumes scarce imported reagents",
+    "Limited combustion industry; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Population unknown; likely transient",
+    "Serves as minor hub for reagent transshipment and small repairs"
+  ],
+  "generated_at": "2025-09-09T04:36:02.106Z"
+}

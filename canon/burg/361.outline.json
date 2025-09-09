@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_a81bd769",
+  "burg_id": 361,
+  "name": "Burg_361",
+  "province_id": "unknown",
+  "tags": [
+    "river-estuary",
+    "waystation",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing & salting",
+    "transshipment/waystation",
+    "ritual-reagent trade",
+    "boatbuilding & repair"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Reagent Traders' Consortium",
+    "Ancestor Circle (local cult)",
+    "Coastal Smuggling Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling & black-market influence",
+    "tidal erosion/shoreline loss"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "mixed Riveric- Coastal Tongue dialect with Island Creole loanwords",
+    "communal ancestor feast each high tide",
+    "diet centered on salted fish, seaweed, smoked shellfish",
+    "local artisan tradition in small craft boatbuilding"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "strange tidal omens"
+  ],
+  "constraints": [
+    "ritual magic consumes scarce imported reagents",
+    "no resurrection/true life-replacement magics",
+    "navigational auguries limited; charts & seamanship required"
+  ],
+  "notes": [
+    "small population; strategic minor waystation at river mouth",
+    "guild controls most reagent imports — leverage point for plots"
+  ],
+  "generated_at": "2025-09-09T04:26:35.881Z",
+  "state_id": 0
+}

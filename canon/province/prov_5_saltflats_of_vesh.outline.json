@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_saltflats_of_vesh",
+  "checksum": "fnv1a_5db8d00b",
+  "name": "Saltflats of Vesh",
+  "aliases": [
+    "Vesh Flats",
+    "Vesh Salterns"
+  ],
+  "tags": [
+    "salt-production",
+    "coastal-marsh",
+    "reagent-harvest",
+    "seasonal-fisheries"
+  ],
+  "role_in_state": "Primary salt and ritual-reagent supplier",
+  "economy_niches": [
+    "evaporation saltworks and bulk salt export",
+    "fish-salting and preserved-provision production",
+    "harvest of sea-sourced ritual reagents (brine lichens, salt-alkali crystals)",
+    "salt caravan logistics and coastal transshipment",
+    "seasonal shallow-water fisheries and bait trade"
+  ],
+  "culture_adjustments": [
+    "diet and craft oriented around salt preservation and salty cuisines",
+    "strong local etiquette about tidal timing and saltern access",
+    "sea-ballads emphasize labor rhythms and harvest rites over long-distance navigation",
+    "clan port-guild influence reduced; mobile salter households dominate",
+    "rituals center on extraction ethics and saline ancestor rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "salt-flooding and tidal inundation",
+    "saline soil degradation and loss of arable land",
+    "banditry on salt caravans",
+    "scarcity and theft of ritual reagents",
+    "seasonal supply bottlenecks"
+  ],
+  "constraints": [
+    "very limited freshwater resources",
+    "heavy reliance on imported bulky trade goods for ritual industries",
+    "substrate instability limits heavy industry and deep docks",
+    "ritual auguries less reliable amid mirage-like flats"
+  ],
+  "notes": [
+    "critical to state provisioning and to maritime fleets' preserves",
+    "harvests are seasonal; legal sea-law governs saltern shares",
+    "specialized salter labor class with customary rights and tariffs"
+  ],
+  "generated_at": "2025-09-09T04:06:59.537Z"
+}

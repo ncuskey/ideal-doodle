@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_reef_archipelago",
+  "checksum": "fnv1a_2d7d462f",
+  "name": "Reef Archipelago",
+  "aliases": [
+    "Reeflands",
+    "Archipelago of Reefs"
+  ],
+  "tags": [
+    "coastal",
+    "archipelago",
+    "salt-production",
+    "shipbuilding",
+    "reef-navigation"
+  ],
+  "role_in_state": "Sheltered maritime trade node and specialist shipbuilding/salt-processing fringe",
+  "economy_niches": [
+    "small-ship & coastal hull construction",
+    "salt pans and fish curing",
+    "reef-harvested ritual reagents (seaweeds, shells)",
+    "pilotage & chart updating services",
+    "estuary produce and smuggling-brokerage"
+  ],
+  "culture_adjustments": [
+    "Kinship networks oriented across islets rather than big-house guilds",
+    "Stronger local reef-lore and tide-rituals supplementing Coastal Tongues norms",
+    "Practical piloting and chart-keeping prized over formal apprenticeship certificates",
+    "More barter and in-kind obligation chains; fewer centralized merchant houses"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef navigation hazards",
+    "tropical storms/typhoons",
+    "isolation during supply cutoffs",
+    "coastal raiding/piracy",
+    "coral-disease impacting fisheries"
+  ],
+  "constraints": [
+    "scarce fresh water and arable land",
+    "limited heavy-industry capacity (reef geology)",
+    "high dependency on imported ritual reagents"
+  ],
+  "notes": [
+    "Navigational auguries widely used but cannot replace local charts/pilots",
+    "Specialist hull designs optimized for shallow reefs",
+    "Salt pans and cured-fish exports underpin seasonal cash flows"
+  ],
+  "generated_at": "2025-09-09T04:08:17.967Z"
+}

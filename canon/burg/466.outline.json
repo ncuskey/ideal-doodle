@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_5000ded9",
+  "burg_id": 466,
+  "name": "Burg_466",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "waystation/coastal trade",
+    "ritual-reagent brokerage",
+    "small-ship repair"
+  ],
+  "factions_local": [
+    "harbormasters' guild",
+    "ritual-supplier house",
+    "smuggler ring",
+    "coastal militia"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling and black market",
+    "storm damage to docks",
+    "tax skimming/corruption"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dominant with Island Creole loanwords",
+    "public sea-offerings and tide rituals",
+    "diet: smoked fish, seaweed, tuber porridges",
+    "extended-kin household norms"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "stolen ritual reagents",
+    "disappearing fishermen"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts/seamanship"
+  ],
+  "notes": [
+    "near-medieval to early-industrial tech with local ritual labs",
+    "small dock, single market street, sheltered cove",
+    "strategic waypoint for coastal traders"
+  ],
+  "generated_at": "2025-09-09T04:33:59.100Z"
+}

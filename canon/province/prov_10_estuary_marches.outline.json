@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_estuary_marches",
+  "checksum": "fnv1a_e371f901",
+  "name": "Estuary Marches",
+  "aliases": [
+    "Marches of the Estuary",
+    "Salt-Marches"
+  ],
+  "tags": [
+    "marsh",
+    "estuaries",
+    "pilotage",
+    "saltworks"
+  ],
+  "role_in_state": "Buffer and pilotage hub supplying salt, reeds, and navigation services",
+  "economy_niches": [
+    "pilotage & estuary navigation services",
+    "saltworks & fish-salting",
+    "reedcraft & small-boat construction",
+    "tidal fisheries (eels, shellfish) & smokehouses",
+    "guild-linked augury/guide services"
+  ],
+  "culture_adjustments": [
+    "tide-focused rituals replace some inland seasonal festivals",
+    "apprenticeship emphasizes hands-on pilot tests over formal guild rites",
+    "sea-naming and oral channel lore dominate local toponymy",
+    "higher social prestige for pilots, skiff-crews, and augury-teams",
+    "kinship-led crews and informal compacts weaken centralized guild control"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "saltwater intrusion",
+    "marsh-borne disease",
+    "smuggling & piracy"
+  ],
+  "constraints": [
+    "seasonal overland access; boat-dependent logistics",
+    "saline soils restrict cereal agriculture",
+    "ritual-augury depends on scarce imported reagents and trained crews"
+  ],
+  "notes": [
+    "shifting channels force frequent pilot-chart revisions",
+    "saltworks and reed harvesting create tensions with inland estates",
+    "primary source of estuary charts and pilots for State_10 fleets"
+  ],
+  "generated_at": "2025-09-09T04:02:45.513Z"
+}

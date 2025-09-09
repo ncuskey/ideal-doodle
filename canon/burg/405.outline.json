@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1fe4353",
+  "burg_id": 405,
+  "name": "Burg_405",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "reagent-transit",
+    "resupply-stop"
+  ],
+  "factions_local": [
+    "harbormasters",
+    "ritual-craft-guild",
+    "smuggler-ring"
+  ],
+  "problems": [
+    "scarce-reagents",
+    "banditry",
+    "supply-insecurity"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "seafood-forward cuisine",
+    "small-boat seamanship traditions",
+    "ritual tokens for trade"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-theft",
+    "disappearances"
+  ],
+  "constraints": [
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-imports"
+  ],
+  "notes": [
+    "population seasonal and undocumented",
+    "serves as resupply point for coastal voyaging"
+  ],
+  "generated_at": "2025-09-09T04:29:26.438Z"
+}

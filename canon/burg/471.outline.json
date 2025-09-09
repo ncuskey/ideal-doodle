@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_d3d4f775",
+  "burg_id": 471,
+  "name": "Burg_471",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-node"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "salt-processing",
+    "ritual-labor",
+    "transshipment"
+  ],
+  "factions_local": [
+    "Harbormaster's Guild",
+    "Ancestor-Seers",
+    "Smugglers' Cell",
+    "Visiting Merchants"
+  ],
+  "problems": [
+    "scarce-imports",
+    "banditry",
+    "reagent-shortage",
+    "silted-anchorage"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Coastal Tongues with Riveric loanwords",
+    "tide-based festivals tied to ritual calendar",
+    "diet heavy on salted and smoked seafood",
+    "ancestral tattoos mark family roles"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-supply",
+    "missing-fisher"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and banned"
+  ],
+  "notes": [
+    "near-medieval to early-industrial baseline",
+    "navigational auguries exist but do not replace seamanship"
+  ],
+  "generated_at": "2025-09-09T04:34:20.406Z"
+}

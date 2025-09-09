@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1b6f5ae7",
+  "burg_id": 425,
+  "name": "Burg_425",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "waystation"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "waystation-trade",
+    "small-scale-fishing",
+    "ritual-reagent-staging"
+  ],
+  "factions_local": [
+    "harbormaster-clique",
+    "ritual-syndicate",
+    "militia-captains"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "smuggler-led-banditry",
+    "authority-disputes"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues-influenced dialect",
+    "meal focus on salted/fried fish and preserved seaweed",
+    "customs blend maritime rites with ancestor offerings"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent-shortage",
+    "vanishing-ships"
+  ],
+  "constraints": [
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries limited; seamanship still required"
+  ],
+  "notes": [
+    "low/population and strategic waypoint on minor trade route",
+    "economy vulnerable to interrupted reagent imports"
+  ],
+  "generated_at": "2025-09-09T04:30:50.917Z"
+}

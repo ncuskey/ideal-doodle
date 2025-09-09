@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_northern_headlands",
+  "checksum": "fnv1a_cd4b27be",
+  "name": "Northern Headlands",
+  "aliases": [
+    "Headlands",
+    "North Points"
+  ],
+  "tags": [
+    "coastal",
+    "headland",
+    "pilotage",
+    "saltworks",
+    "small-shipyards"
+  ],
+  "role_in_state": "Coastal pilotage and convoy waystation",
+  "economy_niches": [
+    "ship repair & localized small-shipbuilding",
+    "salt pans and fish-curing",
+    "estuary produce (seaweed, shellfish, reed-fodder)",
+    "pilotage, towage and beacon services",
+    "transshipment of imported ritual reagents; small ritual workshops"
+  ],
+  "culture_adjustments": [
+    "more insular and wary of inland merchants",
+    "heightened professional status for pilots and reef-navigators",
+    "families often led by captain-matriarchs or kin-networks broken by sea loss",
+    "local rites focus on cliff-saints, beacons and wreck-memorials",
+    "conservative Coastal Tongues vocabulary for currents and charts"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-driven cliff erosion",
+    "shipwreck hotspots",
+    "smuggling and wreck-pilfering",
+    "seasonal freshwater scarcity"
+  ],
+  "constraints": [
+    "limited arable land",
+    "scarce potable water",
+    "ritual reagent imports subject to coastal tariffs and inspection"
+  ],
+  "notes": [
+    "navigational auguries supplement but do not replace local piloting",
+    "no large sheltered harbors — limits heavy ship construction",
+    "fortified beacons serve as community, religious and signaling hubs"
+  ],
+  "generated_at": "2025-09-09T04:08:05.841Z"
+}

@@ -1,0 +1,53 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_bfa05a35",
+  "burg_id": 367,
+  "name": "Burg_367",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "fishing",
+    "ritual-lab supplier",
+    "waystation",
+    "small-scale trade"
+  ],
+  "factions_local": [
+    "Harbor Guild",
+    "Ancestor Shrine Circle",
+    "Moon-Tide Animists",
+    "Smugglers' Ring"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "banditry",
+    "supply isolation"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect",
+    "salt-curing cuisine",
+    "ritual-component barter economy"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "disappearing fishermen"
+  ],
+  "constraints": [
+    "No instant resurrection",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence banned"
+  ],
+  "notes": [
+    "near coast; vulnerable to seasonal storms",
+    "limited charts; reliant on local pilots"
+  ],
+  "generated_at": "2025-09-09T04:26:57.342Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_lower_marshes",
+  "checksum": "fnv1a_b61bc72",
+  "name": "Lower Marshes",
+  "aliases": [
+    "Lower Marshes"
+  ],
+  "tags": [
+    "wetland",
+    "delta",
+    "saltworks",
+    "riverine"
+  ],
+  "role_in_state": "salt & reagent frontier; riverine transshipment choke-point",
+  "economy_niches": [
+    "salt-harvest and crystallization",
+    "marsh-skiff building and repair",
+    "reagent harvesting (peat, algal resins, reed oils)",
+    "transshipment, tolls and lighterage for river traffic",
+    "smoke-curing and brining of lowland grain"
+  ],
+  "culture_adjustments": [
+    "riveric dialect heavy with nautical idioms and tide-terms",
+    "clan waterfront leases stronger than inland kin networks",
+    "seasonal migratory hamlets on islets; fewer permanent burgs",
+    "rituals emphasize tide-timed crossings and ancestor-guide markers"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation",
+    "saltwater intrusion and salinization",
+    "marsh-borne disease",
+    "brigand skiffing on backchannels"
+  ],
+  "constraints": [
+    "seasonal roads impassible; reliance on waterways",
+    "peat soils unsuitable for heavy construction",
+    "ritual reagents are scarce, imported and state-taxed"
+  ],
+  "notes": [
+    "no major burgs; economy organized around clan-owned landing leases",
+    "important node for brokerage of reagent consignments to inland states",
+    "navigational auguries used but seamanship remains essential"
+  ],
+  "generated_at": "2025-09-09T04:39:27.426Z"
+}

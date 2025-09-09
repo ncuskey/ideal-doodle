@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_c4874939",
+  "burg_id": 220,
+  "name": "Burg_220",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [
+    "outpost",
+    "ritual-labour-hub",
+    "river-crossing"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "reagent trade",
+    "waystation/boat repair",
+    "salted-fish processing",
+    "small-scale craftwork"
+  ],
+  "factions_local": [
+    "harbormaster's office",
+    "ritual-labor syndicate",
+    "coastal militia",
+    "smuggling crew"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "banditry along supply routes",
+    "corrupt permit extortion"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues base with Riveric trade pidgin",
+    "Ship-blessing and tide-offering rituals frequent",
+    "Diet heavy on salt-preserved fish and seaweed",
+    "Guild-run work hierarchy governs day labor"
+  ],
+  "quest_hook_slots": [
+    "smuggling",
+    "reagent theft",
+    "missing crew"
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents"
+  ],
+  "notes": [
+    "Near-medieval to early-industrial baseline with ritual magic",
+    "Strategic waypoint for coastal and river traffic"
+  ],
+  "generated_at": "2025-09-09T04:16:53.481Z"
+}

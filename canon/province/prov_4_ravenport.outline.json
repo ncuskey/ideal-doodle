@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_ravenport",
+  "checksum": "fnv1a_4d74d819",
+  "name": "Ravenport",
+  "aliases": [
+    "Raven Port",
+    "Ravenport Quay"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "saltworks",
+    "transshipment",
+    "fishing",
+    "guild-hub"
+  ],
+  "role_in_state": "Major transshipment port and shipyard",
+  "economy_niches": [
+    "shipbuilding and repair",
+    "salt production and export",
+    "transshipment and warehousing",
+    "preserved/salted fish industry",
+    "market for imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "Guilds control civic offices more strongly than in other provinces",
+    "Port-dialect heavy in nautical loanwords and cant",
+    "Augury rituals used operationally for schedules and convoys",
+    "Kinship organized by ship affiliation rather than household"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "piracy and smuggling",
+    "salt-marsh fires",
+    "guild strikes",
+    "reagent theft"
+  ],
+  "constraints": [
+    "Limited arable hinterland—dependence on imports",
+    "Ritual magic consumes scarce imported reagents",
+    "Port layout constrained by tidal range and shoals"
+  ],
+  "notes": [
+    "Navigational augury houses sited beside main quays",
+    "Maritime courts handle most commercial disputes",
+    "Saltworks are state-regulated and tax-important"
+  ],
+  "generated_at": "2025-09-09T04:06:29.564Z"
+}
