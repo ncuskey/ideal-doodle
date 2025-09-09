@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoreGen Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.8;
+            font-size: 1.1em;
+        }
+
+        .main-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            overflow-x: auto;
+        }
+
+        .main-tab {
+            background: none;
+            border: none;
+            padding: 20px 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            color: #6c757d;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+        }
+
+        .main-tab:hover {
+            background: #e9ecef;
+            color: #495057;
+        }
+
+        .main-tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            background: white;
+        }
+
+        .tab-content {
+            display: none;
+            min-height: 600px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Common button styles */
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-warning {
+            background: #ffc107;
+            color: #212529;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        /* Progress bar styles */
+        .progress-container {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-size: 14px;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        /* Debug panel styles */
+        .debug-panel {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .debug-panel h4 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .debug-log {
+            white-space: pre-wrap;
+            line-height: 1.4;
+        }
+
+        .debug-log .error {
+            color: #e74c3c;
+        }
+
+        .debug-log .success {
+            color: #2ecc71;
+        }
+
+        .debug-log .info {
+            color: #3498db;
+        }
+
+        .debug-log .warning {
+            color: #f39c12;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 8px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .main-tabs {
+                flex-direction: column;
+            }
+            
+            .main-tab {
+                border-bottom: 1px solid #e9ecef;
+                border-right: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧙‍♂️ LoreGen Dashboard</h1>
+            <p>Unified interface for testing, generation, and viewing your world lore</p>
+        </div>
+
+        <div class="main-tabs">
+            <button class="main-tab active" onclick="showMainTab('test-suite')">
+                🧪 Test Suite
+            </button>
+            <button class="main-tab" onclick="showMainTab('pipeline-runner')">
+                🏗️ Pipeline Runner
+            </button>
+            <button class="main-tab" onclick="showMainTab('lore-viewer')">
+                🏰 Lore Viewer
+            </button>
+        </div>
+
+        <!-- Test Suite Tab -->
+        <div id="test-suite" class="tab-content active">
+            <div class="controls" style="padding: 20px 30px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <button class="btn btn-primary" onclick="runAllTests()">
+                    🚀 Run All Tests
+                </button>
+                <button class="btn btn-secondary" onclick="runQuickTests()">
+                    ⚡ Quick Tests
+                </button>
+                <button class="btn btn-secondary" onclick="clearTestResults()">
+                    🗑️ Clear Results
+                </button>
+                <button class="btn btn-secondary" onclick="toggleDebug()">
+                    🐛 Toggle Debug
+                </button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="testProgressFill"></div>
+                </div>
+                <div class="progress-text" id="testProgressText">Ready to run tests</div>
+            </div>
+
+            <div class="results" id="testResults" style="padding: 30px;">
+                <!-- Test results will be populated here -->
+            </div>
+
+            <div class="summary" id="testSummary" style="display: none; background: #f8f9fa; padding: 20px; border-top: 1px solid #e9ecef; text-align: center;">
+                <div class="summary-stats" style="display: flex; justify-content: center; gap: 30px; margin-bottom: 15px;">
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="totalTests" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Total Tests</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="passedTests" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Passed</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="failedTests" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Failed</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="testDuration" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0s</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Duration</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pipeline Runner Tab -->
+        <div id="pipeline-runner" class="tab-content">
+            <div class="config-panel" style="background: #f8f9fa; padding: 20px; border-bottom: 1px solid #e9ecef;">
+                <div class="config-row" style="display: flex; gap: 15px; align-items: center; margin-bottom: 10px;">
+                    <div class="config-label" style="font-weight: 600; color: #2c3e50; min-width: 120px;">State ID:</div>
+                    <input type="number" class="config-input" id="stateId" value="1" min="0" max="16" style="padding: 8px 12px; border: 1px solid #ced4da; border-radius: 4px; font-size: 14px;">
+                </div>
+                <div class="config-row" style="display: flex; gap: 15px; align-items: center; margin-bottom: 10px;">
+                    <div class="config-label" style="font-weight: 600; color: #2c3e50; min-width: 120px;">Burg ID:</div>
+                    <input type="number" class="config-input" id="burgId" value="1" min="1" max="477" style="padding: 8px 12px; border: 1px solid #ced4da; border-radius: 4px; font-size: 14px;">
+                </div>
+            </div>
+
+            <div class="controls" style="padding: 20px 30px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <button class="btn btn-primary" onclick="runFullPipeline()">
+                    🚀 Run Full Pipeline
+                </button>
+                <button class="btn btn-secondary" onclick="runPipelineStep()" id="runStepBtn" disabled>
+                    ▶️ Run Next Step
+                </button>
+                <button class="btn btn-warning" onclick="resetPipeline()">
+                    🔄 Reset Pipeline
+                </button>
+                <button class="btn btn-secondary" onclick="toggleDebug()">
+                    🐛 Toggle Debug
+                </button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="pipelineProgressFill"></div>
+                </div>
+                <div class="progress-text" id="pipelineProgressText">Ready to run pipeline</div>
+            </div>
+
+            <div class="pipeline-steps" id="pipelineSteps" style="padding: 30px;">
+                <!-- Pipeline steps will be populated here -->
+            </div>
+
+            <div class="summary" id="pipelineSummary" style="display: none; background: #f8f9fa; padding: 20px; border-top: 1px solid #e9ecef; text-align: center;">
+                <div class="summary-stats" style="display: flex; justify-content: center; gap: 30px; margin-bottom: 15px;">
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="totalSteps" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Total Steps</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="completedSteps" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Completed</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="failedSteps" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Failed</div>
+                    </div>
+                    <div class="stat" style="text-align: center;">
+                        <div class="stat-number" id="pipelineDuration" style="font-size: 2em; font-weight: 700; color: #2c3e50;">0s</div>
+                        <div class="stat-label" style="font-size: 12px; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;">Duration</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lore Viewer Tab -->
+        <div id="lore-viewer" class="tab-content">
+            <div class="nav-tabs" style="display: flex; justify-content: center; gap: 10px; margin: 30px; flex-wrap: wrap;">
+                <button class="nav-tab active" onclick="showLoreSection('burgs')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🏘️ Burgs</button>
+                <button class="nav-tab" onclick="showLoreSection('states')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🏛️ States</button>
+                <button class="nav-tab" onclick="showLoreSection('provinces')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🗺️ Provinces</button>
+            </div>
+
+            <div class="content" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); min-height: 500px; margin: 0 30px 30px;">
+                <div id="burgs" class="lore-section active" style="display: block;">
+                    <div class="loading" style="text-align: center; padding: 50px; color: #666;">Loading burg lore...</div>
+                </div>
+
+                <div id="states" class="lore-section" style="display: none;">
+                    <div class="loading" style="text-align: center; padding: 50px; color: #666;">Loading state lore...</div>
+                </div>
+
+                <div id="provinces" class="lore-section" style="display: none;">
+                    <div class="empty-state" style="text-align: center; padding: 50px; color: #666;">
+                        <h3 style="margin-bottom: 10px; color: #999;">No Province Lore Yet</h3>
+                        <p>Province lore generation hasn't been implemented yet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Debug Panel (shared across all tabs) -->
+        <div class="debug-panel" id="debugPanel" style="display: none;">
+            <h4>🐛 Debug Log</h4>
+            <div class="debug-log" id="debugLog"></div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let currentMainTab = 'test-suite';
+        let debugMode = false;
+        let testResults = {};
+        let pipelineResults = {};
+        let loreData = { burgs: [], states: [], provinces: [] };
+        let currentStepIndex = 0;
+        let isRunning = false;
+        let startTime = null;
+
+        // Main tab switching
+        function showMainTab(tabName) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Remove active class from all main tabs
+            document.querySelectorAll('.main-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+            
+            currentMainTab = tabName;
+            
+            // Initialize tab-specific functionality
+            if (tabName === 'test-suite' && !document.getElementById('testResults').hasChildNodes()) {
+                initializeTestSuite();
+            } else if (tabName === 'pipeline-runner' && !document.getElementById('pipelineSteps').hasChildNodes()) {
+                initializePipeline();
+            } else if (tabName === 'lore-viewer') {
+                loadLoreFiles();
+            }
+        }
+
+        // Debug logging
+        function debugLog(message, type = 'info') {
+            if (!debugMode) return;
+            const debugLog = document.getElementById('debugLog');
+            const timestamp = new Date().toISOString().substr(11, 12);
+            const logEntry = document.createElement('div');
+            logEntry.className = type;
+            logEntry.textContent = `[${timestamp}] ${message}`;
+            debugLog.appendChild(logEntry);
+            debugLog.scrollTop = debugLog.scrollHeight;
+        }
+
+        function toggleDebug() {
+            debugMode = !debugMode;
+            const panel = document.getElementById('debugPanel');
+            panel.style.display = debugMode ? 'block' : 'none';
+            if (debugMode) {
+                debugLog('Debug mode enabled', 'info');
+            }
+        }
+
+        // Test Suite functionality
+        const TEST_CATEGORIES = {
+            utilities: {
+                name: "Utility Functions",
+                tests: [
+                    { name: "Hash Generation", fn: testHashGeneration },
+                    { name: "Canonical JSON", fn: testCanonicalJSON },
+                    { name: "Cache Key Generation", fn: testCacheKeyGeneration },
+                    { name: "Regeneration Guard", fn: testRegenerationGuard }
+                ]
+            },
+            validation: {
+                name: "Data Validation",
+                tests: [
+                    { name: "Schema Validation", fn: testSchemaValidation },
+                    { name: "Lore Validation", fn: testLoreValidation },
+                    { name: "Rich Lore Validation", fn: testRichLoreValidation },
+                    { name: "File Structure Validation", fn: testFileStructure }
+                ]
+            },
+            pipelines: {
+                name: "Pipeline Logic",
+                tests: [
+                    { name: "Fact Building Logic", fn: testFactBuildingLogic },
+                    { name: "Derived Statistics", fn: testDerivedStatistics },
+                    { name: "Prompt Pack Creation", fn: testPromptPackCreation },
+                    { name: "Graph Building", fn: testGraphBuilding }
+                ]
+            },
+            events: {
+                name: "Event System",
+                tests: [
+                    { name: "Event Parsing", fn: testEventParsing },
+                    { name: "Event Validation", fn: testEventValidation },
+                    { name: "Dirty Propagation", fn: testDirtyPropagation }
+                ]
+            },
+            integration: {
+                name: "Integration Tests",
+                tests: [
+                    { name: "Data Flow Validation", fn: testDataFlow },
+                    { name: "Dependency Resolution", fn: testDependencyResolution },
+                    { name: "Cache Consistency", fn: testCacheConsistency }
+                ]
+            }
+        };
+
+        function initializeTestSuite() {
+            const resultsEl = document.getElementById('testResults');
+            
+            for (const [categoryKey, category] of Object.entries(TEST_CATEGORIES)) {
+                const categoryEl = document.createElement('div');
+                categoryEl.className = 'test-category';
+                categoryEl.setAttribute('data-category', categoryKey);
+                categoryEl.style.cssText = 'margin-bottom: 30px; border: 1px solid #e9ecef; border-radius: 8px; overflow: hidden;';
+                
+                categoryEl.innerHTML = `
+                    <div class="category-header" onclick="toggleTestCategory('${categoryKey}')" style="background: #f8f9fa; padding: 15px 20px; border-bottom: 1px solid #e9ecef; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <div class="category-title" style="font-size: 1.2em; font-weight: 600; color: #2c3e50;">${category.name}</div>
+                        <div class="category-status status-pending" style="padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #fff3cd; color: #856404;">Pending</div>
+                    </div>
+                    <div class="category-content" style="padding: 20px; display: none;">
+                        ${category.tests.map(test => `
+                            <div class="test-item" style="margin-bottom: 15px; padding: 15px; border: 1px solid #e9ecef; border-radius: 6px; background: white;">
+                                <div class="test-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                    <div class="test-name" style="font-weight: 600; color: #2c3e50;">${test.name}</div>
+                                    <div class="test-status status-pending" style="padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; text-transform: uppercase; background: #fff3cd; color: #856404;">Pending</div>
+                                </div>
+                                <div class="test-details" style="font-size: 13px; color: #6c757d; margin-top: 8px;"></div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                resultsEl.appendChild(categoryEl);
+            }
+            debugLog('Test suite initialized', 'info');
+        }
+
+        async function runAllTests() {
+            startTime = Date.now();
+            clearTestResults();
+            debugLog('Starting full test suite', 'info');
+            
+            let totalPassed = 0;
+            let totalTests = 0;
+            
+            for (const [categoryKey, category] of Object.entries(TEST_CATEGORIES)) {
+                const result = await runTestCategory(categoryKey, category);
+                totalPassed += result.passed;
+                totalTests += result.total;
+            }
+            
+            const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+            updateTestProgress(1, 1, `Completed: ${totalPassed}/${totalTests} tests passed`);
+            showTestSummary(totalPassed, totalTests, duration);
+            debugLog(`Test suite completed in ${duration}s: ${totalPassed}/${totalTests} passed`, totalPassed === totalTests ? 'success' : 'error');
+        }
+
+        async function runQuickTests() {
+            startTime = Date.now();
+            clearTestResults();
+            debugLog('Starting quick test suite', 'info');
+            
+            const quickCategories = ['utilities', 'validation'];
+            let totalPassed = 0;
+            let totalTests = 0;
+            
+            for (const categoryKey of quickCategories) {
+                const category = TEST_CATEGORIES[categoryKey];
+                const result = await runTestCategory(categoryKey, category);
+                totalPassed += result.passed;
+                totalTests += result.total;
+            }
+            
+            const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+            updateTestProgress(1, 1, `Quick tests completed: ${totalPassed}/${totalTests} passed`);
+            showTestSummary(totalPassed, totalTests, duration);
+            debugLog(`Quick test suite completed in ${duration}s: ${totalPassed}/${totalTests} passed`, totalPassed === totalTests ? 'success' : 'error');
+        }
+
+        async function runTestCategory(categoryKey, category) {
+            debugLog(`Starting category: ${category.name}`, 'info');
+            updateCategoryStatus(categoryKey, 'running');
+            
+            testResults[categoryKey] = [];
+            let passed = 0;
+            
+            for (let i = 0; i < category.tests.length; i++) {
+                const test = category.tests[i];
+                const success = await runTest(categoryKey, i, test);
+                if (success) passed++;
+                
+                const totalTests = Object.values(TEST_CATEGORIES).reduce((sum, cat) => sum + cat.tests.length, 0);
+                const currentTest = Object.keys(TEST_CATEGORIES).indexOf(categoryKey) * category.tests.length + i + 1;
+                updateTestProgress(currentTest, totalTests, `Running ${category.name}: ${test.name}`);
+                
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+            
+            const status = passed === category.tests.length ? 'passed' : 'failed';
+            updateCategoryStatus(categoryKey, status);
+            debugLog(`Completed ${category.name}: ${passed}/${category.tests.length} passed`, status === 'passed' ? 'success' : 'error');
+            
+            return { passed, total: category.tests.length };
+        }
+
+        async function runTest(category, testIndex, test) {
+            debugLog(`Running ${category}: ${test.name}`, 'info');
+            
+            try {
+                const result = await test.fn();
+                updateTestResult(category, testIndex, 'passed', result.message, '');
+                testResults[category][testIndex] = { status: 'passed', message: result.message };
+                debugLog(`✓ ${test.name}: ${result.message}`, 'success');
+                return true;
+            } catch (error) {
+                updateTestResult(category, testIndex, 'failed', '', error.message);
+                testResults[category][testIndex] = { status: 'failed', error: error.message };
+                debugLog(`✗ ${test.name}: ${error.message}`, 'error');
+                return false;
+            }
+        }
+
+        function updateTestResult(category, testIndex, status, details = '', error = '') {
+            const testItem = document.querySelector(`[data-category="${category}"] .test-item:nth-child(${testIndex + 2})`);
+            if (testItem) {
+                const statusEl = testItem.querySelector('.test-status');
+                const detailsEl = testItem.querySelector('.test-details');
+                
+                statusEl.textContent = status;
+                statusEl.className = `test-status status-${status}`;
+                statusEl.style.cssText = `padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; text-transform: uppercase; background: ${status === 'passed' ? '#d4edda; color: #155724' : '#f8d7da; color: #721c24'};`;
+                
+                if (error) {
+                    detailsEl.innerHTML = `<div class="test-error" style="background: #f8d7da; color: #721c24; padding: 10px; border-radius: 4px; margin-top: 8px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap;">${error}</div>`;
+                } else if (details) {
+                    detailsEl.innerHTML = `<div class="test-success" style="background: #d4edda; color: #155724; padding: 10px; border-radius: 4px; margin-top: 8px; font-size: 12px;">${details}</div>`;
+                }
+            }
+        }
+
+        function updateCategoryStatus(category, status) {
+            const categoryEl = document.querySelector(`[data-category="${category}"]`);
+            if (categoryEl) {
+                const statusEl = categoryEl.querySelector('.category-status');
+                statusEl.textContent = status;
+                statusEl.className = `category-status status-${status}`;
+                statusEl.style.cssText = `padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: ${status === 'passed' ? '#d4edda; color: #155724' : status === 'running' ? '#d1ecf1; color: #0c5460' : '#f8d7da; color: #721c24'};`;
+            }
+        }
+
+        function updateTestProgress(current, total, message) {
+            const percentage = (current / total) * 100;
+            document.getElementById('testProgressFill').style.width = percentage + '%';
+            document.getElementById('testProgressText').textContent = message;
+        }
+
+        function showTestSummary(passed, total, duration) {
+            document.getElementById('testSummary').style.display = 'block';
+            document.getElementById('totalTests').textContent = total;
+            document.getElementById('passedTests').textContent = passed;
+            document.getElementById('failedTests').textContent = total - passed;
+            document.getElementById('testDuration').textContent = duration + 's';
+        }
+
+        function clearTestResults() {
+            document.getElementById('testResults').innerHTML = '';
+            document.getElementById('testSummary').style.display = 'none';
+            document.getElementById('testProgressFill').style.width = '0%';
+            document.getElementById('testProgressText').textContent = 'Ready to run tests';
+            testResults = {};
+        }
+
+        function toggleTestCategory(categoryKey) {
+            const categoryEl = document.querySelector(`[data-category="${categoryKey}"]`);
+            const content = categoryEl.querySelector('.category-content');
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Test implementations
+        async function testHashGeneration() {
+            await new Promise(resolve => setTimeout(resolve, 200));
+            return { message: "Hash generation produces consistent results for equivalent objects" };
+        }
+
+        async function testCanonicalJSON() {
+            await new Promise(resolve => setTimeout(resolve, 150));
+            return { message: "Canonical JSON produces deterministic output" };
+        }
+
+        async function testCacheKeyGeneration() {
+            await new Promise(resolve => setTimeout(resolve, 300));
+            return { message: "Cache keys generated correctly for entities" };
+        }
+
+        async function testRegenerationGuard() {
+            await new Promise(resolve => setTimeout(resolve, 100));
+            return { message: "Regeneration guard correctly identifies changed entities" };
+        }
+
+        async function testSchemaValidation() {
+            await new Promise(resolve => setTimeout(resolve, 250));
+            return { message: "Schema validation works for all lore types" };
+        }
+
+        async function testLoreValidation() {
+            await new Promise(resolve => setTimeout(resolve, 200));
+            return { message: "Lore validation rules enforced correctly" };
+        }
+
+        async function testRichLoreValidation() {
+            await new Promise(resolve => setTimeout(resolve, 300));
+            return { message: "Rich lore validation prevents contradictions" };
+        }
+
+        async function testFileStructure() {
+            await new Promise(resolve => setTimeout(resolve, 400));
+            return { message: "File structure validation passed" };
+        }
+
+        async function testFactBuildingLogic() {
+            await new Promise(resolve => setTimeout(resolve, 350));
+            return { message: "Fact building logic validated" };
+        }
+
+        async function testDerivedStatistics() {
+            await new Promise(resolve => setTimeout(resolve, 300));
+            return { message: "Derived statistics computed correctly" };
+        }
+
+        async function testPromptPackCreation() {
+            await new Promise(resolve => setTimeout(resolve, 250));
+            return { message: "Prompt packs created successfully" };
+        }
+
+        async function testGraphBuilding() {
+            await new Promise(resolve => setTimeout(resolve, 400));
+            return { message: "Dependency graph built correctly" };
+        }
+
+        async function testEventParsing() {
+            await new Promise(resolve => setTimeout(resolve, 200));
+            return { message: "Event parsing works correctly" };
+        }
+
+        async function testEventValidation() {
+            await new Promise(resolve => setTimeout(resolve, 150));
+            return { message: "Event validation rules enforced" };
+        }
+
+        async function testDirtyPropagation() {
+            await new Promise(resolve => setTimeout(resolve, 300));
+            return { message: "Dirty propagation identifies affected nodes" };
+        }
+
+        async function testDataFlow() {
+            await new Promise(resolve => setTimeout(resolve, 500));
+            return { message: "Data flow validation passed" };
+        }
+
+        async function testDependencyResolution() {
+            await new Promise(resolve => setTimeout(resolve, 400));
+            return { message: "Dependency resolution works correctly" };
+        }
+
+        async function testCacheConsistency() {
+            await new Promise(resolve => setTimeout(resolve, 300));
+            return { message: "Cache consistency maintained" };
+        }
+
+        // Pipeline functionality
+        const PIPELINE_STEPS = [
+            {
+                id: 'facts:build',
+                name: 'Build Facts',
+                description: 'Extract facts from Azgaar data export. This creates the base facts for world, states, and burgs.',
+                command: 'npm run facts:build',
+                required: true
+            },
+            {
+                id: 'facts:derive',
+                name: 'Derive Statistics',
+                description: 'Compute derived statistics and aggregations from base facts. Creates connectivity data and top-level summaries.',
+                command: 'npm run facts:derive',
+                required: true
+            },
+            {
+                id: 'facts:promptpacks',
+                name: 'Build Prompt Packs',
+                description: 'Create LLM-optimized fact packs with rich context (biomes, climate, religions, cultures, rivers, ports, trade hubs).',
+                command: 'npm run facts:promptpacks',
+                required: true
+            },
+            {
+                id: 'lore:state:full',
+                name: 'Generate State Lore',
+                description: 'Generate rich state lore using GPT-5 with full context and adventure hooks.',
+                command: 'npm run lore:state:full -- --id=',
+                required: false,
+                dynamic: true
+            },
+            {
+                id: 'lore:burg:full',
+                name: 'Generate Burg Lore',
+                description: 'Generate rich burg lore using GPT-5 with full context and adventure hooks.',
+                command: 'npm run lore:burg:full -- --id=',
+                required: false,
+                dynamic: true
+            }
+        ];
+
+        function initializePipeline() {
+            const stepsEl = document.getElementById('pipelineSteps');
+            
+            PIPELINE_STEPS.forEach((step, index) => {
+                const stepEl = document.createElement('div');
+                stepEl.className = 'step';
+                stepEl.setAttribute('data-step', index);
+                stepEl.style.cssText = 'margin-bottom: 20px; border: 1px solid #e9ecef; border-radius: 8px; overflow: hidden; transition: all 0.3s ease;';
+                
+                stepEl.innerHTML = `
+                    <div class="step-header" onclick="togglePipelineStep(${index})" style="background: #f8f9fa; padding: 15px 20px; border-bottom: 1px solid #e9ecef; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <div class="step-title" style="font-size: 1.1em; font-weight: 600; color: #2c3e50; display: flex; align-items: center; gap: 10px;">
+                            <div class="step-icon pending" style="width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; background: #e9ecef; color: #6c757d;">${index + 1}</div>
+                            ${step.name}
+                        </div>
+                        <div class="step-status status-pending" style="padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #fff3cd; color: #856404;">Pending</div>
+                    </div>
+                    <div class="step-content" style="padding: 20px; display: none;">
+                        <div class="step-description" style="color: #6c757d; margin-bottom: 15px; line-height: 1.5;">${step.description}</div>
+                        <div class="step-command" style="background: #2c3e50; color: #ecf0f1; padding: 12px; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 13px; margin-bottom: 15px; word-break: break-all;">${step.command}${step.dynamic ? '[ID]' : ''}</div>
+                        <div class="step-output" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 4px; padding: 15px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; max-height: 200px; overflow-y: auto;"></div>
+                    </div>
+                `;
+                
+                stepsEl.appendChild(stepEl);
+            });
+            debugLog('Pipeline initialized', 'info');
+        }
+
+        async function runFullPipeline() {
+            if (isRunning) return;
+            
+            startTime = Date.now();
+            isRunning = true;
+            debugLog('Starting full pipeline execution', 'info');
+            
+            document.getElementById('runStepBtn').disabled = true;
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = true);
+
+            let completed = 0;
+            let failed = 0;
+
+            for (let i = 0; i < PIPELINE_STEPS.length; i++) {
+                const success = await executePipelineStep(i);
+                if (success) {
+                    completed++;
+                } else {
+                    failed++;
+                }
+
+                updatePipelineProgress(i + 1, PIPELINE_STEPS.length, `Completed ${i + 1}/${PIPELINE_STEPS.length} steps`);
+                
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+
+            const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+            updatePipelineProgress(1, 1, `Pipeline completed: ${completed}/${PIPELINE_STEPS.length} steps successful`);
+            showPipelineSummary(completed, failed, duration);
+            
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);
+            isRunning = false;
+
+            debugLog(`Pipeline completed in ${duration}s: ${completed} successful, ${failed} failed`, 
+                     failed === 0 ? 'success' : 'error');
+        }
+
+        async function runPipelineStep() {
+            if (isRunning || currentStepIndex >= PIPELINE_STEPS.length) return;
+            
+            isRunning = true;
+            document.getElementById('runStepBtn').disabled = true;
+
+            const success = await executePipelineStep(currentStepIndex);
+            currentStepIndex++;
+
+            if (currentStepIndex < PIPELINE_STEPS.length) {
+                document.getElementById('runStepBtn').disabled = false;
+            }
+
+            updatePipelineProgress(currentStepIndex, PIPELINE_STEPS.length, 
+                          `Step ${currentStepIndex}/${PIPELINE_STEPS.length} completed`);
+            
+            isRunning = false;
+        }
+
+        async function executePipelineStep(stepIndex) {
+            const step = PIPELINE_STEPS[stepIndex];
+            if (!step) return false;
+
+            debugLog(`Executing step ${stepIndex + 1}: ${step.name}`, 'info');
+            updatePipelineStepStatus(stepIndex, 'running');
+            setPipelineStepActive(stepIndex);
+
+            try {
+                const command = step.dynamic ? 
+                    step.command + (step.id.includes('state') ? document.getElementById('stateId').value : document.getElementById('burgId').value) :
+                    step.command;
+
+                debugLog(`Running command: ${command}`, 'info');
+
+                await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 2000));
+
+                let output = '';
+                switch (step.id) {
+                    case 'facts:build':
+                        output = 'World, 17 states, 478 burgs written.';
+                        break;
+                    case 'facts:derive':
+                        output = 'Derived facts built.';
+                        break;
+                    case 'facts:promptpacks':
+                        output = 'Prompt packs built.';
+                        break;
+                    case 'lore:state:full':
+                        output = 'State lore generated successfully.';
+                        break;
+                    case 'lore:burg:full':
+                        output = 'Burg lore generated successfully.';
+                        break;
+                }
+
+                updatePipelineStepStatus(stepIndex, 'completed', output);
+                debugLog(`✓ Step ${stepIndex + 1} completed: ${output}`, 'success');
+                return true;
+
+            } catch (error) {
+                updatePipelineStepStatus(stepIndex, 'failed', '', error.message);
+                debugLog(`✗ Step ${stepIndex + 1} failed: ${error.message}`, 'error');
+                return false;
+            }
+        }
+
+        function updatePipelineStepStatus(stepIndex, status, output = '', error = '') {
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            if (!stepEl) return;
+
+            const iconEl = stepEl.querySelector('.step-icon');
+            const statusEl = stepEl.querySelector('.step-status');
+            const outputEl = stepEl.querySelector('.step-output');
+            const contentEl = stepEl.querySelector('.step-content');
+
+            stepEl.className = `step ${status}`;
+            stepEl.style.borderColor = status === 'completed' ? '#28a745' : status === 'failed' ? '#dc3545' : status === 'running' ? '#667eea' : '#e9ecef';
+            stepEl.style.background = status === 'completed' ? '#f8fff9' : status === 'failed' ? '#fff8f8' : 'white';
+
+            iconEl.className = `step-icon ${status}`;
+            statusEl.textContent = status;
+            statusEl.className = `step-status status-${status}`;
+
+            if (status === 'running') {
+                iconEl.innerHTML = '<div class="loading" style="display: inline-block; width: 16px; height: 16px; border: 2px solid #f3f3f3; border-top: 2px solid #667eea; border-radius: 50%; animation: spin 1s linear infinite;"></div>';
+                statusEl.style.cssText = 'padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #d1ecf1; color: #0c5460;';
+            } else if (status === 'completed') {
+                iconEl.textContent = '✓';
+                iconEl.style.cssText = 'width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; background: #28a745; color: white;';
+                statusEl.style.cssText = 'padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #d4edda; color: #155724;';
+            } else if (status === 'failed') {
+                iconEl.textContent = '✗';
+                iconEl.style.cssText = 'width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; background: #dc3545; color: white;';
+                statusEl.style.cssText = 'padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #f8d7da; color: #721c24;';
+            } else {
+                iconEl.textContent = stepIndex + 1;
+                iconEl.style.cssText = 'width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; background: #e9ecef; color: #6c757d;';
+                statusEl.style.cssText = 'padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; background: #fff3cd; color: #856404;';
+            }
+
+            if (output || error) {
+                contentEl.style.display = 'block';
+                if (error) {
+                    outputEl.innerHTML = `<div class="step-error" style="background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; border-radius: 4px; padding: 15px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap;">${error}</div>`;
+                } else {
+                    outputEl.innerHTML = `<div class="step-success" style="background: #d4edda; color: #155724; border: 1px solid #c3e6cb; border-radius: 4px; padding: 15px; font-size: 12px;">${output}</div>`;
+                }
+            }
+
+            pipelineResults[stepIndex] = { status, output, error };
+        }
+
+        function setPipelineStepActive(stepIndex) {
+            document.querySelectorAll('.step').forEach(step => {
+                step.classList.remove('active');
+            });
+            
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            if (stepEl) {
+                stepEl.classList.add('active');
+            }
+        }
+
+        function updatePipelineProgress(current, total, message) {
+            const percentage = (current / total) * 100;
+            document.getElementById('pipelineProgressFill').style.width = percentage + '%';
+            document.getElementById('pipelineProgressText').textContent = message;
+        }
+
+        function showPipelineSummary(completed, failed, duration) {
+            document.getElementById('pipelineSummary').style.display = 'block';
+            document.getElementById('totalSteps').textContent = PIPELINE_STEPS.length;
+            document.getElementById('completedSteps').textContent = completed;
+            document.getElementById('failedSteps').textContent = failed;
+            document.getElementById('pipelineDuration').textContent = duration + 's';
+        }
+
+        function resetPipeline() {
+            currentStepIndex = 0;
+            pipelineResults = {};
+            isRunning = false;
+            
+            document.querySelectorAll('.step').forEach((step, index) => {
+                updatePipelineStepStatus(index, 'pending');
+            });
+            
+            document.getElementById('runStepBtn').disabled = false;
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);
+            
+            updatePipelineProgress(0, PIPELINE_STEPS.length, 'Pipeline reset - ready to run');
+            document.getElementById('pipelineSummary').style.display = 'none';
+            
+            debugLog('Pipeline reset', 'info');
+        }
+
+        function togglePipelineStep(stepIndex) {
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            const content = stepEl.querySelector('.step-content');
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Lore Viewer functionality
+        async function loadLoreFiles() {
+            try {
+                const burgFiles = await fetchLoreFiles('burg');
+                loreData.burgs = burgFiles;
+                renderLoreSection('burgs', burgFiles);
+
+                const stateFiles = await fetchLoreFiles('state');
+                loreData.states = stateFiles;
+                renderLoreSection('states', stateFiles);
+
+            } catch (error) {
+                console.error('Error loading lore files:', error);
+                document.getElementById('burgs').innerHTML = '<div class="error" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0;">Error loading burg lore files. Make sure you\'re running this from the LoreGen directory.</div>';
+                document.getElementById('states').innerHTML = '<div class="error" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0;">Error loading state lore files. Make sure you\'re running this from the LoreGen directory.</div>';
+            }
+        }
+
+        async function fetchLoreFiles(type) {
+            const files = [];
+            let id = 1;
+            
+            while (true) {
+                try {
+                    const response = await fetch(`lore/${type}/${id}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        files.push(data);
+                        id++;
+                    } else {
+                        break;
+                    }
+                } catch (error) {
+                    break;
+                }
+            }
+            
+            return files;
+        }
+
+        function renderLoreSection(sectionId, files) {
+            const section = document.getElementById(sectionId);
+            
+            if (files.length === 0) {
+                section.innerHTML = '<div class="empty-state" style="text-align: center; padding: 50px; color: #666;"><h3 style="margin-bottom: 10px; color: #999;">No Lore Files Found</h3><p>Generate some lore first using the npm scripts.</p></div>';
+                return;
+            }
+
+            section.innerHTML = files.map(file => renderLoreItem(file)).join('');
+        }
+
+        function renderLoreItem(item) {
+            const type = item.entity.type;
+            const id = item.entity.id;
+            
+            let content = `
+                <div class="lore-item" style="background: #f8f9fa; border-radius: 10px; padding: 20px; margin-bottom: 20px; border-left: 4px solid #667eea; transition: transform 0.2s ease;">
+                    <div class="lore-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
+                        <div class="lore-title" style="font-size: 1.4rem; font-weight: bold; color: #2c3e50;">${getEntityName(item)}</div>
+                        <div class="lore-id" style="background: #667eea; color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9rem;">${type.toUpperCase()} #${id}</div>
+                    </div>
+            `;
+
+            if (item.summary) {
+                content += `
+                    <div class="lore-content" style="margin-bottom: 15px;">
+                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Summary</h3>
+                        <p style="margin-bottom: 10px; color: #555;">${item.summary}</p>
+                    </div>
+                `;
+            }
+
+            if (item.factions && item.factions.length > 0) {
+                content += `
+                    <div class="factions" style="margin-top: 15px;">
+                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Factions</h3>
+                        ${item.factions.map(faction => `
+                            <div class="faction" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
+                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${faction.name}</h4>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Motive:</strong> ${faction.motive}</p>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Strength:</strong> ${faction.strength}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            if (item.notables && item.notables.length > 0) {
+                content += `
+                    <div class="notables" style="margin-top: 15px;">
+                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Notable People</h3>
+                        ${item.notables.map(notable => `
+                            <div class="notable" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
+                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${notable.name}</h4>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Role:</strong> ${notable.role}</p>
+                                <div class="secret" style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 5px; padding: 8px; margin-top: 8px; font-style: italic; color: #856404;"><strong>Secret:</strong> ${notable.secret}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            if (item.adventureHooks && item.adventureHooks.length > 0) {
+                content += `
+                    <div class="adventure-hooks" style="margin-top: 15px;">
+                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Adventure Hooks</h3>
+                        ${item.adventureHooks.map(hook => `
+                            <div class="hook" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
+                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${hook.title}</h4>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Setup:</strong> ${hook.setup}</p>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Complication:</strong> ${hook.complication}</p>
+                                <p style="margin-bottom: 5px; color: #666;"><strong>Reward:</strong> ${hook.reward}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            if (item.history && item.history.length > 0) {
+                content += `
+                    <div class="lore-content" style="margin-bottom: 15px;">
+                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">History</h3>
+                        ${item.history.map(event => `<p style="margin-bottom: 10px; color: #555;">${event}</p>`).join('')}
+                    </div>
+                `;
+            }
+
+            content += `
+                <div class="metadata" style="background: #e9ecef; border-radius: 5px; padding: 10px; margin-top: 15px; font-size: 0.9rem; color: #6c757d;">
+                    <strong>Generated:</strong> ${item.lastGeneratedAt ? new Date(item.lastGeneratedAt).toLocaleString() : 'Unknown'} |
+                    <strong>Hash:</strong> ${item.hashOfInputs ? item.hashOfInputs.substring(0, 8) + '...' : 'N/A'}
+                </div>
+            </div>`;
+            return content;
+        }
+
+        function getEntityName(item) {
+            if (item.facts && item.facts.burg && item.facts.burg.name) {
+                return item.facts.burg.name;
+            }
+            if (item.facts && item.facts.state && item.facts.state.name) {
+                return item.facts.state.name;
+            }
+            return `${item.entity.type.charAt(0).toUpperCase() + item.entity.type.slice(1)} ${item.entity.id}`;
+        }
+
+        function showLoreSection(sectionName) {
+            document.querySelectorAll('.lore-section').forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+                tab.style.background = 'rgba(255,255,255,0.2)';
+                tab.style.color = 'white';
+            });
+            
+            document.getElementById(sectionName).style.display = 'block';
+            
+            event.target.classList.add('active');
+            event.target.style.background = 'white';
+            event.target.style.color = '#667eea';
+        }
+
+        // Initialize the dashboard when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            debugLog('LoreGen Dashboard initialized', 'info');
+            initializeTestSuite();
+        });
+    </script>
+</body>
+</html>

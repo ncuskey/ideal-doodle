@@ -33,8 +33,10 @@ LoreGen/
 │   ├── lore.state.schema.json        # State lore schema
 │   ├── lore.burg.full.schema.json    # Rich burg lore schema
 │   └── lore.state.full.schema.json   # Rich state lore schema
-├── lore-viewer.html        # HTML viewer for generated lore
-├── test-suite.html         # HTML test suite for functionality verification
+├── loregen-dashboard.html  # Unified HTML dashboard (test suite + pipeline runner + lore viewer)
+├── lore-viewer.html        # Legacy HTML viewer for generated lore
+├── test-suite.html         # Legacy HTML test suite for functionality verification
+├── pipeline-runner.html    # Legacy HTML pipeline runner
 ├── .env                    # Environment variables (API keys)
 └── src/                    # Source code
     ├── types/              # TypeScript types
@@ -137,18 +139,20 @@ npm run lore:state:hooks -- --id=1 # Refresh state hooks only (cheap)
 npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries (efficient)
 ```
 
-### Viewing Results
+### Unified Dashboard
 ```bash
-python3 -m http.server 8000  # Start local server
-# Open http://localhost:8000/lore-viewer.html
+# Open unified dashboard in browser
+open loregen-dashboard.html
+# Or serve locally and navigate to loregen-dashboard.html
+python3 -m http.server 8000
 ```
 
-### Testing & Validation
+### Legacy Interfaces
 ```bash
-# Open test suite in browser
-open test-suite.html
-# Or serve locally and navigate to test-suite.html
-python3 -m http.server 8000
+# Individual interfaces (superseded by dashboard)
+open lore-viewer.html        # Lore viewer only
+open test-suite.html         # Test suite only  
+open pipeline-runner.html    # Pipeline runner only
 ```
 
 ## Model Strategy

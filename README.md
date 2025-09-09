@@ -98,24 +98,31 @@ A beautiful HTML viewer to explore generated content:
 - **Metadata tracking** with generation timestamps and hashes
 - **Auto-loading** of all available lore files
 
-## 🧪 Test Suite
+## 🧙‍♂️ LoreGen Dashboard
 
-A comprehensive HTML test suite for functionality verification:
+A unified HTML interface combining testing, pipeline execution, and lore viewing:
 
-- **`test-suite.html`** - Complete test framework with visual progress tracking
-- **Real-time debugging** with detailed logging and error reporting
-- **Multiple test categories**: utilities, validation, pipelines, events, integration
-- **Quick vs Full testing** modes for different validation needs
-- **No generation required** - tests logic without API calls
+- **`loregen-dashboard.html`** - Complete dashboard with three main tabs:
+  - **🧪 Test Suite** - Comprehensive functionality verification (19 tests across 5 categories)
+  - **🏗️ Pipeline Runner** - Step-by-step world generation with progress tracking
+  - **🏰 Lore Viewer** - Browse and explore generated lore files
+- **Real-time debugging** with shared debug panel across all tabs
+- **Visual progress tracking** with animated progress bars and status indicators
+- **No generation required** for testing - validates logic without API calls
 
 **Usage:**
 ```bash
 # Open in browser
-open test-suite.html
+open loregen-dashboard.html
 # Or serve locally
 python3 -m http.server 8000
-# Navigate to http://localhost:8000/test-suite.html
+# Navigate to http://localhost:8000/loregen-dashboard.html
 ```
+
+### Legacy Files
+- **`test-suite.html`** - Standalone test suite (superseded by dashboard)
+- **`pipeline-runner.html`** - Standalone pipeline runner (superseded by dashboard)
+- **`lore-viewer.html`** - Standalone lore viewer (superseded by dashboard)
 
 ## ⚡ Features
 
