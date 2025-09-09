@@ -1,0 +1,161 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 4
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Duntefia",
+    "capitalBurgId": 4,
+    "area": 16924,
+    "military": [
+      {
+        "i": 0,
+        "a": 3059,
+        "cell": 652,
+        "x": 657.98,
+        "y": 148.11,
+        "bx": 657.98,
+        "by": 148.11,
+        "u": {
+          "infantry": 1407,
+          "cavalry": 445,
+          "artillery": 41,
+          "archers": 1166
+        },
+        "n": 0,
+        "name": "1st (Afordbume) Regiment",
+        "state": 4,
+        "icon": "⚔️"
+      },
+      {
+        "i": 1,
+        "a": 2567,
+        "cell": 646,
+        "x": 613.22,
+        "y": 154.92,
+        "bx": 613.22,
+        "by": 154.92,
+        "u": {
+          "infantry": 1181,
+          "archers": 958,
+          "cavalry": 400,
+          "artillery": 28
+        },
+        "n": 0,
+        "name": "2nd (Afordbume) Regiment",
+        "state": 4,
+        "icon": "⚔️"
+      },
+      {
+        "i": 2,
+        "a": 12,
+        "cell": 650,
+        "x": 643,
+        "y": 166.66,
+        "bx": 643,
+        "by": 166.66,
+        "u": {
+          "fleet": 12
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 4,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      0,
+      11,
+      13
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 8,
+    "dominantBiomes": [
+      {
+        "biome": "biome#11",
+        "count": 42
+      },
+      {
+        "biome": "biome#9",
+        "count": 39
+      },
+      {
+        "biome": "biome#10",
+        "count": 23
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Westen Spirits",
+        "count": 51
+      },
+      {
+        "religion": "No religion",
+        "count": 42
+      },
+      {
+        "religion": "Enlandic Druidism",
+        "count": 11
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Westen",
+        "count": 60
+      },
+      {
+        "culture": "Wildlands",
+        "count": 42
+      },
+      {
+        "culture": "Enlandic",
+        "count": 11
+      }
+    ]
+  },
+  "economy": {
+    "ports": 2,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 313,
+        "name": "Clifractle",
+        "pop": 20.463,
+        "port": false
+      },
+      {
+        "id": 24,
+        "name": "Uxbrid",
+        "pop": 15.546,
+        "port": false
+      },
+      {
+        "id": 122,
+        "name": "Horston",
+        "pop": 14.369,
+        "port": true
+      },
+      {
+        "id": 368,
+        "name": "Cocham",
+        "pop": 6.472,
+        "port": false
+      },
+      {
+        "id": 401,
+        "name": "Wasaltonden",
+        "pop": 4.605,
+        "port": false
+      }
+    ]
+  }
+}

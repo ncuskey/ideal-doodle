@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 321
+  },
+  "burg": {
+    "name": "Gives",
+    "pop": 11.862,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 9,
+    "name": "Eraisia"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#6",
+        "count": 106
+      },
+      {
+        "biome": "biome#4",
+        "count": 67
+      },
+      {
+        "biome": "biome#5",
+        "count": 33
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Autliardism",
+        "count": 237
+      },
+      {
+        "religion": "No religion",
+        "count": 43
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Luarian",
+        "count": 125
+      },
+      {
+        "culture": "Westen",
+        "count": 74
+      },
+      {
+        "culture": "Wildlands",
+        "count": 43
+      }
+    ]
+  }
+}

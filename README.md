@@ -1,6 +1,6 @@
 # Southia Lore (Facts → Lore)
 
-A comprehensive world-building system that generates rich lore for fantasy worlds using AI models with intelligent cost optimization.
+A comprehensive world-building system that generates rich lore for fantasy worlds using AI models with intelligent cost optimization and dependency tracking.
 
 ## 🚀 Quick Start
 
@@ -10,14 +10,21 @@ A comprehensive world-building system that generates rich lore for fantasy world
    cp .env.example .env  # Add your OPENAI_API_KEY
    ```
 
-2. **Generate Lore**
+2. **Build Complete World**
    ```bash
-   npm run lore:burg -- --id=1      # Full burg lore (quality)
-   npm run lore:burg:hooks -- --id=1 # Just adventure hooks (cheap)
-   npm run lore:state -- --id=1     # Full state lore (quality)
+   npm run facts:build        # Extract facts from Azgaar data
+   npm run facts:derive       # Compute derived statistics
+   npm run facts:promptpacks  # Create LLM-optimized fact packs
+   npm run graph:build        # Build dependency graph
    ```
 
-3. **View Results**
+3. **Generate Lore**
+   ```bash
+   npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
+   npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
+   ```
+
+4. **View Results**
    ```bash
    python3 -m http.server 8000
    # Open http://localhost:8000/lore-viewer.html
@@ -27,10 +34,16 @@ A comprehensive world-building system that generates rich lore for fantasy world
 
 ### Core Generation
 - **Build facts from Azgaar**: `npm run facts:build`
+- **Compute derived statistics**: `npm run facts:derive`
+- **Create prompt packs**: `npm run facts:promptpacks`
 - **Build dependency graph**: `npm run graph:build`
-- **Generate burg lore**: `npm run lore:burg -- --id=ID`
-- **Generate state lore**: `npm run lore:state -- --id=ID`
+- **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
+- **Generate rich burg lore**: `npm run lore:burg:full -- --id=ID`
+
+### Event-Driven Updates
 - **Apply events**: `npm run events:apply -- --file=events/demo.json`
+- **Dirty regeneration**: `npm run lore:dirty -- --node=state:ID`
+- **Chained event+regen**: `npm run events:apply+regen -- --file=events/demo.json`
 
 ### Cost-Optimized Hooks
 - **Refresh burg hooks**: `npm run lore:burg:hooks -- --id=ID`
@@ -47,16 +60,33 @@ Intelligent model selection for optimal cost/quality balance:
 
 ## 📁 Output Structure
 
-Generated lore is stored in organized JSON files:
+Generated content is organized across multiple directories:
 
 ```
-lore/
-├── burg/           # City/town lore
-│   ├── 1.json      # Burg ID 1
-│   └── 2.json      # Burg ID 2
-├── state/          # State/region lore
-│   └── 1.json      # State ID 1
+facts/              # Base facts from Azgaar
+├── state/          # State facts
+├── burg/           # Burg facts
+└── world/          # World facts
+
+facts/derived/      # Computed statistics
+├── state/          # State-level aggregations
+└── burg/           # Burg-level connectivity
+
+index/              # LLM-optimized data
+├── promptFacts/    # Compact fact packs
+│   ├── state/      # State prompt packs
+│   └── burg/       # Burg prompt packs
+├── graph.json      # Dependency graph
+└── dirty.seeds.json # Event-driven change seeds
+
+lore/               # Generated lore
+├── burg/           # Rich burg lore
+├── state/          # Rich state lore
 └── province/       # Province lore (future)
+
+schemas/            # JSON schemas
+├── lore.state.full.schema.json
+└── lore.burg.full.schema.json
 ```
 
 ## 🎨 Lore Viewer
@@ -70,20 +100,28 @@ A beautiful HTML viewer to explore generated content:
 
 ## ⚡ Features
 
-### Smart Caching
+### Smart Caching & Dependency Tracking
 - Lore files store `hashOfInputs` for intelligent regeneration
 - Skip regeneration when inputs haven't changed
-- Section-specific caching for hooks-only updates
+- Dependency graph tracks relationships between entities
+- Event-driven dirty regeneration for targeted updates
+
+### Rich Data Processing
+- **Azgaar integration**: Extracts facts from fantasy map generators
+- **Derived statistics**: Computes aggregations (top burgs, dominant cultures, etc.)
+- **Prompt optimization**: Creates compact, LLM-ready fact packs
+- **Validation**: Sanity checks prevent contradictions
 
 ### Structured Outputs
 - Uses OpenAI **Chat Completions API** with **json_schema** response_format
 - Enforced JSON structure with validation
-- Rich, detailed world-building content
+- Rich, detailed world-building content with adventure hooks
 
 ### Cost Optimization
 - **Quality-first** approach for important content
 - **Efficient models** for bulk operations
 - **Hooks-only refresh** to update just adventure content
+- **Partial regeneration** for targeted updates
 
 ## 🛠️ Development
 
@@ -97,16 +135,35 @@ A beautiful HTML viewer to explore generated content:
 src/
 ├── gen/            # AI generation utilities
 ├── pipelines/      # Lore generation scripts
+├── derive/         # Data derivation and aggregation
+├── ingest/         # Azgaar data processing
+├── graph/          # Dependency tracking
+├── validate/       # Output validation
 ├── util/           # Helper functions
 └── types/          # TypeScript definitions
 ```
 
 ## 📊 Usage Examples
 
-**Full Quality Generation:**
+**Complete World Build:**
 ```bash
-npm run lore:burg -- --id=1    # Complete burg lore with GPT-5
-npm run lore:state -- --id=1   # Complete state lore with GPT-5
+npm run facts:build        # Extract base facts
+npm run facts:derive       # Compute statistics
+npm run facts:promptpacks  # Create fact packs
+npm run graph:build        # Build dependencies
+```
+
+**Rich Lore Generation:**
+```bash
+npm run lore:state:full -- --id=1  # Complete state lore with GPT-5
+npm run lore:burg:full -- --id=1   # Complete burg lore with GPT-5
+```
+
+**Event-Driven Updates:**
+```bash
+npm run events:apply -- --file=events/demo.json  # Apply event
+npm run lore:dirty -- --node=state:1             # Regenerate affected
+# Or chain both: npm run events:apply+regen -- --file=events/demo.json
 ```
 
 **Cost-Efficient Updates:**

@@ -1,0 +1,81 @@
+{
+  "id": 16,
+  "topBurgs": [
+    {
+      "id": 352,
+      "name": "Gigbig",
+      "pop": 12.759,
+      "port": false
+    },
+    {
+      "id": 457,
+      "name": "Threshai",
+      "pop": 11.158,
+      "port": true
+    },
+    {
+      "id": 44,
+      "name": "Sleh",
+      "pop": 9.165,
+      "port": false
+    },
+    {
+      "id": 346,
+      "name": "Phiggal",
+      "pop": 8.649,
+      "port": false
+    },
+    {
+      "id": 16,
+      "name": "Iahzit",
+      "pop": 8.324,
+      "port": true
+    }
+  ],
+  "portCount": 4,
+  "hasCoast": true,
+  "riverCount": 10,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#1",
+      "count": 154
+    },
+    {
+      "biome": "biome#3",
+      "count": 80
+    },
+    {
+      "biome": "biome#5",
+      "count": 28
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Old Kobblin Shamanism",
+      "count": 256
+    },
+    {
+      "religion": "No religion",
+      "count": 22
+    },
+    {
+      "religion": "Nortumbic Spirits",
+      "count": 12
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Kobblin",
+      "count": 256
+    },
+    {
+      "culture": "Wildlands",
+      "count": 22
+    },
+    {
+      "culture": "Nortumbic",
+      "count": 12
+    }
+  ]
+}

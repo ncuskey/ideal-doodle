@@ -1,0 +1,81 @@
+{
+  "id": 5,
+  "topBurgs": [
+    {
+      "id": 36,
+      "name": "Ozbiard",
+      "pop": 18.56,
+      "port": false
+    },
+    {
+      "id": 128,
+      "name": "Cosxea",
+      "pop": 17.227,
+      "port": true
+    },
+    {
+      "id": 87,
+      "name": "Ialsirt",
+      "pop": 15.836,
+      "port": false
+    },
+    {
+      "id": 254,
+      "name": "Drior",
+      "pop": 14.76,
+      "port": true
+    },
+    {
+      "id": 5,
+      "name": "Ulbligz",
+      "pop": 13.15,
+      "port": true
+    }
+  ],
+  "portCount": 8,
+  "hasCoast": true,
+  "riverCount": 19,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#1",
+      "count": 287
+    },
+    {
+      "biome": "biome#3",
+      "count": 172
+    },
+    {
+      "biome": "biome#5",
+      "count": 135
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Old Kobblin Shamanism",
+      "count": 444
+    },
+    {
+      "religion": "No religion",
+      "count": 141
+    },
+    {
+      "religion": "Autliardism",
+      "count": 120
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Kobblin",
+      "count": 563
+    },
+    {
+      "culture": "Wildlands",
+      "count": 141
+    },
+    {
+      "culture": "Uruk",
+      "count": 1
+    }
+  ]
+}

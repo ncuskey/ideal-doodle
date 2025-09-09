@@ -5,12 +5,18 @@
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/cli.ts",
     "facts:build": "tsx src/pipelines/buildFacts.ts",
+    "facts:derive": "tsx src/pipelines/buildDerived.ts",
+    "facts:promptpacks": "tsx src/pipelines/buildPromptPacks.ts",
     "graph:build": "tsx src/pipelines/buildGraph.ts",
     "lore:burg": "tsx src/pipelines/genBurgLore.ts",
+    "lore:burg:full": "tsx src/pipelines/genBurgLoreFull.ts",
     "lore:burg:hooks": "tsx src/pipelines/refreshBurgHooks.ts",
+    "lore:dirty": "tsx src/pipelines/regenDirty.ts",
     "lore:state": "tsx src/pipelines/genStateLore.ts",
+    "lore:state:full": "tsx src/pipelines/genStateLoreFull.ts",
     "lore:state:hooks": "tsx src/pipelines/refreshStateHooks.ts",
     "events:apply": "tsx src/pipelines/applyEvents.ts",
+    "events:apply+regen": "tsx src/pipelines/applyEvents.ts && node ./node_modules/.bin/tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
     "test:hash": "tsx src/tests/hash.test.ts"
   },
   "dependencies": {

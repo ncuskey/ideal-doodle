@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 413
+  },
+  "burg": {
+    "name": "Gobsil",
+    "pop": 1.602,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 12,
+    "name": "Doblin"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#3",
+        "count": 332
+      },
+      {
+        "biome": "biome#5",
+        "count": 278
+      },
+      {
+        "biome": "biome#1",
+        "count": 87
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Kobblinism",
+        "count": 363
+      },
+      {
+        "religion": "Old Kobblin Shamanism",
+        "count": 300
+      },
+      {
+        "religion": "No religion",
+        "count": 99
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 702
+      },
+      {
+        "culture": "Wildlands",
+        "count": 99
+      },
+      {
+        "culture": "Durinn",
+        "count": 2
+      }
+    ]
+  }
+}

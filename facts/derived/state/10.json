@@ -1,0 +1,77 @@
+{
+  "id": 10,
+  "topBurgs": [
+    {
+      "id": 447,
+      "name": "Bodubin",
+      "pop": 19.385,
+      "port": false
+    },
+    {
+      "id": 255,
+      "name": "Nanshigangad",
+      "pop": 12.323,
+      "port": false
+    },
+    {
+      "id": 356,
+      "name": "Indiraber",
+      "pop": 10.262,
+      "port": false
+    },
+    {
+      "id": 10,
+      "name": "Abermaicto",
+      "pop": 3.746,
+      "port": true
+    },
+    {
+      "id": 46,
+      "name": "Chlaber",
+      "pop": 2.408,
+      "port": true
+    }
+  ],
+  "portCount": 2,
+  "hasCoast": true,
+  "riverCount": 6,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#4",
+      "count": 42
+    },
+    {
+      "biome": "biome#8",
+      "count": 23
+    },
+    {
+      "biome": "biome#3",
+      "count": 13
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Chordenver Faith",
+      "count": 92
+    },
+    {
+      "religion": "No religion",
+      "count": 12
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Keltan",
+      "count": 69
+    },
+    {
+      "culture": "Durinn",
+      "count": 18
+    },
+    {
+      "culture": "Wildlands",
+      "count": 12
+    }
+  ]
+}

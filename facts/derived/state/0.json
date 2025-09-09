@@ -1,0 +1,50 @@
+{
+  "id": 0,
+  "topBurgs": [],
+  "portCount": 0,
+  "hasCoast": false,
+  "riverCount": 151,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#0",
+      "count": 1596
+    },
+    {
+      "biome": "biome#11",
+      "count": 240
+    },
+    {
+      "biome": "biome#2",
+      "count": 99
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "No religion",
+      "count": 1976
+    },
+    {
+      "religion": "Autliardism",
+      "count": 1
+    },
+    {
+      "religion": "Uruk Shamanism",
+      "count": 1
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Wildlands",
+      "count": 1976
+    },
+    {
+      "culture": "Kobblin",
+      "count": 2
+    },
+    {
+      "culture": "Uruk",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 3,
+  "topBurgs": [
+    {
+      "id": 3,
+      "name": "Itheshruz",
+      "pop": 27.459,
+      "port": true
+    },
+    {
+      "id": 190,
+      "name": "Ki'jiress",
+      "pop": 17.86,
+      "port": false
+    },
+    {
+      "id": 331,
+      "name": "Nasar",
+      "pop": 13.824,
+      "port": false
+    },
+    {
+      "id": 185,
+      "name": "Akkuss",
+      "pop": 11.543,
+      "port": false
+    },
+    {
+      "id": 104,
+      "name": "Oz'jash",
+      "pop": 10.539,
+      "port": true
+    }
+  ],
+  "portCount": 2,
+  "hasCoast": true,
+  "riverCount": 19,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#7",
+      "count": 67
+    },
+    {
+      "biome": "biome#12",
+      "count": 42
+    },
+    {
+      "biome": "biome#5",
+      "count": 17
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Aj'Snaga Spirits",
+      "count": 100
+    },
+    {
+      "religion": "Kobblinism",
+      "count": 26
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Aj'Snaga",
+      "count": 100
+    },
+    {
+      "culture": "Kobblin",
+      "count": 26
+    }
+  ]
+}

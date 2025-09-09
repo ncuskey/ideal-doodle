@@ -1,0 +1,81 @@
+{
+  "id": 12,
+  "topBurgs": [
+    {
+      "id": 12,
+      "name": "Wruilx",
+      "pop": 21.289,
+      "port": false
+    },
+    {
+      "id": 129,
+      "name": "Wruil",
+      "pop": 19.883,
+      "port": false
+    },
+    {
+      "id": 204,
+      "name": "Rekx",
+      "pop": 18.291,
+      "port": false
+    },
+    {
+      "id": 181,
+      "name": "Gobshai",
+      "pop": 12.115,
+      "port": true
+    },
+    {
+      "id": 406,
+      "name": "Phig",
+      "pop": 10.523,
+      "port": false
+    }
+  ],
+  "portCount": 3,
+  "hasCoast": true,
+  "riverCount": 25,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#3",
+      "count": 332
+    },
+    {
+      "biome": "biome#5",
+      "count": 278
+    },
+    {
+      "biome": "biome#1",
+      "count": 87
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Kobblinism",
+      "count": 363
+    },
+    {
+      "religion": "Old Kobblin Shamanism",
+      "count": 300
+    },
+    {
+      "religion": "No religion",
+      "count": 99
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Kobblin",
+      "count": 702
+    },
+    {
+      "culture": "Wildlands",
+      "count": 99
+    },
+    {
+      "culture": "Durinn",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 449
+  },
+  "burg": {
+    "name": "Kindumunzan",
+    "pop": 3.138,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 14,
+    "name": "Ban"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#3",
+        "count": 141
+      },
+      {
+        "biome": "biome#4",
+        "count": 56
+      },
+      {
+        "biome": "biome#6",
+        "count": 44
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 181
+      },
+      {
+        "religion": "Durinn Faith",
+        "count": 39
+      },
+      {
+        "religion": "Kentian Spirits",
+        "count": 29
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Durinn",
+        "count": 131
+      },
+      {
+        "culture": "Keltan",
+        "count": 56
+      },
+      {
+        "culture": "Kentian",
+        "count": 47
+      }
+    ]
+  }
+}

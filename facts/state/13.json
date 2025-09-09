@@ -8,5 +8,100 @@
     10,
     9,
     0
+  ],
+  "area": 35181,
+  "military": [
+    {
+      "i": 0,
+      "a": 3670,
+      "cell": 1464,
+      "x": 1020.52,
+      "y": 261.01,
+      "bx": 1020.52,
+      "by": 261.01,
+      "u": {
+        "infantry": 1615,
+        "archers": 1607,
+        "cavalry": 422,
+        "artillery": 26
+      },
+      "n": 0,
+      "name": "1st (Chearcy) Regiment",
+      "state": 13,
+      "icon": "⚔️"
+    },
+    {
+      "i": 1,
+      "a": 2876,
+      "cell": 1364,
+      "x": 1096.69,
+      "y": 252.05,
+      "bx": 1096.69,
+      "by": 252.05,
+      "u": {
+        "infantry": 1260,
+        "archers": 857,
+        "cavalry": 744,
+        "artillery": 15
+      },
+      "n": 0,
+      "name": "2nd (Fermaw) Regiment",
+      "state": 13,
+      "icon": "⚔️"
+    },
+    {
+      "i": 2,
+      "a": 1868,
+      "cell": 1250,
+      "x": 1052.5,
+      "y": 228.76,
+      "bx": 1052.5,
+      "by": 228.76,
+      "u": {
+        "archers": 865,
+        "cavalry": 252,
+        "artillery": 42,
+        "infantry": 709
+      },
+      "n": 0,
+      "name": "3rd (Boumaberg) Regiment",
+      "state": 13,
+      "icon": "👑"
+    },
+    {
+      "i": 3,
+      "a": 1210,
+      "cell": 1566,
+      "x": 942.96,
+      "y": 276.6,
+      "bx": 942.96,
+      "by": 276.6,
+      "u": {
+        "archers": 374,
+        "cavalry": 258,
+        "artillery": 18,
+        "infantry": 560
+      },
+      "n": 0,
+      "name": "4th (Akereskcalia) Regiment",
+      "state": 13,
+      "icon": "⚔️"
+    },
+    {
+      "i": 4,
+      "a": 14,
+      "cell": 1250,
+      "x": 1045.05,
+      "y": 222.82,
+      "bx": 1045.05,
+      "by": 222.82,
+      "u": {
+        "fleet": 14
+      },
+      "n": 1,
+      "name": "1st Fleet",
+      "state": 13,
+      "icon": "🌊"
+    }
   ]
 }

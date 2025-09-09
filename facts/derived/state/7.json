@@ -1,0 +1,73 @@
+{
+  "id": 7,
+  "topBurgs": [
+    {
+      "id": 177,
+      "name": "Moggbig",
+      "pop": 18.677,
+      "port": true
+    },
+    {
+      "id": 7,
+      "name": "Stroila",
+      "pop": 17.257,
+      "port": false
+    },
+    {
+      "id": 74,
+      "name": "Kleabsil",
+      "pop": 11.179,
+      "port": false
+    },
+    {
+      "id": 237,
+      "name": "Zarag",
+      "pop": 8.787,
+      "port": false
+    },
+    {
+      "id": 164,
+      "name": "Bratzakt",
+      "pop": 8.506,
+      "port": false
+    }
+  ],
+  "portCount": 2,
+  "hasCoast": true,
+  "riverCount": 4,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#5",
+      "count": 73
+    },
+    {
+      "biome": "biome#6",
+      "count": 4
+    },
+    {
+      "biome": "biome#7",
+      "count": 3
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Kobblinism",
+      "count": 60
+    },
+    {
+      "religion": "Durinn Faith",
+      "count": 20
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Kobblin",
+      "count": 60
+    },
+    {
+      "culture": "Durinn",
+      "count": 20
+    }
+  ]
+}

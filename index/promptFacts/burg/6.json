@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 6
+  },
+  "burg": {
+    "name": "Aber",
+    "pop": 10.674,
+    "port": false,
+    "isCapital": true
+  },
+  "state": {
+    "id": 6,
+    "name": "Aber"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#6",
+        "count": 26
+      },
+      {
+        "biome": "biome#4",
+        "count": 12
+      },
+      {
+        "biome": "biome#8",
+        "count": 6
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 44
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Keltan",
+        "count": 44
+      }
+    ]
+  }
+}

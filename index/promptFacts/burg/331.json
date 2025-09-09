@@ -1,0 +1,56 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 331
+  },
+  "burg": {
+    "name": "Nasar",
+    "pop": 13.824,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 3,
+    "name": "Zataphruz"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#7",
+        "count": 67
+      },
+      {
+        "biome": "biome#12",
+        "count": 42
+      },
+      {
+        "biome": "biome#5",
+        "count": 17
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 100
+      },
+      {
+        "religion": "Kobblinism",
+        "count": 26
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Aj'Snaga",
+        "count": 100
+      },
+      {
+        "culture": "Kobblin",
+        "count": 26
+      }
+    ]
+  }
+}

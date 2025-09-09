@@ -1,0 +1,52 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 240
+  },
+  "burg": {
+    "name": "Shass",
+    "pop": 7.85,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 15,
+    "name": "Hob"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#7",
+        "count": 30
+      },
+      {
+        "biome": "biome#5",
+        "count": 25
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Kobblinism",
+        "count": 53
+      },
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 2
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 53
+      },
+      {
+        "culture": "Aj'Snaga",
+        "count": 2
+      }
+    ]
+  }
+}

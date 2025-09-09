@@ -3,28 +3,86 @@
     "type": "state",
     "id": 1
   },
-  "adventureHooks": [
+  "summary": "Slor'th is a coastal, river-laced state on Southia in the Westford Era (year 1291). Centered on its inland capital of Slalzan, it spans roughly 27,312 square units and fields nine archer-heavy regiments with two small fleets. The populace is predominantly Aj'Snaga by culture, largely devoted to the Slalzanian Deities, with small Kobblin enclaves and minor adherents of Kobblinism and Aj'Snaga Spirits. Two ports—most notably Maj'aj'kij—tie its river corridors to the sea, while three neighboring states (IDs 3, 12, and 15) shape its security and diplomacy.",
+  "history": [
+    "Slalzan emerged as the political and sacred hub, consolidating Aj'Snaga communities under the Slalzanian Deities and giving the state its identity.",
+    "Coastal access became strategic; Maj'aj'kij was raised as the principal seaport, and a second, smaller port followed to handle overflow and coastal cabotage.",
+    "The army was formalized into region-tied regiments (e.g., Slalzan, Sushaj, Maj'a, Stiag, Maj'aj'kij), favoring archery to leverage local terrain and training traditions.",
+    "Border frictions with neighboring states 3, 12, and 15 led to a doctrine of ranged skirmishing and rapid levies, while river patrols secured internal trade.",
+    "Urban growth radiated along river confluences, elevating Krazashju, Shan'jen, and Gojesh as secondary centers supporting Slalzan's administration.",
+    "By 1291, maritime capacity was expanded: the 1st Fleet reached modest strength while a nascent 2nd Fleet was launched, signaling intent to guard the coast and estuaries."
+  ],
+  "geographyNotes": "Slor'th has a sea coast and a dense network of 16 rivers that structure settlement and movement, with the inland capital of Slalzan linked to the coast by navigable reaches. Its lands form a mosaic of two dominant biomes with a lesser third, producing mixed belts of arable, brush, and open country. Rivers and the coastline determine where towns cluster—at crossings, confluences, and estuaries—while interior corridors connect Slalzan to Maj'aj'kij and the smaller maritime port.",
+  "societyNotes": "Aj'Snaga culture is predominant, shaping language, local law, and military levies, with Kobblin communities active in trade. Worship of the Slalzanian Deities is standard, complemented by minor observances of Kobblinism and Aj'Snaga Spirits. Civic identity mirrors the regimental map: locales rally to their namesake units, blending clan ties with state service.",
+  "economyNotes": "Economy runs along water: rivers ferry goods between inland burgs and the sea. Maj'aj'kij is the chief port; a second, smaller port supports coastal trade. The capital Slalzan is the largest city, with Krazashju, Shan'jen, and Gojesh as notable inland markets. With no major route hubs recorded, overland carriage relies on river landings and regional tracks, making river security and port duties central revenue sources.",
+  "factions": [
     {
-      "title": "The Missing Magistrate",
-      "setup": "The burg that serves as Slor'th's capital (burg 1) has not heard from its magistrate for several weeks. Official dispatches stop on a single line: 'Patrols found tracks toward the marsh—no further.'",
-      "escalation": "If investigators follow the trail, they uncover a clandestine tribunal operating outside Slor'th's laws and a list of citizens marked for 'reeducation.' Discovering the magistrate's fate could expose a conspiracy that reaches into other state offices."
+      "name": "Council of Slalzan",
+      "motive": "Preserve central authority, secure river tax flows, and balance inland-coastal priorities.",
+      "strength": "Controls the capital administration and influences multiple regimental appointments."
     },
     {
-      "title": "Marshlights of the Border",
-      "setup": "Travelers and circuit riders report pale lights over bordering marshes near Slor'th's frontier. Locals refuse to approach, claiming they are omens tied to a past treaty.",
-      "escalation": "Approaching the lights draws attention from a band of smugglers who use the marsh and its legends to cover their crossings. The party must decide whether to break the smugglers' routes (angering those who profit) or negotiate a fragile bargain that risks wider diplomatic fallout for Slor'th."
+      "name": "Maj'aj'kij Port Authority",
+      "motive": "Expand maritime trade, improve harbor works, and attract foreign shipping.",
+      "strength": "Holds customs posts and pilots; close ties to the 1st Fleet and coastal militias."
     },
     {
-      "title": "Vault Beneath the Capital",
-      "setup": "A construction crew repairing foundations beneath burg 1 unearths a sealed vault door stamped with old Slor'th sigils. Town officials ask for discreet experts to catalog the find.",
-      "escalation": "Opening the vault reveals artifacts and documents that challenge the ruling council's legal claims. Publicizing them could spark reforms or mob unrest; hiding them preserves the status quo but marks the party as accomplices if truth emerges later."
+      "name": "Sushaj Bowmasters",
+      "motive": "Maintain archer supremacy through training standards and exclusive bow supply contracts.",
+      "strength": "Embedded instructors across archer regiments; sway over procurement."
     },
     {
-      "title": "Festival of Ashes",
-      "setup": "An annual remembrance day in Slor'th's capital draws pilgrims and petty thieves alike. This year's ceremony is officiated by a visiting clergyperson whose rites unsettle traditionalists.",
-      "escalation": "A ritual interruption leads to a riot used as cover for assassins targeting a visiting envoy. The investigators must protect civilians, uncover who ordered the hit, and navigate the delicate politics so the incident does not trigger reprisals in neighboring regions."
+      "name": "River Wardens of Gojesh",
+      "motive": "Monopolize river tolls and keep trade lanes safe from banditry and sabotage.",
+      "strength": "Operates river patrols and controls key crossings and warehouses."
+    },
+    {
+      "name": "Kobblin Merchants' Syndicate",
+      "motive": "Secure fair tariffs and stable charters for minority traders.",
+      "strength": "Compact, wealthy network bridging inland markets with both ports."
     }
   ],
-  "hashOfInputs": "5f30373fdd532825a0b8e9344a8f62f3b58077d6f3dc50a3331e96a13c34dcb6",
-  "lastGeneratedAt": "2025-09-09T00:16:54.327Z"
+  "adventureHooks": [
+    {
+      "title": "Barges in the Briars",
+      "setup": "Grain and timber barges vanish between Gojesh and the estuary, threatening tax receipts and supply lines.",
+      "escalation": "Evidence points to coordinated raids using river shallows; clues implicate smugglers with links across a border to state 12.",
+      "reward": "River Wardens grant bonded warehouse rights and a share of recovered tolls."
+    },
+    {
+      "title": "Fleet of One",
+      "setup": "The 2nd Fleet exists on paper with a single vessel; crews and marines are needed to clear a pirate anchorage menacing coastal lanes.",
+      "escalation": "Captured charts reveal the pirates are supplied by agents tied to state 15, risking diplomatic flare-ups.",
+      "reward": "Letters of marque, salvage claims, and naval patronage in Maj'aj'kij."
+    },
+    {
+      "title": "Arrows at Dawn",
+      "setup": "A border watchtower reports night skirmishes; the 7th (Sushaj) Regiment requests scouts to verify incursions.",
+      "escalation": "Tracks suggest a false-flag operation designed to trigger conflict with state 3 while smugglers exploit the chaos.",
+      "reward": "Regimental favor, land on the quiet side of the border, and a captured arms cache."
+    },
+    {
+      "title": "Echoes of the Old Spirits",
+      "setup": "An Aj'Snaga Spirits rite near Shan'jen draws crowds, worrying Slalzanian clergy about unrest.",
+      "escalation": "A relic goes missing; tensions rise between devotees and officials unless the theft is solved and the rite safeguarded.",
+      "reward": "Blessings from local elders, safe-conduct among Aj'Snaga communities, and a ceremonial artifact."
+    },
+    {
+      "title": "The Bowmaker's Quarrel",
+      "setup": "Sushaj Bowmasters and Kobblin merchants dispute bow-stave contracts, stalling deliveries to the 1st (Slalzan) Regiment.",
+      "escalation": "Sabotage at a riverside mill threatens the supply chain and prompts military intervention.",
+      "reward": "Exclusive trade clauses, discounted equipment, and introductions at the Council of Slalzan."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "8f0f947f0266c701a79ea74c8e3371ef89a064bc73715a641d3b2e369952c55c:fullv1"
 }

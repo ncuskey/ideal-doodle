@@ -1,0 +1,250 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 5
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Brat",
+    "capitalBurgId": 5,
+    "area": 109746,
+    "military": [
+      {
+        "i": 0,
+        "a": 3320,
+        "cell": 5271,
+        "x": 656.86,
+        "y": 687.93,
+        "bx": 656.86,
+        "by": 687.93,
+        "u": {
+          "cavalry": 2580,
+          "infantry": 308,
+          "archers": 426,
+          "artillery": 6
+        },
+        "n": 0,
+        "name": "1st (Ulbligz) Regiment",
+        "state": 5,
+        "icon": "🐴"
+      },
+      {
+        "i": 1,
+        "a": 2074,
+        "cell": 5539,
+        "x": 805.18,
+        "y": 711.66,
+        "bx": 805.18,
+        "by": 711.66,
+        "u": {
+          "cavalry": 1363,
+          "archers": 366,
+          "infantry": 335,
+          "artillery": 10
+        },
+        "n": 0,
+        "name": "2nd (Ozbiard) Regiment",
+        "state": 5,
+        "icon": "🐴"
+      },
+      {
+        "i": 2,
+        "a": 1963,
+        "cell": 5848,
+        "x": 670.7,
+        "y": 749.55,
+        "bx": 670.7,
+        "by": 749.55,
+        "u": {
+          "cavalry": 726,
+          "archers": 740,
+          "infantry": 488,
+          "artillery": 9
+        },
+        "n": 0,
+        "name": "3rd (Ulbligz) Regiment",
+        "state": 5,
+        "icon": "🏹"
+      },
+      {
+        "i": 3,
+        "a": 993,
+        "cell": 5865,
+        "x": 866,
+        "y": 755.4,
+        "bx": 866,
+        "by": 755.4,
+        "u": {
+          "cavalry": 441,
+          "archers": 307,
+          "infantry": 238,
+          "artillery": 7
+        },
+        "n": 0,
+        "name": "4th (Kui) Regiment",
+        "state": 5,
+        "icon": "🐴"
+      },
+      {
+        "i": 4,
+        "a": 331,
+        "cell": 4045,
+        "x": 892.1,
+        "y": 556.3,
+        "bx": 892.1,
+        "by": 556.3,
+        "u": {
+          "cavalry": 296,
+          "infantry": 14,
+          "archers": 21
+        },
+        "n": 0,
+        "name": "5th (Stiag) Regiment",
+        "state": 5,
+        "icon": "🐴"
+      },
+      {
+        "i": 5,
+        "a": 1,
+        "cell": 5926,
+        "x": 651.91,
+        "y": 772.99,
+        "bx": 651.91,
+        "by": 772.99,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 5,
+        "icon": "🌊"
+      },
+      {
+        "i": 6,
+        "a": 1,
+        "cell": 5532,
+        "x": 762.56,
+        "y": 709.51,
+        "bx": 762.56,
+        "by": 709.51,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 5,
+        "icon": "🌊"
+      },
+      {
+        "i": 7,
+        "a": 1,
+        "cell": 5666,
+        "x": 906.55,
+        "y": 735.87,
+        "bx": 906.55,
+        "by": 735.87,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "3rd Fleet",
+        "state": 5,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      0,
+      9,
+      12,
+      16
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 19,
+    "dominantBiomes": [
+      {
+        "biome": "biome#1",
+        "count": 287
+      },
+      {
+        "biome": "biome#3",
+        "count": 172
+      },
+      {
+        "biome": "biome#5",
+        "count": 135
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Old Kobblin Shamanism",
+        "count": 444
+      },
+      {
+        "religion": "No religion",
+        "count": 141
+      },
+      {
+        "religion": "Autliardism",
+        "count": 120
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 563
+      },
+      {
+        "culture": "Wildlands",
+        "count": 141
+      },
+      {
+        "culture": "Uruk",
+        "count": 1
+      }
+    ]
+  },
+  "economy": {
+    "ports": 8,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 36,
+        "name": "Ozbiard",
+        "pop": 18.56,
+        "port": false
+      },
+      {
+        "id": 128,
+        "name": "Cosxea",
+        "pop": 17.227,
+        "port": true
+      },
+      {
+        "id": 87,
+        "name": "Ialsirt",
+        "pop": 15.836,
+        "port": false
+      },
+      {
+        "id": 254,
+        "name": "Drior",
+        "pop": 14.76,
+        "port": true
+      },
+      {
+        "id": 5,
+        "name": "Ulbligz",
+        "pop": 13.15,
+        "port": true
+      }
+    ]
+  }
+}

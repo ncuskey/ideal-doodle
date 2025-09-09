@@ -1,0 +1,56 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 164
+  },
+  "burg": {
+    "name": "Bratzakt",
+    "pop": 8.506,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 7,
+    "name": "Bhiagab"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#5",
+        "count": 73
+      },
+      {
+        "biome": "biome#6",
+        "count": 4
+      },
+      {
+        "biome": "biome#7",
+        "count": 3
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Kobblinism",
+        "count": 60
+      },
+      {
+        "religion": "Durinn Faith",
+        "count": 20
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 60
+      },
+      {
+        "culture": "Durinn",
+        "count": 20
+      }
+    ]
+  }
+}

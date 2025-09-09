@@ -1,0 +1,217 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 8
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Victumia",
+    "capitalBurgId": 8,
+    "area": 37383,
+    "military": [
+      {
+        "i": 0,
+        "a": 3219,
+        "cell": 5886,
+        "x": 1287.98,
+        "y": 756.65,
+        "bx": 1287.98,
+        "by": 756.65,
+        "u": {
+          "infantry": 1699,
+          "archers": 1127,
+          "cavalry": 356,
+          "artillery": 37
+        },
+        "n": 0,
+        "name": "1st (Modriaqu) Regiment",
+        "state": 8,
+        "icon": "⚔️"
+      },
+      {
+        "i": 1,
+        "a": 2490,
+        "cell": 6240,
+        "x": 1398.63,
+        "y": 839.88,
+        "bx": 1398.63,
+        "by": 839.88,
+        "u": {
+          "infantry": 1225,
+          "cavalry": 161,
+          "artillery": 19,
+          "archers": 1085
+        },
+        "n": 0,
+        "name": "2nd (Sarimia) Regiment",
+        "state": 8,
+        "icon": "⚔️"
+      },
+      {
+        "i": 2,
+        "a": 4,
+        "cell": 6097,
+        "x": 1364.61,
+        "y": 797.73,
+        "bx": 1364.61,
+        "by": 797.73,
+        "u": {
+          "fleet": 4
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 8,
+        "icon": "🌊"
+      },
+      {
+        "i": 3,
+        "a": 2,
+        "cell": 6149,
+        "x": 1275.03,
+        "y": 819.03,
+        "bx": 1275.03,
+        "by": 819.03,
+        "u": {
+          "fleet": 2
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 8,
+        "icon": "🌊"
+      },
+      {
+        "i": 4,
+        "a": 2,
+        "cell": 6393,
+        "x": 1433.88,
+        "y": 928,
+        "bx": 1433.88,
+        "by": 928,
+        "u": {
+          "fleet": 2
+        },
+        "n": 1,
+        "name": "3rd Fleet",
+        "state": 8,
+        "icon": "🌊"
+      },
+      {
+        "i": 5,
+        "a": 1,
+        "cell": 6377,
+        "x": 1567.73,
+        "y": 914,
+        "bx": 1567.73,
+        "by": 914,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "4th Fleet",
+        "state": 8,
+        "icon": "🌊"
+      },
+      {
+        "i": 6,
+        "a": 1,
+        "cell": 5694,
+        "x": 1324.24,
+        "y": 715.38,
+        "bx": 1324.24,
+        "by": 715.38,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "5th Fleet",
+        "state": 8,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": []
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 24,
+    "dominantBiomes": [
+      {
+        "biome": "biome#8",
+        "count": 147
+      },
+      {
+        "biome": "biome#12",
+        "count": 39
+      },
+      {
+        "biome": "biome#6",
+        "count": 35
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Selocobr Beliefs",
+        "count": 210
+      },
+      {
+        "religion": "Romian Gods",
+        "count": 24
+      },
+      {
+        "religion": "Pulencuran Cult",
+        "count": 24
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Romian",
+        "count": 258
+      },
+      {
+        "culture": "Wildlands",
+        "count": 11
+      }
+    ]
+  },
+  "economy": {
+    "ports": 11,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 91,
+        "name": "Selocobri",
+        "pop": 25.971,
+        "port": false
+      },
+      {
+        "id": 67,
+        "name": "Celia",
+        "pop": 22.407,
+        "port": false
+      },
+      {
+        "id": 155,
+        "name": "Geliba",
+        "pop": 21.843,
+        "port": true
+      },
+      {
+        "id": 71,
+        "name": "Coporumbia",
+        "pop": 21.765,
+        "port": false
+      },
+      {
+        "id": 138,
+        "name": "Movium",
+        "pop": 20.601,
+        "port": true
+      }
+    ]
+  }
+}

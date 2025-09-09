@@ -8,5 +8,81 @@
     13,
     14,
     0
+  ],
+  "area": 17685,
+  "military": [
+    {
+      "i": 0,
+      "a": 6890,
+      "cell": 1044,
+      "x": 1156.5,
+      "y": 201.46,
+      "bx": 1156.5,
+      "by": 201.46,
+      "u": {
+        "archers": 1671,
+        "cavalry": 3045,
+        "infantry": 2162,
+        "artillery": 12
+      },
+      "n": 0,
+      "name": "1st (Aberdurum) Regiment",
+      "state": 10,
+      "icon": "🐴"
+    },
+    {
+      "i": 1,
+      "a": 2883,
+      "cell": 1256,
+      "x": 1111.46,
+      "y": 236.8,
+      "bx": 1111.46,
+      "by": 236.8,
+      "u": {
+        "infantry": 1273,
+        "archers": 1194,
+        "cavalry": 413,
+        "artillery": 3
+      },
+      "n": 0,
+      "name": "2nd (Aberdurum) Regiment",
+      "state": 10,
+      "icon": "⚔️"
+    },
+    {
+      "i": 2,
+      "a": 2744,
+      "cell": 861,
+      "x": 1167.54,
+      "y": 181.93,
+      "bx": 1167.54,
+      "by": 181.93,
+      "u": {
+        "archers": 1428,
+        "cavalry": 163,
+        "artillery": 43,
+        "infantry": 1110
+      },
+      "n": 0,
+      "name": "3rd (Bodubin) Regiment",
+      "state": 10,
+      "icon": "🏹"
+    },
+    {
+      "i": 3,
+      "a": 3,
+      "cell": 859,
+      "x": 1159.08,
+      "y": 176.32,
+      "bx": 1159.08,
+      "by": 176.32,
+      "u": {
+        "fleet": 3
+      },
+      "n": 1,
+      "name": "1st Fleet",
+      "state": 10,
+      "icon": "🌊"
+    }
   ]
 }

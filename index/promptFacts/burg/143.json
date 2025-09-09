@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 143
+  },
+  "burg": {
+    "name": "Lannve",
+    "pop": 9.085,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 13,
+    "name": "Rilorbaria"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#8",
+        "count": 63
+      },
+      {
+        "biome": "biome#6",
+        "count": 37
+      },
+      {
+        "biome": "biome#1",
+        "count": 29
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 111
+      },
+      {
+        "religion": "Autliardism",
+        "count": 55
+      },
+      {
+        "religion": "No religion",
+        "count": 41
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Keltan",
+        "count": 163
+      },
+      {
+        "culture": "Uruk",
+        "count": 43
+      },
+      {
+        "culture": "Wildlands",
+        "count": 41
+      }
+    ]
+  }
+}

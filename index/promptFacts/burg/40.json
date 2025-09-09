@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 40
+  },
+  "burg": {
+    "name": "Bretlewen",
+    "pop": 1.679,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 11,
+    "name": "Chipleteria"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#4",
+        "count": 137
+      },
+      {
+        "biome": "biome#1",
+        "count": 56
+      },
+      {
+        "biome": "biome#6",
+        "count": 45
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Autliardism",
+        "count": 133
+      },
+      {
+        "religion": "No religion",
+        "count": 106
+      },
+      {
+        "religion": "Nortumbic Spirits",
+        "count": 57
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Enlandic",
+        "count": 112
+      },
+      {
+        "culture": "Wildlands",
+        "count": 106
+      },
+      {
+        "culture": "Westen",
+        "count": 82
+      }
+    ]
+  }
+}

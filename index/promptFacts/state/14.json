@@ -1,0 +1,220 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 14
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Ban",
+    "capitalBurgId": 14,
+    "area": 47537,
+    "military": [
+      {
+        "i": 0,
+        "a": 2976,
+        "cell": 1597,
+        "x": 1317.87,
+        "y": 277.21,
+        "bx": 1317.87,
+        "by": 277.21,
+        "u": {
+          "infantry": 681,
+          "cavalry": 1721,
+          "artillery": 17,
+          "archers": 557
+        },
+        "n": 0,
+        "name": "1st (Aberlochia) Regiment",
+        "state": 14,
+        "icon": "👑"
+      },
+      {
+        "i": 1,
+        "a": 2947,
+        "cell": 1377,
+        "x": 1272.89,
+        "y": 249.83,
+        "bx": 1272.89,
+        "by": 249.83,
+        "u": {
+          "infantry": 1013,
+          "cavalry": 1195,
+          "artillery": 9,
+          "archers": 730
+        },
+        "n": 0,
+        "name": "2nd (Inwenverthe) Regiment",
+        "state": 14,
+        "icon": "🐴"
+      },
+      {
+        "i": 2,
+        "a": 2561,
+        "cell": 1274,
+        "x": 1323.26,
+        "y": 231.38,
+        "bx": 1323.26,
+        "by": 231.38,
+        "u": {
+          "infantry": 1144,
+          "archers": 867,
+          "cavalry": 537,
+          "artillery": 13
+        },
+        "n": 0,
+        "name": "3rd (Knutstedge) Regiment",
+        "state": 14,
+        "icon": "⚔️"
+      },
+      {
+        "i": 3,
+        "a": 1496,
+        "cell": 1720,
+        "x": 1461.64,
+        "y": 292.19,
+        "bx": 1461.64,
+        "by": 292.19,
+        "u": {
+          "infantry": 574,
+          "cavalry": 582,
+          "artillery": 2,
+          "archers": 338
+        },
+        "n": 0,
+        "name": "4th (Zinar) Regiment",
+        "state": 14,
+        "icon": "🐴"
+      },
+      {
+        "i": 4,
+        "a": 1004,
+        "cell": 2611,
+        "x": 1244.03,
+        "y": 396.67,
+        "bx": 1244.03,
+        "by": 396.67,
+        "u": {
+          "infantry": 198,
+          "cavalry": 641,
+          "artillery": 2,
+          "archers": 163
+        },
+        "n": 0,
+        "name": "5th (Undushur) Regiment",
+        "state": 14,
+        "icon": "🐴"
+      },
+      {
+        "i": 5,
+        "a": 3,
+        "cell": 1276,
+        "x": 1354.46,
+        "y": 223.05,
+        "bx": 1354.46,
+        "by": 223.05,
+        "u": {
+          "fleet": 3
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 14,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      6,
+      10,
+      7,
+      12,
+      0
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 9,
+    "dominantBiomes": [
+      {
+        "biome": "biome#3",
+        "count": 141
+      },
+      {
+        "biome": "biome#4",
+        "count": 56
+      },
+      {
+        "biome": "biome#6",
+        "count": 44
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 181
+      },
+      {
+        "religion": "Durinn Faith",
+        "count": 39
+      },
+      {
+        "religion": "Kentian Spirits",
+        "count": 29
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Durinn",
+        "count": 131
+      },
+      {
+        "culture": "Keltan",
+        "count": 56
+      },
+      {
+        "culture": "Kentian",
+        "count": 47
+      }
+    ]
+  },
+  "economy": {
+    "ports": 3,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 14,
+        "name": "Inwenver",
+        "pop": 19.529,
+        "port": false
+      },
+      {
+        "id": 135,
+        "name": "Knutstedge",
+        "pop": 11.86,
+        "port": true
+      },
+      {
+        "id": 96,
+        "name": "Lochi",
+        "pop": 10.562,
+        "port": false
+      },
+      {
+        "id": 364,
+        "name": "Babiln",
+        "pop": 7.44,
+        "port": false
+      },
+      {
+        "id": 244,
+        "name": "Inwenverthe",
+        "pop": 6.811,
+        "port": false
+      }
+    ]
+  }
+}

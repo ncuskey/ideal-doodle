@@ -8,5 +8,81 @@
     11,
     0,
     5
+  ],
+  "area": 47590,
+  "military": [
+    {
+      "i": 0,
+      "a": 1898,
+      "cell": 5127,
+      "x": 519.62,
+      "y": 676.12,
+      "bx": 519.62,
+      "by": 676.12,
+      "u": {
+        "cavalry": 1098,
+        "infantry": 288,
+        "archers": 504,
+        "artillery": 8
+      },
+      "n": 0,
+      "name": "1st (Gneab) Regiment",
+      "state": 16,
+      "icon": "🐴"
+    },
+    {
+      "i": 1,
+      "a": 1430,
+      "cell": 4361,
+      "x": 351,
+      "y": 598.4,
+      "bx": 351,
+      "by": 598.4,
+      "u": {
+        "cavalry": 1306,
+        "infantry": 40,
+        "archers": 83,
+        "artillery": 1
+      },
+      "n": 0,
+      "name": "2nd (Dobok) Regiment",
+      "state": 16,
+      "icon": "🐴"
+    },
+    {
+      "i": 2,
+      "a": 882,
+      "cell": 5251,
+      "x": 394.03,
+      "y": 683.33,
+      "bx": 394.03,
+      "by": 683.33,
+      "u": {
+        "cavalry": 636,
+        "infantry": 102,
+        "archers": 143,
+        "artillery": 1
+      },
+      "n": 0,
+      "name": "3rd (Dobok) Regiment",
+      "state": 16,
+      "icon": "🐴"
+    },
+    {
+      "i": 3,
+      "a": 1,
+      "cell": 4601,
+      "x": 339.71,
+      "y": 609.45,
+      "bx": 339.71,
+      "by": 609.45,
+      "u": {
+        "fleet": 1
+      },
+      "n": 1,
+      "name": "1st Fleet",
+      "state": 16,
+      "icon": "🌊"
+    }
   ]
 }

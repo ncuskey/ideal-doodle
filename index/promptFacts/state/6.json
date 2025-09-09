@@ -1,0 +1,109 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 6
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Aber",
+    "capitalBurgId": 6,
+    "area": 6858,
+    "military": [
+      {
+        "i": 0,
+        "a": 1566,
+        "cell": 1479,
+        "x": 1223.12,
+        "y": 255.15,
+        "bx": 1223.12,
+        "by": 255.15,
+        "u": {
+          "infantry": 701,
+          "cavalry": 413,
+          "archers": 446,
+          "artillery": 6
+        },
+        "n": 0,
+        "name": "1st (Aber) Regiment",
+        "state": 6,
+        "icon": "⚔️"
+      }
+    ],
+    "neighbors": [
+      10,
+      14
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 6,
+    "dominantBiomes": [
+      {
+        "biome": "biome#6",
+        "count": 26
+      },
+      {
+        "biome": "biome#4",
+        "count": 12
+      },
+      {
+        "biome": "biome#8",
+        "count": 6
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 44
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Keltan",
+        "count": 44
+      }
+    ]
+  },
+  "economy": {
+    "ports": 1,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 348,
+        "name": "Intinbrirair",
+        "pop": 10.698,
+        "port": false
+      },
+      {
+        "id": 6,
+        "name": "Aber",
+        "pop": 10.674,
+        "port": false
+      },
+      {
+        "id": 171,
+        "name": "Pons",
+        "pop": 8.741,
+        "port": false
+      },
+      {
+        "id": 149,
+        "name": "Llanver",
+        "pop": 5.959,
+        "port": false
+      },
+      {
+        "id": 388,
+        "name": "Abermaicraf",
+        "pop": 2.89,
+        "port": true
+      }
+    ]
+  }
+}

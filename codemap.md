@@ -11,26 +11,39 @@ LoreGen/
 │   ├── state/              # State facts (17 files)
 │   ├── province/           # Province facts (empty)
 │   └── burg/               # Burg facts (478 files)
+├── facts/derived/          # Computed statistics
+│   ├── state/              # State-level aggregations
+│   └── burg/               # Burg-level connectivity
+├── index/                  # Graph & indexing
+│   ├── graph.json          # DAG: burg → state → world
+│   ├── promptFacts/        # LLM-optimized fact packs
+│   │   ├── state/          # State prompt packs
+│   │   └── burg/           # Burg prompt packs
+│   └── dirty.seeds.json    # Event-driven change seeds
 ├── lore/                   # Generated lore (JSON)
-│   ├── state/              # State lore files
+│   ├── state/              # Rich state lore files
 │   ├── province/           # Province lore files
-│   └── burg/               # Burg lore files
+│   └── burg/               # Rich burg lore files
 ├── events/                 # Event definitions & log
 │   ├── demo.json           # Sample ruler change event
 │   ├── demo2.json          # Sample event #2
 │   └── log.ndjson          # Event application log
-├── index/                  # Graph & indexing
-│   └── graph.json          # DAG: burg → state → world
 ├── schemas/                # JSON schemas
-│   ├── lore.burg.schema.json    # Burg lore schema
-│   └── lore.state.schema.json   # State lore schema
+│   ├── lore.burg.schema.json         # Burg lore schema
+│   ├── lore.state.schema.json        # State lore schema
+│   ├── lore.burg.full.schema.json    # Rich burg lore schema
+│   └── lore.state.full.schema.json   # Rich state lore schema
 ├── lore-viewer.html        # HTML viewer for generated lore
 ├── .env                    # Environment variables (API keys)
 └── src/                    # Source code
     ├── types/              # TypeScript types
     │   └── core.ts         # Core interfaces (WorldFacts, StateFacts, BurgFacts)
     ├── ingest/             # Data ingestion
-    │   └── azgaar.ts       # Azgaar loader & fact extractors
+    │   └── azgaar.ts       # Azgaar loader & fact extractors with rich accessors
+    ├── derive/             # Data derivation
+    │   ├── aggregate.ts    # Full derivation pipeline
+    │   ├── partial.ts      # Partial derivation for single entities
+    │   └── promptPacks.ts  # LLM-optimized fact pack creation
     ├── util/               # Utilities
     │   ├── canonical.ts    # Deterministic JSON stringify
     │   ├── hash.ts         # SHA-256 hashing
@@ -42,18 +55,24 @@ LoreGen/
     ├── gen/                # Generation
     │   ├── openaiClient.ts # OpenAI client setup (with model constants)
     │   ├── structured.ts   # Structured outputs helper
-    │   └── systemPrompts.ts # System prompts
+    │   └── systemPrompts.ts # Enhanced system prompts
     ├── validate/           # Validation
-    │   └── lore.ts         # Lore validation rules
+    │   ├── lore.ts         # Lore validation rules
+    │   └── rich.ts         # Rich lore validation
     └── pipelines/          # Main pipelines
-        ├── buildFacts.ts   # Extract facts from Azgaar
-        ├── buildGraph.ts   # Build dependency DAG
-        ├── genBurgLore.ts  # Generate burg lore (full quality)
-        ├── genStateLore.ts # Generate state lore (full quality)
+        ├── buildFacts.ts       # Extract facts from Azgaar
+        ├── buildDerived.ts     # Compute derived statistics
+        ├── buildPromptPacks.ts # Create LLM-optimized fact packs
+        ├── buildGraph.ts       # Build dependency DAG
+        ├── genBurgLore.ts      # Generate burg lore (full quality)
+        ├── genStateLore.ts     # Generate state lore (full quality)
+        ├── genBurgLoreFull.ts  # Generate rich burg lore
+        ├── genStateLoreFull.ts # Generate rich state lore
         ├── genBurgSummaries.ts # Batch burg summaries (efficient)
         ├── refreshBurgHooks.ts # Refresh burg hooks only (cheap)
         ├── refreshStateHooks.ts # Refresh state hooks only (cheap)
-        └── applyEvents.ts  # Apply events to facts
+        ├── applyEvents.ts      # Apply events to facts
+        └── regenDirty.ts       # Dirty regeneration pipeline
 ```
 
 ## Key Components
@@ -61,14 +80,17 @@ LoreGen/
 ### Data Flow
 1. **Azgaar Export** → `data/southia.json`
 2. **Fact Extraction** → `facts/{world,state,burg}/`
-3. **Graph Building** → `index/graph.json`
-4. **Lore Generation** → `lore/{state,burg}/`
-5. **Event Application** → Updates facts + logs
+3. **Derived Statistics** → `facts/derived/{state,burg}/`
+4. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
+5. **Graph Building** → `index/graph.json`
+6. **Rich Lore Generation** → `lore/{state,burg}/`
+7. **Event Application** → Updates facts + generates seeds
+8. **Dirty Regeneration** → Targeted updates based on seeds
 
 ### Core Types
 - `WorldFacts`: Map name, year, era
-- `StateFacts`: ID, name, color, capital, neighbors
-- `BurgFacts`: ID, name, state, population, port, coordinates
+- `StateFacts`: ID, name, color, capital, neighbors, population, area, military
+- `BurgFacts`: ID, name, state, population, port, coordinates, cell
 
 ### Caching System
 - **Hash Generation**: `cacheKeyForEntity()` computes deterministic hashes
@@ -77,12 +99,14 @@ LoreGen/
 
 ### Validation
 - **Schema Compliance**: JSON schemas enforce structure
+- **Rich Lore Validation**: Guards against contradictions (navy without coast, etc.)
+- **Hook Limits**: Max 4 adventure hooks per rich lore file
 - **Fact Validation**: Guards against port claims when `burg.port=false`
-- **Hook Limits**: Max 3 adventure hooks per lore file
 
 ### Event System
 - **Event Types**: rulerChange, battle, disaster
 - **Effect Application**: Updates facts based on event effects
+- **Seed Generation**: Creates dirty seeds for targeted regeneration
 - **Audit Trail**: NDJSON log of all applied events
 
 ## Pipeline Commands
@@ -90,10 +114,19 @@ LoreGen/
 ### Core Generation
 ```bash
 npm run facts:build          # Extract facts from Azgaar
+npm run facts:derive         # Compute derived statistics
+npm run facts:promptpacks    # Create LLM-optimized fact packs
 npm run graph:build          # Build dependency graph
-npm run lore:burg -- --id=1  # Generate burg lore (full quality)
-npm run lore:state -- --id=1 # Generate state lore (full quality)
+npm run lore:burg:full -- --id=1  # Generate rich burg lore
+npm run lore:state:full -- --id=1 # Generate rich state lore
 npm run events:apply -- --file=events/demo.json
+```
+
+### Event-Driven Updates
+```bash
+npm run lore:dirty -- --node=state:1                    # Regenerate affected nodes
+npm run lore:dirty -- --event-file=index/dirty.seeds.json # Use seed file
+npm run events:apply+regen -- --file=events/demo.json   # Chain event + regen
 ```
 
 ### Cost-Optimized Operations

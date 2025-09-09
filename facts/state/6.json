@@ -6,5 +6,27 @@
   "neighbors": [
     10,
     14
+  ],
+  "area": 6858,
+  "military": [
+    {
+      "i": 0,
+      "a": 1566,
+      "cell": 1479,
+      "x": 1223.12,
+      "y": 255.15,
+      "bx": 1223.12,
+      "by": 255.15,
+      "u": {
+        "infantry": 701,
+        "cavalry": 413,
+        "archers": 446,
+        "artillery": 6
+      },
+      "n": 0,
+      "name": "1st (Aber) Regiment",
+      "state": 6,
+      "icon": "⚔️"
+    }
   ]
 }

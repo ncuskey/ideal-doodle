@@ -1,0 +1,77 @@
+{
+  "id": 8,
+  "topBurgs": [
+    {
+      "id": 91,
+      "name": "Selocobri",
+      "pop": 25.971,
+      "port": false
+    },
+    {
+      "id": 67,
+      "name": "Celia",
+      "pop": 22.407,
+      "port": false
+    },
+    {
+      "id": 155,
+      "name": "Geliba",
+      "pop": 21.843,
+      "port": true
+    },
+    {
+      "id": 71,
+      "name": "Coporumbia",
+      "pop": 21.765,
+      "port": false
+    },
+    {
+      "id": 138,
+      "name": "Movium",
+      "pop": 20.601,
+      "port": true
+    }
+  ],
+  "portCount": 11,
+  "hasCoast": true,
+  "riverCount": 24,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#8",
+      "count": 147
+    },
+    {
+      "biome": "biome#12",
+      "count": 39
+    },
+    {
+      "biome": "biome#6",
+      "count": 35
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Selocobr Beliefs",
+      "count": 210
+    },
+    {
+      "religion": "Romian Gods",
+      "count": 24
+    },
+    {
+      "religion": "Pulencuran Cult",
+      "count": 24
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Romian",
+      "count": 258
+    },
+    {
+      "culture": "Wildlands",
+      "count": 11
+    }
+  ]
+}

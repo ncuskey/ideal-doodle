@@ -1,0 +1,81 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 0
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Neutrals",
+    "capitalBurgId": null,
+    "area": 69698,
+    "neighbors": [
+      4,
+      2,
+      11,
+      5,
+      9,
+      13,
+      10,
+      14,
+      16,
+      12
+    ]
+  },
+  "geography": {
+    "hasCoast": false,
+    "riverCount": 151,
+    "dominantBiomes": [
+      {
+        "biome": "biome#0",
+        "count": 1596
+      },
+      {
+        "biome": "biome#11",
+        "count": 240
+      },
+      {
+        "biome": "biome#2",
+        "count": 99
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "No religion",
+        "count": 1976
+      },
+      {
+        "religion": "Autliardism",
+        "count": 1
+      },
+      {
+        "religion": "Uruk Shamanism",
+        "count": 1
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Wildlands",
+        "count": 1976
+      },
+      {
+        "culture": "Kobblin",
+        "count": 2
+      },
+      {
+        "culture": "Uruk",
+        "count": 1
+      }
+    ]
+  },
+  "economy": {
+    "ports": 0,
+    "routeHubs": [],
+    "topBurgs": []
+  }
+}

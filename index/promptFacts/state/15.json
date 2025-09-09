@@ -1,0 +1,188 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 15
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Hob",
+    "capitalBurgId": 15,
+    "area": 8779,
+    "military": [
+      {
+        "i": 0,
+        "a": 5530,
+        "cell": 2637,
+        "x": 1593.01,
+        "y": 395.51,
+        "bx": 1593.01,
+        "by": 395.51,
+        "u": {
+          "archers": 2202,
+          "cavalry": 1920,
+          "infantry": 1380,
+          "artillery": 28
+        },
+        "n": 0,
+        "name": "1st (Ial) Regiment",
+        "state": 15,
+        "icon": "🏹"
+      },
+      {
+        "i": 1,
+        "a": 5210,
+        "cell": 2520,
+        "x": 1606.38,
+        "y": 375.51,
+        "bx": 1606.38,
+        "by": 375.51,
+        "u": {
+          "archers": 2853,
+          "cavalry": 985,
+          "artillery": 94,
+          "infantry": 1278
+        },
+        "n": 0,
+        "name": "2nd (Ial) Regiment",
+        "state": 15,
+        "icon": "👑"
+      },
+      {
+        "i": 2,
+        "a": 2702,
+        "cell": 2293,
+        "x": 1573.75,
+        "y": 349.42,
+        "bx": 1573.75,
+        "by": 349.42,
+        "u": {
+          "archers": 1457,
+          "cavalry": 552,
+          "infantry": 670,
+          "artillery": 23
+        },
+        "n": 0,
+        "name": "3rd (Sleh) Regiment",
+        "state": 15,
+        "icon": "🏹"
+      },
+      {
+        "i": 3,
+        "a": 2632,
+        "cell": 2993,
+        "x": 1502.89,
+        "y": 434.47,
+        "bx": 1502.89,
+        "by": 434.47,
+        "u": {
+          "cavalry": 1347,
+          "archers": 618,
+          "infantry": 653,
+          "artillery": 14
+        },
+        "n": 0,
+        "name": "4th (Ial) Regiment",
+        "state": 15,
+        "icon": "🐴"
+      },
+      {
+        "i": 4,
+        "a": 20,
+        "cell": 2520,
+        "x": 1605.29,
+        "y": 367.12,
+        "bx": 1605.29,
+        "by": 367.12,
+        "u": {
+          "fleet": 20
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 15,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      7,
+      3,
+      12,
+      1
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 6,
+    "dominantBiomes": [
+      {
+        "biome": "biome#7",
+        "count": 30
+      },
+      {
+        "biome": "biome#5",
+        "count": 25
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Kobblinism",
+        "count": 53
+      },
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 2
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 53
+      },
+      {
+        "culture": "Aj'Snaga",
+        "count": 2
+      }
+    ]
+  },
+  "economy": {
+    "ports": 1,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 15,
+        "name": "Hob",
+        "pop": 44.702,
+        "port": true
+      },
+      {
+        "id": 220,
+        "name": "Stroi",
+        "pop": 12.598,
+        "port": false
+      },
+      {
+        "id": 55,
+        "name": "Chalk",
+        "pop": 8.986,
+        "port": false
+      },
+      {
+        "id": 260,
+        "name": "Gob",
+        "pop": 8.915,
+        "port": false
+      },
+      {
+        "id": 239,
+        "name": "Driordeek",
+        "pop": 8.835,
+        "port": false
+      }
+    ]
+  }
+}

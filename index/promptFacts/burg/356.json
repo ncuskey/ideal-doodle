@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 356
+  },
+  "burg": {
+    "name": "Indiraber",
+    "pop": 10.262,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 10,
+    "name": "Arelerglosia"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#4",
+        "count": 42
+      },
+      {
+        "biome": "biome#8",
+        "count": 23
+      },
+      {
+        "biome": "biome#3",
+        "count": 13
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Chordenver Faith",
+        "count": 92
+      },
+      {
+        "religion": "No religion",
+        "count": 12
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Keltan",
+        "count": 69
+      },
+      {
+        "culture": "Durinn",
+        "count": 18
+      },
+      {
+        "culture": "Wildlands",
+        "count": 12
+      }
+    ]
+  }
+}

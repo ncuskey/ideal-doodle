@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 395
+  },
+  "burg": {
+    "name": "Stios",
+    "pop": 3.262,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 16,
+    "name": "Iahzit"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#1",
+        "count": 154
+      },
+      {
+        "biome": "biome#3",
+        "count": 80
+      },
+      {
+        "biome": "biome#5",
+        "count": 28
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Old Kobblin Shamanism",
+        "count": 256
+      },
+      {
+        "religion": "No religion",
+        "count": 22
+      },
+      {
+        "religion": "Nortumbic Spirits",
+        "count": 12
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 256
+      },
+      {
+        "culture": "Wildlands",
+        "count": 22
+      },
+      {
+        "culture": "Nortumbic",
+        "count": 12
+      }
+    ]
+  }
+}

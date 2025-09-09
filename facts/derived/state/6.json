@@ -1,0 +1,65 @@
+{
+  "id": 6,
+  "topBurgs": [
+    {
+      "id": 348,
+      "name": "Intinbrirair",
+      "pop": 10.698,
+      "port": false
+    },
+    {
+      "id": 6,
+      "name": "Aber",
+      "pop": 10.674,
+      "port": false
+    },
+    {
+      "id": 171,
+      "name": "Pons",
+      "pop": 8.741,
+      "port": false
+    },
+    {
+      "id": 149,
+      "name": "Llanver",
+      "pop": 5.959,
+      "port": false
+    },
+    {
+      "id": 388,
+      "name": "Abermaicraf",
+      "pop": 2.89,
+      "port": true
+    }
+  ],
+  "portCount": 1,
+  "hasCoast": true,
+  "riverCount": 6,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#6",
+      "count": 26
+    },
+    {
+      "biome": "biome#4",
+      "count": 12
+    },
+    {
+      "biome": "biome#8",
+      "count": 6
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Chordenver Faith",
+      "count": 44
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Keltan",
+      "count": 44
+    }
+  ]
+}

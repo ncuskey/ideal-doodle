@@ -9,5 +9,62 @@
     4,
     9,
     16
+  ],
+  "area": 63938,
+  "military": [
+    {
+      "i": 0,
+      "a": 4097,
+      "cell": 996,
+      "x": 509.45,
+      "y": 207.61,
+      "bx": 509.45,
+      "by": 207.61,
+      "u": {
+        "infantry": 1655,
+        "cavalry": 1634,
+        "artillery": 23,
+        "archers": 785
+      },
+      "n": 0,
+      "name": "1st (Bington) Regiment",
+      "state": 11,
+      "icon": "⚔️"
+    },
+    {
+      "i": 1,
+      "a": 2449,
+      "cell": 994,
+      "x": 489.35,
+      "y": 208.44,
+      "bx": 489.35,
+      "by": 208.44,
+      "u": {
+        "infantry": 1251,
+        "cavalry": 382,
+        "artillery": 29,
+        "archers": 787
+      },
+      "n": 0,
+      "name": "2nd (Titondon) Regiment",
+      "state": 11,
+      "icon": "⚔️"
+    },
+    {
+      "i": 2,
+      "a": 3,
+      "cell": 803,
+      "x": 459.01,
+      "y": 168.71,
+      "bx": 459.01,
+      "by": 168.71,
+      "u": {
+        "fleet": 3
+      },
+      "n": 1,
+      "name": "1st Fleet",
+      "state": 11,
+      "icon": "🌊"
+    }
   ]
 }

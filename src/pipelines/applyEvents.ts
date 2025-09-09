@@ -29,5 +29,12 @@ async function main() {
   await applyEvent(ev);
   await fs.appendFile("events/log.ndjson", JSON.stringify(ev)+"\n");
   console.log("Event applied & logged.");
+  
+  // After applying, emit a seed file with changed nodes
+  const seeds = [];
+  if (ev.where?.type==="state") seeds.push(`state:${ev.where.id}`);
+  if (ev.where?.type==="burg")  seeds.push(`burg:${ev.where.id}`);
+  await fs.writeFile("index/dirty.seeds.json", JSON.stringify({ nodes: seeds }, null, 2));
+  console.log("Dirty seeds written to index/dirty.seeds.json");
 }
 main();

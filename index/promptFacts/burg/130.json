@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 130
+  },
+  "burg": {
+    "name": "Corieltauva",
+    "pop": 15.566,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 8,
+    "name": "Victumia"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#8",
+        "count": 147
+      },
+      {
+        "biome": "biome#12",
+        "count": 39
+      },
+      {
+        "biome": "biome#6",
+        "count": 35
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Selocobr Beliefs",
+        "count": 210
+      },
+      {
+        "religion": "Romian Gods",
+        "count": 24
+      },
+      {
+        "religion": "Pulencuran Cult",
+        "count": 24
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Romian",
+        "count": 258
+      },
+      {
+        "culture": "Wildlands",
+        "count": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 295
+  },
+  "burg": {
+    "name": "Rothleach",
+    "pop": 0.911,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 4,
+    "name": "Duntefia"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#11",
+        "count": 42
+      },
+      {
+        "biome": "biome#9",
+        "count": 39
+      },
+      {
+        "biome": "biome#10",
+        "count": 23
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Westen Spirits",
+        "count": 51
+      },
+      {
+        "religion": "No religion",
+        "count": 42
+      },
+      {
+        "religion": "Enlandic Druidism",
+        "count": 11
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Westen",
+        "count": 60
+      },
+      {
+        "culture": "Wildlands",
+        "count": 42
+      },
+      {
+        "culture": "Enlandic",
+        "count": 11
+      }
+    ]
+  }
+}

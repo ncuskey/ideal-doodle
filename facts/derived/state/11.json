@@ -1,0 +1,81 @@
+{
+  "id": 11,
+  "topBurgs": [
+    {
+      "id": 267,
+      "name": "Titondon",
+      "pop": 26.859,
+      "port": false
+    },
+    {
+      "id": 226,
+      "name": "Penkseyles",
+      "pop": 20.174,
+      "port": false
+    },
+    {
+      "id": 175,
+      "name": "Hengay",
+      "pop": 19.441,
+      "port": false
+    },
+    {
+      "id": 48,
+      "name": "Cocking",
+      "pop": 15.728,
+      "port": true
+    },
+    {
+      "id": 404,
+      "name": "Helsbury",
+      "pop": 8.692,
+      "port": false
+    }
+  ],
+  "portCount": 2,
+  "hasCoast": true,
+  "riverCount": 9,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#4",
+      "count": 137
+    },
+    {
+      "biome": "biome#1",
+      "count": 56
+    },
+    {
+      "biome": "biome#6",
+      "count": 45
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Autliardism",
+      "count": 133
+    },
+    {
+      "religion": "No religion",
+      "count": 106
+    },
+    {
+      "religion": "Nortumbic Spirits",
+      "count": 57
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Enlandic",
+      "count": 112
+    },
+    {
+      "culture": "Wildlands",
+      "count": 106
+    },
+    {
+      "culture": "Westen",
+      "count": 82
+    }
+  ]
+}

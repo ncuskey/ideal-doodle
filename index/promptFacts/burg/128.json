@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 128
+  },
+  "burg": {
+    "name": "Cosxea",
+    "pop": 17.227,
+    "port": true,
+    "isCapital": false
+  },
+  "state": {
+    "id": 5,
+    "name": "Brat"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#1",
+        "count": 287
+      },
+      {
+        "biome": "biome#3",
+        "count": 172
+      },
+      {
+        "biome": "biome#5",
+        "count": 135
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Old Kobblin Shamanism",
+        "count": 444
+      },
+      {
+        "religion": "No religion",
+        "count": 141
+      },
+      {
+        "religion": "Autliardism",
+        "count": 120
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 563
+      },
+      {
+        "culture": "Wildlands",
+        "count": 141
+      },
+      {
+        "culture": "Uruk",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 3
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Zataphruz",
+    "capitalBurgId": 3,
+    "area": 19309,
+    "military": [
+      {
+        "i": 0,
+        "a": 3684,
+        "cell": 3860,
+        "x": 1626.57,
+        "y": 531.33,
+        "bx": 1626.57,
+        "by": 531.33,
+        "u": {
+          "archers": 2070,
+          "cavalry": 97,
+          "artillery": 81,
+          "infantry": 1436
+        },
+        "n": 0,
+        "name": "1st (Nasar) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 1,
+        "a": 3521,
+        "cell": 3004,
+        "x": 1651.98,
+        "y": 429.58,
+        "bx": 1651.98,
+        "by": 429.58,
+        "u": {
+          "archers": 1979,
+          "cavalry": 99,
+          "infantry": 1398,
+          "artillery": 45
+        },
+        "n": 0,
+        "name": "2nd (Xas'tu) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 2,
+        "a": 2929,
+        "cell": 3366,
+        "x": 1638.1,
+        "y": 483.4,
+        "bx": 1638.1,
+        "by": 483.4,
+        "u": {
+          "archers": 1643,
+          "cavalry": 69,
+          "infantry": 1108,
+          "artillery": 109
+        },
+        "n": 0,
+        "name": "3rd (Xas'tu) Regiment",
+        "state": 3,
+        "icon": "👑"
+      },
+      {
+        "i": 3,
+        "a": 2691,
+        "cell": 3362,
+        "x": 1607.15,
+        "y": 473.17,
+        "bx": 1607.15,
+        "by": 473.17,
+        "u": {
+          "archers": 1418,
+          "cavalry": 113,
+          "infantry": 1148,
+          "artillery": 12
+        },
+        "n": 0,
+        "name": "4th (Xas'tu) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 4,
+        "a": 2549,
+        "cell": 4222,
+        "x": 1627.5,
+        "y": 577.2,
+        "bx": 1627.5,
+        "by": 577.2,
+        "u": {
+          "archers": 1432,
+          "cavalry": 71,
+          "artillery": 41,
+          "infantry": 1005
+        },
+        "n": 0,
+        "name": "5th (Ki'jiress) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 5,
+        "a": 2047,
+        "cell": 3856,
+        "x": 1567.38,
+        "y": 528.48,
+        "bx": 1567.38,
+        "by": 528.48,
+        "u": {
+          "archers": 1055,
+          "artillery": 11,
+          "cavalry": 94,
+          "infantry": 887
+        },
+        "n": 0,
+        "name": "6th (Nasar) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 6,
+        "a": 307,
+        "cell": 5818,
+        "x": 1651.9,
+        "y": 745.2,
+        "bx": 1651.9,
+        "by": 745.2,
+        "u": {
+          "archers": 172,
+          "artillery": 3,
+          "cavalry": 9,
+          "infantry": 123
+        },
+        "n": 0,
+        "name": "7th (Mapjar) Regiment",
+        "state": 3,
+        "icon": "🏹"
+      },
+      {
+        "i": 7,
+        "a": 37,
+        "cell": 3366,
+        "x": 1651.7,
+        "y": 483.49,
+        "bx": 1651.7,
+        "by": 483.49,
+        "u": {
+          "fleet": 37
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 3,
+        "icon": "🌊"
+      },
+      {
+        "i": 8,
+        "a": 12,
+        "cell": 4225,
+        "x": 1644.61,
+        "y": 585.53,
+        "bx": 1644.61,
+        "by": 585.53,
+        "u": {
+          "fleet": 12
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 3,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      15,
+      1
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 19,
+    "dominantBiomes": [
+      {
+        "biome": "biome#7",
+        "count": 67
+      },
+      {
+        "biome": "biome#12",
+        "count": 42
+      },
+      {
+        "biome": "biome#5",
+        "count": 17
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 100
+      },
+      {
+        "religion": "Kobblinism",
+        "count": 26
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Aj'Snaga",
+        "count": 100
+      },
+      {
+        "culture": "Kobblin",
+        "count": 26
+      }
+    ]
+  },
+  "economy": {
+    "ports": 2,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 3,
+        "name": "Itheshruz",
+        "pop": 27.459,
+        "port": true
+      },
+      {
+        "id": 190,
+        "name": "Ki'jiress",
+        "pop": 17.86,
+        "port": false
+      },
+      {
+        "id": 331,
+        "name": "Nasar",
+        "pop": 13.824,
+        "port": false
+      },
+      {
+        "id": 185,
+        "name": "Akkuss",
+        "pop": 11.543,
+        "port": false
+      },
+      {
+        "id": 104,
+        "name": "Oz'jash",
+        "pop": 10.539,
+        "port": true
+      }
+    ]
+  }
+}

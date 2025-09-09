@@ -1,0 +1,77 @@
+{
+  "id": 9,
+  "topBurgs": [
+    {
+      "id": 121,
+      "name": "Jarquilly",
+      "pop": 27.21,
+      "port": false
+    },
+    {
+      "id": 460,
+      "name": "Chales",
+      "pop": 21.735,
+      "port": false
+    },
+    {
+      "id": 251,
+      "name": "Dunskirk",
+      "pop": 19.944,
+      "port": false
+    },
+    {
+      "id": 389,
+      "name": "Walton",
+      "pop": 15.703,
+      "port": false
+    },
+    {
+      "id": 403,
+      "name": "Bridgewent",
+      "pop": 15.38,
+      "port": false
+    }
+  ],
+  "portCount": 2,
+  "hasCoast": true,
+  "riverCount": 11,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#6",
+      "count": 106
+    },
+    {
+      "biome": "biome#4",
+      "count": 67
+    },
+    {
+      "biome": "biome#5",
+      "count": 33
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Autliardism",
+      "count": 237
+    },
+    {
+      "religion": "No religion",
+      "count": 43
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Luarian",
+      "count": 125
+    },
+    {
+      "culture": "Westen",
+      "count": 74
+    },
+    {
+      "culture": "Wildlands",
+      "count": 43
+    }
+  ]
+}

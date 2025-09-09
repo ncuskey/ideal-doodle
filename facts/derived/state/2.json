@@ -1,0 +1,81 @@
+{
+  "id": 2,
+  "topBurgs": [
+    {
+      "id": 309,
+      "name": "Salces",
+      "pop": 25.814,
+      "port": false
+    },
+    {
+      "id": 242,
+      "name": "Neford",
+      "pop": 19.396,
+      "port": true
+    },
+    {
+      "id": 213,
+      "name": "Tartondal",
+      "pop": 17.802,
+      "port": false
+    },
+    {
+      "id": 145,
+      "name": "Swaton",
+      "pop": 17.544,
+      "port": true
+    },
+    {
+      "id": 453,
+      "name": "Carporton",
+      "pop": 17.299,
+      "port": false
+    }
+  ],
+  "portCount": 10,
+  "hasCoast": true,
+  "riverCount": 27,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#1",
+      "count": 92
+    },
+    {
+      "biome": "biome#8",
+      "count": 73
+    },
+    {
+      "biome": "biome#5",
+      "count": 69
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Nortumbic Spirits",
+      "count": 444
+    },
+    {
+      "religion": "No religion",
+      "count": 21
+    },
+    {
+      "religion": "Mercian Beliefs",
+      "count": 2
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Nortumbic",
+      "count": 445
+    },
+    {
+      "culture": "Wildlands",
+      "count": 21
+    },
+    {
+      "culture": "Mercian",
+      "count": 2
+    }
+  ]
+}

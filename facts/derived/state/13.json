@@ -1,0 +1,81 @@
+{
+  "id": 13,
+  "topBurgs": [
+    {
+      "id": 13,
+      "name": "Boumaberg",
+      "pop": 40.953,
+      "port": true
+    },
+    {
+      "id": 408,
+      "name": "Gerunos",
+      "pop": 21.312,
+      "port": false
+    },
+    {
+      "id": 148,
+      "name": "Matenvers",
+      "pop": 16.784,
+      "port": false
+    },
+    {
+      "id": 263,
+      "name": "Invers",
+      "pop": 14.991,
+      "port": true
+    },
+    {
+      "id": 347,
+      "name": "Inveram",
+      "pop": 12.165,
+      "port": false
+    }
+  ],
+  "portCount": 5,
+  "hasCoast": true,
+  "riverCount": 10,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#8",
+      "count": 63
+    },
+    {
+      "biome": "biome#6",
+      "count": 37
+    },
+    {
+      "biome": "biome#1",
+      "count": 29
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Chordenver Faith",
+      "count": 111
+    },
+    {
+      "religion": "Autliardism",
+      "count": 55
+    },
+    {
+      "religion": "No religion",
+      "count": 41
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Keltan",
+      "count": 163
+    },
+    {
+      "culture": "Uruk",
+      "count": 43
+    },
+    {
+      "culture": "Wildlands",
+      "count": 41
+    }
+  ]
+}

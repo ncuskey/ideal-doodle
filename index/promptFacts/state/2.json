@@ -1,0 +1,266 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 2
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Gatesinia",
+    "capitalBurgId": 2,
+    "area": 70782,
+    "military": [
+      {
+        "i": 0,
+        "a": 3421,
+        "cell": 1405,
+        "x": 289.58,
+        "y": 261.05,
+        "bx": 289.58,
+        "by": 261.05,
+        "u": {
+          "archers": 1410,
+          "cavalry": 629,
+          "infantry": 1352,
+          "artillery": 30
+        },
+        "n": 0,
+        "name": "1st (Oakburghia) Regiment",
+        "state": 2,
+        "icon": "🏹"
+      },
+      {
+        "i": 1,
+        "a": 2963,
+        "cell": 1743,
+        "x": 365.19,
+        "y": 295.5,
+        "bx": 365.19,
+        "by": 295.5,
+        "u": {
+          "archers": 996,
+          "artillery": 13,
+          "cavalry": 665,
+          "infantry": 1289
+        },
+        "n": 0,
+        "name": "2nd (Axbridford) Regiment",
+        "state": 2,
+        "icon": "⚔️"
+      },
+      {
+        "i": 2,
+        "a": 2740,
+        "cell": 1414,
+        "x": 408.96,
+        "y": 261.57,
+        "bx": 408.96,
+        "by": 261.57,
+        "u": {
+          "infantry": 1280,
+          "archers": 1012,
+          "cavalry": 432,
+          "artillery": 16
+        },
+        "n": 0,
+        "name": "3rd (Stapton) Regiment",
+        "state": 2,
+        "icon": "⚔️"
+      },
+      {
+        "i": 3,
+        "a": 1407,
+        "cell": 3994,
+        "x": 260.07,
+        "y": 558.06,
+        "bx": 260.07,
+        "by": 558.06,
+        "u": {
+          "archers": 362,
+          "cavalry": 434,
+          "artillery": 14,
+          "infantry": 597
+        },
+        "n": 0,
+        "name": "4th (Newceshamia) Regiment",
+        "state": 2,
+        "icon": "⚔️"
+      },
+      {
+        "i": 4,
+        "a": 364,
+        "cell": 985,
+        "x": 373,
+        "y": 206.4,
+        "bx": 373,
+        "by": 206.4,
+        "u": {
+          "archers": 187,
+          "artillery": 2,
+          "cavalry": 25,
+          "infantry": 150
+        },
+        "n": 0,
+        "name": "5th (Redcking) Regiment",
+        "state": 2,
+        "icon": "👑"
+      },
+      {
+        "i": 5,
+        "a": 3,
+        "cell": 612,
+        "x": 336.7,
+        "y": 165.9,
+        "bx": 336.7,
+        "by": 165.9,
+        "u": {
+          "fleet": 3
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 2,
+        "icon": "🌊"
+      },
+      {
+        "i": 6,
+        "a": 2,
+        "cell": 2195,
+        "x": 265.52,
+        "y": 349.15,
+        "bx": 265.52,
+        "by": 349.15,
+        "u": {
+          "fleet": 2
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 2,
+        "icon": "🌊"
+      },
+      {
+        "i": 7,
+        "a": 2,
+        "cell": 3254,
+        "x": 206.54,
+        "y": 489.58,
+        "bx": 206.54,
+        "by": 489.58,
+        "u": {
+          "fleet": 2
+        },
+        "n": 1,
+        "name": "3rd Fleet",
+        "state": 2,
+        "icon": "🌊"
+      },
+      {
+        "i": 8,
+        "a": 2,
+        "cell": 3994,
+        "x": 243.16,
+        "y": 571.67,
+        "bx": 243.16,
+        "by": 571.67,
+        "u": {
+          "fleet": 2
+        },
+        "n": 1,
+        "name": "4th Fleet",
+        "state": 2,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      0,
+      11,
+      16
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 27,
+    "dominantBiomes": [
+      {
+        "biome": "biome#1",
+        "count": 92
+      },
+      {
+        "biome": "biome#8",
+        "count": 73
+      },
+      {
+        "biome": "biome#5",
+        "count": 69
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Nortumbic Spirits",
+        "count": 444
+      },
+      {
+        "religion": "No religion",
+        "count": 21
+      },
+      {
+        "religion": "Mercian Beliefs",
+        "count": 2
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Nortumbic",
+        "count": 445
+      },
+      {
+        "culture": "Wildlands",
+        "count": 21
+      },
+      {
+        "culture": "Mercian",
+        "count": 2
+      }
+    ]
+  },
+  "economy": {
+    "ports": 10,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 309,
+        "name": "Salces",
+        "pop": 25.814,
+        "port": false
+      },
+      {
+        "id": 242,
+        "name": "Neford",
+        "pop": 19.396,
+        "port": true
+      },
+      {
+        "id": 213,
+        "name": "Tartondal",
+        "pop": 17.802,
+        "port": false
+      },
+      {
+        "id": 145,
+        "name": "Swaton",
+        "pop": 17.544,
+        "port": true
+      },
+      {
+        "id": 453,
+        "name": "Carporton",
+        "pop": 17.299,
+        "port": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 369
+  },
+  "burg": {
+    "name": "Halingin",
+    "pop": 7.451,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 2,
+    "name": "Gatesinia"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#1",
+        "count": 92
+      },
+      {
+        "biome": "biome#8",
+        "count": 73
+      },
+      {
+        "biome": "biome#5",
+        "count": 69
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Nortumbic Spirits",
+        "count": 444
+      },
+      {
+        "religion": "No religion",
+        "count": 21
+      },
+      {
+        "religion": "Mercian Beliefs",
+        "count": 2
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Nortumbic",
+        "count": 445
+      },
+      {
+        "culture": "Wildlands",
+        "count": 21
+      },
+      {
+        "culture": "Mercian",
+        "count": 2
+      }
+    ]
+  }
+}

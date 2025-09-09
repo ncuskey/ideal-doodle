@@ -1,0 +1,314 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 12
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Doblin",
+    "capitalBurgId": 12,
+    "area": 135767,
+    "military": [
+      {
+        "i": 0,
+        "a": 4422,
+        "cell": 4438,
+        "x": 1288.87,
+        "y": 598.8,
+        "bx": 1288.87,
+        "by": 598.8,
+        "u": {
+          "cavalry": 2848,
+          "infantry": 767,
+          "archers": 799,
+          "artillery": 8
+        },
+        "n": 0,
+        "name": "1st (Kluird) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 1,
+        "a": 4197,
+        "cell": 4781,
+        "x": 1010.57,
+        "y": 630.23,
+        "bx": 1010.57,
+        "by": 630.23,
+        "u": {
+          "cavalry": 3199,
+          "infantry": 472,
+          "archers": 517,
+          "artillery": 9
+        },
+        "n": 0,
+        "name": "2nd (Gobs) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 2,
+        "a": 3764,
+        "cell": 3843,
+        "x": 1390.01,
+        "y": 526.87,
+        "bx": 1390.01,
+        "by": 526.87,
+        "u": {
+          "cavalry": 2914,
+          "artillery": 12,
+          "infantry": 376,
+          "archers": 462
+        },
+        "n": 0,
+        "name": "3rd (Gneab) Regiment",
+        "state": 12,
+        "icon": "👑"
+      },
+      {
+        "i": 3,
+        "a": 3283,
+        "cell": 4074,
+        "x": 1278.72,
+        "y": 553.76,
+        "bx": 1278.72,
+        "by": 553.76,
+        "u": {
+          "cavalry": 2539,
+          "infantry": 350,
+          "archers": 390,
+          "artillery": 4
+        },
+        "n": 0,
+        "name": "4th (Kluird) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 4,
+        "a": 2664,
+        "cell": 2738,
+        "x": 1377.96,
+        "y": 410.45,
+        "bx": 1377.96,
+        "by": 410.45,
+        "u": {
+          "cavalry": 1978,
+          "infantry": 319,
+          "archers": 361,
+          "artillery": 6
+        },
+        "n": 0,
+        "name": "5th (Stroi) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 5,
+        "a": 2596,
+        "cell": 4088,
+        "x": 1467.79,
+        "y": 551.25,
+        "bx": 1467.79,
+        "by": 551.25,
+        "u": {
+          "cavalry": 1385,
+          "archers": 569,
+          "infantry": 637,
+          "artillery": 5
+        },
+        "n": 0,
+        "name": "6th (Gneab) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 6,
+        "a": 2235,
+        "cell": 2508,
+        "x": 1445.74,
+        "y": 377.94,
+        "bx": 1445.74,
+        "by": 377.94,
+        "u": {
+          "cavalry": 1287,
+          "archers": 461,
+          "infantry": 479,
+          "artillery": 8
+        },
+        "n": 0,
+        "name": "7th (Stroi) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 7,
+        "a": 1903,
+        "cell": 4915,
+        "x": 1151.23,
+        "y": 650.58,
+        "bx": 1151.23,
+        "by": 650.58,
+        "u": {
+          "cavalry": 1060,
+          "archers": 458,
+          "infantry": 378,
+          "artillery": 7
+        },
+        "n": 0,
+        "name": "8th (Glervaq) Regiment",
+        "state": 12,
+        "icon": "🐴"
+      },
+      {
+        "i": 8,
+        "a": 139,
+        "cell": 5563,
+        "x": 1041,
+        "y": 719.5,
+        "bx": 1041,
+        "by": 719.5,
+        "u": {
+          "archers": 85,
+          "cavalry": 17,
+          "artillery": 4,
+          "infantry": 33
+        },
+        "n": 0,
+        "name": "9th (Slof) Regiment",
+        "state": 12,
+        "icon": "🏹"
+      },
+      {
+        "i": 9,
+        "a": 1,
+        "cell": 5069,
+        "x": 1360.5,
+        "y": 676.9,
+        "bx": 1360.5,
+        "by": 676.9,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 12,
+        "icon": "🌊"
+      },
+      {
+        "i": 10,
+        "a": 1,
+        "cell": 5184,
+        "x": 1121.5,
+        "y": 687.9,
+        "bx": 1121.5,
+        "by": 687.9,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 12,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      14,
+      7,
+      15,
+      5,
+      9,
+      0,
+      1
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 25,
+    "dominantBiomes": [
+      {
+        "biome": "biome#3",
+        "count": 332
+      },
+      {
+        "biome": "biome#5",
+        "count": 278
+      },
+      {
+        "biome": "biome#1",
+        "count": 87
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Kobblinism",
+        "count": 363
+      },
+      {
+        "religion": "Old Kobblin Shamanism",
+        "count": 300
+      },
+      {
+        "religion": "No religion",
+        "count": 99
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Kobblin",
+        "count": 702
+      },
+      {
+        "culture": "Wildlands",
+        "count": 99
+      },
+      {
+        "culture": "Durinn",
+        "count": 2
+      }
+    ]
+  },
+  "economy": {
+    "ports": 3,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 12,
+        "name": "Wruilx",
+        "pop": 21.289,
+        "port": false
+      },
+      {
+        "id": 129,
+        "name": "Wruil",
+        "pop": 19.883,
+        "port": false
+      },
+      {
+        "id": 204,
+        "name": "Rekx",
+        "pop": 18.291,
+        "port": false
+      },
+      {
+        "id": 181,
+        "name": "Gobshai",
+        "pop": 12.115,
+        "port": true
+      },
+      {
+        "id": 406,
+        "name": "Phig",
+        "pop": 10.523,
+        "port": false
+      }
+    ]
+  }
+}

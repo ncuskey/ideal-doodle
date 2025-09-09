@@ -1,0 +1,306 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 1
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Slor'th",
+    "capitalBurgId": 1,
+    "area": 27312,
+    "military": [
+      {
+        "i": 0,
+        "a": 8381,
+        "cell": 4457,
+        "x": 1546.66,
+        "y": 594.08,
+        "bx": 1546.66,
+        "by": 594.08,
+        "u": {
+          "archers": 4308,
+          "cavalry": 347,
+          "infantry": 3490,
+          "artillery": 236
+        },
+        "n": 0,
+        "name": "1st (Slalzan) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 1,
+        "a": 4721,
+        "cell": 4218,
+        "x": 1599.69,
+        "y": 570.95,
+        "bx": 1599.69,
+        "by": 570.95,
+        "u": {
+          "archers": 2630,
+          "artillery": 72,
+          "cavalry": 136,
+          "infantry": 1883
+        },
+        "n": 0,
+        "name": "2nd (Slalzan) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 2,
+        "a": 4199,
+        "cell": 5087,
+        "x": 1535.3,
+        "y": 667.1,
+        "bx": 1535.3,
+        "by": 667.1,
+        "u": {
+          "archers": 2041,
+          "cavalry": 219,
+          "artillery": 85,
+          "infantry": 1854
+        },
+        "n": 0,
+        "name": "3rd (Sushaj) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 3,
+        "a": 4056,
+        "cell": 4096,
+        "x": 1573.53,
+        "y": 557.39,
+        "bx": 1573.53,
+        "by": 557.39,
+        "u": {
+          "archers": 2015,
+          "cavalry": 206,
+          "infantry": 1788,
+          "artillery": 47
+        },
+        "n": 0,
+        "name": "4th (Maj'a) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 4,
+        "a": 4013,
+        "cell": 5493,
+        "x": 1623.43,
+        "y": 705.91,
+        "bx": 1623.43,
+        "by": 705.91,
+        "u": {
+          "archers": 2221,
+          "cavalry": 113,
+          "artillery": 109,
+          "infantry": 1570
+        },
+        "n": 0,
+        "name": "5th (Maj'aj'kij) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 5,
+        "a": 3931,
+        "cell": 4091,
+        "x": 1503.07,
+        "y": 549.39,
+        "bx": 1503.07,
+        "by": 549.39,
+        "u": {
+          "archers": 1616,
+          "cavalry": 315,
+          "infantry": 1962,
+          "artillery": 38
+        },
+        "n": 0,
+        "name": "6th (Stiag) Regiment",
+        "state": 1,
+        "icon": "⚔️"
+      },
+      {
+        "i": 6,
+        "a": 3863,
+        "cell": 4696,
+        "x": 1531.5,
+        "y": 631.9,
+        "bx": 1531.5,
+        "by": 631.9,
+        "u": {
+          "archers": 1901,
+          "cavalry": 209,
+          "infantry": 1739,
+          "artillery": 14
+        },
+        "n": 0,
+        "name": "7th (Sushaj) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 7,
+        "a": 2355,
+        "cell": 4957,
+        "x": 1621.47,
+        "y": 647.52,
+        "bx": 1621.47,
+        "by": 647.52,
+        "u": {
+          "archers": 1270,
+          "artillery": 18,
+          "cavalry": 85,
+          "infantry": 982
+        },
+        "n": 0,
+        "name": "8th (Maj'aj'kij) Regiment",
+        "state": 1,
+        "icon": "🏹"
+      },
+      {
+        "i": 8,
+        "a": 2272,
+        "cell": 5218,
+        "x": 1453,
+        "y": 681.3,
+        "bx": 1453,
+        "by": 681.3,
+        "u": {
+          "infantry": 1260,
+          "cavalry": 246,
+          "artillery": 24,
+          "archers": 742
+        },
+        "n": 0,
+        "name": "9th (Sushaj) Regiment",
+        "state": 1,
+        "icon": "⚔️"
+      },
+      {
+        "i": 9,
+        "a": 20,
+        "cell": 5376,
+        "x": 1637.16,
+        "y": 703.77,
+        "bx": 1637.16,
+        "by": 703.77,
+        "u": {
+          "fleet": 20
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 1,
+        "icon": "🌊"
+      },
+      {
+        "i": 10,
+        "a": 1,
+        "cell": 5215,
+        "x": 1425.4,
+        "y": 687.59,
+        "bx": 1425.4,
+        "by": 687.59,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "2nd Fleet",
+        "state": 1,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      3,
+      12,
+      15
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 16,
+    "dominantBiomes": [
+      {
+        "biome": "biome#5",
+        "count": 89
+      },
+      {
+        "biome": "biome#7",
+        "count": 89
+      },
+      {
+        "biome": "biome#12",
+        "count": 18
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Slalzanian Deities",
+        "count": 194
+      },
+      {
+        "religion": "Kobblinism",
+        "count": 1
+      },
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 1
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Aj'Snaga",
+        "count": 163
+      },
+      {
+        "culture": "Kobblin",
+        "count": 33
+      }
+    ]
+  },
+  "economy": {
+    "ports": 2,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 1,
+        "name": "Slalzan",
+        "pop": 69.64,
+        "port": false
+      },
+      {
+        "id": 72,
+        "name": "Krazashju",
+        "pop": 17.702,
+        "port": false
+      },
+      {
+        "id": 253,
+        "name": "Shan'jen",
+        "pop": 17.235,
+        "port": false
+      },
+      {
+        "id": 230,
+        "name": "Gojesh",
+        "pop": 16.037,
+        "port": false
+      },
+      {
+        "id": 198,
+        "name": "Maj'aj'kij",
+        "pop": 14.93,
+        "port": true
+      }
+    ]
+  }
+}

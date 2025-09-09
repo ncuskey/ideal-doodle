@@ -1,0 +1,81 @@
+{
+  "id": 14,
+  "topBurgs": [
+    {
+      "id": 14,
+      "name": "Inwenver",
+      "pop": 19.529,
+      "port": false
+    },
+    {
+      "id": 135,
+      "name": "Knutstedge",
+      "pop": 11.86,
+      "port": true
+    },
+    {
+      "id": 96,
+      "name": "Lochi",
+      "pop": 10.562,
+      "port": false
+    },
+    {
+      "id": 364,
+      "name": "Babiln",
+      "pop": 7.44,
+      "port": false
+    },
+    {
+      "id": 244,
+      "name": "Inwenverthe",
+      "pop": 6.811,
+      "port": false
+    }
+  ],
+  "portCount": 3,
+  "hasCoast": true,
+  "riverCount": 9,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#3",
+      "count": 141
+    },
+    {
+      "biome": "biome#4",
+      "count": 56
+    },
+    {
+      "biome": "biome#6",
+      "count": 44
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Chordenver Faith",
+      "count": 181
+    },
+    {
+      "religion": "Durinn Faith",
+      "count": 39
+    },
+    {
+      "religion": "Kentian Spirits",
+      "count": 29
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Durinn",
+      "count": 131
+    },
+    {
+      "culture": "Keltan",
+      "count": 56
+    },
+    {
+      "culture": "Kentian",
+      "count": 47
+    }
+  ]
+}

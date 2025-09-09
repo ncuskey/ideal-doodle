@@ -1,0 +1,163 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 11
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Chipleteria",
+    "capitalBurgId": 11,
+    "area": 63938,
+    "military": [
+      {
+        "i": 0,
+        "a": 4097,
+        "cell": 996,
+        "x": 509.45,
+        "y": 207.61,
+        "bx": 509.45,
+        "by": 207.61,
+        "u": {
+          "infantry": 1655,
+          "cavalry": 1634,
+          "artillery": 23,
+          "archers": 785
+        },
+        "n": 0,
+        "name": "1st (Bington) Regiment",
+        "state": 11,
+        "icon": "⚔️"
+      },
+      {
+        "i": 1,
+        "a": 2449,
+        "cell": 994,
+        "x": 489.35,
+        "y": 208.44,
+        "bx": 489.35,
+        "by": 208.44,
+        "u": {
+          "infantry": 1251,
+          "cavalry": 382,
+          "artillery": 29,
+          "archers": 787
+        },
+        "n": 0,
+        "name": "2nd (Titondon) Regiment",
+        "state": 11,
+        "icon": "⚔️"
+      },
+      {
+        "i": 2,
+        "a": 3,
+        "cell": 803,
+        "x": 459.01,
+        "y": 168.71,
+        "bx": 459.01,
+        "by": 168.71,
+        "u": {
+          "fleet": 3
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 11,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      0,
+      2,
+      4,
+      9,
+      16
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 9,
+    "dominantBiomes": [
+      {
+        "biome": "biome#4",
+        "count": 137
+      },
+      {
+        "biome": "biome#1",
+        "count": 56
+      },
+      {
+        "biome": "biome#6",
+        "count": 45
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Autliardism",
+        "count": 133
+      },
+      {
+        "religion": "No religion",
+        "count": 106
+      },
+      {
+        "religion": "Nortumbic Spirits",
+        "count": 57
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Enlandic",
+        "count": 112
+      },
+      {
+        "culture": "Wildlands",
+        "count": 106
+      },
+      {
+        "culture": "Westen",
+        "count": 82
+      }
+    ]
+  },
+  "economy": {
+    "ports": 2,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 267,
+        "name": "Titondon",
+        "pop": 26.859,
+        "port": false
+      },
+      {
+        "id": 226,
+        "name": "Penkseyles",
+        "pop": 20.174,
+        "port": false
+      },
+      {
+        "id": 175,
+        "name": "Hengay",
+        "pop": 19.441,
+        "port": false
+      },
+      {
+        "id": 48,
+        "name": "Cocking",
+        "pop": 15.728,
+        "port": true
+      },
+      {
+        "id": 404,
+        "name": "Helsbury",
+        "pop": 8.692,
+        "port": false
+      }
+    ]
+  }
+}

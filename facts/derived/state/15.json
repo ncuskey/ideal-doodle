@@ -1,0 +1,69 @@
+{
+  "id": 15,
+  "topBurgs": [
+    {
+      "id": 15,
+      "name": "Hob",
+      "pop": 44.702,
+      "port": true
+    },
+    {
+      "id": 220,
+      "name": "Stroi",
+      "pop": 12.598,
+      "port": false
+    },
+    {
+      "id": 55,
+      "name": "Chalk",
+      "pop": 8.986,
+      "port": false
+    },
+    {
+      "id": 260,
+      "name": "Gob",
+      "pop": 8.915,
+      "port": false
+    },
+    {
+      "id": 239,
+      "name": "Driordeek",
+      "pop": 8.835,
+      "port": false
+    }
+  ],
+  "portCount": 1,
+  "hasCoast": true,
+  "riverCount": 6,
+  "routeHubs": [],
+  "dominantBiomes": [
+    {
+      "biome": "biome#7",
+      "count": 30
+    },
+    {
+      "biome": "biome#5",
+      "count": 25
+    }
+  ],
+  "dominantReligions": [
+    {
+      "religion": "Kobblinism",
+      "count": 53
+    },
+    {
+      "religion": "Aj'Snaga Spirits",
+      "count": 2
+    }
+  ],
+  "dominantCultures": [
+    {
+      "culture": "Kobblin",
+      "count": 53
+    },
+    {
+      "culture": "Aj'Snaga",
+      "count": 2
+    }
+  ]
+}

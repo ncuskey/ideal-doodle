@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 212
+  },
+  "burg": {
+    "name": "Cesher",
+    "pop": 1.04,
+    "port": false,
+    "isCapital": false
+  },
+  "state": {
+    "id": 1,
+    "name": "Slor'th"
+  },
+  "trade": {
+    "degree": 0,
+    "connectedBurgIds": []
+  },
+  "context": {
+    "stateDominantBiomes": [
+      {
+        "biome": "biome#5",
+        "count": 89
+      },
+      {
+        "biome": "biome#7",
+        "count": 89
+      },
+      {
+        "biome": "biome#12",
+        "count": 18
+      }
+    ],
+    "stateDominantReligions": [
+      {
+        "religion": "Slalzanian Deities",
+        "count": 194
+      },
+      {
+        "religion": "Kobblinism",
+        "count": 1
+      },
+      {
+        "religion": "Aj'Snaga Spirits",
+        "count": 1
+      }
+    ],
+    "stateDominantCultures": [
+      {
+        "culture": "Aj'Snaga",
+        "count": 163
+      },
+      {
+        "culture": "Kobblin",
+        "count": 33
+      }
+    ]
+  }
+}

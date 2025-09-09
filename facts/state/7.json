@@ -7,5 +7,100 @@
     14,
     15,
     12
+  ],
+  "area": 12063,
+  "military": [
+    {
+      "i": 0,
+      "a": 6493,
+      "cell": 2398,
+      "x": 1515.91,
+      "y": 368.05,
+      "bx": 1515.91,
+      "by": 368.05,
+      "u": {
+        "cavalry": 2857,
+        "artillery": 40,
+        "infantry": 1598,
+        "archers": 1998
+      },
+      "n": 0,
+      "name": "1st (Stroila) Regiment",
+      "state": 7,
+      "icon": "🐴"
+    },
+    {
+      "i": 1,
+      "a": 4271,
+      "cell": 2630,
+      "x": 1497.09,
+      "y": 391.8,
+      "bx": 1497.09,
+      "by": 391.8,
+      "u": {
+        "cavalry": 2218,
+        "archers": 981,
+        "infantry": 1055,
+        "artillery": 17
+      },
+      "n": 0,
+      "name": "2nd (Stroila) Regiment",
+      "state": 7,
+      "icon": "🐴"
+    },
+    {
+      "i": 2,
+      "a": 3740,
+      "cell": 1846,
+      "x": 1550.8,
+      "y": 303.1,
+      "bx": 1550.8,
+      "by": 303.1,
+      "u": {
+        "archers": 970,
+        "artillery": 41,
+        "infantry": 930,
+        "cavalry": 1799
+      },
+      "n": 0,
+      "name": "3rd (Moggbig) Regiment",
+      "state": 7,
+      "icon": "🐴"
+    },
+    {
+      "i": 3,
+      "a": 3503,
+      "cell": 2178,
+      "x": 1543.08,
+      "y": 336.5,
+      "bx": 1543.08,
+      "by": 336.5,
+      "u": {
+        "cavalry": 1768,
+        "archers": 841,
+        "infantry": 870,
+        "artillery": 24
+      },
+      "n": 0,
+      "name": "4th (Stroila) Regiment",
+      "state": 7,
+      "icon": "🐴"
+    },
+    {
+      "i": 4,
+      "a": 8,
+      "cell": 1846,
+      "x": 1551.49,
+      "y": 288.35,
+      "bx": 1551.49,
+      "by": 288.35,
+      "u": {
+        "fleet": 8
+      },
+      "n": 1,
+      "name": "1st Fleet",
+      "state": 7,
+      "icon": "🌊"
+    }
   ]
 }

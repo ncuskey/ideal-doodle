@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 9
+  },
+  "world": {
+    "era": "Westford Era",
+    "year": 1291,
+    "mapName": "Southia"
+  },
+  "state": {
+    "name": "Eraisia",
+    "capitalBurgId": 9,
+    "area": 47070,
+    "military": [
+      {
+        "i": 0,
+        "a": 2451,
+        "cell": 1888,
+        "x": 749.41,
+        "y": 310.94,
+        "bx": 749.41,
+        "by": 310.94,
+        "u": {
+          "infantry": 1117,
+          "archers": 611,
+          "cavalry": 709,
+          "artillery": 14
+        },
+        "n": 0,
+        "name": "1st (Chales) Regiment",
+        "state": 9,
+        "icon": "⚔️"
+      },
+      {
+        "i": 1,
+        "a": 1,
+        "cell": 1443,
+        "x": 783.1,
+        "y": 248.9,
+        "bx": 783.1,
+        "by": 248.9,
+        "u": {
+          "fleet": 1
+        },
+        "n": 1,
+        "name": "1st Fleet",
+        "state": 9,
+        "icon": "🌊"
+      }
+    ],
+    "neighbors": [
+      11,
+      13,
+      5,
+      0,
+      12
+    ]
+  },
+  "geography": {
+    "hasCoast": true,
+    "riverCount": 11,
+    "dominantBiomes": [
+      {
+        "biome": "biome#6",
+        "count": 106
+      },
+      {
+        "biome": "biome#4",
+        "count": 67
+      },
+      {
+        "biome": "biome#5",
+        "count": 33
+      }
+    ]
+  },
+  "society": {
+    "dominantReligions": [
+      {
+        "religion": "Autliardism",
+        "count": 237
+      },
+      {
+        "religion": "No religion",
+        "count": 43
+      }
+    ],
+    "dominantCultures": [
+      {
+        "culture": "Luarian",
+        "count": 125
+      },
+      {
+        "culture": "Westen",
+        "count": 74
+      },
+      {
+        "culture": "Wildlands",
+        "count": 43
+      }
+    ]
+  },
+  "economy": {
+    "ports": 2,
+    "routeHubs": [],
+    "topBurgs": [
+      {
+        "id": 121,
+        "name": "Jarquilly",
+        "pop": 27.21,
+        "port": false
+      },
+      {
+        "id": 460,
+        "name": "Chales",
+        "pop": 21.735,
+        "port": false
+      },
+      {
+        "id": 251,
+        "name": "Dunskirk",
+        "pop": 19.944,
+        "port": false
+      },
+      {
+        "id": 389,
+        "name": "Walton",
+        "pop": 15.703,
+        "port": false
+      },
+      {
+        "id": 403,
+        "name": "Bridgewent",
+        "pop": 15.38,
+        "port": false
+      }
+    ]
+  }
+}
