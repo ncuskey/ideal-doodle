@@ -1,7 +1,7 @@
 {
   "world_id": "world",
   "checksum": "fnv1a_a43ac85a",
-  "generated_at": "2025-09-09T04:45:08.586Z",
+  "generated_at": "2025-09-09T04:53:42.005Z",
   "affinities": [
     {
       "sugg_id": "religion_link_fnv1a_66561e59",
@@ -12404,5 +12404,54 @@
       "impact_scope": "interstate"
     }
   ],
-  "hook_placements": []
+  "hook_placements": [
+    {
+      "sugg_id": "hook_place_marker_fnv1a_f30069c5",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 1,
+      "state_id": 0,
+      "score": 0.9,
+      "rationale": "Near marker \"Rompound Wisdom Spring\" (marker); tags [\"marker\",\"rompound\",\"wisdom\",\"spring\",\"ancient\"]"
+    },
+    {
+      "sugg_id": "hook_place_marker_fnv1a_63492914",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 1,
+      "state_id": 0,
+      "score": 0.9,
+      "rationale": "Near marker \"Gneab Pillar\" (marker); tags [\"marker\",\"gneab\",\"pillar\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]"
+    },
+    {
+      "sugg_id": "hook_place_marker_fnv1a_367b5820",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 101,
+      "state_id": -1,
+      "score": 0.9,
+      "rationale": "Near marker \"Chalkvish Obelisk\" (marker); tags [\"marker\",\"chalkvish\",\"obelisk\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]"
+    },
+    {
+      "sugg_id": "hook_place_marker_fnv1a_2a6c1511",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 101,
+      "state_id": -1,
+      "score": 0.9,
+      "rationale": "Near marker \"Rilugume Stele\" (marker); tags [\"marker\",\"rilugume\",\"stele\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]"
+    },
+    {
+      "sugg_id": "hook_place_marker_fnv1a_126fa9e4",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 385,
+      "state_id": null,
+      "score": 0.9,
+      "rationale": "Near marker \"Ruined Fort\" (marker); tags [\"marker\",\"ruined\",\"fort\",\"ancient\"]"
+    },
+    {
+      "sugg_id": "hook_place_marker_fnv1a_7de6ca05",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 385,
+      "state_id": null,
+      "score": 0.9,
+      "rationale": "Near marker \"Ruined Fortress\" (marker); tags [\"marker\",\"ruined\",\"fortress\",\"ancient\"]"
+    }
+  ]
 }

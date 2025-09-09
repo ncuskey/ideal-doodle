@@ -68,7 +68,7 @@ function gather() {
   }
 
   // Hooks templates (optional; not required for this step)
-  const hookTemplates: Array<{hook_template_id:string; themes:Set<string>}> = [];
+  const hookTemplates: Array<{hook_template_id:string; themes:Set<string>; placement_rules?:any}> = [];
   if (fs.existsSync("canon/quests/hooks")) {
     for (const f of listJson("canon/quests/hooks")) {
       const ho = readJson<J>(f);
@@ -79,11 +79,25 @@ function gather() {
         ...(Array.isArray(ho.keywords) ? ho.keywords : []),
         ...(Array.isArray(ho.outline?.clue_bullets) ? ho.outline.clue_bullets : [])
       ].map(normTag).filter(Boolean));
-      hookTemplates.push({ hook_template_id: id, themes });
+      hookTemplates.push({ hook_template_id: id, themes, placement_rules: ho.placement_rules });
     }
   }
 
-  return { world, interstate, stateOutlines, provs, burgs, hookTemplates };
+  // Markers (from Azgaar export → index/markers.json)
+  let markers: Array<{id:string; name:string; type:string; tags:string[]; near_burg_ids_hint:number[]}> = [];
+  if (fs.existsSync("index/markers.json")) {
+    const mi = readJson<J>("index/markers.json");
+    if (mi?.markers && Array.isArray(mi.markers)) {
+      markers = mi.markers.map((m:any) => ({
+        id: String(m.id), name: String(m.name || m.id),
+        type: String(m.type || "marker"),
+        tags: Array.isArray(m.tags) ? m.tags.map((t:string)=>String(t).toLowerCase()) : [],
+        near_burg_ids_hint: Array.isArray(m.near_burg_ids_hint) ? m.near_burg_ids_hint.map((x:any)=>Number(x)).filter(Number.isFinite) : []
+      }));
+    }
+  }
+
+  return { world, interstate, stateOutlines, provs, burgs, hookTemplates, markers };
 }
 
 // --- Affinity scoring heuristics (deterministic, cheap) ---
@@ -180,30 +194,91 @@ function main() {
     }
   }
 
-  // Optional: Hook placements, only if templates exist
+  // Optional: Hook placements (templates + markers)
   const hook_placements: any[] = [];
   if (g.hookTemplates.length) {
-    // Simple mapping: if burg quest_hook_slots share a theme with a template, suggest placement
+    // Index burgs by id for quick lookups
+    const burgById = new Map<number, (typeof g.burgs)[number]>();
+    for (const b of g.burgs) burgById.set(b.id, b);
+
+    // 1) Theme-based placements (burg quest_hook_slots overlap) — keep previous simple logic
     for (const f of listJson("canon/burg")) {
       const bo = readJson<J>(f);
       if (!bo) continue;
       const burg_id = Number(bo.burg_id ?? path.basename(f, ".json"));
       const state_id = Number(bo.state_id ?? 0);
-      const slots: string[] = (bo.quest_hook_slots || []).map(normTag);
+      const slots: string[] = (bo.quest_hook_slots || []).map((s:string)=>s.toLowerCase());
       if (!slots.length) continue;
 
       for (const ht of g.hookTemplates) {
-        const overlap = jaccard(new Set(slots), ht.themes);
+        const overlap = jaccard(new Set(slots), new Set(ht.themes || []));
         if (overlap >= 0.5) {
           const sugg_id = mkSuggId("hook_place", `hook:${ht.hook_template_id}`, `burg:${burg_id}`);
           hook_placements.push({
+            sugg_id, hook_template_id: ht.hook_template_id,
+            burg_id, state_id, score: Number(overlap.toFixed(3)),
+            rationale: `Theme overlap between burg slots ${JSON.stringify(slots)} and template themes`
+          });
+        }
+      }
+    }
+
+    // 2) Marker-based placements (e.g., untranslated monoliths near burgs)
+    const htById = new Map<string, any>();
+    for (const ht of g.hookTemplates) htById.set(String(ht.hook_template_id), ht);
+
+    for (const ht of g.hookTemplates) {
+      const pr = ht.placement_rules || {};
+      const markerTypes = new Set<string>((pr.marker_types || []).map((x:string)=>x.toLowerCase()));
+      const markerTagsAny = new Set<string>((pr.marker_tags_any || []).map((x:string)=>x.toLowerCase()));
+      const capPerState = pr.cap_per_state ?? Infinity;
+      const capWorld = pr.cap_world ?? Infinity;
+      const burgsPerMarker = Math.max(1, pr.burgs_per_marker ?? 1);
+
+      if (!markerTypes.size && !markerTagsAny.size) continue;
+
+      // counters for caps
+      const perState: Record<number, number> = {};
+      let total = 0;
+
+      for (const mk of g.markers) {
+        if (total >= capWorld) break;
+
+        const typeOk = markerTypes.size ? markerTypes.has(mk.type.toLowerCase()) : true;
+        const tagOk = markerTagsAny.size ? mk.tags.some(t => markerTagsAny.has(String(t).toLowerCase())) : true;
+        if (!typeOk || !tagOk) continue;
+
+        // choose up to N nearest burgs (from precomputed hints)
+        let candidates = (mk.near_burg_ids_hint || []).map(id => burgById.get(id)).filter(Boolean) as (typeof g.burgs)[number][];
+        
+        // Fallback: if no nearby burg hints, use all burgs as candidates (will be capped by placement rules)
+        if (!candidates.length) {
+          candidates = g.burgs;
+        }
+
+        // score heuristic: base on theme match + marker presence; 0.9 for direct marker proximity
+        const baseScore = 0.9;
+
+        let placedForThisMarker = 0;
+        for (const b of candidates) {
+          if (placedForThisMarker >= burgsPerMarker) break;
+          const usedInState = perState[b.state_id] || 0;
+          if (usedInState >= capPerState) continue;
+          if (total >= capWorld) break;
+
+          const sugg_id = mkSuggId("hook_place_marker", `hook:${ht.hook_template_id}`, `burg:${b.id}_${mk.id}`);
+          hook_placements.push({
             sugg_id,
             hook_template_id: ht.hook_template_id,
-            burg_id,
-            state_id,
-            score: Number(overlap.toFixed(3)),
-            rationale: `Theme overlap between burg hook slots ${JSON.stringify(slots)} and template themes`
+            burg_id: b.id,
+            state_id: b.state_id,
+            score: baseScore,
+            rationale: `Near marker "${mk.name}" (${mk.type}); tags ${JSON.stringify(mk.tags)}`
           });
+
+          perState[b.state_id] = usedInState + 1;
+          total += 1;
+          placedForThisMarker += 1;
         }
       }
     }

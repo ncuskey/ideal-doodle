@@ -27,23 +27,28 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run canon:burg:outline         # Burg outlines (from fact data)
    ```
 
-4. **Generate Cross-Link Suggestions** (Deterministic Affinities)
+4. **Build Marker Index** (Azgaar Markers)
    ```bash
-   npm run links:suggest              # Cross-state affinities (religion, culture, trade, migration)
+   npm run canon:markers:index        # Extract markers from Azgaar JSON (Chalkvish Obelisk, etc.)
    ```
 
-5. **Generate Rich Lore**
+5. **Generate Cross-Link Suggestions** (Deterministic Affinities + Hook Placements)
+   ```bash
+   npm run links:suggest              # Cross-state affinities + marker-driven hook placements
+   ```
+
+6. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-6. **Build Catalog**
+7. **Build Catalog**
    ```bash
    npm run catalog:build  # Create compact UI index
    ```
 
-7. **View Results**
+8. **View Results**
    ```bash
    python3 -m http.server 8000
    # Open http://localhost:8000/loregen-dashboard.html
@@ -66,7 +71,10 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Province outlines**: `npm run canon:province:outline`
 - **Burg outlines**: `npm run canon:burg:outline`
 
-### Cross-Link Suggestions (Deterministic Affinities)
+### Marker Index (Azgaar Markers)
+- **Build marker index**: `npm run canon:markers:index`
+
+### Cross-Link Suggestions (Deterministic Affinities + Hook Placements)
 - **Generate cross-link suggestions**: `npm run links:suggest`
 
 ### Rich Lore Generation
@@ -132,10 +140,13 @@ canon/              # Canon outlines (two-pass foundation)
 │   ├── prov_0_port_of_skiffs.outline.json
 │   ├── prov_0_lower_marshes.outline.json
 │   └── ...           # All province outlines
-└── burg/           # Burg outlines (from fact data)
-    ├── 1.outline.json
-    ├── 2.outline.json
-    └── ...           # All burg outlines
+├── burg/           # Burg outlines (from fact data)
+│   ├── 1.outline.json
+│   ├── 2.outline.json
+│   └── ...           # All burg outlines
+└── quests/         # Quest hook templates
+    └── hooks/      # Hook template definitions
+        └── hook_untranslated_monolith.outline.json # Untranslated monolith hook
 
 index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
@@ -143,6 +154,7 @@ index/              # LLM-optimized data
 │   └── burg/       # Burg prompt packs
 ├── graph.json      # Dependency graph
 ├── catalog.json    # UI catalog (kingdoms + burgs)
+├── markers.json    # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 ├── dirty.seeds.json # Event-driven change seeds
 ├── validate-summary.json # Validation results
@@ -160,6 +172,8 @@ schemas/            # JSON schemas
 ├── state_outline.schema.json
 ├── province_outline.schema.json
 ├── burg_outline.schema.json
+├── markers_index.schema.json
+├── hook_template_outline.schema.json
 ├── link_suggestions.schema.json
 ├── lore.state.full.schema.json
 └── lore.burg.full.schema.json
@@ -305,9 +319,10 @@ npm run canon:burg:outline         # Burg outlines (from fact data)
 # Or single state: npm run canon:state:outline:one -- 1
 ```
 
-**Cross-Link Suggestions:**
+**Marker Index & Cross-Link Suggestions:**
 ```bash
-npm run links:suggest              # Generate cross-state affinities (religion, culture, trade, migration)
+npm run canon:markers:index        # Extract markers from Azgaar JSON
+npm run links:suggest              # Generate cross-state affinities + marker-driven hook placements
 ```
 
 **Rich Lore Generation:**

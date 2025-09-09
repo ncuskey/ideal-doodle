@@ -27,13 +27,17 @@ LoreGen/
 │   │   ├── prov_0_port_of_skiffs.outline.json
 │   │   ├── prov_0_lower_marshes.outline.json
 │   │   └── ...             # All province outlines
-│   └── burg/               # Burg outlines (from fact data)
-│       ├── 1.outline.json
-│       ├── 2.outline.json
-│       └── ...             # All burg outlines
+│   ├── burg/               # Burg outlines (from fact data)
+│   │   ├── 1.outline.json
+│   │   ├── 2.outline.json
+│   │   └── ...             # All burg outlines
+│   └── quests/             # Quest hook templates
+│       └── hooks/          # Hook template definitions
+│           └── hook_untranslated_monolith.outline.json # Untranslated monolith hook
 ├── index/                  # Graph & indexing
 │   ├── graph.json          # DAG: burg → state → world
 │   ├── catalog.json        # UI catalog (kingdoms + burgs)
+│   ├── markers.json        # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 │   ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 │   ├── promptFacts/        # LLM-optimized fact packs
 │   │   ├── state/          # State prompt packs
@@ -53,6 +57,8 @@ LoreGen/
 │   ├── state_outline.schema.json          # State outline schema
 │   ├── province_outline.schema.json       # Province outline schema
 │   ├── burg_outline.schema.json           # Burg outline schema
+│   ├── markers_index.schema.json          # Marker index schema
+│   ├── hook_template_outline.schema.json  # Hook template schema
 │   ├── link_suggestions.schema.json       # Cross-link suggestions schema
 │   ├── lore.burg.schema.json              # Burg lore schema
 │   ├── lore.state.schema.json             # State lore schema
@@ -95,6 +101,7 @@ LoreGen/
         ├── buildCatalog.ts     # Build UI catalog (kingdoms + burgs)
         ├── buildLinkSuggestions.ts # Build cross-link suggestions (facts-based)
         ├── crossLinkSuggest.ts  # Generate cross-link suggestions (canon-based)
+        ├── buildMarkerIndex.ts  # Build marker index from Azgaar JSON
         ├── canonWorldOutline.ts      # Generate world canon outline
         ├── canonInterstateOutline.ts # Generate inter-state outline
         ├── canonStateOutline.ts      # Generate state outlines
@@ -140,6 +147,14 @@ LoreGen/
 - **Rate-Limit Integration**: Uses `withRateLimitRetry()` for robust API calls
 - **Cheap Regeneration**: Outline passes are fast and can be run frequently
 
+### Marker Index System (Azgaar Integration)
+- **Marker Extraction**: Extracts markers from Azgaar JSON exports (obelisks, steles, pillars, etc.)
+- **Rune Text Detection**: Automatically identifies untranslated text in marker legends
+- **Tag Generation**: Creates semantic tags from marker names, types, and content
+- **Proximity Hints**: Calculates nearby burg IDs for marker-based hook placement
+- **Hook Template Integration**: Links markers to quest hook templates via placement rules
+- **Placement Rules**: Configurable caps (per-state, world-wide) and filtering criteria
+
 ### Caching System
 - **Hash Generation**: `cacheKeyForEntity()` computes deterministic hashes
 - **Regeneration Guard**: `shouldRegen()` skips when hash matches
@@ -166,6 +181,7 @@ npm run facts:derive         # Compute derived statistics
 npm run facts:promptpacks    # Create LLM-optimized fact packs
 npm run graph:build          # Build dependency graph
 npm run catalog:build        # Build UI catalog
+npm run canon:markers:index  # Build marker index from Azgaar JSON
 npm run links:suggest        # Generate cross-link suggestions (canon-based)
 npm run canon:province:outline # Generate province outlines
 npm run canon:burg:outline   # Generate burg outlines

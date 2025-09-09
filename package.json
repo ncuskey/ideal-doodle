@@ -11,6 +11,7 @@
     "canon:state:outline:one": "tsx src/pipelines/canonStateOutline.ts --id=",
     "canon:province:outline": "tsx src/pipelines/canonProvinceOutline.ts",
     "canon:burg:outline": "tsx src/pipelines/canonBurgOutline.ts",
+    "canon:markers:index": "tsx src/pipelines/buildMarkerIndex.ts",
 
     "links:suggest": "tsx src/pipelines/crossLinkSuggest.ts",
 

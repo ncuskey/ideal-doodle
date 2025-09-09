@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hook_template_outline.schema.json",
+  "title": "Quest Hook Template (Outline)",
+  "type": "object",
+  "required": ["hook_template_id", "title", "themes", "placement_rules", "outline"],
+  "properties": {
+    "hook_template_id": { "type": "string" },
+    "title": { "type": "string" },
+    "chain_id": { "type": "string" },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "placement_rules": {
+      "type": "object",
+      "properties": {
+        "filters": {
+          "type": "object",
+          "properties": {
+            "coastal": { "type": "boolean" },
+            "has_docks": { "type": "boolean" },
+            "pop_min": { "type": "integer" }
+          },
+          "additionalProperties": true
+        },
+        "cap_per_state": { "type": "integer" },
+        "cap_world": { "type": "integer" },
+        "marker_types": { "type": "array", "items": { "type": "string" } },
+        "marker_tags_any": { "type": "array", "items": { "type": "string" } },
+        "max_km_from_marker": { "type": "number" },
+        "burgs_per_marker": { "type": "integer" }
+      },
+      "required": ["cap_world"]
+    },
+    "outline": {
+      "type": "object",
+      "properties": {
+        "prompt": { "type": "string" },
+        "clue_bullets": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["prompt"]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,2381 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_4ee617e1",
+  "generated_at": "2025-09-09T04:49:38.973Z",
+  "markers": [
+    {
+      "id": "regiment1-0",
+      "name": "1st (Slalzan) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 1st (Slalzan) Regiment is stationed in Slalzan.\nRegiment composition in 1291 WE:\n— archers: 4308\n— cavalry: 347\n— infantry: 3490\n— artillery: 236.",
+      "legend_html": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 1st (Slalzan) Regiment is stationed in Slalzan. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 4308\r\n— cavalry: 347\r\n— infantry: 3490\r\n— artillery: 236.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "slalzan",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-1",
+      "name": "2nd (Slalzan) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1289 Westford Era during the Slor'th-Zataphruzian War. 2nd (Slalzan) Regiment is stationed in Zataph.\nRegiment composition in 1291 WE:\n— archers: 2630\n— artillery: 72\n— cavalry: 136\n— infantry: 1883.",
+      "legend_html": "Regiment was formed in 1289 Westford Era during the Slor'th-Zataphruzian War. 2nd (Slalzan) Regiment is stationed in Zataph. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2630\r\n— artillery: 72\r\n— cavalry: 136\r\n— infantry: 1883.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "slalzan",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-2",
+      "name": "3rd (Sushaj) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1291 Westford Era during the Slor'th-Zataphruzian War. 3rd (Sushaj) Regiment is stationed in Gojesh.\nRegiment composition in 1291 WE:\n— archers: 2041\n— cavalry: 219\n— artillery: 85\n— infantry: 1854.",
+      "legend_html": "Regiment was formed in 1291 Westford Era during the Slor'th-Zataphruzian War. 3rd (Sushaj) Regiment is stationed in Gojesh. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2041\r\n— cavalry: 219\r\n— artillery: 85\r\n— infantry: 1854.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "sushaj",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-3",
+      "name": "4th (Maj'a) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 4th (Maj'a) Regiment is stationed in Maj'a Parish.\nRegiment composition in 1291 WE:\n— archers: 2015\n— cavalry: 206\n— infantry: 1788\n— artillery: 47.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 4th (Maj'a) Regiment is stationed in Maj'a Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2015\r\n— cavalry: 206\r\n— infantry: 1788\r\n— artillery: 47.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "maj_a",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-4",
+      "name": "5th (Maj'aj'kij) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1248 Westford Era during the Hob Expedition. 5th (Maj'aj'kij) Regiment is stationed in Shan'jen.\nRegiment composition in 1291 WE:\n— archers: 2221\n— cavalry: 113\n— artillery: 109\n— infantry: 1570.",
+      "legend_html": "Regiment was formed in 1248 Westford Era during the Hob Expedition. 5th (Maj'aj'kij) Regiment is stationed in Shan'jen. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2221\r\n— cavalry: 113\r\n— artillery: 109\r\n— infantry: 1570.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "maj_aj_kij",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-5",
+      "name": "6th (Stiag) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1203 Westford Era during the Monas Campaign. 6th (Stiag) Regiment is stationed in Stiag Parish.\nRegiment composition in 1291 WE:\n— archers: 1616\n— cavalry: 315\n— infantry: 1962\n— artillery: 38.",
+      "legend_html": "Regiment was formed in 1203 Westford Era during the Monas Campaign. 6th (Stiag) Regiment is stationed in Stiag Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1616\r\n— cavalry: 315\r\n— infantry: 1962\r\n— artillery: 38.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "6th",
+        "stiag",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-6",
+      "name": "7th (Sushaj) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1286 Westford Era during the Grian Conflict. 7th (Sushaj) Regiment is stationed in Sushaj Parish.\nRegiment composition in 1291 WE:\n— archers: 1901\n— cavalry: 209\n— infantry: 1739\n— artillery: 14.",
+      "legend_html": "Regiment was formed in 1286 Westford Era during the Grian Conflict. 7th (Sushaj) Regiment is stationed in Sushaj Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1901\r\n— cavalry: 209\r\n— infantry: 1739\r\n— artillery: 14.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "7th",
+        "sushaj",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-7",
+      "name": "8th (Maj'aj'kij) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1203 Westford Era during the Monas Campaign. 8th (Maj'aj'kij) Regiment is stationed in Ath'jas.\nRegiment composition in 1291 WE:\n— archers: 1270\n— artillery: 18\n— cavalry: 85\n— infantry: 982.",
+      "legend_html": "Regiment was formed in 1203 Westford Era during the Monas Campaign. 8th (Maj'aj'kij) Regiment is stationed in Ath'jas. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1270\r\n— artillery: 18\r\n— cavalry: 85\r\n— infantry: 982.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "8th",
+        "maj_aj_kij",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-8",
+      "name": "9th (Sushaj) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 9th (Sushaj) Regiment is stationed in Etesh.\nRegiment composition in 1291 WE:\n— infantry: 1260\n— cavalry: 246\n— artillery: 24\n— archers: 742.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 9th (Sushaj) Regiment is stationed in Etesh. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1260\r\n— cavalry: 246\r\n— artillery: 24\r\n— archers: 742.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "9th",
+        "sushaj",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment1-9",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1291 Westford Era during the Slor'th-Zataphruzian War. 1st Fleet is based in Maj'aj'kij.\nRegiment composition in 1291 WE:\n— fleet: 20.",
+      "legend_html": "Regiment was formed in 1291 Westford Era during the Slor'th-Zataphruzian War. 1st Fleet is based in Maj'aj'kij. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 20.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment1-10",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 2nd Fleet is based in Eszi.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Grian Conflict. 2nd Fleet is based in Eszi. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment2-0",
+      "name": "1st (Oakburghia) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1158 Westford Era during the Chipleterian Invasion. 1st (Oakburghia) Regiment is stationed in Salces.\nRegiment composition in 1291 WE:\n— archers: 1410\n— cavalry: 629\n— infantry: 1352\n— artillery: 30.",
+      "legend_html": "Regiment was formed in 1158 Westford Era during the Chipleterian Invasion. 1st (Oakburghia) Regiment is stationed in Salces. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1410\r\n— cavalry: 629\r\n— infantry: 1352\r\n— artillery: 30.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "oakburghia",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment2-1",
+      "name": "2nd (Axbridford) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1283 Westford Era during the Gatesinia-Iahzitian War. 2nd (Axbridford) Regiment is stationed in Axbridford.\nRegiment composition in 1291 WE:\n— archers: 996\n— artillery: 13\n— cavalry: 665\n— infantry: 1289.",
+      "legend_html": "Regiment was formed in 1283 Westford Era during the Gatesinia-Iahzitian War. 2nd (Axbridford) Regiment is stationed in Axbridford. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 996\r\n— artillery: 13\r\n— cavalry: 665\r\n— infantry: 1289.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "axbridford",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment2-2",
+      "name": "3rd (Stapton) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1158 Westford Era during the Chipleterian Invasion. 3rd (Stapton) Regiment is stationed in Stapton County.\nRegiment composition in 1291 WE:\n— infantry: 1280\n— archers: 1012\n— cavalry: 432\n— artillery: 16.",
+      "legend_html": "Regiment was formed in 1158 Westford Era during the Chipleterian Invasion. 3rd (Stapton) Regiment is stationed in Stapton County. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1280\r\n— archers: 1012\r\n— cavalry: 432\r\n— artillery: 16.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "stapton",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment2-3",
+      "name": "4th (Newceshamia) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1282 Westford Era during the Gatesinia-Iahzitian War. 4th (Newceshamia) Regiment is stationed in Neford.\nRegiment composition in 1291 WE:\n— archers: 362\n— cavalry: 434\n— artillery: 14\n— infantry: 597.",
+      "legend_html": "Regiment was formed in 1282 Westford Era during the Gatesinia-Iahzitian War. 4th (Newceshamia) Regiment is stationed in Neford. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 362\r\n— cavalry: 434\r\n— artillery: 14\r\n— infantry: 597.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "newceshamia",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment2-4",
+      "name": "5th (Redcking) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1036 Westford Era during the Iahzitan War. 5th (Redcking) Regiment is stationed in Gatesin.\nRegiment composition in 1291 WE:\n— archers: 187\n— artillery: 2\n— cavalry: 25\n— infantry: 150.",
+      "legend_html": "Regiment was formed in 1036 Westford Era during the Iahzitan War. 5th (Redcking) Regiment is stationed in Gatesin. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 187\r\n— artillery: 2\r\n— cavalry: 25\r\n— infantry: 150.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "redcking",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment2-5",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1284 Westford Era during the Gatesinia-Iahzitian War. 1st Fleet is based in Brampton.\nRegiment composition in 1291 WE:\n— fleet: 3.",
+      "legend_html": "Regiment was formed in 1284 Westford Era during the Gatesinia-Iahzitian War. 1st Fleet is based in Brampton. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 3.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment2-6",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1291 Westford Era during the Gatesinia-Iahzitian War. 2nd Fleet is based in Westckingle.\nRegiment composition in 1291 WE:\n— fleet: 2.",
+      "legend_html": "Regiment was formed in 1291 Westford Era during the Gatesinia-Iahzitian War. 2nd Fleet is based in Westckingle. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 2.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment2-7",
+      "name": "3rd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1039 Westford Era during the Iahzitan War. 3rd Fleet is based in Swaton.\nRegiment composition in 1291 WE:\n— fleet: 2.",
+      "legend_html": "Regiment was formed in 1039 Westford Era during the Iahzitan War. 3rd Fleet is based in Swaton. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 2.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment2-8",
+      "name": "4th Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1289 Westford Era during the Albrighan Invasion. 4th Fleet is based in Neford.\nRegiment composition in 1291 WE:\n— fleet: 2.",
+      "legend_html": "Regiment was formed in 1289 Westford Era during the Albrighan Invasion. 4th Fleet is based in Neford. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 2.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment3-0",
+      "name": "1st (Nasar) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 1st (Nasar) Regiment is stationed in Nasar.\nRegiment composition in 1291 WE:\n— archers: 2070\n— cavalry: 97\n— artillery: 81\n— infantry: 1436.",
+      "legend_html": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 1st (Nasar) Regiment is stationed in Nasar. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2070\r\n— cavalry: 97\r\n— artillery: 81\r\n— infantry: 1436.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "nasar",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-1",
+      "name": "2nd (Xas'tu) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Hoban Rebellion. 2nd (Xas'tu) Regiment is stationed in Xas'tu County.\nRegiment composition in 1291 WE:\n— archers: 1979\n— cavalry: 99\n— infantry: 1398\n— artillery: 45.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Hoban Rebellion. 2nd (Xas'tu) Regiment is stationed in Xas'tu County. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1979\r\n— cavalry: 99\r\n— infantry: 1398\r\n— artillery: 45.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "xas_tu",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-2",
+      "name": "3rd (Xas'tu) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1289 Westford Era during the Slor'th Conquest. 3rd (Xas'tu) Regiment is stationed in Itheshruz.\nRegiment composition in 1291 WE:\n— archers: 1643\n— cavalry: 69\n— infantry: 1108\n— artillery: 109.",
+      "legend_html": "Regiment was formed in 1289 Westford Era during the Slor'th Conquest. 3rd (Xas'tu) Regiment is stationed in Itheshruz. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1643\r\n— cavalry: 69\r\n— infantry: 1108\r\n— artillery: 109.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "xas_tu",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-3",
+      "name": "4th (Xas'tu) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1287 Westford Era during the Hoban Rebellion. 4th (Xas'tu) Regiment is stationed in Xas'tu County.\nRegiment composition in 1291 WE:\n— archers: 1418\n— cavalry: 113\n— infantry: 1148\n— artillery: 12.",
+      "legend_html": "Regiment was formed in 1287 Westford Era during the Hoban Rebellion. 4th (Xas'tu) Regiment is stationed in Xas'tu County. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1418\r\n— cavalry: 113\r\n— infantry: 1148\r\n— artillery: 12.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "xas_tu",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-4",
+      "name": "5th (Ki'jiress) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Hoban Rebellion. 5th (Ki'jiress) Regiment is stationed in Ki'jiress.\nRegiment composition in 1291 WE:\n— archers: 1432\n— cavalry: 71\n— artillery: 41\n— infantry: 1005.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Hoban Rebellion. 5th (Ki'jiress) Regiment is stationed in Ki'jiress. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1432\r\n— cavalry: 71\r\n— artillery: 41\r\n— infantry: 1005.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "ki_jiress",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-5",
+      "name": "6th (Nasar) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1289 Westford Era during the Slor'th-Zataphruzian War. 6th (Nasar) Regiment is stationed in Shan'ji.\nRegiment composition in 1291 WE:\n— archers: 1055\n— artillery: 11\n— cavalry: 94\n— infantry: 887.",
+      "legend_html": "Regiment was formed in 1289 Westford Era during the Slor'th-Zataphruzian War. 6th (Nasar) Regiment is stationed in Shan'ji. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1055\r\n— artillery: 11\r\n— cavalry: 94\r\n— infantry: 887.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "6th",
+        "nasar",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-6",
+      "name": "7th (Mapjar) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Slor'th Conquest. 7th (Mapjar) Regiment is stationed in Rroksas.\nRegiment composition in 1291 WE:\n— archers: 172\n— artillery: 3\n— cavalry: 9\n— infantry: 123.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Slor'th Conquest. 7th (Mapjar) Regiment is stationed in Rroksas. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 172\r\n— artillery: 3\r\n— cavalry: 9\r\n— infantry: 123.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "7th",
+        "mapjar",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment3-7",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Slor'th Conquest. 1st Fleet is based in Itheshruz.\nRegiment composition in 1291 WE:\n— fleet: 37.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Slor'th Conquest. 1st Fleet is based in Itheshruz. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 37.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment3-8",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 2nd Fleet is based in Oz'jash.\nRegiment composition in 1291 WE:\n— fleet: 12.",
+      "legend_html": "Regiment was formed in 1290 Westford Era during the Slor'th-Zataphruzian War. 2nd Fleet is based in Oz'jash. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 12.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment4-0",
+      "name": "1st (Afordbume) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Chipleteria-Duntefian War. 1st (Afordbume) Regiment is stationed in Uxbrid.\nRegiment composition in 1291 WE:\n— infantry: 1407\n— cavalry: 445\n— artillery: 41\n— archers: 1166.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Chipleteria-Duntefian War. 1st (Afordbume) Regiment is stationed in Uxbrid. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1407\r\n— cavalry: 445\r\n— artillery: 41\r\n— archers: 1166.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "afordbume",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment4-1",
+      "name": "2nd (Afordbume) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1087 Westford Era during the Rilorbarian War. 2nd (Afordbume) Regiment is stationed in Afordbume Shire.\nRegiment composition in 1291 WE:\n— infantry: 1181\n— archers: 958\n— cavalry: 400\n— artillery: 28.",
+      "legend_html": "Regiment was formed in 1087 Westford Era during the Rilorbarian War. 2nd (Afordbume) Regiment is stationed in Afordbume Shire. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1181\r\n— archers: 958\r\n— cavalry: 400\r\n— artillery: 28.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "afordbume",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment4-2",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1247 Westford Era during the Chipleterian Rebellion. 1st Fleet is based in Horston.\nRegiment composition in 1291 WE:\n— fleet: 12.",
+      "legend_html": "Regiment was formed in 1247 Westford Era during the Chipleterian Rebellion. 1st Fleet is based in Horston. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 12.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment5-0",
+      "name": "1st (Ulbligz) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1142 Westford Era during the Eraisian Expedition. 1st (Ulbligz) Regiment is stationed in Ulbligz Earldom.\nRegiment composition in 1291 WE:\n— cavalry: 2580\n— infantry: 308\n— archers: 426\n— artillery: 6.",
+      "legend_html": "Regiment was formed in 1142 Westford Era during the Eraisian Expedition. 1st (Ulbligz) Regiment is stationed in Ulbligz Earldom. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2580\r\n— infantry: 308\r\n— archers: 426\r\n— artillery: 6.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "ulbligz",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment5-1",
+      "name": "2nd (Ozbiard) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1290 Westford Era during the Doblinese Campaign. 2nd (Ozbiard) Regiment is stationed in Ozbiard Earldom.\nRegiment composition in 1291 WE:\n— cavalry: 1363\n— archers: 366\n— infantry: 335\n— artillery: 10.",
+      "legend_html": "Regiment was formed in 1290 Westford Era during the Doblinese Campaign. 2nd (Ozbiard) Regiment is stationed in Ozbiard Earldom. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1363\r\n— archers: 366\r\n— infantry: 335\r\n— artillery: 10.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "ozbiard",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment5-2",
+      "name": "3rd (Ulbligz) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1025 Westford Era during the Iahzish Campaign. 3rd (Ulbligz) Regiment is stationed in Ulbligz Earldom.\nRegiment composition in 1291 WE:\n— cavalry: 726\n— archers: 740\n— infantry: 488\n— artillery: 9.",
+      "legend_html": "Regiment was formed in 1025 Westford Era during the Iahzish Campaign. 3rd (Ulbligz) Regiment is stationed in Ulbligz Earldom. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 726\r\n— archers: 740\r\n— infantry: 488\r\n— artillery: 9.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "ulbligz",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment5-3",
+      "name": "4th (Kui) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1136 Westford Era during the Eraisian Expedition. 4th (Kui) Regiment is stationed in Kui Earldom.\nRegiment composition in 1291 WE:\n— cavalry: 441\n— archers: 307\n— infantry: 238\n— artillery: 7.",
+      "legend_html": "Regiment was formed in 1136 Westford Era during the Eraisian Expedition. 4th (Kui) Regiment is stationed in Kui Earldom. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 441\r\n— archers: 307\r\n— infantry: 238\r\n— artillery: 7.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "kui",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment5-4",
+      "name": "5th (Stiag) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Hobligzan Conflict. 5th (Stiag) Regiment is stationed in Stiag Territory.\nRegiment composition in 1291 WE:\n— cavalry: 296\n— infantry: 14\n— archers: 21.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Hobligzan Conflict. 5th (Stiag) Regiment is stationed in Stiag Territory. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 296\r\n— infantry: 14\r\n— archers: 21.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "stiag",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment5-5",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Doblinese Campaign. 1st Fleet is based in Ulbligz.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Doblinese Campaign. 1st Fleet is based in Ulbligz. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment5-6",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Hobligzan Conflict. 2nd Fleet is based in Cosxea.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Hobligzan Conflict. 2nd Fleet is based in Cosxea. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment5-7",
+      "name": "3rd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1141 Westford Era during the Eraisian Expedition. 3rd Fleet is based in Drior.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1141 Westford Era during the Eraisian Expedition. 3rd Fleet is based in Drior. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment6-0",
+      "name": "1st (Aber) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1286 Westford Era during the Banese Campaign. 1st (Aber) Regiment is stationed in Aber County.\nRegiment composition in 1291 WE:\n— infantry: 701\n— cavalry: 413\n— archers: 446\n— artillery: 6.",
+      "legend_html": "Regiment was formed in 1286 Westford Era during the Banese Campaign. 1st (Aber) Regiment is stationed in Aber County. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 701\r\n— cavalry: 413\r\n— archers: 446\r\n— artillery: 6.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "aber",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment7-0",
+      "name": "1st (Stroila) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 984 Westford Era during the Doblinese Rebellion. 1st (Stroila) Regiment is stationed in Blus.\nRegiment composition in 1291 WE:\n— cavalry: 2857\n— artillery: 40\n— infantry: 1598\n— archers: 1998.",
+      "legend_html": "Regiment was formed in 984 Westford Era during the Doblinese Rebellion. 1st (Stroila) Regiment is stationed in Blus. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2857\r\n— artillery: 40\r\n— infantry: 1598\r\n— archers: 1998.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "stroila",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment7-1",
+      "name": "2nd (Stroila) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1170 Westford Era during the Hoban Crusade. 2nd (Stroila) Regiment is stationed in Stroila County.\nRegiment composition in 1291 WE:\n— cavalry: 2218\n— archers: 981\n— infantry: 1055\n— artillery: 17.",
+      "legend_html": "Regiment was formed in 1170 Westford Era during the Hoban Crusade. 2nd (Stroila) Regiment is stationed in Stroila County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2218\r\n— archers: 981\r\n— infantry: 1055\r\n— artillery: 17.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "stroila",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment7-2",
+      "name": "3rd (Moggbig) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 918 Westford Era during the Banian War. 3rd (Moggbig) Regiment is stationed in Moggbig.\nRegiment composition in 1291 WE:\n— archers: 970\n— artillery: 41\n— infantry: 930\n— cavalry: 1799.",
+      "legend_html": "Regiment was formed in 918 Westford Era during the Banian War. 3rd (Moggbig) Regiment is stationed in Moggbig. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 970\r\n— artillery: 41\r\n— infantry: 930\r\n— cavalry: 1799.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "moggbig",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment7-3",
+      "name": "4th (Stroila) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 980 Westford Era during the Doblinese Rebellion. 4th (Stroila) Regiment is stationed in Stroila County.\nRegiment composition in 1291 WE:\n— cavalry: 1768\n— archers: 841\n— infantry: 870\n— artillery: 24.",
+      "legend_html": "Regiment was formed in 980 Westford Era during the Doblinese Rebellion. 4th (Stroila) Regiment is stationed in Stroila County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1768\r\n— archers: 841\r\n— infantry: 870\r\n— artillery: 24.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "stroila",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment7-4",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1166 Westford Era during the Hoban Crusade. 1st Fleet is based in Moggbig.\nRegiment composition in 1291 WE:\n— fleet: 8.",
+      "legend_html": "Regiment was formed in 1166 Westford Era during the Hoban Crusade. 1st Fleet is based in Moggbig. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 8.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment8-0",
+      "name": "1st (Modriaqu) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 1st (Modriaqu) Regiment is stationed in Modriaqu Parish.\nRegiment composition in 1291 WE:\n— infantry: 1699\n— archers: 1127\n— cavalry: 356\n— artillery: 37.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 1st (Modriaqu) Regiment is stationed in Modriaqu Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1699\r\n— archers: 1127\r\n— cavalry: 356\r\n— artillery: 37.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "modriaqu",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment8-1",
+      "name": "2nd (Sarimia) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 2nd (Sarimia) Regiment is stationed in Celia.\nRegiment composition in 1291 WE:\n— infantry: 1225\n— cavalry: 161\n— artillery: 19\n— archers: 1085.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 2nd (Sarimia) Regiment is stationed in Celia. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1225\r\n— cavalry: 161\r\n— artillery: 19\r\n— archers: 1085.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "sarimia",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment8-2",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1279 Westford Era during the Agripian Invasion. 1st Fleet is based in Geliba.\nRegiment composition in 1291 WE:\n— fleet: 4.",
+      "legend_html": "Regiment was formed in 1279 Westford Era during the Agripian Invasion. 1st Fleet is based in Geliba. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 4.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment8-3",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 2nd Fleet is based in Castiamu.\nRegiment composition in 1291 WE:\n— fleet: 2.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 2nd Fleet is based in Castiamu. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 2.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment8-4",
+      "name": "3rd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 3rd Fleet is based in Focelia.\nRegiment composition in 1291 WE:\n— fleet: 2.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 3rd Fleet is based in Focelia. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 2.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment8-5",
+      "name": "4th Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 4th Fleet is based in Movium.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 4th Fleet is based in Movium. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment8-6",
+      "name": "5th Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 5th Fleet is based in Matiavum.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1278 Westford Era during the Agripian Invasion. 5th Fleet is based in Matiavum. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment9-0",
+      "name": "1st (Chales) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1174 Westford Era during the Doblinese Campaign. 1st (Chales) Regiment is stationed in Chales Margrave.\nRegiment composition in 1291 WE:\n— infantry: 1117\n— archers: 611\n— cavalry: 709\n— artillery: 14.",
+      "legend_html": "Regiment was formed in 1174 Westford Era during the Doblinese Campaign. 1st (Chales) Regiment is stationed in Chales Margrave. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1117\r\n— archers: 611\r\n— cavalry: 709\r\n— artillery: 14.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "chales",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment9-1",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Rilorbarian War. 1st Fleet is based in Ouvilyles.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Rilorbarian War. 1st Fleet is based in Ouvilyles. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment10-0",
+      "name": "1st (Aberdurum) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 990 Westford Era during the Banian Campaign. 1st (Aberdurum) Regiment is stationed in Aberdurum Parish.\nRegiment composition in 1291 WE:\n— archers: 1671\n— cavalry: 3045\n— infantry: 2162\n— artillery: 12.",
+      "legend_html": "Regiment was formed in 990 Westford Era during the Banian Campaign. 1st (Aberdurum) Regiment is stationed in Aberdurum Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1671\r\n— cavalry: 3045\r\n— infantry: 2162\r\n— artillery: 12.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "aberdurum",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment10-1",
+      "name": "2nd (Aberdurum) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Rilorbarian Conquest. 2nd (Aberdurum) Regiment is stationed in Aberdurum Parish.\nRegiment composition in 1291 WE:\n— infantry: 1273\n— archers: 1194\n— cavalry: 413\n— artillery: 3.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Rilorbarian Conquest. 2nd (Aberdurum) Regiment is stationed in Aberdurum Parish. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1273\r\n— archers: 1194\r\n— cavalry: 413\r\n— artillery: 3.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "aberdurum",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment10-2",
+      "name": "3rd (Bodubin) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 987 Westford Era during the Banian Campaign. 3rd (Bodubin) Regiment is stationed in Bodubin.\nRegiment composition in 1291 WE:\n— archers: 1428\n— cavalry: 163\n— artillery: 43\n— infantry: 1110.",
+      "legend_html": "Regiment was formed in 987 Westford Era during the Banian Campaign. 3rd (Bodubin) Regiment is stationed in Bodubin. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1428\r\n— cavalry: 163\r\n— artillery: 43\r\n— infantry: 1110.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "bodubin",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment10-3",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Rilorbarian Conquest. 1st Fleet is based in Abermaicto.\nRegiment composition in 1291 WE:\n— fleet: 3.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Rilorbarian Conquest. 1st Fleet is based in Abermaicto. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 3.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment11-0",
+      "name": "1st (Bington) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1291 Westford Era during the Chipleteria-Duntefian War. 1st (Bington) Regiment is stationed in Bington.\nRegiment composition in 1291 WE:\n— infantry: 1655\n— cavalry: 1634\n— artillery: 23\n— archers: 785.",
+      "legend_html": "Regiment was formed in 1291 Westford Era during the Chipleteria-Duntefian War. 1st (Bington) Regiment is stationed in Bington. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1655\r\n— cavalry: 1634\r\n— artillery: 23\r\n— archers: 785.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "bington",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment11-1",
+      "name": "2nd (Titondon) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1200 Westford Era during the Gatesinian War. 2nd (Titondon) Regiment is stationed in Titondon.\nRegiment composition in 1291 WE:\n— infantry: 1251\n— cavalry: 382\n— artillery: 29\n— archers: 787.",
+      "legend_html": "Regiment was formed in 1200 Westford Era during the Gatesinian War. 2nd (Titondon) Regiment is stationed in Titondon. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1251\r\n— cavalry: 382\r\n— artillery: 29\r\n— archers: 787.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "titondon",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment11-2",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1286 Westford Era during the Iahzitan Rebellion. 1st Fleet is based in Cocking.\nRegiment composition in 1291 WE:\n— fleet: 3.",
+      "legend_html": "Regiment was formed in 1286 Westford Era during the Iahzitan Rebellion. 1st Fleet is based in Cocking. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 3.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment12-0",
+      "name": "1st (Kluird) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1030 Westford Era during the Slor'th War. 1st (Kluird) Regiment is stationed in Kluird Barony.\nRegiment composition in 1291 WE:\n— cavalry: 2848\n— infantry: 767\n— archers: 799\n— artillery: 8.",
+      "legend_html": "Regiment was formed in 1030 Westford Era during the Slor'th War. 1st (Kluird) Regiment is stationed in Kluird Barony. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2848\r\n— infantry: 767\r\n— archers: 799\r\n— artillery: 8.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "kluird",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-1",
+      "name": "2nd (Gobs) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1033 Westford Era during the Slor'th War. 2nd (Gobs) Regiment is stationed in Gobs County.\nRegiment composition in 1291 WE:\n— cavalry: 3199\n— infantry: 472\n— archers: 517\n— artillery: 9.",
+      "legend_html": "Regiment was formed in 1033 Westford Era during the Slor'th War. 2nd (Gobs) Regiment is stationed in Gobs County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 3199\r\n— infantry: 472\r\n— archers: 517\r\n— artillery: 9.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "gobs",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-2",
+      "name": "3rd (Gneab) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1179 Westford Era during the Thrian Conquest. 3rd (Gneab) Regiment is stationed in Wruilx.\nRegiment composition in 1291 WE:\n— cavalry: 2914\n— artillery: 12\n— infantry: 376\n— archers: 462.",
+      "legend_html": "Regiment was formed in 1179 Westford Era during the Thrian Conquest. 3rd (Gneab) Regiment is stationed in Wruilx. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2914\r\n— artillery: 12\r\n— infantry: 376\r\n— archers: 462.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "gneab",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-3",
+      "name": "4th (Kluird) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1276 Westford Era during the Moft Conquest. 4th (Kluird) Regiment is stationed in Kluird Barony.\nRegiment composition in 1291 WE:\n— cavalry: 2539\n— infantry: 350\n— archers: 390\n— artillery: 4.",
+      "legend_html": "Regiment was formed in 1276 Westford Era during the Moft Conquest. 4th (Kluird) Regiment is stationed in Kluird Barony. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 2539\r\n— infantry: 350\r\n— archers: 390\r\n— artillery: 4.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "kluird",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-4",
+      "name": "5th (Stroi) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1075 Westford Era during the Eraisian Crusade. 5th (Stroi) Regiment is stationed in Stroi Barony.\nRegiment composition in 1291 WE:\n— cavalry: 1978\n— infantry: 319\n— archers: 361\n— artillery: 6.",
+      "legend_html": "Regiment was formed in 1075 Westford Era during the Eraisian Crusade. 5th (Stroi) Regiment is stationed in Stroi Barony. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1978\r\n— infantry: 319\r\n— archers: 361\r\n— artillery: 6.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "stroi",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-5",
+      "name": "6th (Gneab) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1035 Westford Era during the Slor'th War. 6th (Gneab) Regiment is stationed in Gneab Barony.\nRegiment composition in 1291 WE:\n— cavalry: 1385\n— archers: 569\n— infantry: 637\n— artillery: 5.",
+      "legend_html": "Regiment was formed in 1035 Westford Era during the Slor'th War. 6th (Gneab) Regiment is stationed in Gneab Barony. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1385\r\n— archers: 569\r\n— infantry: 637\r\n— artillery: 5.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "6th",
+        "gneab",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-6",
+      "name": "7th (Stroi) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1072 Westford Era during the Eraisian Crusade. 7th (Stroi) Regiment is stationed in Stroi Barony.\nRegiment composition in 1291 WE:\n— cavalry: 1287\n— archers: 461\n— infantry: 479\n— artillery: 8.",
+      "legend_html": "Regiment was formed in 1072 Westford Era during the Eraisian Crusade. 7th (Stroi) Regiment is stationed in Stroi Barony. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1287\r\n— archers: 461\r\n— infantry: 479\r\n— artillery: 8.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "7th",
+        "stroi",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-7",
+      "name": "8th (Glervaq) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1243 Westford Era during the Jaszilsan War. 8th (Glervaq) Regiment is stationed in Glervaq Captaincy.\nRegiment composition in 1291 WE:\n— cavalry: 1060\n— archers: 458\n— infantry: 378\n— artillery: 7.",
+      "legend_html": "Regiment was formed in 1243 Westford Era during the Jaszilsan War. 8th (Glervaq) Regiment is stationed in Glervaq Captaincy. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1060\r\n— archers: 458\r\n— infantry: 378\r\n— artillery: 7.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "8th",
+        "glervaq",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-8",
+      "name": "9th (Slof) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1250 Westford Era during the Bhiagaban Conquest. 9th (Slof) Regiment is stationed in Wruil.\nRegiment composition in 1291 WE:\n— archers: 85\n— cavalry: 17\n— artillery: 4\n— infantry: 33.",
+      "legend_html": "Regiment was formed in 1250 Westford Era during the Bhiagaban Conquest. 9th (Slof) Regiment is stationed in Wruil. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 85\r\n— cavalry: 17\r\n— artillery: 4\r\n— infantry: 33.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "9th",
+        "slof",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment12-9",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1175 Westford Era during the Thrian Conquest. 1st Fleet is based in Gobshai.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1175 Westford Era during the Thrian Conquest. 1st Fleet is based in Gobshai. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment12-10",
+      "name": "2nd Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1033 Westford Era during the Slor'th War. 2nd Fleet is based in Phig.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1033 Westford Era during the Slor'th War. 2nd Fleet is based in Phig. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment13-0",
+      "name": "1st (Chearcy) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1286 Westford Era during the Duntefian Campaign. 1st (Chearcy) Regiment is stationed in Chearcy Seneschalty.\nRegiment composition in 1291 WE:\n— infantry: 1615\n— archers: 1607\n— cavalry: 422\n— artillery: 26.",
+      "legend_html": "Regiment was formed in 1286 Westford Era during the Duntefian Campaign. 1st (Chearcy) Regiment is stationed in Chearcy Seneschalty. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1615\r\n— archers: 1607\r\n— cavalry: 422\r\n— artillery: 26.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "chearcy",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment13-1",
+      "name": "2nd (Fermaw) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1285 Westford Era during the Eraisian Campaign. 2nd (Fermaw) Regiment is stationed in Fermaw Earldom.\nRegiment composition in 1291 WE:\n— infantry: 1260\n— archers: 857\n— cavalry: 744\n— artillery: 15.",
+      "legend_html": "Regiment was formed in 1285 Westford Era during the Eraisian Campaign. 2nd (Fermaw) Regiment is stationed in Fermaw Earldom. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1260\r\n— archers: 857\r\n— cavalry: 744\r\n— artillery: 15.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "fermaw",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment13-2",
+      "name": "3rd (Boumaberg) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1011 Westford Era during the Theordaber Conquest. 3rd (Boumaberg) Regiment is stationed in Boumaberg.\nRegiment composition in 1291 WE:\n— archers: 865\n— cavalry: 252\n— artillery: 42\n— infantry: 709.",
+      "legend_html": "Regiment was formed in 1011 Westford Era during the Theordaber Conquest. 3rd (Boumaberg) Regiment is stationed in Boumaberg. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 865\r\n— cavalry: 252\r\n— artillery: 42\r\n— infantry: 709.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "boumaberg",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment13-3",
+      "name": "4th (Akereskcalia) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1286 Westford Era during the Eraisian Campaign. 4th (Akereskcalia) Regiment is stationed in Gerunos.\nRegiment composition in 1291 WE:\n— archers: 374\n— cavalry: 258\n— artillery: 18\n— infantry: 560.",
+      "legend_html": "Regiment was formed in 1286 Westford Era during the Eraisian Campaign. 4th (Akereskcalia) Regiment is stationed in Gerunos. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 374\r\n— cavalry: 258\r\n— artillery: 18\r\n— infantry: 560.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "akereskcalia",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment13-4",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1010 Westford Era during the Theordaber Conquest. 1st Fleet is based in Boumaberg.\nRegiment composition in 1291 WE:\n— fleet: 14.",
+      "legend_html": "Regiment was formed in 1010 Westford Era during the Theordaber Conquest. 1st Fleet is based in Boumaberg. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 14.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment14-0",
+      "name": "1st (Aberlochia) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Doblinese Conflict. 1st (Aberlochia) Regiment is stationed in Inwenver.\nRegiment composition in 1291 WE:\n— infantry: 681\n— cavalry: 1721\n— artillery: 17\n— archers: 557.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Doblinese Conflict. 1st (Aberlochia) Regiment is stationed in Inwenver. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 681\r\n— cavalry: 1721\r\n— artillery: 17\r\n— archers: 557.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "aberlochia",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment14-1",
+      "name": "2nd (Inwenverthe) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Doblinese Conflict. 2nd (Inwenverthe) Regiment is stationed in Inwenverthe.\nRegiment composition in 1291 WE:\n— infantry: 1013\n— cavalry: 1195\n— artillery: 9\n— archers: 730.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Doblinese Conflict. 2nd (Inwenverthe) Regiment is stationed in Inwenverthe. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1013\r\n— cavalry: 1195\r\n— artillery: 9\r\n— archers: 730.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "inwenverthe",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment14-2",
+      "name": "3rd (Knutstedge) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1222 Westford Era during the Aber Invasion. 3rd (Knutstedge) Regiment is stationed in Knutstedge Shire.\nRegiment composition in 1291 WE:\n— infantry: 1144\n— archers: 867\n— cavalry: 537\n— artillery: 13.",
+      "legend_html": "Regiment was formed in 1222 Westford Era during the Aber Invasion. 3rd (Knutstedge) Regiment is stationed in Knutstedge Shire. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 1144\r\n— archers: 867\r\n— cavalry: 537\r\n— artillery: 13.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "knutstedge",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment14-3",
+      "name": "4th (Zinar) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1223 Westford Era during the Aber Invasion. 4th (Zinar) Regiment is stationed in Zizad.\nRegiment composition in 1291 WE:\n— infantry: 574\n— cavalry: 582\n— artillery: 2\n— archers: 338.",
+      "legend_html": "Regiment was formed in 1223 Westford Era during the Aber Invasion. 4th (Zinar) Regiment is stationed in Zizad. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 574\r\n— cavalry: 582\r\n— artillery: 2\r\n— archers: 338.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "zinar",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment14-4",
+      "name": "5th (Undushur) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 914 Westford Era during the Invernian Campaign. 5th (Undushur) Regiment is stationed in Blusxea.\nRegiment composition in 1291 WE:\n— infantry: 198\n— cavalry: 641\n— artillery: 2\n— archers: 163.",
+      "legend_html": "Regiment was formed in 914 Westford Era during the Invernian Campaign. 5th (Undushur) Regiment is stationed in Blusxea. \r\n\r\nRegiment composition in 1291 WE:\r\n— infantry: 198\r\n— cavalry: 641\r\n— artillery: 2\r\n— archers: 163.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "5th",
+        "undushur",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment14-5",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 920 Westford Era during the Invernian Campaign. 1st Fleet is based in Knutstedge.\nRegiment composition in 1291 WE:\n— fleet: 3.",
+      "legend_html": "Regiment was formed in 920 Westford Era during the Invernian Campaign. 1st Fleet is based in Knutstedge. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 3.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment15-0",
+      "name": "1st (Ial) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1200 Westford Era during the Slor'th Conquest. 1st (Ial) Regiment is stationed in Ial Landgrave.\nRegiment composition in 1291 WE:\n— archers: 2202\n— cavalry: 1920\n— infantry: 1380\n— artillery: 28.",
+      "legend_html": "Regiment was formed in 1200 Westford Era during the Slor'th Conquest. 1st (Ial) Regiment is stationed in Ial Landgrave. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2202\r\n— cavalry: 1920\r\n— infantry: 1380\r\n— artillery: 28.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "ial",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment15-1",
+      "name": "2nd (Ial) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1216 Westford Era during the Brybsan Conquest. 2nd (Ial) Regiment is stationed in Hob.\nRegiment composition in 1291 WE:\n— archers: 2853\n— cavalry: 985\n— artillery: 94\n— infantry: 1278.",
+      "legend_html": "Regiment was formed in 1216 Westford Era during the Brybsan Conquest. 2nd (Ial) Regiment is stationed in Hob. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 2853\r\n— cavalry: 985\r\n— artillery: 94\r\n— infantry: 1278.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "ial",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment15-2",
+      "name": "3rd (Sleh) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1201 Westford Era during the Slor'th Conquest. 3rd (Sleh) Regiment is stationed in Sleh County.\nRegiment composition in 1291 WE:\n— archers: 1457\n— cavalry: 552\n— infantry: 670\n— artillery: 23.",
+      "legend_html": "Regiment was formed in 1201 Westford Era during the Slor'th Conquest. 3rd (Sleh) Regiment is stationed in Sleh County. \r\n\r\nRegiment composition in 1291 WE:\r\n— archers: 1457\r\n— cavalry: 552\r\n— infantry: 670\r\n— artillery: 23.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "sleh",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment15-3",
+      "name": "4th (Ial) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1201 Westford Era during the Slor'th Conquest. 4th (Ial) Regiment is stationed in Ial Landgrave.\nRegiment composition in 1291 WE:\n— cavalry: 1347\n— archers: 618\n— infantry: 653\n— artillery: 14.",
+      "legend_html": "Regiment was formed in 1201 Westford Era during the Slor'th Conquest. 4th (Ial) Regiment is stationed in Ial Landgrave. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1347\r\n— archers: 618\r\n— infantry: 653\r\n— artillery: 14.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "4th",
+        "ial",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment15-4",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1244 Westford Era during the Zataphruz Intervention. 1st Fleet is based in Hob.\nRegiment composition in 1291 WE:\n— fleet: 20.",
+      "legend_html": "Regiment was formed in 1244 Westford Era during the Zataphruz Intervention. 1st Fleet is based in Hob. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 20.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "regiment16-0",
+      "name": "1st (Gneab) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1233 Westford Era during the Ulm Campaign. 1st (Gneab) Regiment is stationed in Gneab County.\nRegiment composition in 1291 WE:\n— cavalry: 1098\n— infantry: 288\n— archers: 504\n— artillery: 8.",
+      "legend_html": "Regiment was formed in 1233 Westford Era during the Ulm Campaign. 1st (Gneab) Regiment is stationed in Gneab County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1098\r\n— infantry: 288\r\n— archers: 504\r\n— artillery: 8.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "gneab",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment16-1",
+      "name": "2nd (Dobok) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1188 Westford Era during the Chipleterian Conflict. 2nd (Dobok) Regiment is stationed in Dobok County.\nRegiment composition in 1291 WE:\n— cavalry: 1306\n— infantry: 40\n— archers: 83\n— artillery: 1.",
+      "legend_html": "Regiment was formed in 1188 Westford Era during the Chipleterian Conflict. 2nd (Dobok) Regiment is stationed in Dobok County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 1306\r\n— infantry: 40\r\n— archers: 83\r\n— artillery: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "2nd",
+        "dobok",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment16-2",
+      "name": "3rd (Dobok) Regiment",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1288 Westford Era during the Bratan War. 3rd (Dobok) Regiment is stationed in Dobok County.\nRegiment composition in 1291 WE:\n— cavalry: 636\n— infantry: 102\n— archers: 143\n— artillery: 1.",
+      "legend_html": "Regiment was formed in 1288 Westford Era during the Bratan War. 3rd (Dobok) Regiment is stationed in Dobok County. \r\n\r\nRegiment composition in 1291 WE:\r\n— cavalry: 636\r\n— infantry: 102\r\n— archers: 143\r\n— artillery: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "3rd",
+        "dobok",
+        "regiment"
+      ]
+    },
+    {
+      "id": "regiment16-3",
+      "name": "1st Fleet",
+      "type": "marker",
+      "legend_text": "Regiment was formed in 1282 Westford Era during the Gatesinia-Iahzitian War. 1st Fleet is based in Threshai.\nRegiment composition in 1291 WE:\n— fleet: 1.",
+      "legend_html": "Regiment was formed in 1282 Westford Era during the Gatesinia-Iahzitian War. 1st Fleet is based in Threshai. \r\n\r\nRegiment composition in 1291 WE:\r\n— fleet: 1.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "1st",
+        "fleet"
+      ]
+    },
+    {
+      "id": "marker0",
+      "name": "Granthe Volcano",
+      "type": "marker",
+      "legend_text": "Active volcano. Height: 11812 ft.",
+      "legend_html": "Active volcano. Height: 11812 ft.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "granthe",
+        "volcano"
+      ]
+    },
+    {
+      "id": "marker1",
+      "name": "Atford Volcano",
+      "type": "marker",
+      "legend_text": "Erupting volcano. Height: 16540 ft.",
+      "legend_html": "Erupting volcano. Height: 16540 ft.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "atford",
+        "volcano"
+      ]
+    },
+    {
+      "id": "marker2",
+      "name": "Feltia Hot Springs",
+      "type": "marker",
+      "legend_text": "A geothermal springs with naturally heated water that provide relaxation and medicinal benefits. Average temperature is 136°F.",
+      "legend_html": "A geothermal springs with naturally heated water that provide relaxation and medicinal benefits. Average temperature is 136°F.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "feltia",
+        "hot",
+        "springs"
+      ]
+    },
+    {
+      "id": "marker3",
+      "name": "Rompound Wisdom Spring",
+      "type": "marker",
+      "legend_text": "This legendary water source is whispered about in ancient tales and believed to possess mystical properties. The spring emanates crystal-clear water, shimmering with an otherworldly iridescence that sparkles even in the dimmest light.",
+      "legend_html": "This legendary water source is whispered about in ancient tales and believed to possess mystical properties. The spring emanates crystal-clear water, shimmering with an otherworldly iridescence that sparkles even in the dimmest light.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "rompound",
+        "wisdom",
+        "spring",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker4",
+      "name": "Montcongy — gold mining town",
+      "type": "marker",
+      "legend_text": "Montcongy is a mining town of 1595 people just nearby the gold mine.",
+      "legend_html": "Montcongy is a mining town of 1595 people just nearby the gold mine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "montcongy",
+        "gold",
+        "mining",
+        "town"
+      ]
+    },
+    {
+      "id": "marker5",
+      "name": "Bihulton — gold mining town",
+      "type": "marker",
+      "legend_text": "Bihulton is a mining town of 697 people just nearby the gold mine.",
+      "legend_html": "Bihulton is a mining town of 697 people just nearby the gold mine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "bihulton",
+        "gold",
+        "mining",
+        "town"
+      ]
+    },
+    {
+      "id": "marker6",
+      "name": "Wruilx Bridge",
+      "type": "marker",
+      "legend_text": "An old crossing of the Froihiofz River, rarely used since banditry infested the area.",
+      "legend_html": "An old crossing of the Froihiofz River, rarely used since banditry infested the area.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "wruilx",
+        "bridge"
+      ]
+    },
+    {
+      "id": "marker7",
+      "name": "The Beautiful Tavern",
+      "type": "marker",
+      "legend_text": "A big and famous roadside tavern. Delicious dry-aged rabbit with brown absinthe is served here.",
+      "legend_html": "A big and famous roadside tavern. Delicious dry-aged rabbit with brown absinthe is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "beautiful",
+        "tavern"
+      ]
+    },
+    {
+      "id": "marker8",
+      "name": "The Hungry Horse",
+      "type": "marker",
+      "legend_text": "A big and famous roadside tavern. Delicious smoked antlers with orange milk is served here.",
+      "legend_html": "A big and famous roadside tavern. Delicious smoked antlers with orange milk is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "hungry",
+        "horse"
+      ]
+    },
+    {
+      "id": "marker9",
+      "name": "The Big Beaver",
+      "type": "marker",
+      "legend_text": "A big and famous roadside tavern. Delicious stewed buffalo with red tea is served here.",
+      "legend_html": "A big and famous roadside tavern. Delicious stewed buffalo with red tea is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "big",
+        "beaver"
+      ]
+    },
+    {
+      "id": "marker10",
+      "name": "The Orange Mule",
+      "type": "marker",
+      "legend_text": "A big and famous roadside inn. Delicious jugged carp with misty nectar is served here.",
+      "legend_html": "A big and famous roadside inn. Delicious jugged carp with misty nectar is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "orange",
+        "mule"
+      ]
+    },
+    {
+      "id": "marker11",
+      "name": "The Golden Scorpion",
+      "type": "marker",
+      "legend_text": "A big and famous roadside tavern. Delicious steamed scorpion with sour milk is served here.",
+      "legend_html": "A big and famous roadside tavern. Delicious steamed scorpion with sour milk is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "golden",
+        "scorpion"
+      ]
+    },
+    {
+      "id": "marker12",
+      "name": "The Purple Spider",
+      "type": "marker",
+      "legend_text": "A big and famous roadside tavern. Delicious stuffed oranges with red milk is served here.",
+      "legend_html": "A big and famous roadside tavern. Delicious stuffed oranges with red milk is served here.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "the",
+        "purple",
+        "spider"
+      ]
+    },
+    {
+      "id": "marker13",
+      "name": "Skallajaz Lighthouse",
+      "type": "marker",
+      "legend_text": "A lighthouse to serve as a beacon for ships in the open sea.",
+      "legend_html": "A lighthouse to serve as a beacon for ships in the open sea.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "skallajaz",
+        "lighthouse"
+      ]
+    },
+    {
+      "id": "marker14",
+      "name": "Bolneymouth Battlefield",
+      "type": "marker",
+      "legend_text": "A historical battle of the Chipleterian Invasion.\nDate: February 28, 1157 Westford Era.",
+      "legend_html": "A historical battle of the Chipleterian Invasion. \r\nDate: February 28, 1157 Westford Era.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "bolneymouth",
+        "battlefield"
+      ]
+    },
+    {
+      "id": "marker15",
+      "name": "Piltonmouth Battlefield",
+      "type": "marker",
+      "legend_text": "A historical battle of the Chipleteria-Duntefian War.\nDate: October 20, 1279 Westford Era.",
+      "legend_html": "A historical battle of the Chipleteria-Duntefian War. \r\nDate: October 20, 1279 Westford Era.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "piltonmouth",
+        "battlefield"
+      ]
+    },
+    {
+      "id": "marker16",
+      "name": "Gobgar Battlefield",
+      "type": "marker",
+      "legend_text": "A historical battle of the Thrian Conquest.\nDate: May 22, 1175 Westford Era.",
+      "legend_html": "A historical battle of the Thrian Conquest. \r\nDate: May 22, 1175 Westford Era.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "gobgar",
+        "battlefield"
+      ]
+    },
+    {
+      "id": "marker17",
+      "name": "Dungeon",
+      "type": "marker",
+      "legend_text": "Undiscovered dungeon. See One page dungeon",
+      "legend_html": "<div>Undiscovered dungeon. See <a href=\"https://watabou.github.io/one-page-dungeon/?seed=566831496428\" target=\"_blank\">One page dungeon</a></div><iframe style=\"pointer-events: none;\" src=\"https://watabou.github.io/one-page-dungeon/?seed=566831496428\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "marker18",
+      "name": "Dungeon",
+      "type": "marker",
+      "legend_text": "Undiscovered dungeon. See One page dungeon",
+      "legend_html": "<div>Undiscovered dungeon. See <a href=\"https://watabou.github.io/one-page-dungeon/?seed=566831496669\" target=\"_blank\">One page dungeon</a></div><iframe style=\"pointer-events: none;\" src=\"https://watabou.github.io/one-page-dungeon/?seed=566831496669\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "marker19",
+      "name": "Dungeon",
+      "type": "marker",
+      "legend_text": "Undiscovered dungeon. See One page dungeon",
+      "legend_html": "<div>Undiscovered dungeon. See <a href=\"https://watabou.github.io/one-page-dungeon/?seed=566831496559\" target=\"_blank\">One page dungeon</a></div><iframe style=\"pointer-events: none;\" src=\"https://watabou.github.io/one-page-dungeon/?seed=566831496559\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "marker20",
+      "name": "Dungeon",
+      "type": "marker",
+      "legend_text": "Undiscovered dungeon. See One page dungeon",
+      "legend_html": "<div>Undiscovered dungeon. See <a href=\"https://watabou.github.io/one-page-dungeon/?seed=5668314963802\" target=\"_blank\">One page dungeon</a></div><iframe style=\"pointer-events: none;\" src=\"https://watabou.github.io/one-page-dungeon/?seed=5668314963802\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "marker21",
+      "name": "Dungeon",
+      "type": "marker",
+      "legend_text": "Undiscovered dungeon. See One page dungeon",
+      "legend_html": "<div>Undiscovered dungeon. See <a href=\"https://watabou.github.io/one-page-dungeon/?seed=5668314962782\" target=\"_blank\">One page dungeon</a></div><iframe style=\"pointer-events: none;\" src=\"https://watabou.github.io/one-page-dungeon/?seed=5668314962782\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "marker22",
+      "name": "Pyreaz Monster",
+      "type": "marker",
+      "legend_text": "Tipplers say a relic monster of 10 ft long inhabits Pyreaz Lake. Truth or lie, folks are afraid to fish in the lake.",
+      "legend_html": "Tipplers say a relic monster of 10 ft long inhabits Pyreaz Lake. Truth or lie, folks are afraid to fish in the lake.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "pyreaz",
+        "monster"
+      ]
+    },
+    {
+      "id": "marker23",
+      "name": "Manch Monster",
+      "type": "marker",
+      "legend_text": "Old sailors tell stories of a gigantic sea monster inhabiting these dangerous waters. Rumors say it can be 31 ft long.",
+      "legend_html": "Old sailors tell stories of a gigantic sea monster inhabiting these dangerous waters. Rumors say it can be 31 ft long.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "manch",
+        "monster"
+      ]
+    },
+    {
+      "id": "marker24",
+      "name": "Thult Ghoul",
+      "type": "marker",
+      "legend_text": "Tipplers speak of a golden Ghoul who inhabits Thult hills and snatches people from homes.",
+      "legend_html": "Tipplers speak of a golden Ghoul who inhabits Thult hills and snatches people from homes.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "thult",
+        "ghoul"
+      ]
+    },
+    {
+      "id": "marker25",
+      "name": "Duresoscrem Forest",
+      "type": "marker",
+      "legend_text": "A forest sacred to local Selocobr Beliefs.",
+      "legend_html": "A forest sacred to local Selocobr Beliefs.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "duresoscrem",
+        "forest"
+      ]
+    },
+    {
+      "id": "marker26",
+      "name": "Witneswest Pinery",
+      "type": "marker",
+      "legend_text": "A pinery sacred to local Westen Spirits.",
+      "legend_html": "A pinery sacred to local Westen Spirits.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "witneswest",
+        "pinery"
+      ]
+    },
+    {
+      "id": "marker27",
+      "name": "Cielb Palm Grove",
+      "type": "marker",
+      "legend_text": "A palm grove sacred to local Autliardism.",
+      "legend_html": "A palm grove sacred to local Autliardism.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "cielb",
+        "palm",
+        "grove"
+      ]
+    },
+    {
+      "id": "marker28",
+      "name": "Presbury Falcons",
+      "type": "marker",
+      "legend_text": "A gang of forest brigands.",
+      "legend_html": "A gang of forest brigands.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "presbury",
+        "falcons"
+      ]
+    },
+    {
+      "id": "marker29",
+      "name": "Inver Lions",
+      "type": "marker",
+      "legend_text": "A gang of forest brigands.",
+      "legend_html": "A gang of forest brigands.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "inver",
+        "lions"
+      ]
+    },
+    {
+      "id": "marker30",
+      "name": "Slofboif Boars",
+      "type": "marker",
+      "legend_text": "A gang of desert highwaymen.",
+      "legend_html": "A gang of desert highwaymen.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "slofboif",
+        "boars"
+      ]
+    },
+    {
+      "id": "marker31",
+      "name": "Hertford Foxes",
+      "type": "marker",
+      "legend_text": "A gang of forest robbers.",
+      "legend_html": "A gang of forest robbers.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "hertford",
+        "foxes"
+      ]
+    },
+    {
+      "id": "marker32",
+      "name": "Pirates",
+      "type": "marker",
+      "legend_text": "Pirate ships have been spotted in these waters.",
+      "legend_html": "Pirate ships have been spotted in these waters.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "pirates"
+      ]
+    },
+    {
+      "id": "marker33",
+      "name": "Pirates",
+      "type": "marker",
+      "legend_text": "Pirate ships have been spotted in these waters.",
+      "legend_html": "Pirate ships have been spotted in these waters.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "pirates"
+      ]
+    },
+    {
+      "id": "marker34",
+      "name": "Pirates",
+      "type": "marker",
+      "legend_text": "Pirate ships have been spotted in these waters.",
+      "legend_html": "Pirate ships have been spotted in these waters.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "pirates"
+      ]
+    },
+    {
+      "id": "marker35",
+      "name": "Gneab Pillar",
+      "type": "marker",
+      "legend_text": "An ancient pillar. It has an inscription, but no one can translate it:\n        𐠬\udc26\udc0c𐠕\udc2a𐠬\ud802𐠁\ud802\ud802𐠫 𐠭𐠈\ud802𐠋𐠔 \udc31\udc29\udc32\ud802 𐠐𐠵\udc2e\udc37\udc35\udc21\udc27\ud802\ud802𐠯\udc32\ud802\ud802\ud802𐠵\ud802𐠣𐠥\udc1b\ud802𐠲 \ud802\ud802𐠑\ud802 \udc25𐠟\ud802𐠛\udc1e𐠐\udc23\udc37𐠪𐠮\udc35\udc0d\udc0a\udc33 𐠜\udc12\ud802\ud802𐠯\udc0b\ud802𐠰",
+      "legend_html": "An ancient pillar. It has an inscription, but no one can translate it:\n        <div style=\"font-size: 1.8em; line-break: anywhere;\">𐠬\udc26\udc0c𐠕\udc2a𐠬\ud802𐠁\ud802\ud802𐠫 𐠭𐠈\ud802𐠋𐠔 \udc31\udc29\udc32\ud802 𐠐𐠵\udc2e\udc37\udc35\udc21\udc27\ud802\ud802𐠯\udc32\ud802\ud802\ud802𐠵\ud802𐠣𐠥\udc1b\ud802𐠲 \ud802\ud802𐠑\ud802 \udc25𐠟\ud802𐠛\udc1e𐠐\udc23\udc37𐠪𐠮\udc35\udc0d\udc0a\udc33 𐠜\udc12\ud802\ud802𐠯\udc0b\ud802𐠰</div>",
+      "runes_text": "𐠬\udc26\udc0c𐠕\udc2a𐠬\ud802𐠁\ud802\ud802𐠫 𐠭𐠈\ud802𐠋𐠔 \udc31\udc29\udc32\ud802 𐠐𐠵\udc2e\udc37\udc35\udc21\udc27\ud802\ud802𐠯\udc32\ud802\ud802\ud802𐠵\ud802𐠣𐠥\udc1b\ud802𐠲 \ud802\ud802𐠑\ud802 \udc25𐠟\ud802𐠛\udc1e𐠐\udc23\udc37𐠪𐠮\udc35\udc0d\udc0a\udc33 𐠜\udc12\ud802\ud802𐠯\udc0b\ud802𐠰",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "gneab",
+        "pillar",
+        "inscription",
+        "ancient",
+        "untranslated",
+        "runes"
+      ]
+    },
+    {
+      "id": "marker36",
+      "name": "Chalkvish Obelisk",
+      "type": "marker",
+      "legend_text": "An ancient obelisk. It has an inscription, but no one can translate it:\n        ⳀⳒⳠⲴⳌⳎⳭⲾⲺⳖ⳾Ⳅ ⳌⳠⳞⳠⳜⳖⳁ⳥ ⲾⲴⲼⳬⳆ⳹Ⳮ⳪  ⳈⲴⳀⳭⳤⳬ⳥⳪ⳔⲴⳜ ⳚⳚⳌⳊⳀⳌⳔⳂⲲⳊⳈⲼⳃⲲⳀⳖ⳩ⳬⳌⳠⲶⳭⳂⳔⳄⳒⳚⳒⳠ ⳧⳩⳹Ⳛ⳾ⲶⳌⳈⳎⳁⳌⲲⳒⳜⳁⲸⳞ⳾ⲴⳫⲲⲸ",
+      "legend_html": "An ancient obelisk. It has an inscription, but no one can translate it:\n        <div style=\"font-size: 1.8em; line-break: anywhere;\">ⳀⳒⳠⲴⳌⳎⳭⲾⲺⳖ⳾Ⳅ ⳌⳠⳞⳠⳜⳖⳁ⳥ ⲾⲴⲼⳬⳆ⳹Ⳮ⳪  ⳈⲴⳀⳭⳤⳬ⳥⳪ⳔⲴⳜ ⳚⳚⳌⳊⳀⳌⳔⳂⲲⳊⳈⲼⳃⲲⳀⳖ⳩ⳬⳌⳠⲶⳭⳂⳔⳄⳒⳚⳒⳠ ⳧⳩⳹Ⳛ⳾ⲶⳌⳈⳎⳁⳌⲲⳒⳜⳁⲸⳞ⳾ⲴⳫⲲⲸ</div>",
+      "runes_text": "ⳀⳒⳠⲴⳌⳎⳭⲾⲺⳖ⳾Ⳅ ⳌⳠⳞⳠⳜⳖⳁ⳥ ⲾⲴⲼⳬⳆ⳹Ⳮ⳪  ⳈⲴⳀⳭⳤⳬ⳥⳪ⳔⲴⳜ ⳚⳚⳌⳊⳀⳌⳔⳂⲲⳊⳈⲼⳃⲲⳀⳖ⳩ⳬⳌⳠⲶⳭⳂⳔⳄⳒⳚⳒⳠ ⳧⳩⳹Ⳛ⳾ⲶⳌⳈⳎⳁⳌⲲⳒⳜⳁⲸⳞ⳾ⲴⳫⲲⲸ",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "chalkvish",
+        "obelisk",
+        "inscription",
+        "ancient",
+        "untranslated",
+        "runes"
+      ]
+    },
+    {
+      "id": "marker37",
+      "name": "Rilugume Stele",
+      "type": "marker",
+      "legend_text": "An ancient stele. It has an inscription, but no one can translate it:\n        ᢒᡴᡑᢟᡱᠽᢟᡴᠽᡆᡟᢥᢏᡝᠪᢐᡱᢁᠠᠧᢂᡆᡕᢤᡝ᠑ᠯᡓᢐᠮᠰᠲ᠑ᢦᢂᡰᡜᡔᡟ᠐ᡑᠦᡳᡎᡓᡳᠠᠮᠭᢒᡝᢢᢀᡑᡒᡮᡑᢑᠮᠯᢠ᠑ᠳᡑᡔᢑᡗᡁᢤᡜᢏᠩᠯᠧᠽᡍᠧᡝ",
+      "legend_html": "An ancient stele. It has an inscription, but no one can translate it:\n        <div style=\"font-size: 1.8em; line-break: anywhere;\">ᢒᡴᡑᢟᡱᠽᢟᡴᠽᡆᡟᢥᢏᡝᠪᢐᡱᢁᠠᠧᢂᡆᡕᢤᡝ᠑ᠯᡓᢐᠮᠰᠲ᠑ᢦᢂᡰᡜᡔᡟ᠐ᡑᠦᡳᡎᡓᡳᠠᠮᠭᢒᡝᢢᢀᡑᡒᡮᡑᢑᠮᠯᢠ᠑ᠳᡑᡔᢑᡗᡁᢤᡜᢏᠩᠯᠧᠽᡍᠧᡝ</div>",
+      "runes_text": "ᢒᡴᡑᢟᡱᠽᢟᡴᠽᡆᡟᢥᢏᡝᠪᢐᡱᢁᠠᠧᢂᡆᡕᢤᡝ᠑ᠯᡓᢐᠮᠰᠲ᠑ᢦᢂᡰᡜᡔᡟ᠐ᡑᠦᡳᡎᡓᡳᠠᠮᠭᢒᡝᢢᢀᡑᡒᡮᡑᢑᠮᠯᢠ᠑ᠳᡑᡔᢑᡗᡁᢤᡜᢏᠩᠯᠧᠽᡍᠧᡝ",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "rilugume",
+        "stele",
+        "inscription",
+        "ancient",
+        "untranslated",
+        "runes"
+      ]
+    },
+    {
+      "id": "marker38",
+      "name": "Ruined Fort",
+      "type": "marker",
+      "legend_text": "Ruins of an ancient fort. Untold riches may lie within.",
+      "legend_html": "Ruins of an ancient fort. Untold riches may lie within.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "ruined",
+        "fort",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker39",
+      "name": "Ruined Fortress",
+      "type": "marker",
+      "legend_text": "Ruins of an ancient fortress. Untold riches may lie within.",
+      "legend_html": "Ruins of an ancient fortress. Untold riches may lie within.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "ruined",
+        "fortress",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker40",
+      "name": "Ruined Town",
+      "type": "marker",
+      "legend_text": "Ruins of an ancient town. Untold riches may lie within.",
+      "legend_html": "Ruins of an ancient town. Untold riches may lie within.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "ruined",
+        "town",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker41",
+      "name": "Ruined Settlement",
+      "type": "marker",
+      "legend_text": "Ruins of an ancient settlement. Untold riches may lie within.",
+      "legend_html": "Ruins of an ancient settlement. Untold riches may lie within.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "ruined",
+        "settlement",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker42",
+      "name": "Erags Library",
+      "type": "marker",
+      "legend_text": "A vast collection of knowledge, including many rare and ancient tomes.",
+      "legend_html": "A vast collection of knowledge, including many rare and ancient tomes.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "erags",
+        "library",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker43",
+      "name": "Travelling Incomprehensible Circus",
+      "type": "marker",
+      "legend_text": "Roll up, roll up, this incomprehensible circus is here for a limited time only.",
+      "legend_html": "Roll up, roll up, this incomprehensible circus is here for a limited time only.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "travelling",
+        "incomprehensible",
+        "circus"
+      ]
+    },
+    {
+      "id": "marker44",
+      "name": "Travelling Unmissable Circus",
+      "type": "marker",
+      "legend_text": "Roll up, roll up, this unmissable circus is here for a limited time only.",
+      "legend_html": "Roll up, roll up, this unmissable circus is here for a limited time only.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "travelling",
+        "unmissable",
+        "circus"
+      ]
+    },
+    {
+      "id": "marker45",
+      "name": "Celia Competition",
+      "type": "marker",
+      "legend_text": "Warriors from around the land gather for a competition of speed in Celia, with fame, fortune and favour on offer to the victor.",
+      "legend_html": "Warriors from around the land gather for a competition of speed in Celia, with fame, fortune and favour on offer to the victor.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "celia",
+        "competition"
+      ]
+    },
+    {
+      "id": "marker46",
+      "name": "Duningt Fair",
+      "type": "marker",
+      "legend_text": "A fair is being held in Duningt, with all manner of local and foreign goods and services on offer.",
+      "legend_html": "A fair is being held in Duningt, with all manner of local and foreign goods and services on offer.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "duningt",
+        "fair"
+      ]
+    },
+    {
+      "id": "marker47",
+      "name": "Minor Jetty",
+      "type": "marker",
+      "legend_text": "A small location along the Qosx River to launch boats from sits here, along with a weary looking owner, willing to sell passage along the river.",
+      "legend_html": "A small location along the Qosx River to launch boats from sits here, along with a weary looking owner, willing to sell passage along the river.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "minor",
+        "jetty"
+      ]
+    },
+    {
+      "id": "marker48",
+      "name": "Camels migration",
+      "type": "marker",
+      "legend_text": "A huge group of camels are migrating, whether part of their annual routine, or something more extraordinary.",
+      "legend_html": "A huge group of camels are migrating, whether part of their annual routine, or something more extraordinary.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "camels",
+        "migration"
+      ]
+    },
+    {
+      "id": "marker49",
+      "name": "Eagles migration",
+      "type": "marker",
+      "legend_text": "A huge group of eagles are migrating, whether part of their annual routine, or something more extraordinary.",
+      "legend_html": "A huge group of eagles are migrating, whether part of their annual routine, or something more extraordinary.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "eagles",
+        "migration"
+      ]
+    },
+    {
+      "id": "marker50",
+      "name": "Perculiar mirage",
+      "type": "marker",
+      "legend_text": "This perculiar mirage has been luring travellers out of their way for eons.",
+      "legend_html": "This perculiar mirage has been luring travellers out of their way for eons.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "perculiar",
+        "mirage"
+      ]
+    },
+    {
+      "id": "marker51",
+      "name": "Illusory mirage",
+      "type": "marker",
+      "legend_text": "This illusory mirage has been luring travellers out of their way for eons.",
+      "legend_html": "This illusory mirage has been luring travellers out of their way for eons.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "illusory",
+        "mirage"
+      ]
+    },
+    {
+      "id": "marker52",
+      "name": "Chilney Chasm",
+      "type": "marker",
+      "legend_text": "The Chilney Chasm. Locals claim that it is endlessly deep and unexplored.",
+      "legend_html": "The Chilney Chasm. Locals claim that it is endlessly deep and unexplored.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "chilney",
+        "chasm"
+      ]
+    },
+    {
+      "id": "marker53",
+      "name": "Brid Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "brid",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker54",
+      "name": "Wartontalis Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "wartontalis",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker55",
+      "name": "Bretlewen Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "bretlewen",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker56",
+      "name": "Clifton Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "clifton",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker57",
+      "name": "Sugusilemi Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "sugusilemi",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker58",
+      "name": "Gatford Portal",
+      "type": "marker",
+      "legend_text": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "legend_html": "An element of the magic portal system connecting major cities. The portals were installed centuries ago, but still work fine.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "gatford",
+        "portal"
+      ]
+    },
+    {
+      "id": "marker59",
+      "name": "Demonic Rift",
+      "type": "marker",
+      "legend_text": "A rumoured demonic rift in this area is causing nearby plants to wither and decay.",
+      "legend_html": "A rumoured demonic rift in this area is causing nearby plants to wither and decay.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "demonic",
+        "rift"
+      ]
+    },
+    {
+      "id": "marker60",
+      "name": "Disturbed Burial",
+      "type": "marker",
+      "legend_text": "A burial site has been disturbed in this area, causing the dead to rise and attack the living.",
+      "legend_html": "A burial site has been disturbed in this area, causing the dead to rise and attack the living.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "disturbed",
+        "burial"
+      ]
+    },
+    {
+      "id": "marker61",
+      "name": "Disturbed Burial",
+      "type": "marker",
+      "legend_text": "A burial site has been disturbed in this area, causing the dead to rise and attack the living.",
+      "legend_html": "A burial site has been disturbed in this area, causing the dead to rise and attack the living.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "disturbed",
+        "burial"
+      ]
+    },
+    {
+      "id": "marker62",
+      "name": "Mocrur Crypt",
+      "type": "marker",
+      "legend_text": "A towering necropolis adorned with macabre sculptures and guarded by formidable undead sentinels. Its ancient halls house the remains of fallen heroes, entombed alongside their cherished relics.",
+      "legend_html": "A towering necropolis adorned with macabre sculptures and guarded by formidable undead sentinels. Its ancient halls house the remains of fallen heroes, entombed alongside their cherished relics.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "mocrur",
+        "crypt",
+        "ancient"
+      ]
+    },
+    {
+      "id": "marker63",
+      "name": "Srefs Crypt",
+      "type": "marker",
+      "legend_text": "This ethereal necropolis seems suspended between the realms of the living and the dead. Wisps of mist dance around the tombstones, while haunting melodies linger in the air, commemorating the departed.",
+      "legend_html": "This ethereal necropolis seems suspended between the realms of the living and the dead. Wisps of mist dance around the tombstones, while haunting melodies linger in the air, commemorating the departed.",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "srefs",
+        "crypt"
+      ]
+    },
+    {
+      "id": "marker64",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/4638\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    },
+    {
+      "id": "marker65",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/2514\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    },
+    {
+      "id": "marker66",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/6021\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    },
+    {
+      "id": "marker67",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/4006\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    },
+    {
+      "id": "marker68",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/4679\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    },
+    {
+      "id": "marker69",
+      "name": "Random encounter",
+      "type": "marker",
+      "legend_text": "You have encountered a character.",
+      "legend_html": "<div>You have encountered a character.</div><iframe src=\"https://deorum.vercel.app/encounter/5252\" width=\"375\" height=\"600\" sandbox=\"allow-scripts allow-same-origin allow-popups\"></iframe>",
+      "runes_text": "",
+      "near_burg_ids_hint": [],
+      "tags": [
+        "marker",
+        "random",
+        "encounter"
+      ]
+    }
+  ]
+}

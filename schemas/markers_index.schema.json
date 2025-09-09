@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "markers_index.schema.json",
+  "title": "Markers Index",
+  "type": "object",
+  "required": ["world_id", "checksum", "generated_at", "markers"],
+  "properties": {
+    "world_id": { "type": "string" },
+    "checksum": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "markers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "tags"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "legend_text": { "type": "string" },
+          "legend_html": { "type": "string" },
+          "runes_text": { "type": "string" },
+          "x": { "type": "number" },
+          "y": { "type": "number" },
+          "state_id_hint": { "type": "integer" },
+          "province_id_hint": { "type": "string" },
+          "near_burg_ids_hint": { "type": "array", "items": { "type": "integer" } },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

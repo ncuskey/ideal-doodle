@@ -1,0 +1,21 @@
+{
+  "hook_template_id": "hook_untranslated_monolith",
+  "title": "Untranslated Monolith",
+  "chain_id": "chain_runic_mystery",
+  "themes": ["mystery", "ancient", "runes", "inscription", "obelisk", "stele"],
+  "placement_rules": {
+    "cap_per_state": 2,
+    "cap_world": 10,
+    "marker_types": ["marker36", "marker", "monolith", "obelisk", "stele"],
+    "marker_tags_any": ["untranslated", "runes", "inscription", "ancient"],
+    "burgs_per_marker": 1
+  },
+  "outline": {
+    "prompt": "A mysterious stone covered in untranslated glyphs draws attention; locals report strange echoes and missing scholars.",
+    "clue_bullets": [
+      "Fresh chalk rubbings taken by an unknown hand",
+      "A broken wax tablet with partial glyph strokes",
+      "A dockworker saw a lantern at the monolith at midnight"
+    ]
+  }
+}
