@@ -34,6 +34,7 @@ LoreGen/
 ├── index/                  # Graph & indexing
 │   ├── graph.json          # DAG: burg → state → world
 │   ├── catalog.json        # UI catalog (kingdoms + burgs)
+│   ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 │   ├── promptFacts/        # LLM-optimized fact packs
 │   │   ├── state/          # State prompt packs
 │   │   └── burg/           # Burg prompt packs
@@ -52,6 +53,7 @@ LoreGen/
 │   ├── state_outline.schema.json          # State outline schema
 │   ├── province_outline.schema.json       # Province outline schema
 │   ├── burg_outline.schema.json           # Burg outline schema
+│   ├── link_suggestions.schema.json       # Cross-link suggestions schema
 │   ├── lore.burg.schema.json              # Burg lore schema
 │   ├── lore.state.schema.json             # State lore schema
 │   ├── lore.burg.full.schema.json         # Rich burg lore schema
@@ -91,6 +93,8 @@ LoreGen/
         ├── buildPromptPacks.ts # Create LLM-optimized fact packs
         ├── buildGraph.ts       # Build dependency DAG
         ├── buildCatalog.ts     # Build UI catalog (kingdoms + burgs)
+        ├── buildLinkSuggestions.ts # Build cross-link suggestions (facts-based)
+        ├── crossLinkSuggest.ts  # Generate cross-link suggestions (canon-based)
         ├── canonWorldOutline.ts      # Generate world canon outline
         ├── canonInterstateOutline.ts # Generate inter-state outline
         ├── canonStateOutline.ts      # Generate state outlines
@@ -162,6 +166,7 @@ npm run facts:derive         # Compute derived statistics
 npm run facts:promptpacks    # Create LLM-optimized fact packs
 npm run graph:build          # Build dependency graph
 npm run catalog:build        # Build UI catalog
+npm run links:suggest        # Generate cross-link suggestions (canon-based)
 npm run canon:province:outline # Generate province outlines
 npm run canon:burg:outline   # Generate burg outlines
 npm run lore:burg:full -- --id=1  # Generate rich burg lore

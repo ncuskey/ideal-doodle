@@ -12,10 +12,13 @@
     "canon:province:outline": "tsx src/pipelines/canonProvinceOutline.ts",
     "canon:burg:outline": "tsx src/pipelines/canonBurgOutline.ts",
 
+    "links:suggest": "tsx src/pipelines/crossLinkSuggest.ts",
+
     "facts:build": "tsx src/pipelines/buildFacts.ts",
     "facts:derive": "tsx src/pipelines/buildDerived.ts",
     "facts:promptpacks": "tsx src/pipelines/buildPromptPacks.ts",
     "graph:build": "tsx src/pipelines/buildGraph.ts",
+    "links:build": "tsx src/pipelines/buildLinkSuggestions.ts",
 
     "lore:state": "tsx src/pipelines/genStateLore.ts",
     "lore:state:full": "tsx src/pipelines/genStateLoreFull.ts",

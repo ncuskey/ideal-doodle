@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "link_suggestions.schema.json",
+  "title": "Cross-Link & Hook Placement Suggestions",
+  "type": "object",
+  "required": ["world_id", "checksum", "generated_at", "affinities", "hook_placements"],
+  "properties": {
+    "world_id": { "type": "string" },
+    "checksum": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "affinities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sugg_id", "type", "a", "b", "score", "rationale", "impact_scope"],
+        "properties": {
+          "sugg_id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["religion_link", "culture_link", "trade_link", "migration_link", "myth_link", "scholar_link"]
+          },
+          "a": {
+            "type": "object",
+            "required": ["kind", "id", "state_id", "label"],
+            "properties": {
+              "kind": { "type": "string", "enum": ["province", "burg"] },
+              "id": { "oneOf": [{ "type": "string" }, { "type": "integer" }] },
+              "state_id": { "type": "integer" },
+              "label": { "type": "string" }
+            }
+          },
+          "b": {
+            "type": "object",
+            "required": ["kind", "id", "state_id", "label"],
+            "properties": {
+              "kind": { "type": "string", "enum": ["province", "burg"] },
+              "id": { "oneOf": [{ "type": "string" }, { "type": "integer" }] },
+              "state_id": { "type": "integer" },
+              "label": { "type": "string" }
+            }
+          },
+          "score": { "type": "number" },
+          "rationale": { "type": "string" },
+          "evidence": { "type": "object" },
+          "impact_scope": { "type": "string", "enum": ["local", "regional", "state", "interstate"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "hook_placements": {
+      "description": "Optional; present only if quest hook templates exist.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sugg_id", "hook_template_id", "burg_id", "state_id", "score", "rationale"],
+        "properties": {
+          "sugg_id": { "type": "string" },
+          "hook_template_id": { "type": "string" },
+          "burg_id": { "type": "integer" },
+          "state_id": { "type": "integer" },
+          "score": { "type": "number" },
+          "rationale": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -27,18 +27,23 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run canon:burg:outline         # Burg outlines (from fact data)
    ```
 
-4. **Generate Rich Lore**
+4. **Generate Cross-Link Suggestions** (Deterministic Affinities)
+   ```bash
+   npm run links:suggest              # Cross-state affinities (religion, culture, trade, migration)
+   ```
+
+5. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-5. **Build Catalog**
+6. **Build Catalog**
    ```bash
    npm run catalog:build  # Create compact UI index
    ```
 
-6. **View Results**
+7. **View Results**
    ```bash
    python3 -m http.server 8000
    # Open http://localhost:8000/loregen-dashboard.html
@@ -60,6 +65,9 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **State outline (one)**: `npm run canon:state:outline:one -- ID`
 - **Province outlines**: `npm run canon:province:outline`
 - **Burg outlines**: `npm run canon:burg:outline`
+
+### Cross-Link Suggestions (Deterministic Affinities)
+- **Generate cross-link suggestions**: `npm run links:suggest`
 
 ### Rich Lore Generation
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
@@ -135,6 +143,7 @@ index/              # LLM-optimized data
 │   └── burg/       # Burg prompt packs
 ├── graph.json      # Dependency graph
 ├── catalog.json    # UI catalog (kingdoms + burgs)
+├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 ├── dirty.seeds.json # Event-driven change seeds
 ├── validate-summary.json # Validation results
 ├── runs/           # Usage logs (daily files)
@@ -151,6 +160,7 @@ schemas/            # JSON schemas
 ├── state_outline.schema.json
 ├── province_outline.schema.json
 ├── burg_outline.schema.json
+├── link_suggestions.schema.json
 ├── lore.state.full.schema.json
 └── lore.burg.full.schema.json
 ```
@@ -293,6 +303,11 @@ npm run canon:state:outline        # All state outlines
 npm run canon:province:outline     # Province outlines (synthetic from state regions)
 npm run canon:burg:outline         # Burg outlines (from fact data)
 # Or single state: npm run canon:state:outline:one -- 1
+```
+
+**Cross-Link Suggestions:**
+```bash
+npm run links:suggest              # Generate cross-state affinities (religion, culture, trade, migration)
 ```
 
 **Rich Lore Generation:**
