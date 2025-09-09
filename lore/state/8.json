@@ -1,0 +1,87 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 8
+  },
+  "summary": "Victumia is a coastal state on Southia in the Westford Era (1291). River-laced lands, eleven ports, and a navy of five fleets underpin a maritime economy. Romian culture predominates, with Selocobr Beliefs the dominant faith. Major towns include Selocobri, Celia, Coporumbia, and the port cities Geliba and Movium. With no mapped land neighbors, the capital administers trade and defense through two standing regiments and dispersed coastal squadrons.",
+  "history": [
+    "Romian-speaking civic magistracies consolidated river valleys into administered townships, laying the groundwork for Victumia’s current institutions.",
+    "Selocobri, Celia, and Coporumbia rose as inland markets while Geliba and Movium expanded with seaborne trade, encouraging a port-first economy.",
+    "The state chartered the 1st (Modriaqu) Regiment and later the 2nd (Sarimia) Regiment to secure crossings, depots, and the approaches to key towns.",
+    "Growth in shipping led to the organization of multiple coastal fleets; by 1291, five named fleets patrol sea lanes and river mouths.",
+    "Selocobr Beliefs became the dominant creed, coexisting—sometimes tensely—with minorities devoted to the Romian Gods and the Pulencuran Cult.",
+    "In 1291, the capital coordinated revenue and muster reforms to better align port levies with fleet patrols and regimental needs."
+  ],
+  "geographyNotes": "Victumia has an extensive coastline and 24 rivers, yielding numerous estuaries and sheltered anchorages. Settlement clusters along river corridors and port inlets. Dominant biomes are a mix led by biome#8, with notable tracts of biome#12 and biome#6. Coastal exposure gives the realm maritime‑moderated seasons. No declared land neighbors are mapped, reinforcing a sea-facing orientation on Southia.",
+  "societyNotes": "Romian culture is dominant, with a small Wildlands minority. Selocobr Beliefs hold clear majority adherence, alongside small congregations honoring the Romian Gods and the Pulencuran Cult. Civic life centers on market towns and the capital’s magistracies; faith houses and guild halls mediate local disputes. Military identity is visible through the 1st (Modriaqu) and 2nd (Sarimia) Regiments and a tradition of coastal service in the fleets.",
+  "economyNotes": "An 11‑port network drives commerce; Geliba and Movium handle much of the seaborne flow, while Selocobri, Celia, and Coporumbia serve as inland markets. Trade routes are decentralized (no formal route hubs), relying on river carriage and coastal cabotage. The navy’s five fleets protect convoy assembly points and approaches; the two regiments stabilize warehouses, ferries, and crossings. Administrative revenues derive from port dues and market levies across an area of 37,383.",
+  "factions": [
+    {
+      "name": "Harbor Guild Coalition (Geliba–Movium)",
+      "motive": "Maximize port dues and keep convoys moving without delay.",
+      "strength": "Deep influence over dock labor, warehousing, and pilotage across the 11‑port network."
+    },
+    {
+      "name": "Selocobr Clerical Council",
+      "motive": "Safeguard rites of the Selocobr Beliefs and retain moral authority in civic matters.",
+      "strength": "Majority congregational support and tithe networks in major towns."
+    },
+    {
+      "name": "Romian Magistrates’ Circle",
+      "motive": "Preserve Romian legal customs and orderly taxation from the capital down to markets.",
+      "strength": "Seats in municipal councils of Selocobri, Celia, and Coporumbia; sway over charters and tariffs."
+    },
+    {
+      "name": "Fleet Command (1st–5th Fleets)",
+      "motive": "Maintain secure sea lanes, estuaries, and coastal approaches.",
+      "strength": "Operational control of five fleets (10 total flotilla units), distributed along the coast."
+    },
+    {
+      "name": "1st (Modriaqu) Regiment",
+      "motive": "Hold the interior lines and river crossings supporting trade towns.",
+      "strength": "Approx. 3,219 personnel with infantry, archers, cavalry, and limited artillery."
+    },
+    {
+      "name": "2nd (Sarimia) Regiment",
+      "motive": "Reinforce ports and disperse unrest before it threatens commerce.",
+      "strength": "Approx. 2,490 personnel with a mixed infantry-archer core and mobile elements."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Missing Convoy off Movium",
+      "setup": "A scheduled convoy between Movium and Geliba fails to appear; the 3rd Fleet requests discreet investigators.",
+      "escalation": "Logs hint at an unsanctioned river mouth rendezvous; rival guild factors move to seize the cargo first.",
+      "reward": "Port-fee exemptions for a season and formal letters of safe-conduct."
+    },
+    {
+      "title": "Shrine Dispute in Celia",
+      "setup": "Selocobr faithful and adherents of the Romian Gods contest rights to a shared shrine site.",
+      "escalation": "Crowds swell; the 2nd (Sarimia) Regiment prepares to intervene unless a compromise is brokered.",
+      "reward": "Civic favor with Celia’s magistrates and a modest stipend from both congregations."
+    },
+    {
+      "title": "River-Smugglers of Selocobri Reach",
+      "setup": "Unstamped goods are flooding inland markets via minor estuaries near Selocobri.",
+      "escalation": "The smuggling ring is protected by port clerks skimming dues across multiple small harbors.",
+      "reward": "A share of seized cargo and a provisional customs charter."
+    },
+    {
+      "title": "Wildlands Delegation at Coporumbia",
+      "setup": "A Wildlands minority seeks recognition of their rites and market rights in Coporumbia.",
+      "escalation": "Talks stall as hardliners agitate; unrest could close the roads feeding the inland markets.",
+      "reward": "Honorary status within the magistracy roll and trade scrip redeemable in three towns."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "6bf0b713d2d6e333577198d14f55a6293a53100b4d9a3c5539880d83fd5d6613:fullv1"
+}

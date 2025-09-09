@@ -1,0 +1,186 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "checksum": "fnv1a_4779f903",
+  "name": "State_12",
+  "aliases": [
+    "Harbor-Principalities",
+    "Tideward"
+  ],
+  "timeline_beats": [
+    {
+      "id": "B1",
+      "label": "First coastal settlements",
+      "ybp": 8000,
+      "refs_world_events": []
+    },
+    {
+      "id": "B2",
+      "label": "Formation of coastal confederacies",
+      "ybp": 3500,
+      "refs_world_events": []
+    },
+    {
+      "id": "B3",
+      "label": "Codification of fisheries & harbor law",
+      "ybp": 1800,
+      "refs_world_events": []
+    },
+    {
+      "id": "B4",
+      "label": "Entry into Maritime Trading League",
+      "ybp": 400,
+      "refs_world_events": [
+        "A1"
+      ]
+    },
+    {
+      "id": "B5",
+      "label": "Fisheries sharing treaty revised",
+      "ybp": 120,
+      "refs_world_events": [
+        "T3"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Harbor Guilds (shipwrights & pilots)",
+      "influence_hint": "High; controls docks and ship provisioning"
+    },
+    {
+      "id": "F2",
+      "label": "Clan-Fisher Cooperatives",
+      "influence_hint": "High in coastal districts; seasonal mobilization power"
+    },
+    {
+      "id": "F3",
+      "label": "Salt-Barons",
+      "influence_hint": "Medium; control saltworks and export tariffs"
+    },
+    {
+      "id": "F4",
+      "label": "Tide-Scriptoria (ritual navigators)",
+      "influence_hint": "Medium; gatekeepers for augury services"
+    },
+    {
+      "id": "F5",
+      "label": "Merchant Consortia",
+      "influence_hint": "Medium-High; foreign trade and reagent import networks"
+    }
+  ],
+  "economy_pillars": [
+    "fisheries",
+    "shipbuilding",
+    "saltworks",
+    "coastal trade",
+    "navigational-augury services"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "maritime-oriented kinship clans",
+      "oral harbor law and customs",
+      "seasonal labor rhythms (monsoonal fisheries)",
+      "ritual seamanship practices",
+      "practical mercantile etiquette"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Great Harbor",
+      "tags": [
+        "coastal",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "North Salt-Flats",
+      "tags": [
+        "coastal",
+        "salt-works"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Estuary Boroughs",
+      "tags": [
+        "estuary",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Cliffwatch",
+      "tags": [
+        "coastal",
+        "military-outlook"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Outlying Fishing Isles",
+      "tags": [
+        "island",
+        "seasonal"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A1",
+      "label_hint": "Maritime Trading League"
+    },
+    {
+      "type": "alliance",
+      "id": "A5",
+      "label_hint": "Northern Fishing Coalition"
+    },
+    {
+      "type": "treaty",
+      "id": "T1",
+      "label_hint": "Open-Seas Treaty"
+    },
+    {
+      "type": "treaty",
+      "id": "T3",
+      "label_hint": "Fisheries Sharing Agreement"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB2",
+      "label_hint": "Coastal-River Commerce Ring"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB3",
+      "label_hint": "Northern Fishers' Cooperative"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+  ],
+  "notes": [
+    "Economy heavily dependent on imported ritual reagents via Merchant Consortia",
+    "Seasonal storms drive political rhythms and fishing rights disputes",
+    "Harbor Guilds control chokepoints for customs and augury access",
+    "Factions balance: Guilds/Cooperatives vs Salt-Barons; treaties and leagues stabilize external trade"
+  ],
+  "generated_at": "2025-09-09T03:52:29.438Z"
+}

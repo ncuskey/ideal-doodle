@@ -1,0 +1,188 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "checksum": "fnv1a_61acb07",
+  "name": "State_11",
+  "aliases": [
+    "Coastal State 11",
+    "Harbor of Eleven"
+  ],
+  "timeline_beats": [
+    {
+      "id": "B1",
+      "label": "Founding of principal harbor settlement",
+      "ybp": 9500,
+      "refs_world_events": []
+    },
+    {
+      "id": "B2",
+      "label": "Entrenchment as mercantile node; joins island mercantile networks",
+      "ybp": 3500,
+      "refs_world_events": [
+        "A4",
+        "A1"
+      ]
+    },
+    {
+      "id": "B3",
+      "label": "Naval expansion and privateering peak",
+      "ybp": 1800,
+      "refs_world_events": []
+    },
+    {
+      "id": "B4",
+      "label": "Great Naval War impacts fleet and borders",
+      "ybp": 1200,
+      "refs_world_events": [
+        "W1",
+        "BC2"
+      ]
+    },
+    {
+      "id": "B5",
+      "label": "Integration under Open-Seas frameworks; joins Sea Trade Union",
+      "ybp": 200,
+      "refs_world_events": [
+        "T1",
+        "TB1"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Grand Merchant Houses",
+      "influence_hint": "Primary control of long-distance trade, port leases, and reagent imports"
+    },
+    {
+      "id": "F2",
+      "label": "Naval Directorate",
+      "influence_hint": "State navy and coastal defense; influential in border negotiations"
+    },
+    {
+      "id": "F3",
+      "label": "Guild of Navigational Augurs",
+      "influence_hint": "Controls ritual-seamanship services and augury workshops; gatekeepers of charts"
+    },
+    {
+      "id": "F4",
+      "label": "Fisher Clans & Dockworker Soviets",
+      "influence_hint": "Local labor power, control of fisheries and shore logistics"
+    }
+  ],
+  "economy_pillars": [
+    "shipbuilding",
+    "long-distance maritime trade",
+    "fisheries & salted provisions",
+    "navigational-augury services",
+    "salt & reagent trade"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "maritime lexicon and tide-based timekeeping",
+      "guild-centered social order",
+      "ancestor-seafaring rites",
+      "practical literacy concentrated among merchants and augurs",
+      "patrilineal house affiliations with port-based patronage"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Grand Harbor District",
+      "tags": [
+        "coastal",
+        "trade-hub",
+        "naval-base"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Estuary Province",
+      "tags": [
+        "estuary",
+        "fisheries"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Drydock Quarter",
+      "tags": [
+        "shipbuilding",
+        "industrial"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Salt Flats & Refinery",
+      "tags": [
+        "resource-rich",
+        "coastal"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Outer Atoll Trading Posts",
+      "tags": [
+        "coastal",
+        "waystation"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A1",
+      "label_hint": "Maritime Trading League"
+    },
+    {
+      "type": "alliance",
+      "id": "A4",
+      "label_hint": "Island Mercantile Pact"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "treaty",
+      "id": "T1",
+      "label_hint": "Open-Seas Treaty"
+    },
+    {
+      "type": "border_change",
+      "id": "BC2",
+      "label_hint": "Maritime Boundary Recalibration"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB1",
+      "label_hint": "Sea Trade Union"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Ritual magic consumes scarce imported reagents or specialized labor; logistics constraint on large-scale rituals",
+    "Must respect inter-state maritime treaties and recent boundary recalibrations"
+  ],
+  "notes": [
+    "State reliant on imported reagents and foreign trade for ritual systems and advanced ship repairs",
+    "Naval capability tied to cooperation between Merchant Houses and Naval Directorate",
+    "Maritime boundaries contested along northern shoals; border changes shape fishing rights",
+    "Guild control of augury services creates choke points for navigation and trade privileges"
+  ],
+  "generated_at": "2025-09-09T03:52:16.011Z"
+}

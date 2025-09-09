@@ -1,0 +1,189 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "checksum": "fnv1a_cb586f87",
+  "name": "State_13",
+  "aliases": [
+    "State_13 Coastal Duchy",
+    "Harthold Coast"
+  ],
+  "timeline_beats": [
+    {
+      "id": "tb1",
+      "label": "First permanent coastal harbor founded",
+      "ybp": 3700,
+      "refs_world_events": [
+        "River-Kingdoms_and_Leagues"
+      ]
+    },
+    {
+      "id": "tb2",
+      "label": "Maritime league chartered; shipwright guilds institutionalized",
+      "ybp": 1800,
+      "refs_world_events": [
+        "Age_of_Flux"
+      ]
+    },
+    {
+      "id": "tb3",
+      "label": "Accidental reef barrage built after catastrophic storm; long-term harbor defense",
+      "ybp": 150,
+      "refs_world_events": [
+        "Present_Order"
+      ]
+    },
+    {
+      "id": "tb4",
+      "label": "Joined Coastal Defense Compact and northern fisheries/treaty arrangements",
+      "ybp": 350,
+      "refs_world_events": [
+        "Present_Order"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "f1",
+      "label": "Maritime Merchants",
+      "influence_hint": "Dominant in coastal trade policy; funds reagent imports"
+    },
+    {
+      "id": "f2",
+      "label": "Harbormaster Guild",
+      "influence_hint": "Controls port access, piloting, and shipwright standards"
+    },
+    {
+      "id": "f3",
+      "label": "Coastal Clans",
+      "influence_hint": "Local landed power; supplies crews and militia levies"
+    },
+    {
+      "id": "f4",
+      "label": "Naval Militia",
+      "influence_hint": "State defense; enforces fisheries rules and anti-piracy"
+    },
+    {
+      "id": "f5",
+      "label": "Scriptoria of Tides",
+      "influence_hint": "Ritual specialists advising navigators and blessing voyages"
+    }
+  ],
+  "economy_pillars": [
+    "fisheries",
+    "shipbuilding",
+    "saltworks",
+    "coastal trade",
+    "imported ritual reagents"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "maritime pragmatism",
+      "guild-centered governance",
+      "seamanship lore and chartcraft",
+      "kin-clan social obligations",
+      "ritualized navigation practices"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "r1",
+      "label": "Port Rekka",
+      "tags": [
+        "trade-hub",
+        "coastal"
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "Saltmarsh Flats",
+      "tags": [
+        "saltworks",
+        "coastal"
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "Cliffward Holds",
+      "tags": [
+        "coastal",
+        "holds"
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "Fisherstrand",
+      "tags": [
+        "fishing",
+        "coastal"
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "Outer Shoals",
+      "tags": [
+        "naval",
+        "reef-hazard"
+      ]
+    },
+    {
+      "id": "r6",
+      "label": "Market Belt",
+      "tags": [
+        "trade-hub"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A2",
+      "label_hint": "Coastal Defense Compact"
+    },
+    {
+      "type": "alliance",
+      "id": "A5",
+      "label_hint": "Northern Fishing Coalition"
+    },
+    {
+      "type": "treaty",
+      "id": "T3",
+      "label_hint": "Fisheries Sharing Agreement"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB2",
+      "label_hint": "Coastal-River Commerce Ring"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB3",
+      "label_hint": "Northern Fishers' Cooperative"
+    }
+  ],
+  "constraints": [
+    "Tech baseline: near-medieval to early-industrial",
+    "Localized ritual magic requires material components; consumes scarce imported reagents",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)",
+    "Must respect inter-state treaty and alliance obligations listed in external_relations_refs"
+  ],
+  "notes": [
+    "Strategic dependency on imported reagents; merchant factions control supply lines",
+    "Key harbor (Port Rekka) sits on a chokepoint protected by artificial reefs",
+    "Fisheries subject to T3 sharing rules; enforcement by Naval Militia",
+    "Seasonal storms and reef hazards shape ship design and guild regulations",
+    "Lower layers must model guild privileges, reagent scarcity, and treaty-driven fishing quotas"
+  ],
+  "generated_at": "2025-09-09T03:52:43.886Z"
+}

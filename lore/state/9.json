@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 9
+  },
+  "summary": "Eraisia is a coastal, river-laced state of Southia in the Westford Era (year 1291). Its settlements cluster along navigable rivers and crossings, with commerce dominated by inland market towns rather than seaports; the official capital is a modest administrative seat rather than the largest city. Autliardism and Luarian culture shape public life amid a diverse frontier that borders five other states.",
+  "history": [
+    "Early river confluences and estuaries became the first stable townsites; a neutral central seat was later chosen as the capital to balance regional interests.",
+    "Autliardism took root as the guiding faith, aligning festivals and taxation with the religious calendar.",
+    "Market charters elevated Jarquilly, Chales, Dunskirk, Walton, and Bridgewent into a network of cooperating (and competing) inland towns.",
+    "The 1st (Chales) Regiment was formed to guard bridges, fords, and road corridors linking the river valleys.",
+    "After coastal predations, two small sea ports were formalized and a coastal patrol (the 1st Fleet) was established to safeguard the littoral.",
+    "Recent decades saw increased Westen and Wildlands migration into border hamlets and artisan quarters, prompting mixed-court legal reforms.",
+    "In 1291, budget disputes pit clergy, burg councils, and officers over whether to fund port dredging or strengthen river levees and bridgeworks."
+  ],
+  "geographyNotes": "Eraisia fronts the sea with a low, indented coastline of short estuaries and bars, backed by a web of 11 rivers whose floodplains host most farms and towns. The mapped biomes form a mosaic—biome#6 predominates, with notable patches of biome#4 and biome#5—supporting mixed agriculture and riparian woodland. Maritime influence moderates the coast while the interior sees sharper seasonal swings; spring freshets and autumn storms are the main flood risks. Strategic choke points are the bridgeheads and fords binding river valleys to the coast.",
+  "societyNotes": "Autliardism is the dominant faith, with a visible minority professing no religion. Luarian culture leads, while Westen and Wildlands communities maintain quarters in market towns and line parts of the borderlands. Civic identity is pragmatic and riverward: parish-centered villages feed bustling market days in Jarquilly, Chales, Dunskirk, Walton, and Bridgewent. The capital’s administration is small but respected, mediating between clergy, burg councils, and officers.",
+  "economyNotes": "Trade moves chiefly by river and road to two modest sea ports (neither among the largest towns), then along the coast. Jarquilly is the leading marketplace; Chales doubles as a garrison town; Bridgewent thrives on crossing tolls; Dunskirk and Walton provision the interior. With no designated route hubs, commerce threads through river corridors and border gates. The 1st Fleet patrols nearshore lanes while the 1st (Chales) Regiment keeps customs posts, ferries, and bridges secure.",
+  "factions": [
+    {
+      "name": "Autliard Synod of Eraisia",
+      "motive": "Preserve religious primacy, regulate festivals and tithes, and fund levees tied to parish lands.",
+      "strength": "Dense parish network and moral authority across rural districts."
+    },
+    {
+      "name": "League of Inland Burgs (Jarquilly–Walton–Bridgewent bloc)",
+      "motive": "Lower tolls, standardize weights, and redirect funds toward roads and market sheds over port works.",
+      "strength": "Full coffers from market dues and a fleet of riverboats and caravans."
+    },
+    {
+      "name": "1st (Chales) Regiment Officer Corps",
+      "motive": "Secure stable funding, fortify crossings, and professionalize drills along the borders.",
+      "strength": "A mixed-arms force of about 2,451 with seasoned infantry, archers, cavalry, and limited artillery."
+    },
+    {
+      "name": "Coastal Wardens (1st Fleet)",
+      "motive": "Keep the shoals clear of raiders and smugglers and advocate for port-channel dredging.",
+      "strength": "A compact patrol flotilla officially mustered as the realm’s 1st Fleet."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Vanishing Tithe-Barges",
+      "setup": "Grain tithes bound for coastal storage vanish along an upriver reach supplying Dunskirk.",
+      "escalation": "Clues point to a smuggling ring using backwater cuts and flooded meadows to bypass customs posts.",
+      "reward": "Church favor, a cut of recovered tithes, and permits to trade at select parish fairs."
+    },
+    {
+      "title": "Lines That Drift",
+      "setup": "A river has shifted its channel, throwing a long-settled border and farmland deeds into dispute.",
+      "escalation": "Local militias mass at rival levees while outside agitators urge a forceful crossing.",
+      "reward": "A confirmed land grant, bridge toll exemptions, or salvage rights on abandoned riverbed timber."
+    },
+    {
+      "title": "Port in Suspense",
+      "setup": "Sabotage stalls dredging at one of the small sea ports just as the trading season opens.",
+      "escalation": "Evidence implicates inland merchants—and a coastal warden—seeking to divert traffic.",
+      "reward": "Warehouse access on favorable terms and a standing contract for guarded river transport."
+    },
+    {
+      "title": "Barrows in the Silt",
+      "setup": "A flood near Walton exposes ancient river-stone barrows and relics.",
+      "escalation": "Competing claims from parish priests and treasure-hunters spark unrest; night raids disturb the graves.",
+      "reward": "Recovered relics blessed by the Synod, along with legal salvage shares."
+    },
+    {
+      "title": "Regimental Favor",
+      "setup": "The 1st (Chales) Regiment seeks scouts to track raiders threatening ferries and postal riders.",
+      "escalation": "Pursuit uncovers a supply chain running through marsh estuaries toward the open sea.",
+      "reward": "Bounties, captured mounts and gear, and honorary standing with the officer corps."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "972fcce94e0c634527b259ef41937a3853cc4e9b3ea611166b6bf660153f0d28:fullv1"
+}

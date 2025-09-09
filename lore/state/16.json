@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 16
+  },
+  "summary": "Iahzit is a coastal Kobblin-led state on the Southia map, centered on the capital burg of Iahzit. River-laced (10 rivers) and spanning about 47,590 square units, it relies on four ports for sea access. Old Kobblin Shamanism predominates; minorities include Nortumbic and Wildlands cultures and non-religious folk. The army is cavalry-heavy with regiments named for Gneab and Dobok, backed by a small 1st Fleet. Major towns include Gigbig, Threshai (port), Sleh, Phiggal, and the capital Iahzit (port).",
+  "history": [
+    "Formation as a Kobblin-led coastal polity during the Westford Era, consolidating around rivers and the burg of Iahzit.",
+    "Maritime development brings the total to four ports; Threshai and Iahzit emerge as principal seagates.",
+    "Regiments raised and named for Gneab and Dobok, establishing a cavalry-forward military tradition.",
+    "Urban growth sees Gigbig become the largest burg, with Sleh and Phiggal following.",
+    "Religious landscape stabilizes: Old Kobblin Shamanism remains dominant with small Nortumbic Spirits and unaffiliated minorities.",
+    "By 1291 W.E., Iahzit fields three cavalry-heavy regiments and a 1st Fleet while bordering four neighboring states."
+  ],
+  "geographyNotes": "Coastal state with 10 rivers enabling inland-waterway movement and settlement clustering along banks and mouths. Dominant biomes: biome#1 (most prevalent), biome#3, and biome#5. The coastline supports four ports; interior routes largely follow river valleys. Borders four other states.",
+  "societyNotes": "Demographically Kobblin-dominant with Old Kobblin Shamanism the principal faith. Minor presences of Wildlands and Nortumbic cultures, with adherents of Nortumbic Spirits and some with no religion. Social rhythm follows shamanic observances; minorities tend to concentrate in trade-facing quarters of port towns.",
+  "economyNotes": "Sea and river trade define the economy via four ports; the main seagates are Threshai and the capital Iahzit. Top burgs by size: Gigbig, Threshai (port), Sleh, Phiggal, Iahzit (port). With no listed overland route hubs, commerce favors coastal and riverine corridors. The navy’s 1st Fleet protects maritime lanes.",
+  "factions": [
+    {
+      "name": "1st (Gneab) Regiment",
+      "motive": "Defend Iahzit’s core lands and key crossings; act as rapid-response cavalry.",
+      "strength": "≈1,898 personnel: 1,098 cavalry, 288 infantry, 504 archers, 8 artillery."
+    },
+    {
+      "name": "2nd (Dobok) Regiment",
+      "motive": "Patrol and secure the Dobok approaches; support coastal-port security when needed.",
+      "strength": "≈1,430 personnel: 1,306 cavalry, 40 infantry, 83 archers, 1 artillery."
+    },
+    {
+      "name": "3rd (Dobok) Regiment",
+      "motive": "Reinforce Dobok sector and serve as mobile reserve for the south coast.",
+      "strength": "≈882 personnel: 636 cavalry, 102 infantry, 143 archers, 1 artillery."
+    },
+    {
+      "name": "1st Fleet",
+      "motive": "Safeguard the coastline and the four ports; interdict threats along river mouths.",
+      "strength": "Single fleet formation (listed as 1)."
+    },
+    {
+      "name": "Old Kobblin Shaman Circles",
+      "motive": "Preserve and guide the dominant Old Kobblin Shamanism rites and communal order.",
+      "strength": "Largest religious authority, aligned with the Kobblin majority."
+    },
+    {
+      "name": "Threshai–Iahzit Port Syndicate",
+      "motive": "Keep harbor dues stable and shipping predictable across the main seagates.",
+      "strength": "Controls berths and logistics at two principal ports; strong merchant backing."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Riders Gone Missing in Dobok",
+      "setup": "Scouts from the 2nd (Dobok) Regiment vanish along a river patrol near the Dobok approaches.",
+      "escalation": "Evidence points to interference moving between river landings and the coast, evading cavalry pursuit.",
+      "reward": "Regimental favor and escorted passage rights along Dobok patrol routes."
+    },
+    {
+      "title": "Wharf Dues Dispute at Threshai",
+      "setup": "Dockworkers and merchants clash over new fees at Threshai’s port, threatening shipping schedules.",
+      "escalation": "Strikes ripple to Iahzit’s harbor; the 1st Fleet prepares to enforce order if talks fail.",
+      "reward": "Fee waivers for a season and priority berths at Threshai and Iahzit."
+    },
+    {
+      "title": "Spirits of the Crossing",
+      "setup": "Nortumbic Spirits adherents request mediation with local shamans at a busy river crossing.",
+      "escalation": "A misunderstanding risks wider unrest among mixed-cultural wards in nearby towns.",
+      "reward": "Blessings from both clergy and safe-conduct papers for river towns."
+    },
+    {
+      "title": "The Silent Harbor",
+      "setup": "One of the lesser ports stops signaling incoming convoys, spooking coastal traders.",
+      "escalation": "Navigational markers are found moved or missing near a river mouth, stalling traffic.",
+      "reward": "Salvage rights on recovered goods and commendation from the 1st Fleet."
+    },
+    {
+      "title": "Counting the Ten",
+      "setup": "Iahzit commissions a survey of all ten rivers to improve movement and levy accuracy.",
+      "escalation": "Survey teams encounter competing claims from a neighboring state along an upriver reach.",
+      "reward": "A chartered trade license for river markets and an escort from the 1st (Gneab) Regiment."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "405d0c44fb46bf12d04730eca6a77c2392196be80eff3cb36aa48b58cfc897ac:fullv1"
+}

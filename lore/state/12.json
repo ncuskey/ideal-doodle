@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 12
+  },
+  "summary": "Doblin is a river-laced coastal state of Southia in the Westford Era, year 1291, centered on its inland capital Wruilx. A Kobblin-majority society, it is shaped by Kobblinism with enduring Old Kobblin Shamanism, and governed through strong cavalry traditions backed by small coastal fleets. Three ports tie the coast to a dense interior network of 25 rivers, with Gobshai the chief seaward outlet among the top towns. With seven borders and no formal route hubs, Doblin relies on rivers and coasting craft to bind together Wruilx, Wruil, Rekx, and the smaller market towns.",
+  "history": [
+    "Early riverbank settlements consolidate under Kobblin culture, spreading along the major waterways toward the coast.",
+    "Old Kobblin Shamanism dominates village rites until urban temples organize Kobblinism, which becomes the leading faith while older practices persist in rural districts.",
+    "Wruilx is established inland as the administrative and ceremonial center; Wruil and Rekx rise as market rivals along river junctions.",
+    "Gobshai develops as the principal gate to the sea; two small fleets are raised to police the shore and estuaries.",
+    "Cavalry doctrine becomes Doblin’s hallmark, producing named regiments (Kluird, Gobs, Gneab, Stroi, Glervaq, Slof) with fast response across the plains and river crossings.",
+    "Merchant guilds standardize dues along key ferries and fords in lieu of formal route hubs, strengthening barge traffic between inland towns and the ports.",
+    "By Westford Era 1291, Doblin balances court-aligned forces with temple influence, guarding multiple borders while expanding river-to-sea trade through its three ports."
+  ],
+  "geographyNotes": "Coastal realm with 25 rivers feeding broad estuaries; navigation and crossings define internal movement. Dominant biomes are biome#3 (most widespread) and biome#5, with smaller patches of biome#1. The coast supports three ports; inland, settlement strings along river corridors connect to Wruilx, Wruil, Rekx, and Phig. Multiple borders (seven neighboring states) create a mix of frontier lowlands and guarded crossings.",
+  "societyNotes": "Kobblin culture is predominant (702), with a notable Wildlands minority (99) and a very small Durinn presence (2). Faith is led by Kobblinism (363) alongside resilient Old Kobblin Shamanism (300), plus a secular segment (99). Urban temples and guilds center in Wruilx, Wruil, and Rekx; shamanic circles anchor river hamlets and groves. Civic identity favors mounted service and river stewardship, with court-aligned officers mediating between temples and merchants.",
+  "economyNotes": "Three ports integrate coastal and inland trade; Gobshai is the chief seaport among top towns, while two smaller ports handle coasting traffic. No formal route hubs exist, so commerce follows rivers and ferries to Wruilx (capital), Wruil, Rekx, and Phig. The army’s cavalry logistics depend on river depots and market towns. Two small fleets patrol the shore and estuaries to deter theft and protect barge convoys.",
+  "factions": [
+    {
+      "name": "Kluird Cavalry Host",
+      "motive": "Preserve cavalry primacy and secure key river crossings near their mustering grounds.",
+      "strength": "Veteran mounted cadres from the 1st and 4th (Kluird) Regiments with rapid-response patrols."
+    },
+    {
+      "name": "Gneab Cohort",
+      "motive": "Safeguard court stability and the capital’s approaches.",
+      "strength": "Disciplined elements from the 3rd and 6th (Gneab) Regiments with close ties to Wruilx."
+    },
+    {
+      "name": "Gobs Coastal Lancers",
+      "motive": "Protect ports and estuaries and keep sea-lanes open for commerce.",
+      "strength": "Mobile shore units from the 2nd (Gobs) Regiment coordinating with the 1st and 2nd Fleets."
+    },
+    {
+      "name": "Synod of Kobblinist Temples",
+      "motive": "Unify doctrine and expand charitable works in market towns.",
+      "strength": "Majority faith with temple networks and urban patronage."
+    },
+    {
+      "name": "Old Shaman Circles",
+      "motive": "Defend ancestral rites and river-grove sanctity against encroachment.",
+      "strength": "Deep rural influence and keepers of local oaths at ferries and fords."
+    },
+    {
+      "name": "Guild Compact of Gobshai–Rekx",
+      "motive": "Lower tolls and standardize river-carriage to grow inland–coastal trade.",
+      "strength": "Coin, warehouses, and barge contracts linking Rekx, Wruil, and Gobshai."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The River Tithe Dispute",
+      "setup": "Competing tollmen claim rights at a busy ford feeding Rekx’s markets.",
+      "escalation": "Armed riders from the Kluird Host and shamanic adherents confront temple-licensed collectors; trade halts.",
+      "reward": "A chartered exemption or a cut of toll revenues for restoring lawful passage."
+    },
+    {
+      "title": "Ghosts of the Estuary Lights",
+      "setup": "Strange beacons mislead night traffic into the shoals off Gobshai.",
+      "escalation": "Smugglers exploit the panic; the Fleets demand a covert sweep to end the sabotage.",
+      "reward": "Salvage rights and a standing contract with port officials."
+    },
+    {
+      "title": "The Missing Stroi Train",
+      "setup": "A supply convoy for the 7th (Stroi) Regiment vanishes between river depots.",
+      "escalation": "Tracks split across multiple ferries; pursuit risks crossing into a touchy border span.",
+      "reward": "Unit favor and procurement vouchers redeemable in Wruil and Wruilx."
+    },
+    {
+      "title": "Two Faiths, One Grove",
+      "setup": "A river-grove shrine claimed by both Kobblinist priests and Old Shaman circles becomes a flashpoint.",
+      "escalation": "Rival processions converge; one relic disappears, and blame spirals toward riot.",
+      "reward": "Sanctuary rights and endorsements from both sides if the relic is returned and a truce brokered."
+    },
+    {
+      "title": "Courier to the Gneab Barracks",
+      "setup": "Court orders must be borne quietly from Wruilx to the Gneab Cohort’s cantonments.",
+      "escalation": "Interceptors on fast horses test every crossing; one bridge-warden may be compromised.",
+      "reward": "A discreet stipend and introductions at the capital’s offices."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "4e090b3a876ad4edbdb2fde14c1f1e4cc35de3ad44a1c1f7082f4e55597b4a82:fullv1"
+}

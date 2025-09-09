@@ -4,34 +4,51 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/cli.ts",
+
+    "canon:world:outline": "tsx src/pipelines/canonWorldOutline.ts",
+    "canon:interstate:outline": "tsx src/pipelines/canonInterstateOutline.ts",
+    "canon:state:outline": "tsx src/pipelines/canonStateOutline.ts",
+    "canon:state:outline:one": "tsx src/pipelines/canonStateOutline.ts --id=",
+
     "facts:build": "tsx src/pipelines/buildFacts.ts",
     "facts:derive": "tsx src/pipelines/buildDerived.ts",
     "facts:promptpacks": "tsx src/pipelines/buildPromptPacks.ts",
     "graph:build": "tsx src/pipelines/buildGraph.ts",
-    "lore:burg": "tsx src/pipelines/genBurgLore.ts",
-    "lore:burg:full": "tsx src/pipelines/genBurgLoreFull.ts",
-    "lore:burg:hooks": "tsx src/pipelines/refreshBurgHooks.ts",
-    "lore:dirty": "tsx src/pipelines/regenDirty.ts",
+
     "lore:state": "tsx src/pipelines/genStateLore.ts",
     "lore:state:full": "tsx src/pipelines/genStateLoreFull.ts",
-    "lore:state:hooks": "tsx src/pipelines/refreshStateHooks.ts",
     "lore:state:full:all": "tsx src/pipelines/genAllStateLoreFull.ts",
+    "lore:state:hooks": "tsx src/pipelines/refreshStateHooks.ts",
+
+    "lore:burg": "tsx src/pipelines/genBurgLore.ts",
+    "lore:burg:full": "tsx src/pipelines/genBurgLoreFull.ts",
     "lore:burg:full:all": "tsx src/pipelines/genAllBurgLoreFull.ts",
+    "lore:burg:hooks": "tsx src/pipelines/refreshBurgHooks.ts",
+
+    "lore:dirty": "tsx src/pipelines/regenDirty.ts",
+
+    "validate:lore": "tsx src/pipelines/validateAllLore.ts",
+    "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
+
+    "events:apply": "tsx src/pipelines/applyEvents.ts",
+    "events:apply+regen": "npm run events:apply -- --file=events/demo.json && tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
+
+    "catalog:build": "tsx src/pipelines/buildCatalog.ts",
+
     "pipeline:full:one": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full -- --id=1 && npm run lore:burg:full -- --id=1",
     "pipeline:full:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all",
     "pipeline:full:all+validate": "npm run pipeline:full:all && npm run validate:lore",
-    "pipeline:real:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && cross-env LORE_CONCURRENCY=3 npm run lore:state:full:all && cross-env LORE_CONCURRENCY=4 npm run lore:burg:full:all && npm run validate:lore && npm run catalog:build",
+    "pipeline:real:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all && npm run validate:lore && npm run catalog:build",
+
     "pipeline:abort": "tsx src/pipelines/abort.ts",
     "pipeline:abort:clear": "tsx src/pipelines/abortClear.ts",
-    "validate:lore": "tsx src/pipelines/validateAllLore.ts",
-    "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
-    "events:apply": "tsx src/pipelines/applyEvents.ts",
-    "events:apply+regen": "tsx src/pipelines/applyEvents.ts && node ./node_modules/.bin/tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
-    "catalog:build": "tsx src/pipelines/buildCatalog.ts",
-    "test:hash": "tsx src/tests/hash.test.ts"
+
+    "test:hash": "tsx src/tests/hash.test.ts",
+    "server": "tsx src/server.ts"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
+    "express": "^4.18.2",
     "openai": "^4.57.0",
     "p-limit": "^7.1.1",
     "zod": "^3.23.8"

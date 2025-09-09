@@ -1,0 +1,92 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 3
+  },
+  "summary": "Zataphruz is a coastal Aj'Snaga-led state of Southia centered on the port-capital Itheshruz. Nineteen rivers knit interior market towns—Ki'jiress, Nasar, and Akkuss—to the sea via Itheshruz and the secondary port of Oz'jash. Archery-heavy regiments and small patrol fleets guard estuaries and river mouths. In Westford Era 1291, Zataphruz balances spirit-led traditions with Kobblin minority communities and pragmatic maritime trade.",
+  "history": [
+    "River clans consolidated around the Itheshruz estuary, organizing shared use of channels and floodplains under Aj'Snaga spirit pacts.",
+    "Provincial identities coalesced (Nasar, Xas'tu, Ki'jiress, Mapjar), later providing names and recruiting grounds for the regimental system.",
+    "Growth of Ki'jiress and Nasar as inland suppliers strengthened the capital's position; Kobblin artisans and traders established quarters in the ports.",
+    "Two seaports (Itheshruz and Oz'jash) were formalized, with modest fleets raised to deter estuary predation and escort traffic.",
+    "By Westford Era 1291, borders with two neighboring states are managed largely along waterways, while regiments rotate to secure key fords and mouths."
+  ],
+  "geographyNotes": "Sea frontage with estuaries and brackish wetlands; 19 river courses provide inland navigation and seasonal floodplains. Dominant biomes: biome#7 (primary), biome#12 (secondary), and biome#5 (localized patches). Coastal influence moderates temperatures; wet seasons swell the rivers and bring fogs over backwaters. Notable districts echo regimental names: Nasar, Xas'tu, Ki'jiress, and Mapjar. Estuaries are patrolled by small fleets based at Itheshruz and Oz'jash.",
+  "societyNotes": "Aj'Snaga culture and the Aj'Snaga Spirits faith shape public rites and local arbitration through spirit lodges. Kobblin communities (following Kobblinism) concentrate in ports and market streets, contributing to trade and crafts. Archery is a celebrated civic duty, with festivals doubling as musters. Provincial loyalties—Nasar, Xas'tu, Ki'jiress, Mapjar—inform recruitment, patronage, and identity.",
+  "economyNotes": "Commerce moves by water; there are no major overland route hubs. Two ports anchor maritime trade: Itheshruz (capital, main harbor) and Oz'jash (secondary). Inland towns—Ki'jiress, Nasar, Akkuss—funnel riverborne produce and crafts to the coast. Harbor dues and river tolls fund patrols and fleets. Bowyery and fletching are notable crafts, supplying the state’s archer-heavy regiments.",
+  "factions": [
+    {
+      "name": "Lodge of the Estuary Spirits",
+      "motive": "Guard sacred river mouths, mediate disputes, and keep trade in harmony with rites.",
+      "strength": "High moral authority in Itheshruz; influence over pilots and ferrymen."
+    },
+    {
+      "name": "Nasar Oathbows",
+      "motive": "Maintain archery primacy and secure state contracts for elite bowmen.",
+      "strength": "Veteran cadres embedded in the 1st and 6th (Nasar) Regiments."
+    },
+    {
+      "name": "Xas'tu March Companies",
+      "motive": "Protect traditional privileges of frontier companies and ensure steady stipends.",
+      "strength": "Two standing regiments (2nd and 3rd) with loyal captaincies."
+    },
+    {
+      "name": "Ki'jiress Craft Quarter",
+      "motive": "Control warehouse space and river tariffs that feed the regiments and fleets.",
+      "strength": "Purse-strings over provisioning for the 5th (Ki'jiress) Regiment."
+    },
+    {
+      "name": "Oz'jash Dockwardens",
+      "motive": "Elevate Oz'jash’s status to rival Itheshruz and expand customs revenues.",
+      "strength": "Gatekeepers of berths and pilots for the 2nd Fleet."
+    },
+    {
+      "name": "Kobblin Quarter Elders",
+      "motive": "Protect Kobblinism rites and mercantile rights within port districts.",
+      "strength": "A web of traders and moneylenders across both ports and market towns."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Silted Godpole",
+      "setup": "A sacred river marker near Itheshruz is sinking after sudden silt build-up; the Lodge requests discreet assessment.",
+      "escalation": "Evidence of human diversion to reroute traffic emerges, risking both trade and spirit ire.",
+      "reward": "Passage charms and docking exemptions at the capital."
+    },
+    {
+      "title": "Arrows for Nasar",
+      "setup": "A masterwork shipment for the 1st Regiment vanishes between Nasar and Itheshruz.",
+      "escalation": "Thieves hide in a side-channel; a buyer from a neighboring state seeks the cargo.",
+      "reward": "Stipend, choice gear from the Oathbows, and a regimental letter of thanks."
+    },
+    {
+      "title": "Oz'jash Night-Fires",
+      "setup": "Mysterious lights lure boats onto shoals outside Oz'jash.",
+      "escalation": "A smuggling ring within the Dockwardens exploits confusion to dodge tariffs.",
+      "reward": "A cut of seized goods and a port entry chit."
+    },
+    {
+      "title": "The Xas'tu Muster",
+      "setup": "The 2nd Regiment calls a sudden muster, unsettling nearby villages.",
+      "escalation": "The captain seeks proof of a quiet border probe and needs discreet scouts along backwaters.",
+      "reward": "Letters of safe-conduct and advanced archery instruction."
+    },
+    {
+      "title": "Waters of Ki'jiress",
+      "setup": "New upstream weirs starve Ki'jiress of flow during the wet-season peak.",
+      "escalation": "A feud between craft guilds threatens supplies to the 5th Regiment and river traffic.",
+      "reward": "Warehouse access, discounted provisions, and future haulage priority."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "23e73b0cf22e87406482ba92c1a5381d2dc1aab475fe554cbd8a777d9a42f39c:fullv1"
+}

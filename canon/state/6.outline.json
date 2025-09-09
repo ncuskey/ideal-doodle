@@ -1,0 +1,181 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "checksum": "fnv1a_57b13f",
+  "name": "State_6",
+  "aliases": [
+    "The Tidehold",
+    "Sixth Coast"
+  ],
+  "timeline_beats": [
+    {
+      "id": "TB1",
+      "label": "Early coastal settlement and reef-harvesting culture",
+      "ybp": 9500,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB2",
+      "label": "Integration into regional port networks (river & league era)",
+      "ybp": 3200,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB3",
+      "label": "Devastation and territorial shifts during the Great Naval War",
+      "ybp": 1500,
+      "refs_world_events": [
+        "W1",
+        "BC4"
+      ]
+    },
+    {
+      "id": "TB4",
+      "label": "Reconstruction, entrance into maritime blocs and treaties",
+      "ybp": 400,
+      "refs_world_events": [
+        "A1",
+        "T1",
+        "TB1"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Shipwright Guild",
+      "influence_hint": "Controls yards, licensing for large hulls and ritual fittings"
+    },
+    {
+      "id": "F2",
+      "label": "Maritime Merchant Houses",
+      "influence_hint": "Directs long-distance trade and reagent imports"
+    },
+    {
+      "id": "F3",
+      "label": "Coastal Nobility",
+      "influence_hint": "Holds shore rights, port dues and militia commissions"
+    },
+    {
+      "id": "F4",
+      "label": "Tide-Seer Collegium",
+      "influence_hint": "Monopolizes navigational auguries and tide-rituals"
+    },
+    {
+      "id": "F5",
+      "label": "Harborwatch",
+      "influence_hint": "Local naval militia, enforces embargoes and patrols reefs"
+    }
+  ],
+  "economy_pillars": [
+    "shipbuilding",
+    "long-distance maritime trade",
+    "salt & fisheries",
+    "reef-harvested reagents",
+    "artisan metalwork/ropes"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "mariner idioms and tide-based calendar",
+      "guild-centered social organization",
+      "seasonal tide and passing-ship festivals",
+      "contractual commerce norms",
+      "oral memorials of naval loss and valor"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Kaiharbor",
+      "tags": [
+        "trade-hub",
+        "coastal"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Windward Shoals",
+      "tags": [
+        "reef",
+        "fishing"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Saltmarch Flats",
+      "tags": [
+        "coastal",
+        "agrarian"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Shipwright Quarter",
+      "tags": [
+        "industrial",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Cliffwatch",
+      "tags": [
+        "coastal",
+        "fortified"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A1",
+      "label_hint": "Maritime Trading League"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "treaty",
+      "id": "T1",
+      "label_hint": "Open-Seas Treaty"
+    },
+    {
+      "type": "border_change",
+      "id": "BC4",
+      "label_hint": "Territorial Shifts after Great Naval War"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB1",
+      "label_hint": "Sea Trade Union"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is banned and rare",
+    "Navigational auguries do not replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialist labor",
+    "Combustion-derived heavy industry limited (no high-pressure steam megatech)",
+    "Treaty obligations under T1 and alliance commitments under A1 must be observed",
+    "Post-War border realities per BC4 constrain expansion along contested shoals"
+  ],
+  "notes": [
+    "Major ports rely on imported reagents for ritual boosts; supply vulnerability shapes policy",
+    "Shipwright Guild licensing required for vessels above a specified tonnage and for ritual fittings",
+    "Dense reef systems create navigational chokepoints and shape naval tactics",
+    "Harborwatch enforces embargoes tied to Merchant House disputes",
+    "Lower layers must model seasonal monsoon/tide cycles affecting trade windows"
+  ],
+  "generated_at": "2025-09-09T03:53:56.799Z"
+}

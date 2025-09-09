@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "interstate_outline.schema.json",
+  "title": "Inter-State Outline",
+  "type": "object",
+  "required": [
+    "world_id",
+    "alliances",
+    "wars_conflicts",
+    "treaties",
+    "migrations",
+    "trade_blocs",
+    "border_changes",
+    "cross_state_themes",
+    "notes"
+  ],
+  "properties": {
+    "world_id": { "type": "string" },
+    "checksum": { "type": "string" },
+    "alliances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rel_id", "label", "states"],
+        "properties": {
+          "rel_id": { "type": "string" },
+          "label": { "type": "string" },
+          "states": { "type": "array", "items": { "type": "integer" }, "minItems": 2 },
+          "start_ybp": { "type": "integer" },
+          "end_ybp": { "type": "integer" },
+          "summary": { "type": "string" }
+        }
+      }
+    },
+    "wars_conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rel_id", "label", "states"],
+        "properties": {
+          "rel_id": { "type": "string" },
+          "label": { "type": "string" },
+          "states": { "type": "array", "items": { "type": "integer" }, "minItems": 2 },
+          "start_ybp": { "type": "integer" },
+          "end_ybp": { "type": "integer" },
+          "summary": { "type": "string" }
+        }
+      }
+    },
+    "treaties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rel_id", "label", "states"],
+        "properties": {
+          "rel_id": { "type": "string" },
+          "label": { "type": "string" },
+          "states": { "type": "array", "items": { "type": "integer" }, "minItems": 2 },
+          "year_ybp": { "type": "integer" },
+          "clauses": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "migrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ev_id", "label"],
+        "properties": {
+          "ev_id": { "type": "string" },
+          "label": { "type": "string" },
+          "from_state": { "type": "integer" },
+          "to_state": { "type": "integer" },
+          "magnitude_hint": { "type": "string" },
+          "drivers": { "type": "array", "items": { "type": "string" } },
+          "era_hint": { "type": "string" }
+        }
+      }
+    },
+    "trade_blocs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["bloc_id", "label", "members"],
+        "properties": {
+          "bloc_id": { "type": "string" },
+          "label": { "type": "string" },
+          "members": { "type": "array", "items": { "type": "integer" }, "minItems": 2 },
+          "focus": { "type": "array", "items": { "type": "string", "enum": ["sea", "river", "land", "mixed"] } },
+          "notes": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "border_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ev_id", "label", "states_involved"],
+        "properties": {
+          "ev_id": { "type": "string" },
+          "label": { "type": "string" },
+          "states_involved": { "type": "array", "items": { "type": "integer" }, "minItems": 1 },
+          "mechanism": { "type": "string", "enum": ["war", "treaty", "succession", "purchase", "cataclysm"] },
+          "era_hint": { "type": "string" },
+          "summary": { "type": "string" }
+        }
+      }
+    },
+    "cross_state_themes": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

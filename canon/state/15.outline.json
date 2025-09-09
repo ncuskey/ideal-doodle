@@ -1,0 +1,158 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "checksum": "fnv1a_9fe45edf",
+  "name": "State_15",
+  "aliases": [
+    "Coastal Canton Fifteen",
+    "The Fifteenth Strand"
+  ],
+  "timeline_beats": [
+    {
+      "id": "tb1",
+      "label": "Founding fishing hamlets coalesce into chartered coastal polity",
+      "ybp": 7800,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb2",
+      "label": "Integration into River-Kingdoms & Leagues trade networks",
+      "ybp": 3400,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb3",
+      "label": "Age of Flux: fortified ports and privateer rise",
+      "ybp": 1200,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb4",
+      "label": "Present Order consolidation; codified maritime statutes",
+      "ybp": 400,
+      "refs_world_events": [
+        "A3",
+        "T4"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "f1",
+      "label": "Maritime Guild of Keels",
+      "influence_hint": "Controls shipbuilding, port tariffs, apprenticeship"
+    },
+    {
+      "id": "f2",
+      "label": "Tide-Clan Confederation",
+      "influence_hint": "Local coastal communities; seasonal fishing rights"
+    },
+    {
+      "id": "f3",
+      "label": "Harbor Council (urban oligarchy)",
+      "influence_hint": "Urban trade policy and treaty negotiators"
+    },
+    {
+      "id": "f4",
+      "label": "Saltwardens & Reagent Merchants",
+      "influence_hint": "Monopoly on imported ritual reagents and saltworks"
+    }
+  ],
+  "economy_pillars": [
+    "fishing",
+    "shipbuilding",
+    "longshore trade",
+    "saltworks",
+    "ritual-reagent import/trade"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "seafaring apprenticeship",
+      "oral navigational songs (keepers of local charts)",
+      "strong kin/boat-house identity",
+      "seasonal voyage taboos and rites",
+      "practical syncretism of ritual and craft"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "r1",
+      "label": "Northstrand Basin",
+      "tags": [
+        "coastal",
+        "fishing"
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "Great Keelyards",
+      "tags": [
+        "coastal",
+        "shipbuilding",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "Salt flats of Vell",
+      "tags": [
+        "coastal",
+        "resource"
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "Outer Isles Archipelago",
+      "tags": [
+        "archipelago",
+        "seasonal-ports"
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "Harbor City Quarter",
+      "tags": [
+        "urban",
+        "administrative",
+        "trade-hub"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A3",
+      "label_hint": "Inner-Coastal Accord"
+    },
+    {
+      "type": "treaty",
+      "id": "T4",
+      "label_hint": "Migration and Settlement Protocol"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)",
+    "Obligations under alliance A3 and treaty T4 must be respected"
+  ],
+  "notes": [
+    "Ports tightly controlled by Maritime Guild; access tied to guild seats",
+    "Economy dependent on steady import of ritual reagents; Saltwardens gatekeep supply",
+    "Seasonal monsoon patterns dictate major sailing windows and legal voyage seasons",
+    "Local navigational knowledge transmitted orally; charts are politically sensitive",
+    "Privateering legacy creates ambiguous maritime law enforcement in Outer Isles"
+  ],
+  "generated_at": "2025-09-09T03:52:45.092Z"
+}

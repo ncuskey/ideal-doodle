@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 13
+  },
+  "summary": "Rilorbaria is a coastal state of Southia centered on the port-capital Boumaberg. In the Westford Era year 1291 it controls five sea ports and a web of ten rivers that bind its interior to the coast. A Keltan-majority society guided mainly by the Chordenver Faith, it also hosts Autliardist congregations and a notable secular segment. Four named regiments and a small fleet secure the shoreline, river mouths, and borders with four neighboring states.",
+  "history": [
+    "Boumaberg grows from a coastal market into the state’s capital and primier harbor.",
+    "The Chordenver Faith becomes the principal creed among Keltan communities; Autliardism establishes a foothold in several towns.",
+    "River piers and breakwaters are built along the coast, culminating in five functioning ports; Invers rises as the secondary port.",
+    "Rilorbaria organizes its standing forces into named regiments: 1st (Chearcy), 2nd (Fermaw), 3rd (Boumaberg), and 4th (Akereskcalia).",
+    "A modest 1st Fleet is commissioned to deter piracy and escort coastal trade.",
+    "By W.E. 1291, the state balances maritime commerce, multi-faith urban life, and frontier defense along borders with four neighbors."
+  ],
+  "geographyNotes": "Coastal state on Southia with accessible harbors and ten rivers that enable inland navigation and irrigation. Dominant biomes are biome#8 (most common), with significant patches of biome#6 and smaller areas of biome#1, producing varied terrain and land use across lowlands and uplands. The coast and river valleys concentrate settlement, while interior tracts of the secondary biomes remain less densely developed.",
+  "societyNotes": "Keltan culture predominates, with Uruk and Wildlands communities present in towns and along frontiers. Religious life is led by the Chordenver Faith, alongside active Autliardism congregations and a meaningful secular cohort. Urban parishes and mercantile guilds in Boumaberg and Invers shape civic policy, while rural districts look to regimental garrisons and local clergy for order and mediation.",
+  "economyNotes": "Five ports support sea trade; Boumaberg (largest) and Invers are the principal maritime outlets. Key inland towns—Gerunos, Matenvers, and Inveram—link river traffic to coastal markets. No formal route hubs are recorded, so roads and rivers serve as flexible corridors for cartage. The 1st Fleet provides convoy and patrol duties; regimental garrisons secure river crossings and customs points. Commerce concentrates in Boumaberg’s quays and the warehouses of Invers.",
+  "factions": [
+    {
+      "name": "3rd (Boumaberg) Regiment",
+      "motive": "Guard the capital and ensure regime stability.",
+      "strength": "Well-posted in the capital with balanced arms and prestige backing."
+    },
+    {
+      "name": "1st Fleet",
+      "motive": "Protect coastal shipping and deter piracy and smuggling.",
+      "strength": "A compact formation of 14 vessels suited to convoy and patrol roles."
+    },
+    {
+      "name": "Chordenver Synod of Rilorbaria",
+      "motive": "Maintain spiritual primacy and guide civic morals.",
+      "strength": "Largest following across Keltan-majority districts and strong parish networks."
+    },
+    {
+      "name": "Autliardist Communion Circles",
+      "motive": "Secure recognition, shared rites, and access to civic patronage.",
+      "strength": "Organized congregations in several towns with influential lay patrons."
+    },
+    {
+      "name": "Keltan Merchant Houses of Boumaberg and Invers",
+      "motive": "Expand maritime and riverine trade, stabilize tolls and tariffs.",
+      "strength": "Control quay leases, warehouses, and credit among the two biggest ports."
+    },
+    {
+      "name": "1st (Chearcy) and 2nd (Fermaw) Regiments",
+      "motive": "Hold river crossings and frontier roads; respond to raids and banditry.",
+      "strength": "Mobile cavalry elements from the 2nd and strong infantry-archer cores from the 1st."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Quayside Ghost Manifests",
+      "setup": "Bales vanish from Boumaberg’s night docks while watchmen report a lantern-glow drifting upriver.",
+      "escalation": "Trail leads to a smuggling ring using abandoned river piers; the ring bribed a junior naval officer in the 1st Fleet.",
+      "reward": "Confiscated cargo shares, a standing customs writ, and Fleet goodwill."
+    },
+    {
+      "title": "Rites in Dispute at Matenvers",
+      "setup": "Chordenver clergy and Autliardist elders contest stewardship of a shared shrine hall.",
+      "escalation": "Town tensions rise as outside preachers arrive; agitators aim to spark riots to break a trade rival’s credit line.",
+      "reward": "Donations from grateful congregations and a charter guaranteeing safe passage papers."
+    },
+    {
+      "title": "The River Toll War",
+      "setup": "Unofficial tolls appear at a key ford near Gerunos, choking grain traffic.",
+      "escalation": "Armed toughs trace back to deserters from a frontier company; dismantling the racket risks a clash with their backer.",
+      "reward": "Recovered toll revenues, letters of thanks from Gerunos guilds, and priority docking rights for a season."
+    },
+    {
+      "title": "Convoy to Invers",
+      "setup": "Merchants hire escorts for a high-value shipment to the port of Invers ahead of foul weather.",
+      "escalation": "Rival carriers hire saboteurs to scuttle barges at a narrow bend; rumors suggest a foreign patron past the border.",
+      "reward": "Rich freight bonuses and a long-term contract with Keltan merchant houses."
+    },
+    {
+      "title": "Muster at Akereskcalia",
+      "setup": "The 4th Regiment calls volunteers to reinforce a quiet but nervous frontier.",
+      "escalation": "Scouts uncover coordinated probing of watchposts; stopping it requires night patrols and intercepting coded couriers.",
+      "reward": "Bounty, regimentary favors, and a recommendation to the capital’s 3rd Regiment."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "0085db9d122beaa2e643e6de74fbb5aa6ed9efb836eaedfcea63a6bf8754ca14:fullv1"
+}

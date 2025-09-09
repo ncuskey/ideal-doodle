@@ -1,0 +1,353 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_1094e124",
+  "alliances": [
+    {
+      "rel_id": "A1",
+      "label": "Maritime Trading League",
+      "states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ],
+      "start_ybp": 1800,
+      "end_ybp": 0,
+      "summary": "Longstanding coalition of coastal states coordinating trade policy, convoys, and port privileges."
+    },
+    {
+      "rel_id": "A2",
+      "label": "Coastal Defense Compact",
+      "states": [
+        7,
+        8,
+        9,
+        13,
+        14
+      ],
+      "start_ybp": 900,
+      "end_ybp": 0,
+      "summary": "Regional pact of nearby coastal polities for joint naval patrols and harbor defenses."
+    },
+    {
+      "rel_id": "A3",
+      "label": "Inner-Coastal Accord",
+      "states": [
+        0,
+        1,
+        15,
+        16
+      ],
+      "start_ybp": 600,
+      "end_ybp": 200,
+      "summary": "Temporary inland-coastal alignment to secure overland access to major ports."
+    },
+    {
+      "rel_id": "A4",
+      "label": "Island Mercantile Pact",
+      "states": [
+        10,
+        11
+      ],
+      "start_ybp": 300,
+      "end_ybp": 0,
+      "summary": "Bilateral commercial and non-aggression agreement between two closely linked coastal states."
+    },
+    {
+      "rel_id": "A5",
+      "label": "Northern Fishing Coalition",
+      "states": [
+        12,
+        13,
+        14
+      ],
+      "start_ybp": 1500,
+      "end_ybp": 1200,
+      "summary": "Earlier cooperative arrangement pooling fishing rights and maintenance of shared infrastructure."
+    }
+  ],
+  "wars_conflicts": [
+    {
+      "rel_id": "W1",
+      "label": "Great Naval War",
+      "states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "start_ybp": 400,
+      "end_ybp": 350,
+      "summary": "Major multi-state naval conflict over trade routes and port hegemony that redistributed coastal influence."
+    },
+    {
+      "rel_id": "W2",
+      "label": "Border War of the Lowlands",
+      "states": [
+        0,
+        1
+      ],
+      "start_ybp": 700,
+      "end_ybp": 680,
+      "summary": "Short inland border war between an interior state and an adjacent coastal polity over fertile lowland control."
+    },
+    {
+      "rel_id": "W3",
+      "label": "Pirate Suppression Campaign",
+      "states": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "start_ybp": 200,
+      "end_ybp": 180,
+      "summary": "Coastal coalition campaign to eliminate organized piracy disrupting merchant convoys."
+    },
+    {
+      "rel_id": "W4",
+      "label": "Succession Crisis of State_2",
+      "states": [
+        2,
+        3,
+        4
+      ],
+      "start_ybp": 1200,
+      "end_ybp": 1180,
+      "summary": "Internal succession conflict in a coastal polity that drew intervention from nearby states and altered local alliances."
+    }
+  ],
+  "treaties": [
+    {
+      "rel_id": "T1",
+      "label": "Open-Seas Treaty",
+      "states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ],
+      "year_ybp": 350,
+      "clauses": [
+        "Mutual freedom of navigation and port access for signatories",
+        "Prohibition on state-sanctioned privateering among members",
+        "Joint dispute arbitration council for maritime incidents"
+      ]
+    },
+    {
+      "rel_id": "T2",
+      "label": "River Boundary Accord",
+      "states": [
+        0,
+        1
+      ],
+      "year_ybp": 670,
+      "clauses": [
+        "Fixed boundary along the lowland river course",
+        "Demilitarized buffer zone and shared flood management",
+        "Bilateral commission for disputes"
+      ]
+    },
+    {
+      "rel_id": "T3",
+      "label": "Fisheries Sharing Agreement",
+      "states": [
+        12,
+        13,
+        14
+      ],
+      "year_ybp": 1400,
+      "clauses": [
+        "Quota allocation for shared fishing grounds",
+        "Combined enforcement patrols",
+        "Seasonal rotation of harvest rights"
+      ]
+    },
+    {
+      "rel_id": "T4",
+      "label": "Migration and Settlement Protocol",
+      "states": [
+        0,
+        15
+      ],
+      "year_ybp": 250,
+      "clauses": [
+        "Temporary settlement permits for displaced coastal migrants",
+        "Land grants with local administration oversight",
+        "Mechanism for integrating traders and craftsmen"
+      ]
+    }
+  ],
+  "migrations": [
+    {
+      "ev_id": "M1",
+      "label": "Coastal-to-Inland Resettlement",
+      "from_state": 1,
+      "to_state": 0,
+      "magnitude_hint": "moderate",
+      "drivers": [
+        "sea-level rise",
+        "trade disruption"
+      ],
+      "era_hint": "700-600 ybp"
+    },
+    {
+      "ev_id": "M2",
+      "label": "Islander Expansion",
+      "from_state": 10,
+      "to_state": 11,
+      "magnitude_hint": "small",
+      "drivers": [
+        "merchant colonization",
+        "search for new harbors"
+      ],
+      "era_hint": "300-200 ybp"
+    },
+    {
+      "ev_id": "M3",
+      "label": "Fishing Community Relocation",
+      "from_state": 12,
+      "to_state": 13,
+      "magnitude_hint": "small",
+      "drivers": [
+        "stock depletion",
+        "enforcement pressures from treaty"
+      ],
+      "era_hint": "1400-1300 ybp"
+    }
+  ],
+  "trade_blocs": [
+    {
+      "bloc_id": "TB1",
+      "label": "Sea Trade Union",
+      "members": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "focus": [
+        "sea"
+      ],
+      "notes": [
+        "Standardized tariffs",
+        "Coordinated convoy schedules"
+      ]
+    },
+    {
+      "bloc_id": "TB2",
+      "label": "Coastal-River Commerce Ring",
+      "members": [
+        0,
+        1,
+        12,
+        13
+      ],
+      "focus": [
+        "mixed"
+      ],
+      "notes": [
+        "Integrated riverine and port transit fees",
+        "Shared storage and customs facilities"
+      ]
+    },
+    {
+      "bloc_id": "TB3",
+      "label": "Northern Fishers' Cooperative",
+      "members": [
+        12,
+        13,
+        14
+      ],
+      "focus": [
+        "sea"
+      ],
+      "notes": [
+        "Pooled resources for large-scale fishing",
+        "Collective negotiation of quotas"
+      ]
+    }
+  ],
+  "border_changes": [
+    {
+      "ev_id": "BC1",
+      "label": "Lowland Cession",
+      "states_involved": [
+        1,
+        0
+      ],
+      "mechanism": "treaty",
+      "era_hint": "670 ybp",
+      "summary": "Coastal state ceded contested lowland strip to interior neighbor as part of a boundary treaty."
+    },
+    {
+      "ev_id": "BC2",
+      "label": "Maritime Boundary Recalibration",
+      "states_involved": [
+        10,
+        11
+      ],
+      "mechanism": "treaty",
+      "era_hint": "300 ybp",
+      "summary": "Adjustment of maritime zones between two island/coastal states to clarify fishing and trade rights."
+    },
+    {
+      "ev_id": "BC3",
+      "label": "Coastal Acquisition via Succession",
+      "states_involved": [
+        3,
+        4
+      ],
+      "mechanism": "succession",
+      "era_hint": "1180-1160 ybp",
+      "summary": "Territorial transfer along the coast following dynastic collapse and inheritance claims."
+    },
+    {
+      "ev_id": "BC4",
+      "label": "Territorial Shifts after Great Naval War",
+      "states_involved": [
+        5,
+        6,
+        7
+      ],
+      "mechanism": "war",
+      "era_hint": "400-350 ybp",
+      "summary": "Several coastal holdings changed hands after decisive naval engagements and subsequent settlements."
+    }
+  ],
+  "cross_state_themes": [
+    "Maritime trade networks shape politics and wealth distribution",
+    "Persistent coastal piracy and periodic suppression campaigns",
+    "Riverine/inland access as a driver of inland-coastal alliances",
+    "Fisheries and marine resources as recurring sources of conflict and cooperation",
+    "Treaty-driven maritime boundary management to reduce open conflict",
+    "Migration flows from coastal stressors altering inland demographics"
+  ],
+  "notes": [
+    "Coastal vs inland designations used where provided; adjacency assumptions kept generic and plausible.",
+    "Dates are coarse YBP estimates; '0' end_ybp indicates ongoing relations at present.",
+    "Checksum is a local identifier for this outline; verify against source data if needed."
+  ],
+  "generated_at": "2025-09-09T03:38:26.398Z"
+}

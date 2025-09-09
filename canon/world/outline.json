@@ -1,0 +1,287 @@
+{
+  "world_id": "world",
+  "checksum": "fnv1a_3b5798db",
+  "eras": [
+    {
+      "id": "era_ancient",
+      "name": "Age of First Coasts",
+      "start_ybp": 12000,
+      "end_ybp": 4000,
+      "summary": "Initial coastal settlement, maritime foragers, foundation of major river polities.",
+      "key_events": [
+        {
+          "ev_id": "ev_afc_1",
+          "label": "First Coastal Harbors Established",
+          "participants": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "ev_id": "ev_afc_2",
+          "label": "Tampering Stone Rituals Spread",
+          "participants": [
+            "10",
+            "11"
+          ]
+        },
+        {
+          "ev_id": "ev_afc_3",
+          "label": "Great Delta Consolidation",
+          "participants": [
+            "12",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era_classical",
+      "name": "River-Kingdoms & Leagues",
+      "start_ybp": 4000,
+      "end_ybp": 2000,
+      "summary": "Sedentary river empires expand; maritime leagues form long-distance trade.",
+      "key_events": [
+        {
+          "ev_id": "ev_rkl_1",
+          "label": "Formation of the Southern Maritime League",
+          "participants": [
+            "0",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "ev_id": "ev_rkl_2",
+          "label": "Feud of the Three Deltas",
+          "participants": [
+            "10",
+            "11",
+            "12"
+          ]
+        },
+        {
+          "ev_id": "ev_rkl_3",
+          "label": "Standardized River Weights",
+          "participants": [
+            "10",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era_expansion",
+      "name": "Age of Flux",
+      "start_ybp": 2000,
+      "end_ybp": 500,
+      "summary": "Rapid coastal colonization, rise of merchant-guild islands, increased piracy and mapped lanes.",
+      "key_events": [
+        {
+          "ev_id": "ev_aof_1",
+          "label": "Island Guild Charters Issued",
+          "participants": [
+            "14",
+            "15"
+          ]
+        },
+        {
+          "ev_id": "ev_aof_2",
+          "label": "Great Corsair Wars",
+          "participants": [
+            "1",
+            "16",
+            "13"
+          ]
+        },
+        {
+          "ev_id": "ev_aof_3",
+          "label": "Northern Lighthouse Network",
+          "participants": [
+            "0",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era_modern",
+      "name": "Present Order",
+      "start_ybp": 500,
+      "end_ybp": 0,
+      "summary": "Dense coastal states, integrated trade lanes, bureaucratic polities with localized ritual practices.",
+      "key_events": [
+        {
+          "ev_id": "ev_po_1",
+          "label": "Codification of Interpolity Maritime Law",
+          "participants": [
+            "0",
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "ev_id": "ev_po_2",
+          "label": "Burg Census: ~478 Urban Nodes",
+          "participants": [
+            "state_system"
+          ]
+        },
+        {
+          "ev_id": "ev_po_3",
+          "label": "Continentwide Trade Compact",
+          "participants": [
+            "0",
+            "10",
+            "12",
+            "14"
+          ]
+        }
+      ]
+    }
+  ],
+  "civilization_buckets": [
+    {
+      "id": "cb_maritime_leagues",
+      "label": "Maritime Leagues",
+      "traits": [
+        "Coastal confederations oriented to long-distance trade",
+        "Merchant-dominated governance and chartered navies",
+        "Dense string of ports and specialized burgs"
+      ],
+      "member_states_hint": [
+        "0",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "cb_riverine_empires",
+      "label": "Riverine Empires",
+      "traits": [
+        "Inland river-centered bureaucracies",
+        "Agrarian heartlands with riverine irrigation systems",
+        "Standardized measurement and river law traditions"
+      ],
+      "member_states_hint": [
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "cb_island_guilds",
+      "label": "Island Guilds & City-States",
+      "traits": [
+        "Archipelagic merchant oligarchies",
+        "Guild-based law and chartered monopolies",
+        "Heavy investment in shipbuilding and lighthouses"
+      ],
+      "member_states_hint": [
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "cb_highland_frontiers",
+      "label": "Highland Principalities & Frontiers",
+      "traits": [
+        "Fragmented chieftaincies and fortified burgs",
+        "Pastoral-agrarian mixed economies",
+        "Buffer polities between coasts and interior"
+      ],
+      "member_states_hint": [
+        "13",
+        "2",
+        "4"
+      ]
+    }
+  ],
+  "religion_families": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Star-Calendar Scriptoria",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "language_families": [
+    "Coastal Tongues",
+    "Riveric Dialects",
+    "Highland Cant",
+    "Island Creole"
+  ],
+  "tech_magic": {
+    "baseline": "Near-medieval to early industrial tech with pervasive localized ritual magic requiring material components.",
+    "constraints": [
+      "No instant resurrection or true life-replacement magics",
+      "Long-range mind influence is rare and institutionally banned",
+      "Navigational auguries exist but cannot replace charts and seamanship",
+      "Combustion-derived industry limited (no high-pressure steam megatechs)",
+      "Ritual magic consumes scarce imported reagents or specialized burg-labors"
+    ]
+  },
+  "trade_lanes_skeleton": [
+    {
+      "lane_id": "lane_northern_strait",
+      "mode": "sea",
+      "hubs_hint": [
+        "Northern Strait Ports",
+        "Port 0",
+        "Port 1"
+      ]
+    },
+    {
+      "lane_id": "lane_delta_chain",
+      "mode": "mixed",
+      "hubs_hint": [
+        "Great Delta Hub",
+        "Central River",
+        "Coastal Market 3"
+      ]
+    },
+    {
+      "lane_id": "lane_southern_passage",
+      "mode": "sea",
+      "hubs_hint": [
+        "Southern Passage",
+        "Island Chain Guild Hubs",
+        "Port 4"
+      ]
+    },
+    {
+      "lane_id": "lane_river_spine",
+      "mode": "river",
+      "hubs_hint": [
+        "Upper River Capitals",
+        "Riverine Market 10",
+        "Delta Hub"
+      ]
+    },
+    {
+      "lane_id": "lane_highland_road",
+      "mode": "land",
+      "hubs_hint": [
+        "Highland Forts",
+        "Frontier Burgs",
+        "Interior Tradeway"
+      ]
+    }
+  ],
+  "global_threats": [
+    "Rising coasts and increased storm frequency",
+    "Organized piracy and privateering disrupting lanes",
+    "Periodic pestilences amplified by dense burg networks",
+    "Tectonic/volcanic instability along certain coasts"
+  ],
+  "notes": [
+    "Total states: 17 (sample names: 0,1,2,3,4,10,11,12,13,14,15,16; five unnamed)",
+    "Coastal states approx 16 of 17; interior-only state exists as exception",
+    "Approximate burg count: 478 (nodes varying from hamlet to large port)",
+    "Calendar: present-era civil calendars are local; no enforced global year count",
+    "Prohibit world-altering magics (apocalyptic/planetary-scale)"
+  ],
+  "generated_at": "2025-09-09T03:33:11.291Z"
+}

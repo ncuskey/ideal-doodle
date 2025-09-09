@@ -1,0 +1,183 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "checksum": "fnv1a_deade3e7",
+  "name": "State_8",
+  "aliases": [
+    "Port-State Eight",
+    "Eightfold Harbor"
+  ],
+  "timeline_beats": [
+    {
+      "id": "tb1",
+      "label": "Earliest coastal settlement line established",
+      "ybp": 5200,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb2",
+      "label": "Integrated into River-Kingdoms & maritime leagues",
+      "ybp": 3600,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb3",
+      "label": "Naval commercialization; guilds consolidate control of reagents and shipyards",
+      "ybp": 1800,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb4",
+      "label": "Joined Coastal Defense Compact (formal alliance)",
+      "ybp": 80,
+      "refs_world_events": [
+        "A2"
+      ]
+    },
+    {
+      "id": "tb5",
+      "label": "Combat operations in Great Naval War; subsequent anti-piracy campaign",
+      "ybp": 120,
+      "refs_world_events": [
+        "W1"
+      ]
+    },
+    {
+      "id": "tb6",
+      "label": "Major contribution to Pirate Suppression Campaign",
+      "ybp": 40,
+      "refs_world_events": [
+        "W3"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "f1",
+      "label": "Mariners' Guild (Shipwrights & Pilots)",
+      "influence_hint": "Controls navigation, pilotage fees, ship construction; high coastal influence"
+    },
+    {
+      "id": "f2",
+      "label": "Coastal Admiralty",
+      "influence_hint": "State naval command; high influence on defense and alliance obligations"
+    },
+    {
+      "id": "f3",
+      "label": "Salt & Fish Consortium",
+      "influence_hint": "Economic backbone; controls processing and export quotas"
+    },
+    {
+      "id": "f4",
+      "label": "Ritual Reagent Syndicate",
+      "influence_hint": "Monopolizes imported reagents and ritual workshops; lever over magic users and merchants"
+    },
+    {
+      "id": "f5",
+      "label": "Harbor Clans (local noble houses)",
+      "influence_hint": "Gatekeepers of local ports and militia; variable loyalty between merchants and admiralty"
+    }
+  ],
+  "economy_pillars": [
+    "maritime trade",
+    "shipbuilding",
+    "salt & fish processing",
+    "imported ritual reagents",
+    "coastal agriculture/estuary produce"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "maritime-first worldview",
+      "practical seamanship & chart tradition",
+      "guild-based apprenticeship",
+      "oath-bound family houses",
+      "widespread use of navigational auguries (supplementary)"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "r1",
+      "label": "Bay of Tides",
+      "tags": [
+        "trade-hub",
+        "port",
+        "chokepoint"
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "Northern Headlands",
+      "tags": [
+        "coastal",
+        "fortified"
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "Salt Flats & Processing Belt",
+      "tags": [
+        "salt-production",
+        "industrial"
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "Reef-Archipelago",
+      "tags": [
+        "islands",
+        "fishing",
+        "navigation-hazard"
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "Lowmarsh Hinterland",
+      "tags": [
+        "estuary",
+        "agriculture"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A2",
+      "label_hint": "Coastal Defense Compact"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "war",
+      "id": "W3",
+      "label_hint": "Pirate Suppression Campaign"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Ritual magic consumes scarce imported reagents or specialized labor; reagent supply is a strategic constraint",
+    "Respect obligations of listed alliances and ongoing wars in external_relations_refs"
+  ],
+  "notes": [
+    "Strategic chokepoint: Bay of Tides central to trade and defense",
+    "Ritual Reagent Syndicate is a single point of failure for magic-dependent industries and naval auguries",
+    "Tension: Merchants' Guild vs Coastal Admiralty over convoy policy and privateering",
+    "High piracy exposure prior to W3; continued need for anti-piracy patrols",
+    "Navigational auguries are institutionalized for pilotage but charts, pilots, and ship skill remain primary"
+  ],
+  "generated_at": "2025-09-09T03:54:17.247Z"
+}

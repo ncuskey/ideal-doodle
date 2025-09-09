@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "state_outline.schema.json",
+  "title": "State Outline",
+  "type": "object",
+  "required": [
+    "world_id",
+    "state_id",
+    "name",
+    "timeline_beats",
+    "factions",
+    "economy_pillars",
+    "culture",
+    "religion",
+    "regions",
+    "external_relations_refs",
+    "constraints",
+    "notes"
+  ],
+  "properties": {
+    "world_id": { "type": "string" },
+    "state_id": { "type": "integer" },
+    "checksum": { "type": "string" },
+    "name": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "timeline_beats": {
+      "description": "3–7 bullet beats with coarse dates (YBP).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "ybp": { "type": "integer" },
+          "refs_world_events": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "factions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "influence_hint": { "type": "string" }
+        }
+      }
+    },
+    "economy_pillars": { "type": "array", "items": { "type": "string" } },
+    "culture": {
+      "type": "object",
+      "required": ["language_family", "traits"],
+      "properties": {
+        "language_family": { "type": "string" },
+        "traits": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "religion": {
+      "type": "object",
+      "required": ["families_present"],
+      "properties": {
+        "families_present": { "type": "array", "items": { "type": "string" } },
+        "dominant": { "type": "string" }
+      }
+    },
+    "regions": {
+      "description": "Key internal regions/provinces (names only; no prose).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "external_relations_refs": {
+      "description": "References into canon/interstate (alliances, wars, blocs) by rel_id/ev_id/bloc_id.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "id", "label_hint"],
+        "properties": {
+          "type": { "type": "string", "enum": ["alliance","war","treaty","migration","trade_bloc","border_change"] },
+          "id": { "type": "string" },
+          "label_hint": { "type": "string" }
+        }
+      }
+    },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

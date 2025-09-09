@@ -372,7 +372,7 @@
                     🚀 Run Full Pipeline
                 </button>
                 <button class="btn btn-primary" onclick="runFullPipelineReal()">
-                    ⚡ Run Real Pipeline
+                    ⚡ Run Pipeline
                 </button>
                 <button class="btn btn-success" onclick="runFullPipelineAll()">
                     🌍 Run Full World Pipeline
@@ -524,9 +524,7 @@
             logLine(`[cmd] ${cmd}`);
             
             try {
-                // OPTION 1: Real backend API (recommended for production)
-                // Uncomment this block to use a real backend API:
-                /*
+                // Real backend API implementation
                 const res = await fetch("/api/exec", {
                     method: "POST",
                     headers: {"Content-Type":"application/json"},
@@ -534,161 +532,32 @@
                 });
                 if (!res.ok) throw new Error(`exec failed: ${res.status} ${res.statusText}`);
                 
-                // Stream newline-delimited logs if your backend supports it
-                if (res.body && res.body.getReader) {
-                    const reader = res.body.getReader();
-                    const decoder = new TextDecoder();
-                    while (true) {
-                        const { value, done } = await reader.read();
-                        if (done) break;
-                        const chunk = decoder.decode(value, { stream: true });
-                        for (const line of chunk.split(/\r?\n/)) if (line) logLine(line);
+                // Stream NDJSON response
+                const reader = res.body.getReader();
+                const decoder = new TextDecoder();
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    const chunk = decoder.decode(value, { stream: true }).trim();
+                    for (const line of chunk.split(/\r?\n/)) {
+                        if (!line) continue;
+                        try { 
+                            const { line: msg } = JSON.parse(line); 
+                            if (msg) logLine(msg); 
+                        } catch { 
+                            logLine(line); 
+                        }
                     }
-                } else {
-                    // Fallback: expect JSON { code, output }
-                    const data = await res.json().catch(()=>({ code:0, output:"" }));
-                    if (data.output) logLine(data.output);
-                    if (data.code !== 0) throw new Error(`Command exited with code ${data.code}`);
                 }
-                */
                 
-                // OPTION 2: Simulation (current implementation)
-                // For now, simulate the command execution with realistic timing
-                const result = await simulateCommandExecution(cmd);
                 logLine(`[cmd] ${cmd} completed successfully`);
-                return result;
+                return { output: "Command completed successfully" };
             } catch (error) {
                 logLine(`[cmd] ${cmd} failed: ${error.message}`);
                 throw error;
             }
         }
 
-        // Simulate command execution with realistic timing and output
-        async function simulateCommandExecution(cmd) {
-            if (cmd.includes("pipeline:abort:clear")) {
-                logLine("Clearing abort flag...");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                return { output: "Abort flag cleared" };
-            }
-            
-            if (cmd.includes("facts:build")) {
-                logLine("📁 Reading Azgaar data from data/southia.json...");
-                await new Promise(resolve => setTimeout(resolve, 200));
-                logLine("🔍 Extracting world facts...");
-                await new Promise(resolve => setTimeout(resolve, 150));
-                logLine("🏛️ Extracting state facts (17 states found)...");
-                await new Promise(resolve => setTimeout(resolve, 400));
-                logLine("🏘️ Extracting burg facts (478 burgs found)...");
-                await new Promise(resolve => setTimeout(resolve, 300));
-                logLine("💾 Writing facts to filesystem...");
-                await new Promise(resolve => setTimeout(resolve, 200));
-                logLine("World, 17 states, 478 burgs written.");
-                return { output: "World, 17 states, 478 burgs written." };
-            }
-            
-            if (cmd.includes("facts:derive")) {
-                logLine("📊 Computing state-level aggregations...");
-                await new Promise(resolve => setTimeout(resolve, 200));
-                logLine("🔗 Computing burg connectivity data...");
-                await new Promise(resolve => setTimeout(resolve, 300));
-                logLine("📈 Computing top burgs by population...");
-                await new Promise(resolve => setTimeout(resolve, 150));
-                logLine("🌍 Computing dominant cultures and religions...");
-                await new Promise(resolve => setTimeout(resolve, 250));
-                logLine("Derived facts built.");
-                return { output: "Derived facts built." };
-            }
-            
-            if (cmd.includes("facts:promptpacks")) {
-                logLine("📦 Creating LLM-optimized fact packs...");
-                await new Promise(resolve => setTimeout(resolve, 150));
-                logLine("🏛️ Building state prompt packs (17 packs)...");
-                await new Promise(resolve => setTimeout(resolve, 350));
-                logLine("🏘️ Building burg prompt packs (478 packs)...");
-                await new Promise(resolve => setTimeout(resolve, 450));
-                logLine("🎯 Optimizing context for token efficiency...");
-                await new Promise(resolve => setTimeout(resolve, 200));
-                logLine("Prompt packs built.");
-                return { output: "Prompt packs built." };
-            }
-            
-            if (cmd.includes("lore:state:full:all")) {
-                logLine("States to (re)generate: 17 (concurrency=3)");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("No changes; skip.");
-                await new Promise(resolve => setTimeout(resolve, 50));
-                logLine("state 1/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 2/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 3/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 4/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 5/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 6/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 7/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 8/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 9/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 10/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 11/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 12/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 13/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 14/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 15/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 16/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("state 17/17");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("State bulk run finished. Failures: 0");
-                return { output: "State bulk run finished. Failures: 0" };
-            }
-            
-            if (cmd.includes("lore:burg:full:all")) {
-                logLine("Burgs to (re)generate: 478 (concurrency=4)");
-                await new Promise(resolve => setTimeout(resolve, 100));
-                logLine("No changes; skip.");
-                await new Promise(resolve => setTimeout(resolve, 50));
-                // Simulate some burg processing
-                for (let i = 1; i <= 20; i++) {
-                    logLine(`burg ${i}/478`);
-                    await new Promise(resolve => setTimeout(resolve, 50));
-                }
-                logLine("Burg bulk run finished. Failures: 0");
-                return { output: "Burg bulk run finished. Failures: 0" };
-            }
-            
-            if (cmd.includes("validate:lore")) {
-                logLine("Validating lore files...");
-                await new Promise(resolve => setTimeout(resolve, 300));
-                logLine("✅ All lore files validated successfully");
-                return { output: "All lore files validated successfully" };
-            }
-            
-            if (cmd.includes("catalog:build")) {
-                logLine("Building catalog...");
-                await new Promise(resolve => setTimeout(resolve, 200));
-                logLine("✅ Catalog built successfully");
-                return { output: "Catalog built successfully" };
-            }
-            
-            // Default case for other commands
-            logLine(`Executing: ${cmd}`);
-            await new Promise(resolve => setTimeout(resolve, 500));
-            logLine("Command completed");
-            return { output: "Command completed" };
-        }
 
         // Run multiple commands IN ORDER — and **await** each one
         async function runSequential(cmds) {
@@ -1129,7 +998,7 @@
             
             const t0 = performance.now();
             isRunning = true;
-            logLine("Starting REAL pipeline execution (ALL)…");
+            logLine("Starting pipeline execution (ALL)…");
             
             document.getElementById('runStepBtn').disabled = true;
             document.querySelectorAll('.btn').forEach(btn => btn.disabled = true);
@@ -1152,14 +1021,14 @@
                 await runSequential(cmds);
 
                 const dt = ((performance.now() - t0) / 1000).toFixed(1);
-                updatePipelineProgress(1, 1, `Real pipeline (all) completed successfully`);
+                updatePipelineProgress(1, 1, `Pipeline (all) completed successfully`);
                 showPipelineSummary(1, 0, dt);
-                logLine(`✅ Real pipeline (all) completed in ${dt}s`);
+                logLine(`✅ Pipeline (all) completed in ${dt}s`);
             } catch (err) {
                 const dt = ((performance.now() - t0) / 1000).toFixed(1);
-                updatePipelineProgress(1, 1, `Real pipeline failed`);
+                updatePipelineProgress(1, 1, `Pipeline failed`);
                 showPipelineSummary(0, 1, dt);
-                logLine(`❌ Real pipeline failed: ${err.message || err}`);
+                logLine(`❌ Pipeline failed: ${err.message || err}`);
             }
             
             document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);
@@ -1171,7 +1040,7 @@
             
             const t0 = performance.now();
             isRunning = true;
-            logLine("Starting REAL pipeline execution…");
+            logLine("Starting pipeline execution…");
             
             document.getElementById('runStepBtn').disabled = true;
             document.querySelectorAll('.btn').forEach(btn => btn.disabled = true);
@@ -1211,14 +1080,14 @@
                 }
                 
                 const dt = ((performance.now() - t0) / 1000).toFixed(1);
-                updatePipelineProgress(1, 1, `Real pipeline (${scope}) completed successfully`);
+                updatePipelineProgress(1, 1, `Pipeline (${scope}) completed successfully`);
                 showPipelineSummary(1, 0, dt);
-                logLine(`✅ Real pipeline (${scope}) completed in ${dt}s`);
+                logLine(`✅ Pipeline (${scope}) completed in ${dt}s`);
             } catch (error) {
                 const dt = ((performance.now() - t0) / 1000).toFixed(1);
-                updatePipelineProgress(1, 1, `Real pipeline failed`);
+                updatePipelineProgress(1, 1, `Pipeline failed`);
                 showPipelineSummary(0, 1, dt);
-                logLine(`❌ Real pipeline failed in ${dt}s: ${error.message || error}`);
+                logLine(`❌ Pipeline failed in ${dt}s: ${error.message || error}`);
             }
             
             document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);

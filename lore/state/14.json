@@ -1,0 +1,89 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 14
+  },
+  "summary": "Ban is a coastal state on Southia in the Westford Era (year 1291), centered on its inland capital Inwenver. Nine rivers knit together a mixed coastal-and-riverine realm where the Durinn culture predominates, the Chordenver Faith is dominant, and Keltan and Kentian communities remain visible. Three ports support maritime trade—led by the seaport of Knutstedge—while overland routes follow the river valleys. Ban fields cavalry-leaning regiments with ample archers and light artillery, backed by a small 1st Fleet of three ships to watch the coast. It borders five neighboring states.",
+  "history": [
+    "Riverside settlements and coastal hamlets coalesced along nine waterways, with Inwenver emerging as the administrative heart over time.",
+    "Knutstedge rose as the chief seaport, tying Ban’s coastwise traffic to inland markets via river landings.",
+    "Urban growth around Lochi, Babiln, and Inwenverthe diversified Ban’s civic landscape and tax base.",
+    "Regiments were formalized along local lines—Aberlochia, Inwenverthe, Knutstedge, Zinar, and Undushur—ensuring each region’s levy had a recognized banner.",
+    "A small 1st Fleet was commissioned to deter raiders and safeguard approaches to the three ports.",
+    "Periodic frontier adjustments with neighboring states shaped Ban’s borders without decisive conquest, favoring negotiated fords and patrol treaties.",
+    "By 1291, musters and garrisons were rebalanced to secure key river crossings and port approaches, emphasizing cavalry mobility and archery screens."
+  ],
+  "geographyNotes": "Ban has a sea coast with three port sites and nine rivers forming estuaries, fords, and river landings. The terrain is a mix of dominant biome#3 with notable patches of biome#4 and biome#6. The open, river-laced country supports fast movement between burgs, making cavalry practical, while estuarine stretches favor small craft and coastal cabotage. It shares land borders with five states and presents a coastline exposed to passing sea traffic.",
+  "societyNotes": "Durinn culture is the majority, with Keltan and Kentian minorities concentrated in specific districts and market wards. The Chordenver Faith is the prevailing religion, alongside visible congregations of the Durinn Faith and circles devoted to Kentian Spirits. Inwenver serves as the administrative and religious focal point; Knutstedge is the most outward-facing, maritime-influenced community; Inwenverthe’s identity is tied to its regiment. Local identities often track regimental districts, giving military banners social weight in civic affairs.",
+  "economyNotes": "Three seaports underpin maritime trade and fisheries; only Knutstedge ranks among the largest towns, with two smaller ports handling coastal traffic and river mouth exchange. River transport links inland markets, while the absence of designated overland route hubs keeps trade decentralized across burg markets. Inwenver concentrates administration and finance; Knutstedge manages most seaborne customs; Lochi and Babiln anchor inland exchange. Cavalry remount needs and archery supplies shape procurement in market towns, with modest artillery workshops supporting the regiments.",
+  "factions": [
+    {
+      "name": "Inwenver Council",
+      "motive": "Preserve stability, tax flow, and legal primacy from the capital.",
+      "strength": "Control of administration, courts, and appointments; influence over garrisons stationed near Inwenver."
+    },
+    {
+      "name": "Knutstedge Dockmasters’ Guild",
+      "motive": "Protect port privileges, tariffs, and pilotage over coastal and estuarine traffic.",
+      "strength": "Purse strings of port revenues and sway with shipowners and warehousemen; informal ties with the nearby 1st Fleet."
+    },
+    {
+      "name": "Regimental Captains’ Council",
+      "motive": "Secure funding, autonomy, and favorable deployment for the 1st–5th regiments.",
+      "strength": "Direct command of trained companies—cavalry-heavy with strong archer cadres—and local levy networks."
+    },
+    {
+      "name": "Chordenver Synod of Inwenver",
+      "motive": "Guard doctrine, oversee major shrines, and guide civic morals under the dominant faith.",
+      "strength": "Temple endowments and broad lay support across Durinn, Keltan, and Kentian neighborhoods."
+    },
+    {
+      "name": "Durinn and Kentian Cultural Fraternities",
+      "motive": "Maintain customs, rites, and language rights within mixed districts.",
+      "strength": "Dense community networks, festival patronage, and mediation roles in local disputes."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Tithe on the Tide",
+      "setup": "Temple tithes bound from Inwenverthe to Inwenver vanish along a river reach bustling with smallcraft.",
+      "escalation": "Evidence points to a smuggling ring using coves between the two smaller ports, with a clerk in Inwenver shielding the culprits.",
+      "reward": "Synod favor, a portion of recovered silver, and oath-surety with the Inwenver Council."
+    },
+    {
+      "title": "Markers in the Mud",
+      "setup": "A flood shifts a river channel near the Zinar mustering grounds, muddling a border agreement with a neighboring state.",
+      "escalation": "Skirmishes flare as the 4th (Zinar) Regiment and foreign patrols trade arrests; negotiators need proof of the old channel and safe passage.",
+      "reward": "Land-use rights near the reclaimed ford and regimental patronage."
+    },
+    {
+      "title": "The Aberlochia Mounts",
+      "setup": "Remount herds bound for the 1st (Aberlochia) Regiment are disappearing on night drives.",
+      "escalation": "Tracks lead to a covert depot supplying black-market buyers by lighter to a minor port at dusk.",
+      "reward": "Choice mounts, pay, and docking exemptions from the Dockmasters’ Guild."
+    },
+    {
+      "title": "Reliquary Road",
+      "setup": "A Chordenver reliquary transiting from Inwenverthe to Inwenver for a holy day fails to arrive on schedule.",
+      "escalation": "Suspicions strain relations with Durinn Faith custodians until a third party tries to ransom the relic via Knutstedge.",
+      "reward": "Blessings, public honor, and introductions across multiple congregations."
+    },
+    {
+      "title": "Fleet of Three",
+      "setup": "Fishers report shadowy sails dogging the coast beyond Knutstedge, testing the 1st Fleet’s reach.",
+      "escalation": "The pursuers prove to be well-crewed cutters using tidal creeks; someone in port is feeding them signals.",
+      "reward": "Letters of marque, prize shares, and a say in refitting one of the fleet’s ships."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "3bf67e31d20c9f73aba3cd1e20095dc8d16d083442d4670e4dfe71601fe69553:fullv1"
+}

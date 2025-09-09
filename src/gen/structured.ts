@@ -1,4 +1,4 @@
-import { client } from "./openaiClient.js";
+import { client, withRateLimitRetry } from "./openaiClient.js";
 import fs from "fs/promises";
 import { logUsage, estimateCostUSD } from "../util/usage.js";
 
@@ -10,20 +10,22 @@ export async function generateStructured<T>(
   usageMeta?: { kind: "state-full"|"burg-full"|"burg-hooks"|"state-hooks"|"other"; entity?: {type:"state"|"burg"; id:number|string} }
 ): Promise<T> {
   const json_schema = JSON.parse(await fs.readFile(schemaPath,"utf8"));
-  const res = await client.chat.completions.create({
-    model,
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: JSON.stringify(userPayload) }
-    ],
-    response_format: { 
-      type: "json_schema", 
-      json_schema: {
-        name: json_schema.title || "response",
-        schema: json_schema
+  const res = await withRateLimitRetry(() =>
+    client.chat.completions.create({
+      model,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: JSON.stringify(userPayload) }
+      ],
+      response_format: { 
+        type: "json_schema", 
+        json_schema: {
+          name: json_schema.title || "response",
+          schema: json_schema
+        }
       }
-    }
-  });
+    })
+  );
   const content = res.choices[0]?.message?.content;
   if (!content) throw new Error("No JSON content from model");
 

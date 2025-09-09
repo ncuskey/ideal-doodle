@@ -1,0 +1,89 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 124
+  },
+  "summary": "Helston is a small, landlocked Nortumbic burg in Gatesinia (about 1,700 people). It is not a capital and has no port or formal trade routes, leaving it largely self-reliant. Most residents honor Nortumbic Spirits, with small nonreligious and Mercian minorities. Daily life centers on subsistence work, shared obligations, and the upkeep of local shrines.",
+  "localColor": "Low smoke curls from sod-roof hearths at dawn as a handbell calls workers to a short blessing at the roadside shrine. Spirit ribbons flutter from carved posts at crossroads; travelers leave a twig or whispered thanks before passing. Without market roads, barter day gathers in the commons: jars of preserves for cordage, repaired tools for sacks of grain. Evening songs carry simple refrains to the spirits of wind and threshold. A few houses keep to different rites quietly—no banners, just a different way of bowing before meals.",
+  "notables": [
+    {
+      "name": "Elda Marr",
+      "role": "Elder mediator who settles disputes and speaks for Helston to passing officials",
+      "secret": "She privately doubts the need for some costly rites and has been steering decisions to reduce ritual burdens without alarming traditionalists."
+    },
+    {
+      "name": "Torvik of the Stones",
+      "role": "Spirit-keeper tending the Nortumbic shrines and teaching seasonal observances",
+      "secret": "The main shrine’s guardian token went missing weeks ago; Torvik has been faking auspicious signs while searching quietly."
+    },
+    {
+      "name": "Bran Wildland-born",
+      "role": "Herder and woodcutter representing a small Wildlands family cluster",
+      "secret": "He knows an old footpath that could become a reliable mule track, but fears revealing it will bring change that erases his kin’s ways."
+    },
+    {
+      "name": "Sefa the Stitcher",
+      "role": "Mercian-belief seamster who repairs gear and keeps simple ledgers for neighbors",
+      "secret": "She corresponds with a distant Mercian cleric who has hinted at visiting, which could spark friction with the spirit-keepers."
+    }
+  ],
+  "factions": [
+    {
+      "name": "Circle of Stones",
+      "motive": "Preserve Nortumbic rites and the authority of the shrines over village life",
+      "strength": "Respected elders, control of observances, and influence over communal labor days"
+    },
+    {
+      "name": "Hearthfree",
+      "motive": "Ease ritual demands and focus on practical work and safety",
+      "strength": "Energetic youth and craftspeople willing to take on hard tasks when others are in ceremony"
+    },
+    {
+      "name": "Mercian Kin",
+      "motive": "Practice Mercian beliefs openly while keeping peace with neighbors",
+      "strength": "Outside correspondence and valued skills in mending, tallying, and careful record-keeping"
+    },
+    {
+      "name": "Village Wardens",
+      "motive": "Keep tracks clear, watch for trouble, and handle rare dealings with state agents",
+      "strength": "Local knowledge of hidden paths and the trust to carry messages for the community"
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Silent Shrine",
+      "setup": "Offerings go untouched and the shrine’s wind chimes fall still; people fear the spirits have turned away.",
+      "complication": "It’s not a curse but theft—someone removed the guardian token, and suspicion is tearing at village bonds.",
+      "reward": "Public gratitude, a blessing of safe passage, and first claim on barter-day goods for a season."
+    },
+    {
+      "title": "No-Road Message",
+      "setup": "A sealed message from Gatesinia intended for Helston never arrived; the sender seeks reliable hands to trace and deliver it by footpaths.",
+      "complication": "Who receives it—elder, spirit-keeper, or skeptic—will shift local authority and future obligations.",
+      "reward": "A modest payment and a standing favor with a Gatesinia official who remembers courtesies."
+    },
+    {
+      "title": "Barter Day Fractures",
+      "setup": "A quarrel over whether rites should precede barter-day threatens to split the commons into rival circles.",
+      "complication": "Evidence of quiet sabotage turns up—someone hid offerings in the well to provoke blame.",
+      "reward": "A crafted token of trust from both sides and broad price-fairness on future trades."
+    },
+    {
+      "title": "The Hidden Track",
+      "setup": "Locals whisper of an old path that could reconnect Helston to wider exchange without formal roads.",
+      "complication": "Opening the track risks inviting outside pressures; each faction demands terms before helping.",
+      "reward": "Share in future caravans’ first loads and the right to mark a waystone in your name."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "state",
+      "id": 2,
+      "fields": [
+        "name",
+        "capitalBurgId"
+      ]
+    }
+  ],
+  "hashOfInputs": "93276c7b1bb776383bf34f247b4e83aee2873c1ae946631b63230881cdddd6a8:fullv1"
+}

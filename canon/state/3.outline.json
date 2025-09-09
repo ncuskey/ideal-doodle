@@ -1,0 +1,198 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "checksum": "fnv1a_3a5ff405",
+  "name": "State_3",
+  "aliases": [
+    "Triport Confederacy",
+    "Third Coast",
+    "The Tidegate"
+  ],
+  "timeline_beats": [
+    {
+      "id": "TB1",
+      "label": "First permanent coastal settlements founded",
+      "ybp": 9000,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB2",
+      "label": "Rise as regional port-league and shipbuilding center",
+      "ybp": 3200,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB3",
+      "label": "Maritime expansion; colonial outposts & island bases established",
+      "ybp": 1400,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB4",
+      "label": "Great Naval War impacts fleet and trade routes",
+      "ybp": 700,
+      "refs_world_events": [
+        "W1"
+      ]
+    },
+    {
+      "id": "TB5",
+      "label": "Open-Seas Treaty and entry into Sea Trade Union",
+      "ybp": 280,
+      "refs_world_events": [
+        "T1",
+        "TB1",
+        "A1"
+      ]
+    },
+    {
+      "id": "TB6",
+      "label": "Succession crisis of neighbor leads to coastal acquisition",
+      "ybp": 180,
+      "refs_world_events": [
+        "W4",
+        "BC3"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Merchants' Grand Gild",
+      "influence_hint": "dominant in urban councils; controls long-distance trade"
+    },
+    {
+      "id": "F2",
+      "label": "Harbour Nobility",
+      "influence_hint": "landed elites; finance fortifications and magistracies"
+    },
+    {
+      "id": "F3",
+      "label": "Shipwrights' Conclave",
+      "influence_hint": "technical guild; controls shipbuilding and naval contracts"
+    },
+    {
+      "id": "F4",
+      "label": "Tide-Templars",
+      "influence_hint": "religious order; maritime auguries and port rites"
+    },
+    {
+      "id": "F5",
+      "label": "Smugglers' Syndicate",
+      "influence_hint": "informal; undermines tariffs, strong in fringe isles"
+    }
+  ],
+  "economy_pillars": [
+    "maritime_trade",
+    "shipbuilding",
+    "salt-curing_and_fish",
+    "port_services_and_finance",
+    "ritual-augury_services"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "seafaring lexicon and navigation lore",
+      "port-multilingualism (traders' pidgins common)",
+      "guild-centered apprenticeship and ritual craft",
+      "oral sea-chant epics and seasonal festivals",
+      "pragmatic mercantile ethics with patronage networks"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Saltreach Harbor",
+      "tags": [
+        "coastal",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Old Quarter",
+      "tags": [
+        "urban",
+        "craft-hub"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Windward Isles",
+      "tags": [
+        "island",
+        "naval-outpost"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Glassmarsh",
+      "tags": [
+        "coastal",
+        "wetlands"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Cliffward March",
+      "tags": [
+        "coastal",
+        "frontier"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A1",
+      "label_hint": "Maritime Trading League"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "war",
+      "id": "W4",
+      "label_hint": "Succession Crisis of State_2"
+    },
+    {
+      "type": "treaty",
+      "id": "T1",
+      "label_hint": "Open-Seas Treaty"
+    },
+    {
+      "type": "border_change",
+      "id": "BC3",
+      "label_hint": "Coastal Acquisition via Succession"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB1",
+      "label_hint": "Sea Trade Union"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries exist but cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labour",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+  ],
+  "notes": [
+    "Heavy dependence on imported ritual reagents; trade disruptions cause sharp ritual/service shortages",
+    "Port defenses and shipwright capacity are strategic vulnerabilities and factional focal points",
+    "Recent coastal acquisition (BC3) leaves frontier governance contested with State_2 remnants",
+    "Membership in Maritime Trading League and Sea Trade Union shapes tariff regimes and convoy obligations"
+  ],
+  "generated_at": "2025-09-09T03:53:18.913Z"
+}

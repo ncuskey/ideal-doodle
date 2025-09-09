@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 10
+  },
+  "summary": "Arelerglosia is a compact coastal state of Southia in the Westford Era (1291). Though its capital, the small port of Abermaicto, anchors seaward affairs, the inland market city of Bodubin dwarfs it in population and influence. Six rivers lace the realm, feeding two harbors and a chain of market towns. Keltan culture and the Chordenver Faith set the social tone, with notable Durinn and Wildlands minorities. The army favors fast cavalry and archers, while a modest 1st Fleet patrols the coast against smugglers and incursions from four neighboring polities.",
+  "history": [
+    "Founding of Abermaicto as a sheltered roadstead and administrative seat, tying coastal tolls to temple oversight by the Chordenver clergy.",
+    "Bodubin’s rise as the primary inland market, drawing produce and craftwork from river valleys and overshadowing the capital in population and commerce.",
+    "Formation of the Aberdurum regiments to stabilize frontier tracts and secure river crossings; later addition of the archer‑heavy 3rd (Bodubin) Regiment.",
+    "Chartering of the 1st Fleet to deter smuggling and escort river-mouth traffic between the state’s two ports.",
+    "Recurring negotiations over river tolls and border markers with neighboring states; periodic adjustments without major territorial overhaul.",
+    "Present (1291): merchants and clergy vie for influence as Arelerglosia balances coastal customs revenue with inland market demands."
+  ],
+  "geographyNotes": "A sea-facing realm with six rivers that descend to broad mouths along a relatively gentle coast. Dominant land cover is biome#4, with notable patches of biome#8 and biome#3. Settlements cluster on river terraces and confluences; floodplains near the ports support transport and storage yards. The coastline enables short-hop cabotage between Abermaicto and Chlaber, while interior routes follow river valleys toward Bodubin and other towns.",
+  "societyNotes": "Keltan culture predominates, shaping legal custom and language. Durinn communities contribute distinct craft traditions and guild life, while Wildlands groups maintain looser village networks along the margins. The Chordenver Faith is widely observed and organizes festivals, charities, and mediation; a small nonreligious minority is tolerated, especially in commercial quarters. Urban society splits between the coastal capital’s administrative clergy and dock guilds, and Bodubin’s merchant houses and militias.",
+  "economyNotes": "Trade flows along the six rivers to the two ports—Abermaicto (capital) and Chlaber—linking inland markets to coastal shipping. With no designated overland route hubs, internal exchange relies on river barges and caravan spurs between Bodubin, Nanshigangad, and Indiraber. Revenue centers on customs, river tolls, storage, and market fees; exports and imports move primarily as bulk river-borne goods transshipped at the ports. The small 1st Fleet supports customs enforcement and safe passage.",
+  "factions": [
+    {
+      "name": "1st (Aberdurum) Regiment",
+      "motive": "Project fast-moving defense from the heartland to borders and river crossings.",
+      "strength": "Largest formation; cavalry-heavy with seasoned officers for rapid response."
+    },
+    {
+      "name": "2nd (Aberdurum) Regiment",
+      "motive": "Garrison key towns and maintain road and toll security.",
+      "strength": "Balanced mix of infantry and archers; adaptable for patrol and siege screens."
+    },
+    {
+      "name": "3rd (Bodubin) Regiment",
+      "motive": "Safeguard inland markets and deter banditry along caravan spurs.",
+      "strength": "Archer‑heavy with light artillery; strong in static defenses around trade nodes."
+    },
+    {
+      "name": "1st Fleet (Coastal Patrol)",
+      "motive": "Enforce customs, deter smuggling, and escort river-mouth traffic.",
+      "strength": "Small but nimble flotilla with local pilots and harbor masters."
+    },
+    {
+      "name": "Chordenver Synod of Arelerglosia",
+      "motive": "Preserve orthodoxy, adjudicate oaths, and stabilize civic life through rites and charity.",
+      "strength": "Temple network, festivals, and influence over clerical offices in the capital."
+    },
+    {
+      "name": "Bodubin Merchants’ Circle",
+      "motive": "Keep river tolls favorable and secure dominance of inland markets.",
+      "strength": "Wealth, warehousing, and private guards tied to caravan and barge interests."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The River Tithe Dispute",
+      "setup": "Merchants claim double-tithing at a confluence linking Bodubin’s routes to the coast.",
+      "escalation": "A stand-off grows as the 3rd Regiment positions archers; trade threatens to halt.",
+      "reward": "Letters of free passage for a year and a share of recovered back-duties."
+    },
+    {
+      "title": "Missing Cutter of the 1st Fleet",
+      "setup": "One of the fleet’s three ships vanishes during a fogbound patrol between the ports.",
+      "escalation": "Evidence points to an organized smuggling ring with foreign backing.",
+      "reward": "Salvage rights and a coastal trade license from the harbor masters."
+    },
+    {
+      "title": "Relic Under Two Traditions",
+      "setup": "A Chordenver relic claimed by Keltan and Durinn congregations stirs protests.",
+      "escalation": "Processions swell into street blockades near Abermaicto’s temples.",
+      "reward": "Synod favor, temple contacts, and a reliquary grant."
+    },
+    {
+      "title": "Bodubin’s Ledger Gambit",
+      "setup": "Merchants push to relocate treasury accounts inland to Bodubin.",
+      "escalation": "Political brinkmanship triggers militia musters and market shutdowns.",
+      "reward": "Trade bonds, tax abatements, or a town charter clause for future ventures."
+    },
+    {
+      "title": "Markers on the Wild Edge",
+      "setup": "Surveyors need escort to renew worn border stones near Wildlands villages.",
+      "escalation": "A skirmish over disputed pasture drags in a neighboring patrol.",
+      "reward": "A small land grant, grazing rights, or a state survey contract."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "f28d9806f209a27d5af4f76c35a7838f3db9bae1c08daa242b64b657a51e3f65:fullv1"
+}

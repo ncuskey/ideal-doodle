@@ -1,0 +1,88 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 15
+  },
+  "summary": "Hob is a coastal state on Southia in the Westford Era (1291), centered on its namesake capital and only seaport. Six rivers knit its interior to the coast through river-land corridors across a mosaic of biome#7 and biome#5. A Kobblin-majority society guided by Kobblinism coexists with small Aj'Snaga communities. Hob fields archer-heavy regiments (notably the Ial-named units) and a small 1st Fleet for littoral patrol. Trade, fishery, and river-borne transport sustain Hob and its inland towns: Stroi, Chalk, Gob, and Driordeek.",
+  "history": [
+    "Early settlement clustered at Hob’s roadstead where river mouths meet the sea, later affirmed as the capital and sole formal port.",
+    "Kobblin settlers and clergy consolidated civic authority under Kobblinism, while Aj'Snaga river-clans retained their Spirits rites in pockets along the waterways.",
+    "The Ial-named regiments were organized to secure the coastal heartland and approaches; the Sleh regiment was raised to patrol interior corridors.",
+    "A modest 1st Fleet was commissioned to police inshore lanes and support the port’s tariff regime.",
+    "As overland routes remained secondary, river barges and coastal cabotage shaped Hob’s economy and its balance with neighboring states (7, 3, 12, 1).",
+    "By 1291, archery traditions were emphasized in training and levies, reflecting local skillsets and available materiel."
+  ],
+  "geographyNotes": "Hob holds a sea coast with one principal harbor at the capital. Six rivers create fertile corridors and estuarine flats before reaching the coast, enabling barge movement. Landscape patterns mix biome#7 and biome#5, producing varied cover and farmland patches. Maritime influence keeps seasons relatively mild and damp near the coast, with breezier headlands and calmer, mist-prone river valleys inland.",
+  "societyNotes": "Kobblin culture and Kobblinism predominate in governance, festivals, and law. Aj'Snaga Spirits adherents form small but enduring communities along the rivers, with customary rites respected locally. Militia service ties rural households to archer levies, while urban life in Hob blends dockside trades with temple-led charities and civic guilds. Relations with neighbors are pragmatic, focused on navigable borders and market access.",
+  "economyNotes": "Hob’s single seaport concentrates customs, docking, and ship service work. River barges link Hob to Stroi, Chalk, Gob, and Driordeek, moving grain, timber, and craft goods between interior markets and the coast. With no major overland route hubs, coastal cabotage and river traffic dominate. The 1st Fleet secures trade lanes and fisheries, while military provisioning injects steady coin into local markets.",
+  "factions": [
+    {
+      "name": "Port Guild of Hob",
+      "motive": "Protect the capital’s monopoly as the state’s only formal port and keep tariffs favorable.",
+      "strength": "Controls dock labor, warehousing, and provisioning networks; close ties to the 1st Fleet’s quartermasters."
+    },
+    {
+      "name": "Kobblinist Temple Circle",
+      "motive": "Maintain religious authority and social order through rites, charity, and counsel to magistrates.",
+      "strength": "Majority faith with shrines in all key burgs and influence over local councils and levies."
+    },
+    {
+      "name": "Ial Command",
+      "motive": "Keep the coastal heartland secure, preserve archery traditions, and ensure rapid musters.",
+      "strength": "Leads the 1st, 2nd, and 4th regiments; veteran captains with strong recruitment ties in farming villages."
+    },
+    {
+      "name": "Sleh Border Wardens",
+      "motive": "Patrol interior river corridors and deter incursions or banditry along lesser crossings.",
+      "strength": "The 3rd (Sleh) Regiment: a mobile mixed-force accustomed to varied terrain."
+    },
+    {
+      "name": "Aj'Snaga Elders’ Council",
+      "motive": "Safeguard Spirits rites, secure legal recognition, and mediate with temple and civic authorities.",
+      "strength": "Small, cohesive kin networks with deep knowledge of river channels and seasonal cycles."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Rivers of Six",
+      "setup": "Spring surges alter channels, stranding barges and sparking disputes over new fishing and ferry rights between inland towns.",
+      "escalation": "Local councils call in the Sleh Wardens; rival claims from Stroi and Chalk harden into blockades unless evidence and maps are produced.",
+      "reward": "Exclusive barge contracts and guaranteed wharfage in two burgs."
+    },
+    {
+      "title": "Feather and String",
+      "setup": "Ial Command seeks expert hands to secure bow-stave supplies and train new levies ahead of inspections.",
+      "escalation": "A smuggling ring diverts materials and bribes quartermasters; uncovering the chain risks implicating guild notables.",
+      "reward": "Bounty pay, archers’ stipends, and favor with regimental captains."
+    },
+    {
+      "title": "Port Monopoly",
+      "setup": "The Port Guild moves to shutter informal river quays that bypass Hob’s customs.",
+      "escalation": "Dock strikes and sabotage ripple through warehouses; the 1st Fleet is asked to enforce closures on the estuary.",
+      "reward": "Tariff exemptions and bonded storage rights for a season."
+    },
+    {
+      "title": "Processions at Cross-Purpose",
+      "setup": "An Aj'Snaga rite coincides with a major Kobblinist procession, straining patrols and public spaces.",
+      "escalation": "Provocateurs spread rumor, risking clashes unless a shared route and order of march are negotiated.",
+      "reward": "Blessings from both communities and formal recognition for mediators."
+    },
+    {
+      "title": "Shoals and Signals",
+      "setup": "The 1st Fleet hires pilots to re-chart shifting shoals outside Hob after storms.",
+      "escalation": "False buoys appear at night, steering ships toward sandbars; the culprits profit from salvage and stolen cargo.",
+      "reward": "Claim to recovered goods and letters of marque against saboteurs."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "a4ec4da7611cb71a5b93f0d9a83cad925a091c9cf45bdc0483f5ad731b2cef51:fullv1"
+}

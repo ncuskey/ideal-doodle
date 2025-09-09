@@ -1,0 +1,160 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "checksum": "fnv1a_3a8c39f3",
+  "name": "State_16",
+  "aliases": [
+    "Harbor Principality",
+    "State16 Coast"
+  ],
+  "timeline_beats": [
+    {
+      "id": "tb1",
+      "label": "Coastal settlement consolidation",
+      "ybp": 9000,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb2",
+      "label": "League of Rivermouths founded (regional maritime confederation)",
+      "ybp": 3800,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb3",
+      "label": "Port chartered as administrative nucleus",
+      "ybp": 2700,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb4",
+      "label": "Centralization into a mercantile maritime state",
+      "ybp": 800,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb5",
+      "label": "Entry into Inner-Coastal Accord",
+      "ybp": 120,
+      "refs_world_events": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "f1",
+      "label": "Merchant Guilds",
+      "influence_hint": "dominant in law, trade policy, and reagent import contracts"
+    },
+    {
+      "id": "f2",
+      "label": "Harbor Lords",
+      "influence_hint": "regional landholders controlling fortified promontories"
+    },
+    {
+      "id": "f3",
+      "label": "Tide-Seers",
+      "influence_hint": "ritual navigators with cultural sway over voyages"
+    },
+    {
+      "id": "f4",
+      "label": "Dockworkers' Syndicate",
+      "influence_hint": "labor power over quays, periodic strike capability"
+    },
+    {
+      "id": "f5",
+      "label": "Foreign Trade Houses",
+      "influence_hint": "external capital and control of scarce reagents"
+    }
+  ],
+  "economy_pillars": [
+    "coastal trade",
+    "fisheries & preserves",
+    "shipbuilding & repair",
+    "salt & curing",
+    "ritual-augury services / reagent trade"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "maritime orientation and seasonal navigation calendar",
+      "guild-centric civic institutions",
+      "ancestor-sea ritual integration",
+      "pragmatic syncretism in belief and law",
+      "strong port civic identities"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "r1",
+      "label": "Inner Docklands",
+      "tags": [
+        "trade-hub",
+        "urban"
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "Northern Estuary",
+      "tags": [
+        "estuary",
+        "fishery"
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "Cape of Lores",
+      "tags": [
+        "coastal",
+        "fortified"
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "Salt Flats",
+      "tags": [
+        "coastal",
+        "resource"
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "Outer Isles",
+      "tags": [
+        "islands",
+        "waystations"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A3",
+      "label_hint": "Inner-Coastal Accord"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries exist but cannot replace charts and seamanship",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)",
+    "Ritual magic consumes scarce imported reagents or specialized burg-labors",
+    "Maritime dependence: ports vulnerable to blockade; reagent supply lines critical",
+    "Must honor obligations of alliance A3 (Inner-Coastal Accord)"
+  ],
+  "notes": [
+    "Strategic chokepoints: Inner Docklands drydock and Cape of Lores batteries",
+    "Seasonal monsoon/navigation windows constrain long voyages and trade cycles",
+    "Smuggling and reagent black market centered in Outer Isles and Northern Estuary",
+    "Tide-Seers control key voyage rites; Merchant Guilds fund reagent imports",
+    "Limited heavy industry; major projects require imported combustible fuels or external partners"
+  ],
+  "generated_at": "2025-09-09T03:53:18.910Z"
+}

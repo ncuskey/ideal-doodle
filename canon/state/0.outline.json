@@ -1,0 +1,184 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "checksum": "fnv1a_ea6e19e2",
+  "name": "State_0",
+  "aliases": [
+    "Lowland Marches",
+    "Riverway Canton"
+  ],
+  "timeline_beats": [
+    {
+      "id": "TB1",
+      "label": "Proto-settlement along river creeks",
+      "ybp": 3800,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB2",
+      "label": "Consolidation into a river-canton during River-Kingdoms",
+      "ybp": 3200,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB3",
+      "label": "Age of Flux disruptions; migration influx under T4 protocols",
+      "ybp": 1400,
+      "refs_world_events": [
+        "T4"
+      ]
+    },
+    {
+      "id": "TB4",
+      "label": "Border War of the Lowlands (territorial loss, BC1 cession)",
+      "ybp": 650,
+      "refs_world_events": [
+        "W2",
+        "BC1"
+      ]
+    },
+    {
+      "id": "TB5",
+      "label": "Integration into Coastal-River trade networks; Alliance A3 and TB2 membership",
+      "ybp": 180,
+      "refs_world_events": [
+        "A3",
+        "TB2",
+        "T2"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Lowland Guilds",
+      "influence_hint": "Commercial control of river tariffs and reagent imports; dominant in ports"
+    },
+    {
+      "id": "F2",
+      "label": "Dike-Lord Nobility",
+      "influence_hint": "Controls irrigation, levies on grain; political-military elite"
+    },
+    {
+      "id": "F3",
+      "label": "Tide-Remembrance Clerisy",
+      "influence_hint": "Manages ancestor rites and navigation auguries; shapes public ritual life"
+    },
+    {
+      "id": "F4",
+      "label": "Frontier Settler Councils",
+      "influence_hint": "Push inland settlement; influence border policy and militia recruitment"
+    }
+  ],
+  "economy_pillars": [
+    "riverine trade",
+    "lowland grain & saltworks",
+    "shipbuilding & repair",
+    "ritual-reagent brokerage"
+  ],
+  "culture": {
+    "language_family": "Riveric Dialects",
+    "traits": [
+      "clan-kinship networks",
+      "oral navigational lore",
+      "tariff and contract emphasis",
+      "craft specialization in boatwrighting",
+      "public ancestor feasts"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Port of Skiffs",
+      "tags": [
+        "coastal",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Lower Marshes",
+      "tags": [
+        "lowland",
+        "saltworks"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "High Dike Plains",
+      "tags": [
+        "agricultural",
+        "irrigation"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "River Gate",
+      "tags": [
+        "border",
+        "fortified"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Hinter-Ridge Settlements",
+      "tags": [
+        "frontier"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A3",
+      "label_hint": "Inner-Coastal Accord"
+    },
+    {
+      "type": "war",
+      "id": "W2",
+      "label_hint": "Border War of the Lowlands"
+    },
+    {
+      "type": "treaty",
+      "id": "T2",
+      "label_hint": "River Boundary Accord"
+    },
+    {
+      "type": "treaty",
+      "id": "T4",
+      "label_hint": "Migration and Settlement Protocol"
+    },
+    {
+      "type": "border_change",
+      "id": "BC1",
+      "label_hint": "Lowland Cession"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB2",
+      "label_hint": "Coastal-River Commerce Ring"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Navigational auguries exist but cannot replace charts or seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Combustion-derived industry limited; no high-pressure steam megatechs"
+  ],
+  "notes": [
+    "Strategic lowland position: commerce-focused, vulnerable at River Gate",
+    "Relies on imported ritual reagents controlled by Lowland Guilds",
+    "Recent border cession (BC1) shapes frontier settlement policy",
+    "Member of A3 and TB2; treaties T2/T4 constrain migration and boundary claims"
+  ],
+  "generated_at": "2025-09-09T03:52:03.923Z"
+}

@@ -1,0 +1,88 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 7
+  },
+  "summary": "Bhiagab is a coastal state of Southia in the Westford Era (1291), ruled from the inland capital Stroila and economically tied to the seaport of Moggbig. Four rivers knit its interior to the coast, and two ports handle maritime traffic, supported by a small fleet. A Kobblin-majority society with a significant Durinn minority, Bhiagab fields cavalry-heavy regiments and manages cautious relations with three neighboring states (IDs 12, 14, 15).",
+  "history": [
+    "Rise of Stroila as the political seat consolidated Bhiagab’s interior communities under a single administration, lending its name and leadership to multiple regiments.",
+    "Moggbig’s harbor expanded into the realm’s principal maritime outlet, later joined by a smaller secondary port to handle local cabotage.",
+    "Border frictions with neighboring states (12, 14, 15) led to the development of a mobile, cavalry-forward army to patrol open country and river crossings.",
+    "The state established river wardens and toll regimes along its four rivers to finance roads and coastal defenses.",
+    "A small fleet was organized to deter piracy and escort merchants between Bhiagab’s two ports.",
+    "By Westford Era 1291, the court focuses on securing river mouths, improving port customs, and balancing Kobblinist and Durinn religious interests in major burgs."
+  ],
+  "geographyNotes": "Bhiagab fronts the sea with an accessible coastline and two ports; Moggbig serves as the main deepwater facility, with a smaller harbor elsewhere on the coast. Four rivers traverse the state, shaping travel corridors from the interior to the shore and creating river-valley settlements near bridges and fords. Biome distribution is dominated by biome#5 with minor patches of biome#6 and biome#7. The coastal influence moderates temperatures, and much of the interior remains open enough to favor mounted travel and rapid troop movement.",
+  "societyNotes": "The Kobblin culture and Kobblinism are predominant (about 60%), with a substantial Durinn presence (around 20%) adhering to the Durinn Faith; other groups exist but are less numerous. Civic life centers on burgs—especially Stroila and Moggbig—where faiths coexist through practical arrangements over festivals, markets, and guild charters. Military service emphasizes horsemanship, and local identities often organize around burg wards, river parishes, and port guilds rather than strict clan lines.",
+  "economyNotes": "Trade flows downriver to the coast, concentrating on the Stroila–Moggbig axis. Moggbig handles most seagoing commerce; a smaller port supports short-haul traffic and fishing, while inland towns like Kleabsil, Zarag, and Bratzakt anchor craftwork and provisioning. With no formal route hubs designated, caravans and river barges use well-traveled roads and landings. Revenue comes from port customs, river tolls, and remount breeding that sustains the state’s cavalry arm.",
+  "factions": [
+    {
+      "name": "Court of Stroila",
+      "motive": "Centralize authority, secure rivers and borders, and keep the capital preeminent over port interests.",
+      "strength": "Backing of the 1st, 2nd, and 4th (Stroila) Regiments; control over tax assessors and road maintenance."
+    },
+    {
+      "name": "Moggbig Harbormasters’ Guild",
+      "motive": "Expand harbor works, lower customs for favored partners, and elevate Moggbig’s voice in state policy.",
+      "strength": "Control of pilots and dock leases; influence over the small fleet’s provisioning and schedules."
+    },
+    {
+      "name": "River Wardens of Bhiagab",
+      "motive": "Keep channels navigable, protect bridges and ferries, and defend toll rights against smugglers.",
+      "strength": "Levy-funded watch posts along all four rivers; rapid-response boat crews and local militias."
+    },
+    {
+      "name": "Kobblinist Circle of Zarag",
+      "motive": "Maintain ritual unity among Kobblin congregations and guide policy on civic festivals and oaths.",
+      "strength": "Popular legitimacy among the majority; strong ties to burg councils and cavalry patrons."
+    },
+    {
+      "name": "Durinn Synod of Kleabsil",
+      "motive": "Safeguard Durinn Faith rights, mediate trade disputes, and secure fair representation in burg charters.",
+      "strength": "Network of artisans and merchants; respected adjudicators in contract matters."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Silt Question",
+      "setup": "Dredging at Moggbig stalls after sabotage sinks a dredge near the main channel.",
+      "escalation": "Evidence implicates rivals from the smaller port and a clerk in the customs house; shipping insurers threaten to withdraw.",
+      "reward": "Guild stipends, docking rights, and favor from the Harbormasters’ Guild or the Court depending on who is protected."
+    },
+    {
+      "title": "Remounts Gone Missing",
+      "setup": "Cavalry remount herds vanish along a river road linking Stroila to the coast.",
+      "escalation": "Tracks lead toward a disputed crossing near a neighbor’s border; thieves have river boats ready to ferry stock by night.",
+      "reward": "Payment in horses and tack, plus letters of passage from the 1st (Stroila) Regiment."
+    },
+    {
+      "title": "Smugglers of the Second Port",
+      "setup": "The small fleet (eight hulls) is tasked with stopping untaxed cargo landing at the lesser harbor.",
+      "escalation": "Smugglers exploit creeks off a river mouth and carry seals forged in the customs office.",
+      "reward": "A cut of seized cargo and a standing contract with the River Wardens."
+    },
+    {
+      "title": "Bridge at Floodmark",
+      "setup": "A seasonal swell shifts a river’s course and threatens a toll bridge, sparking protests from rivermen and merchants.",
+      "escalation": "Wardens demand emergency levies, while burg councils insist on shared costs; saboteurs target cofferdams by night.",
+      "reward": "Bridge annuities and influence over future toll privileges."
+    },
+    {
+      "title": "Quiet Knives on the Frontier",
+      "setup": "Envoys propose a trade pact with state 12, but scouts report covert musters near a frontier ford.",
+      "escalation": "Skirmishes erupt between patrols; factions in Stroila argue for preemptive strikes or a corridor treaty.",
+      "reward": "Cross-border trading rights and favor from whichever policy prevails."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "e76617b3d4daaef1548eb610e7ac38d729d9f2ced97622833437d07fa58fc762:fullv1"
+}

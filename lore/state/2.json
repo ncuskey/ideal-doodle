@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 2
+  },
+  "summary": "Gatesinia is a coastal state on the Southia map in the Westford Era (year 1291). It anchors itself along a sea-lapped littoral threaded by 27 rivers and a mosaic of three dominant biomes (biome#1, biome#8, biome#5). The capital sits at burg id 2, while the largest towns include Salces, Neford, Swaton, Tartondal, and Carporton. Society is overwhelmingly Nortumbic in culture and faith (Nortumbic Spirits), with small Wildlands and Mercian minorities. Gatesinia fields five named regiments (~10.9k total) and four small fleets (9 ships), and borders states 0, 11, and 16.",
+  "history": [
+    "River-settled hamlets along the coast and floodplains consolidated into Gatesinia’s early burgs as waterways became the easiest overland routes.",
+    "Nortumbic-speaking communities coalesced under shared customs and Nortumbic Spirits observances, shaping local governance and rites.",
+    "Maritime access fostered the rise of 10 ports; Neford and Swaton emerged as key gateways while inland Salces and Tartondal grew as river-market anchors.",
+    "Town-identity regiments formed (Oakburghia, Axbridford, Stapton, Newceshamia, Redcking), professionalizing levy traditions and securing key corridors.",
+    "A modest coastal flotilla was established to deter raiding and keep estuaries open to trade.",
+    "By 1291 W.E., relations with neighbors 0, 11, and 16 are watchful; regimental postings and patrols along river mouths and crossings reflect a focus on border stability."
+  ],
+  "geographyNotes": "Has coastline with multiple anchorages supporting 10 ports. A dense network of 27 rivers creates broad floodplains, estuaries, and inland transport corridors. The land is split chiefly among biome#1 (most extensive), biome#8, and biome#5, yielding varied local conditions and resources. Maritime influence moderates weather near the coast; conditions shift inland with biome and elevation. Burgs cluster at river confluences and near sheltered coastal inlets.",
+  "societyNotes": "Dominant culture: Nortumbic (overwhelming majority), with smaller Wildlands and Mercian communities. Dominant worship: Nortumbic Spirits; small minorities report no religion or Mercian Beliefs. Civic identity is strongly tied to towns, reflected in the regimental names (Oakburghia, Axbridford, Stapton, Newceshamia, Redcking). Military tradition favors archery and mobile elements, visible in the composition of the standing forces. Neighbor-state awareness (0, 11, 16) fosters a pragmatic, defense-minded outlook in border and port communities.",
+  "economyNotes": "Coastal shipping and riverine transport underpin trade; 10 ports interface between sea routes and inland barge traffic. Largest towns by population: Salces (inland), Neford (port), Tartondal (inland), Swaton (port), Carporton (inland). Neford and Swaton handle seaborne goods; Salces and Tartondal act as redistribution markets to the hinterland. The fleets (total 9 ships) imply basic naval facilities and repair yards. Absence of designated route hubs suggests a distributed trade pattern centered on burg markets and port quays.",
+  "factions": [
+    {
+      "name": "Capital Administration (Burg id 2)",
+      "motive": "Maintain cohesion between coastal ports and river hinterland; balance defense and trade.",
+      "strength": "Legitimacy, tax authority, and command over deployments across five regiments and four fleets."
+    },
+    {
+      "name": "Nortumbic Spirits Custodians",
+      "motive": "Safeguard Nortumbic rites and community traditions; mediate disputes per custom.",
+      "strength": "Widespread community presence through the Nortumbic majority."
+    },
+    {
+      "name": "1st (Oakburghia) Regiment Command",
+      "motive": "Secure approaches around Oakburghia and key routes to the capital.",
+      "strength": "~3,421 troops; archer-heavy with strong cavalry and infantry support plus limited artillery."
+    },
+    {
+      "name": "2nd (Axbridford) Regiment Command",
+      "motive": "Guard river crossings and overland corridors near Axbridford; rapid response to border alarms.",
+      "strength": "~2,963 troops; balanced infantry/archers with notable cavalry arm."
+    },
+    {
+      "name": "3rd (Stapton) Regiment Command",
+      "motive": "Protect Stapton’s markets and adjacent riverways; reinforce coastal ports when called.",
+      "strength": "~2,740 troops; infantry core with substantial archers and cavalry, some artillery."
+    },
+    {
+      "name": "Neford Port Interests",
+      "motive": "Keep harbor traffic moving and tariffs predictable; oppose disruptions to seaborne trade.",
+      "strength": "Control of berths and warehousing in a leading port; influence over coastal shipping schedules."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Tariffs in the Tide at Neford",
+      "setup": "Manifests from arriving ships do not match offloaded cargo at Neford’s quays.",
+      "escalation": "A multi-port skimming ring links Neford and Swaton using river barges to mask shortfalls.",
+      "reward": "Share of recovered duties or a standing letter of passage from port authorities."
+    },
+    {
+      "title": "Standards in Rival Wind",
+      "setup": "The 2nd (Axbridford) and 3rd (Stapton) Regiments feud over patrol zones near a strategic crossing.",
+      "escalation": "Border-state agents exploit the rift, planting evidence to spark an incident involving neighbor 16.",
+      "reward": "Favor with regimental command and access to military supply contracts."
+    },
+    {
+      "title": "Deadwater on a Busy River",
+      "setup": "A key river reach silts up, stranding barge convoys bound for inland Salces and Tartondal.",
+      "escalation": "Sabotage of upstream groynes is traced to smugglers avoiding coastal port inspection.",
+      "reward": "Salvage rights on recovered cargo and a river-toll exemption for a season."
+    },
+    {
+      "title": "Dispatch Lost from Oakburghia",
+      "setup": "A courier from Oakburghia to the capital (burg id 2) vanishes with troop rotation orders.",
+      "escalation": "Interception points to a covert route feeding intelligence to neighbor 11.",
+      "reward": "Commendation from the Capital Administration and a discreet retainer."
+    },
+    {
+      "title": "Quiet Faith in a Loud Market",
+      "setup": "A small Mercian-beliefs enclave seeks protection after threats in a bustling port quarter.",
+      "escalation": "Tensions risk wider unrest that could disrupt dock work in Swaton if not defused.",
+      "reward": "Introductions across minority trade networks and a reliable warehousing contact."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "996421e3861b003137207d44330bcd4cc10eaceb5b0c5047fa7f3dd039976207:fullv1"
+}

@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 4
+  },
+  "summary": "Duntefia is a coastal state of Southia in the Westford Era (1291), spanning 16,924 in area with eight rivers feeding its shore. It fields two Afordbume regiments and a small coastal fleet to protect trade and borders with three neighboring states. The populace is largely Westen by culture with strong currents of Westen Spirits belief and a notable secular segment; Enlandic and Wildlands communities contribute distinct traditions. Urban life centers on Clifractle, Uxbrid, and the port of Horston, while a second, smaller port supports coastal exchange.",
+  "history": [
+    "Early riverine settlements by Westen-speaking communities coalesced along Duntefia’s coast and lower valleys.",
+    "Frontier hamlets associated with Wildlands culture were gradually integrated as river trade expanded inland.",
+    "Enlandic druid enclaves took root in wooded tracts, maintaining rites alongside local customs.",
+    "Clifractle rose as the largest inland market town, with Uxbrid consolidating control over a key river crossing.",
+    "Horston developed into a principal harbor; a secondary port later augmented coastal traffic.",
+    "The 1st and 2nd (Afordbume) Regiments were established to secure borders and vital routes, complemented by a 1st Fleet for coastal patrols.",
+    "By 1291, Duntefia balances relations with three neighbors while keeping its eight rivers open to commerce."
+  ],
+  "geographyNotes": "Duntefia has a seaboard and eight rivers that braid toward the coast, shaping settlement along fords, crossings, and estuaries. The landscape is a mosaic of biome#11 (most common), biome#9, and patches of biome#10. Two natural harbors anchor maritime use; Horston fronts one, while a smaller port services coastal craft. Inland towns cluster at confluences and defensible rises; the Afordbume garrison zone sits near the heart of these routes.",
+  "societyNotes": "Westen culture predominates, with significant Wildlands and smaller Enlandic communities. Religiously, Westen Spirits is the most followed, but non-religious people form a large share; Enlandic Druidism maintains respected circles. The Afordbume regiments draw heavily from the Westen heartland, while riverfolk and Wildlands communities provide skilled scouts and archers. Local councils in larger burgs mediate between faiths and cultures to keep markets calm.",
+  "economyNotes": "Trade flows along river corridors to the coast. There are two ports (Horston and a smaller harbor), with no single overland route hub—commerce distributes across several crossings and quays. Clifractle (largest) and Uxbrid (a major river town) anchor inland exchange; Cocham and Wasaltonden support regional markets. Security is provided by two Afordbume regiments (about 3,059 and 2,567 strong) and a 1st Fleet of 12 vessels patrolling between the ports.",
+  "factions": [
+    {
+      "name": "Afordbume Command",
+      "motive": "Maintain internal order, secure borders and the coastline, and guarantee safe movement along rivers and roads.",
+      "strength": "Two mixed-arms regiments with infantry, archers, cavalry, and some artillery; backed by the 1st Fleet."
+    },
+    {
+      "name": "Horston Harbor Guilds",
+      "motive": "Expand maritime traffic and keep tariffs favorable at one of Duntefia’s two ports.",
+      "strength": "Control of docks, warehouses, and pilots at Horston; influence over coastal convoys."
+    },
+    {
+      "name": "Clifractle Burghers’ Council",
+      "motive": "Protect inland markets and negotiate fair tolls on river crossings and roads.",
+      "strength": "Largest burg by population; credit networks and caravanners’ loyalty."
+    },
+    {
+      "name": "Uxbrid River Syndics",
+      "motive": "Regulate river traffic through the principal crossing and standardize levies.",
+      "strength": "Gatekeepers of a key ford/bridge; information on barge movements."
+    },
+    {
+      "name": "Enlandic Druid Circle of Duntefia",
+      "motive": "Safeguard sacred groves and the rights of Enlandic worshippers within mixed communities.",
+      "strength": "Small but respected network of keepers and mediators across several towns."
+    },
+    {
+      "name": "Wildlands Clan Brokers",
+      "motive": "Secure fair land-use agreements and recognition of ancestral practices.",
+      "strength": "Numerous ties in frontier hamlets; skilled skirmishers and trackers."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Missing Muster",
+      "setup": "Supplies and pay-chests bound for the 2nd (Afordbume) Regiment vanish between Clifractle and Uxbrid.",
+      "escalation": "Leads implicate a smuggling ring using backwater landings near the smaller port to move contraband along the coast.",
+      "reward": "Formal commendation from Afordbume Command and priority contracts guarding future convoys."
+    },
+    {
+      "title": "Choked Crossing at Uxbrid",
+      "setup": "Debris and illicit toll-taking stall barge traffic at Uxbrid’s key crossing, threatening market days downstream.",
+      "escalation": "Rival syndics and clan brokers edge toward violence; a neighboring-state agitator seeks to ignite a border incident.",
+      "reward": "Control of crossing rights for a season and a share of recovered tolls."
+    },
+    {
+      "title": "Shorelights of Horston",
+      "setup": "Night beacons guiding ships to Horston go dark; the 1st Fleet hesitates to sortie in fog.",
+      "escalation": "Saboteurs intend to lure merchantmen onto shoals and offload cargo at hidden coves.",
+      "reward": "Harbor Guild silver and a permanent pilotage waiver when entering Horston."
+    },
+    {
+      "title": "Groves and Roads",
+      "setup": "A new road alignment near Wasaltonden threatens a grove tended by the Enlandic Druid Circle.",
+      "escalation": "Contractors, burghers, and druids deadlock; hotheads from the frontier prepare to ‘solve’ it at night.",
+      "reward": "Land grants along the new road or sanctified protection for a chosen site."
+    },
+    {
+      "title": "Rivals at the River Mouth",
+      "setup": "Fishing skiffs from an adjacent state crowd Duntefia’s river mouth during a seasonal run.",
+      "escalation": "Brawls escalate; the 1st Fleet’s patrol must be coordinated to avoid a diplomatic incident.",
+      "reward": "Exclusive fishing rights for patrons and goodwill from coastal communities."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "62460d6b108932abcfa208b94150998eb4ff8e4b92a398392c8ca70b636184a0:fullv1"
+}

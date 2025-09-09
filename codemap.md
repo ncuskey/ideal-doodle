@@ -14,6 +14,15 @@ LoreGen/
 ├── facts/derived/          # Computed statistics
 │   ├── state/              # State-level aggregations
 │   └── burg/               # Burg-level connectivity
+├── canon/                  # Canon outlines (two-pass foundation)
+│   ├── world/              # World-level context
+│   │   └── outline.json    # Eras, civilizations, tech/magic baseline
+│   ├── interstate/         # Inter-state relationships
+│   │   └── outline.json    # Alliances, wars, treaties, trade blocs
+│   └── state/              # Per-state outlines
+│       ├── 0.outline.json  # State 0 outline (factions, culture, regions)
+│       ├── 1.outline.json  # State 1 outline
+│       └── ...             # All state outlines
 ├── index/                  # Graph & indexing
 │   ├── graph.json          # DAG: burg → state → world
 │   ├── catalog.json        # UI catalog (kingdoms + burgs)
@@ -30,10 +39,13 @@ LoreGen/
 │   ├── demo2.json          # Sample event #2
 │   └── log.ndjson          # Event application log
 ├── schemas/                # JSON schemas
-│   ├── lore.burg.schema.json         # Burg lore schema
-│   ├── lore.state.schema.json        # State lore schema
-│   ├── lore.burg.full.schema.json    # Rich burg lore schema
-│   └── lore.state.full.schema.json   # Rich state lore schema
+│   ├── world_canon_outline.schema.json    # World canon outline schema
+│   ├── interstate_outline.schema.json     # Inter-state outline schema
+│   ├── state_outline.schema.json          # State outline schema
+│   ├── lore.burg.schema.json              # Burg lore schema
+│   ├── lore.state.schema.json             # State lore schema
+│   ├── lore.burg.full.schema.json         # Rich burg lore schema
+│   └── lore.state.full.schema.json        # Rich state lore schema
 ├── loregen-dashboard.html  # Unified HTML dashboard (test suite + pipeline runner + hierarchical lore explorer)
 ├── lore-viewer.html        # Legacy HTML viewer for generated lore
 ├── test-suite.html         # Legacy HTML test suite for functionality verification
@@ -57,7 +69,7 @@ LoreGen/
     │   ├── dag.ts          # Graph data structures
     │   └── dirty.ts        # Dirty propagation (affected nodes)
     ├── gen/                # Generation
-    │   ├── openaiClient.ts # OpenAI client setup (with model constants)
+    │   ├── openaiClient.ts # OpenAI client setup (with rate-limit wrapper)
     │   ├── structured.ts   # Structured outputs helper
     │   └── systemPrompts.ts # Enhanced system prompts
     ├── validate/           # Validation
@@ -69,6 +81,9 @@ LoreGen/
         ├── buildPromptPacks.ts # Create LLM-optimized fact packs
         ├── buildGraph.ts       # Build dependency DAG
         ├── buildCatalog.ts     # Build UI catalog (kingdoms + burgs)
+        ├── canonWorldOutline.ts      # Generate world canon outline
+        ├── canonInterstateOutline.ts # Generate inter-state outline
+        ├── canonStateOutline.ts      # Generate state outlines
         ├── genBurgLore.ts      # Generate burg lore (full quality)
         ├── genStateLore.ts     # Generate state lore (full quality)
         ├── genBurgLoreFull.ts  # Generate rich burg lore
@@ -89,14 +104,23 @@ LoreGen/
 4. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
 5. **Graph Building** → `index/graph.json`
 6. **Catalog Building** → `index/catalog.json`
-7. **Rich Lore Generation** → `lore/{state,burg}/`
-8. **Event Application** → Updates facts + generates seeds
-9. **Dirty Regeneration** → Targeted updates based on seeds
+7. **Canon Outline Generation** → `canon/{world,interstate,state}/`
+8. **Rich Lore Generation** → `lore/{state,burg}/`
+9. **Event Application** → Updates facts + generates seeds
+10. **Dirty Regeneration** → Targeted updates based on seeds
 
 ### Core Types
 - `WorldFacts`: Map name, year, era
 - `StateFacts`: ID, name, color, capital, neighbors, population, area, military
 - `BurgFacts`: ID, name, state, population, port, coordinates, cell
+
+### Canon Outline System (Two-Pass Foundation)
+- **World Canon Outline**: Global context (eras, civilizations, tech/magic baseline)
+- **Inter-State Outline**: Relationships between states (alliances, wars, trade blocs)
+- **State Outlines**: Per-state foundations (factions, culture, regions, constraints)
+- **Hierarchical Consistency**: Each layer references and builds upon the previous
+- **Rate-Limit Integration**: Uses `withRateLimitRetry()` for robust API calls
+- **Cheap Regeneration**: Outline passes are fast and can be run frequently
 
 ### Caching System
 - **Hash Generation**: `cacheKeyForEntity()` computes deterministic hashes

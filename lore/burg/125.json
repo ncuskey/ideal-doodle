@@ -1,0 +1,95 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 125
+  },
+  "summary": "Zizad is a small, isolated settlement of Ban (about 2,300 people). It has no port and no formal trade links (trade degree 0), relying on its own fields and foraging. The community is largely Durinn by culture under the Chordenver Faith, with Durinn and Kentian traditions present. It sits where the state's common biomes (biome#3, biome#4, biome#6) meet.",
+  "localColor": "Homes cluster around a shared well and a modest Chordenver chapel; smokehouses and drying racks line the lanes. Footpaths fade quickly into the surrounding mix of biome#3, #4, and #6. Market days are simple swap-gatherings, and news arrives by wandering wardens rather than caravans.",
+  "notables": [
+    {
+      "name": "Ivara Zed",
+      "role": "Spokes-elder of the homestead circle",
+      "secret": "She has hidden a portion of the grain tithe to keep Zizad through a lean season, risking censure from state collectors."
+    },
+    {
+      "name": "Brother Tolen",
+      "role": "Caretaker of the Chordenver chapel",
+      "secret": "Quietly shelters a Kentian spirit-seer in the sacristy to avoid tensions with more rigid faithful."
+    },
+    {
+      "name": "Brann of the Track",
+      "role": "Pathfinder and trapper who knows every footpath out of Zizad",
+      "secret": "Discovered an old Durinn-marked stone near the edge of biome#6 and wants it kept secret to prevent a religious dispute."
+    },
+    {
+      "name": "Mara Kent",
+      "role": "Healer and midwife respected across households",
+      "secret": "Holds a small cache of rare remedies traded long ago and rations them only to families who support keeping Zizad independent from outside overseers."
+    }
+  ],
+  "factions": [
+    {
+      "name": "Homestead Circle of Zizad",
+      "motive": "Protect food stores and keep the settlement self-reliant in the absence of trade routes.",
+      "strength": "Dozens of households bound by kin and work parties."
+    },
+    {
+      "name": "Chapel of the Chordenver Faith",
+      "motive": "Maintain order and orthodoxy while easing frictions with minority rites.",
+      "strength": "A devoted local flock guided by a steady hand."
+    },
+    {
+      "name": "Old Kin of Durinn",
+      "motive": "Preserve ancestral markers and customs quietly alongside the dominant faith.",
+      "strength": "Influential elders with deep memory and discreet gatherings."
+    },
+    {
+      "name": "Edge-Path Watchers",
+      "motive": "Keep footpaths open and warn of threats emerging from the surrounding biomes.",
+      "strength": "A handful of experienced trappers and youths willing to range."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Vanishing Track",
+      "setup": "A landslip in biome#4 erases Zizad’s most reliable footpath to neighboring hamlets.",
+      "complication": "The safest new line crosses a site the Old Kin of Durinn consider sacred, while chapel leaders insist on a different course.",
+      "reward": "Survey rights, local goodwill, and a share in any tolls the Homestead Circle grants for maintaining the path."
+    },
+    {
+      "title": "Tithe Under Lock",
+      "setup": "Collectors from Ban arrive demanding the full levy; barns look full, but someone is hiding reserves.",
+      "complication": "Famine rumors elsewhere make leniency unlikely, and splitting the tithe risks dividing Zizad’s factions.",
+      "reward": "Favor with state officials or a quiet cut of the reserve promised by grateful households."
+    },
+    {
+      "title": "Stone of Three Names",
+      "setup": "A rune-scarred monolith is found where biome#3 meets #6, drawing attention from Chordenver clergy, Durinn elders, and Kentian spirit-keepers.",
+      "complication": "Night watchers report strange lights and voices; each group claims the sign as their own.",
+      "reward": "Blessings, protective charms, or a map of safe glades known only to the Old Kin."
+    },
+    {
+      "title": "Shadows Between Lanes",
+      "setup": "Livestock vanish on moonless nights along the edge paths.",
+      "complication": "Tracks suggest people, not beasts—desperate drifters using Zizad’s isolation to hide.",
+      "reward": "Recovered animals, salvage from the raiders’ camp, and standing with the Edge-Path Watchers."
+    },
+    {
+      "title": "Lines on the State Ledger",
+      "setup": "Surveyors from Ban consider charting a new supply line through the region.",
+      "complication": "Their straightest route bypasses Zizad entirely; an alternative would disturb a grove prized by multiple faiths.",
+      "reward": "A written endorsement for Zizad as a way-stop or charter for a small state-backed storehouse."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "state",
+      "id": 14,
+      "fields": [
+        "name",
+        "capitalBurgId"
+      ]
+    }
+  ],
+  "hashOfInputs": "ad35b8623d6b050ae494d4a32742ec80ec48d84864deb03c74be9c17415608b4:fullv1"
+}

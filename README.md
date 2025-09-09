@@ -18,18 +18,25 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run graph:build        # Build dependency graph
    ```
 
-3. **Generate Lore**
+3. **Generate Canon Outlines** (Two-Pass Foundation)
+   ```bash
+   npm run canon:world:outline        # World-level context (eras, civilizations, tech/magic)
+   npm run canon:interstate:outline   # Inter-state relationships (alliances, wars, trade)
+   npm run canon:state:outline        # Per-state outlines (factions, culture, regions)
+   ```
+
+4. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-4. **Build Catalog**
+5. **Build Catalog**
    ```bash
    npm run catalog:build  # Create compact UI index
    ```
 
-5. **View Results**
+6. **View Results**
    ```bash
    python3 -m http.server 8000
    # Open http://localhost:8000/loregen-dashboard.html
@@ -43,6 +50,14 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Create prompt packs**: `npm run facts:promptpacks`
 - **Build dependency graph**: `npm run graph:build`
 - **Build UI catalog**: `npm run catalog:build`
+
+### Canon Outlines (Two-Pass Foundation)
+- **World canon outline**: `npm run canon:world:outline`
+- **Inter-state outline**: `npm run canon:interstate:outline`
+- **State outlines (all)**: `npm run canon:state:outline`
+- **State outline (one)**: `npm run canon:state:outline:one -- ID`
+
+### Rich Lore Generation
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
 - **Generate rich burg lore**: `npm run lore:burg:full -- --id=ID`
 
@@ -92,6 +107,16 @@ facts/derived/      # Computed statistics
 ├── state/          # State-level aggregations
 └── burg/           # Burg-level connectivity
 
+canon/              # Canon outlines (two-pass foundation)
+├── world/          # World-level context
+│   └── outline.json # Eras, civilizations, tech/magic baseline
+├── interstate/     # Inter-state relationships
+│   └── outline.json # Alliances, wars, treaties, trade blocs
+└── state/          # Per-state outlines
+    ├── 0.outline.json # State 0 outline (factions, culture, regions)
+    ├── 1.outline.json # State 1 outline
+    └── ...           # All state outlines
+
 index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
 │   ├── state/      # State prompt packs
@@ -109,6 +134,9 @@ lore/               # Generated lore
 └── province/       # Province lore (future)
 
 schemas/            # JSON schemas
+├── world_canon_outline.schema.json
+├── interstate_outline.schema.json
+├── state_outline.schema.json
 ├── lore.state.full.schema.json
 └── lore.burg.full.schema.json
 ```
@@ -127,38 +155,47 @@ A hierarchical HTML explorer for navigating generated content:
 
 ## 🧙‍♂️ LoreGen Dashboard
 
-A unified HTML interface combining testing, pipeline execution, and lore viewing:
+A unified HTML interface combining testing, pipeline execution, and lore viewing with **real command execution**:
 
 - **`loregen-dashboard.html`** - Complete dashboard with three main tabs:
   - **🧪 Test Suite** - Comprehensive functionality verification (19 tests across 5 categories)
-  - **🏗️ Pipeline Runner** - Step-by-step world generation with detailed API logging and progress tracking
+  - **🏗️ Pipeline Runner** - Step-by-step world generation with **real npm command execution**
   - **🏰 Lore Explorer** - Hierarchical navigation of kingdoms, states, and burgs with search
 - **Real-time debugging** with shared debug panel across all tabs
 - **Visual progress tracking** with animated progress bars and status indicators
-- **Detailed API logging** showing request/response data, token usage, and timing
-- **Two execution modes**: Simulated (fast) and Real (detailed API simulation)
-- **No generation required** for testing - validates logic without API calls
+- **Real command execution** - No more simulation! Commands actually run and generate real lore
+- **Streaming output** - See real-time command output as it happens
+- **Backend API server** - Express.js server handles command execution securely
 
 **Usage:**
 ```bash
-# Open in browser
-open loregen-dashboard.html
-# Or serve locally
-python3 -m http.server 8000
-# Navigate to http://localhost:8000/loregen-dashboard.html
+# Start the backend server
+npm run server
+# Server runs on http://localhost:3002
+# Dashboard automatically opens at http://localhost:3002
+
+# Or manually open the dashboard
+open http://localhost:3002
 ```
 
+**Backend API:**
+- **`/api/exec`** - Execute npm commands with real-time streaming output
+- **`/api/health`** - Health check endpoint
+- **CORS enabled** - Works with any frontend
+- **Command mapping** - Maps npm run commands to actual tsx executions
+
 **Pipeline Runner Features:**
-- **🚀 Run Full Pipeline** - Simulated execution with realistic timing
-- **⚡ Run Real Pipeline** - Enhanced simulation with detailed API logging
-- **🌍 Run Full World Pipeline** - Complete world generation with concurrency control
+- **🚀 Run Full Pipeline** - Real command execution with streaming output
+- **⚡ Run Pipeline** - Real command execution with scope selection (All/One/Dirty)
+- **🌍 Run Full World Pipeline** - Complete world generation with real concurrency control
 - **📊 Progress Tracking** - Real-time progress bars and step indicators
-- **🐛 Debug Logging** - Detailed API request/response data, token usage, timing
+- **🐛 Debug Logging** - Real command output streaming with detailed logging
 - **⚙️ Configuration** - Set State ID and Burg ID for generation steps
 - **🎯 Scope Selection** - Choose between All/One/Dirty execution modes
 - **⏹️ Abort Control** - Stop long-running operations gracefully
 - **✅ Validation** - Automatic validation of generated content
 - **🔄 Concurrency Control** - States (3-way) and Burgs (4-way) parallel processing
+- **🌐 Real API Calls** - Actual OpenAI API calls generate real lore content
 
 ### Legacy Files
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)
@@ -166,6 +203,20 @@ python3 -m http.server 8000
 - **`lore-viewer.html`** - Standalone lore viewer (superseded by hierarchical explorer)
 
 ## ⚡ Features
+
+### Two-Pass Canon System
+- **World Canon Outline**: Global context (eras, civilizations, tech/magic baseline)
+- **Inter-State Outline**: Relationships between states (alliances, wars, trade blocs)
+- **State Outlines**: Per-state foundations (factions, culture, regions, constraints)
+- **Hierarchical Consistency**: Each layer references and builds upon the previous
+- **Cheap Regeneration**: Outline passes are fast and can be run frequently
+
+### Robust Rate Limiting
+- **Auto-retry with exponential backoff**: Handles OpenAI 429 rate limit errors gracefully
+- **Server-provided retry hints**: Honors OpenAI's retry-after headers
+- **Configurable limits**: Environment variables for max retries and base delays
+- **Jittered delays**: Prevents thundering herd problems
+- **Compact logging**: Clear retry status for monitoring
 
 ### Smart Caching & Dependency Tracking
 - Lore files store `hashOfInputs` for intelligent regeneration
@@ -218,6 +269,14 @@ npm run facts:build        # Extract base facts
 npm run facts:derive       # Compute statistics
 npm run facts:promptpacks  # Create fact packs
 npm run graph:build        # Build dependencies
+```
+
+**Canon Outline Generation:**
+```bash
+npm run canon:world:outline        # World-level context
+npm run canon:interstate:outline   # Inter-state relationships
+npm run canon:state:outline        # All state outlines
+# Or single state: npm run canon:state:outline:one -- 1
 ```
 
 **Rich Lore Generation:**

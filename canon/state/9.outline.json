@@ -1,0 +1,166 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "checksum": "fnv1a_6fdad961",
+  "name": "State_9",
+  "aliases": [
+    "The Narrow Coast",
+    "Ninefold Port"
+  ],
+  "timeline_beats": [
+    {
+      "id": "T1",
+      "label": "Founding of port confederacy",
+      "ybp": 3800,
+      "refs_world_events": []
+    },
+    {
+      "id": "T2",
+      "label": "Pirate Suppression Campaign participation",
+      "ybp": 1500,
+      "refs_world_events": [
+        "W3"
+      ]
+    },
+    {
+      "id": "T3",
+      "label": "Great Naval War engagements",
+      "ybp": 800,
+      "refs_world_events": [
+        "W1"
+      ]
+    },
+    {
+      "id": "T4",
+      "label": "Entry into Coastal Defense Compact",
+      "ybp": 100,
+      "refs_world_events": [
+        "A2"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F9a",
+      "label": "Maritime Guild",
+      "influence_hint": "dominant economic / port-licensing power"
+    },
+    {
+      "id": "F9b",
+      "label": "Tidal Priesthood",
+      "influence_hint": "controls ritual auguries and harbor rites"
+    },
+    {
+      "id": "F9c",
+      "label": "Dockworkers' Commune",
+      "influence_hint": "labor force; periodic strike leverage"
+    },
+    {
+      "id": "F9d",
+      "label": "Coastal Navy Directorate",
+      "influence_hint": "state military, ship patrols and blockades"
+    },
+    {
+      "id": "F9e",
+      "label": "Merchant Houses",
+      "influence_hint": "merchant oligarchy; overseas networks"
+    }
+  ],
+  "economy_pillars": [
+    "maritime trade",
+    "shipbuilding",
+    "saltworks",
+    "fisheries",
+    "navigational-augury services"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "shipwright technical registers",
+      "ritualized seamanship and launch ceremonies",
+      "port-dialect mercantile idioms",
+      "clan-based harbor kinship",
+      "pragmatic, contract-focused ethics"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R9-1",
+      "label": "Ninefold Port",
+      "tags": [
+        "trade-hub",
+        "coastal"
+      ]
+    },
+    {
+      "id": "R9-2",
+      "label": "Saltwater Marshes",
+      "tags": [
+        "coastal",
+        "resource-salt"
+      ]
+    },
+    {
+      "id": "R9-3",
+      "label": "Cliffwatch Strand",
+      "tags": [
+        "coastal",
+        "naval-outpost"
+      ]
+    },
+    {
+      "id": "R9-4",
+      "label": "Isle of Lores",
+      "tags": [
+        "island",
+        "ritual-site"
+      ]
+    },
+    {
+      "id": "R9-5",
+      "label": "Lower Drylands",
+      "tags": [
+        "agricultural"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A2",
+      "label_hint": "Coastal Defense Compact"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "war",
+      "id": "W3",
+      "label_hint": "Pirate Suppression Campaign"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)",
+    "Ritual magic consumes scarce imported reagents or specialized labor"
+  ],
+  "notes": [
+    "Heavily dependent on imported ritual reagents for major launch/augury rites",
+    "Strategic choke-points: Ninefold Port channels and Cliffwatch batteries",
+    "Naval and merchant factions dominate politics; labor unrest affects port throughput",
+    "Augury services are a tradable export but cannot substitute skilled sailors"
+  ],
+  "generated_at": "2025-09-09T03:54:29.871Z"
+}

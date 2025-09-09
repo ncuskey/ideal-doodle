@@ -1,0 +1,81 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 0
+  },
+  "summary": "Neutrals is an inland, landlocked expanse in Southia during the Westford Era (year 1291), characterized by a dense web of rivers and streams and a population largely aligned with the Wildlands culture and reporting no formal religion. With no ports, no recorded urban hubs, and many borders, it functions as a broad buffer and meeting ground between numerous neighboring states.",
+  "history": [
+    "By habit and reputation, the territory came to be known as the Neutrals, reflecting a longstanding reluctance to bind to any single neighbor.",
+    "As borders shifted around it through prior generations of the Westford Era, the interior remained mostly decentralized, avoiding a fixed capital and major urbanization.",
+    "Periodic gatherings along major fords established customary safe-conduct practices for borderfolk and messengers.",
+    "Minority communities (Kobblin and Uruk) found space here, aided by the area’s nonaligned stance and sparse formal institutions.",
+    "By 1291 WE, the custom of neutrality persists as informal law, sustaining the region’s role as a low-conflict corridor amid ten neighboring states."
+  ],
+  "geographyNotes": "Entirely inland with no coastline; hydrology dominates the landscape, with 151 rivers and countless tributaries forming floodplains, fords, and oxbow wetlands. The dominant biome is biome#0, with notable pockets of biome#11 and smaller areas of biome#2. The high river density creates fertile riparian belts and seasonal inundation zones. Watersheds commonly cross borders, tying the Neutrals’ streams to neighboring states’ river systems.",
+  "societyNotes": "Population is overwhelmingly of the Wildlands culture, with very small Kobblin and Uruk minorities. Most report no religion, alongside isolated adherents of Autliardism and Uruk Shamanism. Social organization tends to be local and consensual, with customs of neutrality and safe passage guiding dealings with outsiders. Inter-border parley sites arise near reliable fords and confluences, where disputes are mediated and trade is bartered without long-term allegiance.",
+  "economyNotes": "No ports, route hubs, or top burgs are recorded. The economy is decentralized and subsistence-leaning: small riverine agriculture, flood-meadow grazing, fishing, foraging, and craftwork. Trade occurs as itinerant barter at seasonal crossings, with guides and ferrymen valued for knowledge of safe routes. Neighbors supply manufactured goods in exchange for livestock, hides, fiber, and river harvests. Fees for guidance and mediation supplement household economies.",
+  "factions": [
+    {
+      "name": "River Wardens",
+      "motive": "Maintain open, safe crossings and uphold customary neutral ground along major fords.",
+      "strength": "Loose network of boatmen, ferriers, and bank-settlers who can mobilize swiftly along waterways."
+    },
+    {
+      "name": "Plainstead Circles",
+      "motive": "Protect pastoral rights on flood-meadows and resist enclosure or foreign levies.",
+      "strength": "Clan alliances with broad kin ties; strong turnout for seasonal musters."
+    },
+    {
+      "name": "Trade-Speakers",
+      "motive": "Foster predictable barter days and mediate disputes to keep the corridors calm.",
+      "strength": "Respected negotiators with cross-border contacts among multiple neighboring states."
+    },
+    {
+      "name": "Quiet Hands",
+      "motive": "Keep the Neutrals unaligned—discourage any neighbor’s garrisons or permanent tollposts.",
+      "strength": "Discreet scouts and messengers; informant web spanning many fords and trails."
+    },
+    {
+      "name": "Minority Hearths",
+      "motive": "Safeguard Kobblin and Uruk hamlets and their rites within the larger Wildlands milieu.",
+      "strength": "Small but cohesive households; mutual-aid pacts and knowledge of remote refuges."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "Floodmark Season",
+      "setup": "Unseasonal swells reroute two major rivers, drowning a traditional parley meadow.",
+      "escalation": "Border envoys blame each other for sabotage; the River Wardens request impartial help to survey new fords and re-set neutral markers.",
+      "reward": "Rights to levy limited guidance fees at the new ford, plus gifts from grateful neighbors."
+    },
+    {
+      "title": "The Unwelcome Toll",
+      "setup": "A neighboring state plants a tollpost on the Neutrals’ bank, claiming ‘shared maintenance’ of a bridge of driftwood and rope.",
+      "escalation": "Quiet Hands plan to remove the post without sparking war, seeking specialists to stage a bloodless dismantling.",
+      "reward": "Trade-Speakers’ patronage and a cut of future toll-free market takings."
+    },
+    {
+      "title": "Shadows at the Ford",
+      "setup": "Caravans vanish along a bend where biome#11 thickets meet the main channel.",
+      "escalation": "Tracks suggest organized raiders; Plainstead Circles suspect an outsider garrison testing the Neutrals’ resolve.",
+      "reward": "Livestock, salvaged goods, and standing invitation to neutral markets."
+    },
+    {
+      "title": "A Shrine of Two Ways",
+      "setup": "An old waystone used by both Autliardism pilgrims and Uruk shamans is threatened by floodcut erosion.",
+      "escalation": "Minority Hearths ask for aid to relocate or shore the stone without angering either tradition.",
+      "reward": "Blessings from both minorities and secure hospitality across several hamlets."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "688d11b0546e1f10be7f65a839fda3eaa8c2efbcaa6d319dcae6a3692e198142:fullv1"
+}

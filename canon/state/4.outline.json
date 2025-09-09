@@ -1,0 +1,195 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "checksum": "fnv1a_a82d027",
+  "name": "State_4",
+  "aliases": [
+    "Fourth Coast",
+    "State_4 Littoral"
+  ],
+  "timeline_beats": [
+    {
+      "id": "TB1",
+      "label": "Consolidation as a coastal polity",
+      "ybp": 3700,
+      "refs_world_events": []
+    },
+    {
+      "id": "TB2",
+      "label": "Entry into Maritime Trading League",
+      "ybp": 2600,
+      "refs_world_events": [
+        "A1"
+      ]
+    },
+    {
+      "id": "TB3",
+      "label": "Great Naval War (major naval engagements)",
+      "ybp": 700,
+      "refs_world_events": [
+        "W1"
+      ]
+    },
+    {
+      "id": "TB4",
+      "label": "Succession Crisis and coastal acquisition",
+      "ybp": 320,
+      "refs_world_events": [
+        "W4",
+        "BC3"
+      ]
+    },
+    {
+      "id": "TB5",
+      "label": "Open-Seas Treaty / integration into Sea Trade Union",
+      "ybp": 120,
+      "refs_world_events": [
+        "T1",
+        "TB1"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "F1",
+      "label": "Crown Navy",
+      "influence_hint": "state security, port control, high"
+    },
+    {
+      "id": "F2",
+      "label": "Harbor Guilds",
+      "influence_hint": "trade regulation, shipwright patronage, dominant in ports"
+    },
+    {
+      "id": "F3",
+      "label": "Tide-Priesthood",
+      "influence_hint": "navigation rites, local moral authority, strong on coasts"
+    },
+    {
+      "id": "F4",
+      "label": "Maritime Houses",
+      "influence_hint": "landed aristocracy with shiphold investments, political"
+    },
+    {
+      "id": "F5",
+      "label": "Freewheelers",
+      "influence_hint": "smuggling & informal networks, covert influence"
+    }
+  ],
+  "economy_pillars": [
+    "shipbuilding",
+    "coastal trade/port services",
+    "fishing & salted fish export",
+    "saltworks",
+    "imported ritual reagents & transshipment"
+  ],
+  "culture": {
+    "language_family": "Coastal Tongues",
+    "traits": [
+      "seafaring ethos and kinship by ship",
+      "port-dialect variants and loanwords from traders",
+      "guild-centered civic organization",
+      "navigation augury integrated into practice",
+      "pragmatic maritime legal codes"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "regions": [
+    {
+      "id": "R1",
+      "label": "Ravenport",
+      "tags": [
+        "coastal",
+        "trade-hub",
+        "shipyard"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Saltmarch Basin",
+      "tags": [
+        "coastal",
+        "saltworks"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Estuary Marches",
+      "tags": [
+        "estuary",
+        "fishing"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Outer Isle Chain",
+      "tags": [
+        "island",
+        "naval-outpost"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Old Harbor Quarter",
+      "tags": [
+        "coastal",
+        "market"
+      ]
+    }
+  ],
+  "external_relations_refs": [
+    {
+      "type": "alliance",
+      "id": "A1",
+      "label_hint": "Maritime Trading League"
+    },
+    {
+      "type": "war",
+      "id": "W1",
+      "label_hint": "Great Naval War"
+    },
+    {
+      "type": "war",
+      "id": "W4",
+      "label_hint": "Succession Crisis of State_2"
+    },
+    {
+      "type": "treaty",
+      "id": "T1",
+      "label_hint": "Open-Seas Treaty"
+    },
+    {
+      "type": "border_change",
+      "id": "BC3",
+      "label_hint": "Coastal Acquisition via Succession"
+    },
+    {
+      "type": "trade_bloc",
+      "id": "TB1",
+      "label_hint": "Sea Trade Union"
+    }
+  ],
+  "constraints": [
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Must respect Open-Seas Treaty obligations (T1) and league rules (A1)"
+  ],
+  "notes": [
+    "Strategic reliance on secure sea lanes; port control equals political control",
+    "Shipyards and guild halls are both economic and political centers",
+    "High dependence on imported ritual reagents — trade chokepoints are vulnerabilities",
+    "Seasonal wind patterns and estuary tides shape convoy and fishing calendars",
+    "Recent coastal acquisition (BC3) expanded jurisdiction over Outer Isle Chain"
+  ],
+  "generated_at": "2025-09-09T03:53:32.439Z"
+}

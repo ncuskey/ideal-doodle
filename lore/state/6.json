@@ -1,0 +1,76 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 6
+  },
+  "summary": "Aber is a coastal Keltan state of Southia in the Westford Era (year 1291). Centered on six river corridors and the inland capital of Aber, it balances riverine life with a single maritime outlet at Abermaicraf. The state fields the 1st (Aber) Regiment and navigates relations with two neighboring polities while its chief towns—Intinbrirair, Aber, Pons, and Llanver—anchor administration and trade across an area of 6,858.",
+  "history": [
+    "Early Keltan communities consolidated along the six rivers and established Aber as the capital.",
+    "Chordenver Faith became the dominant creed among the Keltan populace, shaping civic rites and seasonal observances.",
+    "Coastal access focused on a single formal harbor at Abermaicraf to channel maritime trade and oversight.",
+    "Urban growth concentrated in Intinbrirair and Aber, with Pons and Llanver emerging as secondary centers.",
+    "By the late Westford Era, Aber standardized its levy into the 1st (Aber) Regiment to deter border pressures from its two neighbors and to secure river routes."
+  ],
+  "geographyNotes": "Aber holds a seacoast on Southia with multiple river mouths and estuaries; six rivers define its interior corridors. Terrain and cover are mixed, with a dominance of biome#6 and lesser extents of biome#4 and biome#8. Settlement strings follow river valleys inland from the coast; the only formal port is at Abermaicraf.",
+  "societyNotes": "The populace is predominantly Keltan, with the Chordenver Faith the principal religion. Civic life centers on the burgs of Intinbrirair, Aber (the capital), Pons, and Llanver, with smaller river villages providing labor and levies. Religious feasts and community governance typically align with river and coastal calendars.",
+  "economyNotes": "Economy tracks river-to-sea flows: inland production moves along the six rivers toward Abermaicraf, the state’s sole port. Without major overland route hubs, trade relies on local market circuits among Intinbrirair, Aber, Pons, and Llanver. Fisheries and coastal exchange supplement riverine commerce; port dues at Abermaicraf provide a predictable revenue stream.",
+  "factions": [
+    {
+      "name": "1st (Aber) Regiment",
+      "motive": "Defend borders, keep order along river corridors, and secure the coast.",
+      "strength": "Mixed infantry, cavalry, and archers with a small artillery component; mobilizes quickly from the capital region."
+    },
+    {
+      "name": "Chordenver Clergy of Aber",
+      "motive": "Maintain religious cohesion, oversee rites, and mediate disputes within Keltan communities.",
+      "strength": "Deep influence among most households and in town councils across the chief burgs."
+    },
+    {
+      "name": "Abermaicraf Port Wardens",
+      "motive": "Control tariffs, suppress smuggling, and keep the single harbor operating smoothly.",
+      "strength": "Authority over harbor access and cargo inspection; ties to merchants moving goods upriver."
+    },
+    {
+      "name": "River Wardens of the Six",
+      "motive": "Protect ferry rights, fords, and riparian usage along the state’s rivers.",
+      "strength": "Networked steads and crews stationed at crossings and quays, able to gather information quickly."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Quiet Quay",
+      "setup": "Contraband bypasses Abermaicraf’s tariffs via hidden coves along the coast.",
+      "escalation": "Evidence points to agents with backing from across a border, risking a diplomatic incident.",
+      "reward": "Seized goods shares and formal docking privileges at Abermaicraf."
+    },
+    {
+      "title": "Dispute at the Ford",
+      "setup": "A contested river crossing near the frontier draws militias from both sides.",
+      "escalation": "Skirmishes threaten to pull in the 1st (Aber) Regiment if talks fail.",
+      "reward": "Land grants or toll exemptions at the crossing for resolving the standoff."
+    },
+    {
+      "title": "Procession Under Threat",
+      "setup": "A Chordenver procession from Llanver to Aber faces harassment along the river road.",
+      "escalation": "Protectors uncover a coordinated attempt to disrupt religious gatherings across multiple parishes.",
+      "reward": "Blessings, communal support, and introductions to influential clergy in the capital."
+    },
+    {
+      "title": "Counting the Burgs",
+      "setup": "A census in Intinbrirair and Pons to apportion levies meets organized resistance.",
+      "escalation": "Record books are stolen and hidden among river hamlets, risking underfunding the regiment.",
+      "reward": "Civic patronage and procurement contracts for assisting in recovery."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "a262c23e147d5cdd7b0d54a341967e773fc48d24772b05ea817f713e21c11f62:fullv1"
+}

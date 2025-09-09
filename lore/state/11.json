@@ -1,0 +1,88 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 11
+  },
+  "summary": "Chipleteria is a coastal state of Southia in the Westford Era, year 1291. It holds five land borders and is laced by nine rivers, with expansive tracts of biome#4 alongside patches of biome#1 and biome#6. The capital sits at burg id 11, while Titondon is the largest city and Cocking the leading seaport; two field regiments and a small coastal fleet anchor defense and patrols. Faith and culture are mixed—Autliardism leads but secular and Nortumbic Spirits communities are substantial; Enlandic culture is prominent with strong Wildlands and Westen presence.",
+  "history": [
+    "Formation as a coastal polity consolidated around river corridors and a sheltered shore, with the capital established at burg id 11.",
+    "Rise of Titondon as the largest market-town, drawing migrants from Enlandic, Wildlands, and Westen communities.",
+    "Adoption and spread of Autliardism among urban centers, alongside persistence of Nortumbic Spirits practices and a notable secular current.",
+    "Development of Cocking as a maritime outlet; a second, smaller harbor follows to handle seasonal traffic.",
+    "Militarization of local levies into the 1st (Bington) Regiment and 2nd (Titondon) Regiment; creation of a modest 1st Fleet for coastal security.",
+    "By 1291 WE, Chipleteria balances riverine trade with seaborne commerce while managing five borders and diverse communities."
+  ],
+  "geographyNotes": "Coastal frontage with two ports supports seaborne links, while nine rivers carve inland routes and floodplains. Biome#4 dominates the landscape, with enclaves of biome#1 and biome#6 shaping local livelihoods and settlement density. The state’s borders touch five neighbors, and settlements cluster along river bends and near the coast.",
+  "societyNotes": "Autliardism is the leading faith, but a large portion declares no religion, and Nortumbic Spirits adherents remain influential in several communities. Cultural makeup is mixed: Enlandic is most common, with significant Wildlands and Westen groups. Urban life centers in Titondon, Penkseyles, and Hengay, while portside culture in Cocking reflects maritime concerns. Military identities tied to Bington and Titondon shape civic pride and local politics.",
+  "economyNotes": "Two ports—led by Cocking—channel maritime trade; the 1st Fleet’s presence supports coastal security. With no major overland route hubs, river transport is vital for moving goods between interior burgs and the coast. Top burgs include Titondon (largest), Penkseyles, Hengay, Cocking (port), and Helsbury. Commerce concentrates on urban markets and river wharfs, with seasonal flows peaking when rivers are navigable.",
+  "factions": [
+    {
+      "name": "Autliard Clergy of Chipleteria",
+      "motive": "Maintain moral authority in towns and shape policy in the capital and Titondon.",
+      "strength": "Wide congregational networks and influence over festivals and almsgiving."
+    },
+    {
+      "name": "Council of Titondon Burghers",
+      "motive": "Protect trade privileges and keep urban tolls low to draw merchants.",
+      "strength": "Largest city population and control of key markets and warehouses."
+    },
+    {
+      "name": "Cocking Harbor Guild",
+      "motive": "Secure naval patrol schedules and favorable port dues to expand shipping.",
+      "strength": "Operational grip on one of two ports and close ties to the 1st Fleet."
+    },
+    {
+      "name": "1st (Bington) Regiment Officer Corps",
+      "motive": "Guarantee funding, recruitment, and frontier readiness amid border tensions.",
+      "strength": "Largest organized land force with experienced infantry and cavalry cadres."
+    },
+    {
+      "name": "Nortumbic Circles",
+      "motive": "Safeguard rites and communal spaces where Nortumbic Spirits are revered.",
+      "strength": "Strong community bonds in mixed-culture districts and river settlements."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The River Tithes Dispute",
+      "setup": "Rival toll collectors along one of the nine rivers begin double-charging barges bound for Titondon.",
+      "escalation": "Merchants threaten a blockade; skirmishes break out between levy squads loyal to different magistrates.",
+      "reward": "Permanent toll exemptions and a merchant consortium’s backing in future ventures."
+    },
+    {
+      "title": "Smoke over Cocking",
+      "setup": "Nighttime fires erupt in Cocking’s dockyards just as the 1st Fleet prepares to sortie.",
+      "escalation": "Sabotage is suspected; evidence points toward agents using warehouse cover in Helsbury.",
+      "reward": "A share of seized contraband and letters of safe passage through both ports."
+    },
+    {
+      "title": "The Silent Shrine",
+      "setup": "Autliard stewards report thefts from rural shrines near Hengay; Nortumbic elders deny involvement.",
+      "escalation": "Stolen reliquaries surface in Penkseyles markets, implicating a smuggling ring tied to river pilots.",
+      "reward": "Temple stipends, recovered valuables, and introductions to influential clergy."
+    },
+    {
+      "title": "Deserters on the Border Track",
+      "setup": "A squad from the 2nd (Titondon) Regiment vanishes during patrol along a disputed boundary.",
+      "escalation": "Tracks lead toward Wildlands hamlets; tensions rise as neighbors mass levies.",
+      "reward": "Bounties from the regiment and a standing contract for future reconnaissance."
+    },
+    {
+      "title": "The Second Port’s Silence",
+      "setup": "The smaller, unnamed harbor reports no arrivals despite fair weather and scheduled traffic.",
+      "escalation": "Buoys have been moved and channel markers tampered with, stranding ships offshore.",
+      "reward": "Port-fee shares for a season and authority to audit harbor accounts."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "a4979ed01d9accee5579a249f51582b99b368ef84be4bbf9f7a8a6c9710c3990:fullv1"
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "world_canon_outline.schema.json",
+  "title": "World Canon Outline",
+  "type": "object",
+  "required": ["world_id", "eras", "civilization_buckets", "religion_families", "language_families", "tech_magic", "global_threats", "trade_lanes_skeleton", "notes"],
+  "properties": {
+    "world_id": { "type": "string", "pattern": "^world_[a-z0-9_\\-]+$" },
+    "checksum": { "type": "string" },
+    "eras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "start_ybp", "end_ybp", "summary"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "start_ybp": { "type": "integer" },
+          "end_ybp": { "type": "integer" },
+          "summary": { "type": "string" },
+          "key_events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["ev_id", "label"],
+              "properties": {
+                "ev_id": { "type": "string" },
+                "label": { "type": "string" },
+                "participants": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_buckets": {
+      "description": "High-level culture families or macro-states (not individual states).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "traits"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "traits": { "type": "array", "items": { "type": "string" } },
+          "member_states_hint": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "religion_families": { "type": "array", "items": { "type": "string" } },
+    "language_families": { "type": "array", "items": { "type": "string" } },
+    "tech_magic": {
+      "type": "object",
+      "required": ["baseline", "constraints"],
+      "properties": {
+        "baseline": { "type": "string" },
+        "constraints": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "trade_lanes_skeleton": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["lane_id", "mode", "hubs_hint"],
+        "properties": {
+          "lane_id": { "type": "string" },
+          "mode": { "type": "string", "enum": ["sea", "river", "land", "mixed"] },
+          "hubs_hint": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "global_threats": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

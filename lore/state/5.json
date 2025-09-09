@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 5
+  },
+  "summary": "Brat is a coastal Kobblin-majority state on Southia in the Westford Era, year 1291. Centered on the capital Ulbligz, it straddles a river-laced littoral with 8 ports, leveraging coastal and river traffic while fielding cavalry-heavy regiments named for its burgs. Old Kobblin Shamanism guides much of public life, with rising secular and Autliardist minorities in port towns.",
+  "history": [
+    "Old river-clan polities consolidated around Ulbligz, giving the city primacy in administration and ritual.",
+    "Expansion to the coast secured multiple harbors and tied inland river traffic to maritime routes.",
+    "Regiments were formalized by burg, producing the Ulbligz and Ozbiard formations that anchor defense and prestige.",
+    "Port growth at Cosxea and Drior diversified urban life, introducing secular habits and Autliardist preaching.",
+    "Border pacts with neighboring states stabilized landward trade while the fleets began organized coastal patrols.",
+    "By 1291, Brat balances cavalry traditions with port-driven commerce and cautious diplomacy on all land frontiers."
+  ],
+  "geographyNotes": "Brat fronts the sea and is cut by 19 rivers, creating layered river valleys and estuaries. The state spans a mosaic of biomes (#1 predominant, with #3 and #5 inland and upland), enabling mixed settlement from coast to interior. Coastal shelves and river mouths host most ports, while inland corridors follow the major waterways toward Ozbiard and Ialsirt.",
+  "societyNotes": "Demographics skew Kobblin with smaller Wildlands communities and a trace of Uruk presence. Old Kobblin Shamanism dominates rites and seasonal observances; ports show notable secular tendencies and a minority of Autliardists. Burg-named regiments project civic identity, and river shrines remain focal points for communal decision-making.",
+  "economyNotes": "Eight ports knit together coastal cabotage and riverine haulage; Cosxea, Drior, and Ulbligz are key maritime gateways. Inland markets at Ozbiard and Ialsirt funnel produce and craftwork downriver. No formal route hubs exist; instead, a web of local quays and ferry-stops supports trade. Military provisioning and horse-focused logistics align with the cavalry-heavy forces, while small fleets escort merchant craft along the shore.",
+  "factions": [
+    {
+      "name": "Ulbligz Horse Confederates",
+      "motive": "Preserve cavalry primacy and keep Ulbligz central in policy and appointments.",
+      "strength": "Strong in court and field through the 1st and 3rd Ulbligz regiments."
+    },
+    {
+      "name": "Cosxea Dock Guilds",
+      "motive": "Lower tariffs, expand port facilities, and secure naval escorts for merchants.",
+      "strength": "Strong in coastal burgs; funds minor fleet upkeep."
+    },
+    {
+      "name": "River Circles of Old Kobblin Shamanism",
+      "motive": "Protect sacred fords and groves; regulate rites tied to seasonal river flows.",
+      "strength": "Moderate; high influence in rural districts and at councils."
+    },
+    {
+      "name": "Autliardist Missioners",
+      "motive": "Win converts in ports and establish sanctioned meeting houses.",
+      "strength": "Minor but growing in Cosxea and Drior."
+    },
+    {
+      "name": "Ozbiard Landward Militia Bloc",
+      "motive": "Fortify inland roads and gain budget parity with coastal priorities.",
+      "strength": "Moderate in the assembly; tied to the 2nd Regiment."
+    },
+    {
+      "name": "Fleetmasters’ Compact",
+      "motive": "Standardize coastal patrols and secure funding for three small flotillas.",
+      "strength": "Minor; leverage increases during piracy scares."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Drowned Ford Oath",
+      "setup": "A sacred ford upriver from Ulbligz is silting in, and shamans demand state dredging.",
+      "escalation": "Merchants back the plan, but a Wildlands hamlet claims dredging will flood their fields; sabotage begins.",
+      "reward": "Ritual tokens granting favor at river shrines and docking fee waivers at Ulbligz."
+    },
+    {
+      "title": "Cosxea’s Missing Convoy",
+      "setup": "A three-cog convoy protected by the 2nd Fleet vanishes between Cosxea and Drior.",
+      "escalation": "Logs show a secret stop; guild rivalries and a leak within the fleetmasters’ ranks surface.",
+      "reward": "Share of recovered cargo and a letter of safe-conduct at all eight ports."
+    },
+    {
+      "title": "Horses of Ozbiard",
+      "setup": "The 2nd Regiment’s remounts fall ill on the eve of maneuvers.",
+      "escalation": "Evidence points to tainted fodder from a rival inland supplier linked to border smugglers.",
+      "reward": "Regimental favor and a permanent escort chit for overland travel."
+    },
+    {
+      "title": "Shrine Stones at Low Tide",
+      "setup": "Ancient stones reappear on a tidal flat near Drior, drawing pilgrims and treasure-seekers.",
+      "escalation": "Competing claims erupt between shamans and Autliardists; a storm threatens to scatter the site.",
+      "reward": "Access to a guarded reliquary and rights to publish rubbings valued by scholars."
+    },
+    {
+      "title": "The Ulbligz Muster Ledger",
+      "setup": "A payroll ledger for the 1st Regiment is forged, diverting stipends to unknown hands.",
+      "escalation": "Trail leads through Ialsirt brokers to a border cell seeking to hire archers from the 3rd Regiment.",
+      "reward": "Finder’s fee and a commission to audit other burg-ledgers, opening civic doors."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "world",
+      "id": "world",
+      "fields": [
+        "era",
+        "year"
+      ]
+    }
+  ],
+  "hashOfInputs": "498e65a0e9b2fb7838e266992b0661a3a7f93e10d24b11402ec2bcc047f2547e:fullv1"
+}
