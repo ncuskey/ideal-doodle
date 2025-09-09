@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 2
+  },
+  "summary": "Gatesin is a coastal port of roughly 7,537 people in the state of Gatesinia. Its quays and warehouses serve as a busy gateway for goods moving into and out of the state, with harbor pilots guiding ships through shifting shallows and a vigilant customs office keeping tariffs and manifests in order.",
+  "factions": [
+    {
+      "name": "Harbor Master's Office",
+      "motive": "Maintain safe passage and collect lawful tariffs for Gatesinia",
+      "strength": "Legal authority, signal beacons, detailed harbor logs"
+    },
+    {
+      "name": "Stevedores' Brotherhood",
+      "motive": "Fair wages, steady work, and safe conditions on the docks",
+      "strength": "Control of dock labor and the ability to slow or speed cargo flow"
+    },
+    {
+      "name": "Saltwind Mariners' Syndicate",
+      "motive": "Profitable freight contracts and reliable turnaround for their ships",
+      "strength": "A fleet of coastal vessels, pooled coin, and influence with captains"
+    },
+    {
+      "name": "Shrine of the Tidelights",
+      "motive": "Protect sailors and appease the sea’s temper through rites and counsel",
+      "strength": "Moral sway over crews and a charitable network among waterfront families"
+    },
+    {
+      "name": "The Quiet Quay",
+      "motive": "Slip untaxed goods through Gatesin to eager buyers inland",
+      "strength": "Hidden store-rooms, informants on night watches, and small, swift boats"
+    }
+  ],
+  "notables": [
+    {
+      "name": "Kessa Dorn",
+      "role": "Harbor Master of Gatesin",
+      "secret": "Keeps a private chart of a narrow fair-weather channel used to divert selected ships away from inspection during storms"
+    },
+    {
+      "name": "Old Brannik",
+      "role": "Dockside foreman of the Stevedores' Brotherhood",
+      "secret": "Takes quiet payments to reshuffle crews and delay rivals’ cargo at critical moments"
+    },
+    {
+      "name": "Sera Valewake",
+      "role": "Keeper of the Shrine of the Tidelights",
+      "secret": "Believes an omen in the tide patterns warns of a looming accident in the outer roads and is hiding the specifics to avoid panic"
+    },
+    {
+      "name": "Master Helvar Tross",
+      "role": "Chair of the Saltwind Mariners' Syndicate",
+      "secret": "Heavily leveraged on a speculative grain run; a missed arrival could bankrupt several member captains"
+    },
+    {
+      "name": "Mouse Jerrin",
+      "role": "Streetwise runner for the Quiet Quay",
+      "secret": "Carries a ledger naming a state official who buys seized goods off the books"
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Sandbar Shift",
+      "setup": "A recent storm has shifted the harbor’s outer sandbars, and pilots need help placing new markers before fully laden ships arrive.",
+      "complication": "Smugglers want the confusion to continue and sabotage marker buoys under cover of fog.",
+      "reward": "Harbor Master’s favor and a temporary exemption from certain docking fees"
+    },
+    {
+      "title": "Tariffs and Tempers",
+      "setup": "A fresh schedule of tariffs from Gatesinia angers shipowners and dockworkers, threatening to stall trade.",
+      "complication": "A forged directive circulates to inflame unrest; finding its source reveals a plot to trigger a riot at the customs house.",
+      "reward": "Access to a bonded warehouse and expedited paperwork for future cargo"
+    },
+    {
+      "title": "False Lights",
+      "setup": "Ships report misleading signals at night drawing them off the safe approach to Gatesin.",
+      "complication": "A covert crew uses decoy lanterns from a derelict pier to cause groundings and strip cargo in the confusion.",
+      "reward": "Salvage rights on recovered goods and a standing contract to patrol the approaches"
+    },
+    {
+      "title": "The Missing Pilot",
+      "setup": "One of the senior harbor pilots vanishes on the eve of guiding a high-value freighter into port.",
+      "complication": "Clues point to a warehouse used by the Quiet Quay, where the pilot is pressured to reveal back-channel routes.",
+      "reward": "Syndicate payment for safeguarding the freighter and a cut of the docking profits"
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "state",
+      "id": 2,
+      "fields": [
+        "name",
+        "capitalBurgId"
+      ]
+    }
+  ],
+  "hashOfInputs": "2941eeceb08cd2bbfe8982bf9ead11220ff46827cf0e4d5de6c92aa09dbf9243"
+}

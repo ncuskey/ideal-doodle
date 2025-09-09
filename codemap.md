@@ -24,6 +24,8 @@ LoreGen/
 ├── schemas/                # JSON schemas
 │   ├── lore.burg.schema.json    # Burg lore schema
 │   └── lore.state.schema.json   # State lore schema
+├── lore-viewer.html        # HTML viewer for generated lore
+├── .env                    # Environment variables (API keys)
 └── src/                    # Source code
     ├── types/              # TypeScript types
     │   └── core.ts         # Core interfaces (WorldFacts, StateFacts, BurgFacts)
@@ -38,7 +40,7 @@ LoreGen/
     │   ├── dag.ts          # Graph data structures
     │   └── dirty.ts        # Dirty propagation (affected nodes)
     ├── gen/                # Generation
-    │   ├── openaiClient.ts # OpenAI client setup
+    │   ├── openaiClient.ts # OpenAI client setup (with model constants)
     │   ├── structured.ts   # Structured outputs helper
     │   └── systemPrompts.ts # System prompts
     ├── validate/           # Validation
@@ -46,9 +48,11 @@ LoreGen/
     └── pipelines/          # Main pipelines
         ├── buildFacts.ts   # Extract facts from Azgaar
         ├── buildGraph.ts   # Build dependency DAG
-        ├── genBurgLore.ts  # Generate burg lore
-        ├── genStateLore.ts # Generate state lore
-        ├── genBurgSummaries.ts # Batch burg summaries
+        ├── genBurgLore.ts  # Generate burg lore (full quality)
+        ├── genStateLore.ts # Generate state lore (full quality)
+        ├── genBurgSummaries.ts # Batch burg summaries (efficient)
+        ├── refreshBurgHooks.ts # Refresh burg hooks only (cheap)
+        ├── refreshStateHooks.ts # Refresh state hooks only (cheap)
         └── applyEvents.ts  # Apply events to facts
 ```
 
@@ -83,17 +87,40 @@ LoreGen/
 
 ## Pipeline Commands
 
+### Core Generation
 ```bash
 npm run facts:build          # Extract facts from Azgaar
 npm run graph:build          # Build dependency graph
-npm run lore:burg -- --id=1  # Generate burg lore
-npm run lore:state -- --id=1 # Generate state lore
+npm run lore:burg -- --id=1  # Generate burg lore (full quality)
+npm run lore:state -- --id=1 # Generate state lore (full quality)
 npm run events:apply -- --file=events/demo.json
 ```
 
+### Cost-Optimized Operations
+```bash
+npm run lore:burg:hooks -- --id=1  # Refresh burg hooks only (cheap)
+npm run lore:state:hooks -- --id=1 # Refresh state hooks only (cheap)
+npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries (efficient)
+```
+
+### Viewing Results
+```bash
+python3 -m http.server 8000  # Start local server
+# Open http://localhost:8000/lore-viewer.html
+```
+
+## Model Strategy
+
+Intelligent model selection for cost optimization:
+
+- **`gpt-5`** → Full lore generation (quality-first)
+- **`gpt-5-nano`** → Batch summaries (efficiency)
+- **`gpt-5-mini`** → Hooks-only refresh (cost-effective)
+
 ## Dependencies
 
-- **OpenAI**: GPT-4o with structured outputs
+- **OpenAI**: GPT-5 models with structured outputs
+- **dotenv**: Environment variable management
 - **TypeScript**: ES2022 modules
 - **Node.js**: File system operations
 - **Crypto**: SHA-256 hashing

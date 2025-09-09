@@ -6,13 +6,39 @@
   "summary": "A bustling trading town known for its markets and craftsmen.",
   "adventureHooks": [
     {
-      "title": "Hook 1",
-      "setup": "Setup 1"
+      "title": "State Audit from Slor'th",
+      "setup": "Officials from the state of Slor'th arrive to inspect Slalzan's accounts and levies. Their presence disrupts normal trade and civic business.",
+      "complication": "Town records are incomplete or missing; local officials press citizens to keep certain exemptions quiet. Tensions rise between the auditors and municipal authorities.",
+      "reward": "Favor with Slor'th's officials, reduced fines or official appointments; access to withheld tax revenues."
     },
     {
-      "title": "Hook 2",
-      "setup": "Setup 2"
+      "title": "The Drying Spring",
+      "setup": "A principal well or spring that the small burg depends on is running low or has stopped flowing, threatening water for households and animals.",
+      "complication": "The spring's source appears obstructed or diverted; resolving it requires investigating recent earthworks or natural shifts on nearby land.",
+      "reward": "Gratitude from townsfolk, small material payment, or an ongoing claim to water access for those who restore the supply."
+    },
+    {
+      "title": "Roadside Smuggling Ring",
+      "setup": "Although Slalzan is not a port, merchants travelling the land routes report goods disappearing before they reach the burg.",
+      "complication": "Pursuit of the thieves uncovers a hidden cache or coordinated drops along the road; the network may have connections that reach into Slor'th's jurisdiction.",
+      "reward": "Recovered merchandise, monetary rewards from affected merchants, or trade concessions if the ring is broken."
+    },
+    {
+      "title": "Void Beneath the Burg",
+      "setup": "Builders or farmers hit a void or old cellar beneath Slalzan while digging foundations, creating concern for collapsing structures.",
+      "complication": "Exploring the void reveals remnants or caches from an earlier time; excavation risks further collapses and civic panic.",
+      "reward": "Salvaged goods or valuables, materials recovered for repair, and increased standing with the burg for preventing wider damage."
     }
   ],
-  "hashOfInputs": "c0c9c053843de5d5f066ebf00782f2b31687a63c49f2ac57cb7bcfd5e6401346"
+  "hashOfInputs": "a5c5fc5f77e8f4bdbca684c1e2216536455bd4fcc9e342643b44065bb78aad42",
+  "dependsOn": [
+    {
+      "type": "state",
+      "id": 1,
+      "fields": [
+        "name"
+      ]
+    }
+  ],
+  "lastGeneratedAt": "2025-09-09T00:16:29.971Z"
 }

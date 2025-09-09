@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
+import { MODEL_SUMMARY } from "../gen/openaiClient.js";
 
 async function readJson(p:string){ return JSON.parse(await fs.readFile(p,"utf8")); }
 
@@ -11,7 +12,8 @@ async function main() {
   const out = await generateStructured<any>(
     SYSTEM_BURG,
     payload,
-    "schemas/lore.burg.schema.json"
+    "schemas/lore.burg.schema.json",
+    MODEL_SUMMARY
   );
   console.log("Batch done. (You can extend to write files individually.)");
 }

@@ -3,6 +3,7 @@ import { cacheKeyForEntity } from "../util/cacheKey.js";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
 import { shouldRegen } from "../util/regenGuard.js";
+import { MODEL_FULL } from "../gen/openaiClient.js";
 
 async function readJson(p:string){ return JSON.parse(await fs.readFile(p,"utf8")); }
 
@@ -30,7 +31,8 @@ async function main() {
   const lore = await generateStructured<any>(
     SYSTEM_BURG,
     payload,
-    "schemas/lore.burg.schema.json"
+    "schemas/lore.burg.schema.json",
+    MODEL_FULL
   );
   lore.hashOfInputs = hash;
   await fs.mkdir("lore/burg", { recursive: true });

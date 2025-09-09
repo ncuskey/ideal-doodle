@@ -1,0 +1,30 @@
+{
+  "entity": {
+    "type": "state",
+    "id": 1
+  },
+  "adventureHooks": [
+    {
+      "title": "The Missing Magistrate",
+      "setup": "The burg that serves as Slor'th's capital (burg 1) has not heard from its magistrate for several weeks. Official dispatches stop on a single line: 'Patrols found tracks toward the marsh—no further.'",
+      "escalation": "If investigators follow the trail, they uncover a clandestine tribunal operating outside Slor'th's laws and a list of citizens marked for 'reeducation.' Discovering the magistrate's fate could expose a conspiracy that reaches into other state offices."
+    },
+    {
+      "title": "Marshlights of the Border",
+      "setup": "Travelers and circuit riders report pale lights over bordering marshes near Slor'th's frontier. Locals refuse to approach, claiming they are omens tied to a past treaty.",
+      "escalation": "Approaching the lights draws attention from a band of smugglers who use the marsh and its legends to cover their crossings. The party must decide whether to break the smugglers' routes (angering those who profit) or negotiate a fragile bargain that risks wider diplomatic fallout for Slor'th."
+    },
+    {
+      "title": "Vault Beneath the Capital",
+      "setup": "A construction crew repairing foundations beneath burg 1 unearths a sealed vault door stamped with old Slor'th sigils. Town officials ask for discreet experts to catalog the find.",
+      "escalation": "Opening the vault reveals artifacts and documents that challenge the ruling council's legal claims. Publicizing them could spark reforms or mob unrest; hiding them preserves the status quo but marks the party as accomplices if truth emerges later."
+    },
+    {
+      "title": "Festival of Ashes",
+      "setup": "An annual remembrance day in Slor'th's capital draws pilgrims and petty thieves alike. This year's ceremony is officiated by a visiting clergyperson whose rites unsettle traditionalists.",
+      "escalation": "A ritual interruption leads to a riot used as cover for assassins targeting a visiting envoy. The investigators must protect civilians, uncover who ordered the hit, and navigate the delicate politics so the incident does not trigger reprisals in neighboring regions."
+    }
+  ],
+  "hashOfInputs": "5f30373fdd532825a0b8e9344a8f62f3b58077d6f3dc50a3331e96a13c34dcb6",
+  "lastGeneratedAt": "2025-09-09T00:16:54.327Z"
+}
