@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "render_state.schema.json",
+  "title": "Rendered State (for UI/export)",
+  "type": "object",
+  "required": ["state_id","name","generated_at"],
+  "properties": {
+    "state_id": { "type": "integer" },
+    "name": { "type": "string" },
+    "economy_pillars": { "type": "array", "items": { "type": "string" } },
+    "culture": { "type": "object" },
+    "religion": { "type": "object" },
+    "heraldry_path": { "type": "string" },
+    "overlay": { "$ref": "state_overlay.schema.json" },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

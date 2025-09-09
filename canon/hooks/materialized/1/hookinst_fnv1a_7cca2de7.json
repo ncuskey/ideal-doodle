@@ -1,0 +1,11 @@
+{
+  "hook_instance_id": "hookinst_fnv1a_7cca2de7",
+  "chain_id": "chain_runic_mystery",
+  "hook_template_id": "hook_untranslated_monolith",
+  "burg_id": 1,
+  "state_id": 0,
+  "status": "available",
+  "created_at": "2025-09-09T23:17:19.437Z",
+  "rationale": "Near marker \"Rompound Wisdom Spring\" (marker); tags [\"marker\",\"rompound\",\"wisdom\",\"spring\",\"ancient\"]",
+  "source_suggestion_id": "hook_place_marker_fnv1a_f30069c5"
+}

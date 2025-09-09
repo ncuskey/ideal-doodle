@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "render_burg.schema.json",
+  "title": "Rendered Burg (for UI/export)",
+  "type": "object",
+  "required": ["burg_id","name","state_id","generated_at"],
+  "properties": {
+    "burg_id": { "type": "integer" },
+    "name": { "type": "string" },
+    "state_id": { "type": "integer" },
+    "province_id": { "type": "string" },
+    "heraldry_path": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "economy_roles": { "type": "array", "items": { "type": "string" } },
+    "problems": { "type": "array", "items": { "type": "string" } },
+    "religion_presence": { "type": "array", "items": { "type": "string" } },
+    "culture_notes": { "type": "array", "items": { "type": "string" } },
+    "overlay": { "$ref": "burg_overlay.schema.json" },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

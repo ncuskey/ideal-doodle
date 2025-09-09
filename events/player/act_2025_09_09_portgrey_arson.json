@@ -1,0 +1,15 @@
+{
+  "action_id": "act_2025_09_09_portgrey_arson",
+  "timestamp": "2025-09-09T23:30:00.000Z",
+  "actor_party": "The Shadow Brotherhood",
+  "verb": "arson",
+  "magnitude": "medium",
+  "location": {
+    "type": "burg",
+    "id": 1
+  },
+  "quest_context": {
+    "chain_id": "chain_runic_mystery"
+  },
+  "notes": "Set fire to the grain warehouse in Port Grey to create chaos and cover their escape after stealing ancient runic artifacts"
+}

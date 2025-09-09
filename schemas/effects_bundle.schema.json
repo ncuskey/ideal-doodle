@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "effects_bundle.schema.json",
+  "title": "Effects Bundle",
+  "type": "object",
+  "required": ["action_id","effects"],
+  "properties": {
+    "action_id": { "type": "string" },
+    "effects": { "type": "array", "items": { "$ref": "effect_item.schema.json" } },
+    "summary": { "type": "string" }
+  },
+  "additionalProperties": false
+}

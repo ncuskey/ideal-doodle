@@ -1,0 +1,57 @@
+{
+  "burg_id": 1,
+  "name": "Slalzan",
+  "state_id": 0,
+  "province_id": "unknown",
+  "heraldry_path": "assets/heraldry/burg/1.svg",
+  "tags": [
+    "river-halt",
+    "ritual-lab"
+  ],
+  "economy_roles": [
+    "river trade",
+    "fishing",
+    "ritual-component brokerage",
+    "barter market"
+  ],
+  "problems": [
+    "scarce ritual reagents",
+    "seasonal flooding",
+    "bandit raids"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric Dialect predominant with Coastal Tongue loanwords",
+    "market-week ritual offerings",
+    "diet: smoked fish, river herbs, spice paste",
+    "boats decorated for ancestor-veneration"
+  ],
+  "overlay": {
+    "burg_id": 1,
+    "state_id": 0,
+    "population_multiplier": 1,
+    "state_trade_multiplier": 1,
+    "assets_destroyed": [
+      "grain_warehouse"
+    ],
+    "law_enforcement": {
+      "status": "none",
+      "until": "2025-09-09T23:25:18.617Z"
+    },
+    "hooks_active": [
+      {
+        "hook_instance_id": "hookinst_fnv1a_7cca2de7",
+        "chain_id": "chain_runic_mystery",
+        "hook_template_id": "hook_untranslated_monolith",
+        "rationale": "Near marker \"Rompound Wisdom Spring\" (marker); tags [\"marker\",\"rompound\",\"wisdom\",\"spring\",\"ancient\"]"
+      }
+    ],
+    "notes": [],
+    "generated_at": "2025-09-09T23:27:15.164Z"
+  },
+  "generated_at": "2025-09-09T23:27:22.782Z"
+}

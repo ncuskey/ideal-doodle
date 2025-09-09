@@ -108,6 +108,26 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Dirty regeneration**: `npm run lore:dirty -- --node=state:ID`
 - **Chained event+regen**: `npm run events:apply+regen -- --file=events/demo.json`
 
+### Quest & Hook System
+- **Accept hook suggestions**: `npm run hooks:accept -- --sugg=id1,id2,id3`
+- **Bulk hook acceptance**: `npm run hooks:accept -- --all --minScore=0.7 --limit=50`
+- **Activate quest chains**: `npm run quests:activate -- --chain=chain_id --hook=hook_instance_id`
+
+### Events Pipeline (Player Actions → Effects → Apply → Rollback)
+- **Plan effects**: `npm run events:plan -- --id=action_id`
+- **Apply effects**: `npm run events:apply -- --id=action_id`
+- **Rollback effects**: `npm run events:rollback -- --id=action_id`
+
+### Fast Rendering & Overlays
+- **Build overlays**: `npm run overlays:build`
+- **Render dirty entities**: `npm run render:dirty`
+- **Render all entities**: `npm run render:all`
+
+### Markdown Viewers
+- **Generate all markdown**: `npm run render:md:all`
+- **Generate burg markdown**: `npm run render:md:burg -- --id=burg_id`
+- **Generate state markdown**: `npm run render:md:state -- --id=state_id`
+
 ### Cost-Optimized Hooks
 - **Refresh burg hooks**: `npm run lore:burg:hooks -- --id=ID`
 - **Refresh state hooks**: `npm run lore:state:hooks -- --id=ID`
@@ -158,9 +178,16 @@ canon/              # Canon outlines (two-pass foundation)
 │   ├── 1.outline.json
 │   ├── 2.outline.json
 │   └── ...           # All burg outlines
-└── quests/         # Quest hook templates
-    └── hooks/      # Hook template definitions
-        └── hook_untranslated_monolith.outline.json # Untranslated monolith hook
+├── quests/         # Quest hook templates
+│   └── hooks/      # Hook template definitions
+│       └── hook_untranslated_monolith.outline.json # Untranslated monolith hook
+├── hooks/          # Materialized hook instances
+│   └── materialized/ # Per-burg hook instances
+│       └── {burg_id}/ # Hook instances for specific burgs
+└── events/         # Event records
+    ├── player/     # Player action events
+    ├── applied/    # Applied event records with inverse operations
+    └── quests/     # Quest activation events
 
 assets/             # Generated assets
 └── heraldry/       # Armoria-generated coat of arms
@@ -172,12 +199,15 @@ index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
 │   ├── state/      # State prompt packs
 │   └── burg/       # Burg prompt packs
+├── effects/        # Effects proposals and applied records
+│   └── proposed/   # LLM-generated effect proposals
 ├── graph.json      # Dependency graph
 ├── catalog.json    # UI catalog (kingdoms + burgs)
 ├── markers.json    # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 ├── heraldry_map.json # Heraldry index (states, provinces, burgs → SVG paths)
 ├── dirty.seeds.json # Event-driven change seeds
+├── dirty.json      # Current dirty entities for regeneration
 ├── validate-summary.json # Validation results
 ├── runs/           # Usage logs (daily files)
 └── abort.flag      # Abort control flag
@@ -185,7 +215,23 @@ index/              # LLM-optimized data
 lore/               # Generated lore
 ├── burg/           # Rich burg lore
 ├── state/          # Rich state lore
-└── province/       # Province lore (future)
+├── province/       # Province lore (future)
+└── overlays/       # World state overlays
+    ├── burg/       # Burg overlays (population, trade, hooks, assets)
+    └── state/      # State overlays (trade, law, reputations)
+
+rendered/           # UI-ready rendered data
+├── burg/           # Rendered burg data (outline + overlay + heraldry)
+└── state/          # Rendered state data (outline + overlay + heraldry)
+
+rendered_md/        # Markdown viewers
+├── burg/           # Burg markdown files
+└── state/          # State markdown files
+
+state/              # Persistent world state
+├── world_state.json # Aggregated world state (population, trade, reputations, law)
+├── hooks_available.json # Available hook instances
+└── quests_active.json # Active quest chains
 
 schemas/            # JSON schemas
 ├── world_canon_outline.schema.json
@@ -195,6 +241,15 @@ schemas/            # JSON schemas
 ├── burg_outline.schema.json
 ├── markers_index.schema.json
 ├── hook_template_outline.schema.json
+├── hook_instance.schema.json
+├── quest_ops.schema.json
+├── effect_item.schema.json
+├── effects_bundle.schema.json
+├── player_action.schema.json
+├── burg_overlay.schema.json
+├── state_overlay.schema.json
+├── render_burg.schema.json
+├── render_state.schema.json
 ├── link_suggestions.schema.json
 ├── lore.state.full.schema.json
 └── lore.burg.full.schema.json
@@ -303,6 +358,34 @@ open http://localhost:3002
 - Enforced JSON structure with validation
 - Rich, detailed world-building content with adventure hooks
 
+### Quest & Hook System
+- **Hook Templates**: Reusable quest hook definitions with chain associations
+- **Hook Suggestions**: AI-powered placement suggestions based on markers and context
+- **Hook Materialization**: Convert suggestions to concrete hook instances per burg
+- **Chain Activation**: Activate quest chains with automatic sibling suppression
+- **Deterministic IDs**: Consistent hook instance generation using FNV1a hashing
+
+### Events Pipeline (Player Actions → Effects → Apply → Rollback)
+- **Player Actions**: Structured action logging with location, magnitude, and quest context
+- **LLM Effects Planning**: AI-generated effect proposals based on action context
+- **World State Application**: Apply effects to persistent world state with dirty tracking
+- **Rollback System**: Complete rollback capability with inverse operations
+- **Audit Trail**: Full event history with applied records and rollback archives
+
+### Fast Rendering & Overlays
+- **Overlay Generation**: Compute world state overlays from persistent state
+- **Fast Rendering**: Combine outlines + overlays + heraldry without LLM calls
+- **Dirty Tracking**: Incremental updates for only affected entities
+- **UI-Ready Output**: Structured JSON perfect for frontend consumption
+- **Performance**: Sub-second rendering for hundreds of entities
+
+### Markdown Viewers
+- **Zero Dependencies**: Clean markdown files viewable in any editor
+- **Rich Content**: Heraldry, overlays, active hooks, and runic markers
+- **Structured Data**: Economy, culture, religion, and faction reputations
+- **Runic Integration**: Ancient inscriptions with proper Unicode display
+- **Easy Sharing**: Perfect for documentation and collaboration
+
 ### Cost Optimization
 - **Quality-first** approach for important content
 - **Efficient models** for bulk operations
@@ -377,6 +460,53 @@ npm run pipeline:full:all           # Full world generation
 npm run pipeline:full:all+validate  # Full world + validation
 npm run pipeline:real:all           # Real full world pipeline with concurrency
 LORE_CONCURRENCY=4 npm run lore:state:full:all  # Parallel state generation
+```
+
+**Quest & Hook System:**
+```bash
+# Accept specific hook suggestions
+npm run hooks:accept -- --sugg=hook_place_marker_fnv1a_f30069c5,hook_place_marker_fnv1a_63492914
+
+# Bulk accept with score filtering
+npm run hooks:accept -- --all --minScore=0.75 --limit=20
+
+# Activate a quest chain (withdraws siblings automatically)
+npm run quests:activate -- --chain=chain_runic_mystery --hook=hookinst_fnv1a_7cca2de7
+```
+
+**Events Pipeline (Player Actions → Effects → Apply → Rollback):**
+```bash
+# 1. Create player action file (events/player/act_2025_09_09_portgrey_arson.json)
+# 2. Plan effects via LLM
+npm run events:plan -- --id=act_2025_09_09_portgrey_arson
+
+# 3. Apply effects to world state
+npm run events:apply -- --id=act_2025_09_09_portgrey_arson
+
+# 4. Rollback if needed
+npm run events:rollback -- --id=act_2025_09_09_portgrey_arson
+```
+
+**Fast Rendering & Overlays:**
+```bash
+# After events/quests mark entities as dirty
+npm run overlays:build    # Build overlays from world state
+npm run render:dirty      # Render only dirty entities
+npm run render:all        # Render all entities
+```
+
+**Markdown Viewers:**
+```bash
+# Generate markdown for all rendered entities
+npm run render:md:all
+
+# Generate specific burg/state markdown
+npm run render:md:burg -- --id=1
+npm run render:md:state -- --id=0
+
+# View in any markdown viewer
+open rendered_md/burg/1.md
+open rendered_md/state/0.md
 ```
 
 **Event-Driven Updates:**

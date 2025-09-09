@@ -1,0 +1,11 @@
+{
+  "hook_instance_id": "hookinst_fnv1a_fb579a6f",
+  "chain_id": "chain_runic_mystery",
+  "hook_template_id": "hook_untranslated_monolith",
+  "burg_id": 101,
+  "state_id": -1,
+  "status": "available",
+  "created_at": "2025-09-09T23:17:32.236Z",
+  "rationale": "Near marker \"Chalkvish Obelisk\" (marker); tags [\"marker\",\"chalkvish\",\"obelisk\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]",
+  "source_suggestion_id": "hook_place_marker_fnv1a_367b5820"
+}

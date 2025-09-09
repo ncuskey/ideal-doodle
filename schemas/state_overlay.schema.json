@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "state_overlay.schema.json",
+  "title": "State Overlay (post-state)",
+  "type": "object",
+  "required": ["state_id", "generated_at"],
+  "properties": {
+    "state_id": { "type": "integer" },
+    "trade_multiplier": { "type": "number" },
+    "law_enforcement": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["none","curfew","martial_law_local"] },
+        "until": { "type": "string" }
+      }
+    },
+    "reputations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["faction","score"],
+        "properties": {
+          "faction": { "type": "string" },
+          "score": { "type": "number" }
+        }
+      }
+    },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

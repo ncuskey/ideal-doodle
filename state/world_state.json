@@ -1,0 +1,39 @@
+{
+  "burg_population_delta": {
+    "1": 0
+  },
+  "state_trade_delta": {
+    "0": 0
+  },
+  "assets_destroyed": {
+    "1": [
+      "grain_warehouse"
+    ]
+  },
+  "reputations": {
+    "0:The Shadow Brotherhood": -30
+  },
+  "law_enforcement": {
+    "0": {
+      "status": "none",
+      "until": "2025-09-09T23:25:18.617Z"
+    }
+  },
+  "updated_at": "2025-09-09T23:25:18.618Z",
+  "migrations": [
+    {
+      "t": "2025-09-09T23:24:31.089Z",
+      "refugees": 0,
+      "direction": "out"
+    },
+    {
+      "t": "2025-09-09T23:25:10.896Z",
+      "target": {
+        "burg": 1,
+        "state": 0
+      },
+      "refugees": 120,
+      "direction": "out"
+    }
+  ]
+}

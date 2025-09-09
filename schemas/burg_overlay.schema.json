@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "burg_overlay.schema.json",
+  "title": "Burg Overlay (post-state)",
+  "type": "object",
+  "required": ["burg_id", "generated_at"],
+  "properties": {
+    "burg_id": { "type": "integer" },
+    "state_id": { "type": "integer" },
+    "population_multiplier": { "type": "number" },
+    "state_trade_multiplier": { "type": "number" },
+    "assets_destroyed": { "type": "array", "items": { "type": "string" } },
+    "law_enforcement": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["none","curfew","martial_law_local"] },
+        "until": { "type": "string" }
+      }
+    },
+    "hooks_active": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["hook_instance_id", "chain_id", "hook_template_id"],
+        "properties": {
+          "hook_instance_id": { "type": "string" },
+          "chain_id": { "type": "string" },
+          "hook_template_id": { "type": "string" },
+          "rationale": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

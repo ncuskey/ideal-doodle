@@ -1,0 +1,15 @@
+{
+  "state_id": 0,
+  "trade_multiplier": 1,
+  "law_enforcement": {
+    "status": "none",
+    "until": "2025-09-09T23:25:18.617Z"
+  },
+  "reputations": [
+    {
+      "faction": "The Shadow Brotherhood",
+      "score": -30
+    }
+  ],
+  "generated_at": "2025-09-09T23:27:15.165Z"
+}

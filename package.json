@@ -14,6 +14,8 @@
     "canon:markers:index": "tsx src/pipelines/buildMarkerIndex.ts",
 
     "links:suggest": "tsx src/pipelines/crossLinkSuggest.ts",
+    "hooks:accept": "tsx src/pipelines/hooksAccept.ts",
+    "quests:activate": "tsx src/pipelines/questsActivate.ts",
 
     "facts:build": "tsx src/pipelines/buildFacts.ts",
     "facts:derive": "tsx src/pipelines/buildDerived.ts",
@@ -36,8 +38,17 @@
     "validate:lore": "tsx src/pipelines/validateAllLore.ts",
     "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
 
-    "events:apply": "tsx src/pipelines/applyEvents.ts",
     "events:apply+regen": "npm run events:apply -- --file=events/demo.json && tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
+    "events:plan": "tsx src/pipelines/eventsPlan.ts",
+    "events:apply": "tsx src/pipelines/eventsApply.ts",
+    "events:rollback": "tsx src/pipelines/eventsRollback.ts",
+
+    "overlays:build": "tsx src/pipelines/overlaysFromState.ts",
+    "render:dirty": "tsx src/pipelines/renderDirty.ts",
+    "render:all": "tsx src/pipelines/renderDirty.ts --all",
+    "render:md:all": "tsx src/pipelines/renderMarkdown.ts --kind=all",
+    "render:md:burg": "tsx src/pipelines/renderMarkdown.ts --kind=burg --id=",
+    "render:md:state": "tsx src/pipelines/renderMarkdown.ts --kind=state --id=",
 
     "catalog:build": "tsx src/pipelines/buildCatalog.ts",
 

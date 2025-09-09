@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hook_instance.schema.json",
+  "title": "Materialized Hook Instance",
+  "type": "object",
+  "required": ["hook_instance_id", "chain_id", "hook_template_id", "burg_id", "state_id", "status", "created_at"],
+  "properties": {
+    "hook_instance_id": { "type": "string" },
+    "chain_id": { "type": "string" },
+    "hook_template_id": { "type": "string" },
+    "burg_id": { "type": "integer" },
+    "state_id": { "type": "integer" },
+    "status": { "type": "string", "enum": ["available", "withdrawn", "active", "consumed"] },
+    "created_at": { "type": "string" },
+    "rationale": { "type": "string" },
+    "source_suggestion_id": { "type": "string" }
+  },
+  "additionalProperties": false
+}

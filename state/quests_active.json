@@ -1,0 +1,20 @@
+{
+  "chains": {
+    "chain_runic_mystery": {
+      "active": true,
+      "entry_hook": "hookinst_fnv1a_7cca2de7",
+      "activated_at": "2025-09-09T23:17:24.954Z",
+      "step": "entry",
+      "ops": [
+        {
+          "type": "quest_graph",
+          "op": "advance",
+          "chain_id": "chain_runic_mystery",
+          "quest_id": "runic_theft_cover"
+        }
+      ],
+      "updated_at": "2025-09-09T23:25:10.897Z"
+    }
+  },
+  "updated_at": "2025-09-09T23:25:10.897Z"
+}

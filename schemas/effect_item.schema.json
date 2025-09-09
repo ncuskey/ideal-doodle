@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "effect_item.schema.json",
+  "title": "Effect Item",
+  "type": "object",
+  "required": ["type","target"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["population_delta","infrastructure","economy","migration","reputation","law_enforcement","morale","environment","quest_graph"]
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "burg": { "type": "integer" },
+        "province": { "oneOf": [ { "type": "string" }, { "type": "integer" } ] },
+        "state": { "type": "integer" },
+        "chain_id": { "type": "string" }
+      }
+    },
+    "delta": { "type": "number" },
+    "assets_destroyed": { "type": "array", "items": { "type": "string" } },
+    "trade_throughput_delta": { "type": "number" },
+    "refugees": { "type": "integer" },
+    "direction": { "type": "string", "enum": ["in","out"] },
+    "faction": { "type": "string" },
+    "status": { "type": "string", "enum": ["martial_law_local","curfew","none"] },
+    "duration_days": { "type": "integer" },
+    "ops": { "$ref": "quest_ops.schema.json" },
+    "confidence": { "type": "number" },
+    "rationale": { "type": "string" }
+  },
+  "additionalProperties": false
+}

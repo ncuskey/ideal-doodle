@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "hook_instance_id": "hookinst_fnv1a_7cca2de7",
+      "chain_id": "chain_runic_mystery",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 1,
+      "state_id": 0,
+      "status": "active",
+      "created_at": "2025-09-09T23:17:19.437Z",
+      "rationale": "Near marker \"Rompound Wisdom Spring\" (marker); tags [\"marker\",\"rompound\",\"wisdom\",\"spring\",\"ancient\"]",
+      "source_suggestion_id": "hook_place_marker_fnv1a_f30069c5"
+    },
+    {
+      "hook_instance_id": "hookinst_fnv1a_dbe0a7d9",
+      "chain_id": "chain_runic_mystery",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 1,
+      "state_id": 0,
+      "status": "available",
+      "created_at": "2025-09-09T23:17:32.235Z",
+      "rationale": "Near marker \"Gneab Pillar\" (marker); tags [\"marker\",\"gneab\",\"pillar\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]",
+      "source_suggestion_id": "hook_place_marker_fnv1a_63492914"
+    },
+    {
+      "hook_instance_id": "hookinst_fnv1a_fb579a6f",
+      "chain_id": "chain_runic_mystery",
+      "hook_template_id": "hook_untranslated_monolith",
+      "burg_id": 101,
+      "state_id": -1,
+      "status": "available",
+      "created_at": "2025-09-09T23:17:32.236Z",
+      "rationale": "Near marker \"Chalkvish Obelisk\" (marker); tags [\"marker\",\"chalkvish\",\"obelisk\",\"inscription\",\"ancient\",\"untranslated\",\"runes\"]",
+      "source_suggestion_id": "hook_place_marker_fnv1a_367b5820"
+    }
+  ],
+  "updated_at": "2025-09-09T23:25:10.897Z"
+}

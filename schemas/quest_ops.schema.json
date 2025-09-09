@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "quest_ops.schema.json",
+  "title": "Quest Graph Ops",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["op"],
+    "properties": {
+      "op": { "type": "string", "enum": ["open","close","advance","branch","replace","spawn_hook"] },
+      "quest_id": { "type": "string" },
+      "new_quest_id": { "type": "string" },
+      "hook_template_id": { "type": "string" },
+      "burg_id": { "type": "integer" },
+      "rationale": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}

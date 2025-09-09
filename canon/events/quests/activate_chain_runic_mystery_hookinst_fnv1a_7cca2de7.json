@@ -1,0 +1,11 @@
+{
+  "type": "quest_chain_activate",
+  "chain_id": "chain_runic_mystery",
+  "hook_instance_id": "hookinst_fnv1a_7cca2de7",
+  "activated_at": "2025-09-09T23:17:24.954Z",
+  "affects": {
+    "burgs": [
+      1
+    ]
+  }
+}

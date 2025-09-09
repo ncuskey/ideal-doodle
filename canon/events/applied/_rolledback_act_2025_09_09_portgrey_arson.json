@@ -1,0 +1,134 @@
+{
+  "action_id": "act_2025_09_09_portgrey_arson",
+  "applied_at": "2025-09-09T23:25:10.897Z",
+  "effects": [
+    {
+      "type": "population_delta",
+      "target_type": "burg",
+      "target_id": 1,
+      "delta": -0.03
+    },
+    {
+      "type": "infrastructure",
+      "target_type": "burg",
+      "target_id": 1,
+      "assets_destroyed": [
+        "grain_warehouse"
+      ]
+    },
+    {
+      "type": "economy",
+      "level": "burg",
+      "target_type": "burg",
+      "target_id": 1,
+      "trade_throughput_delta": -0.12
+    },
+    {
+      "type": "economy",
+      "level": "state",
+      "target_type": "state",
+      "target_id": 0,
+      "trade_throughput_delta": -0.03
+    },
+    {
+      "type": "migration",
+      "direction": "out",
+      "count": 120,
+      "from_burg_id": 1,
+      "to_state_id": 0
+    },
+    {
+      "type": "reputation",
+      "target_type": "state",
+      "target_id": 0,
+      "faction": "The Shadow Brotherhood",
+      "delta": -30
+    },
+    {
+      "type": "law_enforcement",
+      "target_type": "state",
+      "target_id": 0,
+      "status": "investigation",
+      "duration_days": 90
+    },
+    {
+      "type": "morale",
+      "target_type": "burg",
+      "target_id": 1,
+      "public_morale_delta": -0.1
+    },
+    {
+      "type": "quest_graph",
+      "op": "advance",
+      "chain_id": "chain_runic_mystery",
+      "quest_id": "runic_theft_cover"
+    }
+  ],
+  "inverse": [
+    {
+      "type": "population_delta",
+      "target": {
+        "burg": 1
+      },
+      "delta": 0.03
+    },
+    {
+      "type": "infrastructure",
+      "target": {
+        "burg": 1
+      },
+      "assets_destroyed": []
+    },
+    {
+      "type": "economy",
+      "target": {
+        "state": 0
+      },
+      "trade_throughput_delta": 0.12
+    },
+    {
+      "type": "economy",
+      "target": {
+        "state": 0
+      },
+      "trade_throughput_delta": 0.03
+    },
+    {
+      "type": "migration",
+      "target": {
+        "burg": 1,
+        "state": 0
+      },
+      "refugees": -120,
+      "direction": "in"
+    },
+    {
+      "type": "reputation",
+      "target": {
+        "state": 0,
+        "faction": "The Shadow Brotherhood"
+      },
+      "delta": 30
+    },
+    {
+      "type": "law_enforcement",
+      "target": {
+        "state": 0
+      },
+      "status": "none",
+      "duration_days": 0
+    },
+    {
+      "type": "quest_graph",
+      "ops": []
+    }
+  ],
+  "affected": {
+    "burgs": [
+      1
+    ],
+    "states": [
+      0
+    ]
+  }
+}

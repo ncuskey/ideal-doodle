@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "player_action.schema.json",
+  "title": "Player Action Event",
+  "type": "object",
+  "required": ["action_id", "timestamp", "actor_party", "verb", "location"],
+  "properties": {
+    "action_id": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "actor_party": { "type": "string" },
+    "verb": { "type": "string" },
+    "magnitude": { "type": "string", "enum": ["low","medium","high"] },
+    "location": {
+      "type": "object",
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "type": "string", "enum": ["burg","province","state"] },
+        "id": { "oneOf": [ { "type": "integer" }, { "type": "string" } ] }
+      }
+    },
+    "quest_context": {
+      "type": "object",
+      "properties": {
+        "chain_id": { "type": "string" },
+        "quest_id": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

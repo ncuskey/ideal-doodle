@@ -1,0 +1,46 @@
+{
+  "state_id": 0,
+  "name": "State_0",
+  "economy_pillars": [
+    "river-trade",
+    "grain agriculture",
+    "salt-production",
+    "shipbuilding",
+    "ritual-reagent commerce"
+  ],
+  "culture": {
+    "language_family": "Riveric Dialects",
+    "traits": [
+      "oral navigational lore and seamanship rites",
+      "guild-apprenticeship social structure",
+      "seasonal flood-calendars drive labor cycles",
+      "boat-centric kinship and naming",
+      "practical ritualism tied to material offerings"
+    ]
+  },
+  "religion": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "heraldry_path": "assets/heraldry/state/0.svg",
+  "overlay": {
+    "state_id": 0,
+    "trade_multiplier": 1,
+    "law_enforcement": {
+      "status": "none",
+      "until": "2025-09-09T23:25:18.617Z"
+    },
+    "reputations": [
+      {
+        "faction": "The Shadow Brotherhood",
+        "score": -30
+      }
+    ],
+    "generated_at": "2025-09-09T23:27:15.165Z"
+  },
+  "generated_at": "2025-09-09T23:27:22.784Z"
+}
