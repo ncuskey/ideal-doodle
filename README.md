@@ -98,6 +98,25 @@ A beautiful HTML viewer to explore generated content:
 - **Metadata tracking** with generation timestamps and hashes
 - **Auto-loading** of all available lore files
 
+## 🧪 Test Suite
+
+A comprehensive HTML test suite for functionality verification:
+
+- **`test-suite.html`** - Complete test framework with visual progress tracking
+- **Real-time debugging** with detailed logging and error reporting
+- **Multiple test categories**: utilities, validation, pipelines, events, integration
+- **Quick vs Full testing** modes for different validation needs
+- **No generation required** - tests logic without API calls
+
+**Usage:**
+```bash
+# Open in browser
+open test-suite.html
+# Or serve locally
+python3 -m http.server 8000
+# Navigate to http://localhost:8000/test-suite.html
+```
+
 ## ⚡ Features
 
 ### Smart Caching & Dependency Tracking

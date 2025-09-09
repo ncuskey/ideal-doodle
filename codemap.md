@@ -34,6 +34,7 @@ LoreGen/
 │   ├── lore.burg.full.schema.json    # Rich burg lore schema
 │   └── lore.state.full.schema.json   # Rich state lore schema
 ├── lore-viewer.html        # HTML viewer for generated lore
+├── test-suite.html         # HTML test suite for functionality verification
 ├── .env                    # Environment variables (API keys)
 └── src/                    # Source code
     ├── types/              # TypeScript types
@@ -140,6 +141,14 @@ npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries (efficient)
 ```bash
 python3 -m http.server 8000  # Start local server
 # Open http://localhost:8000/lore-viewer.html
+```
+
+### Testing & Validation
+```bash
+# Open test suite in browser
+open test-suite.html
+# Or serve locally and navigate to test-suite.html
+python3 -m http.server 8000
 ```
 
 ## Model Strategy
