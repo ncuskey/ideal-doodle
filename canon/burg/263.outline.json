@@ -1,56 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5530443f",
+  "checksum": "fnv1a_d523ceb6",
   "burg_id": 263,
-  "name": "Burg_263",
+  "name": "Invers",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "waystation"
+    "ritual-port"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "small-harbor transshipment",
-    "ritual-reagent brokerage",
-    "smuggler waypoint"
+    "ritual-supply transshipment",
+    "salt/seafood curing"
   ],
   "factions_local": [
     "harbor guild",
-    "ritual-broker cabal",
-    "reef fishermen clan",
-    "coastal smugglers"
+    "Sea-Tide ritual-priests",
+    "smuggler crews",
+    "coastal militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling conflicts",
-    "jurisdictional dispute"
+    "scarce imported reagents",
+    "banditry/smuggling violence",
+    "shore erosion and silting"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole influence",
-    "seafood and fermented fish staples",
-    "rituals tied to imported reagents and barter",
-    "cautious hospitality; strangers questioned"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-blessing voyage rituals",
+    "diet centered on salt-cured fish and seaweed stews",
+    "strict etiquette around ritual cargo handling"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "lost-ritual reagents",
-    "shipwreck salvage"
+    "missing reagent shipment",
+    "ritual mishap at the quay"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents or special labors",
-    "navigational auguries cannot replace charts or seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "combustion industry limited; no high-pressure steam tech"
   ],
   "notes": [
-    "Population data sparse; location likely coastal waypoint",
-    "Useful as a resupply/black-market stop for nearby sea routes"
+    "population unknown; transient trader flow high",
+    "strategic coastal stop for ritual and maritime traffic"
   ],
-  "generated_at": "2025-09-09T04:19:52.385Z"
+  "generated_at": "2025-09-09T05:32:07.396Z"
 }

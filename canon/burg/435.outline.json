@@ -1,52 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4aa635ed",
+  "checksum": "fnv1a_8b601f3d",
   "burg_id": 435,
-  "name": "Burg_435",
+  "name": "Ghrai",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-haven"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "fishing",
+    "river-port",
     "ritual-supply",
-    "waystation"
+    "salt-harvest"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river trade",
+    "salt harvesting",
+    "boat repair",
+    "ritual reagent trade"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-clan",
-    "smugglers"
+    "dockmasters' guild",
+    "tide-priest circle",
+    "reagent traders",
+    "smugglers' ring"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-isolation"
+    "reagent scarcity",
+    "tidal flooding",
+    "bandit raids",
+    "corrupt dock overseers"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with heavy sea metaphors",
-    "daily small-scale ritual offerings tied to fishing",
-    "preserved-seafood and kelp-based staples"
+    "Coastal Tongues with Riveric inflections",
+    "tide-festival calendar governs work/ritual",
+    "fish-and-salt-heavy cuisine",
+    "ritual tattoos denote lineage and trade role"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-priest"
+    "tidal disaster",
+    "missing reagent shipment"
   ],
   "constraints": [
     "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "ritual magic consumes scarce imported reagents/local specialist labor",
+    "long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "isolated harbor reliant on intermittent supply ships",
-    "population small and seasonally fluctuating with crews"
+    "population unknown; strategic river-delta node",
+    "localized ritual workshops anchor fragile trade in reagents"
   ],
-  "generated_at": "2025-09-09T04:31:30.022Z"
+  "generated_at": "2025-09-09T05:43:24.771Z"
 }

@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_windcliff_lookouts",
+  "checksum": "fnv1a_9e833e53",
+  "name": "Windcliff Lookouts",
+  "aliases": [
+    "Windcliff",
+    "The Lookouts"
+  ],
+  "tags": [
+    "coastal",
+    "beacons",
+    "maritime-surveillance",
+    "cliffside"
+  ],
+  "role_in_state": "coastal early-warning and navigational-aid hub",
+  "economy_niches": [
+    "beacon maintenance and signal-keepers' services",
+    "pilotage and lookout-guides for approaching ships",
+    "cliff-platform fish-salting and drying",
+    "kelp-drying and rope/net repair workshops",
+    "short-range augury relay services"
+  ],
+  "culture_adjustments": [
+    "apprenticeship focused on solitary lookout duty and whistle-sign codes",
+    "rope-and-net rites adapted to cliff-top safety and signaling",
+    "stronger clan-like ties among pilot guilds than merchant houses",
+    "practical austerity: lightweight, portable household culture",
+    "dialectal whistles and concise Coastal Tongue commands common"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "shipwreck salvage disputes",
+    "smuggling corridors",
+    "manpower shortages from isolation"
+  ],
+  "constraints": [
+    "minimal arable land",
+    "dependence on coastal shipping for supplies",
+    "no large shipyards due to cliff terrain",
+    "ritual magic requires scarce imported reagents"
+  ],
+  "notes": [
+    "serves as strategic early-warning chain for State_9 ports",
+    "watchtowers double as minor augury shrines and pilot lodges",
+    "few permanent burgs; seasonal crews and rotating watches common"
+  ],
+  "generated_at": "2025-09-09T05:09:11.492Z"
+}

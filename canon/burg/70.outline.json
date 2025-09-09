@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b3b0b1a9",
+  "checksum": "fnv1a_67a424a3",
   "burg_id": 70,
-  "name": "Burg_70",
+  "name": "Rerandum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-hold",
-    "ritual-node"
+    "riverine",
+    "market",
+    "ferry-crossing"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "timber export",
-    "ritual-reagent brokerage",
-    "ferrying services",
-    "local market"
+    "ferry trade",
+    "fish-processing",
+    "ritual-lab services",
+    "boat-repair"
   ],
   "factions_local": [
-    "timber merchants",
-    "ritual circle",
-    "boatmasters' guild",
-    "borough militia"
+    "Ferryker's Guild",
+    "Reedfolk Clan",
+    "Riverwatch Militia",
+    "Merchant Chapmen"
   ],
   "problems": [
+    "seasonal floods",
     "reagent scarcity",
-    "seasonal flooding",
-    "bandit raids"
+    "silted channels",
+    "bandit skiffs"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialects dominant with Coastal Tongue loanwords",
-    "strong vessel-rituals before journeys",
-    "barter-heavy market days",
-    "local cuisine: smoked fish and river herbs"
+    "Riveric dialect dominates; Coastal Tongues used in trade",
+    "diet centers on smoked fish and river grains",
+    "funeral-boat rites and tide-ward offerings"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply shortage",
-    "ritual mishap"
+    "missed reagent shipment",
+    "river monster"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "rituals require scarce imported reagents and skilled labors",
+    "long-range mind influence rare and institutionally banned",
+    "combustion industry limited; no high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "state authority weak; guilds and circles enforce local order"
+    "estuary location uses navigational auguries alongside charts",
+    "silt and tides dictate seasonal labour and trade patterns"
   ],
-  "generated_at": "2025-09-09T04:36:27.922Z"
+  "generated_at": "2025-09-09T05:48:07.143Z"
 }

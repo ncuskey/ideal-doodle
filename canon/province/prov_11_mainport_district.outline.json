@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_mainport_district",
+  "checksum": "fnv1a_a1f4486",
+  "name": "Mainport District",
+  "aliases": [
+    "Main Port",
+    "Port Ward",
+    "Harbor Quarter"
+  ],
+  "tags": [
+    "harbor",
+    "customs",
+    "saltworks",
+    "shipyard",
+    "trade-hub"
+  ],
+  "role_in_state": "Primary commercial harbor and customs hub",
+  "economy_niches": [
+    "Fishing and fleet provisioning",
+    "Shipbuilding, repair and caulking",
+    "Re-export and bonded warehousing",
+    "Salt refining and curing",
+    "Ritual-reagent brokerage and storage"
+  ],
+  "culture_adjustments": [
+    "Denser bilingualism: Island Creole widely used in ports",
+    "More mercantile pragmatism; guild law often supersedes local custom",
+    "Looser sea-initiation rites for transient sailors; tattoos more varied",
+    "Visible Merchant Brotherhood institutions and liturgies",
+    "Practical syncretism: Sea-Tide rites blended with ancestor offerings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / floodplain",
+    "dock fires (dense timber)",
+    "piracy and smuggling",
+    "theft / reagent cache raids",
+    "crowd-borne epidemics"
+  ],
+  "constraints": [
+    "Limited inland arable hinterland",
+    "Ritual magic dependent on imported reagents and secure storage",
+    "Guild-controlled berthing and customs access"
+  ],
+  "notes": [
+    "Main customs house and guild courts located here",
+    "Strategic revenue node for State_11",
+    "Ritual-practitioners cluster near bonded reagent warehouses"
+  ],
+  "generated_at": "2025-09-09T05:02:59.060Z"
+}

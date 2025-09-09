@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e1850457",
+  "checksum": "fnv1a_af6fa762",
   "burg_id": 124,
-  "name": "Burg_124",
+  "name": "Helston",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "waystation"
+    "pilotage",
+    "harbor-rituals"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "salt-harvesting",
-    "ritual-labor",
-    "ship-provisioning"
+    "pilotage services",
+    "salt-curing",
+    "ritual reagent trade"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritual Circle",
-    "Coastal Clan"
+    "Harbormasters' Guild",
+    "Pilots' Brotherhood",
+    "Ritual Affineurs",
+    "Smugglers' Network"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "storm damage"
+    "smuggling and bribery",
+    "coastal storms",
+    "shoreline erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "ship-blessing ceremonies",
-    "salted-smoked cuisine"
+    "Coastal Tongues dialect with sailing cant",
+    "Strong seamanship superstitions and rites",
+    "Diet centered on salted fish and seaweeds"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing ritualist"
+    "missing pilot",
+    "reagent theft"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection magics",
-    "limited combustion-derived industry"
+    "Ritual magic requires scarce imported reagents",
+    "No long-range mind control or instant resurrection",
+    "Combustion industry limited; no heavy steamworks"
   ],
   "notes": [
-    "small, transient population",
-    "resupply and ritual waypoint for coastal traffic"
+    "Strategic pilotage point on regional coastal lane",
+    "Population unknown; merchant traffic seasonal"
   ],
-  "generated_at": "2025-09-09T04:10:41.116Z"
+  "generated_at": "2025-09-09T23:09:41.540Z"
 }

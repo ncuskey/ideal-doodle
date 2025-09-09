@@ -1,51 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8dbe97a3",
+  "checksum": "fnv1a_4c35744a",
   "burg_id": 191,
-  "name": "Burg_191",
+  "name": "Etesh",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "estuary",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-supply depot",
-    "small market"
+    "fishing",
+    "saltworks",
+    "provisioning ships",
+    "ritual-ingredient trade"
   ],
   "factions_local": [
-    "temple-keepers",
-    "traders' cell",
-    "harbor-watch"
+    "Shipwrights' Guild",
+    "Tide Temple commune",
+    "Merchant coop",
+    "Smugglers' ring"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "smuggling pressure"
+    "scarce ritual reagents",
+    "smuggling",
+    "silt-clogged harbor",
+    "sporadic banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues variant spoken",
-    "ancestor-veneration rituals prominent",
-    "salt-preserved seafood cuisine"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-week fishing festivals",
+    "salt-preserved fish cuisine",
+    "rope and net craftsmanship"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "lighthouse failure"
+    "reagent theft",
+    "harbor navigation hazard"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is banned/institutional taboo",
-    "no high-pressure steam megatechs"
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence banned and rare",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "population unknown; functions as a small resupply outpost",
-    "serves nearby routes and ritual supply lines"
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries exist but don't replace charts",
+    "Harbor maintenance hampered by siltation and limited resources"
   ],
-  "generated_at": "2025-09-09T04:15:04.503Z"
+  "generated_at": "2025-09-09T05:27:27.178Z"
 }

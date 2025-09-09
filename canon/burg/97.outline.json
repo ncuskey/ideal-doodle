@@ -1,33 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1d2701ed",
+  "checksum": "fnv1a_7d41b4ae",
   "burg_id": 97,
-  "name": "Burg_97",
-  "state_id": 0,
+  "name": "Froi",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-lab",
-    "waystation"
+    "river-harbor",
+    "reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing and salt-curing",
-    "ritual reagent trade",
-    "pilgrim lodging and offerings",
-    "signal/navigation maintenance"
+    "riverine trade",
+    "fish-smoking",
+    "apothecary/reagent brokerage",
+    "boat maintenance"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Augury Circle (local seers)",
-    "Ancestor Shrinekeepers",
-    "Smuggler Crew"
+    "Harbormen's Guild",
+    "Apothecary Consortium",
+    "Riverwatch Militia",
+    "House Verren (trader family)"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "smuggling and illicit trade",
-    "coastal erosion and storm damage",
-    "tension between shrinekeepers and merchants"
+    "reagent scarcity and price volatility",
+    "banditry along upstream roads",
+    "seasonal flooding limits storage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,23 +33,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "salt-preservation cuisine (dried fish, fermented kelp)",
-    "ritual tattoos and lantern processions for safe passage",
-    "shipwright and augury rituals integrated into daily life"
+    "Riveric Dialect with Coastal Tongue loanwords",
+    "diet heavy on smoked fish and pickled river herbs",
+    "funerary offerings cast into river; small tide-fairs mark seasons"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing augury charts",
-    "reagent heist"
+    "stolen ritual reagents",
+    "flood evacuation"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "ritual magic depends on scarce imported reagents",
+    "no resurrection or long-range mind magics permitted",
+    "navigational auguries aid but don't replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with ritual-magic adjuncts",
-    "navigational auguries aid but do not replace charts or seamanship"
+    "population unknown; functions as a small transshipment point on a river route",
+    "growth limited by reagent supply lines and seasonal river behavior"
   ],
-  "generated_at": "2025-09-09T04:38:08.006Z"
+  "generated_at": "2025-09-09T05:49:51.973Z"
 }

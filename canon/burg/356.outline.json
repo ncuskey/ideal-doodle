@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d1949d6d",
+  "checksum": "fnv1a_c0b1c19c",
   "burg_id": 356,
-  "name": "Burg_356",
+  "name": "Indiraber",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "outpost",
-    "reagent-depot"
+    "coastal",
+    "harbor",
+    "reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
+    "fishing",
     "reagent trade",
-    "pilotage services"
+    "small-ship repair",
+    "salt-curing"
   ],
   "factions_local": [
-    "merchant brotherhood cell",
-    "ritual lodge",
-    "harbor masters"
+    "Harbor Guild",
+    "Reagent Brokers",
+    "Tidewatch Priests",
+    "Merchant Brotherhood cell"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "supply delays"
+    "smuggling",
+    "silted channel"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence on local dialect",
-    "tide-linked festival calendar",
-    "diet: preserved fish and seaweed staples"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "nightly tide-offering rituals",
+    "diet heavy on salted fish and pickled seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "lost pilot"
+    "reagent shortage",
+    "sinking buoy/ship disappearances"
   ],
   "constraints": [
-    "no true resurrection magics",
-    "rituals require scarce imported reagents"
+    "No instant resurrection or life-replacement magic",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown",
-    "likely strategic coastal waypoint"
+    "Shallow, strategic harbor servicing coastal traders",
+    "Population largely transient sailors and reagent couriers"
   ],
-  "generated_at": "2025-09-09T04:26:18.487Z"
+  "generated_at": "2025-09-09T05:38:12.655Z"
 }

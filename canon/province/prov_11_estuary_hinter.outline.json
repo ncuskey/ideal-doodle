@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_estuary_hinter",
+  "checksum": "fnv1a_f1bd2de2",
+  "name": "Estuary Hinter",
+  "aliases": [
+    "Tidal Flats Hinter",
+    "Lower Marshlands"
+  ],
+  "tags": [
+    "estuary",
+    "marsh",
+    "salt-supplier",
+    "reagent-source",
+    "riverine"
+  ],
+  "role_in_state": "Supply and buffer hinterland for port economy",
+  "economy_niches": [
+    "brackish-botanicals for ritual reagents",
+    "salt-pond maintenance and ancillary saltworks labor",
+    "reed and thatch harvest, basketry and caulking materials",
+    "seasonal freshwater/brackish fish ponds and drying fisheries",
+    "timber/charcoal for small-scale ship repair and caulking"
+  ],
+  "culture_adjustments": [
+    "stronger Riveric Dialect influence; Coastal Tongues secondary inland",
+    "reduced Island Creole bilingualism compared with ports",
+    "heightened ancestor-veneration in hamlets and kin-line rituals",
+    "fewer seafaring initiation rites; river-work seasonal customs dominate",
+    "local skepticism of long-distance merchants; barter-heavy exchanges"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "brackish-disease (marsh fevers)",
+    "banditry on river paths",
+    "saltwater intrusion into farmland",
+    "reagent-poaching/smuggling"
+  ],
+  "constraints": [
+    "seasonal inundation limits permanent heavy construction",
+    "peaty/unstable soils preclude large inland shipyards",
+    "ritual reagents scarce and state-regulated for export"
+  ],
+  "notes": [
+    "primary supplier of ritual reagents and salt inputs to coastal ports",
+    "acts as hydrological buffer for the state’s seaboard settlements"
+  ],
+  "generated_at": "2025-09-09T05:03:27.300Z"
+}

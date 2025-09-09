@@ -4,88 +4,99 @@
   "checksum": "fnv1a_8a5a67cb",
   "name": "State_10",
   "aliases": [
-    "Coastal Duchy of Ten",
-    "Ten Harbor"
+    "Coastal State_10",
+    "State_10 Harborage"
   ],
   "timeline_beats": [
     {
-      "id": "TB1",
-      "label": "Proto-coastal chiefdoms consolidate into a maritime duchy",
-      "ybp": 3800,
+      "id": "TL1",
+      "label": "Coastal settlement & maiden harbors established",
+      "ybp": 9000,
+      "refs_world_events": []
+    },
+    {
+      "id": "TL2",
+      "label": "Growth as regional shipwright and pilot center",
+      "ybp": 3200,
+      "refs_world_events": []
+    },
+    {
+      "id": "TL3",
+      "label": "Chartered into Island Mercantile Pact",
+      "ybp": 1800,
       "refs_world_events": [
-        "River-Kingdoms_Reorganization"
+        "A4"
       ]
     },
     {
-      "id": "TB2",
-      "label": "Expansion of shipyards and formal guild charters; treaty network begins",
-      "ybp": 1500,
+      "id": "TL4",
+      "label": "Major engagement in the Great Naval War",
+      "ybp": 800,
       "refs_world_events": [
-        "Age of Flux_Merchant Realignments"
+        "W1"
       ]
     },
     {
-      "id": "TB3",
-      "label": "Participation in Great Naval War; loss and recalibration of maritime boundary",
-      "ybp": 700,
-      "refs_world_events": [
-        "W1",
-        "BC2"
-      ]
-    },
-    {
-      "id": "TB4",
-      "label": "Entry into Maritime Trading League and Open-Seas Treaty; modern trade integration",
+      "id": "TL5",
+      "label": "Joined Maritime Trading League & Sea Trade Union",
       "ybp": 200,
       "refs_world_events": [
         "A1",
-        "T1",
         "TB1"
+      ]
+    },
+    {
+      "id": "TL6",
+      "label": "Maritime Boundary Recalibration and Open-Seas treaty adjustments",
+      "ybp": 30,
+      "refs_world_events": [
+        "BC2",
+        "T1"
       ]
     }
   ],
   "factions": [
     {
       "id": "F1",
-      "label": "Harbormasters' Guild",
-      "influence_hint": "Controls port access, tariffs, and shipyard labor"
+      "label": "Harbor Guild",
+      "influence_hint": "Controls major shipyards, strong economic leverage"
     },
     {
       "id": "F2",
-      "label": "Maritime Nobility",
-      "influence_hint": "Holds coastal fortresses and naval command"
+      "label": "Coastal Clans",
+      "influence_hint": "Local leadership across villages, reserves manpower for levies"
     },
     {
       "id": "F3",
-      "label": "Saltworkers & Preservers' Syndicate",
-      "influence_hint": "Controls salt pans, fish preservation, and export quotas"
+      "label": "Merchants' Syndicate",
+      "influence_hint": "Controls long-distance contracts and tariffs, high wealth"
     },
     {
       "id": "F4",
-      "label": "Augury Collegium",
-      "influence_hint": "Manages navigational auguries and ritual reagent imports"
+      "label": "Temple of Tides",
+      "influence_hint": "Holds ritual augury monopoly and port rites, moderate influence"
     },
     {
       "id": "F5",
-      "label": "Merchant Houses",
-      "influence_hint": "Directs long-distance trade and treaty negotiation"
+      "label": "Naval Admiralty",
+      "influence_hint": "State-backed fleet command, decisive in security policy"
     }
   ],
   "economy_pillars": [
     "shipbuilding",
-    "longshore trade",
-    "fisheries & salt-curing",
-    "guildcraft & artisan exports",
-    "ritual-augury services"
+    "long-distance maritime trade",
+    "fisheries & salted produce",
+    "navigation-augury services",
+    "ritual-reagent import/export"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "maritime proverbs and sea-naming rituals",
-      "practical seamanship emphasis",
-      "guild-based apprenticeship rites",
-      "seasonal festivals tied to tides",
-      "oral navigation lore augmented by charts"
+      "maritime-first social orientation",
+      "clan-based coastal kinship",
+      "oral navigation lore and sea-proverbs",
+      "guild craft rituals (shipwrights, sailmakers)",
+      "pragmatic syncretism of rites and trade customs"
     ]
   },
   "religion": {
@@ -98,48 +109,44 @@
   },
   "regions": [
     {
-      "id": "R10-1",
-      "label": "Ten Harbor",
-      "tags": [
-        "coastal",
-        "trade-hub",
-        "shipyard"
-      ]
-    },
-    {
-      "id": "R10-2",
-      "label": "Saltflats of Kera",
-      "tags": [
-        "coastal",
-        "resource",
-        "preservation"
-      ]
-    },
-    {
-      "id": "R10-3",
-      "label": "Estuary Marches",
-      "tags": [
-        "estuary",
-        "fishing",
-        "fortified"
-      ]
-    },
-    {
-      "id": "R10-4",
+      "id": "R1",
       "label": "Outer Archipelago",
       "tags": [
-        "archipelago",
-        "navigation-lab",
-        "outports"
+        "coastal",
+        "island",
+        "trade-hub"
       ]
     },
     {
-      "id": "R10-5",
-      "label": "High Dunes Watch",
+      "id": "R2",
+      "label": "Lowshore Plains",
       "tags": [
         "coastal",
-        "lighthouse",
-        "garrison"
+        "agriculture"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Headland Forts",
+      "tags": [
+        "coastal",
+        "military"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Saltworks Fringe",
+      "tags": [
+        "coastal",
+        "industry"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Capital Docks",
+      "tags": [
+        "coastal",
+        "trade-hub"
       ]
     }
   ],
@@ -178,17 +185,17 @@
   "constraints": [
     "No instant resurrection or true life-replacement magics",
     "Long-range mind influence is rare and institutionally banned",
-    "Navigational auguries supplement, not replace charts or seamanship",
-    "Ritual magic consumes scarce imported reagents and specialized labor",
+    "Navigational auguries exist but cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
     "Combustion-derived industry limited (no high-pressure steam megatechs)",
-    "Must observe interstate obligations under T1 and TB1 where applicable"
+    "State must maintain coastal/seafaring infrastructure (ports, lighthouses)"
   ],
   "notes": [
-    "Strategic chokepoints: Outer Archipelago lanes and High Dunes Watch lighthouse.",
-    "Economic vulnerability: depends on imported reagents for augury and export markets for salted fish.",
-    "Harbormasters' Guild ties to Merchant Houses determine tariff flow; disruption risks civic unrest.",
-    "Naval militia tradition persists but professional navy shaped by Maritime Nobility and guild shipwrights.",
-    "Boundary sensitivities remain after BC2—ranked priority in negotiations with neighbors."
+    "High dependence on imported ritual reagents; supply lines politically sensitive",
+    "Seasonal sailing windows shape economy and military campaigns",
+    "Internal tension: Harbor Guild & Merchants vs. Coastal Clans over tariffs and levies",
+    "Membership in A1/TB1 imposes tariff and convoy obligations",
+    "Recent BC2 adjustments produce contested fishing zones near Outer Archipelago"
   ],
-  "generated_at": "2025-09-09T03:51:58.430Z"
+  "generated_at": "2025-09-09T04:58:14.000Z"
 }

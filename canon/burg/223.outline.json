@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_eb683777",
+  "checksum": "fnv1a_dc31f8d1",
   "burg_id": 223,
-  "name": "Burg_223",
-  "state_id": 0,
+  "name": "Bucleshover",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "unknown_population",
-    "coastal-influence",
-    "ritual-supply"
+    "harbor",
+    "ritual-labor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-component trade",
-    "small-scale fishing",
-    "provisioning"
+    "fishing",
+    "small-scale trade",
+    "ritual-component processing",
+    "boat repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-lineage",
-    "itinerant-merchants"
+    "fishermen's cooperative",
+    "Sea-Tide shrine circle",
+    "shipwrights' guild",
+    "smugglers' ring"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry on routes",
-    "resource instability"
+    "reagent scarcity",
+    "coastal storm damage",
+    "smuggling",
+    "corruption among officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal Tongues influence; mixed Riveric loanwords",
-    "strong ancestor-visiting customs",
-    "diet heavy on preserved fish and seaweed"
+    "Coastal Tongues dialect with nautical slang",
+    "strong tide-blessing and boat-launch rituals",
+    "diet centered on fish, seaweed, pickled goods",
+    "superstitions about moon-tides and lost sailors"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing-sailors"
+    "ritual reagent shortage",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "rituals consume scarce imported reagents"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "small transient population; seasonal traffic",
-    "serves larger coastal routes as resupply node"
+    "near-medieval to early-industrial tech; navigational auguries used",
+    "state affiliation currently unknown"
   ],
-  "generated_at": "2025-09-09T04:17:06.904Z"
+  "generated_at": "2025-09-09T05:29:32.207Z"
 }

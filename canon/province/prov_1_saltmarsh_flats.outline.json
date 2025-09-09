@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_saltmarsh_flats",
+  "checksum": "fnv1a_e1e33893",
+  "name": "Saltmarsh Flats",
+  "aliases": [
+    "The Flats",
+    "Salter Reach"
+  ],
+  "tags": [
+    "coastal",
+    "saltmarsh",
+    "fisheries",
+    "tidal-flat"
+  ],
+  "role_in_state": "primary salted-fish supplier and small-ship maintenance belt",
+  "economy_niches": [
+    "saltworks & brine-extraction",
+    "salted-fish curing and packing",
+    "tidal aquaculture (shellfish, shrimp)",
+    "boat-repair & light shipbuilding for small craft",
+    "local augury services for tides and safe landings"
+  ],
+  "culture_adjustments": [
+    "more transient population with seasonal crews and migrant labor",
+    "practical ritualism adapted to tidal cycles (short, frequent rites)",
+    "stronger informal hiring networks over kinship ties",
+    "salt-influenced speech variants of Coastal Tongues",
+    "market arbitration often handled by salt-guild foremen rather than town councils"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "seasonal storm surge",
+    "brackish soil degradation",
+    "mosquito-borne illness",
+    "salt-smuggling"
+  ],
+  "constraints": [
+    "limited fresh water availability",
+    "soft ground restricts large-scale shipyards",
+    "ritual magic dependent on imported reagents and specialized labor"
+  ],
+  "notes": [
+    "critical export node for State_1's salted provisions",
+    "labor peaks at harvest/curing seasons; social tensions during off-season",
+    "tidal markers serve as local navigation shorthand used by augurers"
+  ],
+  "generated_at": "2025-09-09T05:02:15.671Z"
+}

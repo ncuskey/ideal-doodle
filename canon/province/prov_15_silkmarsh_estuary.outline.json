@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_silkmarsh_estuary",
+  "checksum": "fnv1a_43aec91c",
+  "name": "Silkmarsh Estuary",
+  "aliases": [
+    "Silkmarsh",
+    "Silk Marsh Estuary",
+    "Estuary of Silk"
+  ],
+  "tags": [
+    "estuary",
+    "saltmarsh",
+    "shipbuilding",
+    "smuggling",
+    "pilots-guild"
+  ],
+  "role_in_state": "primary estuarine hub and saltworks supplier",
+  "economy_niches": [
+    "saltworks and salt trade",
+    "estuarine fisheries (oysters, eels)",
+    "light-shipbuilding and repair",
+    "reed-silk harvesting and marsh-fiber weaving",
+    "pilotage, harbor services and transshipment",
+    "smuggling/contraband transshipment"
+  ],
+  "culture_adjustments": [
+    "tide-based naming markers in kin-clan lines",
+    "seamanship apprenticeship begins earlier (child sailors common)",
+    "harbor festivals dominated by seasonal tide rites",
+    "practical tolerance for extralegal trade compared to state norm"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal surge / floodplain",
+    "siltation and channel loss",
+    "marsh-borne disease",
+    "smuggling-related violence and corruption"
+  ],
+  "constraints": [
+    "limited arable land — imports needed for staple grain",
+    "seasonal access for larger ships due to tides and silt"
+  ],
+  "notes": [
+    "pilots' guild controls main channels and collects fees",
+    "ritual navigation aids used but require costly reagents"
+  ],
+  "generated_at": "2025-09-09T05:05:00.192Z"
+}

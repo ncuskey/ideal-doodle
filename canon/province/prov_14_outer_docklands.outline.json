@@ -1,0 +1,62 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_outer_docklands",
+  "checksum": "fnv1a_5c6819c5",
+  "name": "Outer Docklands",
+  "aliases": [
+    "Outer Docks",
+    "Docklands Outer"
+  ],
+  "tags": [
+    "coastal",
+    "port",
+    "docklands",
+    "salt-works",
+    "shipbuilding",
+    "augury-services"
+  ],
+  "role_in_state": "Primary commercial port and repair hub",
+  "economy_niches": [
+    "commercial and subsistence fishing",
+    "salt evaporation and packing",
+    "shipbuilding and hull repair yards",
+    "ritual-augury services for pilots and merchants",
+    "coastal trade brokerage and freight handling"
+  ],
+  "culture_adjustments": [
+    "higher transient/crew population; weaker kin-track permanence",
+    "market-law and brokering override local kin arbitration",
+    "artisan-runic guilds control major craft and slips",
+    "boat-name rites shortened for commercial turnover",
+    "multilingual trade pidgin from visiting crews"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / floodplain",
+    "salt-corrosion infrastructure decay",
+    "shipyard fire",
+    "smuggling / illicit trade",
+    "epidemic from dense transient population"
+  ],
+  "constraints": [
+    "scarce imported ritual reagents raise service costs",
+    "limited fresh water and landfill space for expansion",
+    "tidal access seasonally restricted (monsoon winds)",
+    "state/guild licensing tightly limits slip allocation"
+  ],
+  "notes": [
+    "central node for state coastal trade and augury revenue",
+    "salt pans and major slips largely guild-controlled",
+    "rapid timber rot and metal corrosion shorten vessel lifespans"
+  ],
+  "generated_at": "2025-09-09T05:04:30.565Z"
+}

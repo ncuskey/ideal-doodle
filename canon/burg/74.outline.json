@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c613d361",
+  "checksum": "fnv1a_2a14bc28",
   "burg_id": 74,
-  "name": "Burg_74",
+  "name": "Kleabsil",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-trade",
-    "waystation"
+    "outpost",
+    "tidal-harbor",
+    "reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent exchange",
-    "lighthouse provisioning",
-    "smuggling waypoint"
+    "small-scale fishing",
+    "saltworks",
+    "ritual-reagent transshipment",
+    "boat repair"
   ],
   "factions_local": [
     "Harbor Guild",
-    "Ancestor Circle",
-    "Smugglers' Ring",
-    "Coastal Militia"
+    "Reagent Syndicate",
+    "Tide-Priests",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "supply isolation"
+    "scarcity of imported reagents",
+    "silted channels limiting trade",
+    "smuggling and bribery"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "Ancestor veneration tied to fishing seasons",
-    "imported spices and reagents prized",
-    "nautical augury rituals commonplace"
+    "Coastal Tongues influence; local Riveric loanwords",
+    "diet heavy on salted fish, seaweed, preserved shellfish",
+    "tide-day festivals tied to fishing calendar",
+    "craft traditions: net-weaving and tincture preparation"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "missing pilot"
+    "disappearing ships"
   ],
   "constraints": [
-    "rituals consume imported reagents",
-    "no instant resurrection",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry; no high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "navigational auguries supplement but do not replace charts"
+    "accessible only to shallow-draft vessels; lends to isolation",
+    "local magistrate weak; real power lies with Harbor Guild and Syndicate"
   ],
-  "generated_at": "2025-09-09T04:36:44.996Z"
+  "generated_at": "2025-09-09T05:48:17.256Z"
 }

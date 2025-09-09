@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_866a2247",
+  "checksum": "fnv1a_93839296",
   "burg_id": 238,
-  "name": "Burg_238",
+  "name": "Loutiers",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
-    "coastal",
-    "shrine",
-    "outpost"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "salt-harvest",
+    "river-port",
     "ritual-labor",
-    "small-scale-fishing",
-    "transshipment"
+    "crossroads"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "river trade",
+    "ritual-labors",
+    "fishing",
+    "market transshipment"
   ],
   "factions_local": [
-    "Shrine Custodians",
-    "Tide-kin Caster Circle",
-    "Skiffmen's Guild",
-    "Smugglers"
+    "Harbor Guild",
+    "Ritual House of Loutiers",
+    "Riverwatchers",
+    "Dockside Brokers"
   ],
   "problems": [
-    "reagent scarcity",
-    "coastal erosion",
+    "scarce ritual reagents",
     "bandit raids",
-    "supply isolation"
+    "corrupt guild officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "coastal dialect of Coastal Tongues",
-    "morning tide-blessing rituals",
-    "dried-seaweed and preserved fish diet",
-    "carved ancestor tokens common"
+    "Riveric Dialect influence",
+    "communal boat feasts",
+    "ritual labor guild traditions",
+    "salted-fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent scarcity",
-    "shrine desecration"
+    "missing reagent shipment",
+    "guild intrigue"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries cannot replace charts and seamanship"
+    "No instant resurrection",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; many transient skiff crews",
-    "small harbor usable at high tide; strategic for local coasting traffic"
+    "Near-medieval with localized ritual tech",
+    "Navigational auguries used but charts essential"
   ],
-  "generated_at": "2025-09-09T04:18:00.655Z"
+  "generated_at": "2025-09-09T05:30:27.959Z"
 }

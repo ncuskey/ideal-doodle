@@ -1,51 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8f28d1af",
+  "checksum": "fnv1a_9e6d849",
   "burg_id": 351,
-  "name": "Burg_351",
+  "name": "Sonexe",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ritual-stop"
+    "coastal",
+    "harbor",
+    "ritual-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation/provisions",
-    "ritual-reagents trade",
-    "ferry and carrying services"
+    "Fishing",
+    "Ritual reagent trade",
+    "Boat repair",
+    "Salt curing"
   ],
   "factions_local": [
-    "small merchant cell",
-    "ritual-syndicate (lab buyers)",
-    "river-wardens"
+    "Shipmasters' Guild",
+    "Reagent Merchants' Consortium",
+    "Harborwatch militia"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry along approaches",
-    "supply disruptions in wet season"
+    "Reagent scarcity",
+    "Smuggling and banditry",
+    "Silted channel"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with Island Creole loanwords",
-    "Custom of barter-and-ritual for valuable reagents",
-    "Diet centered on smoked/salted river fish"
+    "Coastal Tongues dialect with riveric loanwords",
+    "Tide-festival rituals tied to fishing seasons",
+    "Cuisine: salted fish, seaweed, cured shellfish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing ferryman"
+    "missing reagent shipment",
+    "harbor curse"
   ],
   "constraints": [
     "Ritual magic consumes scarce imported reagents",
-    "Long-range mind-influence is rare and banned"
+    "No instant resurrection or life-replacement magics",
+    "Navigational auguries assist but don't replace charts/seamanship"
   ],
   "notes": [
-    "Population unknown; functions as a logistical halt on a river route",
-    "Strategic for ritual supply lines despite small size"
+    "Population unknown; minor inlet port reliant on seasonal trade",
+    "Prone to seasonal storms; channel requires frequent dredging"
   ],
-  "generated_at": "2025-09-09T04:26:03.848Z"
+  "generated_at": "2025-09-09T05:37:55.078Z"
 }

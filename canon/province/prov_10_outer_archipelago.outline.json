@@ -6,27 +6,29 @@
   "name": "Outer Archipelago",
   "aliases": [
     "Outer Isles",
-    "Tide-Ring"
+    "Far Cays"
   ],
   "tags": [
+    "archipelago",
     "maritime",
-    "transshipment",
-    "reef-network",
-    "augury-harbors"
+    "waystation",
+    "reagent-hub",
+    "shipwright-guilds"
   ],
-  "role_in_state": "transshipment & navigational buffer",
+  "role_in_state": "peripheral maritime waystation and transshipment chain",
   "economy_niches": [
-    "small-ship construction & repair",
-    "longshore transshipment & brokerage",
-    "fisheries, drying & salt-curing",
-    "rope, sailcloth and net guildcraft",
-    "ritual-augury tide-guidance services"
+    "transshipment & light ship repair",
+    "salted fish & smokehouses",
+    "navigation-augury outposts for long routes",
+    "ritual-reagent holding & small-scale reexport",
+    "seasonal seabird products (guano, feathers)"
   ],
   "culture_adjustments": [
-    "coastal Tongues dialects with reef-naming lexicon",
-    "strong reef-superstitions and talisman use",
-    "sea-life apprenticeships begin earlier; shore rites simplified",
-    "practical seamanship prioritized over guild ceremony"
+    "stronger island dialect of Coastal Tongues; denser oral seaborn proverbs",
+    "clan ties oriented to skiff flotillas rather than large coastal households",
+    "greater tolerance for informal/pragmatic trade (smuggling tolerated)",
+    "shipwright guild rituals more conservative and craft-focused",
+    "navigation rites emphasize seabird and current-reading over charts"
   ],
   "religion_profile": {
     "families_present": [
@@ -38,18 +40,19 @@
   },
   "settlements_hint": [],
   "risks": [
-    "storm & rogue-wave damage",
-    "reef-grounding incidents",
-    "piracy and smuggling hubs",
-    "seasonal supply isolation"
+    "severe storms & strandings",
+    "piracy and renegade corsairs",
+    "resource depletion (local fisheries)",
+    "supply-chain isolation in bad seasons"
   ],
   "constraints": [
-    "scarce arable land; food imports required",
-    "ritual auguries consume imported reagents"
+    "sparse arable land",
+    "dependence on imported ritual reagents",
+    "limited heavy industrial capacity (no large steam works)"
   ],
   "notes": [
-    "serves as navigational buffer and pilot staging for State_10",
-    "seasonal tide-festivals anchor local calendar"
+    "strategic relay for long-distance convoys",
+    "local authority: clan captains + guild masters"
   ],
-  "generated_at": "2025-09-09T04:02:42.737Z"
+  "generated_at": "2025-09-09T05:02:41.182Z"
 }

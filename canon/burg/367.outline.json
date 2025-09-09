@@ -1,53 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bfa05a35",
+  "checksum": "fnv1a_a3660ef1",
   "burg_id": 367,
-  "name": "Burg_367",
-  "state_id": -1,
+  "name": "Dubris",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "port",
+    "garrison"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-lab supplier",
-    "waystation",
-    "small-scale trade"
+    "ship repair",
+    "salt trade",
+    "smuggling"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Shrine Circle",
-    "Moon-Tide Animists",
-    "Smugglers' Ring"
+    "Harbormasters' Council",
+    "Merchant Brotherhood chapter",
+    "Garrison detachment",
+    "Tide-Priesthood circle"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry",
-    "supply isolation"
+    "smuggling",
+    "supply scarcity",
+    "jurisdiction disputes",
+    "sea-borne disease risk"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
     "Coastal Tongues dialect",
-    "salt-curing cuisine",
-    "ritual-component barter economy"
+    "tide-blessing rituals",
+    "salt-preserved cuisine",
+    "seafaring superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearing fishermen"
+    "missing ships",
+    "haunted quay"
   ],
   "constraints": [
-    "No instant resurrection",
-    "Rituals consume scarce imported reagents",
-    "Long-range mind influence banned"
+    "ritual magic consumes scarce reagents",
+    "no instant resurrection",
+    "navigation auguries supplement but do not replace charts"
   ],
   "notes": [
-    "near coast; vulnerable to seasonal storms",
-    "limited charts; reliant on local pilots"
+    "strategic small port on coastal route",
+    "limited arable hinterland, reliant on imports"
   ],
-  "generated_at": "2025-09-09T04:26:57.342Z"
+  "generated_at": "2025-09-09T05:38:52.586Z"
 }

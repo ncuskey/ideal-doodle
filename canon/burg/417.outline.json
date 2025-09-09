@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_13bdb3ed",
+  "checksum": "fnv1a_a97200d5",
   "burg_id": 417,
-  "name": "Burg_417",
+  "name": "Srasarjass",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-trade",
-    "ferry-crossing"
+    "ritual-node",
+    "waystation",
+    "harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small transshipment hub",
-    "ferry services",
-    "salted-fish curing",
-    "ritual reagent brokerage"
+    "fishing",
+    "ritual-supply",
+    "waystation",
+    "small-market"
   ],
   "factions_local": [
-    "ferrymen's cadre",
-    "river-guilder agents",
-    "healer-ritualists",
-    "coastal smugglers (loose)"
+    "Harbormasters' Guild",
+    "Ancestor Remembrance Circle",
+    "Smugglers' Ring",
+    "Dockworkers' Cooperative"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling and tariff skirmishes",
-    "periodic flood damage"
+    "banditry along approaches",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant with Coastal Tongue loanwords",
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-offerings and ancestor-night rites",
     "diet heavy on salted and smoked fish",
-    "tide-and-harbor festivals tie communal obligations to ritual magic use"
+    "net-weaving and ritual-altar craft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagent",
-    "disappearing ferryman"
+    "missing-priest",
+    "reagent-heist"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "long-range mind influence rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "tech baseline near-medieval with localized ritual tech reliance",
-    "navigational auguries used but seamanship still required"
+    "seasonal storms make access intermittent",
+    "local reef hazards shape harbor use"
   ],
-  "generated_at": "2025-09-09T04:30:13.238Z"
+  "generated_at": "2025-09-09T05:42:18.687Z"
 }

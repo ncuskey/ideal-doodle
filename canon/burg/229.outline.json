@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_75a4f56f",
+  "checksum": "fnv1a_a3eb265",
   "burg_id": 229,
-  "name": "Burg_229",
-  "state_id": -1,
+  "name": "Ath'jas",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "ritual-outpost"
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-reagent brokerage",
-    "small-scale shiprepair",
-    "smuggling"
+    "ritual-service artisans",
+    "local trade/waystation",
+    "salt-curing"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Local Ritual Circle",
-    "Smuggler Band",
-    "Coastal Watch"
+    "Shrine Wardens",
+    "Harbormaster's Council",
+    "Fisherfolk Guild",
+    "Coastal Smugglers"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "import dependency",
-    "seasonal storms"
+    "smuggling and jurisdictional disputes",
+    "tidal erosion of quays"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "ancestor-shrine customs",
-    "smoked seafood specialty",
-    "seasonal boat processions"
+    "Coastal Tongues dialect dominant",
+    "public rites tied to first catch and navigation",
+    "diet heavy on salted fish and fermented sea plants"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "reagent shortage",
+    "sea-ghosts"
   ],
   "constraints": [
-    "no long-range mind-influence",
-    "rituals consume scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries supplement but do not replace seamanship"
   ],
   "notes": [
-    "near-medieval to early industrial tech baseline",
-    "navigation uses charts plus limited auguries",
-    "no true resurrection or life-replacement magics"
+    "built on a reef with a shrine-beacon anchoring the harbor",
+    "population unknown; functions as a small ritual-trade node"
   ],
-  "generated_at": "2025-09-09T04:17:28.760Z"
+  "generated_at": "2025-09-09T05:29:48.794Z"
 }

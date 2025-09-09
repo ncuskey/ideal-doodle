@@ -1,48 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4e082ccb",
+  "checksum": "fnv1a_d23f196c",
   "burg_id": 1,
-  "name": "Burg_1",
+  "name": "Slalzan",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-halt",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
   "economy_roles": [
+    "river trade",
     "fishing",
-    "ritual-labour",
-    "harvest-collection"
+    "ritual-component brokerage",
+    "barter market"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harvest-clan",
-    "coastal-watch"
+    "Rivermen's Guild",
+    "Harbor Clan of Kesh",
+    "Moon-Offering Circle",
+    "Moneylender House Yrr"
   ],
   "problems": [
-    "scarcity",
-    "banditry",
-    "supply-dependence"
+    "scarce ritual reagents",
+    "seasonal flooding",
+    "bandit raids"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal-tongue influence",
-    "seasonal sea-blessing festival",
-    "salt-preserved cuisine"
+    "Riveric Dialect predominant with Coastal Tongue loanwords",
+    "market-week ritual offerings",
+    "diet: smoked fish, river herbs, spice paste",
+    "boats decorated for ancestor-veneration"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent-theft",
-    "missing-fishermen"
+    "missing ritual components",
+    "omen of disastrous flood"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "no high-pressure steam megatechs"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence rare and banned"
   ],
   "notes": [
-    "pop: n/a",
-    "near-medieval tech baseline"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but charts/seamanship still essential",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:09:21.524Z"
+  "generated_at": "2025-09-09T23:08:15.482Z"
 }

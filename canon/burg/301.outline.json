@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_88ecc04d",
+  "checksum": "fnv1a_be80516a",
   "burg_id": 301,
-  "name": "Burg_301",
+  "name": "Sidmin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "river-crossing",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-reagent depot",
-    "small-scale trade"
+    "river-trade",
+    "ferry-tolls",
+    "smoked-fish",
+    "ritual-services"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-coven",
-    "coastal-smugglers"
+    "ferrymen-guild",
+    "temple-coven",
+    "merchant-boatters",
+    "herbalists-circle"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm-disruption",
-    "bandit raids"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "banditry-on-fords"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "annual tide-blessing festival",
-    "diet heavy on salted fish and seaweed",
-    "rituals depend on imported reagents"
+    "Riveric dialect with Coastal loanwords",
+    "tide-blessing customs",
+    "smoked-fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishermen"
+    "ritual-failure",
+    "flood-threat"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "no-instant-resurrection",
+    "rituals-consume-rare-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "state governance weak or undocumented",
-    "tech baseline near-medieval to early-industrial",
-    "port limited by seasonal storms"
+    "near-medieval tech baseline",
+    "navigational-auguries used but charts required",
+    "state affiliation unknown"
   ],
-  "generated_at": "2025-09-09T04:22:33.351Z"
+  "generated_at": "2025-09-09T05:34:38.281Z"
 }

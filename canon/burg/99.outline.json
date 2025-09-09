@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_77383235",
+  "checksum": "fnv1a_1eb8c4e4",
   "burg_id": 99,
-  "name": "Burg_99",
-  "state_id": -1,
+  "name": "Gapjesshaph",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "crossroads"
+    "gap",
+    "cliff-harbor",
+    "smuggling"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "roadside inn",
-    "trade relay",
-    "reagent broker",
-    "ferry crossing"
+    "waystation",
+    "ritual-reagent transshipment",
+    "coastal-fishing",
+    "toll-collection/garrison"
   ],
   "factions_local": [
-    "ferrymen guild",
-    "itinerant ritualists",
-    "caravan masters"
+    "Cliff-keepers clan",
+    "Smugglers' Ring",
+    "Coastal Watch",
+    "Star-Calendar Acolytes"
   ],
   "problems": [
-    "supply scarcity",
-    "banditry",
-    "reagent smuggling"
+    "smuggling-driven violence",
+    "reagent scarcity",
+    "seasonal landslips"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Riveric-Coastal dialect mix",
-    "hospitality rituals for travelers",
-    "diet: salted fish and barter breads"
+    "Riveric-influenced coastal dialect",
+    "salt-smoked fish staples",
+    "tide-marking rituals for safe passage",
+    "clan-based kinship feasts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "disappearances"
+    "sealed ritual breach",
+    "missing caravans"
   ],
   "constraints": [
     "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics"
+    "no instant resurrection; long-range mind influence banned",
+    "navigational auguries supplement but don't replace charts"
   ],
   "notes": [
-    "state-level data unknown; pop≈n/a",
-    "strategic waypoint on minor trade route"
+    "strategic choke point for coastal trade and illicit routes",
+    "fresh water limited seasonally"
   ],
-  "generated_at": "2025-09-09T04:38:20.673Z"
+  "generated_at": "2025-09-09T05:50:12.837Z"
 }

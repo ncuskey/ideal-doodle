@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5e31df3d",
+  "checksum": "fnv1a_cb8170e4",
   "burg_id": 381,
-  "name": "Burg_381",
+  "name": "Slofzia",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "none",
-    "ritual-cache"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
+    "fishing",
     "waystation",
-    "reagent depot",
-    "small-scale fishing",
-    "relay trading"
+    "smuggling",
+    "ritual-component trade"
   ],
   "factions_local": [
-    "augur-lodge",
-    "salt-traders cooperative",
-    "ancestral-shrine keepers"
+    "Harbormaster's Council",
+    "Merchant Brotherhood agents",
+    "Ancestor Shrine caretakers",
+    "Smuggler syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "isolation",
-    "bandit raids"
+    "shortage of ritual reagents",
+    "smuggling crackdowns",
+    "coastal erosion/flooding",
+    "tension between shrine and merchants"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric dialect with Coastal loanwords",
-    "communal ancestor feasts",
-    "diet: salted fish and root gruels"
+    "Coastal Tongues mixed with Island Creole dialect",
+    "tide-blessing ceremonies before voyages",
+    "diet of fermented fish and seaweed cakes",
+    "rituals require imported, scarce reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "ancestral omens"
+    "missing ritual reagents",
+    "rising sea/land loss"
   ],
   "constraints": [
-    "no instant resurrection; long-range mind influence rare and banned",
     "ritual magic consumes scarce imported reagents",
-    "combustion industry limited; no high-pressure steam megatechs"
+    "no instant resurrection; long-range mind influence rare/prohibited"
   ],
   "notes": [
-    "population unknown",
-    "acts as reagent relay for inland ritual sites"
+    "near-medieval to early-industrial baseline with ritual magic",
+    "small outpost on island/coastal routes"
   ],
-  "generated_at": "2025-09-09T04:27:52.844Z"
+  "generated_at": "2025-09-09T05:39:52.618Z"
 }

@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cb93c1f5",
+  "checksum": "fnv1a_d8482563",
   "burg_id": 402,
-  "name": "Burg_402",
-  "state_id": 0,
+  "name": "Wigley",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waypoint",
-    "fishing"
+    "riverside",
+    "ferry",
+    "market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal trading post",
-    "subsistence fishing",
-    "reagent transshipment",
-    "ship repair"
+    "fishing",
+    "small-scale trade",
+    "ferry services",
+    "ritual-supply workshops"
   ],
   "factions_local": [
-    "shrine-keepers (Sea-Tide)",
-    "traders' syndicate",
-    "smugglers' crew",
-    "shipwrights' guild"
+    "fishermen's cooperative",
+    "ferrymasters' guild",
+    "shoreline shrine keepers",
+    "merchant agents"
   ],
   "problems": [
-    "reagent scarcity",
-    "pirate raids",
-    "storm damage",
-    "lawlessness"
+    "seasonal flooding",
+    "smuggling",
+    "reagent shortages",
+    "corrupt ferry tolls"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole with Riveric loanwords",
-    "tide-offering customs",
-    "diet: salted fish and fermented seaweed",
-    "navigation superstitions and local auguries"
+    "Riveric Dialects predominant",
+    "river rites tied to tides",
+    "fish-centric cuisine (smoked eel)",
+    "boat-family tattoo traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reef wreck salvage",
-    "reagent theft"
+    "missing ritual reagents",
+    "ferry disappearances"
   ],
   "constraints": [
+    "no instant resurrection or life-replacement magic",
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace charts or seamanship"
+    "navigational auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "hidden reef waypoint",
-    "census unreliable; seasonal population spikes"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "shallow tidal harbor; access varies by season"
   ],
-  "generated_at": "2025-09-09T04:29:16.188Z"
+  "generated_at": "2025-09-09T05:41:19.018Z"
 }

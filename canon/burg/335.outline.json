@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_dfc55cc7",
+  "checksum": "fnv1a_ba160ed4",
   "burg_id": 335,
-  "name": "Burg_335",
-  "state_id": -1,
+  "name": "Watcheldock",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "coastal",
-    "ritual-hub"
+    "dock",
+    "coastal-watch",
+    "shipyard"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
     "fishing",
-    "reagent-trade",
-    "ritual-labor"
+    "ship maintenance",
+    "coastal trade",
+    "lookout services"
   ],
   "factions_local": [
-    "ritualist-clan",
-    "trader-guild",
-    "harbor-watch"
+    "Harbormaster's Syndicate",
+    "Coastal Watch",
+    "Longshoremen Guild",
+    "Smugglers' Circle"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry",
-    "smuggling"
+    "smuggling",
+    "supply scarcity",
+    "periodic bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "seafood and pickled cuisine",
-    "voyage-offering customs",
-    "local sigil-craft for small rites"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "signaling etiquette and semaphore customs",
+    "salt-preserved cuisine, emphasis on dried fish",
+    "ritual offerings to tide-spirits before voyages"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "relic-hunt",
-    "reagent-run"
+    "mysterious disappearances",
+    "ritual reagent shortage"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "navigational-auguries-limited"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigation auguries assist but don't replace charts"
   ],
   "notes": [
-    "near-medieval tech with ritual-magic reliance",
-    "remote coastal waystation",
-    "imports required for many rituals"
+    "tide-dependent access; low tide exposes mudflats",
+    "small watchtower overlooks shipping lane",
+    "warehouses double as informal market halls"
   ],
-  "generated_at": "2025-09-09T04:24:58.806Z"
+  "generated_at": "2025-09-09T05:36:46.367Z"
 }

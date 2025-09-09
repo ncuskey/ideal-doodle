@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_outer_shoals",
+  "checksum": "fnv1a_3dc07434",
+  "name": "Outer Shoals",
+  "aliases": [
+    "Outer Shoals",
+    "Shoalward",
+    "The Flats"
+  ],
+  "tags": [
+    "coastal",
+    "shoals",
+    "pilotage",
+    "saltworks",
+    "smuggling"
+  ],
+  "role_in_state": "shallow-water pilotage and salt/fishing hub",
+  "economy_niches": [
+    "shoal fishing and bait fisheries",
+    "evaporative saltworks and kelp processing",
+    "local lighter/repair yards for shallow-draft craft",
+    "licensed pilotage and tidal navigation guides",
+    "trans-shoal smuggling and contraband staging"
+  ],
+  "culture_adjustments": [
+    "tide-based superstition stronger; daily rituals tied to tidal markers",
+    "weakened inland clan formalities; apprenticeship over lineage for seafaring roles",
+    "oral pilot lore and chartless seamanship valued above written records",
+    "festival calendar compressed to low-tide windows and nightlandings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "shoal-wrecks",
+    "sudden tidal squalls",
+    "smuggler clashes",
+    "saltfield salinization"
+  ],
+  "constraints": [
+    "shallow waters prevent large drydocks",
+    "ritual magic needs scarce imported reagents for navigation auguries",
+    "limited arable land; food imports required seasonally"
+  ],
+  "notes": [
+    "critical source of licensed pilots for State_15 fleet",
+    "harbor festivals timed to predictable spring-neap cycles"
+  ],
+  "generated_at": "2025-09-09T05:05:01.422Z"
+}

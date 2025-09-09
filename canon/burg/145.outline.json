@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7841fb51",
+  "checksum": "fnv1a_3e209b1a",
   "burg_id": 145,
-  "name": "Burg_145",
+  "name": "Swaton",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-lab"
+    "none",
+    "river-crossing",
+    "toll-town"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-reagent trade",
-    "small ship repair",
-    "saltworks/sea-harvest"
+    "toll-station",
+    "barge-trade",
+    "smoked-fish",
+    "ferrying"
   ],
   "factions_local": [
-    "Sea-Tide shrine circle",
-    "Merchant skiffs guild",
-    "ritual apothecaries",
-    "coastal militia"
+    "Bargemen's Syndicate",
+    "Tollwarden's Office",
+    "Riverside Altar-keepers",
+    "Local Merchant House"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling/bandit raids",
-    "storm damage"
+    "seasonal flooding",
+    "toll disputes",
+    "banditry"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with riveric loanwords",
-    "tide-focused festivals and offerings",
-    "diet heavy on fish, kelp, preserved salt",
-    "shellcraft and ritual knotwork crafts"
+    "Riveric Dialect common",
+    "annual market fair at ford",
+    "ritual offerings to river for safe passage",
+    "cuisine: smoked and salted fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagent",
-    "shrine desecration"
+    "toll dispute",
+    "missing bargeman"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or long-range mind control",
-    "navigational auguries complement but do not replace seamanship"
+    "no resurrection magics available",
+    "limited combustion industry"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "strategic small harbor for coastal traffic",
-    "tension between shrine keepers and merchants over reagent access"
+    "ford and small quay; seasonal silt shifts channels",
+    "acts as local toll and trans-shipment point"
   ],
-  "generated_at": "2025-09-09T04:12:07.650Z"
+  "generated_at": "2025-09-09T05:24:34.051Z"
 }

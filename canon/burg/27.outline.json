@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c482f36d",
+  "checksum": "fnv1a_bbcdf761",
   "burg_id": 27,
-  "name": "Burg_27",
-  "state_id": -1,
-  "province_id": "unknown",
+  "name": "Vupjess",
+  "state_id": 0,
+  "province_id": "",
   "tags": [
+    "none",
     "coastal",
-    "ritual-supply",
-    "market-haven"
+    "waystation"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "ritual-reagent trade",
-    "provisioning & shipchandler",
-    "fishing & saltworks",
-    "smuggling & freight"
+    "coastal fishing",
+    "reagent trade (small-scale)",
+    "ship provisioning",
+    "repair and careening"
   ],
   "factions_local": [
-    "merchant guild",
-    "reagent brokers",
-    "tide-shamans",
-    "dockworkers cooperative"
+    "harbor guild",
+    "shrined ritualists",
+    "smuggler crews",
+    "elders' council"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit smugglers",
-    "supply disruptions"
+    "scarce ritual reagents",
+    "smuggling conflicts",
+    "irregular supply runs"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues common; Island Creole pidgin among crews",
-    "tide-festivals and ship-blessings",
-    "diet heavy on salted fish and fermented seaweed"
+    "Island Creole-influenced dialect",
+    "tide-blessing festivals and boat rites",
+    "diet heavy on salted fish, kelp products",
+    "taboos around reagent handling and waste"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "reagent shortage",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence banned; auguries limited"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "population unknown; small harbor outpost",
-    "key resupply point between islands",
-    "vulnerable to storms and naval blockades"
+    "population unknown; functions as coastal stopover",
+    "good scene for small-scale trade, ritual scarcity, and local intrigue"
   ],
-  "generated_at": "2025-09-09T04:20:15.621Z"
+  "generated_at": "2025-09-09T05:32:44.291Z"
 }

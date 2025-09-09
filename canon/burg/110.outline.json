@@ -1,33 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e877b4d5",
+  "checksum": "fnv1a_e7708b5b",
   "burg_id": 110,
-  "name": "Burg_110",
+  "name": "Taraletum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-port",
-    "waystation"
+    "harbor",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent transshipment",
     "fishing",
-    "shipwright repairs",
-    "waystation trade"
+    "waypoint-services",
+    "reagent-trade",
+    "ship-repair"
   ],
   "factions_local": [
-    "Harbor Syndicate",
-    "Ritual Suppliers' Guild",
-    "Ancestor Circle",
-    "Independent Skiffmen"
+    "Harbor Guild",
+    "Tide-Remembrancers",
+    "Reagent Merchants' Consortium",
+    "Harborwatch Militia"
   ],
   "problems": [
     "reagent scarcity",
     "smuggling",
-    "supply volatility",
-    "seasonal storms"
+    "corrupt guild-officials",
+    "coastal erosion/siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,23 +34,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole dialect mixed with Coastal Tongues",
-    "sea-blessed festivals tied to star-calendar rites",
-    "salt-preserving cuisine and boat-smoked fish"
+    "Coastal Tongues dialect",
+    "voyage-ancestor invocations before departures",
+    "diet heavy on salted fish and seaweed",
+    "tide-festival with public small-scale rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "shipwreck salvage",
-    "ritual reagent theft"
+    "reagent-heist",
+    "disappearing-ships"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents and specialized labor"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "combustion industry limited (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "Population unknown; transient maritime crews dominate",
-    "Navigational auguries used but cannot replace charts and seamanship"
+    "coastal waypoint on minor trade route",
+    "population unknown; feels tight-knit"
   ],
-  "generated_at": "2025-09-09T04:09:59.221Z"
+  "generated_at": "2025-09-09T23:08:49.109Z"
 }

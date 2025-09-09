@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_23d26717",
+  "checksum": "fnv1a_f977fcf7",
   "burg_id": 173,
-  "name": "Burg_173",
-  "state_id": 0,
+  "name": "Montcren",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "riverine",
-    "ritual-haven"
+    "river-node",
+    "ritual-lab",
+    "market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "river-landing",
+    "river-transport",
+    "market-trading",
     "ritual-supply",
-    "fishing"
+    "artisan-workshops"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-kinship",
-    "smuggling crew"
+    "merchant-guild",
+    "clan-house",
+    "ritual-scriptorium",
+    "rivercraft-crew"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry",
-    "corruption"
+    "reagent-scarcity",
+    "banditry-on-roads",
+    "guild-turf-conflict"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect speakers",
-    "salt-preserved cuisine",
-    "boat-festival rites"
+    "speaks Riveric Dialect with Highland Cant loanwords",
+    "strong ancestor-veneration in domestic rites",
+    "cuisine: smoked riverfish, hearty stews, flatbreads"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearing cargo"
+    "missing-ritual-reagents",
+    "guild-election"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents; long-range mind influence rare/banned"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "navigational auguries used but do not replace charts",
-    "port dependent on seasonal trade; reagent arrivals irregular"
+    "near-medieval to early-industrial baseline; ritual magic common",
+    "navigational-auguries present but do not replace seamanship or charts"
   ],
-  "generated_at": "2025-09-09T04:13:52.148Z"
+  "generated_at": "2025-09-09T05:26:23.997Z"
 }

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_lowland_hinter",
+  "checksum": "fnv1a_2548530c",
+  "name": "Lowland Hinter",
+  "aliases": [
+    "Hinterlow",
+    "Riverfen Marches"
+  ],
+  "tags": [
+    "riverine",
+    "agricultural-hinterland",
+    "reagent-source",
+    "labor-supplier"
+  ],
+  "role_in_state": "Food and material feeder to coastal ports",
+  "economy_niches": [
+    "river-borne grain & root-crop production",
+    "harvesting of reed & bog-plants for boat/ritual reagents",
+    "seasonal labor pool for shipyards and preserves",
+    "inland transshipment & cartage to river ports"
+  ],
+  "culture_adjustments": [
+    "strong kin/clan land tenure alongside oral genealogies",
+    "dialectal drift toward Riveric speech; less Coastal Tongues purity",
+    "lower guild penetration; more customary village courts",
+    "seasonal migration to ports creates mixed coastal-hinter identities"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "banditry along towpaths",
+    "crop blight",
+    "reagent-resource depletion"
+  ],
+  "constraints": [
+    "poor deepwater access limits direct ship trade",
+    "coastal guilds control high-value processing and re-export",
+    "ritual magic reliant on scarce imported reagents"
+  ],
+  "notes": [
+    "strategic as grain reserve and reed harvest zone",
+    "regular seasonal labor flows to coastal shipyards and salting houses",
+    "local sacred groves protect key reagent plants; customary protections affect harvest timing"
+  ],
+  "generated_at": "2025-09-09T05:06:55.304Z"
+}

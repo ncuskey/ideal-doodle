@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_port_hyl",
+  "checksum": "fnv1a_a82a8646",
+  "name": "Port Hyl",
+  "aliases": [
+    "Hyl",
+    "Hyl Harbor"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "transshipment",
+    "reagent-trade",
+    "navigational-augury"
+  ],
+  "role_in_state": "primary transshipment port and shipbuilding center",
+  "economy_niches": [
+    "shipbuilding and repair yards",
+    "salted-fish and marine preserves",
+    "transshipment, warehousing and re-export",
+    "navigational-augury services for merchant fleets",
+    "ritual-reagent brokerage and packing"
+  ],
+  "culture_adjustments": [
+    "more cosmopolitan Coastal Tongues mixing from visiting crews",
+    "tighter guild control over apprenticeship and civic offices",
+    "sea-ritual practices intensify everyday law and contracts",
+    "kinship defined by ship-households rather than inland clans",
+    "dispute resolution skews toward negotiated charter agreements"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-tide and harbor surge",
+    "cargo-theft and organized smuggling",
+    "dockfire from drying and salting works",
+    "guild faction clashes",
+    "epidemic spread via preserved goods"
+  ],
+  "constraints": [
+    "limited agricultural hinterland — relies on imports",
+    "ritual magic dependent on scarce imported reagents",
+    "harbor silting requires continual dredging under guild control"
+  ],
+  "notes": [
+    "state's main transshipment hub and seat of the chief shipwright guild",
+    "annual augury season centralizes navigational rites and market activity",
+    "long-range mind-influence outlawed; auguries supplemental to seamanship"
+  ],
+  "generated_at": "2025-09-09T05:06:38.609Z"
+}

@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-```
+```text
 LoreGen/
 ├── data/                    # Azgaar export data
 │   └── southia.json        # Main world data export
@@ -39,6 +39,7 @@ LoreGen/
 │   ├── catalog.json        # UI catalog (kingdoms + burgs)
 │   ├── markers.json        # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 │   ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
+│   ├── heraldry_map.json   # Heraldry index (states, provinces, burgs → SVG paths)
 │   ├── promptFacts/        # LLM-optimized fact packs
 │   │   ├── state/          # State prompt packs
 │   │   └── burg/           # Burg prompt packs
@@ -47,6 +48,11 @@ LoreGen/
 │   ├── state/              # Rich state lore files
 │   ├── province/           # Province lore files
 │   └── burg/               # Rich burg lore files
+├── assets/                 # Generated assets
+│   └── heraldry/           # Armoria-generated coat of arms
+│       ├── state/          # State heraldry (SVG files)
+│       ├── province/       # Province heraldry (SVG files)
+│       └── burg/           # Burg heraldry (SVG files)
 ├── events/                 # Event definitions & log
 │   ├── demo.json           # Sample ruler change event
 │   ├── demo2.json          # Sample event #2
@@ -73,11 +79,14 @@ LoreGen/
     ├── types/              # TypeScript types
     │   └── core.ts         # Core interfaces (WorldFacts, StateFacts, BurgFacts)
     ├── ingest/             # Data ingestion
-    │   └── azgaar.ts       # Azgaar loader & fact extractors with rich accessors
+    │   ├── azgaar.ts       # Azgaar loader & fact extractors with rich accessors
+    │   └── canonicalNames.ts # Canonical name mapping from master JSON
     ├── derive/             # Data derivation
     │   ├── aggregate.ts    # Full derivation pipeline
     │   ├── partial.ts      # Partial derivation for single entities
     │   └── promptPacks.ts  # LLM-optimized fact pack creation
+    ├── heraldry/           # Armoria heraldry integration
+    │   └── armoria.ts      # Armoria API client & heraldry generation
     ├── util/               # Utilities
     │   ├── canonical.ts    # Deterministic JSON stringify
     │   ├── hash.ts         # SHA-256 hashing
@@ -107,6 +116,7 @@ LoreGen/
         ├── canonStateOutline.ts      # Generate state outlines
         ├── canonProvinceOutline.ts   # Generate province outlines (synthetic from state regions)
         ├── canonBurgOutline.ts       # Generate burg outlines (from fact data)
+        ├── genHeraldry.ts            # Generate heraldry (Armoria integration)
         ├── genBurgLore.ts      # Generate burg lore (full quality)
         ├── genStateLore.ts     # Generate state lore (full quality)
         ├── genBurgLoreFull.ts  # Generate rich burg lore
@@ -123,14 +133,16 @@ LoreGen/
 ### Data Flow
 1. **Azgaar Export** → `data/southia.json`
 2. **Fact Extraction** → `facts/{world,state,burg}/`
-3. **Derived Statistics** → `facts/derived/{state,burg}/`
-4. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
-5. **Graph Building** → `index/graph.json`
-6. **Catalog Building** → `index/catalog.json`
-7. **Canon Outline Generation** → `canon/{world,interstate,state,province,burg}/`
-8. **Rich Lore Generation** → `lore/{state,burg}/`
-9. **Event Application** → Updates facts + generates seeds
-10. **Dirty Regeneration** → Targeted updates based on seeds
+3. **Canonical Name Mapping** → Overlay exact names from master JSON
+4. **Derived Statistics** → `facts/derived/{state,burg}/`
+5. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
+6. **Graph Building** → `index/graph.json`
+7. **Catalog Building** → `index/catalog.json`
+8. **Canon Outline Generation** → `canon/{world,interstate,state,province,burg}/`
+9. **Heraldry Generation** → `assets/heraldry/{state,province,burg}/` + `index/heraldry_map.json`
+10. **Rich Lore Generation** → `lore/{state,burg}/`
+11. **Event Application** → Updates facts + generates seeds
+12. **Dirty Regeneration** → Targeted updates based on seeds
 
 ### Core Types
 - `WorldFacts`: Map name, year, era
@@ -143,6 +155,7 @@ LoreGen/
 - **State Outlines**: Per-state foundations (factions, culture, regions, constraints)
 - **Province Outlines**: Synthetic provinces from state regions (economy niches, culture adjustments, risks)
 - **Burg Outlines**: Burg-level foundations (size hints, economy roles, factions, quest hooks)
+- **Canonical Name Overlay**: Uses exact names from master JSON (e.g., "Slor'th" not "State_1")
 - **Hierarchical Consistency**: Each layer references and builds upon the previous
 - **Rate-Limit Integration**: Uses `withRateLimitRetry()` for robust API calls
 - **Cheap Regeneration**: Outline passes are fast and can be run frequently
@@ -154,6 +167,16 @@ LoreGen/
 - **Proximity Hints**: Calculates nearby burg IDs for marker-based hook placement
 - **Hook Template Integration**: Links markers to quest hook templates via placement rules
 - **Placement Rules**: Configurable caps (per-state, world-wide) and filtering criteria
+
+### Armoria Heraldry System
+- **Deterministic Seeds**: Uses world_id + kind + id + name for stable generation
+- **API Integration**: Fetches SVG/PNG coat of arms from Armoria API
+- **Concurrent Processing**: Configurable rate limiting for API efficiency
+- **File Organization**: Structured storage under `assets/heraldry/{state,province,burg}/`
+- **Index Mapping**: Complete heraldry index at `index/heraldry_map.json`
+- **Environment Configuration**: ARMORIA_BASE, HERALDRY_FORMAT, HERALDRY_SIZE, HERALDRY_CONCURRENCY
+- **Error Handling**: Graceful failure with detailed logging
+- **Stable File Names**: Safe seed generation for consistent paths
 
 ### Caching System
 - **Hash Generation**: `cacheKeyForEntity()` computes deterministic hashes
@@ -185,6 +208,7 @@ npm run canon:markers:index  # Build marker index from Azgaar JSON
 npm run links:suggest        # Generate cross-link suggestions (canon-based)
 npm run canon:province:outline # Generate province outlines
 npm run canon:burg:outline   # Generate burg outlines
+npm run heraldry:gen         # Generate all heraldry (Armoria integration)
 npm run lore:burg:full -- --id=1  # Generate rich burg lore
 npm run lore:state:full -- --id=1 # Generate rich state lore
 npm run events:apply -- --file=events/demo.json
@@ -214,6 +238,14 @@ npm run pipeline:abort       # Request abort (stops long-running operations)
 npm run pipeline:abort:clear # Clear abort flag
 npm run validate:lore        # Validate all lore files
 npm run validate:lore:subset -- --states=1,2 --burgs=10,11  # Validate subset
+```
+
+### Heraldry Operations
+```bash
+npm run heraldry:gen              # Generate all heraldry (states, provinces, burgs)
+npm run heraldry:gen:states       # Generate state heraldry only
+npm run heraldry:gen:provinces    # Generate province heraldry only
+npm run heraldry:gen:burgs        # Generate burg heraldry only
 ```
 
 ### Cost-Optimized Operations

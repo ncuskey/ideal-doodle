@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2cdfe4f5",
+  "checksum": "fnv1a_6c4ad7a0",
   "burg_id": 253,
-  "name": "Burg_253",
-  "state_id": -1,
+  "name": "Shan'jen",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "reagent-hub",
-    "waystation"
+    "harbor",
+    "reagent-harvest"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small fishing pier",
-    "ritual-reagent depot",
-    "transit stop for coastal traders"
+    "fishing",
+    "small-scale trade",
+    "saltworks",
+    "ritual-reagent gathering"
   ],
   "factions_local": [
-    "pierworkers' syndicate",
-    "Sea-Tide shrine",
-    "reagent merchants' agent"
+    "Harbormaster's Guild",
+    "Fisherfolk Cooperative",
+    "Tide-Adept Shrine",
+    "Smuggler's Ring"
   ],
   "problems": [
-    "scarce imported reagents",
-    "seasonal storm damage",
-    "smuggling and informal tolls"
+    "scarce ritual reagents",
+    "seasonal storms",
+    "smuggling and lawlessness"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole-tinged Coastal Tongue dialect",
-    "strong ancestor-singing at dusk",
-    "diet: salted fish, kelp preserves, dried legumes"
+    "Coastal Tongues dialect",
+    "communal tide-blessing rituals",
+    "diet heavy on seafood and fermented seaweed",
+    "boatcraft and net-mending tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "missing mariner"
+    "reagent theft",
+    "ominous tide-omen"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic requires scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement",
+    "long-range mind influence rare and banned"
   ],
   "notes": [
-    "rocky spit with a short, weather-beaten pier; vital stop on coastal run"
+    "population undocumented; transient fishermen",
+    "port vulnerable to supply disruptions and storms"
   ],
-  "generated_at": "2025-09-09T04:19:07.727Z"
+  "generated_at": "2025-09-09T05:31:32.971Z"
 }

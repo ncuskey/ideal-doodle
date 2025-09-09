@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a49cec55",
+  "checksum": "fnv1a_2b742f43",
   "burg_id": 114,
-  "name": "Burg_114",
-  "state_id": -1,
+  "name": "Rauricorum",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "coastal",
-    "ritual-trade"
+    "river-port",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-component trade",
     "fishing",
-    "waystation"
+    "river-trade",
+    "ritual-labor",
+    "boat-repair"
   ],
   "factions_local": [
-    "saltwrights' syndicate",
-    "shrine-cabal",
-    "itinerant merchants"
+    "Rivermasters' Guild",
+    "Ancestor-Remembrance Circle",
+    "Dockworkers' Cooperative",
+    "Smugglers' Network"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids on supply routes",
-    "bureaucratic graft"
+    "reagent-scarcity",
+    "seasonal-flooding",
+    "banditry",
+    "local-corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Island Creole accent dominant",
-    "ritualized barter and gift-giving",
-    "salt-preserved diets; smoked fish staples"
+    "Riveric Dialect dominant",
+    "Boat-centric customs and kinship ties",
+    "Annual river-ancestor festival",
+    "Diet: smoked fish, riverweed"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing reagent shipment",
-    "shrine desecration"
+    "reagent-smuggling",
+    "disappearing-ferries",
+    "ancestor-curse"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace seamanship"
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "population unknown; transient merchant presence",
-    "resupply point for coastal traders",
-    "limited combustion industry — small furnaces only"
+    "Near-medieval tech with localized ritual magic",
+    "Navigational auguries used but charts/seamanship required",
+    "Population data unknown; functions as small port"
   ],
-  "generated_at": "2025-09-09T04:10:06.914Z"
+  "generated_at": "2025-09-09T23:09:00.381Z"
 }

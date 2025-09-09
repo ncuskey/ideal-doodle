@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_high_mire",
+  "checksum": "fnv1a_586aaeda",
+  "name": "High Mire",
+  "aliases": [
+    "The Mire",
+    "Boglands"
+  ],
+  "tags": [
+    "wetland",
+    "peat-basin",
+    "reagent-source",
+    "raft-clans"
+  ],
+  "role_in_state": "Source of ritual reagents and specialized wetland materials",
+  "economy_niches": [
+    "peat-reagent extraction & distillation",
+    "reeds/thatch and boat-lattice production",
+    "silt-fishing and eel-trapping",
+    "bog-salt & evaporite harvesting",
+    "swamp-oak salvage for timbers"
+  ],
+  "culture_adjustments": [
+    "raft-clan kinship stronger than river-house ties",
+    "labor calendar keyed to peat-thaw rather than flood-crest",
+    "secretive foraging rites controlled by local guilds",
+    "taboos on open burning; peat-smoke ritualized",
+    "oral navigational lore emphasizes poling and peat-channels"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation",
+    "peat-fire",
+    "marsh-borne fevers",
+    "reagent-poaching / guild conflict"
+  ],
+  "constraints": [
+    "poor overland access; waterways seasonally choked",
+    "limited arable land — grain output low",
+    "heavy-industry unsuitable on unstable peat",
+    "guild monopolies restrict free trade in reagents"
+  ],
+  "notes": [
+    "key supplier for the state's ritual-reagent commerce",
+    "few large burgs; dispersed bog-houses and processing camps",
+    "bog-burial sites reinforce ancestor cult authority"
+  ],
+  "generated_at": "2025-09-09T05:02:04.317Z"
+}

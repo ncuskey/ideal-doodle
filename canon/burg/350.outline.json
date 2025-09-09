@@ -1,30 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_597aa135",
+  "checksum": "fnv1a_8db3475a",
   "burg_id": 350,
-  "name": "Burg_350",
+  "name": "Portsham",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-supply"
+    "port",
+    "market-haven",
+    "tideward"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-depot",
     "fishing",
-    "transit-stop"
+    "coastal-trade",
+    "shipwrights",
+    "salt-curing"
   ],
   "factions_local": [
-    "harbormaster",
-    "ritual-house",
-    "coastal-traders",
-    "watch-crew"
+    "harbormasters",
+    "fisherfolk-coop",
+    "merchant-guildlet",
+    "tide-singers"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "seasonal-isolation"
+    "harbor-siltation",
+    "smuggling",
+    "resource-scarcity",
+    "corrupt-marshall"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -32,23 +35,23 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue with island loanwords",
-    "salt-preserved cuisine",
-    "tide-prayer nights"
+    "Coastal Tongues dialect with nautical idioms",
+    "annual tide-festival and boat-blessing rites",
+    "diet heavy on pickled fish and seamoss stews"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-fishermen"
+    "missing-fishing-crew",
+    "ritual-reagent-theft"
   ],
   "constraints": [
     "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "navigational-auguries-cannot-replace-seamanship"
+    "navigational-augury-limited",
+    "ritual-magic-uses-scarce-reagents"
   ],
   "notes": [
-    "small pier; seasonal surf hazards",
-    "local economy tied to passing coasters"
+    "sheltered bay but shallow approach limits larger ships",
+    "local economy depends on seasonal herring runs"
   ],
-  "generated_at": "2025-09-09T04:25:59.121Z"
+  "generated_at": "2025-09-09T05:38:08.247Z"
 }

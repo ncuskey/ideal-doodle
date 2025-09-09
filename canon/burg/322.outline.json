@@ -1,56 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_44baa54f",
+  "checksum": "fnv1a_b37055e9",
   "burg_id": 322,
-  "name": "Burg_322",
+  "name": "Honk",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
-    "coastal",
-    "ritual-stop"
+    "riverine",
+    "ritual-port"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "reagent trade",
-    "ship provisioning",
-    "inn/waystation"
+    "ritual-supplies",
+    "small-scale trade"
   ],
   "factions_local": [
-    "Harbormaster's Office",
-    "Reagent Merchant Guild",
-    "Ancestor-Remembrance Shrine",
-    "Smuggler Ring"
+    "harbor-guild",
+    "ritual-cabals",
+    "clan-elders"
   ],
   "problems": [
-    "scarce imported reagents",
-    "smuggling",
-    "storm damage",
-    "periodic bandit raids"
+    "scarce-imports",
+    "banditry",
+    "ritual-component shortages"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "seafood- and kelp-centered cuisine",
-    "ritualized harbor blessings before voyages",
-    "suspicious of outsiders during reagent shortages"
+    "speaks Riveric Dialect with Coastal Tongue borrowings",
+    "call-and-response boat songs",
+    "seafood- and reed-mash cuisine",
+    "strong taboos around handling bones"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual mishap",
-    "missing reagent shipment"
+    "missing-fishermen",
+    "ritual-component theft"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and locally banned",
-    "ritual magic consumes scarce imported reagents; trade-dependent"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind influence; strict local enforcement"
   ],
   "notes": [
-    "population small; seasonal crews swell numbers",
-    "minor harbor on a coastal trade lane; strategic for reagent transshipment"
+    "small, transient population; seasonal work",
+    "settles a reed-lined estuary; name likely onomatopoeic"
   ],
-  "generated_at": "2025-09-09T04:24:03.824Z"
+  "generated_at": "2025-09-09T05:36:00.958Z"
 }

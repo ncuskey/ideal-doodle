@@ -1,57 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_403a0847",
+  "checksum": "fnv1a_d50dac6a",
   "burg_id": 465,
-  "name": "Burg_465",
+  "name": "Pyreaz",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "harbor",
-    "ritual-port"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-chandlering",
-    "transshipment",
-    "smuggling"
+    "ritual pyre services",
+    "bonecraft and relic trade",
+    "riverine ferrying of remains",
+    "hearth-apothecary"
   ],
   "factions_local": [
-    "Dockmasters' Circle",
-    "Saltwright Guild",
-    "Tidewatch Militia",
-    "Smugglers' Ring"
+    "Pyreaz Pyre-Keepers",
+    "Bonewright Guild",
+    "River Ferryoperators",
+    "Militia Council"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "bandit raids",
-    "corrupt dockmasters"
+    "reagent scarcity for rites",
+    "banditry on river approaches",
+    "tensions over funeral fees"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with clipped vowels",
-    "departure rites and tide-offerings common",
-    "diet heavy on smoked fish and seaweed",
-    "communal net-mending and ritual weaving"
+    "speaks a Riveric Dialect variant",
+    "elaborate cremation rites central to identity",
+    "diet accents smoked/charred foods",
+    "strong taboos around disturbing ash"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "disappearing sailors",
-    "reagent theft"
+    "missing pyre-keeper",
+    "heritage dispute"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Navigational auguries cannot replace charts or seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind control"
   ],
   "notes": [
-    "State jurisdiction unknown; semi-autonomous port",
-    "Population unknown; highly seasonal traffic",
-    "Small strategic harbor on a treacherous coast"
+    "population unknown; seasonal influx for funerary season",
+    "minor river waypoint for nearby settlements"
   ],
-  "generated_at": "2025-09-09T04:33:50.619Z"
+  "generated_at": "2025-09-09T05:45:22.024Z"
 }

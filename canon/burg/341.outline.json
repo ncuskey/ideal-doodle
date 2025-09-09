@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_40bbf075",
+  "checksum": "fnv1a_b687017f",
   "burg_id": 341,
-  "name": "Burg_341",
+  "name": "Slofta",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-haven"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "ritual-supply depot",
+    "coastal",
     "fishing",
-    "small-scale trade"
+    "waystation"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "seaweed/kelp-harvest",
+    "ritual-reagent trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "river-clan elders",
-    "merchant-shipwrights",
-    "ritual-guild"
+    "Tide-kin fishermen",
+    "Reef Priests (Sea-Tide animists)",
+    "Harbor Guild",
+    "Smugglers' Knot"
   ],
   "problems": [
-    "scarce reagents",
-    "seasonal flooding",
-    "bandit raids"
+    "reagent scarcity for rituals",
+    "harbor siltation and storm damage",
+    "smuggling-related violence"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with soft sibilants",
-    "Ancestor-veneration days shape labor cycles",
-    "Diet heavy on smoked fish and river greens"
+    "Coastal Tongues dialect with Island Creole influences",
+    "diet: salted fish, kelp preserves, smoked shellfish",
+    "seasonal reef-offering rituals",
+    "boat-carving and net-mending traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-supply theft",
-    "flood relief"
+    "reagent shortage",
+    "reef curse"
   ],
   "constraints": [
-    "Ritual magic consumes imported reagents or specialized labor",
-    "No instant resurrection or true life-replacement magics",
-    "Combustion-derived industry limited; no high-pressure steam megatechs"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Population unknown; transient traders common",
-    "Navigational auguries used but do not replace charts"
+    "population unknown; small harbor and landing",
+    "accessible by coastal track and small coastal vessels; uses navigational auguries"
   ],
-  "generated_at": "2025-09-09T04:25:20.963Z"
+  "generated_at": "2025-09-09T05:37:12.077Z"
 }

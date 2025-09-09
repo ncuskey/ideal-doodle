@@ -1,51 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_38966653",
+  "checksum": "fnv1a_766ad696",
   "burg_id": 272,
-  "name": "Burg_272",
-  "state_id": -1,
+  "name": "Bryb",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-node"
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual-lab/altar services",
-    "local trading post"
+    "small-harbor",
+    "ritual-component-trade",
+    "fisheries",
+    "smuggling-waypoint"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Priests",
-    "Smuggler Cell"
+    "harbormasters' council",
+    "component-vendors",
+    "Sea-Tide shrinekeepers",
+    "smugglers' cell"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "isolation/poor overland links",
-    "periodic banditry"
+    "reagent scarcity",
+    "smuggling",
+    "banditry at sea"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric-influenced dialect",
-    "seafood-and-smoked-cuisine",
-    "rituals tied to imported reagents"
+    "Coastal Tongue dialect with Island Creole loanwords",
+    "seafood-centric diet; preserved fish staples common",
+    "dockside ritual gift-exchange and strong tide superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-priest"
+    "missing-fisherfolk",
+    "ritual-ingredient theft"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magic",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
     "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline with localized ritual magic",
-    "navigational auguries used but seamanship needed"
+    "near-medieval to early-industrial tech baseline with localized ritual magic",
+    "population unknown; functions as a small coastal outpost",
+    "serves as a waypoint for ships and ritual supply lines"
   ],
-  "generated_at": "2025-09-09T04:20:21.252Z"
+  "generated_at": "2025-09-09T05:32:48.477Z"
 }

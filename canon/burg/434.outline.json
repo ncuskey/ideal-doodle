@@ -1,55 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c1e49c93",
+  "checksum": "fnv1a_4d5077f2",
   "burg_id": 434,
-  "name": "Burg_434",
+  "name": "Paas",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-hub",
-    "waystation"
+    "fishing",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-supply-trade",
-    "waystation-provisions",
-    "small-scale-smuggling"
+    "ritual reagent trade",
+    "boatbuilding",
+    "local market/trade"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-venders",
-    "kinship-clans"
+    "Fishermen's Guild",
+    "Tide-Calling Circle",
+    "Dockmaster's Cabal",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "scarcity-of-imported-reagents",
-    "banditry-along-coast",
-    "jurisdictional-disputes"
+    "reagent scarcity",
+    "smuggling",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialects prevalent",
-    "sea-salted cuisine, smoked fish",
-    "ritual market days tied to tide calendars"
+    "Coastal Tongues with Riveric loanwords",
+    "seafood- and kelp-based cuisine",
+    "tide festivals with small ritual barges"
   ],
   "quest_hook_slots": [
-    "missing-reagent-shipment",
-    "wreck-salvage",
-    "smuggling-ring"
+    "smuggling",
+    "reagent shortage",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant-resurrection or life-replacement magics",
-    "limited-combustion industry"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind control or instant resurrection"
   ],
   "notes": [
-    "state unknown; strategic minor waystation",
-    "dependent on coastal trade and ritual supply lines"
+    "near-medieval/early-industrial tech with local ritual craft",
+    "navigational auguries used but do not replace charts/seamanship"
   ],
-  "generated_at": "2025-09-09T04:31:32.348Z"
+  "generated_at": "2025-09-09T05:43:23.413Z"
 }

@@ -1,57 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f3952b97",
+  "checksum": "fnv1a_99109892",
   "burg_id": 362,
-  "name": "Burg_362",
+  "name": "Creton",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "river-node",
-    "ritual-hub"
+    "coastal",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-reagent trade",
-    "boat-repair",
-    "small-scale agriculture"
+    "local trade",
+    "ritual reagent market",
+    "ship repair"
   ],
   "factions_local": [
-    "harbor-masters",
-    "reagent-collectors",
-    "coastal-merchants",
-    "smugglers"
+    "Harbormasters' Guild",
+    "Merchant Brotherhood chapel",
+    "Old-Tide family",
+    "Smuggler ring"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry on supply routes",
-    "seasonal flooding"
+    "banditry at night",
+    "corrupt port officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Riveric loanwords",
-    "public reagent-exchange rituals",
-    "diet: salt-cured and fermented fish",
-    "local craft: boatwrighting and net-making"
+    "Coastal Tongues dialect dominant",
+    "seafood-heavy cuisine",
+    "ritual barter customs for magic components"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "rising-tide evacuation"
+    "reagent theft",
+    "missing lighthouse keeper"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry (no high-pressure steam megatech)"
+    "no instant resurrection",
+    "long-range mind influence banned",
+    "ritual magic requires scarce reagents"
   ],
   "notes": [
-    "population unknown; functions as small supply node",
-    "strategic for river/sea access and reagent collection"
+    "Population unknown; daytime transient sailors inflate numbers",
+    "Navigational auguries exist but charts and seamanship remain essential"
   ],
-  "generated_at": "2025-09-09T04:26:38.806Z"
+  "generated_at": "2025-09-09T05:38:32.902Z"
 }

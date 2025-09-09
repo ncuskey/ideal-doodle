@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_main_market_harbor_district",
+  "checksum": "fnv1a_5fdda01",
+  "name": "Main Market (Harbor District)",
+  "aliases": [
+    "Harbor Market",
+    "Main Quay Market",
+    "Quayward"
+  ],
+  "tags": [
+    "market",
+    "harbor",
+    "transshipment",
+    "guild-hub",
+    "provisioning"
+  ],
+  "role_in_state": "Primary transshipment and provisioning hub for maritime trade",
+  "economy_niches": [
+    "Ship provisioning and victualing",
+    "Transshipment/logistics and local warehousing",
+    "Import, storage and redistribution of ritual reagents",
+    "Fish curing and salt-based preservation",
+    "Boat repair/short-run shipwright services"
+  ],
+  "culture_adjustments": [
+    "Merchant-guild ritual forms blended into everyday tide rites",
+    "More multilingual/commercial speech (loanwords from Island Creole)",
+    "Kinship tied to vessel-ownership rather than plots of land",
+    "Practical commodification of navigation lore (paid reef-chants, lead-node readers)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge/flooding",
+    "fire in dense timber stalls",
+    "smuggling and illicit reagent trade",
+    "guild conflict over quay rights"
+  ],
+  "constraints": [
+    "Quay-space fixed; vertical stacking and jetties limit expansion",
+    "Guild charters tightly regulate who may sell or store reagents",
+    "Ritual magic dependent on scarce imported reagents — supply-sensitive"
+  ],
+  "notes": [
+    "State's main node for imported ritual reagents and salt-forwarding",
+    "Informal credit via kin-boat liens and guild bills of exchange"
+  ],
+  "generated_at": "2025-09-09T05:05:24.789Z"
+}

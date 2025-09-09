@@ -1,51 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_baec62f3",
+  "checksum": "fnv1a_5242d423",
   "burg_id": 104,
-  "name": "Burg_104",
-  "state_id": -1,
+  "name": "Oz'jash",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "outpost",
+    "reagent-depot"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "lightkeeping",
-    "harbor provisioning",
-    "reagent relay",
-    "fishing/sea-harvest"
+    "reagent depot",
+    "trade relay",
+    "caravan stop",
+    "ritual-supply workshops"
   ],
   "factions_local": [
-    "Lighthouse Guild",
-    "Reagent Merchants' Consortium",
-    "Ancestor Shrine Keepers",
-    "Smugglers' Knot"
+    "Reagent Merchants' Ring",
+    "Ancestor-Remembrance circle",
+    "Caravanmasters' Guild",
+    "Local militia"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "storm damage to infrastructure",
-    "banditry along supply routes"
+    "reagent scarcity",
+    "bandit ambushes",
+    "isolation",
+    "smuggling"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues primary; Island Creole influences in slang",
-    "tide-and-light rituals tied to safe passage",
-    "salt-preservation cuisine; seaweed and dried fish staples"
+    "Riveric-influenced Coastal Tongue loanwords",
+    "ritualized trade offerings common",
+    "salt-preserved cuisine; spiced teas"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "beacon failure",
-    "reagent theft"
+    "missing caravan",
+    "tainted reagent"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents and specialized labor"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population data unknown; strategic coastal waypoint",
-    "records spotty—local oral histories important"
+    "small garrison; seasonal caravan traffic",
+    "navigational auguries available but cannot replace charts"
   ],
-  "generated_at": "2025-09-09T04:09:33.188Z"
+  "generated_at": "2025-09-09T23:08:33.954Z"
 }

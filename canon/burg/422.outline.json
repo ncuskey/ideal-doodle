@@ -1,53 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d5172ed9",
+  "checksum": "fnv1a_450da479",
   "burg_id": 422,
-  "name": "Burg_422",
-  "state_id": -1,
+  "name": "Kleab",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-trading"
+    "riverine",
+    "market",
+    "ritual-reagents"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishery",
-    "ritual reagent brokerage",
-    "waystation/harbor services"
+    "river-trade",
+    "reagent-processing",
+    "fishing",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbormasters' cooperative",
-    "ritual brokers' network",
-    "ancestral-priesthood cell"
+    "Rivermen's Syndicate",
+    "Temple-Stewards",
+    "Marketmasters"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "occasional raiding"
+    "reagent-scarcity",
+    "seasonal-flooding",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Island Creole loanwords",
-    "seafood-and-salt-forward cuisine",
-    "strong seafarer ancestor-veneration customs"
+    "Riveric dialect dominant",
+    "market-day ritual offerings",
+    "diet: smoked and pickled fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances"
+    "reagent-shortage",
+    "disappearing-barges"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry (no high-pressure steam megatechs)"
+    "relies on imported ritual reagents",
+    "no high-pressure industrialization",
+    "long-range mind-influence banned"
   ],
   "notes": [
-    "navigational auguries used but do not replace charts/skill",
-    "population unknown; settlement acts as coastal waypoint"
+    "near-medieval to early-industrial tech base",
+    "population unknown; transient river traffic dominates"
   ],
-  "generated_at": "2025-09-09T04:30:41.980Z"
+  "generated_at": "2025-09-09T05:42:41.557Z"
 }

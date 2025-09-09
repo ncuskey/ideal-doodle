@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_saltflats",
+  "checksum": "fnv1a_8e1c8f43",
+  "name": "Saltflats",
+  "aliases": [
+    "Salt Flats",
+    "Brineplain"
+  ],
+  "tags": [
+    "coastal",
+    "salt-production",
+    "evaporation-basins",
+    "re-export"
+  ],
+  "role_in_state": "Primary salt and preserved-goods supplier; low-cost re-export node",
+  "economy_niches": [
+    "salt-processing and bulk export",
+    "fish-salting and preserved seafood",
+    "brine-cultivation of ritual reagent halophytes",
+    "evaporation-works and fuel-dependent drying services",
+    "tidal-harbor repair and light ship provisioning"
+  ],
+  "culture_adjustments": [
+    "strong clan-house control of flat leases and labor gangs",
+    "seasonal migrant workforce from islander communities accepted as norm",
+    "practical, austerely ritualized tide-auguries tuned to mirage and salt-lines",
+    "weaker independent guild autonomy; merchant-patron networks dominate local trade"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal inundation and storm surge",
+    "soil salinization limiting agriculture",
+    "theft of ritual reagents and salted stores",
+    "fires at evaporation works",
+    "seasonal access cut by extreme tides"
+  ],
+  "constraints": [
+    "severe freshwater scarcity limits population growth",
+    "evaporation industry reliant on imported fuels/reagents",
+    "land tenure tied to clan-house patronage restricts outside investment"
+  ],
+  "notes": [
+    "strategic for state maritime economy despite low settlement density",
+    "local tide-charts and auguries essential for safe hauling and drying"
+  ],
+  "generated_at": "2025-09-09T05:05:59.192Z"
+}

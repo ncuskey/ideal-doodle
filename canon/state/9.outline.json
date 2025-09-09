@@ -4,28 +4,26 @@
   "checksum": "fnv1a_6fdad961",
   "name": "State_9",
   "aliases": [
-    "The Narrow Coast",
-    "Ninefold Port"
+    "Harbor of Nine",
+    "Ninefold Coast"
   ],
   "timeline_beats": [
     {
       "id": "T1",
-      "label": "Founding of port confederacy",
-      "ybp": 3800,
+      "label": "Founding of the coastal cluster",
+      "ybp": 4200,
       "refs_world_events": []
     },
     {
       "id": "T2",
-      "label": "Pirate Suppression Campaign participation",
-      "ybp": 1500,
-      "refs_world_events": [
-        "W3"
-      ]
+      "label": "Consolidation under Shipwright Guild",
+      "ybp": 3200,
+      "refs_world_events": []
     },
     {
       "id": "T3",
-      "label": "Great Naval War engagements",
-      "ybp": 800,
+      "label": "Major naval engagement in the Great Naval War",
+      "ybp": 900,
       "refs_world_events": [
         "W1"
       ]
@@ -33,54 +31,62 @@
     {
       "id": "T4",
       "label": "Entry into Coastal Defense Compact",
-      "ybp": 100,
+      "ybp": 520,
       "refs_world_events": [
         "A2"
+      ]
+    },
+    {
+      "id": "T5",
+      "label": "Participation in Pirate Suppression Campaign",
+      "ybp": 120,
+      "refs_world_events": [
+        "W3"
       ]
     }
   ],
   "factions": [
     {
-      "id": "F9a",
-      "label": "Maritime Guild",
-      "influence_hint": "dominant economic / port-licensing power"
+      "id": "F1",
+      "label": "Shipwright Guild",
+      "influence_hint": "Controls docks, ship construction and trade tariffs; dominant in coastal towns"
     },
     {
-      "id": "F9b",
-      "label": "Tidal Priesthood",
-      "influence_hint": "controls ritual auguries and harbor rites"
+      "id": "F2",
+      "label": "Harbor Lord Council",
+      "influence_hint": "Hereditary maritime aristocracy; coordinates defense and diplomacy"
     },
     {
-      "id": "F9c",
-      "label": "Dockworkers' Commune",
-      "influence_hint": "labor force; periodic strike leverage"
+      "id": "F3",
+      "label": "Salt & Fish Consortium",
+      "influence_hint": "Controls preservation works and export networks; merchant wealth"
     },
     {
-      "id": "F9d",
-      "label": "Coastal Navy Directorate",
-      "influence_hint": "state military, ship patrols and blockades"
+      "id": "F4",
+      "label": "Tide-College (augury cultists)",
+      "influence_hint": "Regulates navigational auguries and ritual reagents; technical-religious authority"
     },
     {
-      "id": "F9e",
-      "label": "Merchant Houses",
-      "influence_hint": "merchant oligarchy; overseas networks"
+      "id": "F5",
+      "label": "Coastal Home Guard",
+      "influence_hint": "Local militia; rising influence after pirate-era mobilizations"
     }
   ],
   "economy_pillars": [
-    "maritime trade",
     "shipbuilding",
-    "saltworks",
-    "fisheries",
-    "navigational-augury services"
+    "maritime trade",
+    "salted/fish exports",
+    "navigational-augury services",
+    "kelp/seaweed processing"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "shipwright technical registers",
-      "ritualized seamanship and launch ceremonies",
-      "port-dialect mercantile idioms",
-      "clan-based harbor kinship",
-      "pragmatic, contract-focused ethics"
+      "seafaring apprenticeship and guild rites",
+      "communal rope-and-net work festivals",
+      "practical charter-based law for ports",
+      "ritual respect for seasonal winds and shoals",
+      "trade-oriented pragmatism with patronage networks"
     ]
   },
   "religion": {
@@ -93,42 +99,51 @@
   },
   "regions": [
     {
-      "id": "R9-1",
-      "label": "Ninefold Port",
+      "id": "R1",
+      "label": "Harbor City",
       "tags": [
         "trade-hub",
-        "coastal"
+        "fortified"
       ]
     },
     {
-      "id": "R9-2",
-      "label": "Saltwater Marshes",
+      "id": "R2",
+      "label": "Outer Shoals",
       "tags": [
         "coastal",
-        "resource-salt"
+        "fishing-grounds"
       ]
     },
     {
-      "id": "R9-3",
-      "label": "Cliffwatch Strand",
+      "id": "R3",
+      "label": "Saltmarch Flats",
       "tags": [
         "coastal",
-        "naval-outpost"
+        "resource"
       ]
     },
     {
-      "id": "R9-4",
-      "label": "Isle of Lores",
+      "id": "R4",
+      "label": "Estuary Delta",
       "tags": [
-        "island",
-        "ritual-site"
+        "trade-hub",
+        "fertile"
       ]
     },
     {
-      "id": "R9-5",
-      "label": "Lower Drylands",
+      "id": "R5",
+      "label": "Shipwright Quarter",
       "tags": [
-        "agricultural"
+        "trade-hub",
+        "industry"
+      ]
+    },
+    {
+      "id": "R6",
+      "label": "Windcliff Lookouts",
+      "tags": [
+        "coastal",
+        "watch"
       ]
     }
   ],
@@ -150,17 +165,18 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned; state rituals must not enable it",
     "Navigational auguries cannot replace charts and seamanship",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)",
-    "Ritual magic consumes scarce imported reagents or specialized labor"
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Ritual magic consumes scarce imported reagents and specialized guild labor"
   ],
   "notes": [
-    "Heavily dependent on imported ritual reagents for major launch/augury rites",
-    "Strategic choke-points: Ninefold Port channels and Cliffwatch batteries",
-    "Naval and merchant factions dominate politics; labor unrest affects port throughput",
-    "Augury services are a tradable export but cannot substitute skilled sailors"
+    "Strategic chokepoint: Twin Narrows at Harbor City entrance",
+    "Seasonal monsoon/wind windows govern major sail convoys",
+    "Key imported reagents (brine-amber, star-salt) controlled by Tide-College and merchant houses",
+    "Shipwright Guild holds near-monopoly on large-hull construction; guild licenses shape politics",
+    "Naval obligations to Coastal Defense Compact affect fleet allocations and taxes"
   ],
-  "generated_at": "2025-09-09T03:54:29.871Z"
+  "generated_at": "2025-09-09T05:01:35.485Z"
 }

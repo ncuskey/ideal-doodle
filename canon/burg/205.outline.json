@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5db70ec3",
+  "checksum": "fnv1a_e4d5066d",
   "burg_id": 205,
-  "name": "Burg_205",
-  "state_id": 0,
+  "name": "Lugrolirina",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "unmapped",
-    "coastal-outpost"
+    "harbor",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "reagent brokerage",
-    "waystation/harbor services",
-    "scavenged salvage trade"
+    "ritual reagent trading",
+    "boatbuilding",
+    "fish-curing",
+    "local market trade"
   ],
   "factions_local": [
-    "harbor-master crew",
-    "reagent runners",
-    "ancestor-shrine custodians"
+    "Tide-Reader Concord",
+    "Merchants' Fraternity",
+    "Ancestor House Kral",
+    "Harbor Watch"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "smuggling and illicit trade",
-    "isolation during storms"
+    "scarce ritual reagents",
+    "smuggling and banditry",
+    "seasonal tidal floods"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole with Coastal Tongues loanwords",
-    "tide-honoring communal rituals",
-    "diet focused on salted fish and preserved seaweed"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "household ancestor offerings at thresholds",
+    "sea-salted cuisine; fermented fish staples",
+    "driftwood amulets and carved talismans common"
   ],
   "quest_hook_slots": [
-    "missing reagent shipments",
-    "smuggling ring",
-    "shrine desecration"
+    "smuggling",
+    "missing-ritual-reagents",
+    "ancestral-vision"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no long-range mind-influence; navigational auguries limited"
+    "Rituals require scarce imported reagents",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and banned"
   ],
   "notes": [
-    "population unknown; likely transient and seasonal",
-    "acts as local waypoint for small coasters and reagent couriers"
+    "small strategic harbor near shoals; reliant on maritime trade",
+    "local ritual labs depend on merchant import networks"
   ],
-  "generated_at": "2025-09-09T04:15:55.236Z"
+  "generated_at": "2025-09-09T05:28:28.973Z"
 }

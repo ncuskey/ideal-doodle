@@ -1,53 +1,60 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_23577353",
+  "checksum": "fnv1a_6a4cb65d",
   "burg_id": 337,
-  "name": "Burg_337",
+  "name": "Wineford",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-harbor",
-    "ritual-trade"
+    "river-crossing",
+    "vineyards",
+    "market-town"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent brokerage",
-    "boatbuilding",
-    "salt/fish curing",
-    "ritual services"
+    "viticulture",
+    "ferry_tolls",
+    "innkeeping",
+    "cooperage",
+    "local_market"
   ],
   "factions_local": [
-    "Harbormasters' Syndicate",
-    "Ancestor Circle",
-    "Tide-Pact Ritual House"
+    "Vintners Guild",
+    "Ferrymasters' Brotherhood",
+    "Lord's Bailiff",
+    "Tavernkeepers' Circle"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal flooding",
-    "smuggling gangs"
+    "seasonal_flooding",
+    "vine_blight",
+    "smuggling",
+    "banditry"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect variant dominant",
-    "ritualized trade etiquette governs transactions",
-    "cuisine centers on salted fish and river greens"
+    "Riveric Dialect dominant",
+    "harvest wine rites and festivals",
+    "funeral libations common",
+    "ferry superstitions around river-spirits"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "spirit placation"
+    "crop_disease",
+    "ferry_dispute"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magic",
-    "Ritual magic consumes scarce imported reagents",
-    "Navigational auguries cannot replace charts or seamanship"
+    "ritual_magic_requires_scarce_materials",
+    "no_instant_resurrection_or_life-replacement",
+    "limited_combustion_industry"
   ],
   "notes": [
-    "Small river-mouth outpost serving inland trade routes",
-    "Population and formal state ties undocumented"
+    "ford is a small but strategic trade node",
+    "population unknown/seasonal (vintage influx)",
+    "annual vintage fair draws regional traffic"
   ],
-  "generated_at": "2025-09-09T04:25:01.249Z"
+  "generated_at": "2025-09-09T05:36:57.795Z"
 }

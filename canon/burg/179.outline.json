@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_342fe5a3",
+  "checksum": "fnv1a_3f2b6c15",
   "burg_id": 179,
-  "name": "Burg_179",
-  "state_id": 0,
+  "name": "Cisipinium",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-lab"
+    "outpost",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "salt-harvest",
-    "ritual-supply trade",
-    "harbor-services"
+    "reagent-trade",
+    "mariner-support",
+    "smuggling"
   ],
   "factions_local": [
-    "shipowners' guild",
-    "ritual-smiths",
-    "tidal-priesthood"
+    "harbor-masters",
+    "ritual-scribes",
+    "saltworkers' cooperative",
+    "smuggler-ring"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry",
-    "resource-depletion"
+    "reagent-scarcity",
+    "banditry/alley-smuggling",
+    "silted-anchorages",
+    "tension between guilds"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in speech",
-    "sea-salting and smoked-fish cuisine",
-    "rituals tied to tides and drift-reagents"
+    "Coastal Tongues dialect",
+    "mariner superstitions dominate",
+    "ritual-harvest week",
+    "preserved-fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "strange-tide omens",
-    "missing-reagent shipments"
+    "reagent-run",
+    "sea-monster/strange-tide"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and banned"
+    "no-instant-resurrection",
+    "rituals consume scarce imported reagents",
+    "limited combustion industry"
   ],
   "notes": [
-    "Near-medieval to early-industrial baseline",
-    "Navigational auguries in use",
-    "State affiliation unknown"
+    "population unknown; poor records",
+    "small strategic anchorage near ruins"
   ],
-  "generated_at": "2025-09-09T04:14:10.671Z"
+  "generated_at": "2025-09-09T05:26:56.764Z"
 }

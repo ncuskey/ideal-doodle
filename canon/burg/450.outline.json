@@ -1,57 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1efc4253",
+  "checksum": "fnv1a_26760e07",
   "burg_id": 450,
-  "name": "Burg_450",
-  "state_id": -1,
+  "name": "Grugvidh",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "ritual-augury",
-    "waystation"
+    "harbor",
+    "ritual-shore"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "small-scale fishing",
-    "augury services (navigational)",
-    "transshipment/waypoint trade",
-    "salt and cured fish production"
+    "ritual-labor supply",
+    "boat maintenance",
+    "local trade"
   ],
   "factions_local": [
-    "Augury Guild (local augurs)",
-    "Fisherfolk Council",
-    "Small-time smugglers",
-    "Shrine Circle (Sea-Tide animists)"
+    "Fisherfolk Cooperative",
+    "Tide-Singers (animists)",
+    "Harborwrights",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarce imported reagents",
-    "seasonal storm isolation",
-    "smuggling and tariff evasion"
+    "scarce ritual reagents",
+    "smuggling networks",
+    "tidal flooding",
+    "limited overland access"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "ship-blessing and tide-offering rituals common",
-    "diet heavy on salted fish and fermented sea vegetables",
-    "crafts: driftwood talismans and navigational charts with ritual marks"
+    "Coastal Tongues dialect",
+    "boatbuilding craft tradition",
+    "fermented kelp cuisine",
+    "ancestor-boat rituals at launch"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagents",
-    "failed augury / lost convoy"
+    "reagent theft",
+    "shrine collapse"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries cannot replace charts or seamanship",
-    "rituals consume scarce imported reagents"
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "population unknown; pitch as small, tightly knit harbor community"
+    "navigational auguries used but do not replace charts or seamanship",
+    "near-medieval to early-industrial tech baseline"
   ],
-  "generated_at": "2025-09-09T04:32:42.636Z"
+  "generated_at": "2025-09-09T05:44:28.576Z"
 }

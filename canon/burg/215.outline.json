@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_32376c95",
+  "checksum": "fnv1a_909753a9",
   "burg_id": 215,
-  "name": "Burg_215",
+  "name": "Gafordge",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-haven"
+    "river-port",
+    "smithing",
+    "toll-gate"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-labour",
-    "waystation",
-    "small-scale repair"
+    "river tolls & ferries",
+    "forgework (ritual metalwares)",
+    "ritual-component packing",
+    "local trade hub"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritualist-collective",
-    "coast-watch"
+    "Guild of Gate-Smiths",
+    "Tollmaster's Council",
+    "Riverbaron petty-house",
+    "Shrine caretakers"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry",
-    "reagent-shortage"
+    "river piracy/smuggling",
+    "shortage of imported ritual reagents",
+    "corrupt toll collection"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Island Creole dialect",
-    "seaweed-and-fish staples",
-    "oral navigational chants"
+    "Riveric dialect dominant with Coastal Tongues loanwords",
+    "Forge-festival and bell-toll ancestry rites",
+    "diet: smoked/salted fish, iron-rich stews"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "ominous-tide-omen"
+    "cursed/unstable forge artifact",
+    "tollhouse power struggle"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection / life-replacement",
-    "limited-combustion industry"
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence rare and institutionally banned",
+    "No high-pressure steam; limited combustion industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech",
-    "small coastal rest-stop, population n/a"
+    "Name = gate/forge — town built around a defended river crossing",
+    "Population unknown; strategic waypoint on inland river trade"
   ],
-  "generated_at": "2025-09-09T04:16:31.038Z"
+  "generated_at": "2025-09-09T05:29:15.639Z"
 }

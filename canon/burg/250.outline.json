@@ -1,59 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_65a99dd7",
+  "checksum": "fnv1a_5ad759be",
   "burg_id": 250,
-  "name": "Burg_250",
+  "name": "Abeven",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-hub",
-    "waystation"
+    "river-harbor",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-trade",
     "fishing",
-    "coastal-waypoint",
-    "smuggling"
+    "salt-curing",
+    "boat-repair",
+    "component-trade"
   ],
   "factions_local": [
-    "Sea-Tide shrine",
-    "Merchant Brotherhood agents",
-    "Fishermen's coop",
-    "Reagent brokers"
+    "fisher cooperative",
+    "ritual circle",
+    "shipwrights' guild"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling conflicts",
-    "supply delays"
+    "scarce ritual reagents",
+    "seasonal storms",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "strong seafaring superstitions",
-    "preserved fish and seaweed staples",
-    "ritual etiquette tied to trade deals"
+    "Riveric-influenced Coastal Tongue dialect",
+    "strong ancestor veneration; household shrines common",
+    "diet: preserved fish, seaweed, hardy grains"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "shipwreck salvage"
+    "tide-curse"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents; trade-dependent"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "navigational auguries present but limited",
-    "positioned on minor channel or reef for waystation role"
+    "pop ~250; minimal defenses",
+    "small hub for river/coastal traffic and ritual supply exchange"
   ],
-  "generated_at": "2025-09-09T04:18:59.199Z"
+  "generated_at": "2025-09-09T05:31:12.910Z"
 }

@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
 import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { buildNameMaps } from "../ingest/canonicalNames";
 
 type Json = any;
 const readJson = <T=any>(p: string): T | null => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return null; } };
@@ -33,6 +34,12 @@ function gatherBasics() {
     const pop = j?.population ?? j?.pop ?? undefined;
     return { id, name, coastal, pop, path: p };
   });
+
+  const { stateNameById } = buildNameMaps();
+  for (const s of states) {
+    const canon = stateNameById.get(s.id);
+    if (canon) s.name = canon; // override with canonical master JSON name
+  }
 
   return { world, interstate, states };
 }

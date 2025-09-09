@@ -4,47 +4,54 @@
   "checksum": "fnv1a_a82d027",
   "name": "State_4",
   "aliases": [
-    "Fourth Coast",
-    "State_4 Littoral"
+    "The Tideward Khanate",
+    "Port Confederacy"
   ],
   "timeline_beats": [
     {
-      "id": "TB1",
-      "label": "Consolidation as a coastal polity",
-      "ybp": 3700,
+      "id": "B1",
+      "label": "Confederation formed from coastal clans",
+      "ybp": 3800,
       "refs_world_events": []
     },
     {
-      "id": "TB2",
-      "label": "Entry into Maritime Trading League",
-      "ybp": 2600,
-      "refs_world_events": [
-        "A1"
-      ]
-    },
-    {
-      "id": "TB3",
-      "label": "Great Naval War (major naval engagements)",
+      "id": "B2",
+      "label": "Major naval engagement in Great Naval War",
       "ybp": 700,
       "refs_world_events": [
         "W1"
       ]
     },
     {
-      "id": "TB4",
-      "label": "Succession Crisis and coastal acquisition",
-      "ybp": 320,
+      "id": "B3",
+      "label": "Entry into Maritime Trading League",
+      "ybp": 400,
       "refs_world_events": [
-        "W4",
-        "BC3"
+        "A1"
       ]
     },
     {
-      "id": "TB5",
-      "label": "Open-Seas Treaty / integration into Sea Trade Union",
+      "id": "B4",
+      "label": "Ratification of Open-Seas Treaty",
+      "ybp": 200,
+      "refs_world_events": [
+        "T1"
+      ]
+    },
+    {
+      "id": "B5",
+      "label": "Coastal acquisition via Succession; related fighting",
       "ybp": 120,
       "refs_world_events": [
-        "T1",
+        "BC3",
+        "W4"
+      ]
+    },
+    {
+      "id": "B6",
+      "label": "Joining Sea Trade Union trade bloc",
+      "ybp": 80,
+      "refs_world_events": [
         "TB1"
       ]
     }
@@ -52,45 +59,45 @@
   "factions": [
     {
       "id": "F1",
-      "label": "Crown Navy",
-      "influence_hint": "state security, port control, high"
+      "label": "Harbor Guild",
+      "influence_hint": "dominant in customs, trade policy"
     },
     {
       "id": "F2",
-      "label": "Harbor Guilds",
-      "influence_hint": "trade regulation, shipwright patronage, dominant in ports"
+      "label": "Tideward Navy",
+      "influence_hint": "controls coastal defense and naval prestige"
     },
     {
       "id": "F3",
-      "label": "Tide-Priesthood",
-      "influence_hint": "navigation rites, local moral authority, strong on coasts"
+      "label": "Temple of Tides",
+      "influence_hint": "ritual authority over seamanship rites"
     },
     {
       "id": "F4",
-      "label": "Maritime Houses",
-      "influence_hint": "landed aristocracy with shiphold investments, political"
+      "label": "Dockworkers' Syndicate",
+      "influence_hint": "labor leverage at ports, rising influence"
     },
     {
       "id": "F5",
-      "label": "Freewheelers",
-      "influence_hint": "smuggling & informal networks, covert influence"
+      "label": "Island Notables",
+      "influence_hint": "provincial elite, local maritime levies"
     }
   ],
   "economy_pillars": [
-    "shipbuilding",
-    "coastal trade/port services",
-    "fishing & salted fish export",
-    "saltworks",
-    "imported ritual reagents & transshipment"
+    "shipbuilding & repairs",
+    "salted-fish & marine preserves",
+    "transshipment & re-export",
+    "navigational-augury services",
+    "ritual-reagent trade"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seafaring ethos and kinship by ship",
-      "port-dialect variants and loanwords from traders",
-      "guild-centered civic organization",
-      "navigation augury integrated into practice",
-      "pragmatic maritime legal codes"
+      "seafaring pragmatism",
+      "guild-centered civic identity",
+      "oral genealogical law",
+      "ritual-augury seamanship",
+      "pragmatic religious syncretism"
     ]
   },
   "religion": {
@@ -104,43 +111,42 @@
   "regions": [
     {
       "id": "R1",
-      "label": "Ravenport",
+      "label": "Port Hyl",
       "tags": [
         "coastal",
-        "trade-hub",
-        "shipyard"
+        "trade-hub"
       ]
     },
     {
       "id": "R2",
-      "label": "Saltmarch Basin",
+      "label": "Northern Shoals",
       "tags": [
         "coastal",
-        "saltworks"
+        "fishing-ground"
       ]
     },
     {
       "id": "R3",
-      "label": "Estuary Marches",
+      "label": "Saltmarch Flats",
       "tags": [
-        "estuary",
-        "fishing"
+        "coastal",
+        "salt-works"
       ]
     },
     {
       "id": "R4",
-      "label": "Outer Isle Chain",
+      "label": "Tidewatch Isles",
       "tags": [
-        "island",
-        "naval-outpost"
+        "coastal",
+        "naval-base"
       ]
     },
     {
       "id": "R5",
-      "label": "Old Harbor Quarter",
+      "label": "Lowland Hinter",
       "tags": [
-        "coastal",
-        "market"
+        "lowland",
+        "agricultural"
       ]
     }
   ],
@@ -180,16 +186,15 @@
     "No instant resurrection or true life-replacement magics",
     "Long-range mind influence is rare and institutionally banned",
     "Navigational auguries cannot replace charts and seamanship",
-    "Combustion-derived industry limited; no high-pressure steam megatechs",
     "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Must respect Open-Seas Treaty obligations (T1) and league rules (A1)"
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Must abide by Open-Seas Treaty (T1) obligations"
   ],
   "notes": [
-    "Strategic reliance on secure sea lanes; port control equals political control",
-    "Shipyards and guild halls are both economic and political centers",
-    "High dependence on imported ritual reagents — trade chokepoints are vulnerabilities",
-    "Seasonal wind patterns and estuary tides shape convoy and fishing calendars",
-    "Recent coastal acquisition (BC3) expanded jurisdiction over Outer Isle Chain"
+    "Strategic transshipment hub; ports controlled mainly by Harbor Guild",
+    "High dependence on imported ritual reagents; reagent routes politically sensitive",
+    "Recent coastal acquisition (BC3) remains a local flashpoint after W4",
+    "Tideward Navy enforces de facto maritime borders; Dockworkers' Syndicate is the main internal pressure group"
   ],
-  "generated_at": "2025-09-09T03:53:32.439Z"
+  "generated_at": "2025-09-09T05:00:04.973Z"
 }

@@ -1,54 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_27d22bab",
+  "checksum": "fnv1a_520d60d7",
   "burg_id": 478,
-  "name": "Burg_478",
-  "state_id": -1,
+  "name": "Drulalenda",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "medium",
   "economy_roles": [
-    "harbor resupply",
-    "ritual reagent gathering",
     "fishing",
-    "pilotage services"
+    "ship-repair",
+    "ritual-supply trade",
+    "salt-processing"
   ],
   "factions_local": [
-    "Harbormasters' Guild",
-    "Tidewatch Clan",
-    "Pilots' Brotherhood",
-    "Reagent Peddlers"
+    "Harbormaster's Guild",
+    "Ritualwrights' Circle",
+    "Merchant Brotherhood chapter",
+    "Smuggler crews"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "coastal banditry",
-    "corrupt docking permits",
-    "seasonal isolation from storms"
+    "reagent scarcity",
+    "smuggling and banditry",
+    "guild corruption",
+    "storm damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Island Creole loanwords",
-    "strong seafaring superstitions and pilot rites",
-    "diet centered on fish, seaweed, preserved goods",
-    "pilots and ritual-suppliers hold social prestige"
+    "Coastal Tongues dialect dominant",
+    "tide-linked ritual calendar",
+    "seafood and salt-preserved cuisine",
+    "ancestor veneration in household rites"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "strange tides"
+    "storm salvage"
   ],
   "constraints": [
+    "no instant resurrection or life-replacement magics",
     "rituals consume scarce imported reagents",
-    "navigation auguries supplement but do not replace charts",
-    "no instant resurrection or life-replacement magics"
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "waystation on coastal pilot route",
-    "seasonal supply vessels determine prosperity"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but do not replace charts",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:34:45.483Z"
+  "generated_at": "2025-09-09T05:46:12.672Z"
 }

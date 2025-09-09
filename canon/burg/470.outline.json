@@ -1,59 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a3b5296b",
+  "checksum": "fnv1a_eb6cfe76",
   "burg_id": 470,
-  "name": "Burg_470",
-  "state_id": 0,
+  "name": "Dhodh",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-hub",
-    "waystation"
+    "river-port",
+    "ritual-manufacture",
+    "saltworks"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual labor",
-    "transit trade",
-    "boat repair"
+    "salt-harvesting",
+    "ritual-component processing",
+    "riverine trade",
+    "fishing"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-smith circle",
-    "smuggler ring",
-    "ancestor-keepers"
+    "Harbor-Guild",
+    "Ancestor-Priests",
+    "River-Mercers",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal floods",
-    "bandit raids",
-    "smuggling conflicts"
+    "scarcity-of-reagents",
+    "river-banditry",
+    "guild-corruption",
+    "seasonal-flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues mixed with Island Creole",
-    "boat-centric customs; smoked fish diet",
-    "tide-based remembrance rituals",
-    "outsiders tolerated for trade"
+    "Riveric Dialect variant",
+    "tide-ancestor rites",
+    "salted-fish and river-herb cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual supply shortage",
-    "disappearing fishermen"
+    "ritual-component theft",
+    "disappearances"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "navigational auguries cannot replace charts or seamanship"
+    "no-instant-resurrection",
+    "rituals-require-scarce-imported-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech; limited combustion industry",
-    "navigational auguries present but fallible",
-    "population unknown"
+    "near-medieval to early-industrial tech baseline",
+    "navigational-auguries exist but charts and seamanship required",
+    "strategic position on river delta"
   ],
-  "generated_at": "2025-09-09T04:34:11.771Z"
+  "generated_at": "2025-09-09T05:45:46.482Z"
 }

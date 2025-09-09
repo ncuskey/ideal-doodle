@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_93302103",
+  "checksum": "fnv1a_af25d7f4",
   "burg_id": 252,
-  "name": "Burg_252",
-  "state_id": 0,
+  "name": "Kuird",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-node"
+    "coastal",
+    "ritual-provision"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-supply cache",
-    "provisioning (fishing)",
-    "small-scale trade"
+    "fishing",
+    "coastal-trade",
+    "ritual-reagent brokerage",
+    "boat-repair"
   ],
   "factions_local": [
-    "ritual-guild outpost",
-    "traders' relay",
-    "local watch",
-    "smuggler ring"
+    "harbormaster's guild",
+    "ritual-supplier cartel",
+    "boatwrights' cooperative",
+    "smuggler coterie"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "supply unreliability",
-    "harsh weather"
+    "smuggling and corruption",
+    "tidal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect mix",
-    "practical barter customs",
-    "diet: salted fish, dried seaweed"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy on salted fish, seaweed, fermented shellfish",
+    "tide-blessing rites before voyages",
+    "craft focus: lacquered boats and net-weaving"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent run",
-    "missing convoy"
+    "missing reagent shipment",
+    "angry tidal spirit"
   ],
   "constraints": [
-    "no instant resurrection magics",
     "rituals consume scarce imported reagents",
-    "navigational auguries cannot replace charts/seamanship"
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind-influence rare and institutionally banned"
   ],
   "notes": [
-    "small, largely transient population",
-    "likely at a river mouth or minor harbor",
-    "serves as relay on coastal trade/ritual routes"
+    "population unknown; functions as a minor harbor/outpost",
+    "relies on seasonal coastal traffic and ritual shipments"
   ],
-  "generated_at": "2025-09-09T04:19:10.662Z"
+  "generated_at": "2025-09-09T05:31:20.374Z"
 }

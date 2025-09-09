@@ -1,51 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4ba7eec3",
+  "checksum": "fnv1a_11b514ae",
   "burg_id": 377,
-  "name": "Burg_377",
+  "name": "Drunum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-node"
+    "river-port",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-labour",
-    "waystation"
+    "river-trade",
+    "ritual-supply",
+    "timber",
+    "fisheries"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbour-collective",
-    "smugglers"
+    "Merchants' Guild",
+    "Star-Calendar Scriptoria",
+    "House Drun (riverbarons)",
+    "Smugglers' Coves"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-isolation"
+    "banditry on upriver routes",
+    "scarcity of ritual reagents",
+    "seasonal flooding",
+    "guild corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "seafood-centered cuisine",
-    "ritual-tattoo tradition"
+    "Riveric dialect with Coastal loanwords",
+    "Boat-festival at equinoxes",
+    "Local economy tied to ritual component trade",
+    "Cuisine: smoked fish, river rice"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-backfire",
-    "missing-ship"
+    "flood-threat",
+    "reagent-theft"
   ],
   "constraints": [
-    "rituals-consume-scarce-imported-reagents",
-    "no-instant-resurrection"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind-influence is rare and banned"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "navigational-auguries supplement but don't replace charts"
+    "Near-medieval to early-industrial tech baseline",
+    "Navigational auguries exist but do not replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:27:32.361Z"
+  "generated_at": "2025-09-09T05:39:29.646Z"
 }

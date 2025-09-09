@@ -1,57 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e4fb8f15",
+  "checksum": "fnv1a_7b8cee49",
   "burg_id": 198,
-  "name": "Burg_198",
-  "state_id": 0,
+  "name": "Maj'aj'kij",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "ritual-outpost"
+    "ritual-magic",
+    "outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-provisioning",
-    "waystation",
-    "salt-harvest"
+    "fishing/sea-harvest",
+    "ritual reagent collection",
+    "waystation for coastal traders"
   ],
   "factions_local": [
-    "Captain's Lodge",
-    "Ritual Guild",
-    "Pilgrim Brotherhood",
-    "Smuggler Ring"
+    "Tide-Remembrancers (sea-animist clergy)",
+    "Clan Elders / Harbor Council",
+    "Itinerant Ritualists (reagent brokers)"
   ],
   "problems": [
-    "scarce-reagents",
-    "isolation",
-    "banditry",
-    "supply-shortages"
+    "scarce imported reagents",
+    "seasonal storms disrupting trade",
+    "smuggling of ritual materials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-offerings & ancestor votives",
-    "seafood-salt cuisine",
-    "star-superstitions guide festivals"
+    "Coastal Tongue dialect with Riveric loanwords",
+    "strong ancestor veneration at household shrines",
+    "diet heavy on smoked fish and kelp-ferments"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing-supplies",
-    "failed-ritual"
+    "reagent shortage",
+    "disappearing priest/ritualist"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries supplement but do not replace seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind-influence or instant resurrection",
+    "limited combustion industry (no high-pressure steam)"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with localized ritual magic",
-    "access limited by tidal bar; periodic resupply windows"
+    "small, remote harbor; navigational auguries used alongside charts",
+    "population unknown; strategic as supply point rather than production hub"
   ],
-  "generated_at": "2025-09-09T04:15:25.827Z"
+  "generated_at": "2025-09-09T05:27:51.443Z"
 }

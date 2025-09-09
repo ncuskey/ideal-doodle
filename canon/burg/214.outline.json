@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_38bfdfef",
+  "checksum": "fnv1a_924bf58f",
   "burg_id": 214,
-  "name": "Burg_214",
-  "state_id": 0,
+  "name": "Westckingle",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "river-hamlet",
-    "ritual-node"
+    "none",
+    "harbor",
+    "ritual-supply"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ferrying",
-    "fishing",
-    "ritual-reagent-gathering",
-    "smallcraft-repair"
+    "coastal fishing",
+    "ritual reagent trade",
+    "provisioning stops",
+    "small-scale ship repair"
   ],
   "factions_local": [
-    "ferry-guild",
-    "herbalists-coven",
-    "boat-families"
+    "Harbormasters' Guild",
+    "Tide-Singers (sea cult)",
+    "Ritual Merchants' Cooperative",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "scarce-reagents",
-    "seasonal-flooding",
-    "banditry"
+    "scarcity of imported reagents",
+    "smuggling and harbor corruption",
+    "seasonal storms disrupting trade"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "boat-focused daily life and rites",
-    "ritual craft integrated into trades",
-    "heavy reliance on imported reagents"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-blessing and fish-preservation rituals",
+    "seafood-heavy cuisine; salted and smoked staples"
   ],
   "quest_hook_slots": [
-    "reagent-smuggling",
-    "disappearing-ferries",
-    "ritual-contamination"
+    "smuggling",
+    "missing reagent shipment",
+    "tide-omen / ritual failure"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "ritual-magic-consumes-scarce-reagents",
-    "long-range-mind-influence-rare-and-banned"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned",
+    "no high-pressure steam tech"
   ],
   "notes": [
-    "population unknown; small/outpost scale",
-    "tech: near-medieval to early-industrial with ritual adjuncts"
+    "population unknown; functions as a small ritual-supply harbor",
+    "shallow approaches favor small vessels and local pilots"
   ],
-  "generated_at": "2025-09-09T04:16:34.333Z"
+  "generated_at": "2025-09-09T05:28:58.312Z"
 }

@@ -1,53 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_71ede6d3",
+  "checksum": "fnv1a_1a19a776",
   "burg_id": 373,
-  "name": "Burg_373",
+  "name": "Veekz",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-hub"
+    "port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "harbor-waystation",
-    "ritual-labor",
-    "smuggling"
+    "small-scale trade",
+    "reagent brokerage",
+    "boat repair"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Circle",
-    "Smugglers' Knot"
+    "Fishermen's Kin",
+    "Dockwardens' Guild",
+    "Salt-Lighters",
+    "Tide-Seers"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "coastal banditry",
-    "silted/shallow harbor"
+    "reagent scarcity",
+    "coastal erosion",
+    "smuggling",
+    "superstition-driven unrest"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-offering customs",
-    "diet: salted fish and kelp",
-    "sea shanties and navigation songs"
+    "Coastal Tongues dialect",
+    "tide-festival calendar",
+    "diet: salted fish & seaweeds"
   ],
   "quest_hook_slots": [
     "smuggling",
     "missing reagent shipment",
-    "desecration of tidal shrine"
+    "tide shrine blight"
   ],
   "constraints": [
-    "no instant resurrection; ritual magic consumes scarce imported reagents",
-    "navigational auguries exist but do not replace charts; combustion industry limited"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned"
   ],
   "notes": [
-    "population unknown; small outpost character",
-    "blend of Coastal Tongues and Riveric influences"
+    "likely small coastal harbor/outpost",
+    "waypoint for reagent coastal trade"
   ],
-  "generated_at": "2025-09-09T04:27:18.467Z"
+  "generated_at": "2025-09-09T05:39:24.730Z"
 }

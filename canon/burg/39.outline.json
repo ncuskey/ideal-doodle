@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_38230995",
+  "checksum": "fnv1a_a88ac9c5",
   "burg_id": 39,
-  "name": "Burg_39",
+  "name": "Exningley",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-outpost"
+    "riverside",
+    "ritual-crafts",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-curing",
-    "reagent-brokering",
-    "smuggling"
+    "grain-farming",
+    "river-trade",
+    "milling",
+    "ritual-artisan"
   ],
   "factions_local": [
-    "Fisher-Row Guild",
-    "Tide-Offering House",
-    "Coastal Smugglers",
-    "Visiting Merchant Line"
+    "Manorial Steward",
+    "Millers' Guild",
+    "Shrine Circle",
+    "Riverwatch"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling conflicts",
-    "religious friction"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "banditry"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical cant",
-    "communal boat rites tied to tides",
-    "diet: salted fish and seaweed",
-    "rituals require imported reagents"
+    "Riveric Dialect accent",
+    "Annual ancestor-float festival",
+    "Diet: river fish and barley",
+    "High social regard for ritual artisans"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "strange tides"
+    "ritual-supply shortage",
+    "missing-ferryman"
   ],
   "constraints": [
-    "No instant resurrection; ritual magic consumes scarce imported reagents",
-    "Long-range mind influence banned; navigational auguries cannot replace charts",
-    "Combustion industry limited; no high-pressure steam megatechs"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life replacement magics",
+    "long-range mind-influence is socially and legally banned"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech with pervasive material-component rituals",
-    "Rocky cove outpost reliant on seasonal trade and visiting ships"
+    "Population: small, records unclear",
+    "Strategic minor ford on inland river",
+    "Local economy sensitive to seasonal river levels"
   ],
-  "generated_at": "2025-09-09T04:28:24.528Z"
+  "generated_at": "2025-09-09T05:40:23.419Z"
 }

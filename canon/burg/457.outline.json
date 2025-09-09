@@ -1,29 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e44a92ed",
+  "checksum": "fnv1a_c3510dcc",
   "burg_id": 457,
-  "name": "Burg_457",
+  "name": "Threshai",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-hub"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-reagent trade",
-    "small-scale fishing",
-    "waystation/ship provisioning",
-    "transshipment of exotic goods"
+    "ritual-laboratory",
+    "coastal-fishing",
+    "salt-harvest",
+    "small-scale-trading"
   ],
   "factions_local": [
-    "Reagent Syndicate",
-    "Harbormen's Guild",
-    "Ancestor Shrine Circle",
-    "Coastal Militia"
+    "Ritual Wardens",
+    "Harborwardens",
+    "Ancestor-Keepers"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "periodic raids",
-    "supply-chain delays"
+    "scarce-reagents",
+    "banditry",
+    "silted-harbor"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -31,24 +33,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant; Island Creole heard among crews",
-    "diet heavy on salted/fermented fish and seaweed",
-    "tide-linked festivals mixing ritual magic and seamanship",
-    "practical, barter-oriented social customs"
+    "Coastal Tongues base with Riveric loanwords",
+    "ancestor-offerings at headlands",
+    "diet: salted fish and fermented seaweed",
+    "ritual scarification practiced"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "ancestral unrest"
+    "reagent-theft",
+    "disappearances"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries limited; seamanship required"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned; limited combustion industry"
   ],
   "notes": [
-    "near-medieval/early-industrial tech with localized ritual practices",
-    "small, under-documented outpost; records sparse"
+    "population unknown",
+    "harbor prone to fog and silt",
+    "useful as ritual-lab or coastal staging point"
   ],
-  "generated_at": "2025-09-09T04:33:11.702Z"
+  "generated_at": "2025-09-09T05:44:53.757Z"
 }

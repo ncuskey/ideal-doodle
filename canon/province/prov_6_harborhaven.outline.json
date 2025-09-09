@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_harborhaven",
+  "checksum": "fnv1a_19b87c21",
+  "name": "Harborhaven",
+  "aliases": [
+    "Harbor Haven",
+    "The Haven"
+  ],
+  "tags": [
+    "coastal",
+    "harbor-clan",
+    "shipwright-hub",
+    "salt-works"
+  ],
+  "role_in_state": "Primary shipbuilding and salt-export hub",
+  "economy_niches": [
+    "shipbuilding and repair",
+    "salt pans and reagent distillation",
+    "dried and smoked seafood exports",
+    "pilotage, harbor dues and navigational services",
+    "artisan metalwork for rigging and fittings"
+  ],
+  "culture_adjustments": [
+    "harbor-clans hold greater legal autonomy than inland kin-groups",
+    "practical syncretism emphasizes pilot rites over temple arbitration",
+    "apprenticeship and guild oath-taking outrank birth-status in ports",
+    "public festivals center on launches, salting seasons and tidal rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "coastal-flooding",
+    "salt-pan fires",
+    "piracy and smuggling",
+    "supply-chain disruption",
+    "reagent shortages"
+  ],
+  "constraints": [
+    "limited high-pressure combustion industry",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries complement but do not replace charts"
+  ],
+  "notes": [
+    "pilot rites function as informal licensing and control of pilots",
+    "salt works double as primary local reagent sources for ritualists",
+    "state depends on Harborhaven for winter provisioning and ship repair"
+  ],
+  "generated_at": "2025-09-09T05:07:31.037Z"
+}

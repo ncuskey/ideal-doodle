@@ -1,49 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9f337e29",
+  "checksum": "fnv1a_377b5397",
   "burg_id": 387,
-  "name": "Burg_387",
-  "state_id": -1,
+  "name": "Warton",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "outpost",
+    "crossroads",
+    "ritual-lab"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent-depot",
-    "landing-port",
-    "local-market"
+    "ferry-tolls",
+    "ritual-supplies",
+    "fish-processing",
+    "waystation"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent House",
-    "Smugglers' Ring"
+    "Riverguild",
+    "Ritualhouse of Lareth",
+    "Ferrymen's Co-op",
+    "Tollwatch Militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "coastal erosion",
-    "smuggling conflicts"
+    "reagent-scarcity",
+    "bandit-raids",
+    "corrupt-tollkeepers"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "mixed Coastal Tongues dialect",
-    "salt-preserved fish cuisine",
-    "ritual offerings tied to tides"
+    "Coastal Tongues-influenced dialect",
+    "tide-and-ancestor superstitions",
+    "fermented-fish and riverweed cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "shipwreck salvage"
+    "missing-ferryman",
+    "ritual-reagent-heist"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "no-instant-resurrection",
+    "rituals-consume-rare-reagents",
+    "no-long-range-mind-control"
   ],
   "notes": [
-    "population unknown; transient harbor",
-    "location likely coastal or riverine"
+    "near-medieval tech with ritual magic reliance",
+    "strategic river ford and small harbor"
   ],
-  "generated_at": "2025-09-09T04:28:10.448Z"
+  "generated_at": "2025-09-09T05:40:13.270Z"
 }

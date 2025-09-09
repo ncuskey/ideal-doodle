@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c32a4793",
+  "checksum": "fnv1a_5426cd8c",
   "burg_id": 184,
-  "name": "Burg_184",
-  "state_id": 0,
+  "name": "Duningt",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "harbor",
-    "ritual-labor"
+    "riverford",
+    "ritual-workshop",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-fishing-fleet",
-    "ritual-reagent-harvest",
-    "waystation-services",
-    "coastal-trade"
+    "ferrying/tolls",
+    "fishery/smoked-fish",
+    "ritual-supplies",
+    "guesthouse/tavern"
   ],
   "factions_local": [
-    "harbor-guild",
-    "reagent-collectors",
-    "ritual-clan",
-    "shorewatch"
+    "Ferryers' Guild",
+    "Ritual-Smiths' Lodge",
+    "Ancestor-Remembrance House",
+    "Riverwatch"
   ],
   "problems": [
-    "reagent-scarcity",
-    "pirate-raids",
-    "isolation",
-    "smuggling"
+    "seasonal flooding",
+    "reagent scarcity",
+    "bandit raids on roads"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "seafood-centric cuisine",
-    "ritual-marking tattoos"
+    "Riveric dialect predominant",
+    "ancestor-veneration at river-edge shrines",
+    "diet heavy on smoked fish and reed-breads"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent-theft",
-    "missing-fishermen"
+    "flood threat",
+    "stolen ritual reagents",
+    "ferry sabotage"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "navigational-auguries-not-substitute"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind-control or instant resurrection",
+    "combustion industry limited"
   ],
   "notes": [
-    "small strategic harbor on a minor trade route",
-    "depends on imported reagents for ritual economy"
+    "ford and ferry rights contested with upstream hamlet",
+    "small population; sparse official records"
   ],
-  "generated_at": "2025-09-09T04:14:34.280Z"
+  "generated_at": "2025-09-09T05:27:08.383Z"
 }

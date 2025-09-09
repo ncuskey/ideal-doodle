@@ -1,51 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_78329b05",
+  "checksum": "fnv1a_89ba6c1b",
   "burg_id": 455,
-  "name": "Burg_455",
-  "state_id": -1,
+  "name": "Suirx",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "estuary",
+    "ritual-supply",
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "ritual-reagent depot",
-    "local market"
+    "fishing",
+    "ritual reagent trade",
+    "waystation services",
+    "salvage and wrecking"
   ],
   "factions_local": [
-    "merchant guildlet",
-    "ritual caretakers",
-    "coastal wardens"
+    "Harborward Guild",
+    "Rite-keepers Circle",
+    "Smuggler Faction",
+    "Clan Watch"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "isolation"
+    "smuggling and illicit trade",
+    "lawlessness at night",
+    "supply delays from inland"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue pidgin",
-    "ritual barter customs",
-    "salt-preserved diet"
+    "Coastal Tongues-influenced dialect",
+    "daily life structured around ritual procurement",
+    "diet heavy on preserved fish, kelp, seaweed preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing caravans"
+    "failed ritual",
+    "missing shipment"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce reagents",
-    "limited combustion industry"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents or specialized burg-labors",
+    "Navigational auguries exist but cannot replace charts and seamanship"
   ],
   "notes": [
-    "small settlement on coastal spit",
-    "supplies seasonal; reliant on passing trade"
+    "Located at an estuary mouth; seasonal storms and shifting sandbars",
+    "Limited arable land; relies on imports and salvaged goods"
   ],
-  "generated_at": "2025-09-09T04:33:00.725Z"
+  "generated_at": "2025-09-09T05:44:43.312Z"
 }

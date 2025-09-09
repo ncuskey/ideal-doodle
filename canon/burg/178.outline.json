@@ -1,31 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_523bff7d",
+  "checksum": "fnv1a_dc5cb153",
   "burg_id": 178,
-  "name": "Burg_178",
-  "state_id": 0,
+  "name": "Axibieq",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "remote",
-    "harbor",
-    "waystation"
+    "none",
+    "riverside",
+    "ritual-labour"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "small-scale fishing",
-    "reagent transit/warehousing",
-    "subsistence farming"
+    "ritual reagent gathering",
+    "boat repair",
+    "local market trade"
   ],
   "factions_local": [
-    "shrine caretakers",
-    "harbor guild (informal)",
-    "itinerant merchants",
-    "militia watch"
+    "harbor guildlet",
+    "ritual cottage (house of offerings)",
+    "elders' council"
   ],
   "problems": [
-    "reagent shortages",
-    "supply delays",
-    "bandit raids"
+    "reagent scarcity",
+    "seasonal isolation",
+    "sporadic banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,24 +33,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "ancestor-feast customs central to social calendar",
-    "diet: salted fish, seaweed, preserved shellfish",
-    "crafts: net-mending and ritual-carved talismans"
+    "Riveric-influenced dialect",
+    "diet: salted fish, preserved kelp",
+    "boat-centric buildings and ceremonies"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishermen"
+    "missing ferry/folk",
+    "reagent shortage"
   ],
   "constraints": [
-    "relies on scarce imported ritual reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry and heavy machinery"
+    "rituals consume scarce imported reagents",
+    "no long-range mental control magics",
+    "limited combustion industry"
   ],
   "notes": [
-    "state-level records incomplete; governance nominal",
-    "population seasonal; fishers and transient merchants dominate"
+    "population unknown; small settlement",
+    "near-medieval to early-industrial with ritual craft",
+    "navigational auguries used alongside charts"
   ],
-  "generated_at": "2025-09-09T04:14:17.635Z"
+  "generated_at": "2025-09-09T05:26:35.703Z"
 }

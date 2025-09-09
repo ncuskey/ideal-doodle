@@ -1,54 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d9345283",
+  "checksum": "fnv1a_9b618af1",
   "burg_id": 287,
-  "name": "Burg_287",
-  "state_id": -1,
+  "name": "Darkeby",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "waystation",
-    "ritual-trade"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent transshipment",
-    "waystation services"
+    "boatbuilding",
+    "reagent trade",
+    "market ferrying"
   ],
   "factions_local": [
-    "shipmasters' guild",
-    "reagent merchants",
-    "coastal militia",
-    "smuggling ring"
+    "harbormaster's guild",
+    "fishermen cooperative",
+    "shrine keepers",
+    "coastal smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "seasonal storms",
-    "limited fresh water"
+    "scarce ritual reagents",
+    "coastal erosion and storms",
+    "smuggling and tariff disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "seafood-heavy cuisine",
-    "tide-offering festival"
+    "Coastal Tongue dialect with Riveric loanwords",
+    "strong boatbuilding and net-mending crafts",
+    "tide-based festivals and ancestor offerings"
   ],
   "quest_hook_slots": [
-    "reagent theft",
-    "shipwreck salvage",
-    "ritual backlash"
+    "smuggling",
+    "missing shrine relic",
+    "tidal omens"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents"
+    "ritual magic requires scarce imported reagents",
+    "no long-range mind-influence or instant resurrection",
+    "limited combustion industry (no high-pressure steam tech)"
   ],
   "notes": [
-    "state affiliation unknown",
-    "population data unavailable; small outpost role"
+    "estuary village; population unknown",
+    "name suggests 'by' = settlement; modest harbor"
   ],
-  "generated_at": "2025-09-09T04:21:21.528Z"
+  "generated_at": "2025-09-09T05:33:44.565Z"
 }

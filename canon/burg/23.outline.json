@@ -1,49 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_51f8c43d",
+  "checksum": "fnv1a_1a9115c7",
   "burg_id": 23,
-  "name": "Burg_23",
+  "name": "Treraldierug",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "outpost",
+    "coastal",
+    "ritual-hub"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "pilotage",
     "fishing",
-    "reagent depot"
+    "ritual-lab-supply",
+    "waystation",
+    "smuggling"
   ],
   "factions_local": [
-    "Harbormaster's Circle",
-    "Reagent Syndicate",
-    "Pilots' Brotherhood"
+    "Tidekeepers (animist shrine)",
+    "Labourers' Guild",
+    "Coastal Clan House",
+    "Merchant-Runner Ring"
   ],
   "problems": [
     "reagent scarcity",
     "bandit raids",
-    "smuggling"
+    "isolation",
+    "superstition-fueled unrest"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with island loanwords",
-    "Cuisine: salted fish, seaweed stews",
-    "Rituals tied to tide and star-calendar observances"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "diet centered on salted fish and fermented sea vegetables",
+    "nightly tide-offerings and apprenticeship rites at shrines"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing pilot",
-    "stolen reagents"
+    "missing reagent shipment",
+    "smuggler-led sabotage",
+    "shrine desecration"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents; long-range mind influence rare and banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; life-replacement magics absent"
   ],
   "notes": [
-    "Tech: near-medieval to early industrial; limited combustion industry",
-    "Function: small coastal outpost and reagent waypoint"
+    "near-medieval/early-industrial baseline; limited combustion tech",
+    "important waypoint for coastal pilots despite small size"
   ],
-  "generated_at": "2025-09-09T04:17:31.368Z"
+  "generated_at": "2025-09-09T05:29:52.086Z"
 }

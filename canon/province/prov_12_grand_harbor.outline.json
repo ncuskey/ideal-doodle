@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_grand_harbor",
+  "checksum": "fnv1a_49a73e99",
+  "name": "Grand Harbor",
+  "aliases": [
+    "The Grand",
+    "Port Grand"
+  ],
+  "tags": [
+    "maritime",
+    "shipyard",
+    "salt-works",
+    "ritual-exports",
+    "harbor-clan"
+  ],
+  "role_in_state": "Primary maritime trade and shipbuilding hub",
+  "economy_niches": [
+    "long-distance merchant transshipment",
+    "shipbuilding & repair",
+    "artisan ritual-component workshops",
+    "salt pans & fish curing",
+    "navigational-augury services"
+  ],
+  "culture_adjustments": [
+    "stronger harbor-clan hierarchy than inland towns",
+    "commercialized ritual practice for export",
+    "multilingual mercantile pidgin common on docks",
+    "festival calendar keyed to sailing seasons and tides",
+    "greater tolerance for transient foreign crews"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "dock fires",
+    "smuggling & piracy",
+    "labor strikes"
+  ],
+  "constraints": [
+    "ritual workshops depend on scarce imported reagents",
+    "harbor depth limits size of visiting ships",
+    "high-pressure steam technology limited by state policy"
+  ],
+  "notes": [
+    "seasonal grain and timber transshipment point",
+    "naval militia funded by ship levies supports harbor security",
+    "salt tax partially underwrites ritual-export guilds"
+  ],
+  "generated_at": "2025-09-09T05:03:31.914Z"
+}

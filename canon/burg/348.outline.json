@@ -1,55 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c3fe4d33",
+  "checksum": "fnv1a_3d072e58",
   "burg_id": 348,
-  "name": "Tidebreak",
+  "name": "Intinbrirair",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waystation",
-    "reagent-hub"
+    "none",
+    "coastal"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "small-scale fishing",
-    "inn & provisioning",
-    "dockside repair"
+    "fishing",
+    "ritual-ingredient-workshops",
+    "waystation"
   ],
   "factions_local": [
-    "Harbor Merchants' Compact",
-    "Tidebind Ritual Circle",
-    "Longshore Workers' Guild",
-    "Smugglers' Knot"
+    "harbor-guild",
+    "ritual-craftspeople",
+    "village-council"
   ],
   "problems": [
-    "intermittent reagent shortages",
-    "smuggling & black-market tension",
-    "hazardous tidal access"
+    "reagent-scarcity",
+    "supply-shortages",
+    "storm-damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "diet heavy on smoked & pickled seafood",
-    "tide-based rites schedule local festivals"
+    "Coastal Tongues dialect",
+    "sea-offering rituals common",
+    "diet: salted fish and kelp"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual mishap"
+    "missing-ritual-ingredients",
+    "disappearances"
   ],
   "constraints": [
-    "ritual magic depends on scarce imported reagents",
-    "long-range mind-influence is socially/legal taboo",
-    "combustion industry minimal — no high-pressure steam tech"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries not a substitute for seamanship"
   ],
   "notes": [
-    "shallow harbor; larger vessels offload at high tide",
-    "population transient; many seasonal traders"
+    "population unknown; seasonal fluctuations",
+    "approach via narrow channel and tidal bar"
   ],
-  "generated_at": "2025-09-09T04:25:39.174Z"
+  "generated_at": "2025-09-09T05:37:33.636Z"
 }

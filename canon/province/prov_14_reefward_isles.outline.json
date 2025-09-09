@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_reefward_isles",
+  "checksum": "fnv1a_fcd9c265",
+  "name": "Reefward Isles",
+  "aliases": [
+    "Reefward",
+    "Isles of the Reef"
+  ],
+  "tags": [
+    "archipelago",
+    "reef",
+    "shipwrights",
+    "salt-works",
+    "augury"
+  ],
+  "role_in_state": "Shipbuilding, reef-guard and coastal trade transshipment hub",
+  "economy_niches": [
+    "reef fisheries",
+    "salt pans & brineworks",
+    "shipbuilding & repair",
+    "harvest of reef-sourced ritual reagents (coral/resins)",
+    "coastal trade & transshipment",
+    "local augury services"
+  ],
+  "culture_adjustments": [
+    "boat-name oaths legally tied to reef tenure",
+    "kin-tracks oriented toward maritime lineages, not landholdings",
+    "oral reef-navigation songs and coral-sign reading traditions",
+    "market disputes settled by tide-judges and pier councils",
+    "artisanal coral-runic carving common among craftsmen"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef-breach (storm surge)",
+    "piracy and smuggling",
+    "resource depletion (overfishing/coral harvest)",
+    "seasonal isolation during calms"
+  ],
+  "constraints": [
+    "limited arable land; reliant on imported grain",
+    "ritual magic dependent on scarce reef reagents",
+    "navigation hazards restrict large cargo vessels"
+  ],
+  "notes": [
+    "seasonal population flux with migrant crews",
+    "key source of shipwright labor for State_14",
+    "augury stations support coastal trade routes"
+  ],
+  "generated_at": "2025-09-09T05:04:48.634Z"
+}

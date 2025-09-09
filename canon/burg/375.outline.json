@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_468cf677",
+  "checksum": "fnv1a_329d585f",
   "burg_id": 375,
-  "name": "Burg_375",
-  "state_id": 0,
+  "name": "Stioshas",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "port",
-    "ritual-supply"
+    "none",
+    "coastal"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "waystation",
-    "ritual-reagent trade"
+    "small-scale coastal trade",
+    "ritual-reagent brokerage",
+    "boat repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual-collectors",
-    "elders-council"
+    "Fisherfolk Syndicate",
+    "Tide-Hearth Priests",
+    "Skiffmasters' Council",
+    "Covert Smuggler Ring"
   ],
   "problems": [
-    "scarce imports",
-    "banditry",
-    "inter-sect tension"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling tensions",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "salt-preserved cuisine",
-    "tide-blessing festivals"
+    "Island Creole–inflected Coastal Tongue dialect",
+    "tide-blessing rites before voyages",
+    "diet: salted fish, seaweed preserves",
+    "ancestor-name-day observances"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "lost-reagent recovery",
-    "shipwreck salvage"
+    "reagent theft",
+    "lighthouse malfunction"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "navigational auguries cannot replace charts",
-    "rituals consume scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "shallow port accessible at low tide only",
-    "population small and transient"
+    "small harbor for skiffs and coasters",
+    "population unknown; seasonal workers common"
   ],
-  "generated_at": "2025-09-09T04:27:26.216Z"
+  "generated_at": "2025-09-09T05:39:29.458Z"
 }

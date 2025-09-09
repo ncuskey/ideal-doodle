@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cbeee9f3",
+  "checksum": "fnv1a_fa8e018c",
   "burg_id": 119,
-  "name": "Burg_119",
+  "name": "Montcondon",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "crossroads",
-    "ritual-stop"
+    "none",
+    "mountain-passage",
+    "ritual-supply-point"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-supply depot",
-    "ferry services",
-    "local craftworks"
+    "stonework",
+    "herding/cheese",
+    "ritual reagent exchange",
+    "waystation trade"
   ],
   "factions_local": [
-    "merchant-lodge",
-    "ritual-brethren",
-    "river-watch",
-    "smuggler-ring"
+    "Stonecutters' Guild",
+    "Ancestor Shrine Circle",
+    "Waystation Merchants",
+    "Mountain Watch"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "corrupt tolls"
+    "bandit ambushes",
+    "landslides",
+    "isolation from state support"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms",
+    "Star-Calendar Scriptoria",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric-influenced dialect",
-    "ritualized gift economy",
-    "smoked/salted fish staples"
+    "Highland Cant dialect dominant",
+    "ancestor-veneration central to social order",
+    "terraced goat/sheep farming and preserved cheeses",
+    "festivals timed to star-calendar events"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent theft",
-    "missing ferryman"
+    "smuggling (reagents)",
+    "landslide/route collapse",
+    "missing shrine relic"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no true resurrection magics",
-    "long-range mind-influence taboo"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Tech: near-medieval to early-industrial with local ritual labs",
-    "Population unknown; small outpost on trade route"
+    "population unknown; seasonal market spikes with caravan traffic",
+    "controls a strategic mountain pass used by regional traders"
   ],
-  "generated_at": "2025-09-09T04:10:19.543Z"
+  "generated_at": "2025-09-09T23:09:24.851Z"
 }

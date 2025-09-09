@@ -1,57 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1cacd397",
+  "checksum": "fnv1a_da30cc4f",
   "burg_id": 274,
-  "name": "Burg_274",
+  "name": "Alisford",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-reagents",
-    "waystation"
+    "none",
+    "river-crossing",
+    "ferry",
+    "market"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent brokerage",
+    "ferrying",
+    "river-market",
     "fishing",
-    "ship-provisioning",
-    "coastal-trade"
+    "ritual-supply"
   ],
   "factions_local": [
-    "merchant-house",
-    "ritual-guild",
-    "harbormaster's council",
-    "smuggler-ring"
+    "ferry-guild",
+    "merchant-coterie",
+    "bridge-keepers"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry/smuggling",
-    "corruption in port fees",
-    "harbor silting"
+    "seasonal-flooding",
+    "banditry",
+    "reagent-scarcity",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "diet heavy on salted and smoked fish",
-    "ritual labor woven into daily trade customs"
+    "Riveric Dialect common",
+    "ferry-crossing rites",
+    "salt-fish cuisine",
+    "market-day fairs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "shipwreck salvage"
+    "flood-threat",
+    "disappearances"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magic",
-    "long-range mind influence is banned"
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-reagents"
   ],
   "notes": [
-    "small port on a secondary route; reliant on visiting traders",
-    "seasonal storms disrupt supply lines"
+    "quay shrine with navigational augury",
+    "bridge toll disputes"
   ],
-  "generated_at": "2025-09-09T04:20:36.435Z"
+  "generated_at": "2025-09-09T05:33:00.534Z"
 }

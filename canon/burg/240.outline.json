@@ -1,52 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_46517665",
+  "checksum": "fnv1a_e8fd84e2",
   "burg_id": 240,
-  "name": "Burg_240",
-  "state_id": -1,
+  "name": "Shass",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-hub"
+    "river-crossing",
+    "fishing-village",
+    "ritual-landing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-supply",
-    "small-market"
+    "fishing",
+    "ritual-provisioning",
+    "river-trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbormaster-guild",
-    "ritual-practitioners",
-    "trader-clique"
+    "Harbor Guild",
+    "Ritual House (minor)",
+    "Riverfolk Elders",
+    "Smuggler Cell"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "corruption"
+    "scarce-ritual-reagents",
+    "banditry-on-route",
+    "occasional-illness"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ritual meals emphasize preserved fish and sea herbs",
-    "strong seafaring superstitions"
+    "speaks Riveric Dialect",
+    "diet: smoked fish and seaweed",
+    "local craft: small boats & netmaking",
+    "ritual calendar tied to tides"
   ],
   "quest_hook_slots": [
     "smuggling",
     "missing-reagents",
-    "ritual-failure"
+    "ritual-mishap"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-reagents",
-    "limited-combustion-industry"
+    "No instant resurrection; reagents scarce",
+    "No high-pressure steam megatechs",
+    "Navigational auguries exist but don't replace charts"
   ],
   "notes": [
-    "supplied intermittently by coastal traders",
-    "navigational auguries used but charts and seamanship required"
+    "population unknown or transient",
+    "useful stop for inland-coastal trade",
+    "local elders control landing rights"
   ],
-  "generated_at": "2025-09-09T04:18:14.900Z"
+  "generated_at": "2025-09-09T05:30:34.006Z"
 }

@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5a7af31f",
+  "checksum": "fnv1a_b628d949",
   "burg_id": 290,
-  "name": "Burg_290",
+  "name": "Bosburymock",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-haven",
-    "waystation"
+    "river-crossing",
+    "market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-fishing-haven",
-    "provisioning-stop",
-    "ritual-components-trading",
-    "smuggling-node"
+    "ferry tolls and river trade",
+    "smoked/fresh fishery",
+    "reagent brokerage for ritual magic",
+    "boat repair and ropeworks"
   ],
   "factions_local": [
-    "harbormaster-clique",
-    "ritual-syndicate",
-    "coastal-merchant-cartel",
-    "kinship-council"
+    "Ferrymasters' Syndicate",
+    "Tideborn Temple circle",
+    "Reagent Merchants' Consortium",
+    "Harborwatch militia"
   ],
   "problems": [
-    "scarce-imports",
-    "sea-raider-banditry",
-    "corruption-in-permits",
-    "resource-depletion"
+    "seasonal flooding and eroded banks",
+    "shortage/scarcity of imported ritual reagents",
+    "bandit ambushes on approaches",
+    "corrupt toll-collection practices"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "strong seafarer superstitions and tide-rituals",
-    "trade etiquette is highly ritualized",
-    "salt-preservation and smoke-curing cuisine"
+    "Riveric Dialect dominant with Coastal Tongue loanwords",
+    "diet centered on smoked fish and riverweed stews",
+    "annual tide-blessing festival before navigation season",
+    "custom of offering small coin to ferry spirits"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-shortage",
-    "ritual-component-heist"
+    "missing ferryman",
+    "reagent shortage"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-reagents",
-    "long-range-mind-influence-banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics allowed",
+    "long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "state authority minimal; local bodies govern daily life",
-    "population transient; many seasonal workers"
+    "near-medieval to early-industrial baseline with localized ritual practices",
+    "strategic small river crossing often contested by itinerant bands",
+    "state-level details unknown"
   ],
-  "generated_at": "2025-09-09T04:21:40.855Z"
+  "generated_at": "2025-09-09T05:33:52.881Z"
 }

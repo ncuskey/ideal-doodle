@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_279ebe99",
+  "checksum": "fnv1a_a0ed29a4",
   "burg_id": 65,
-  "name": "Burg_65",
+  "name": "Brybtong",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "fishing",
-    "reagent-trade"
+    "river-hamlet",
+    "ritual-stopover"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent trade",
-    "dockside services",
-    "boat repair"
+    "ferrying",
+    "small-scale trade",
+    "ritual-supply depot"
   ],
   "factions_local": [
-    "Harborwrights' Guild",
-    "Reagent Brokers",
-    "Ancestor Priests",
-    "Smuggler Crew"
+    "river-ferry guild",
+    "ancestral-temple caretakers",
+    "merchant-smugglers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "bandit/sea raiders",
-    "corrupt port official"
+    "seasonal-flooding",
+    "scarcity-of-imports",
+    "smuggling",
+    "temple-corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant; Riveric loanwords",
-    "ritual offerings before voyages",
-    "diet: salt-preserved fish, seaweed",
-    "navigation augury rituals common"
+    "speaks Riveric Dialect with Coastal loanwords",
+    "dockside ancestor-offerings common",
+    "diet centered on smoked riverfish and preserved grains"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "sea curse"
+    "flood-relief",
+    "missing-ferry"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind influence; resurrection banned",
-    "limited combustion industry; no high-pressure megatech"
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-expensive-reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "population unknown; likely transient sailors"
+    "located at a minor river crossing",
+    "population unknown; transient river traffic significant"
   ],
-  "generated_at": "2025-09-09T04:36:04.408Z"
+  "generated_at": "2025-09-09T05:47:44.047Z"
 }

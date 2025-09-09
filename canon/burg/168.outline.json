@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_41dd8d7",
+  "checksum": "fnv1a_c3231de",
   "burg_id": 168,
-  "name": "Burg_168",
+  "name": "Blandling",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "outport",
-    "ritual-supply"
+    "harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation for coastal traffic",
-    "ritual-labor provisioning",
-    "small-scale fishing",
-    "ship repair services"
+    "waystation",
+    "fishing",
+    "salt-curing",
+    "ritual-supply transit"
   ],
   "factions_local": [
-    "harbor wardens",
-    "ritual guildlet",
-    "trader families",
-    "outlying clan elders"
+    "Waymaster's Lodge",
+    "Harbor Guild",
+    "Herbalist Circle",
+    "Smuggler Crew"
   ],
   "problems": [
-    "scarce imported reagents",
-    "irregular supply ships",
-    "coastal raiders/piracy"
+    "reagent scarcity",
+    "banditry",
+    "dwindling trade",
+    "coastal storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole influence in speech",
-    "seafood-heavy cuisine",
-    "tide-based ritual calendar",
-    "informal barter traditions"
+    "Coastal Tongues dialect",
+    "Island Creole loanwords",
+    "salt-cured cuisine",
+    "ferry-hospitality custom"
   ],
   "quest_hook_slots": [
-    "missing reagent shipment",
-    "ritual theft",
-    "shipwreck salvage"
+    "smuggling",
+    "reagent theft",
+    "missing ferryman"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
+    "no instant resurrection",
     "rituals consume scarce imported reagents",
-    "long-range mind influence rare and institutionally banned"
+    "long-range mind influence outlawed"
   ],
   "notes": [
-    "population unknown; transient seasonal traffic",
-    "dependent on periodic supply runs",
-    "serves as minor navigational stop with local augury practices"
+    "population unknown",
+    "minor strategic harbor",
+    "records sparse"
   ],
-  "generated_at": "2025-09-09T04:13:29.165Z"
+  "generated_at": "2025-09-09T05:26:03.373Z"
 }

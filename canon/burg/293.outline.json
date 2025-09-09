@@ -1,54 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c2c21255",
+  "checksum": "fnv1a_550e978f",
   "burg_id": 293,
-  "name": "Burg_293",
+  "name": "Stioltia",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-node",
-    "ritual-supply"
+    "coastal",
+    "reagent-trade"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "ritual-component trade",
-    "waystation/market",
     "small-scale fishing",
-    "craft workshops"
+    "reagent export & brokerage",
+    "boat repair & chandlery",
+    "seasonal kelp-salt"
   ],
   "factions_local": [
-    "ritual-priesthood",
-    "traders' syndicate",
-    "river-clan elders"
+    "Fishermen's Knot (guild)",
+    "Reagent Brokers' Ring",
+    "Tidekeeper Priests of the Sea"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry on supply routes",
-    "smuggling of ritual paraphernalia"
+    "storm damage",
+    "smuggling"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "Ancestor veneration shapes local rites",
-    "diet: smoked fish and river vegetables",
-    "market days set by ritual calendar"
+    "Coastal Tongue dialect with island loanwords",
+    "tide-festival communal feasts",
+    "ritual offerings woven into trade deals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagent",
-    "disappearances along river"
+    "stolen reagent caches",
+    "mysterious disappearances at sea"
   ],
   "constraints": [
-    "no instant resurrection",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "no-instant-resurrection magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries supplement charts/seamanship"
   ],
   "notes": [
-    "state affiliation unknown",
-    "near-medieval to early industrial tech with ritual dependencies"
+    "controls a narrow tide-channel used by local coasters",
+    "population unrecorded; largely transient maritime workforce"
   ],
-  "generated_at": "2025-09-09T04:22:01.987Z"
+  "generated_at": "2025-09-09T05:34:17.248Z"
 }

@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1be23995",
+  "checksum": "fnv1a_48a85b04",
   "burg_id": 204,
-  "name": "Burg_204",
+  "name": "Rekx",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "ritual-supply",
-    "waystation"
+    "ritual-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supplies",
-    "waystation-services",
-    "provisions-trade"
+    "small-harbor",
+    "ritual-reagent-exchange",
+    "waystation",
+    "local-market"
   ],
   "factions_local": [
-    "guild-of-rituals",
-    "merchant-brotherhood",
-    "local-council",
-    "smuggler-ring"
+    "harbor-masters",
+    "ritual-syndicate",
+    "merchant-caravan",
+    "elders-council"
   ],
   "problems": [
     "reagent-scarcity",
-    "banditry",
-    "isolation"
+    "smuggling",
+    "shoreline-erosion",
+    "banditry"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "mixed dialects (Coastal Tongues + Riveric Dialects)",
-    "ritual-mark tattooing common",
-    "diet leans on preserved provisions"
+    "Coastal Tongue dialectal variant",
+    "tide-feasts and ancestor-offerings",
+    "salt-preserved cuisine",
+    "wary of outsiders"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-run",
-    "ancestral-visions"
+    "reagent-heist",
+    "missing-fishermen"
   ],
   "constraints": [
     "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "rituals-consume-scarce-imported-reagents"
+    "rituals-consume-scarce-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "population unknown; functions as a small resupply/outpost",
-    "strategic stop on regional ritual trade routes"
+    "population unknown; treat as small outpost",
+    "near-medieval tech with localized ritual magic",
+    "data sparse — confirm coastal placement before detailing"
   ],
-  "generated_at": "2025-09-09T04:15:55.212Z"
+  "generated_at": "2025-09-09T05:28:27.697Z"
 }

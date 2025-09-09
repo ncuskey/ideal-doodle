@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_fishing_coast",
+  "checksum": "fnv1a_d5db6742",
+  "name": "Fishing Coast",
+  "aliases": [
+    "Saltshore",
+    "Netbar",
+    "The Nets"
+  ],
+  "tags": [
+    "coastal",
+    "fisheries",
+    "harbor",
+    "guilds"
+  ],
+  "role_in_state": "Primary supplier of fish, salt, and naval recruits",
+  "economy_niches": [
+    "small-boat fisheries",
+    "saltworks and fish-curing",
+    "ship repair yards",
+    "reagent transshipment",
+    "local market trade"
+  ],
+  "culture_adjustments": [
+    "boat-household kinship over inland clan ties",
+    "practical seamanship prioritized over augury",
+    "oral net-song and port slang dominate public life",
+    "guild foremen act as civic leaders",
+    "strong Island Creole loanwords in trading argot"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "coastal storms",
+    "overfishing",
+    "rodent-borne spoilage",
+    "smuggling and piracy"
+  ],
+  "constraints": [
+    "limited arable hinterland",
+    "reliance on imported ritual reagents",
+    "no large-scale industrial steamworks"
+  ],
+  "notes": [
+    "seasonal labor flux with migrant crews",
+    "saltworks dependent on steady trade routes"
+  ],
+  "generated_at": "2025-09-09T05:07:58.264Z"
+}

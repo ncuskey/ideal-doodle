@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_18902ac1",
+  "checksum": "fnv1a_43b825ab",
   "burg_id": 89,
-  "name": "Burg_89",
+  "name": "Chlaberden",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "ritual-dependency"
+    "crossroads",
+    "small-market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply",
-    "fishing",
     "waystation",
-    "small-scale-trade"
+    "agriculture",
+    "ritual-supplies"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-practitioners",
-    "merchant-brotherhood"
+    "merchant-guild",
+    "ancestor-temple",
+    "town-militia"
   ],
   "problems": [
-    "scarcity-of-ritual-reagents",
-    "isolation-and-supply-issues",
-    "banditry-on-approaches"
+    "banditry",
+    "scarcity-of-reagents",
+    "provincial-neglect"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "local rites tied to material offerings",
-    "diet heavy on smoked fish and seaweed"
+    "Riveric Dialects influence local speech",
+    "three-day market cycle",
+    "public rituals tied to trade and family remembrance",
+    "diet relies on preserved goods and river catch"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-ships"
+    "missing-reagents",
+    "bandit-chief"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "no-instant-resurrection",
+    "long-range-mind-magic-rare-and-banned",
+    "rituals-consume-scarce-imported-reagents"
   ],
   "notes": [
-    "tech: near-medieval to early-industrial",
-    "likely coastal/outpost role supporting navigation and rituals"
+    "population unknown",
+    "situated at a minor river crossroads",
+    "local magistrate often absent"
   ],
-  "generated_at": "2025-09-09T04:37:42.620Z"
+  "generated_at": "2025-09-09T05:49:21.234Z"
 }

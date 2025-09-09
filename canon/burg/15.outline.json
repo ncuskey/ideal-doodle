@@ -1,55 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_765fca9d",
+  "checksum": "fnv1a_5fd2d0cd",
   "burg_id": 15,
-  "name": "Burg_15",
+  "name": "Hob",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-trade"
+    "hinterland",
+    "crossroads"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "maritime trade",
-    "ritual reagent trading",
-    "fishing",
-    "ship maintenance"
+    "subsistence farming",
+    "foraging & mushrooming",
+    "small-market trade",
+    "seasonal craftwork"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Reagent Merchants",
-    "Ancestor-Priest Circle",
-    "Smuggler Crew"
+    "Elder Kin Council",
+    "Market Syndicate",
+    "Temple Circle"
   ],
   "problems": [
-    "scarce reagents",
-    "smuggling",
-    "storm damage",
-    "bandit raids"
+    "scarcity of ritual reagents",
+    "banditry on lanes",
+    "crop-failure risk"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "navigation auguries used alongside charts",
-    "seafood-preservation cuisine",
-    "strong ancestor-veneration rituals"
+    "Riveric Dialect prevalent",
+    "ancestor-feast traditions",
+    "seasonal harvest dances"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent heist",
-    "storm-omen unrest"
+    "missing heirloom",
+    "ritual reagent shortage"
   ],
   "constraints": [
-    "no-instant-resurrection-or-life-replacement-magic",
-    "rituals consume scarce imported reagents; limited combustion industry"
+    "no instant resurrection; ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and institutionally banned",
+    "combustion industry limited; no high-pressure steam megatechs"
   ],
   "notes": [
-    "small coastal port on rocky shoreline",
-    "navigational auguries practiced but cannot replace seamanship"
+    "population unknown; hamlet scale",
+    "remote/unclear state governance"
   ],
-  "generated_at": "2025-09-09T04:12:24.132Z"
+  "generated_at": "2025-09-09T05:25:00.457Z"
 }

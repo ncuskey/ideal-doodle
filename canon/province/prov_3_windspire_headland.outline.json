@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_windspire_headland",
+  "checksum": "fnv1a_1b1d3970",
+  "name": "Windspire Headland",
+  "aliases": [
+    "Windspire",
+    "Headland of Spires"
+  ],
+  "tags": [
+    "coastal",
+    "headland",
+    "shipwright-hub",
+    "beacon"
+  ],
+  "role_in_state": "foreland shipbuilding, pilotage and reagent transshipment node",
+  "economy_niches": [
+    "coastal shipwright yards & repair",
+    "pilotage, beacon fees and lighthouse services",
+    "fisheries and salting works",
+    "reagent transshipment & bonded stores",
+    "apprenticeship-led sail & cordage craftsmen"
+  ],
+  "culture_adjustments": [
+    "stronger guild oversight of beacon rituals and pilots",
+    "seamanship rites emphasize cliff-and-storm survival",
+    "practical ritualism tied to steady winds and rig maintenance",
+    "heightened ancestor votive practices for lost mariners",
+    "oral chart fragments and port-ballads used as navigational mnemonic"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge & cliff erosion",
+    "beacon-fire accidents",
+    "smuggling and illicit reagent trade",
+    "supply bottlenecks (water, timber)"
+  ],
+  "constraints": [
+    "limited freshwater and arable land",
+    "rituals consume scarce imported reagents; bonded storage required",
+    "industry limited to small-scale combustion; no high‑pressure steam"
+  ],
+  "notes": [
+    "key apprenticeship center within State_3 guild networks",
+    "strategic transshipment point for imported reagents and salt",
+    "Coastal Tongues idiom dominant in daily and guild speech"
+  ],
+  "generated_at": "2025-09-09T05:06:21.817Z"
+}

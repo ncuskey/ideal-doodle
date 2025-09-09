@@ -1,29 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4c438315",
+  "checksum": "fnv1a_66c09c78",
   "burg_id": 437,
-  "name": "Burg_437",
-  "state_id": -1,
+  "name": "Zinar",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-stop"
+    "river-port",
+    "reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supplies",
+    "river trade",
     "fishing",
-    "waystation"
+    "reagent processing",
+    "boatbuilding"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-coven",
-    "coastal-watch"
+    "Harbormaster's Coalition",
+    "Fisherfolk Cooperative",
+    "Runecraft Guild",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent-scarcity",
+    "reagent scarcity",
     "smuggling",
-    "banditry"
+    "seasonal flooding",
+    "guild corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -31,24 +34,25 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominates",
-    "salt-preserved cuisine and seaweed staples",
-    "frequent small offerings at shore shrines"
+    "Riveric Dialect with Coastal loanwords",
+    "Tide-festival and boat-offering customs",
+    "Diet: smoked fish, preserved seaweed",
+    "Reliance on navigational auguries for departures"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen-ritual-reagent",
-    "missing-sailor"
+    "stolen ritual reagents",
+    "missing fishing crews"
   ],
   "constraints": [
+    "Ritual magic consumes scarce imported reagents",
     "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents or specialized burg-labors"
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "Navigational auguries used but do not replace charts/seamanship",
-    "Population small; records sparse"
+    "Navigational auguries supplement but do not replace charts",
+    "Combustion-derived industry is limited; crafts dominate",
+    "State assignment unknown"
   ],
-  "generated_at": "2025-09-09T04:31:51.622Z"
+  "generated_at": "2025-09-09T05:43:35.548Z"
 }

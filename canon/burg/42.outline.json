@@ -1,51 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_28cc95a9",
+  "checksum": "fnv1a_ebcd0809",
   "burg_id": 42,
-  "name": "Burg_42",
+  "name": "Cult'harjar",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-transit"
+    "cliff-temple",
+    "pilgrimage",
+    "coastal"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent-trade",
-    "ship-repair"
+    "pilgrimage offerings",
+    "reagent trade",
+    "ritual-craft workshops",
+    "subsistence fishing"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Tide Fraternity",
-    "Smugglers"
+    "High Priesthood of Harjar",
+    "Reagent Merchants' Syndicate",
+    "Cliffwatch militia",
+    "Smugglers' Coves"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "tidal erosion"
+    "coastal erosion",
+    "smuggling and raids",
+    "sectarian schism"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide rites and harbor festivals",
-    "seafood and kelp fermentation"
+    "Coastal Tongues dialect with ritual cant",
+    "public mourning and ancestor offerings",
+    "seaweed-and-salted-fish cuisine",
+    "marking tattoos for initiates"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "missing crew"
+    "missing relic",
+    "ritual failure"
   ],
   "constraints": [
-    "Rituals consume scarce imported reagents",
-    "No high-pressure steam megatechs"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or long-range mind control; limited combustion industry"
   ],
   "notes": [
-    "Small, transient population",
-    "Waystation on coastal routes"
+    "pervasive localized ritual magic shapes trade and labor",
+    "perched on eroding sea cliffs; access by steep paths and small boats"
   ],
-  "generated_at": "2025-09-09T04:30:23.679Z"
+  "generated_at": "2025-09-09T05:42:33.777Z"
 }

@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8382c3d5",
+  "checksum": "fnv1a_a785dc08",
   "burg_id": 35,
-  "name": "Burg_35",
+  "name": "Camblewent",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "waystation"
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "small-scale trade",
-    "ritual-reagent brokerage",
-    "transshipment"
+    "salt-curing",
+    "shipchandler",
+    "waystation"
   ],
   "factions_local": [
-    "Dockworkers' Guild",
-    "Acolytes of the Tide",
-    "Smugglers' Ring"
+    "Harbor Guild",
+    "Tidewatcher Animists",
+    "Merchant Agents",
+    "Militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "harbor siltation"
+    "smuggling",
+    "scarce ritual reagents",
+    "storm-damaged piers"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect",
-    "tide-based ancestor shrines",
-    "salt-curing cuisine",
-    "seamanship superstitions"
+    "Coastal Tongues + Island Creole blend",
+    "tide-honoring processions",
+    "diet centered on salted fish and kelp",
+    "net-weaving and ritual braid crafts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "strange tides"
+    "shipwreck salvage",
+    "reagent procurement"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "long-range mind influence banned",
-    "ritual magic consumes scarce imported reagents"
+    "ritual magic requires costly imported reagents",
+    "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "near-medieval to early-industrial tech; limited combustion",
-    "navigational auguries exist but do not replace charts",
-    "state unknown"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but cannot replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:25:58.046Z"
+  "generated_at": "2025-09-09T05:37:46.847Z"
 }

@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_52554c25",
+  "checksum": "fnv1a_79b7bb1b",
   "burg_id": 226,
-  "name": "Burg_226",
-  "state_id": 0,
+  "name": "Penkseyles",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-stop"
+    "harbor",
+    "reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
     "fishing",
-    "reagent-trading",
-    "smuggling"
+    "waystation/relay",
+    "reagent trade & processing",
+    "small-ship repair"
   ],
   "factions_local": [
-    "merchant-house",
-    "ritual-circle",
-    "harbormaster",
-    "smuggler-ring"
+    "Harbormaster's Guild",
+    "Tide-Caller Sect (Sea-Tide Animism)",
+    "Smugglers' Ring",
+    "Merchant Coop"
   ],
   "problems": [
-    "reagent-scarcity",
-    "isolation",
-    "banditry",
-    "corruption"
+    "reagent scarcity",
+    "storm damage/erosion",
+    "harbor corruption",
+    "smuggling and lawlessness"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "superstitious seafarers",
-    "salt-preserved cuisine",
-    "ritual craft skills"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "salted-fish & preserved-seafood cuisine",
+    "dockside offerings and tide-rituals",
+    "oilskin dress with carved-shell talismans"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-shortage",
-    "disappearances"
+    "reagent shortage",
+    "haunted quay"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind influence (banned)",
-    "limited combustion industry"
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents or specialised burg-labors"
   ],
   "notes": [
-    "population unknown",
-    "state assignment pending"
+    "Target ID 226: Penkseyles; state unknown",
+    "Tech baseline: near-medieval to early-industrial with ritual magic reliant on reagents"
   ],
-  "generated_at": "2025-09-09T04:17:21.505Z"
+  "generated_at": "2025-09-09T05:29:50.971Z"
 }

@@ -1,56 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_91b7a5e3",
+  "checksum": "fnv1a_ba14b844",
   "burg_id": 410,
-  "name": "Burg_410",
+  "name": "Kirukthun",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "harbor",
-    "ritual-workshop"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "pilotage",
-    "ritual-lab services",
-    "small-scale trade"
+    "salt-curing",
+    "ritual-reagents",
+    "waystation"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual-practitioners circle",
-    "shipwright cooperative",
-    "smuggler ring"
+    "harbor-guild",
+    "ritual-house",
+    "clan-elders",
+    "smugglers"
   ],
   "problems": [
-    "reagent scarcity",
+    "reagent-scarcity",
+    "storm-damage",
     "smuggling",
-    "storm damage",
-    "bandit raids"
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant dialect with Riveric loanwords",
-    "diet: preserved & fermented seafood",
-    "tide-blessing seasonal festivals",
-    "crafts: rope, timber, simple augury tokens"
+    "Coastal Tongues dialect",
+    "ancestral-offering customs",
+    "salted-fish cuisine",
+    "stilted timber houses"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "missing-supplies",
+    "ritual-mishap"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "tech: near-medieval to early-industrial with localized ritual magic",
-    "pop≈n/a"
+    "near-medieval tech baseline",
+    "navigational-auguries exist but limited",
+    "long-range-mind-influence-banned"
   ],
-  "generated_at": "2025-09-09T04:29:47.308Z"
+  "generated_at": "2025-09-09T05:41:51.738Z"
 }

@@ -1,55 +1,55 @@
 {
   "world_id": "world",
   "state_id": 3,
-  "checksum": "fnv1a_3a5ff405",
-  "name": "State_3",
+  "checksum": "fnv1a_bd18d55",
+  "name": "Zataphruz",
   "aliases": [
-    "Triport Confederacy",
-    "Third Coast",
-    "The Tidegate"
+    "Zata",
+    "Phruz Coast",
+    "The Tide-Harbours"
   ],
   "timeline_beats": [
     {
-      "id": "TB1",
-      "label": "First permanent coastal settlements founded",
-      "ybp": 9000,
+      "id": "tb1",
+      "label": "Founding of clustered harbors and saltworks",
+      "ybp": 8500,
       "refs_world_events": []
     },
     {
-      "id": "TB2",
-      "label": "Rise as regional port-league and shipbuilding center",
-      "ybp": 3200,
+      "id": "tb2",
+      "label": "Integration into regional merchant leagues (river-coastal trade link)",
+      "ybp": 3500,
       "refs_world_events": []
     },
     {
-      "id": "TB3",
-      "label": "Maritime expansion; colonial outposts & island bases established",
-      "ybp": 1400,
+      "id": "tb3",
+      "label": "Rise of Augur Houses controlling navigation rites",
+      "ybp": 1600,
       "refs_world_events": []
     },
     {
-      "id": "TB4",
-      "label": "Great Naval War impacts fleet and trade routes",
-      "ybp": 700,
+      "id": "tb4",
+      "label": "Acceded to Open-Seas Treaty",
+      "ybp": 480,
       "refs_world_events": [
-        "W1"
+        "T1"
       ]
     },
     {
-      "id": "TB5",
-      "label": "Open-Seas Treaty and entry into Sea Trade Union",
-      "ybp": 280,
+      "id": "tb5",
+      "label": "Joined/formed the Maritime Trading League",
+      "ybp": 220,
       "refs_world_events": [
-        "T1",
-        "TB1",
-        "A1"
+        "A1",
+        "TB1"
       ]
     },
     {
-      "id": "TB6",
-      "label": "Succession crisis of neighbor leads to coastal acquisition",
-      "ybp": 180,
+      "id": "tb6",
+      "label": "Engaged in Great Naval War; later border gain via succession crisis of neighbor",
+      "ybp": 120,
       "refs_world_events": [
+        "W1",
         "W4",
         "BC3"
       ]
@@ -58,45 +58,45 @@
   "factions": [
     {
       "id": "F1",
-      "label": "Merchants' Grand Gild",
-      "influence_hint": "dominant in urban councils; controls long-distance trade"
+      "label": "Grand Merchant Consortium",
+      "influence_hint": "dominant in trade policy and reagent import"
     },
     {
       "id": "F2",
-      "label": "Harbour Nobility",
-      "influence_hint": "landed elites; finance fortifications and magistracies"
+      "label": "Tidebound Navy",
+      "influence_hint": "controls coastal defense, port licenses, naval law"
     },
     {
       "id": "F3",
-      "label": "Shipwrights' Conclave",
-      "influence_hint": "technical guild; controls shipbuilding and naval contracts"
+      "label": "Augur Houses",
+      "influence_hint": "monopolize navigational auguries and ritual-port rites"
     },
     {
       "id": "F4",
-      "label": "Tide-Templars",
-      "influence_hint": "religious order; maritime auguries and port rites"
+      "label": "Reagent Syndics",
+      "influence_hint": "control scarce imported ritual reagents and pricing"
     },
     {
       "id": "F5",
-      "label": "Smugglers' Syndicate",
-      "influence_hint": "informal; undermines tariffs, strong in fringe isles"
+      "label": "Harbor Clans Council",
+      "influence_hint": "local landed families, influence docks and militia"
     }
   ],
   "economy_pillars": [
-    "maritime_trade",
-    "shipbuilding",
-    "salt-curing_and_fish",
-    "port_services_and_finance",
-    "ritual-augury_services"
+    "maritime trade",
+    "shipbuilding & repair",
+    "reagent import & brokerage",
+    "saltfishing & aquaculture",
+    "augury services (navigation/rituals)"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seafaring lexicon and navigation lore",
-      "port-multilingualism (traders' pidgins common)",
-      "guild-centered apprenticeship and ritual craft",
-      "oral sea-chant epics and seasonal festivals",
-      "pragmatic mercantile ethics with patronage networks"
+      "maritime seamanship & practical navigation",
+      "guild-centric civic order",
+      "tide-based calendrical rituals",
+      "trade creole jargon",
+      "pragmatic religious syncretism"
     ]
   },
   "religion": {
@@ -110,42 +110,50 @@
   "regions": [
     {
       "id": "R1",
-      "label": "Saltreach Harbor",
+      "label": "Zata Harbor",
       "tags": [
-        "coastal",
-        "trade-hub"
+        "trade-hub",
+        "coastal"
       ]
     },
     {
       "id": "R2",
-      "label": "Old Quarter",
+      "label": "Reagent Quay",
       "tags": [
-        "urban",
-        "craft-hub"
+        "trade-hub",
+        "coastal"
       ]
     },
     {
       "id": "R3",
-      "label": "Windward Isles",
+      "label": "North Saltflats",
       "tags": [
-        "island",
-        "naval-outpost"
+        "coastal",
+        "resource"
       ]
     },
     {
       "id": "R4",
-      "label": "Glassmarsh",
+      "label": "Fortified Dykes",
       "tags": [
         "coastal",
-        "wetlands"
+        "military"
       ]
     },
     {
       "id": "R5",
-      "label": "Cliffward March",
+      "label": "Outer Atolls",
       "tags": [
-        "coastal",
-        "frontier"
+        "island",
+        "navigational"
+      ]
+    },
+    {
+      "id": "R6",
+      "label": "Guildward Quarter",
+      "tags": [
+        "urban",
+        "administrative"
       ]
     }
   ],
@@ -182,17 +190,20 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Navigational auguries exist but cannot replace charts and seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labour",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+    "No instant resurrection or true life-replacement magics (world constraint)",
+    "Long-range mind influence is rare and institutionally banned (world constraint)",
+    "Navigational auguries cannot replace charts and seamanship; auguries require specialist Houses and material components (world constraint)",
+    "Ritual magic consumes scarce imported reagents or specialized labor; reagents are high-value trade goods (world constraint)",
+    "Combustion-derived industry limited; no high-pressure steam megatechs (world constraint)",
+    "Obligations under T1 (Open-Seas Treaty) and A1 (Maritime Trading League) constrain wartime naval action and trade tariffs",
+    "Vulnerability to reagent blockades must be considered in logistics and diplomacy"
   ],
   "notes": [
-    "Heavy dependence on imported ritual reagents; trade disruptions cause sharp ritual/service shortages",
-    "Port defenses and shipwright capacity are strategic vulnerabilities and factional focal points",
-    "Recent coastal acquisition (BC3) leaves frontier governance contested with State_2 remnants",
-    "Membership in Maritime Trading League and Sea Trade Union shapes tariff regimes and convoy obligations"
+    "Coastal, port-cluster polity with layered guild/naval power balance",
+    "Strategic dependence on reagent import routes; Reagent Quay is chokepoint",
+    "Augur Houses are politically powerful but rely on Guild and Reagent Syndics",
+    "Recent border gain (BC3) expanded saltflat resources; increased friction with neighbor factions (W4 legacy)",
+    "Naval capacity is regionally strong but constrained by treaty obligations and limited industrial scale"
   ],
-  "generated_at": "2025-09-09T03:53:18.913Z"
+  "generated_at": "2025-09-09T23:07:44.602Z"
 }

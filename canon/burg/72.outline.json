@@ -1,31 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cefa5941",
+  "checksum": "fnv1a_b46e9364",
   "burg_id": 72,
-  "name": "Burg_72",
-  "state_id": 0,
+  "name": "Krazashju",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "ritual-outpost"
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent-transshipment",
-    "pilotage",
-    "lightkeeping"
+    "saltworks",
+    "ritual-reagent trade",
+    "waystation"
   ],
   "factions_local": [
-    "Harbormasters' Guild",
-    "Ancestor Shrine Keepers",
-    "Coastal Militia",
-    "Smugglers' Ring"
+    "Sea-Tide shrine",
+    "Merchant skiff syndicate",
+    "Smuggler crew",
+    "Clan Krazash (harborers)"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling-led-corruption",
-    "storm-damage"
+    "reagent scarcity",
+    "storm damage to docks",
+    "smuggling draws law attention",
+    "harbormaster corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,24 +35,22 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "diet heavy on salted fish and seaweed preserves",
-    "ritual offerings to tide before voyaging"
+    "Island Creole-influenced Coastal Tongue dialect",
+    "tide-blessing rituals before departures",
+    "preserved fish and salted seaweed staples"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "shipwrecks"
+    "storm-omen",
+    "missing reagent shipment"
   ],
   "constraints": [
-    "limited-ritual-reagents",
-    "no-long-range-mind-magic",
-    "combustion-industry-limited"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind control enforced"
   ],
   "notes": [
-    "supplies arrive irregularly by coastal traders",
-    "navigational auguries used alongside charts",
-    "population fluxes with shipping season"
+    "settlement clustered on reef and pilings; vulnerable to strong tides",
+    "name implies ancestral reef-guard tradition"
   ],
-  "generated_at": "2025-09-09T04:36:38.694Z"
+  "generated_at": "2025-09-09T05:48:15.657Z"
 }

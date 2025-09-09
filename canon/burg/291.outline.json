@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d78c1935",
+  "checksum": "fnv1a_3795abc6",
   "burg_id": 291,
-  "name": "Burg_291",
-  "state_id": 0,
+  "name": "Shurrush",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-reagents",
-    "harbor"
+    "river-port",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "river trade",
     "fishing",
-    "ritual-reagent trade",
-    "small-ship repair",
-    "informal smuggling"
+    "timber processing",
+    "ritual-labor services"
   ],
   "factions_local": [
-    "keeper-priesthood",
-    "cargo-guild",
-    "coastal-watch",
-    "smuggler-ring"
+    "Rivermen's Guild",
+    "Temple Circle of Tides",
+    "Boatmasters' Consortium"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling conflicts",
-    "storm damage"
+    "seasonal flooding",
+    "reagent scarcity for rites",
+    "smuggling along river"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "diet heavy on salted fish, seaweed, shellfish",
-    "tide-linked rituals govern work and festivals",
-    "barter-heavy, informal trust networks"
+    "Riveric dialect dominant with coastal loanwords",
+    "boat-burial and wake rituals common",
+    "diet heavy on smoked fish and riverine foraged greens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "shipwreck salvage"
+    "stolen ritual reagents",
+    "disappearances on the river"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind-control; navigational auguries limited"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries support but do not replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "small protected cove; strategic for coastal trade",
-    "state authority remote/uncertain"
+    "near-medieval to early-industrial baseline tech",
+    "local labs tied to specific ritual crafts",
+    "state authority unknown/limited"
   ],
-  "generated_at": "2025-09-09T04:21:52.529Z"
+  "generated_at": "2025-09-09T05:33:58.113Z"
 }

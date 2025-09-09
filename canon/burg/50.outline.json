@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_17af175d",
+  "checksum": "fnv1a_198e7213",
   "burg_id": 50,
-  "name": "Burg_50",
+  "name": "Breszai",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor"
+    "ritual-trade"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-processing",
     "ritual reagent trade",
-    "local shipwrights"
+    "fishing and salting",
+    "shipchandlery and repair",
+    "toll and quay fees"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Priests",
-    "Saltworkers' Cooperative",
-    "Smugglers' Ring"
+    "Harbormaster's Syndicate",
+    "Merchant Brotherhood agents",
+    "Ancestor-Shrine custodians",
+    "River-smugglers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry on coastal approaches",
-    "seasonal storms",
-    "trade competition from larger ports"
+    "reagent scarcity and price spikes",
+    "smuggling and bribery",
+    "seasonal tidal flooding",
+    "weak civic enforcement"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues (local variant)",
-    "strong seamanship rituals and offerings",
-    "diet: salted fish, seaweed ferments"
+    "Riveric dialect with coastal loanwords",
+    "Ancestor-tide festivals tied to arrival of reagent shipments",
+    "boats bear painted ritual sigils for safe passage",
+    "diet: salted fish, seaweed preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipments",
-    "ritual failure"
+    "ritual reagent theft",
+    "disappearances at sea"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
     "ritual magic consumes scarce imported reagents",
-    "limited combustion industry (no high-pressure steam megatechs)"
+    "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech with pervasive localized ritual magic",
-    "navigational auguries exist but do not replace charts or seamanship"
+    "strategic small port on a tidal river mouth",
+    "population fluctuates with reagent convoy schedules"
   ],
-  "generated_at": "2025-09-09T04:35:02.801Z"
+  "generated_at": "2025-09-09T05:46:19.290Z"
 }

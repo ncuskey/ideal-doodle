@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_market_quarter_harborward",
+  "checksum": "fnv1a_3d7f16b7",
+  "name": "Market Quarter (Harborward)",
+  "aliases": [
+    "Harborward",
+    "Market Quarter"
+  ],
+  "tags": [
+    "harbor",
+    "market",
+    "ship-repair",
+    "augury",
+    "salt"
+  ],
+  "role_in_state": "primary coastal trade and pilotage hub",
+  "economy_niches": [
+    "wharfside fish auctions",
+    "salt-curing & brining yards",
+    "ship repair & carpentry",
+    "ritual-augury services for pilots",
+    "maritime brokerage & freight forwarding"
+  ],
+  "culture_adjustments": [
+    "market-first civic identity over boat-name primacy",
+    "kin-track ties softened by transient crews and merchants",
+    "oral sea-songs adapted into vendor call/negotiation forms",
+    "artisan-runic shopmarks more common than household marks",
+    "calendar organized around tide-markets and cargo seasons"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding",
+    "cargo theft & gangs",
+    "timber-yard fire",
+    "fishery-borne disease"
+  ],
+  "constraints": [
+    "ritual auguries consume scarce imported reagents",
+    "long-range mind-influence prohibited in trade",
+    "limited combustion industry; no high-pressure steam docks"
+  ],
+  "notes": [
+    "market hours tied to high tide windows",
+    "guild-run arbitration resolves most disputes",
+    "licensed augurs control pilotage access"
+  ],
+  "generated_at": "2025-09-09T05:04:43.379Z"
+}

@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d6652e59",
+  "checksum": "fnv1a_63d77095",
   "burg_id": 444,
-  "name": "Burg_444",
+  "name": "Kas",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-supply"
+    "harbor",
+    "ritual-reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply depot",
-    "waypoint for coastal traders",
-    "small-scale fishing",
-    "salt harvesting"
+    "fishing",
+    "local trade",
+    "reagent brokerage",
+    "boat repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "apothecary-coven",
-    "clan elders",
-    "smuggling ring"
+    "Harbormasters' Guild",
+    "Apothecarists' Circle",
+    "Skiffmen's Cooperative",
+    "Town Council"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "bandit raids on skiffs",
-    "flood damage"
+    "reagent scarcity",
+    "smuggling & piracy",
+    "corruption in port fees"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominant",
-    "daily sea-offering customs",
-    "diet: salted fish and fermented seaweed",
-    "ritual labor specialization: reagent scavengers"
+    "mixed Coastal Tongues and Riveric Dialect speech",
+    "seafood-heavy cuisine with fermented fish sauces",
+    "ritualized dockside offerings to tides"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearing fishing vessels"
+    "missing ritual reagents",
+    "haunted quay"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents; high cost limits prolonged use",
-    "Navigational auguries aid but don't replace charts and seamanship"
+    "no instant resurrection; ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and institutionally banned",
+    "navigation auguries supplement charts but do not replace seamanship"
   ],
   "notes": [
-    "State affiliation unknown; frontier governance",
-    "Population transient; many sailors and itinerant ritualists"
+    "near-medieval to early-industrial tech with pervasive localized ritual magic",
+    "small but strategic port linking riverine hinterland and island routes"
   ],
-  "generated_at": "2025-09-09T04:32:21.953Z"
+  "generated_at": "2025-09-09T05:43:59.415Z"
 }

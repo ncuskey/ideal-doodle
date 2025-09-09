@@ -1,54 +1,61 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3c9a8b7d",
+  "checksum": "fnv1a_28c872cf",
   "burg_id": 468,
-  "name": "Burg_468",
+  "name": "Boston",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "outpost",
-    "ritual-stop"
+    "coastal",
+    "port",
+    "historic"
   ],
-  "size_hint": "outpost",
+  "size_hint": "large",
   "economy_roles": [
-    "ritual supply depot",
-    "transit waypoint",
-    "small-scale fishing/preservation"
+    "port trade",
+    "shipbuilding",
+    "fisheries",
+    "markethouse commerce",
+    "artisan workshops"
   ],
   "factions_local": [
-    "ritual guild cell",
-    "merchant agent/consortium",
-    "local elder council"
+    "Merchants' Consortium",
+    "Dockworkers' Guild",
+    "Shipowners' Syndicate",
+    "Harbor Ritualists",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling of contraband reagents",
-    "bandit raids on supply convoys"
+    "smuggling",
+    "guild corruption",
+    "housing shortage",
+    "resource scarcity"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue / Riveric blend dialect",
-    "strong ritual provisioning customs",
-    "diet heavy on preserved seafood and smoke-cures"
+    "Coastal Tongues with Riveric loanwords",
+    "harbor festivals and tide-rituals",
+    "sea-salt preserved cuisine",
+    "strong guild honor codes"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing supply ship"
+    "missing cargo",
+    "ritual sabotage"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "no instant resurrection or true life-replacement magics"
+    "limited imported ritual reagents",
+    "no high-pressure steam industry",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "state affiliation unrecorded",
-    "population data not available",
-    "serves supply role for ritual voyages"
+    "old port, layered districts",
+    "notable shipwright yards",
+    "naval cadet training houses"
   ],
-  "generated_at": "2025-09-09T04:34:02.873Z"
+  "generated_at": "2025-09-09T05:45:33.632Z"
 }

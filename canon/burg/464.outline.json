@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4292f355",
+  "checksum": "fnv1a_4005b09",
   "burg_id": 464,
-  "name": "Burg_464",
+  "name": "Qosx",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverine",
+    "coastal",
+    "port",
     "ritual-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "riverside trade",
-    "reagent procurement",
     "fishing",
-    "boat repair"
+    "transshipment",
+    "ritual-supply-trade",
+    "pilot-auguries"
   ],
   "factions_local": [
-    "Riverwardens",
-    "Reagent Guild",
-    "Boatwrights' Syndicate",
-    "Ancestor Watch"
+    "Harbormaster's Guild",
+    "Tide-Wardens",
+    "Merchant Liturgists",
+    "Smuggler Consortium"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry",
-    "seasonal flooding",
-    "smuggling"
+    "smuggling",
+    "storm damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "funerary wakes tied to river rites",
-    "smoked fish staple",
-    "stilt and boat-built architecture"
+    "Coastal Tongue dialect",
+    "seafood-and-kelp cuisine",
+    "ship-ritual customs",
+    "practical, superstition-tinged trade etiquette"
   ],
   "quest_hook_slots": [
-    "missing reagent shipments",
-    "smuggling ring",
-    "levee breach / flood threat"
+    "smuggling",
+    "missing-augury",
+    "reagent-heist"
   ],
   "constraints": [
+    "no instant resurrection",
     "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence is rare and banned"
+    "navigational auguries cannot replace charts"
   ],
   "notes": [
-    "population unknown; outpost-scale",
-    "sits on minor river trade route"
+    "navigational-augury port; pilots valued",
+    "local economy tied to reagent supply and guiding fees"
   ],
-  "generated_at": "2025-09-09T04:33:53.269Z"
+  "generated_at": "2025-09-09T05:45:24.391Z"
 }

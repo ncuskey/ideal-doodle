@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_mireford_estuary",
+  "checksum": "fnv1a_9a096d2c",
+  "name": "Mireford Estuary",
+  "aliases": [
+    "Mireford",
+    "Mireford Estuary"
+  ],
+  "tags": [
+    "estuary",
+    "salt-marsh",
+    "pilotage",
+    "harbor-clans",
+    "reagent-harvest"
+  ],
+  "role_in_state": "salt, reagent and pilotage hub",
+  "economy_niches": [
+    "salt pans & kelp-derived reagent production",
+    "tidal pilotage and navigation services",
+    "estuary shipbuilding & repair (flat-keel craft)",
+    "dried and smoked seafood exports",
+    "reed-weaving and brackish-peat charcoal for ritual uses"
+  ],
+  "culture_adjustments": [
+    "intensified pilot rites tied to channel memory and tide-reading",
+    "harbor-clans exercise stronger local governance than inland offices",
+    "daily life prioritizes Sea-Tide offerings over formal ancestor ceremonies",
+    "contracts adapted to tidal windows and pilot-fee schedules",
+    "seasonal floating hamlets and greater clan mobility"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "silting and navigation hazards",
+    "tidal storms",
+    "saltwater intrusion on freshwater sources",
+    "clan feuding over channels and pilot rights"
+  ],
+  "constraints": [
+    "limited arable land; relies on food imports",
+    "ritual reagents partly dependent on scarce imported compounds",
+    "navigation auguries require local charts and living pilots",
+    "low-tide windows restrict heavy cargo movements"
+  ],
+  "notes": [
+    "controls key approach channels for State_6 maritime trade",
+    "seasonal salt and reagent yields drive ritual and merchant schedules",
+    "clan mediators act as primary adjudicators for pilotage disputes"
+  ],
+  "generated_at": "2025-09-09T05:07:54.443Z"
+}

@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fe78a1b7",
+  "checksum": "fnv1a_e84aad4e",
   "burg_id": 412,
-  "name": "Burg_412",
+  "name": "Gobruing",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "none",
-    "ritual-depot",
+    "ritual-works",
     "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent depot",
-    "fishing",
-    "waystation/trading post",
-    "small market"
+    "reagent trading",
+    "caravan services",
+    "seasonal market",
+    "grain milling"
   ],
   "factions_local": [
-    "merchant guildlet",
-    "ritual-collectors",
-    "harbor wardens",
-    "smugglers"
+    "merchant guild",
+    "ritual fraternity",
+    "local militia",
+    "ancestral-keepers"
   ],
   "problems": [
     "scarce imported reagents",
-    "banditry along routes",
-    "corruption in permits",
-    "resource depletion"
+    "bandit raids on routes",
+    "corruption in tolls"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with maritime loanwords",
-    "diet focused on smoked/cured fish",
-    "customs favor ritual offerings before departures"
+    "Riveric Dialect influence in speech",
+    "ritualized bargaining etiquette",
+    "preserved-salt cuisine staples"
   ],
   "quest_hook_slots": [
     "smuggling",
     "missing reagent shipment",
-    "ritual contamination"
+    "ancestral relic dispute"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "no instant-resurrection magics",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "State affiliation unknown",
-    "Serves itinerant ritualists, mariners, and small-scale traders"
+    "population unknown; functions as small relay outpost",
+    "on a caravan/river route between coast and highlands"
   ],
-  "generated_at": "2025-09-09T04:29:55.283Z"
+  "generated_at": "2025-09-09T05:41:55.186Z"
 }

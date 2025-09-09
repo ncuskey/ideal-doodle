@@ -1,49 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e983170d",
+  "checksum": "fnv1a_c2e8ed5f",
   "burg_id": 33,
-  "name": "Burg_33",
-  "state_id": 0,
+  "name": "Brutony",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent procurement",
-    "coastal fishing",
-    "waystation trade"
+    "meat-salting",
+    "herding",
+    "mercenary-market",
+    "reagent waypoint"
   ],
   "factions_local": [
-    "ritual guild depot",
-    "merchant agent",
-    "harbor watch",
-    "smuggler ring"
+    "Butchers' Guild",
+    "Muster Captain",
+    "Reagent Syndicate",
+    "Shrinekeepers"
   ],
   "problems": [
+    "banditry",
     "reagent scarcity",
-    "supply delays",
-    "theft and smuggling"
+    "raider raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "Ritual work rhythms shape market hours",
-    "Diet: salted fish, seaweed; reagent-smoking preservation"
+    "Coastal Tongues dialect with blunt slang",
+    "meat-and-salt staple cuisine",
+    "muster/mercenary social rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipment",
-    "ritual reagent theft"
+    "reagent theft",
+    "muster intrigue"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "Population unknown; administrative state unknown",
-    "Near-medieval to early-industrial tech with localized ritual magic"
+    "population small/unknown",
+    "strategic coastal waypoint for reagent shipments"
   ],
-  "generated_at": "2025-09-09T04:24:35.005Z"
+  "generated_at": "2025-09-09T05:36:31.736Z"
 }

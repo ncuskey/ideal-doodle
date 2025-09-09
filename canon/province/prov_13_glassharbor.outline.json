@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_glassharbor",
+  "checksum": "fnv1a_16bbcf14",
+  "name": "Glassharbor",
+  "aliases": [
+    "Glass Harbor",
+    "The Beaconworks"
+  ],
+  "tags": [
+    "coastal",
+    "port",
+    "glassmaking",
+    "reagent-hub",
+    "guild-stronghold"
+  ],
+  "role_in_state": "Primary reagent transshipment and specialized glassworks supporting navigation",
+  "economy_niches": [
+    "Salt-tempered glass production (beacons, bottles, lens blanks)",
+    "Ship outfitting and repair (glass fittings, lanterns, balustrades)",
+    "Reagent transshipment and bonded storage for ritual suppliers",
+    "Salt-processing and concentrated brine exports"
+  ],
+  "culture_adjustments": [
+    "Port cant inflected with technical glassmaking vocabulary",
+    "Guild-controlled apprenticeships limit clan-led cooperative labor",
+    "Augury rituals incorporate glass-beacon reading before departures",
+    "Practical literacy skewed toward technical manuals and account ledgers"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "kiln-fire",
+    "reagent-theft/piracy",
+    "guild-unrest"
+  ],
+  "constraints": [
+    "Freshwater scarcity for large-scale kilns",
+    "Dependence on imported reagents and bonded storage",
+    "Guild monopolies restrict new glassmakers and reagent traders"
+  ],
+  "notes": [
+    "Glass beacons used in seasonal auguries and navigation",
+    "Harbor infrastructure doubles as bonded reagent warehouses"
+  ],
+  "generated_at": "2025-09-09T05:03:55.419Z"
+}

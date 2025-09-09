@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_df8d9387",
+  "checksum": "fnv1a_9aa06ae0",
   "burg_id": 166,
-  "name": "Burg_166",
+  "name": "Azionbury",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-trade",
+    "ritual-works"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent sourcing",
-    "small-scale fishing",
-    "coastal waystation",
-    "boat repair"
+    "river-traders",
+    "fishery",
+    "ritual-laboratory",
+    "packhorse-supply"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritual-Suppliers' Consortium",
-    "Smuggler Ring",
-    "Village Council"
+    "Riverwatch",
+    "Draughtkeepers Guild",
+    "Temple of Tides",
+    "Market Syndicate"
   ],
   "problems": [
-    "scarce imported reagents",
-    "coastal banditry",
-    "supply instability"
+    "scarce ritual reagents",
+    "banditry on river",
+    "corroding docks"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-based ritual calendar",
-    "salt-curing and preserved seafood cuisine",
-    "local boatbuilding and salvage traditions"
+    "Riveric Dialect common",
+    "seasonal boat-festival",
+    "smoked and pickled fish cuisine",
+    "ritual sigils integrated into craft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "shipwreck salvage"
+    "ritual-theft",
+    "missing bargemen"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "No instant resurrection or true life-replacement magic",
+    "Rituals require scarce imported reagents",
+    "Long-range mind influence is rare and banned"
   ],
   "notes": [
-    "state affiliation unknown",
-    "population data unavailable",
-    "serves as a coastal outpost/stopover"
+    "Tech baseline: near-medieval to early-industrial",
+    "Navigational auguries used but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:13:27.927Z"
+  "generated_at": "2025-09-09T05:25:59.305Z"
 }

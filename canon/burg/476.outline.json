@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8e6268df",
+  "checksum": "fnv1a_4aa3c652",
   "burg_id": 476,
-  "name": "Burg_476",
-  "state_id": 0,
+  "name": "Phax",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
     "harbor",
-    "ritual-hub"
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "maritime trade",
+    "ritual reagent exchange",
     "fishing",
-    "ritual-component trade",
-    "waystation services"
+    "ship repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual-lab proprietors",
-    "smuggler network"
+    "Harbormaster's Guild",
+    "Ritualists' Conclave",
+    "Smugglers' Ring",
+    "Coastal Militia"
   ],
   "problems": [
+    "smuggling",
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling-related violence"
+    "corrupt harbor fees",
+    "sea raiders"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
     "Coastal Tongues dialect",
-    "tide-festival centered on smoked fish",
-    "seamanship superstitions around auguries",
-    "strict ritual etiquette for reagent use"
+    "salt-preserved fish cuisine",
+    "ship-blessing tide rites",
+    "market hours follow tides"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing sailors"
+    "reagent-theft",
+    "vanishing-fishermen"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare and banned",
-    "navigational auguries cannot replace charts or seamanship"
+    "no instant resurrection; long-range mind influence restricted"
   ],
   "notes": [
-    "population unknown; transient sailors",
-    "located on a narrow inlet; strategic stop for coastal traffic",
-    "economy tied to seasonal trade and reagent imports"
+    "rocky cove port, strategic coastal stop",
+    "informal governance; guild dominance"
   ],
-  "generated_at": "2025-09-09T04:34:41.313Z"
+  "generated_at": "2025-09-09T05:46:01.851Z"
 }

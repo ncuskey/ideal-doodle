@@ -1,59 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a2bb4895",
+  "checksum": "fnv1a_d341ede5",
   "burg_id": 57,
-  "name": "Burg_57",
-  "province_id": "",
-  "tags": [
-    "coastal",
-    "harbor",
-    "ritual-magic"
-  ],
-  "size_hint": "outpost",
+  "name": "Albridgerid",
+  "state_id": 0,
+  "province_id": "unknown",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "reagent trading",
-    "boat repair",
-    "waypoint provisioning"
+    "toll-bridge",
+    "river-ferry",
+    "bridge-market",
+    "ritual-supply trade"
   ],
   "factions_local": [
-    "harbor guild",
-    "tide-priest circle",
-    "scavenger crews",
-    "merchant brokers"
+    "Bridge Wardens",
+    "Ferry Guild",
+    "River Priests",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "tidal flooding",
-    "bandit raids"
+    "bridge decay",
+    "banditry on approaches",
+    "reagent scarcity for rituals",
+    "smuggling networks"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues + Island Creole mix",
-    "seafood-heavy cuisine",
-    "tide and augury taboos",
-    "oral charting traditions"
+    "speaks Riveric Dialect with Coastal loanwords",
+    "annual bridge-blessing toll-ceremony",
+    "diet heavy on smoked/pressed river fish",
+    "craftsmen skilled in timber-and-iron repairs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipments",
-    "tide-shrine desecration"
+    "structural failure (bridge)",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "long-range mind influence banned",
-    "navigational auguries limited"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with ritual magic requiring imported reagents",
-    "rocky inlet port serving local island routes",
-    "acts as minor waypoint rather than major trade hub"
+    "toll-rights are legally contested with nearby lords",
+    "strategic crossing on a major river route; population not recorded"
   ],
-  "generated_at": "2025-09-09T04:35:29.673Z",
-  "state_id": 0
+  "generated_at": "2025-09-09T05:46:55.697Z"
 }

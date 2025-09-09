@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_45903455",
+  "checksum": "fnv1a_9dadeff5",
   "burg_id": 190,
-  "name": "Burg_190",
+  "name": "Ki'jiress",
   "state_id": 0,
-  "province_id": "province_unknown",
+  "province_id": "unknown",
   "tags": [
     "coastal",
-    "port",
-    "reagent-trade"
+    "harbor",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-collection",
     "fishing",
-    "transshipment",
-    "rope-and-sail-repairs"
+    "ritual-supplies-trade",
+    "ship-repair",
+    "smuggling"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-contractors",
-    "sea-shaman-circle",
-    "smugglers"
+    "Tide-Remembrancers",
+    "Dockwrights Guild",
+    "Harbor Master's House",
+    "Smuggler Crew"
   ],
   "problems": [
-    "scarce-imports",
-    "storm-damage",
-    "guild-rivalry"
+    "reagent scarcity",
+    "tidal erosion",
+    "banditry",
+    "guild corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "salt-curing cuisine and dried fish",
-    "shipwright and tide-blessing customs"
+    "Island Creole-influenced dialect",
+    "tide-blessing festivals",
+    "preserved fish and seaweed cuisine",
+    "driftwood carving craft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "storm-omens",
-    "missing-reagents"
+    "missing-ritual-reagent",
+    "rising-tide-monster"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "navigational auguries cannot replace charts and seamanship",
-    "no instant resurrection or true life-replacement magics"
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imported-reagents"
   ],
   "notes": [
-    "population unknown; transient seafaring populace",
-    "minor resupply hub for nearby islands"
+    "harbor partially silted",
+    "navigation requires charts despite auguries"
   ],
-  "generated_at": "2025-09-09T04:15:00.532Z"
+  "generated_at": "2025-09-09T05:27:36.831Z"
 }

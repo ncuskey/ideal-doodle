@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a363841d",
+  "checksum": "fnv1a_bf38ee8e",
   "burg_id": 442,
-  "name": "Burg_442",
-  "state_id": -1,
+  "name": "Heshas",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "remote",
-    "coastal",
-    "ritual-depot"
+    "coastal-inlet",
+    "ritual-supply-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent depot",
-    "pilotage & charts",
-    "salvage and fishing"
+    "fishing",
+    "ritual-ingredient-harvest",
+    "coastal-trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "Harbor Syndicate",
-    "Shrine-Keeper Circle",
-    "Pilot-Guild",
-    "Coastal Smugglers"
+    "Shrine-Guild",
+    "Harbormaster's Circle",
+    "Clan-Kephar",
+    "Smuggler-crew"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling and illicit trade",
-    "neglected governance",
-    "sporadic storms"
+    "reagent-scarcity",
+    "banditry",
+    "corruption",
+    "shore-erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "language: Coastal Tongues with Island Creole loanwords",
-    "custom: ship-blessings and tide-offerings",
-    "cuisine: salted fish and preserved kelp",
-    "social: barter and favor-based transactions"
+    "Coastal Tongues dialect",
+    "tide-ancestor offerings",
+    "salt-preserved cuisine",
+    "seasonal boat-festival"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "stranded-ship"
+    "reagent-shortage",
+    "ancestral-omen"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries require charts and seamanship",
-    "ritual magic consumes scarce imported reagents"
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "population unknown; likely transient mariner mix",
-    "small strategic harbor for coastal voyages",
-    "limited combustion industry; labor-intensive ritual work"
+    "near-medieval tech with ritual magics",
+    "navigational-auguries used locally",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:32:12.936Z"
+  "generated_at": "2025-09-09T05:43:56.137Z"
 }

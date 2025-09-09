@@ -1,33 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_19259b45",
+  "checksum": "fnv1a_7372bd1e",
   "burg_id": 336,
-  "name": "Burg_336",
+  "name": "Chafonver",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "ritual-labor"
+    "ritual-workshop"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fisheries",
-    "ritual-reagent trade",
-    "ship provisioning",
-    "salt-curing"
+    "fishing/processing",
+    "ritual-workshops (component labor)",
+    "transit/ferry resupply",
+    "informal trade/smuggling"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor-Remembrance Circle",
-    "Smugglers' Knot",
-    "Militia Watch"
+    "Workshop Guild",
+    "Harbormasters",
+    "Smugglers' Ring",
+    "Ancestor-Temple caretakers"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling",
-    "coastal erosion",
-    "militia underfunded"
+    "reagent scarcity",
+    "banditry along routes",
+    "smuggling tensions",
+    "infrastructure neglect"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -36,24 +35,24 @@
   ],
   "culture_notes": [
     "Coastal Tongues with Riveric loanwords",
-    "tide-based market calendar",
-    "seaweed and cured fish cuisine",
-    "ancestor veneration tied to fishing rites"
+    "tide-and-harvest festivals tied to ritual calendars",
+    "diet: preserved fish, seaweeds, salted grains",
+    "apprenticeship culture for ritual labor"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ritual-reagents",
-    "wreck salvage"
+    "reagent theft",
+    "missing ferryman"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
     "Ritual magic consumes scarce imported reagents",
-    "Navigational auguries cannot replace charts or seamanship"
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Near-medieval to early industrial tech",
-    "Localized ritual magic common; reagent scarcity shapes trade",
-    "State-level details unknown"
+    "serves as small resupply/repair point for nearby isles",
+    "tidal harbor with hazardous approaches; pilots valued",
+    "small population; roles overlap (officials wear many hats)"
   ],
-  "generated_at": "2025-09-09T04:25:00.610Z"
+  "generated_at": "2025-09-09T05:36:51.517Z"
 }

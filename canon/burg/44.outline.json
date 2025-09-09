@@ -1,56 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8734a6d5",
+  "checksum": "fnv1a_b15d92a8",
   "burg_id": 44,
-  "name": "Burg_44",
+  "name": "Sleh",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-node"
-  ],
-  "size_hint": "small",
+  "tags": [],
+  "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "ritual-labour",
-    "maritime-repair",
-    "local-trade"
+    "ritual-supply hub",
+    "waystation",
+    "smuggling node"
   ],
   "factions_local": [
-    "Harbor-Guild",
-    "Ancestor Circle",
-    "Coastal Watch",
-    "Merchant-Brotherhood Priory"
+    "tide-animist shrines",
+    "ancestor-memorial guild",
+    "coastal traders",
+    "smuggler crews"
   ],
   "problems": [
-    "scarce-reagents",
-    "seasonal-storms",
-    "banditry",
-    "isolation"
+    "reagent scarcity",
+    "supply volatility",
+    "smuggling lawlessness",
+    "storm isolation"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with Riveric loanwords",
-    "seaweed-and-smoked-fish cuisine; tide-festivals",
-    "daily ritual offerings tied to fishing and safe passage"
+    "Coastal Tongues dialect",
+    "boat-burial and anniversary rites",
+    "seaweed-and-shell cuisine",
+    "barter-focused ritual economy"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent-theft",
-    "disappearances"
+    "reagent shortage",
+    "ancestral omen"
   ],
   "constraints": [
-    "ritual-magic-consumes-scarce-imports",
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned"
+    "No instant resurrection",
+    "Long-range mind influence banned",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with localized ritual integration",
-    "navigational-auguries present but do not replace charts or seamanship"
+    "near-coastal outpost with precarious supply lines",
+    "navigational auguries supplement but don't replace charts",
+    "small transient population: fishers, ritualists, traders"
   ],
-  "generated_at": "2025-09-09T04:31:53.349Z"
+  "generated_at": "2025-09-09T05:43:50.944Z"
 }

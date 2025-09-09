@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_68783dc5",
+  "checksum": "fnv1a_26d122a3",
   "burg_id": 22,
-  "name": "Burg_22",
-  "state_id": -1,
+  "name": "Clifton",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "isolated",
-    "ritual-hub"
+    "none",
+    "coastal",
+    "cliffside"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagents trade",
     "fishing",
-    "small-ship repair",
-    "local market"
+    "waystation trade",
+    "ritual-lab supply",
+    "quarry"
   ],
   "factions_local": [
-    "cult-circle",
-    "merchant-family",
-    "harbor-militia",
-    "ritual-apothecaries"
+    "Harbor Guild",
+    "Ritual Lodge",
+    "Local Magistrate"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "bandit raids",
-    "ritual accidents"
+    "scarcity of ritual reagents",
+    "cliff erosion",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues + Riveric Dialect mix",
-    "formal ritual etiquette in daily life",
-    "seafood-heavy cuisine",
-    "tide-linked seasonal festivals"
+    "Coastal Tongues dialect dominant",
+    "seafood-salt cuisine; kelp use",
+    "tide-festival calendar",
+    "ritual crafts tied to imported reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen reagent cache",
-    "missing fishermen"
+    "cliff-collapse",
+    "missing-reagents"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "ritual-magic-consumes-scarce-imported-reagents"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech",
-    "navigational auguries exist but do not replace charts",
-    "state affiliation unknown"
+    "near-medieval to early industrial tech",
+    "limited combustion industry; no high-pressure steam megatechs",
+    "small precarious port on a cliff"
   ],
-  "generated_at": "2025-09-09T04:16:50.765Z"
+  "generated_at": "2025-09-09T05:29:18.040Z"
 }

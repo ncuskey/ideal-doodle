@@ -4,126 +4,136 @@
   "checksum": "fnv1a_9fe45edf",
   "name": "State_15",
   "aliases": [
-    "Coastal Canton Fifteen",
-    "The Fifteenth Strand"
+    "The Tidal March",
+    "Fjordlight Polity"
   ],
   "timeline_beats": [
     {
-      "id": "tb1",
-      "label": "Founding fishing hamlets coalesce into chartered coastal polity",
-      "ybp": 7800,
-      "refs_world_events": []
-    },
-    {
-      "id": "tb2",
-      "label": "Integration into River-Kingdoms & Leagues trade networks",
-      "ybp": 3400,
-      "refs_world_events": []
-    },
-    {
-      "id": "tb3",
-      "label": "Age of Flux: fortified ports and privateer rise",
-      "ybp": 1200,
-      "refs_world_events": []
-    },
-    {
-      "id": "tb4",
-      "label": "Present Order consolidation; codified maritime statutes",
-      "ybp": 400,
+      "id": "B1",
+      "label": "Lagoon settlement and coastal polities form",
+      "ybp": 9000,
       "refs_world_events": [
-        "A3",
+        "Era_First_Coasts"
+      ]
+    },
+    {
+      "id": "B2",
+      "label": "Integration with River-Kingdom trade networks; merchant houses rise",
+      "ybp": 3500,
+      "refs_world_events": [
+        "Era_River_Kingdoms"
+      ]
+    },
+    {
+      "id": "B3",
+      "label": "Corsair confederacies and coastal militia reorganization",
+      "ybp": 1500,
+      "refs_world_events": [
+        "Era_Age_of_Flux"
+      ]
+    },
+    {
+      "id": "B4",
+      "label": "Accession to Inner-Coastal Accord (A3)",
+      "ybp": 200,
+      "refs_world_events": [
+        "A3"
+      ]
+    },
+    {
+      "id": "B5",
+      "label": "Implementation of Migration and Settlement Protocol (T4)",
+      "ybp": 50,
+      "refs_world_events": [
         "T4"
       ]
     }
   ],
   "factions": [
     {
-      "id": "f1",
-      "label": "Maritime Guild of Keels",
-      "influence_hint": "Controls shipbuilding, port tariffs, apprenticeship"
+      "id": "F1",
+      "label": "Maritime Guilds",
+      "influence_hint": "dominant in ports; controls ship levies, trade charters, customs"
     },
     {
-      "id": "f2",
-      "label": "Tide-Clan Confederation",
-      "influence_hint": "Local coastal communities; seasonal fishing rights"
+      "id": "F2",
+      "label": "Coastal Houses",
+      "influence_hint": "landed aristocracy; hold fortifications and hinterland rents"
     },
     {
-      "id": "f3",
-      "label": "Harbor Council (urban oligarchy)",
-      "influence_hint": "Urban trade policy and treaty negotiators"
+      "id": "F3",
+      "label": "Tide-Scriptoria",
+      "influence_hint": "ritual navigators and augurs; gatekeepers of voyage rites"
     },
     {
-      "id": "f4",
-      "label": "Saltwardens & Reagent Merchants",
-      "influence_hint": "Monopoly on imported ritual reagents and saltworks"
+      "id": "F4",
+      "label": "Harbor Workers' Leagues",
+      "influence_hint": "organized dock labor and saltworks; strong urban political voice"
     }
   ],
   "economy_pillars": [
     "fishing",
-    "shipbuilding",
-    "longshore trade",
     "saltworks",
-    "ritual-reagent import/trade"
+    "shipbuilding",
+    "coastal trade",
+    "smuggling/contraband"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seafaring apprenticeship",
-      "oral navigational songs (keepers of local charts)",
-      "strong kin/boat-house identity",
-      "seasonal voyage taboos and rites",
-      "practical syncretism of ritual and craft"
+      "heavy nautical lexicon and tide-based timekeeping",
+      "kin-clan naming and lineage rites",
+      "seamanship apprenticeship culture",
+      "practical legalism for port commerce",
+      "ritualized harbor festivals tied to navigation"
     ]
   },
   "religion": {
     "families_present": [
       "Sea-Tide Animisms",
-      "Ancestor-Remembrance Cults",
-      "Merchant Brotherhood Liturgies"
+      "Ancestor-Remembrance Cults"
     ],
     "dominant": "Sea-Tide Animisms"
   },
   "regions": [
     {
-      "id": "r1",
-      "label": "Northstrand Basin",
+      "id": "R15-1",
+      "label": "Black-Shell Bay",
+      "tags": [
+        "trade-hub",
+        "coastal"
+      ]
+    },
+    {
+      "id": "R15-2",
+      "label": "Saltflats",
       "tags": [
         "coastal",
+        "resource:salt"
+      ]
+    },
+    {
+      "id": "R15-3",
+      "label": "High-Watch Cliffs",
+      "tags": [
+        "coastal",
+        "fortified"
+      ]
+    },
+    {
+      "id": "R15-4",
+      "label": "Silkmarsh Estuary",
+      "tags": [
+        "river-mouth",
         "fishing"
       ]
     },
     {
-      "id": "r2",
-      "label": "Great Keelyards",
+      "id": "R15-5",
+      "label": "Outer Shoals",
       "tags": [
-        "coastal",
-        "shipbuilding",
-        "trade-hub"
-      ]
-    },
-    {
-      "id": "r3",
-      "label": "Salt flats of Vell",
-      "tags": [
-        "coastal",
-        "resource"
-      ]
-    },
-    {
-      "id": "r4",
-      "label": "Outer Isles Archipelago",
-      "tags": [
-        "archipelago",
-        "seasonal-ports"
-      ]
-    },
-    {
-      "id": "r5",
-      "label": "Harbor City Quarter",
-      "tags": [
-        "urban",
-        "administrative",
-        "trade-hub"
+        "navigation-hazard",
+        "lighthouse"
       ]
     }
   ],
@@ -140,19 +150,19 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Navigational auguries cannot replace charts and seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "No instant resurrection or true life-replacement magics permitted",
+    "Long-range mind-influence is rare and institutionally banned",
+    "Navigational auguries must not replace charts or seamanship",
+    "Ritual magic consumes scarce imported reagents or specialist labor",
     "Combustion-derived industry limited (no high-pressure steam megatechs)",
-    "Obligations under alliance A3 and treaty T4 must be respected"
+    "Obligations under A3 (alliance) and T4 (migration/treatment protocols) must be respected"
   ],
   "notes": [
-    "Ports tightly controlled by Maritime Guild; access tied to guild seats",
-    "Economy dependent on steady import of ritual reagents; Saltwardens gatekeep supply",
-    "Seasonal monsoon patterns dictate major sailing windows and legal voyage seasons",
-    "Local navigational knowledge transmitted orally; charts are politically sensitive",
-    "Privateering legacy creates ambiguous maritime law enforcement in Outer Isles"
+    "Ports are primary political and economic nodes; inland control weaker",
+    "Supply chains for ritual reagents are strategic vulnerabilities",
+    "Piracy and smuggling are persistent governance challenges",
+    "Lower layers must map reagent import routes, salt flows, and guild-charter controls",
+    "Tide-Scriptoria oversee voyage rites; any nav policy must account for their authority"
   ],
-  "generated_at": "2025-09-09T03:52:45.092Z"
+  "generated_at": "2025-09-09T04:59:21.121Z"
 }

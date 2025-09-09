@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_da31e125",
+  "checksum": "fnv1a_41bb0eab",
   "burg_id": 314,
-  "name": "Burg_314",
-  "state_id": 0,
+  "name": "Invernantira",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal-outpost",
-    "ritual-supply"
+    "none",
+    "coastal",
+    "winter-hold"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "salt-curing",
-    "ritual-component trade"
+    "ritual-labour",
+    "waystation-trade"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-clan",
-    "smuggler-ring"
+    "Harbormaster",
+    "Ancestor Circle",
+    "Merchant Waystation",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarce-reagents",
-    "seasonal storms",
-    "supply-shortages"
+    "isolation",
+    "reagent scarcity",
+    "smuggling",
+    "winter storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-linked mourning and offering rites",
-    "diet: salted fish, seaweed, preserved goods",
-    "navigation-augury rituals common before sailings"
+    "coastal-Highland mixed dialect (Coastal Tongues + Highland Cant)",
+    "winter festivals honoring ancestors and tides",
+    "salt-preserved cuisine; fish and kelp staples",
+    "ritual observances tied to seamanship and seasonal ice"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "shipwreck-salvage"
+    "reagent shortage",
+    "ghost on the shore"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence is banned"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "population unknown; likely transient fishermen and itinerant ritualists",
-    "small resupply point for coastal traffic; vulnerable in storms"
+    "navigational auguries exist but do not replace charts and seamanship",
+    "combustion-derived industry minimal; local craft and ritual labor dominate"
   ],
-  "generated_at": "2025-09-09T04:23:35.088Z"
+  "generated_at": "2025-09-09T05:35:28.287Z"
 }

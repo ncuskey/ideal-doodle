@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1bbbbd5",
+  "checksum": "fnv1a_283ec9c",
   "burg_id": 52,
-  "name": "Burg_52",
+  "name": "Thoyerssie",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-stop",
-    "waystation"
+    "harbor",
+    "ritual-supply"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual-reagent transit",
-    "pilgrim waypoint",
-    "local market for ships"
+    "fisheries",
+    "ritual-supply trade",
+    "shipwrights",
+    "smuggling"
   ],
   "factions_local": [
-    "harbor guildlet",
-    "reagent brokers",
-    "pilgrim caretakers",
-    "smuggler crew"
+    "Harbormaster's Guild",
+    "Ritual Coterie",
+    "Smuggler Ring",
+    "Elders' Council"
   ],
   "problems": [
-    "supply scarcity",
-    "smuggling and law evasion",
-    "periodic storms disrupting traffic"
+    "reagent scarcity",
+    "smuggling violence",
+    "storm damage",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
     "Coastal Tongues dialect with Riveric loanwords",
-    "diet heavy on salted fish, seaweed, fermented shellfish",
-    "ship-blessing rituals common before voyages",
-    "practical clothing layered for wind and salt"
+    "diet heavy on salted fish and seaweed",
+    "seafaring superstitions and tide-rituals"
   ],
   "quest_hook_slots": [
-    "missing reagent shipment",
-    "smuggling ring exposed",
-    "sacred relic damaged in storm"
+    "smuggling",
+    "missing ritual reagents",
+    "shipwreck salvage"
   ],
   "constraints": [
+    "rituals consume scarce imported reagents",
     "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "population data unavailable; functions as low-population coastal node",
-    "near-medieval to early-industrial tech with localized ritual practices"
+    "small outpost on exposed cove; population undocumented",
+    "local economy tied to ritual reagent trade and repairs"
   ],
-  "generated_at": "2025-09-09T04:35:09.138Z"
+  "generated_at": "2025-09-09T05:46:43.734Z"
 }

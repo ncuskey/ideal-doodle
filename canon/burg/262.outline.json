@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7ca92fb5",
+  "checksum": "fnv1a_ec01fd31",
   "burg_id": 262,
-  "name": "Burg_262",
-  "state_id": -1,
+  "name": "Wruilkeh",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "harbor",
-    "ritual-port"
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-labor",
-    "waystation"
+    "small harbor",
+    "fishery",
+    "reagent trade",
+    "salvage/repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-syndicate",
-    "coastal-clan"
+    "Harbormaster's Watch",
+    "Ritual Reagents Guild",
+    "Smuggler's Knot"
   ],
   "problems": [
-    "reagent-scarcity",
-    "storm-damage",
-    "smuggling"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling-driven corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
     "Coastal Tongues dialect",
-    "boat-centered rites",
-    "seaweed-based cuisine"
+    "maritime funerary rites",
+    "salt-preserved cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-scarcity",
-    "shipwreck salvage"
+    "missing reagent shipment",
+    "ancestral unrest"
   ],
   "constraints": [
     "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "population unknown",
-    "serves as minor resupply point for coastal routes"
+    "near-medieval to early industrial tech",
+    "navigational auguries exist but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:19:45.425Z"
+  "generated_at": "2025-09-09T05:32:02.004Z"
 }

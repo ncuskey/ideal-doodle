@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_north_longstrand",
+  "checksum": "fnv1a_cc4ce7c3",
+  "name": "North Longstrand",
+  "aliases": [
+    "North Long Strand",
+    "Longstrand-North"
+  ],
+  "tags": [
+    "coastal",
+    "fishing",
+    "salt-production",
+    "shipyards",
+    "augury-services"
+  ],
+  "role_in_state": "Northern fishing, salt and ship-repair hub",
+  "economy_niches": [
+    "open-coast fleet fishing and fish-curing",
+    "salt pans and brineworks (export-grade salt)",
+    "shipbuilding and repair (small/med craft)",
+    "ritual navigational auguries for coastal routes",
+    "coastal trade markets and transshipment"
+  ],
+  "culture_adjustments": [
+    "strong shipwright-guild prominence over kin-track leaders",
+    "distinct Coastal Tongues dialect with extra sea-lexicon",
+    "salt-worker seasonal subculture tied to brine-cycles",
+    "more frequent public augury rites integrated into market days"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / coastal flooding",
+    "over-salination of hinter soils",
+    "shipyard fires and drydock accidents",
+    "seasonal supply isolation in winter storms",
+    "smuggling / piracy along minor coves"
+  ],
+  "constraints": [
+    "ritual auguries consume scarce imported reagents",
+    "limited fresh water for expanded saltworks",
+    "no high-pressure industrial tech for large-scale mechanization"
+  ],
+  "notes": [
+    "artisan-runic repair tradition concentrates skilled labor in few yard-hubs",
+    "market-days double as dispute-resolution forums and augury schedules",
+    "province follows state migratory rhythms; labor peaks at brine-harvest"
+  ],
+  "generated_at": "2025-09-09T05:04:25.116Z"
+}

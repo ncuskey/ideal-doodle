@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cfe45e75",
+  "checksum": "fnv1a_4e01d29a",
   "burg_id": 62,
-  "name": "Burg_62",
-  "state_id": -1,
+  "name": "Divaberfan",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-harbor",
-    "reagent-trade"
+    "highland",
+    "herbal-reagents",
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent trade",
-    "harbor services",
-    "fishing",
-    "ritual labor outsourcing"
+    "herbal-gathering",
+    "reagents-trading",
+    "mountain-guides",
+    "sheep-herding"
   ],
   "factions_local": [
-    "Merchants' Lodge",
-    "Dockworkers' Guild",
-    "Shrine of Ancestors",
-    "Smugglers' Coterie"
+    "clan-council",
+    "reagent-merchants",
+    "ritual-crafters",
+    "roadwardens"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling and corruption",
-    "tidal flooding"
+    "scarce-imports",
+    "banditry",
+    "harsh-weather",
+    "resource-claims"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with coastal loanwords",
-    "docks-centered ancestor rituals at low tide",
-    "diet: salted fish and fermented riverweed",
-    "market stalls timed to tides"
+    "Highland Cant dominant dialect",
+    "ancestor-veneration tied to kin-lines",
+    "diet: smoked cheese and bitter herb-teas",
+    "seasonal transhumance customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen reagent cache",
-    "disappearing dredge crew"
+    "missing-guide",
+    "reagent-theft"
   ],
   "constraints": [
-    "scarce imported ritual reagents",
-    "long-range mind influence legally banned",
-    "limited combustion-derived industry"
+    "rituals require scarce imported reagents",
+    "long-range mind influence is banned",
+    "combustion industry limited"
   ],
   "notes": [
-    "sits at a tidal estuary controlling a ford and reagent shipments",
-    "navigational auguries used; charts unreliable"
+    "controls a mountain pass prized for medicinal herbs",
+    "population swells seasonally with shepherds and caravans"
   ],
-  "generated_at": "2025-09-09T04:35:56.505Z"
+  "generated_at": "2025-09-09T05:47:29.611Z"
 }

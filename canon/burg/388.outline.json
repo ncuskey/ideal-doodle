@@ -1,32 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_73805e23",
+  "checksum": "fnv1a_c96b2a42",
   "burg_id": 388,
-  "name": "Burg_388",
+  "name": "Abermaicraf",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-shrine",
-    "outpost"
+    "estuary",
+    "ritual-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "waystation services",
-    "altar maintenance",
-    "small-scale trade"
+    "estuary-trade",
+    "reagent-trade",
+    "boat-maintenance"
   ],
   "factions_local": [
-    "shrine custodians",
-    "shipmasters' cohort",
-    "coastal clan elders",
-    "smugglers"
+    "Fisherfolk Guild",
+    "Tide-Singers",
+    "Riverwardens",
+    "Shadow-Skippers"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "banditry on approach",
-    "religious friction"
+    "seasonal flooding",
+    "reagent scarcity",
+    "smuggling",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,23 +34,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "sea-based festivals and offerings",
-    "diet: preserved fish, kelp, fermented shellfish"
+    "Coastal Tongues with Riveric substratum",
+    "boat-naming and tide-festival customs",
+    "salted-fish cuisine with imported spices",
+    "local craft: net- and reagent-preparation"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual failure",
-    "missing fisherfolk"
+    "reagent-scarcity",
+    "tide-spirits"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "long-range mind influence is rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "Ritual magic depends on imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind-influence is banned/infrequent"
   ],
   "notes": [
-    "tech baseline: near-medieval with pervasive localized ritual craft",
-    "local authority loose; state affiliation unknown"
+    "Estuary mouth settlement, strategic small stop on river-coast route",
+    "Population unknown; seasonal flux of transient crews"
   ],
-  "generated_at": "2025-09-09T04:28:16.527Z"
+  "generated_at": "2025-09-09T05:40:16.555Z"
 }

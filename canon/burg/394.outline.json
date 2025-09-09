@@ -1,52 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f4e21685",
+  "checksum": "fnv1a_3164d168",
   "burg_id": 394,
-  "name": "Burg_394",
+  "name": "Bratliaq",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "waystation"
+    "none"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "transit-hub",
-    "provisioning",
-    "ritual-reagent trade"
+    "fishing",
+    "boatwrights",
+    "ritual-gathering"
   ],
   "factions_local": [
-    "Transit Guild",
-    "Herbalists' Circle",
-    "Shrine Caretakers",
-    "Smugglers' Ring"
+    "harbor-elders",
+    "ritual-clan",
+    "itinerant-merchants",
+    "smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry",
-    "isolation"
+    "reagent-scarcity",
+    "isolation",
+    "banditry"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "coastal-toned dialect influence",
-    "trade rituals govern bargaining",
-    "preservation-focused cuisine (salt, smoke)"
+    "Coastal Tongues dialect",
+    "salt-curing cuisine",
+    "ancestor-altar customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "missing navigator"
+    "ritual-reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents"
+    "ritual-magic requires scarce imported reagents",
+    "long-range-mind-influence banned"
   ],
   "notes": [
-    "population unknown; clientele transient",
-    "near-medieval to early-industrial baseline with ritualized craft"
+    "State affiliation unknown",
+    "limited population records"
   ],
-  "generated_at": "2025-09-09T04:28:42.884Z"
+  "generated_at": "2025-09-09T05:40:40.860Z"
 }

@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1b6f5ae7",
+  "checksum": "fnv1a_6df8fa82",
   "burg_id": 425,
-  "name": "Burg_425",
-  "state_id": 0,
+  "name": "Kilknethet",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "waystation"
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation-trade",
-    "small-scale-fishing",
-    "ritual-reagent-staging"
+    "fishing",
+    "salt-curing",
+    "reagent-harvesting",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbormaster-clique",
-    "ritual-syndicate",
-    "militia-captains"
+    "Harbor Cooperative",
+    "Reagent Harvesters' Syndicate",
+    "Elders of the Tides",
+    "Outrigger Brotherhood"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggler-led-banditry",
-    "authority-disputes"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling",
+    "jurisdictional disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "meal focus on salted/fried fish and preserved seaweed",
-    "customs blend maritime rites with ancestor offerings"
+    "Coastal Tongues dialect with many boat terms",
+    "Ancestor tide-festivals drive seasonal gatherings",
+    "Cuisine: salted fish, kelp preserves",
+    "Strong boatbuilding and netcraft traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-shortage",
-    "vanishing-ships"
+    "reagent shortage",
+    "shipwreck salvage"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "navigational auguries limited; seamanship still required"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or long-range mind influence"
   ],
   "notes": [
-    "low/population and strategic waypoint on minor trade route",
-    "economy vulnerable to interrupted reagent imports"
+    "small reef-protected harbor; access tricky for larger ships",
+    "population swells during reagent harvest season"
   ],
-  "generated_at": "2025-09-09T04:30:50.917Z"
+  "generated_at": "2025-09-09T05:42:48.768Z"
 }

@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8c8587bd",
+  "checksum": "fnv1a_ad872801",
   "burg_id": 18,
-  "name": "Burg_18",
+  "name": "Lunium",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-labs",
-    "harbor"
+    "observatory",
+    "ritual_hub"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "ritual-provisioning",
-    "fishing",
-    "local trade",
-    "repair yards"
+    "ritual-observatory",
+    "lunar-laboratory",
+    "fishing-port",
+    "reagent-trading"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbormasters guild",
-    "shipwrights",
-    "smuggler ring"
+    "Star Scriptoria Chapter",
+    "Reagent Merchants' Syndicate",
+    "Shipwrights' Lodge",
+    "Smuggler Coterie"
   ],
   "problems": [
-    "scarce reagents",
-    "banditry",
-    "corruption"
+    "reagent scarcity",
+    "smuggling",
+    "storm damage",
+    "clerical oversight"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole loanwords",
-    "dawn ancestor-offerings on the quay",
-    "diet: salted fish and fermented seaweed",
-    "shipwright craft mixed with ritual practice"
+    "Island Creole-influenced Coastal Tongue dialect",
+    "nighttime lunar festivals and observances",
+    "seaweed-smoked seafood staples",
+    "taboo: bells silenced during major rites"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishermen"
+    "missing reagent shipments",
+    "failed tide-rite"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Rituals consume scarce imported reagents or specialized labor",
-    "Long-range mind influence is rare and institutionally banned"
+    "Rituals consume scarce imported reagents",
+    "No instant resurrection or long-range mind control"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "Navigational auguries exist but do not replace charts or seamanship"
+    "small rocky observatory-isle with transient population",
+    "useful staging point for navigational auguries and moonlit rites"
   ],
-  "generated_at": "2025-09-09T04:14:18.388Z"
+  "generated_at": "2025-09-09T05:26:58.002Z"
 }

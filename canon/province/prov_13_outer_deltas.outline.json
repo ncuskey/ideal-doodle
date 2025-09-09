@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_outer_deltas",
+  "checksum": "fnv1a_f17ba163",
+  "name": "Outer Deltas",
+  "aliases": [
+    "Delta Fringe",
+    "Shallowmouth Flats"
+  ],
+  "tags": [
+    "coastal",
+    "delta",
+    "fisheries",
+    "reagent-transit",
+    "ship-repair"
+  ],
+  "role_in_state": "Maritime resource and transshipment frontier",
+  "economy_niches": [
+    "Estuarine fisheries and shellfarming",
+    "Salt pans and evaporative concentrate",
+    "Small-boat repair and caulking yards",
+    "Reed and thatch for net/boat materials",
+    "Reagent storage and transshipment depots",
+    "Local piloting and shallow-water towing services"
+  ],
+  "culture_adjustments": [
+    "Heavier Riveric dialect influence in cant",
+    "Seasonal clan labor organized by tidal calendar",
+    "Practical ritual auguries tied to silt patterns",
+    "Stronger informal guild authority over shore labor"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation and channel loss",
+    "storm surge",
+    "smuggling and illicit reagent trade"
+  ],
+  "constraints": [
+    "Limited arable land; reliance on imports",
+    "Dredging and major engineering controlled by guild permits",
+    "Ritual magic use depends on scarce imported reagents"
+  ],
+  "notes": [
+    "Clan-linked cooperative labor critical for nets/boats",
+    "Practical literacy focused on navigation accounts and tolls"
+  ],
+  "generated_at": "2025-09-09T05:04:07.265Z"
+}

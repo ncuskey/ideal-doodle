@@ -1,49 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_31e350a5",
+  "checksum": "fnv1a_bf2100ab",
   "burg_id": 121,
-  "name": "Burg_121",
-  "state_id": -1,
+  "name": "Jarquilly",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-port",
+    "market",
+    "ritual-trade"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-ingredient trade",
-    "waystation"
+    "river trade hub",
+    "fish curing / saltworks",
+    "boat repair & chandlery",
+    "reagent brokerage"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Circle",
-    "Smuggler Crew"
+    "harbormaster's office",
+    "boatmen's guild",
+    "Merchant Brotherhood branch",
+    "temple circle (Sea-Tide)"
   ],
   "problems": [
-    "supply scarcity",
-    "banditry",
-    "reagent shortages"
+    "river banditry",
+    "scarce ritual reagents",
+    "corrupt tolls/extortion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "coastal dialect (Coastal Tongues influence)",
-    "salt-preserved cuisine",
-    "rituals tied to tide calendars"
+    "Riveric Dialects with Coastal Tongue loanwords",
+    "diet: salt-cured fish, river grain stews",
+    "public boat-rites and tide offerings common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipments",
-    "ritual theft"
+    "missing shipment",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume imported reagents",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind influence; resurrection magics banned",
+    "combustion tech limited (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "limited combustion-derived industry"
+    "near-medieval to early-industrial tech baseline",
+    "state authority unclear; frontier/remote governance"
   ],
-  "generated_at": "2025-09-09T04:10:39.161Z"
+  "generated_at": "2025-09-09T23:09:37.919Z"
 }

@@ -1,55 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e0847f0d",
+  "checksum": "fnv1a_ff72538",
   "burg_id": 170,
-  "name": "Burg_170",
+  "name": "Matiavum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "coastal",
-    "ritual-supply"
+    "river-crossing",
+    "ritual-apothecary"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "fishing",
-    "ritual reagent trade",
-    "waypoint services",
-    "boat repair"
+    "river trade & ferrying",
+    "ritual apothecaries",
+    "timber & boatbuilding",
+    "local marketnode"
   ],
   "factions_local": [
-    "Ancestor-Remembrance keepers",
-    "Harbormasters' clique",
-    "Sea merchants' syndicate",
-    "Smugglers' ring"
+    "River Guild",
+    "Apothecary Circle",
+    "Ferrymen's Union",
+    "Shrine Keepers (Ancestor cult)"
   ],
   "problems": [
     "reagent scarcity",
-    "tidal erosion",
-    "bandit raids",
-    "isolation"
+    "river banditry",
+    "corrupt tolls/tithes"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Speaks Coastal Tongues dialect",
-    "Daily tide-rituals common",
-    "Diet based on salted/fermented fish"
+    "Riveric dialect with Coastal loanwords",
+    "Cuisine: smoked riverfish, fermented riverweed",
+    "Custom: offerings of river stones at births",
+    "Market etiquette favors gift-exchange and ledgers"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "lost ritual relic",
-    "reagent shortage"
+    "missing reagent shipments",
+    "shrine desecration"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "No instant resurrection or life-replacement magic",
+    "Long-range mind influence banned",
+    "Rituals consume scarce imported reagents"
   ],
   "notes": [
-    "Navigational auguries used but charts and seamanship remain essential"
+    "Navigational auguries used but do not replace charts",
+    "Near-medieval tech with localized ritual trades",
+    "Jurisdiction unclear (state unknown) → occasional disputes"
   ],
-  "generated_at": "2025-09-09T04:13:47.176Z"
+  "generated_at": "2025-09-09T05:26:16.829Z"
 }

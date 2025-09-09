@@ -1,59 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_45fca685",
+  "checksum": "fnv1a_a12520",
   "burg_id": 475,
-  "name": "Burg_475",
-  "state_id": -1,
+  "name": "Chox",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "harbor",
-    "ritual-lab"
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "small-scale ritual workshops",
-    "waypoint trade",
-    "ship provisioning"
+    "waystation trade",
+    "bait-fishing",
+    "ritual-reagent brokerage",
+    "boat/cart repair"
   ],
   "factions_local": [
-    "harbormaster's office",
-    "ritualists' cooperative",
-    "fishers' guild",
-    "smugglers' crew"
+    "caravan handlers' guild",
+    "harbor wardens",
+    "sea-priest circle"
   ],
   "problems": [
+    "banditry on approaches",
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling",
-    "occasional bandit raids"
+    "corruption among wardens"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "seafood- and kelp-forward cuisine",
-    "rituals tied to tides and ancestor offerings",
-    "practical shipwork and ropecraft skills"
+    "Coastal Tongues common with Riveric trade pidgin",
+    "diet heavy on smoked/salted fish",
+    "tide-linked ritual customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearances at sea"
+    "missing cargoes",
+    "ritual supply theft"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries exist but do not replace charts or seamanship"
   ],
   "notes": [
-    "Navigational auguries used but do not replace charts or seamanship",
-    "Harbor exposed to seasonal gales; temporary shelter only"
+    "near-medieval to early-industrial tech; limited combustion industry"
   ],
-  "generated_at": "2025-09-09T04:34:32.689Z"
+  "generated_at": "2025-09-09T05:45:59.398Z"
 }

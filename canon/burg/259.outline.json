@@ -1,50 +1,49 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_70f1594d",
+  "checksum": "fnv1a_bdd1428",
   "burg_id": 259,
-  "name": "Burg_259",
+  "name": "Whitfordle",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [],
   "size_hint": "small",
   "economy_roles": [
-    "reagent foragers",
-    "small-scale fishing",
-    "salt-cured fish trade",
-    "boat repair"
+    "ferry/toll crossing",
+    "river fishing",
+    "local market",
+    "gatherers of ritual herbs"
   ],
   "factions_local": [
-    "Harborfolk Cooperative",
-    "Reagent Collectors' Circle",
-    "Elder Council"
+    "Ferrymen's Guild",
+    "Chapel of River Ancestors",
+    "Marketwardens"
   ],
   "problems": [
-    "scarce imported reagents",
-    "seasonal storm damage",
-    "coastal bandits"
+    "seasonal flooding",
+    "reagent scarcity",
+    "bandit ambushes on approaches"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Island Creole-influenced speech",
-    "tide-blessing rites before harvest",
-    "diet of salted fish and seaweed"
+    "speaks Riveric-influenced Coastal Tongue dialect",
+    "funerary rites performed at the ford",
+    "diet: freshwater fish, riverweed preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipments",
-    "tidepool disappearances"
+    "stolen ritual reagents",
+    "disappearances at night on the ford"
   ],
   "constraints": [
-    "no instant resurrection",
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or long-range mind-influence magics"
   ],
   "notes": [
-    "small cove port, limited deep-draft access",
-    "navigational auguries supplement charts"
+    "population unknown; small hamlet around a strategic ford",
+    "ferry tolls partly fund the chapel"
   ],
-  "generated_at": "2025-09-09T04:19:31.806Z"
+  "generated_at": "2025-09-09T05:31:51.676Z"
 }

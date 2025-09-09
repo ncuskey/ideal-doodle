@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_lowshore_plains",
+  "checksum": "fnv1a_64830cf3",
+  "name": "Lowshore Plains",
+  "aliases": [
+    "Low Shore",
+    "Saltplain Flats"
+  ],
+  "tags": [
+    "coastal plain",
+    "brackish marsh",
+    "reedlands",
+    "provisioner"
+  ],
+  "role_in_state": "Provision and material staging area for fleet and trade",
+  "economy_niches": [
+    "Salted fish & preserved seafood",
+    "Seasonal marsh-grain cultivation and fodder",
+    "Reedcraft (thatching, sail-raws, matting)",
+    "Cattle/ovicaprid grazing on seasonal pastures",
+    "Staging/warehousing of imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "More kin-based flood-time mutual aid than shipwright guild authority",
+    "Stronger ancestor-line ceremonies tied to harvest and ebb tides",
+    "Riveric dialectal influence on Coastal Tongues vocabulary",
+    "Practical syncretism: simple maritime rites adapted for inland marsh work"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salinization of fields",
+    "marsh-fever outbreaks",
+    "tidal storm surge",
+    "banditry on seasonal roads"
+  ],
+  "constraints": [
+    "Shallow, silty waterways limit deep-draft shipyards",
+    "Peat/brackish soils restrict heavy industry",
+    "Ritual magic consumes imported reagents; storage vulnerability"
+  ],
+  "notes": [
+    "Key seasonal supplier to State_10 fleets and merchant convoys",
+    "Reedbeds supply low-tech sail and thatch materials used statewide",
+    "Customary community-led flood relief labor is politically stabilizing"
+  ],
+  "generated_at": "2025-09-09T05:02:42.527Z"
+}

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_eastmar_estuary",
+  "checksum": "fnv1a_75362aea",
+  "name": "Eastmar Estuary",
+  "aliases": [
+    "Eastmar",
+    "The Estuary"
+  ],
+  "tags": [
+    "estuary",
+    "coastal",
+    "trade-hub",
+    "tidal"
+  ],
+  "role_in_state": "primary transshipment & pilotage hub",
+  "economy_niches": [
+    "estuarine fisheries, salting and preserved seafood",
+    "shipbuilding & repair for coastal craft",
+    "chartered pilotage and harbor-guides",
+    "re-export of ritual reagents and imported goods",
+    "grain and riverine transshipment warehouses"
+  ],
+  "culture_adjustments": [
+    "strong Riveric dialectal influence on Coastal Tongues",
+    "pilot-guild ritualism outweighs clan-house precedence",
+    "practical tolerance toward islander migrant communities",
+    "tide-centered festivals and hazard rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation and navigational shoals",
+    "piracy and smuggling",
+    "seasonal tidal surges"
+  ],
+  "constraints": [
+    "reliance on imported ritual reagents for local rites",
+    "limited heavy-combustion industry (no high-pressure steam)",
+    "navigational auguries supplement but do not replace pilots"
+  ],
+  "notes": [
+    "complex channel charts and local pilot licenses core to trade",
+    "seasonal mudflats restrict inland expansion; warehouses concentrated on higher ground"
+  ],
+  "generated_at": "2025-09-09T05:05:44.135Z"
+}

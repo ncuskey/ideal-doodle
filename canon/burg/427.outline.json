@@ -1,58 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d569fbcf",
+  "checksum": "fnv1a_ac8988c4",
   "burg_id": 427,
-  "name": "Burg_427",
-  "state_id": 0,
-  "province_id": "unknown",
-  "tags": [
-    "none",
-    "coastal",
-    "waystation"
-  ],
+  "name": "Balterbot",
+  "state_id": -1,
+  "province_id": "",
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent depot",
-    "small-scale fishing",
-    "waystation harbor",
-    "boat repair & netting"
+    "waystation",
+    "fisher-landing",
+    "ritual-supply",
+    "signal-post"
   ],
   "factions_local": [
-    "Harbormaster's Office",
-    "Reagent Broker",
-    "Tide-Temple Circle",
-    "Boatwrights' Cooperative"
+    "Harbormasters' Ring",
+    "Pilgrim Cadre",
+    "Ritual Guildlet",
+    "Smugglers' Cove"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "bandit raids",
-    "tax extortion"
+    "scarce-resources",
+    "banditry",
+    "ritual-reagent-shortage",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues variant spoken",
-    "tide-based ritual calendar",
-    "diet: fish, preserved seaweed, salted goods",
-    "crafts: netting, small-boat carpentry"
+    "Coastal Tongues + Island Creole influences",
+    "tide-based rituals common",
+    "diet: preserved fish and kelp",
+    "signal-flag visual culture"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances at sea"
+    "missing-pilgrim",
+    "ritual-supply-heist"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "navigation auguries exist but don't replace charts/seamanship"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "localized ritual labs common; reagent trade vital",
-    "combustion industry limited"
+    "tech: near-medieval to early industrial",
+    "navigational-auguries exist but don't replace charts"
   ],
-  "generated_at": "2025-09-09T04:30:53.786Z"
+  "generated_at": "2025-09-09T05:42:59.797Z"
 }

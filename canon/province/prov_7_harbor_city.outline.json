@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_harbor_city",
+  "checksum": "fnv1a_85843512",
+  "name": "Harbor City",
+  "aliases": [
+    "Prov 7 Harbor",
+    "The Harbor"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "market",
+    "transshipment"
+  ],
+  "role_in_state": "primary port and shipbuilding hub",
+  "economy_niches": [
+    "long-distance maritime trade",
+    "shipbuilding & repair",
+    "salted fisheries & salterns",
+    "ritual reagent transshipment",
+    "coastal provisioning markets"
+  ],
+  "culture_adjustments": [
+    "stronger guild authority over civic life",
+    "bilingual trading argot (Coastal Tongues + Island Creole) dominant",
+    "practical seamanship prioritized over augury in training",
+    "public performance of shanties and port folklore",
+    "merchant networks enable greater social mobility"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge/flooding",
+    "dockside fires",
+    "piracy and smuggling",
+    "guild rivalry",
+    "reagent theft"
+  ],
+  "constraints": [
+    "limited inland agricultural hinterland",
+    "dependence on imported ritual reagents",
+    "naval defenses constrained by shallow approaches"
+  ],
+  "notes": [
+    "ritual labs and reagent stores clustered in guarded warehouses",
+    "guild charters tightly regulate shipwright labor and reagent distribution"
+  ],
+  "generated_at": "2025-09-09T05:07:50.873Z"
+}

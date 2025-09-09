@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c8c7623",
+  "checksum": "fnv1a_d78808d3",
   "burg_id": 409,
-  "name": "Burg_409",
+  "name": "Axbrolere",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "ritual-magic"
+    "riverine",
+    "ritual-harbor",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent trading",
-    "small-scale shipwrights",
-    "coastal guides"
+    "river-trade",
+    "fish-processing",
+    "ritual-supply",
+    "ferry-services"
   ],
   "factions_local": [
-    "harbor guild",
-    "reagent merchants",
-    "ancestor-priests",
-    "smugglers"
+    "ferrymen-guild",
+    "ritual-collectors",
+    "merchant-clan",
+    "local-militia"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "banditry/smuggling",
-    "harbor siltation"
+    "scarce-reagents",
+    "banditry",
+    "seasonal-flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with island loanwords",
-    "pre-departure tide-offerings common",
-    "diet heavy on salted fish and seaweed"
+    "Riveric dialect with Coastal Tongues loanwords",
+    "Ancestor rites tied to boat-launching and oar-blessing",
+    "Diet heavy on smoked riverfish and spiced riverweed",
+    "Oarsmen and ritual-suppliers wear simple salt-streak tattoos"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent heist",
-    "disappearances at sea"
+    "reagent-shortage",
+    "missing-ferry"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "no instant resurrection or long-range mind-influence"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents or specialized local labor"
   ],
   "notes": [
-    "population unknown; function: minor reagent landing and waystation",
-    "strategic but vulnerable harbor; silting limits larger vessels"
+    "Population unknown; functions as a small river crossing and ritual provisioning point",
+    "Tech baseline near-medieval to early industrial with localized ritual magic"
   ],
-  "generated_at": "2025-09-09T04:29:50.503Z"
+  "generated_at": "2025-09-09T05:41:43.394Z"
 }

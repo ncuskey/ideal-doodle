@@ -1,59 +1,49 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_daaf932b",
+  "checksum": "fnv1a_bf3b315b",
   "burg_id": 3,
-  "name": "Burg_3",
-  "state_id": 0,
+  "name": "Itheshruz",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-magic",
-    "waystation"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "waystation trade",
-    "ritual reagent transit",
-    "smuggling"
+    "pilgrimage-shrine-services",
+    "astrology-scriptorium",
+    "magic-component-trade",
+    "local-agriculture"
   ],
   "factions_local": [
-    "Sea-Tide Shrine",
-    "Coastal Mariners' Syndicate",
-    "Smugglers' Ring",
-    "Harbormaster's Watch"
+    "Star-Calendar Scriptoria",
+    "Ancestor-Remembrance Circle",
+    "Market-Consortium"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "corrosive salt decay",
-    "jurisdictional disputes"
+    "reagent-scarcity",
+    "scribal-rivalry",
+    "banditry-on-approaches"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Dialect: Coastal Tongues with Riveric loanwords",
-    "Cuisine: salted fish, seaweed stews",
-    "Customs: tide-offerings and ship-blessing rites",
-    "Dress: oilcloth garments, traded ritual beads"
+    "Highland Cant liturgical influence",
+    "ritual-calendar governs market days",
+    "oral-ancestor-veneration customs"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing reagent shipments",
-    "shipwreck salvage"
+    "missing-astrolabe",
+    "smuggling-components",
+    "disputed-burial"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is banned",
-    "Navigational auguries cannot replace charts or seamanship"
+    "rituals-consume-scarce-imported-reagents",
+    "no-instant-resurrection-or-life-replacement-magics",
+    "combustion-industry-limited"
   ],
   "notes": [
-    "Near-medieval to early industrial tech baseline",
-    "Small, often-transient population of sailors and traders",
-    "Strategic coastal waypoint for reagent and coastal trade"
+    "seasonal pilgrim influx strains supplies"
   ],
-  "generated_at": "2025-09-09T04:22:26.109Z"
+  "generated_at": "2025-09-09T05:34:37.951Z"
 }

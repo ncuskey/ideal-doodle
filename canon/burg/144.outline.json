@@ -1,56 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d52ee2db",
+  "checksum": "fnv1a_26d4d003",
   "burg_id": 144,
-  "name": "Burg_144",
+  "name": "Neucy",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost",
-    "ritual-supply"
+    "river-port",
+    "ritual-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent transshipment",
-    "small-scale fishing",
-    "waystation/pilotage"
+    "river-trade",
+    "fishery",
+    "ritual-labour-for-harvest-auguries",
+    "local-market/relay"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent House",
-    "Ancestor Circle",
-    "Smugglers' Knot"
+    "harbor-merchant-guild",
+    "Ancestor-Remembrance shrinekeepers",
+    "river-watch militia",
+    "ritual-supply brokers"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling pressure"
+    "bandit raids on river routes",
+    "corrupt dock officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "ritualized seamanship customs",
-    "seafood-centered cuisine",
-    "deference to navigational elders"
+    "Riveric Dialects with Coastal Tongue loanwords",
+    "heavy reliance on seasonal river rites",
+    "salted-fish and river-herb cuisine",
+    "commerce-oriented courtesy norms"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "ancestral relic recovery"
+    "missing pilgrim"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no instant resurrection",
-    "navigational auguries limited (don't replace charts)"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind-influence is rare and banned"
   ],
   "notes": [
-    "small population, ephemeral records",
-    "serves nearby reef shipping lane"
+    "near-medieval tech with localized ritual magic",
+    "navigational auguries used but cannot replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:12:04.279Z"
+  "generated_at": "2025-09-09T05:24:27.076Z"
 }

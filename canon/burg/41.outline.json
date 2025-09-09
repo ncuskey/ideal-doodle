@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_88ae4839",
+  "checksum": "fnv1a_571af4ee",
   "burg_id": 41,
-  "name": "Burg_41",
+  "name": "Aj'hishjej",
   "state_id": 0,
-  "province_id": "prov_unknown",
+  "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "ritual-hub",
-    "harbor"
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual-labor/offerings",
-    "boat repair",
-    "local barter trade"
+    "fishing",
+    "ritual-labor",
+    "waystation",
+    "smuggling"
   ],
   "factions_local": [
-    "Tide-Reader Cabal",
-    "Fishermen's Cooperative",
-    "Harbormaster's Office",
-    "Shadow Skiff Crew"
+    "tide-shrine circle",
+    "harbor guild",
+    "reef-clans",
+    "smuggler-crew"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "sporadic banditry"
+    "storm damage",
+    "bandit raids",
+    "supply isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,23 +35,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues with Island Creole borrowings",
-    "tide-offering rituals shape daily schedule",
-    "preserved fish and seaweed staples"
+    "Island Creole dialect",
+    "seamanship rites and tattoos",
+    "seaweed/shell ritual components",
+    "small, insular kin networks"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "tide-omen"
+    "stolen ritual reagent",
+    "storm-omen"
   ],
   "constraints": [
-    "no true resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "navigational auguries exist but cannot replace seamanship"
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries limited; cannot replace charts/seamanship",
+    "ritual magic consumes scarce imported reagents or specialized burg-labors"
   ],
   "notes": [
-    "population undocumented; strategic minor landing",
-    "local economy tied to ritual supply lines"
+    "population unknown",
+    "supply lines intermittent"
   ],
-  "generated_at": "2025-09-09T04:29:45.365Z"
+  "generated_at": "2025-09-09T05:41:52.197Z"
 }

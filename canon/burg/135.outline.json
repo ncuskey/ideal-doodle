@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d10a8b5b",
+  "checksum": "fnv1a_6a60d437",
   "burg_id": 135,
-  "name": "Burg_135",
+  "name": "Knutstedge",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-hub"
+    "river-crossing",
+    "toll",
+    "ferry"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "transshipment",
-    "ritual-supplies",
-    "small-scale shiprepair"
+    "toll collection",
+    "ferrying",
+    "boat repair",
+    "smoked fish trade"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Tide-Mystics (local shrine)",
-    "Dockside Cutters (smugglers)",
-    "Merchant Agents"
+    "Ferrywrights' Syndicate",
+    "Knutstedge Tollkeepers",
+    "Riverrunners (smugglers)",
+    "Shrine of the Tidemother"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling and lawlessness",
-    "seasonal storms",
-    "disease outbreaks"
+    "banditry along approaches",
+    "silted channel reducing traffic",
+    "scarcity of ritual reagents",
+    "jurisdictional disputes over tolls"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,25 +35,24 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "salt-cured seafood staples",
-    "tide-festivals with small ritual offerings",
-    "strict barter etiquette at docks"
+    "Riveric Dialect with Coastal loanwords",
+    "annual tide-festival offerings for safe passage",
+    "diet: smoked/pressed river fish and flatbreads",
+    "crafts: ropework, hull patching, net mending"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual-failure"
+    "seasonal floods",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Rituals consume scarce imported reagents; economy tied to supply lines",
-    "Long-range mind-influence rare and institutionally banned"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or body-replacement magics",
+    "long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "small population, seasonal trade",
-    "limited freshwater sources",
-    "serves as coastal stop between larger ports"
+    "strategic wooden causeway and ferry point",
+    "small garrison; informal justice by tollkeepers"
   ],
-  "generated_at": "2025-09-09T04:11:31.374Z"
+  "generated_at": "2025-09-09T23:10:30.436Z"
 }

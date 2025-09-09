@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_shipwright_quarter",
+  "checksum": "fnv1a_ea0164b1",
+  "name": "Shipwright Quarter",
+  "aliases": [
+    "Shipwrights' Quarter",
+    "Slipyard Ward"
+  ],
+  "tags": [
+    "port",
+    "guild",
+    "industrial",
+    "maritime"
+  ],
+  "role_in_state": "Primary shipbuilding and repair hub",
+  "economy_niches": [
+    "shipbuilding and repair",
+    "rigging and rope-making",
+    "sailmaking and tarred-cloth workshops",
+    "navigational-augury services",
+    "timber trade and foreland yards"
+  ],
+  "culture_adjustments": [
+    "guild-dominated apprenticeship rites and secret hand-signs",
+    "launch-day hull-blessing ceremonies more elaborate than elsewhere",
+    "practical superstition (wind/shoal rites) prioritized over broad festivals",
+    "strong patron-client networks centered on ship contracts",
+    "long night work-shifts for careening and repairs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "flooding/tidal surge",
+    "shipyard fires",
+    "dockside theft and petty piracy",
+    "guild feuds and labor strikes",
+    "timber pest infestations"
+  ],
+  "constraints": [
+    "waterfront space limits physical expansion",
+    "guild charters restrict external labor and methods",
+    "ritual magic consumes scarce imported reagents",
+    "combustion-driven industry legally and practically limited"
+  ],
+  "notes": [
+    "primary source of state ship tonnage",
+    "hosts official launch rituals and resident augurers",
+    "technical knowledge guarded in guild libraries"
+  ],
+  "generated_at": "2025-09-09T05:09:13.217Z"
+}

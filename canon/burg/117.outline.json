@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f4882097",
+  "checksum": "fnv1a_9d7eba5e",
   "burg_id": 117,
-  "name": "Burg_117",
+  "name": "Insanfartsea",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "reagent-harvest"
+    "ritual-port"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "coastal fishing",
-    "ritual-reagent foraging",
-    "small-scale coastal trade"
+    "fishing",
+    "ritual-supplies",
+    "small-scale trade",
+    "waystation"
   ],
   "factions_local": [
-    "Captain's Council",
-    "Reagent Gatherers' Guild",
-    "Shrine Keepers"
+    "harbor-guild",
+    "ritual-artisans",
+    "smugglers",
+    "coastal-watch"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling/banditry",
-    "storm damage to boats"
+    "scarce-reagents",
+    "banditry",
+    "fog-related-shipwrecks"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "annual tide-remembrance rites",
-    "diet: seafood, fermented kelps"
+    "Island Creole dialect mix",
+    "salt-preservation cuisine",
+    "sea-rituals before voyages"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "ancestral hauntings"
+    "missing-vessel",
+    "reagent-theft"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection",
+    "long-range mind influence rare/banned"
   ],
   "notes": [
-    "state authority unknown; semi-autonomous outpost",
-    "near-medieval tech with localized ritual labs"
+    "navigational auguries exist but charts and seamanship required",
+    "combustion-derived industry limited"
   ],
-  "generated_at": "2025-09-09T04:10:20.589Z"
+  "generated_at": "2025-09-09T23:09:14.773Z"
 }

@@ -1,95 +1,102 @@
 {
   "world_id": "world",
   "state_id": 2,
-  "checksum": "fnv1a_5ffbc66f",
-  "name": "State_2",
+  "checksum": "fnv1a_306e8074",
+  "name": "Gatesinia",
   "aliases": [
-    "The Twin Harbors",
-    "House of the Tide"
+    "State of Gatesinia",
+    "Gatesine Confederacy",
+    "Gatesinian Marches"
   ],
   "timeline_beats": [
     {
-      "id": "tb1",
-      "label": "Foundation of coastal polis network",
-      "ybp": 4200,
+      "id": "b1",
+      "label": "Founding of Gatesinian Maritime Confederation",
+      "ybp": 3500,
       "refs_world_events": []
     },
     {
-      "id": "tb2",
-      "label": "Formal entry into Maritime Trading League",
+      "id": "b2",
+      "label": "Shipyard expansion & formalization of navigational auguries",
       "ybp": 1800,
-      "refs_world_events": [
-        "A1"
-      ]
+      "refs_world_events": []
     },
     {
-      "id": "tb3",
-      "label": "Great Naval War involvement",
-      "ybp": 420,
+      "id": "b3",
+      "label": "Great Naval War (major fleet engagements)",
+      "ybp": 700,
       "refs_world_events": [
         "W1"
       ]
     },
     {
-      "id": "tb4",
-      "label": "Succession Crisis and internal war",
-      "ybp": 120,
+      "id": "b4",
+      "label": "Open-Seas Treaty; entry to wider maritime blocs",
+      "ybp": 300,
       "refs_world_events": [
-        "W4"
+        "T1",
+        "A1"
       ]
     },
     {
-      "id": "tb5",
-      "label": "Signing of Open-Seas Treaty; integration into Sea Trade Union",
-      "ybp": 60,
+      "id": "b5",
+      "label": "Joined Sea Trade Union; growing tariff harmonization",
+      "ybp": 160,
       "refs_world_events": [
-        "T1",
         "TB1"
+      ]
+    },
+    {
+      "id": "b6",
+      "label": "Succession Crisis and internal civil conflicts",
+      "ybp": 120,
+      "refs_world_events": [
+        "W4"
       ]
     }
   ],
   "factions": [
     {
       "id": "f1",
-      "label": "Grand Merchants' Gild",
-      "influence_hint": "dominant urban trade, controls customs and major credit"
+      "label": "Maritime Merchants Guild",
+      "influence_hint": "dominant in port politics; controls trade licenses and customs"
     },
     {
       "id": "f2",
-      "label": "Admiral Clans",
-      "influence_hint": "command navy and port militias; regional military sway"
+      "label": "Harbor House Aristocracy",
+      "influence_hint": "landed waterfront elites; seats in provincial councils"
     },
     {
       "id": "f3",
-      "label": "Tide-Sorcerers' Lodge",
-      "influence_hint": "provides navigational auguries; gatekeepers of ritual reagents"
+      "label": "Shipwrights & Augury Guild",
+      "influence_hint": "monopoly on large hull construction and sanctioned auguries"
     },
     {
       "id": "f4",
-      "label": "Shipwrights' Consortium",
-      "influence_hint": "controls shipbuilding yards and industrial labor"
+      "label": "Corsair Cantons",
+      "influence_hint": "informal privateers/private navies; disruptive coastal power"
     },
     {
       "id": "f5",
-      "label": "Coastal Council",
-      "influence_hint": "city-oligarchy managing laws, ports, and succession settlements"
+      "label": "Council of Clan-Governors",
+      "influence_hint": "rural hinterland chiefs; supply agricultural levies and militia"
     }
   ],
   "economy_pillars": [
+    "shipbuilding",
     "maritime trade",
-    "shipbuilding & repairs",
-    "salted fish & preserved seafood",
-    "reagent import/export (ritual supplies)",
-    "coastal agriculture & saltworks"
+    "fisheries & kelp-harvest",
+    "reagent import / re-export",
+    "naval mercenary services"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seafaring idioms and tide-calendar",
-      "guild-centered civic identity",
-      "ritual auguries woven into navigation and commerce",
-      "practical mercantile law overheraldic nobility",
-      "syncretic funerary customs for sailors"
+      "port-oriented mercantile ethos",
+      "clan-based hinterland kinship",
+      "practical ritualism tied to seamagic",
+      "oral navigational lore and chart-keeping",
+      "patronage networks shaping governance"
     ]
   },
   "religion": {
@@ -103,43 +110,46 @@
   "regions": [
     {
       "id": "r1",
-      "label": "Twin Harbors",
+      "label": "Gatelight Harbor",
       "tags": [
-        "coastal",
         "trade-hub",
-        "port"
+        "capital",
+        "coastal"
       ]
     },
     {
       "id": "r2",
-      "label": "Low Delta",
+      "label": "Ironstrand Docks",
       "tags": [
-        "coastal",
-        "agricultural"
+        "shipyards",
+        "industrial",
+        "coastal"
       ]
     },
     {
       "id": "r3",
-      "label": "Headland Forts",
+      "label": "Lowmarsh Hinterlands",
       "tags": [
-        "coastal",
-        "military"
+        "agricultural",
+        "wetland"
       ]
     },
     {
       "id": "r4",
-      "label": "Reef Isles",
+      "label": "The Narrow Forts",
       "tags": [
-        "island",
-        "resource"
+        "coastal",
+        "fortified",
+        "border"
       ]
     },
     {
       "id": "r5",
-      "label": "Saltworks Plains",
+      "label": "Sinder Cay",
       "tags": [
-        "coastal",
-        "industry"
+        "island",
+        "reagent-landing",
+        "port"
       ]
     }
   ],
@@ -171,18 +181,19 @@
     }
   ],
   "constraints": [
-    "tech baseline: near-medieval to early-industrial; no high-pressure steam megatechs",
-    "ritual magic requires scarce imported reagents or specialized local labor",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind-influence rare and institutionally banned",
-    "navigational auguries supplement but cannot replace charts and seamanship",
-    "combustion-derived industry limited; heavy industry constrained by material/energy limits"
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts or seamanship; they are regulated",
+    "Ritual magic requires scarce imported reagents or specialized labor; consumes supply",
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "State dependent on maritime reagent supply lines; vulnerable to blockades"
   ],
   "notes": [
-    "Succession Crisis (W4) left naval command contested; ongoing factional negotiations",
-    "Ports depend on steady reagent imports for tide-auguries; supply disruptions destabilize navigation and trade",
-    "Guild privileges shape legal and tariff regimes; Merchant Gild sets de facto trade policy",
-    "Coastal erosion and reef changes are operational risks for shipping lanes"
+    "Recent succession crisis (W4) weakened central authority; guilds and clan-governors hold local power",
+    "Ports operate by merchant licenses; private warships and corsair activity are common",
+    "Charts and navigational lore treated as strategic assets; Shipwrights & Augury Guild tightly regulated",
+    "Reagent import routes are strategic chokepoints; control of Sinder Cay and Ironstrand Docks critical",
+    "Treaty (T1) and League (A1) membership constrain open-blockade policies but enforcement is uneven"
   ],
-  "generated_at": "2025-09-09T03:53:28.131Z"
+  "generated_at": "2025-09-09T05:21:26.526Z"
 }

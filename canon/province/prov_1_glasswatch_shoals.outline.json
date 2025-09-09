@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_glasswatch_shoals",
+  "checksum": "fnv1a_5b456015",
+  "name": "Glasswatch Shoals",
+  "aliases": [
+    "Glasswatch",
+    "The Shoals"
+  ],
+  "tags": [
+    "coastal",
+    "glassworks",
+    "augury-hub",
+    "fisheries"
+  ],
+  "role_in_state": "Specialized coastal manufactory and navigational-augury outpost",
+  "economy_niches": [
+    "sea-glass production (lenses, beacon panes)",
+    "harbor-side ship repair & small-boat building",
+    "salted-fish curing and seasonal packing",
+    "augury workshops for coastal navigation",
+    "salvage & glass-salvage trade from wrecks"
+  ],
+  "culture_adjustments": [
+    "Guild-dominated shorecraft with ritualized apprenticeships",
+    "Practical sea-animist rites integrated into glassmaking (blown-glass offerings)",
+    "Stronger suspicion of inland merchants; tighter kinship at sea",
+    "Oral chart-rituals emphasize shoal-memory; fewer formal port records"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "glassworks fire",
+    "seasonal reagent shortages",
+    "coastal erosion",
+    "piracy / wrecking conflicts"
+  ],
+  "constraints": [
+    "Fragile shoal foundations limit heavy dock construction",
+    "Ritual glasswork consumes scarce imported reagents",
+    "Combustion industry constrained; no heavy steam infrastructure"
+  ],
+  "notes": [
+    "Produces specialized navigational lenses and beacon panes crucial to state shipping",
+    "Guild monopolies control labor, augury licenses, and salvage rights",
+    "Fishing economy highly seasonal; linked to migratory shoal patterns"
+  ],
+  "generated_at": "2025-09-09T05:02:25.668Z"
+}

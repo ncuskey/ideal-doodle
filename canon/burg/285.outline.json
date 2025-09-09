@@ -1,56 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3e500dd3",
+  "checksum": "fnv1a_b6c71919",
   "burg_id": 285,
-  "name": "Burg_285",
+  "name": "Nigrantiala",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
-    "coastal",
-    "waystation"
+    "none",
+    "outpost"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent brokerage",
-    "harbor waystation",
-    "salt curing"
+    "waystation",
+    "small-fishing",
+    "river-trade",
+    "ritual-supply"
   ],
   "factions_local": [
-    "Fisherfolk Syndicate",
-    "Tide-Caller Circle",
-    "Reagent Merchants' Consortium",
-    "Harbor Watch"
+    "harbor-master",
+    "guild-agent",
+    "ritual-practitioners",
+    "smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "isolation",
-    "tide-driven floods"
+    "scarce-reagents",
+    "banditry",
+    "regulatory-bribery"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with island loanwords",
-    "diet heavy on pickled fish and cured salt fare",
-    "tide-based ritual calendar and harbor superstitions"
+    "Coastal Tongues with Riveric loanwords",
+    "diet: smoked fish, pickled river plants",
+    "nightly offerings to tide-spirits",
+    "wary of outsiders; barter-oriented"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual failure"
+    "missing-reagents",
+    "tide-omen"
   ],
   "constraints": [
-    "Ritual magic requires scarce imported reagents",
-    "No instant resurrection or true life-replacement magics",
-    "Limited combustion-derived industry"
+    "rituals consume scarce imported reagents",
+    "no instant-resurrection or life-replacement magics"
   ],
   "notes": [
-    "Sheltered inlet acting as link between islands and river routes",
-    "Small population; official census unknown",
-    "Navigational auguries supplement but do not replace charts"
+    "population unknown; functions as a resupply/relay point",
+    "maps and charts limited; local pilots trusted"
   ],
-  "generated_at": "2025-09-09T04:21:21.210Z"
+  "generated_at": "2025-09-09T05:33:38.260Z"
 }

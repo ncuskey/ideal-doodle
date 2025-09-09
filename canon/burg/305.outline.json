@@ -1,55 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cb4408e5",
+  "checksum": "fnv1a_37087513",
   "burg_id": 305,
-  "name": "Burg_305",
+  "name": "Srurdvelb",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "ritual-node"
+    "ritual-labour",
+    "riverine",
+    "isolated"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "ritual-labor",
+    "river-transport",
     "fishing",
-    "harbor services",
-    "reagent gathering",
-    "pilgrim provisioning"
+    "subsistence-farming"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-collectors",
-    "ancestral chapel caretakers",
-    "smugglers"
+    "Shrine Guild",
+    "Boatmasters' Circle",
+    "Elder Council"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling and banditry",
-    "supply isolation"
+    "scarce-reagents",
+    "bandit raids",
+    "seasonal-flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues / Island Creole mix in everyday speech",
-    "tide festivals and ancestor offerings at shoreline",
-    "diet heavy on salted fish, seaweed, preserved goods"
+    "Riveric Dialect dominant",
+    "ritual offerings tied to tides",
+    "smoked-fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "tidal-curse"
+    "reagent-theft",
+    "missing-ferryman"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents or specialized local labor",
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection magics",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "State unspecified; functions as a minor frontier harbor and ritual node",
-    "Population not recorded; transient seasonal traffic"
+    "near-medieval tech with localized ritual magic",
+    "limited navigational augury — charts and seamanship still required"
   ],
-  "generated_at": "2025-09-09T04:22:53.158Z"
+  "generated_at": "2025-09-09T05:35:00.115Z"
 }

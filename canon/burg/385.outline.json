@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d73e37b5",
+  "checksum": "fnv1a_8a5979c5",
   "burg_id": 385,
-  "name": "Burg_385",
-  "state_id": "unknown",
+  "name": "Rroksas",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-port",
-    "ritual-lab",
-    "crossroads"
+    "coastal",
+    "ritual-hub",
+    "fishing"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "river trade",
-    "ritual workshops",
     "fishing",
-    "boat repair"
+    "harbor-provisioning",
+    "ritual-reagent processing",
+    "small-scale trade"
   ],
   "factions_local": [
-    "Tidal Brokers Guild",
-    "Ancestor-Clan Elders",
-    "Ritual Artisans' Circle",
-    "Smugglers' Quarter"
+    "Harbormen's Coop",
+    "Tide-keepers (ritualists)",
+    "Provisioners' Guild",
+    "Smuggler coterie"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids on barges",
-    "corrupt tolls",
-    "stagnant-water illness"
+    "coastal erosion / storm damage",
+    "smuggling and banditry",
+    "distant taxation / neglect"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric dialect dominant",
-    "rituals tied to imported reagents",
-    "pickled fish and riverweed cuisine",
-    "boat-carving craft tradition"
+    "Coastal Tongues dialect with maritime idioms",
+    "Daily small rituals woven into fishing work",
+    "Seafood- and seaweed-forward cuisine",
+    "Strong customs around tide-offerings and ship blessings"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent shortage",
-    "missing barges"
+    "disappearances at sea"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents or specialized labor",
+    "long-range mind influence is rare and institutionally banned",
+    "no high-pressure steam megatechs; limited combustion industry"
   ],
   "notes": [
-    "near-medieval with localized ritual magic",
-    "population unknown; strategic river bend"
+    "population unknown; seasonal influx of sailors",
+    "strategic minor harbor for coastal traffic"
   ],
-  "generated_at": "2025-09-09T04:28:03.958Z"
+  "generated_at": "2025-09-09T05:40:01.401Z"
 }

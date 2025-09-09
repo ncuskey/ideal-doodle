@@ -1,54 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5dc3c825",
+  "checksum": "fnv1a_a70ae98b",
   "burg_id": 63,
-  "name": "Burg_63",
+  "name": "Durodula",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-trade"
+    "none",
+    "riverine",
+    "ritual-workshop"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent supply depot",
-    "small-scale fishing",
-    "waystation/relay",
-    "coastal repair yard"
+    "reagent-trade",
+    "boat-repair",
+    "herbalism",
+    "ferry-tolls"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "sea-shrine caretakers",
-    "merchant syndicate",
-    "smuggling crew"
+    "Guild of Tides",
+    "Herbalists' Conclave",
+    "Riverwatch",
+    "Ancestor-Singers"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on supply routes",
-    "corruption among officials"
+    "reagent-scarcity",
+    "banditry",
+    "seasonal-flooding",
+    "corrupt-tolls"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ritual-heavy seafaring customs",
-    "diet: salted fish and seaweed"
+    "Riveric Dialect dominant",
+    "nightly tide-votive candles",
+    "smoked-fish & herb stews",
+    "public ritual-labor customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "sea-spirit unrest"
+    "missing-reagents",
+    "flood-evacuation"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magic",
-    "Ritual magic consumes scarce imported reagents",
-    "Limited combustion industry; no high-pressure steam megatechs"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "Population unknown; likely transient",
-    "Serves as minor hub for reagent transshipment and small repairs"
+    "population unknown",
+    "strategic river crossing",
+    "local labors produce ritual components"
   ],
-  "generated_at": "2025-09-09T04:36:02.106Z"
+  "generated_at": "2025-09-09T05:47:28.967Z"
 }

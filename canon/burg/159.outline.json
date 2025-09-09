@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_89bdfd83",
+  "checksum": "fnv1a_882d1abc",
   "burg_id": 159,
-  "name": "Burg_159",
+  "name": "Congraton",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost"
+    "river-crossing",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent-gathering",
-    "waypoint-provisioning",
-    "small-scale-trade"
+    "river-trade",
+    "ferry-tolls",
+    "reagent-market",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbor-wardens",
-    "ritual-smiths",
-    "skiff-smugglers",
-    "elders-council"
+    "Ferry Guild",
+    "Reagent Merchants",
+    "Ancestor Chapel",
+    "Town Council"
   ],
   "problems": [
+    "banditry",
     "reagent-scarcity",
-    "seasonal-storms",
-    "isolation"
+    "seasonal-flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "sea-protein-heavy cuisine",
-    "ritual tattoos for seafaring rites",
-    "night-fishing customs"
+    "Riveric Dialect with Coastal loanwords",
+    "River-funeral rites and offering traditions",
+    "Diet heavy on smoked fish and spice-preserves",
+    "Market bargaining includes ritualized tokens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-skiff"
+    "missing-ferryman",
+    "reagent-heist"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned/rare",
-    "no high-pressure steam megatechs"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "navigational-auguries-limited"
   ],
   "notes": [
-    "near-coast waypoint; charts required",
-    "limited population data"
+    "State unknown; semi-autonomous local governance",
+    "Tech baseline near-medieval to early-industrial with ritual magic"
   ],
-  "generated_at": "2025-09-09T04:12:52.723Z"
+  "generated_at": "2025-09-09T05:25:37.403Z"
 }

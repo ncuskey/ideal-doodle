@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_riverward_hinterlands",
+  "checksum": "fnv1a_7d7514ae",
+  "name": "Riverward Hinterlands",
+  "aliases": [
+    "Riverward"
+  ],
+  "tags": [
+    "riverine",
+    "timber-source",
+    "reagent-farms",
+    "staging-area"
+  ],
+  "role_in_state": "inland supplier and transshipment corridor",
+  "economy_niches": [
+    "timber supply for shipbuilding (rafts & log-drive)",
+    "small-craft and barge construction/repair",
+    "freshwater fisheries and salting for inland markets",
+    "staging/transshipment node for coastal maritime trade",
+    "cultivation/processing of ritual reagent plants"
+  ],
+  "culture_adjustments": [
+    "weaker formal guild authority; stronger riverhouse/clan patronage",
+    "ancestor-focused river rites layered onto coastal seamanship lore",
+    "apprenticeship emphasizes bargecraft, flood-reading and tethering",
+    "oral tradition centers flood-legends, log-tally ballads",
+    "practical ritualism: local reagent substitution and pooled sacrifices"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal flooding",
+    "banditry on river routes",
+    "timber overharvest",
+    "merchant-house land-grabs"
+  ],
+  "constraints": [
+    "limited imported reagents restrict high-cost rituals",
+    "navigational auguries less reliable upriver",
+    "low-capital industry (no heavy steam infrastructure)"
+  ],
+  "notes": [
+    "critical supplier of timber and reagents to coastal shipyards",
+    "political influence dominated by riverhouse patrons, not guilds",
+    "seasonal navigation windows constrain long-distance shipments"
+  ],
+  "generated_at": "2025-09-09T05:06:37.948Z"
+}

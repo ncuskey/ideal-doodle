@@ -1,30 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_be129759",
+  "checksum": "fnv1a_ac511665",
   "burg_id": 206,
-  "name": "Burg_206",
+  "name": "Slutiarm",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "reagent-depot"
+    "harbor",
+    "ritual-ingredient-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "landing/waystation",
-    "small-scale fishing",
-    "reagent transshipment"
+    "fishing",
+    "salt-curing",
+    "ritual-ingredient trade",
+    "small-ship repair"
   ],
   "factions_local": [
-    "harbormasters",
-    "reagent traders' clique",
-    "ritual-keepers (local shrine)"
+    "Harbor Guild",
+    "Tide-Caller Circle",
+    "Smuggler Strand",
+    "Ritual-Labour Cooperative"
   ],
   "problems": [
-    "scarce imported reagents",
-    "seasonal supply interruptions",
-    "occasional bandit/smuggler raids"
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "ritual accidents"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -32,23 +35,23 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with nautical jargon",
-    "diet: salted fish, kelp preserves, barter staples",
-    "local ceremonies center on safe passage and reagent blessings"
+    "Coastal Tongues dialect dominant",
+    "salt-preservation cuisine",
+    "boat-building and augury customs",
+    "ritual offerings before departure"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "cursed cargo",
+    "missing tide-priest"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry (no high-pressure steam megatech)"
+    "navigational auguries cannot replace charts and seamanship"
   ],
   "notes": [
-    "small sheltered cove serving irregular shipping routes",
-    "population fluctuates with shipping and ritual seasons"
+    "population unknown; seasonal/transient workers",
+    "vulnerable reef approaches; strategic small harbor"
   ],
-  "generated_at": "2025-09-09T04:16:02.587Z"
+  "generated_at": "2025-09-09T05:28:30.017Z"
 }

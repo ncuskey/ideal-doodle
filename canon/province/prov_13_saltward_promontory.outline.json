@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_saltward_promontory",
+  "checksum": "fnv1a_1df090f5",
+  "name": "Saltward Promontory",
+  "aliases": [
+    "Saltward",
+    "The Promontory"
+  ],
+  "tags": [
+    "coastal",
+    "saltworks",
+    "shipyard",
+    "reagent-transit"
+  ],
+  "role_in_state": "primary saltworks and shipbuilding node",
+  "economy_niches": [
+    "salt-harvesting and curing",
+    "shipbuilding and repair",
+    "longshore trade and transshipment",
+    "reagent storage and re-export",
+    "coastal fisheries and brine aquaculture"
+  ],
+  "culture_adjustments": [
+    "salt-harvest auguries integrated into seasonal epics",
+    "guild-dominant labor pools for tidal work",
+    "port cant enriched with salt/ship jargon",
+    "practical literacy focused on logs, ledgers, and tide charts"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge and coastal erosion",
+    "saltwater contamination of wells",
+    "reagent theft at docks",
+    "labor unrest under guild pressure"
+  ],
+  "constraints": [
+    "reliance on scarce imported ritual reagents",
+    "seasonal windows for safe salt-harvest",
+    "limited fresh-water hinterland"
+  ],
+  "notes": [
+    "seasonal auguries precede major voyages and salt drives",
+    "shipwright apprenticeships tied to salt guilds"
+  ],
+  "generated_at": "2025-09-09T05:04:09.535Z"
+}

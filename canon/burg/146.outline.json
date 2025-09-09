@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5cb570cb",
+  "checksum": "fnv1a_93fd7e26",
   "burg_id": 146,
-  "name": "Burg_146",
-  "state_id": -1,
+  "name": "Driorzan",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-hub",
-    "reagent-trade"
+    "estuary",
+    "reagent-trade",
+    "harbor"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "reagent market",
-    "river transport",
-    "boat repair",
-    "smoked-fish processing"
+    "reagent import & refining",
+    "coastal fishing & salting",
+    "ship repair & ropemaking",
+    "transit point for caravans/boats"
   ],
   "factions_local": [
-    "riverboat guild",
-    "apothecary collective",
-    "elders council",
-    "smuggler ring"
+    "Harbormaster's Company",
+    "Reagent Merchants' Consortium",
+    "Tidewatch Militia",
+    "Covert Smugglers' Ring"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids on barges",
-    "seasonal flooding"
+    "scarcity of imported ritual reagents",
+    "harbor corruption / extortion",
+    "seasonal tidal flooding",
+    "smuggling vs. local guilds"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects",
-    "boat-funeral and blessing rites common",
-    "diet: smoked riverfish and fermented greens"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy in salted fish, kelp, spice blends",
+    "local rites involve reagent-consuming tide-rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "river-flood relief"
+    "tidal omens"
   ],
   "constraints": [
-    "no true resurrection magics",
-    "rituals consume rare imported reagents",
-    "navigational auguries supplement but do not replace charts"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries augment but do not replace seamanship"
   ],
   "notes": [
-    "near-medieval tech with localized ritual workshops",
-    "population unknown; transient river traffic significant"
+    "near-medieval / early-industrial tech baseline",
+    "population unknown; functions as small estuary hub"
   ],
-  "generated_at": "2025-09-09T04:12:07.649Z"
+  "generated_at": "2025-09-09T05:24:47.574Z"
 }

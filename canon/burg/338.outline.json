@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_34c32fcd",
+  "checksum": "fnv1a_b6700751",
   "burg_id": 338,
-  "name": "Burg_338",
-  "state_id": 0,
-  "province_id": "province_unknown",
+  "name": "Jomeille",
+  "state_id": -1,
+  "province_id": "",
   "tags": [
     "coastal",
-    "ritual-lab",
-    "outpost"
+    "harbor"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "ritual-reagent trade",
-    "waystation"
+    "ship provisioning",
+    "localized trade",
+    "ritual-reagent supply"
   ],
   "factions_local": [
-    "Harbormasters",
-    "Ritual Meisters",
-    "Skiffwrights' Guild"
+    "harbormasters' guild",
+    "ritualists' conclave",
+    "smugglers' ring",
+    "merchant-brokers"
   ],
   "problems": [
-    "reagent scarcity",
+    "scarcity of ritual reagents",
     "smuggling",
-    "seasonal flooding"
+    "corruption",
+    "coastal erosion / storm damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with island loanwords",
-    "strong ancestor-veneration at household shrines",
-    "diet heavy on smoked fish and seaweed preserves"
+    "Coastal Tongues dialect influence",
+    "diet: salted fish, fermented sea vegetables",
+    "tide-based festivals and offerings",
+    "crafts: net-making, small-boat carpentry"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual component theft",
-    "mysterious tides"
+    "missing ritual reagents",
+    "shipwreck salvage"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no long-range mind control; navigational augury limited"
+    "navigational auguries exist but cannot replace seamanship"
   ],
   "notes": [
-    "population unknown; strategic for reagent transshipment",
-    "accessible by coastal skiff only at high tide"
+    "near-medieval to early-industrial tech baseline",
+    "strategic minor port on local coastal routes"
   ],
-  "generated_at": "2025-09-09T04:25:01.001Z"
+  "generated_at": "2025-09-09T05:37:03.721Z"
 }

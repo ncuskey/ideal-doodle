@@ -1,59 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_acf9e90d",
+  "checksum": "fnv1a_1c4ad78c",
   "burg_id": 96,
-  "name": "Burg_96",
+  "name": "Lochi",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-supply",
-    "waystation"
+    "coastal",
+    "fishing"
   ],
   "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual reagent trade",
-    "boat repair",
-    "local market"
+    "salt-curing",
+    "local trade"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent Collectors' Circle",
-    "Elders' Council",
-    "Smuggler Crew"
+    "harbor guild",
+    "boatwright clan",
+    "shore-animist circle"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "tidal flooding",
-    "guild corruption"
+    "scarce ritual reagents",
+    "storm damage to boats",
+    "periodic bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominates",
-    "ebb-tide festival honoring sea-spirits",
-    "diet: salted fish & kelp",
-    "low-tide ancestor shrines and offerings"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "morning-tide offerings to sea-spirits",
+    "diet heavy on smoked fish and kelp"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "mysterious tide change"
+    "storm omen",
+    "missing fishermen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or true life-replacement magic",
-    "navigational auguries cannot replace charts or seamanship"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "small harbor settlement vulnerable to storms",
-    "dockside ritual labor concentrated in a few families",
-    "population size uncertain"
+    "near-medieval to early-industrial baseline",
+    "navigational auguries present but seamanship required"
   ],
-  "generated_at": "2025-09-09T04:38:06.077Z"
+  "generated_at": "2025-09-09T05:49:46.908Z"
 }

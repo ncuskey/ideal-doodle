@@ -1,29 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_27c006d9",
+  "checksum": "fnv1a_19e0a905",
   "burg_id": 189,
-  "name": "Burg_189",
+  "name": "Iahniots",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-node"
+    "ritual-port",
+    "pilot-haven"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
+    "salted-fish",
     "reagent-trade",
-    "pilot-guides"
+    "piloting/guide",
+    "ship-repair"
   ],
   "factions_local": [
-    "shipwrights' guild",
-    "reagent-merchants",
-    "elder-kin council"
+    "harbor-guild",
+    "ritual-families",
+    "smugglers"
   ],
   "problems": [
-    "scarcity",
-    "smuggling",
-    "coastal-erosion"
+    "reagent-scarcity",
+    "storm-damage",
+    "smuggling-run-ins"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -31,23 +33,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "ancestor-feast obligations shape labor rhythms",
-    "diet heavy on salt-preserved fish and seaweeds"
+    "Coastal Tongues with Island Creole influence",
+    "tide-offerings to ancestors",
+    "diet: salted fish and seaweed",
+    "night-light bonfire festivals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-fisher"
+    "missing-augur",
+    "shipwreck-salvage"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "long-range-mind-bans",
-    "rituals-consume-imported-reagents"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "near-medieval tech with ritual-magic dependence",
-    "population small and supply-dependent"
+    "shallow harbor; high-tide access only",
+    "mixed population of islanders and river traders"
   ],
-  "generated_at": "2025-09-09T04:14:50.208Z"
+  "generated_at": "2025-09-09T05:27:34.140Z"
 }

@@ -1,49 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_21b290c1",
+  "checksum": "fnv1a_2a128758",
   "burg_id": 38,
-  "name": "Burg_38",
+  "name": "Sudmanches",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "none",
+    "river-settlement",
+    "ritual-harvest"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "small-port",
-    "fisheries",
-    "ritual-labor provisioning",
-    "coastal-waystation"
+    "river-trade",
+    "fishing",
+    "ritual-labor",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "tide-ritual priesthood",
-    "coastal smugglers"
+    "harbor-guild",
+    "ritual-coterie",
+    "river-clan",
+    "merchant-owners"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "banditry on supply roads",
-    "isolation from major markets"
+    "scarce-imports",
+    "banditry-on-waterways",
+    "ritual-component-shortages",
+    "infrastructure-decay"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "diet heavy on salted fish and seaweed",
-    "tide-based seasonal festivals and rites"
+    "Riveric Dialects dominant",
+    "boat-centric daily life and cuisine",
+    "seasonal ritual harvests shape calendar",
+    "strong kin-clan obligations"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearing boats"
+    "ritual-theft",
+    "disappearances-on-the-river"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline; limited combustion industry",
-    "navigational auguries present but do not replace charts/seamanship"
+    "State/provincial ties unclear; population unknown",
+    "Near-medieval tech with localized ritual practices"
   ],
-  "generated_at": "2025-09-09T04:27:51.644Z"
+  "generated_at": "2025-09-09T05:39:39.894Z"
 }

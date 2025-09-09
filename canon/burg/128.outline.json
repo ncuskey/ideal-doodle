@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4ab2bf07",
+  "checksum": "fnv1a_6fcec834",
   "burg_id": 128,
-  "name": "Burg_128",
-  "state_id": -1,
+  "name": "Cosxea",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-lab"
+    "coastal",
+    "ritual-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-supply",
-    "waystation"
+    "ritual-labor/forging",
+    "waypoint/boat-services",
+    "smuggling"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ritual Lodge",
-    "Smuggler Syndicate"
+    "ferrymen's guild",
+    "tide-conclave (ritualists)",
+    "harbor-watch",
+    "shadow-cartel (smugglers)"
   ],
   "problems": [
-    "scarcity of reagents",
-    "smuggling",
-    "isolation"
+    "scarcity of ritual reagents",
+    "smuggling and organized crime",
+    "tidal flooding/erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "sea-launching and blessing rituals",
-    "communal salted-fish cuisine"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "sea-fermented cuisine, salted preserves",
+    "tide rites blend navigation and ancestor offerings",
+    "barter-heavy local economy"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent shortage",
-    "mysterious disappearance at sea"
+    "stolen ritual reagent",
+    "tidal omens/strange currents"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace charts or seamanship"
+    "no instant resurrection or true life-replacement magics",
+    "navigational auguries cannot replace charts and seamanship"
   ],
   "notes": [
-    "population unknown",
-    "limited combustion-derived industry",
-    "serves minor channel traffic"
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual magic central to trade and shipping"
   ],
-  "generated_at": "2025-09-09T04:11:09.364Z"
+  "generated_at": "2025-09-09T23:09:51.269Z"
 }

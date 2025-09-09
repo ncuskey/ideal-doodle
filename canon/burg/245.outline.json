@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_29216e6b",
+  "checksum": "fnv1a_716e1b7f",
   "burg_id": 245,
-  "name": "Burg_245",
+  "name": "Broswsnaid",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "remote",
-    "ritual-hub"
+    "river-port",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-trading",
+    "river-trade",
+    "ritual-supplier",
     "fishing",
-    "waystation",
     "boat-repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-keepers",
-    "smugglers",
-    "elders-council"
+    "River Merchants' Syndicate",
+    "Ancestor-Remembrance Shrine",
+    "Harborwatch Company",
+    "Smuggler Clans"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling-tensions",
-    "disease-risks"
+    "reagent scarcity",
+    "smuggling and corruption",
+    "seasonal flooding",
+    "shoreline erosion"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues pidgin common",
-    "tide-offering sea festivals",
-    "salted-fish and spice-influenced cuisine"
+    "Riveric dialect with Coastal loanwords",
+    "boat-building and net-weaving crafts",
+    "voyage-offerings and tideward rites",
+    "diet: salted fish, riverweed, barley porridge"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "missing-fishermen"
+    "reagent theft",
+    "flood threat"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "navigational-auguries cannot replace seamanship"
+    "no instant resurrection or life-replacement magics locally available",
+    "navigational auguries cannot replace charts or seamanship",
+    "combustion industry limited; ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "state-level data unavailable",
-    "local ritual workshops depend on imported reagents"
+    "population unknown; functions as small seasonal trade crossing",
+    "local ritual labs depend on imported materials and guild oversight"
   ],
-  "generated_at": "2025-09-09T04:18:32.433Z"
+  "generated_at": "2025-09-09T05:30:52.728Z"
 }

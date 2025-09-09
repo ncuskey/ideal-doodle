@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b1a9fb5",
+  "checksum": "fnv1a_f887e76b",
   "burg_id": 217,
-  "name": "Burg_217",
+  "name": "Rraj'aj'jaz",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "harbor",
-    "ritual-node"
+    "island",
+    "port",
+    "ritual-labor-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishery",
-    "harbor-waystation",
-    "ritual-supply"
+    "ritual reagent trade",
+    "salt works",
+    "fishing",
+    "ship chandler"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-guild",
-    "smuggler-ring"
+    "harbor guild",
+    "ritual-house of T'saj",
+    "smugglers' ring",
+    "ancestor-lodge"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-shortages"
+    "reagent scarcity",
+    "banditry on supply runs",
+    "tariff disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "tide-based festivals",
-    "diet: salted fish and seaweeds"
+    "Island Creole + Coastal Tongues dialect mix",
+    "strong ancestor veneration tied to fishing rites",
+    "diet: salted fish, fermented seaweed",
+    "nightly tide-offering rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-sacrament",
-    "stormwrecks"
+    "reagent shortage",
+    "ancestral omen"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imports",
-    "long-range-mind-influence-banned"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned",
+    "limited combustion industry"
   ],
   "notes": [
-    "navigational-auguries used locally",
-    "limited combustion industry; small workshops"
+    "small, strategic resupply outpost",
+    "fragile supply lines; reliant on seasonal winds"
   ],
-  "generated_at": "2025-09-09T04:16:44.210Z"
+  "generated_at": "2025-09-09T05:29:08.451Z"
 }

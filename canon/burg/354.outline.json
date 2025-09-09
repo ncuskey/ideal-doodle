@@ -1,57 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_62e40c8d",
+  "checksum": "fnv1a_2892abc6",
   "burg_id": 354,
-  "name": "Burg_354",
-  "state_id": 0,
+  "name": "Cabistucus",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-node",
-    "market-crossing"
+    "river-port",
+    "reagent-trade",
+    "waystation"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ferrying & tolls",
-    "smoked-fish curing",
-    "ritual-supply trade",
-    "seasonal market"
+    "reagent-trade",
+    "fishing",
+    "ferrying"
   ],
   "factions_local": [
-    "Ferriesmen's Syndicate",
-    "Shrine Coterie",
-    "Market Stewards",
-    "Riverwatch"
+    "Harbor Guild",
+    "Ancestor Shrine",
+    "Reagent Agents",
+    "Riverboat Clan"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids on ferries",
-    "seasonal flooding"
+    "reagent scarcity",
+    "river banditry",
+    "silted quay"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Speaks Riveric Dialect with Coastal loanwords",
-    "River funerary rites and tide-timed markets",
-    "Diet focused on smoked fish and reed-breads",
-    "Communal ritual-labor guilds organize key services"
+    "Riveric Dialect influence",
+    "smoked and salted fish cuisine",
+    "ritual offerings to currents"
   ],
   "quest_hook_slots": [
-    "stolen reagents",
-    "ferryman disappearance",
-    "festival sabotage"
+    "smuggling",
+    "missing reagent shipment",
+    "river monster/curse"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries supplemental only"
+    "no instant resurrection; ritual magic consumes rare reagents",
+    "limited combustion industry",
+    "navigational auguries cannot replace charts"
   ],
   "notes": [
-    "Tech: near-medieval to early-industrial; limited combustion industry",
-    "State governance unknown — likely semi-autonomous river precinct"
+    "sparse population / data unknown",
+    "low-oversight transshipment point"
   ],
-  "generated_at": "2025-09-09T04:26:07.621Z"
+  "generated_at": "2025-09-09T05:38:00.708Z"
 }

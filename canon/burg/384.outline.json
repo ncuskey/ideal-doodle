@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_727c6753",
+  "checksum": "fnv1a_5da3c649",
   "burg_id": 384,
-  "name": "Burg_384",
+  "name": "Hobrin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-labor"
+    "river-crossing",
+    "reagent-trade",
+    "fishing"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-workshop",
-    "supply-station",
-    "waystation-trade"
+    "ferry crossing",
+    "reagent brokerage",
+    "fishing",
+    "boat repair"
   ],
   "factions_local": [
-    "ritual-guild",
-    "trader-merchant-cohort",
-    "local-council"
+    "Ferrymasters' Guild",
+    "Reagent Merchants' Consortium",
+    "Tide-Remembrance Shrine",
+    "Harbormaster's Office"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "banditry"
+    "reagent scarcity",
+    "silted channel",
+    "bandit raids",
+    "jurisdictional ambiguity"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "uses Coastal Tongues dialect",
-    "ancestor-veneration customs",
-    "salt-preserved seafood common"
+    "Riveric Dialect dominant",
+    "seasonal flooding shapes calendar",
+    "diet heavy on smoked fish and reed-bread",
+    "strong local superstitions about tides and omens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-run",
-    "disappearances"
+    "missing ferry",
+    "stolen ritual reagents"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "rituals-consume-scarce-reagents"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown",
-    "near-medieval to early-industrial tech with local ritual magic"
+    "Located at a shallow river mouth with shifting sandbars",
+    "Population small and transient; exact size undocumented"
   ],
-  "generated_at": "2025-09-09T04:28:04.134Z"
+  "generated_at": "2025-09-09T05:40:02.373Z"
 }

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_saltworks_fringe",
+  "checksum": "fnv1a_42bad077",
+  "name": "Saltworks Fringe",
+  "aliases": [
+    "Salt Fringe",
+    "Saltband"
+  ],
+  "tags": [
+    "coastal",
+    "saltworks",
+    "transshipment",
+    "seasonal-labor"
+  ],
+  "role_in_state": "Primary salt supplier and coastal transshipment node",
+  "economy_niches": [
+    "seasonal open-pan salt harvesting",
+    "salt curing & smoked/salted produce",
+    "transshipment hub for salt and reagents",
+    "shallow-draft boat and raft maintenance",
+    "kelp harvesting and ancillary fisheries"
+  ],
+  "culture_adjustments": [
+    "seasonal migrant labor culture shifts household rhythms",
+    "strong salt-guild control over salting rites and prices",
+    "more land-tied kin networks among pan-workers than shipboard clans",
+    "heightened suspicion of itinerant sailors and middlemen",
+    "practical fusion of sea rites with merchant contractual liturgies"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal inundation",
+    "saltpan fires",
+    "banditry on haul routes",
+    "reagent supply disruption"
+  ],
+  "constraints": [
+    "scarce freshwater for processing",
+    "seasonal access dependent on tides and weather",
+    "ritual magic relies on imported, expensive reagents"
+  ],
+  "notes": [
+    "labor cycles link saltworks to nearby shipyards during off-season",
+    "salt quality and yield vary strongly with monsoon/tide patterns",
+    "local ritual clearances often required for bulk export"
+  ],
+  "generated_at": "2025-09-09T05:03:01.317Z"
+}

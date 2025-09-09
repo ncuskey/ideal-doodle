@@ -1,58 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5edb2ca3",
+  "checksum": "fnv1a_589e302f",
   "burg_id": 454,
-  "name": "Burg_454",
+  "name": "Veekzi",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "fishing",
-    "ritual-node"
+    "reagent-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "small-ship repair",
-    "ritual-labor provisioning",
-    "transshipment (smuggling)"
+    "fishery/saltwork",
+    "reagent trade",
+    "waystation/ship provisioning"
   ],
   "factions_local": [
-    "dockwrights' guild",
-    "ritual-providers' cabal",
-    "harbor elders",
-    "smugglers' ring"
+    "harbormaster's lodge",
+    "ritualist circle",
+    "small merchant consortium",
+    "smuggler cove"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "resource shortages"
+    "tidal erosion",
+    "banditry along supply routes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "salted-fish and seaweed cuisine",
-    "boatbuilding folkcraft and knotwork",
-    "strong ritual etiquette around voyages"
+    "Coastal Tongues influence; Island Creole borrowings",
+    "tide-honoring festivals tied to fishing cycles",
+    "diet: salt-preserved fish, seaweed, herb-smoked meats"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagent",
-    "stranded/mysterious ship"
+    "reagent theft",
+    "mysterious tide anomaly"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "long-range mind influence banned",
-    "ritual magic consumes scarce imported reagents"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "navigational auguries exist but don't replace charts",
-    "tech baseline near-medieval with localized ritual craft",
-    "state affiliation unknown"
+    "near-medieval to early-industrial tech with localized ritual reliance",
+    "small coastal outpost serving island routes and reagent transshipment"
   ],
-  "generated_at": "2025-09-09T04:33:01.895Z"
+  "generated_at": "2025-09-09T05:44:45.704Z"
 }

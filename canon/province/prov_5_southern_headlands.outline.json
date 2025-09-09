@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_southern_headlands",
+  "checksum": "fnv1a_83eca0b6",
+  "name": "Southern Headlands",
+  "aliases": [
+    "South Headland",
+    "The Headlands"
+  ],
+  "tags": [
+    "coastal",
+    "headland",
+    "storm-exposed",
+    "pilotage"
+  ],
+  "role_in_state": "storm-front harbor & reagent intake",
+  "economy_niches": [
+    "ship repair and stormproofing",
+    "coastal fisheries and saltworks",
+    "reagent import staging and storage",
+    "navigational-augury outposts",
+    "pilotage, towage and harbor pilots"
+  ],
+  "culture_adjustments": [
+    "heightened storm superstitions integrated into voyages",
+    "stronger clan-harbor kinship and gatekeeping",
+    "preference for heavier, repairable hull designs",
+    "stricter hospitality codes for stranded mariners",
+    "ritual weather-offerings tied to docking rights"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "cliff-erosion",
+    "pirate raids",
+    "supply bottlenecks",
+    "reagent spoilage in damp storage"
+  ],
+  "constraints": [
+    "limited arable hinterland",
+    "exposure prevents large sheltered drydocks",
+    "ritual magic depends on imported, perishable reagents"
+  ],
+  "notes": [
+    "primary intake point for reagent shipments to State_5",
+    "favored site for storm-testing ship modifications",
+    "landing and pilotage difficult in winter months"
+  ],
+  "generated_at": "2025-09-09T05:07:15.581Z"
+}

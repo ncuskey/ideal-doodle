@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_saltmarch_flats",
+  "checksum": "fnv1a_fc40ec1f",
+  "name": "Saltmarch Flats",
+  "aliases": [
+    "Salt Marsh Flats",
+    "The Saltmarches"
+  ],
+  "tags": [
+    "coastal",
+    "salt-production",
+    "wetlands",
+    "piloting"
+  ],
+  "role_in_state": "Primary salt and kelp supplier; shallow-water pilotage hub",
+  "economy_niches": [
+    "solar and kiln salt evaporation pans",
+    "kelp drying and seaweed processing for food and binding reagents",
+    "fish curing and salted fish exports",
+    "reed/sedge harvest for rope, mats, thatch",
+    "shallow-draft piloting and local navigational auguries"
+  ],
+  "culture_adjustments": [
+    "communal, tide-timed salt-harvest rites distinct from ship-guild rites",
+    "strong pilot/poller identity over shipwright prestige",
+    "diet and dress adapted to high-salinity environment (preserving, salted staples)",
+    "matrilineal control of family-run salt pans common",
+    "practical augury focused on evaporation tides rather than long voyages"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal storm surge / inundation",
+    "salinization of arable land",
+    "resource-conflict over pan leases",
+    "treacherous shoals and reef navigation"
+  ],
+  "constraints": [
+    "scarce fresh water limits agriculture and expansion",
+    "fragile marsh ecology restricts large-scale construction",
+    "ritual-magic reliant on imported reagents increases export pressure"
+  ],
+  "notes": [
+    "harvest calendar tied to spring tides and lunar-solar markers",
+    "salt landlords often exert maritime charter influence"
+  ],
+  "generated_at": "2025-09-09T05:08:58.236Z"
+}

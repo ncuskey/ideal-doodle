@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
 import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { buildNameMaps } from "../ingest/canonicalNames";
 
 type J = any;
 const readJson = <T=any>(p: string): T | null => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return null; } };
@@ -35,10 +36,13 @@ function gather() {
   }
 
   const burgFiles = listJson("facts/derived/burg").length ? listJson("facts/derived/burg") : listJson("facts/burg");
+  
+  const { burgNameById } = buildNameMaps();
+  
   const burgs = burgFiles.map(p => {
     const j = readJson<J>(p);
     const id = j?.id ?? parseInt(path.basename(p, ".json"), 10);
-    const name = j?.name || j?.Name || `Burg_${id}`;
+    const name = burgNameById.get(Number(id)) || j?.name || j?.Name || `Burg_${id}`;
     const state_id = Number(j?.state ?? j?.stateId ?? j?.s ?? NaN);
     const province_id = String(j?.province ?? j?.provinceId ?? j?.prov ?? "") || undefined;
     const pop = j?.population ?? j?.pop ?? j?.size ?? undefined;

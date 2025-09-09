@@ -1,54 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1f2f5abf",
+  "checksum": "fnv1a_7766f4ef",
   "burg_id": 218,
-  "name": "Burg_218",
-  "state_id": 0,
+  "name": "Whithore",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-hub"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fisherfolk",
-    "ritual-lab",
-    "waystation",
-    "small-market"
+    "coastal fishing",
+    "harvest/export of ritual reagents",
+    "boat repair & ropemaking",
+    "smuggling/transit point"
   ],
   "factions_local": [
-    "local-clan",
-    "ritual-coterie",
-    "itinerant-merchant-brotherhood"
+    "Fishermen's Cooperative",
+    "Tide-Calling Circle",
+    "Harbormaster's Office",
+    "Smugglers' Syndicate"
   ],
   "problems": [
-    "scarce-reagents",
-    "supply-fragility",
-    "smuggling"
+    "scarce ritual reagents",
+    "seasonal storm isolation",
+    "corrupt harbor administration"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues / Riveric Dialect blend",
-    "fish-preserving rituals central to economy",
-    "tattooed seafarer customs & ancestor petitions"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "diet centered on smoked fish, kelp, fermented shellfish",
+    "annual tide-blessing rites and knotwork craft tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ritual-ingredient",
-    "wreck-salvage-dispute"
+    "missing ship",
+    "reagent theft"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "long-range-mind-magic-banned"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "navigational-auguries supplement but do not replace charts",
-    "limited combustion-derived industry"
+    "population unknown; transient crews and reagent runners common",
+    "narrow harbor prone to siltation and seasonal closure"
   ],
-  "generated_at": "2025-09-09T04:16:47.122Z"
+  "generated_at": "2025-09-09T05:29:11.523Z"
 }

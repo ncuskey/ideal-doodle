@@ -1,51 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d51af015",
+  "checksum": "fnv1a_53cf230b",
   "burg_id": 352,
-  "name": "Burg_352",
-  "state_id": -1,
+  "name": "Gigbig",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal-outpost"
+    "coastal",
+    "fishing",
+    "ritual-supplies"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fisherfolk",
-    "reagent depot",
-    "waystation"
+    "fishing",
+    "salt-processing",
+    "ritual-component trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "shipowners' kin",
-    "ritual-guild",
-    "smugglers"
+    "fishermen's guild",
+    "tide-shrine caretakers",
+    "salt merchants",
+    "covert smugglers"
   ],
   "problems": [
-    "scarce reagents",
-    "bandit raids",
-    "supply isolation"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling clashes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ritual barter common (fish for reagents)",
-    "diet: salted fish, seaweed, root starches"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "communal tide festivals tied to fishing calendar",
+    "diet: salted fish, seaweed, preserved shellfish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing ship"
+    "cursed tide",
+    "missing shrine-smith"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare/banned"
+    "rituals need imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry"
   ],
   "notes": [
-    "serves nearby coastal trade routes as resupply point",
-    "navigational auguries used but charts and seamanship required"
+    "population unknown; small harbor settlement",
+    "vulnerable supply lines at storm season"
   ],
-  "generated_at": "2025-09-09T04:26:01.859Z"
+  "generated_at": "2025-09-09T05:37:50.242Z"
 }

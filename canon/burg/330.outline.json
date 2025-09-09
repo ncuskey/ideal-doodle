@@ -1,33 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_403a7cfd",
+  "checksum": "fnv1a_b5246f70",
   "burg_id": 330,
-  "name": "Burg_330",
+  "name": "Stiag",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost",
-    "harbor"
+    "river-port",
+    "shipyard",
+    "saltworks"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "fishing",
-    "reagent transshipment",
-    "pilotage/harbormaster",
-    "light ship repair"
+    "river trade hub",
+    "shipbuilding & repair",
+    "salt & fish processing",
+    "ritual-supply apothecaries"
   ],
   "factions_local": [
-    "Sea-Tide wardens",
-    "Skiffwrights' guild",
-    "Coastal traders",
-    "Smugglers"
+    "Skiffmasters' Guild",
+    "Apothecary Circle",
+    "Captain's Council",
+    "Saltworkers' Guild"
   ],
   "problems": [
     "reagent scarcity",
-    "supply delays",
-    "smuggling",
-    "superstition tensions"
+    "river brigandry",
+    "harbor siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,23 +34,25 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with island loanwords",
-    "seafood- and salt-preserved cuisine",
-    "strong customs around tide-rituals and voyage-remembrance"
+    "speaks Riveric Dialect with Coastal Tongue loanwords",
+    "boat-centered cuisine (smoked & salted fish)",
+    "daily departure auguries and small ritual offerings",
+    "multiethnic trading population"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "stranded ritualist"
+    "silted harbor crisis",
+    "missing river-crew"
   ],
   "constraints": [
-    "no true resurrection or life-replacement magic",
-    "ritual magic consumes scarce imported reagents",
-    "limited combustion-derived industry"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown; dependent on coastal shipping and tides",
-    "navigational auguries used but do not replace charts or seamanship"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "population unknown; economy tied to river traffic",
+    "apothecaries control much of ritual reagent supply"
   ],
-  "generated_at": "2025-09-09T04:24:44.322Z"
+  "generated_at": "2025-09-09T05:36:32.399Z"
 }

@@ -1,59 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_813695c9",
+  "checksum": "fnv1a_9f616ac2",
   "burg_id": 101,
-  "name": "Burg_101",
-  "state_id": -1,
+  "name": "Dodbrid",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "port",
-    "ritual-reagent-trade"
+    "river-port",
+    "toll-bridge",
+    "ritual-supply-node"
   ],
   "size_hint": "small",
   "economy_roles": [
+    "ferrying/tolls",
+    "local trade",
     "fishing",
-    "reagent-trade",
-    "ship-repair",
-    "smuggling"
+    "ritual-reagent brokerage"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent Syndicate",
-    "Coastwatch Militia",
-    "Tide-Animist Coterie"
+    "Bridge-Keepers Guild",
+    "Ferryworkers' Union",
+    "River Smugglers",
+    "Shrine Keepers"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "smuggling-rings",
-    "reef-hazards"
+    "seasonal floods",
+    "siltation and channel change",
+    "reagent scarcity",
+    "banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide-blessing rituals",
-    "salted-fish cuisine",
-    "barter-first trade etiquette"
+    "Riveric dialect dominant",
+    "Boat-centered cuisine (smoked fish)",
+    "Bridge-crossing superstitions",
+    "Toll-bargaining ritual"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "strange-tide-sighting"
+    "flood-threat",
+    "missing ferryman"
   ],
   "constraints": [
-    "Rituals consume scarce imported reagents",
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents or specialized labour",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "state affiliation unknown",
-    "population n/a",
-    "strategic reef-lined inlet, useful as waystation"
+    "Tolls fund bridge upkeep and local militia",
+    "Shallow approaches limit vessel size, concentrating trade through ferries"
   ],
-  "generated_at": "2025-09-09T04:09:20.814Z"
+  "generated_at": "2025-09-09T23:08:11.232Z"
 }

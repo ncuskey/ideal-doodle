@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3d56aa43",
+  "checksum": "fnv1a_8b62b089",
   "burg_id": 247,
-  "name": "Burg_247",
+  "name": "Montcongy",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-crossing",
+    "toll-town"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "pilotage/steersmen",
-    "reagent brokerage",
-    "salt-curing",
-    "waystation services"
+    "river-toll",
+    "fishing",
+    "artisan-rituals",
+    "market-trade"
   ],
   "factions_local": [
-    "Harbormaster's Hold",
-    "Ritualist Lodge",
-    "Pilot Guild",
-    "Smuggler Ring"
+    "River Guild",
+    "Toll-Lords",
+    "Fisherfolk Clan",
+    "Ritual-Kin"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "seasonal storms",
-    "smuggling pressure"
+    "seasonal-flooding",
+    "banditry",
+    "reagent-scarcity",
+    "corrupt-tolls"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in speech",
-    "boat-centered daily life and festivals",
-    "salt-preserved seafood staple",
-    "ancestor-veneration for lost sailors"
+    "Riveric Dialect common",
+    "smoked-fish and riverweed cuisine",
+    "annual toll-feast festival",
+    "ritual markings on boats"
   ],
   "quest_hook_slots": [
-    "missing pilots",
-    "reagent smuggling",
-    "ominous ancestral omen"
+    "smuggling",
+    "flood-threat",
+    "ritual-sabotage"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is banned/rare"
   ],
   "notes": [
-    "Near-medieval to early industrial tech with limited combustion industry",
-    "Navigational auguries exist but don't replace charts/seamanship"
+    "stone bridge and watchtower control local trade",
+    "seasonal fairs draw itinerant ritualists"
   ],
-  "generated_at": "2025-09-09T04:18:38.748Z"
+  "generated_at": "2025-09-09T05:31:10.317Z"
 }

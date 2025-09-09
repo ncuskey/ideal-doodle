@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c125844d",
+  "checksum": "fnv1a_a1496e9c",
   "burg_id": 288,
-  "name": "Burg_288",
+  "name": "Merwick",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "coastal",
-    "ritual-hub"
+    "river-crossing",
+    "fishing"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-labour",
-    "small-scale trade",
-    "saltworks"
+    "ferrying",
+    "small-market",
+    "fishery",
+    "salt-harvesting"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ritual Brotherhood",
-    "Saltworkers' Cooperative"
+    "harbourmasters",
+    "ferrymen-guild",
+    "shrinetenders",
+    "merchant-traders"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "corruption"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "banditry",
+    "market-rivalry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "dockside ancestor offerings",
-    "salted-fish cuisine",
-    "tide festival"
+    "Riveric Dialects dominant with Coastal Tongues loanwords",
+    "ferryman rites tied to ancestor-rites",
+    "salt-and-smoked-fish cuisine",
+    "market-day timed to low water"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "disappearances"
+    "missing-ferry",
+    "ritual-reagent-theft"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual-magic consumes scarce imported reagents",
+    "no instant-resurrection magics",
+    "navigation-auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "Tech baseline: near-medieval to early industrial",
-    "navigational auguries exist but are limited"
+    "name suggests 'mere' (lake/shallows) + 'wick' (settlement/market)",
+    "location shaped by tidal/river interplay"
   ],
-  "generated_at": "2025-09-09T04:21:32.100Z"
+  "generated_at": "2025-09-09T05:33:51.586Z"
 }

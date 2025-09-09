@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3f3715ed",
+  "checksum": "fnv1a_134c3bfe",
   "burg_id": 231,
-  "name": "Burg_231",
+  "name": "Phig",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-depot"
+    "none",
+    "river-port",
+    "fishing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent-trade",
-    "waystation",
-    "small-drydock"
+    "fishing & salt-curing",
+    "riverine trade",
+    "boatbuilding & repair",
+    "ritual-reagent brokerage"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Shrine Circle",
-    "Reagent Merchants",
-    "Smuggler Coterie"
+    "Fishermen's Elders",
+    "Reagent Merchant House",
+    "Sea-Tide Shrine Circle",
+    "Riverwatch (local militia)"
   ],
   "problems": [
     "scarce ritual reagents",
-    "supply isolation",
-    "smuggling",
-    "sporadic storms"
+    "seasonal storms disrupting trade",
+    "smuggling through back channels",
+    "occasional banditry on river routes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,24 +35,25 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect prevalent",
-    "rituals tied to fishing seasons",
-    "diet heavy on smoked/salted fish",
-    "strong superstition about ancestor-omens at sea"
+    "Riveric Dialect dominant with coastal loanwords",
+    "Ancestor offerings integrated into fishing rites",
+    "diet: salted fish, fermented sea vegetables",
+    "boatcraft includes ritual carvings and painted sigils"
   ],
   "quest_hook_slots": [
-    "missing reagent shipment",
-    "ancestor-omen at sea",
-    "smuggling interdiction"
+    "smuggling",
+    "reagent shortage",
+    "missing fishing fleet"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries can't replace charts or seamanship",
-    "ritual magic consumes scarce imported reagents"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind-influence rare and institutionally banned"
   ],
   "notes": [
-    "tech: near-medieval to early industrial",
-    "outpost depends on seasonal trade and reagent caravans"
+    "State affiliation unknown; local governance by elders",
+    "Population unknown; functions as a small service port",
+    "Navigational auguries used but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:17:36.950Z"
+  "generated_at": "2025-09-09T05:30:07.127Z"
 }

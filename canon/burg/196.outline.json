@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b1f6663d",
+  "checksum": "fnv1a_3ce0b080",
   "burg_id": 196,
-  "name": "Burg_196",
-  "state_id": -1,
+  "name": "Fyggan",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "ritual-hub"
+    "harbor",
+    "ritual-anchorage"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent-transit",
-    "small-scale-fishing",
-    "ship-repair",
-    "waystation-trade"
+    "fishing",
+    "ritual-supply",
+    "pilotage",
+    "small-scale trade"
   ],
   "factions_local": [
-    "harbormaster-guild",
-    "ritual-exporters",
-    "smuggler-cell"
+    "Harbor Guild",
+    "Tide-Singers",
+    "Smugglers' Ring",
+    "Coastal Kinclan"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "supply-uncertainty"
+    "reagent scarcity",
+    "banditry/smuggling violence",
+    "seasonal storms",
+    "trade undercutting"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "salt-cured and smoked seafood cuisine",
-    "ritual-timing tied to tides and moon phases"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "strong ancestor-veneration among fishermen",
+    "fermented seaweed and smoked fish cuisine",
+    "superstitious tide rituals tied to safe passage"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "strange-tide-omen"
+    "ritual-failure",
+    "missing-fishermen"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "no long-range mind influence; no instant resurrection"
+    "rituals consume rare imported reagents",
+    "no instant resurrection; long-range mind-influence banned",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries exist but do not replace charts or seamanship"
+    "tidal harbor with shifting sandbars; pilots essential",
+    "small outpost population; exact numbers unknown"
   ],
-  "generated_at": "2025-09-09T04:15:19.770Z"
+  "generated_at": "2025-09-09T05:27:52.574Z"
 }

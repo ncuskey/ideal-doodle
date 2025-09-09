@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_28196717",
+  "checksum": "fnv1a_bb5dd6d0",
   "burg_id": 122,
-  "name": "Burg_122",
-  "state_id": -1,
+  "name": "Horston",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "reagent-stop",
-    "fishing-hamlet"
+    "riverford",
+    "ritual-works",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ferry crossing/tolls",
-    "ritual reagent exchange",
-    "small-scale fishery",
-    "boatsmith/repair"
+    "river-trade",
+    "ferrying",
+    "ritual-component workshops",
+    "timber provisioning"
   ],
   "factions_local": [
-    "Ferrymasters' Cooperative",
-    "Reagent Merchants' Guild",
-    "Ancestor-Remembrance Priests",
-    "River Vigilants (militia)"
+    "Ferrymen's Guild",
+    "Component Crafters' Lodge",
+    "Local Steward",
+    "Border Smugglers"
   ],
   "problems": [
+    "banditry on roads",
     "reagent scarcity",
-    "seasonal flooding and silt",
-    "bandit ambushes on the river"
+    "seasonal flooding"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Riveric Dialect with Coastal loanwords",
-    "boat-centered rites and offerings",
-    "diet heavy on smoked river fish"
+    "Riveric Dialect common",
+    "Boatcraft and ferryman prestige",
+    "Smoked fish and grain porridge diet",
+    "Market-day barter customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ferryman",
-    "reagent theft"
+    "missing ferrymen",
+    "stolen ritual reagent"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries cannot replace charts and seamanship"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "strategic shallow river crossing; silt shifts seasonally",
-    "small, transient population with many travelers"
+    "Located at a strategic river crossing on a regional trade route",
+    "Small but crucial transshipment point for inland goods"
   ],
-  "generated_at": "2025-09-09T04:10:44.379Z"
+  "generated_at": "2025-09-09T23:09:30.834Z"
 }

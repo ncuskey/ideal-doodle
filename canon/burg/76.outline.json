@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_69fff0d9",
+  "checksum": "fnv1a_5b16ee16",
   "burg_id": 76,
-  "name": "Burg_76",
+  "name": "Najas",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverside",
-    "ritual-labour"
+    "coastal",
+    "harbor",
+    "saltworks"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "river-fishing",
-    "ritual-workshops",
-    "local-market"
+    "fishing",
+    "salt-harvest",
+    "small-scale trade",
+    "smuggling"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Choir",
-    "Ritual Workhouse"
+    "Fishermen's Consortium",
+    "Tide-Priest Circle",
+    "Harbormaster's Office",
+    "Smugglerden"
   ],
   "problems": [
-    "reagent scarcity",
-    "silted docks",
-    "bandit raids"
+    "scarce ritual reagents",
+    "storm damage",
+    "smuggling/gangs",
+    "supply isolation"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Star-Calendar Scriptoria"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect common",
-    "household ancestor altars",
-    "diet: smoked fish and river grains"
+    "Island Creole dialect with Coastal Tongue loanwords",
+    "sea-offering festivals tied to tidal cycles",
+    "salting and smoking fish central to cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances"
+    "ritual reagent theft",
+    "shipwreck salvage"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace seamanship",
+    "No long-range mind influence permitted"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "population unknown; transient river traffic"
+    "Near-medieval tech with localized ritual magic",
+    "Population data not available; likely small outpost"
   ],
-  "generated_at": "2025-09-09T04:36:55.645Z"
+  "generated_at": "2025-09-09T05:48:32.689Z"
 }

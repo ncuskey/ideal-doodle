@@ -1,33 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8cfb633d",
+  "checksum": "fnv1a_714bd44e",
   "burg_id": 156,
-  "name": "Burg_156",
-  "state_id": -1,
+  "name": "Avediton",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-dependent",
-    "dockside"
+    "riverside",
+    "toll-post"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ship-chandler",
-    "ritual-supply",
-    "local-market"
+    "river-toll collection",
+    "fishing and smokehouses",
+    "ritual-supply trade",
+    "ship repair and carpentry"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-guild",
-    "coastal-elders",
-    "smugglers"
+    "Tollkeepers' Council",
+    "River Guild",
+    "Ancestor Shrine Keepers",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "reagent-scarcity",
-    "seasonal-famine",
-    "banditry",
-    "harbor-disease"
+    "smuggling",
+    "reagent scarcity for rituals",
+    "silted navigation channels",
+    "bandit raids on outskirts"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,24 +34,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "dockside ancestor-offerings",
-    "salted fish and fermented seaweed cuisine",
-    "tide-blessing festival"
+    "Riveric Dialect dominant",
+    "regular boat-blessing ceremonies",
+    "cuisine: smoked fish, river greens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "ritual-sabotage"
+    "missing barges",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "rituals-consume-scarce-imported-reagents"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and institutionally banned",
+    "limited combustion industry; no high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational-auguries supplement but do not replace charts"
+    "controls a strategic toll on upstream trade",
+    "population unknown; seasonal trader flux"
   ],
-  "generated_at": "2025-09-09T04:12:48.646Z"
+  "generated_at": "2025-09-09T05:25:25.724Z"
 }

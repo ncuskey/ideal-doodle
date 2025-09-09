@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_saltflats",
+  "checksum": "fnv1a_fa250073",
+  "name": "Saltflats",
+  "aliases": [
+    "The Salt Flats",
+    "Saltmarsh Flats"
+  ],
+  "tags": [
+    "saltworks",
+    "coastal",
+    "provisioning",
+    "low-relief",
+    "smuggling-node"
+  ],
+  "role_in_state": "Primary salt and curing supplier for coastal trade and fleets",
+  "economy_niches": [
+    "solar evaporation saltworks",
+    "fish curing and salt-preservation",
+    "ship provisioning (salted food, brine supplies)",
+    "salt-brick production and export",
+    "clandestine transshipment & contraband storage"
+  ],
+  "culture_adjustments": [
+    "evaporation-calendar timekeeping layered over tidal clocks",
+    "labor organized into kin-guild salt-crews with strict shift rites",
+    "pragmatic tolerance for smuggling; local courts prioritize throughput",
+    "weaker heavy shipbuilding skills; emphasis on longshore craft and barges"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "salt-flooding/inundation",
+    "resource depletion (overharvested pans)",
+    "labor unrest in harvest seasons",
+    "smuggling-related violence"
+  ],
+  "constraints": [
+    "harvest strictly seasonal; short dry-window limits output",
+    "dependent on imported timber/packaging and trade routes",
+    "ritual magic use limited by scarce imported reagents"
+  ],
+  "notes": [
+    "strategic provisioning hub for State_15 fleets and coastal trade",
+    "peak harvest tied to prolonged dry months; shipments concentrated then",
+    "ecology fragile; expansion accelerates long-term salinization risks"
+  ],
+  "generated_at": "2025-09-09T05:05:05.651Z"
+}

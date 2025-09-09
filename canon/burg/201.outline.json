@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b3c88383",
+  "checksum": "fnv1a_790eab76",
   "burg_id": 201,
-  "name": "Burg_201",
-  "state_id": -1,
-  "province_id": "unknown",
+  "name": "Brat",
+  "state_id": 0,
+  "province_id": "prov_unknown",
   "tags": [
-    "waystation"
+    "none",
+    "river-halt",
+    "ritual-trading"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent-trade",
-    "provisioning",
-    "small-scale fishing",
-    "carting/transport"
+    "river-supply",
+    "ritual-component-trading",
+    "fishing",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritualist enclave",
-    "merchant family",
-    "elders' council"
+    "harbormasters",
+    "ritual-collectors",
+    "guild-merchants"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "bandit raids on routes",
-    "corruption among dock officials"
+    "scarce-reagents",
+    "bandit raids",
+    "seasonal flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with Riveric loanwords",
-    "ritual gift-exchange customs tied to trade",
-    "diet heavy on salted fish and kelp"
+    "Riveric dialect dominant",
+    "fish-and-porridge cuisine",
+    "boat-centric crafts and songs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipments",
-    "ritual reagent theft"
+    "missing-fisher",
+    "reagent-heist"
   ],
   "constraints": [
     "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "no long-range mind control",
+    "limited combustion industry"
   ],
   "notes": [
-    "population unknown; serves as small supply/relay point",
-    "near-medieval tech with localized ritual practices"
+    "near-medieval to early-industrial tech baseline",
+    "population unrecorded",
+    "navigational auguries supplement but don't replace charts"
   ],
-  "generated_at": "2025-09-09T04:15:41.931Z"
+  "generated_at": "2025-09-09T05:28:13.414Z"
 }

@@ -1,54 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6237312f",
+  "checksum": "fnv1a_f0601de9",
   "burg_id": 320,
-  "name": "Burg_320",
+  "name": "Kencestab",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "crossroads",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "supply depot",
-    "ritual-reagent trade",
-    "fishing + salt curing",
-    "waystation for coastal traders"
+    "ritual-labors (reagent processing)",
+    "waystation trade",
+    "herbalist & apothecary"
   ],
   "factions_local": [
-    "small merchant guildlet",
-    "ritual circle (local seers)",
-    "coastal militia",
-    "smuggler crew"
+    "Ancestor-Priesthood",
+    "Ritualists' Guild",
+    "Roaders' Cooperative",
+    "Border Smugglers (informal)"
   ],
   "problems": [
     "scarce imported reagents",
-    "banditry along approach routes",
-    "harsh weather disrupting trade"
+    "bandit ambushes on approaches",
+    "corrupt toll-collection"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "regular ship-blessing and net-offering rituals",
-    "diet heavy on salted fish, seaweed, preserved goods",
-    "crafts: boat repair, netmaking, simple carpentry"
+    "Riveric-influenced cant with clipped vowels",
+    "ritual meals centered on preserved herbs and smoked fish",
+    "custom: nightly ancestor-altar lighting at thresholds"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent theft",
-    "missing fisherfolk"
+    "missing reagent shipment",
+    "smuggling network exposed",
+    "disappearing pilgrims"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "limited combustion industry; no high-pressure steam tech",
-    "long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or long-range mind control"
   ],
   "notes": [
-    "shallow harbor—only small vessels and lighters",
-    "remote waystation on a coastal trade route",
-    "population small and partly transient (crews, traders)"
+    "small strategic stop on inland crossroads",
+    "local economy tied to passing caravans and ritual demand"
   ],
-  "generated_at": "2025-09-09T04:23:54.277Z"
+  "generated_at": "2025-09-09T05:35:49.085Z"
 }

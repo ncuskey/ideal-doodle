@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_salt_flats",
+  "checksum": "fnv1a_e71cf118",
+  "name": "Salt Flats",
+  "aliases": [
+    "White Flats",
+    "Saline Marches"
+  ],
+  "tags": [
+    "saltworks",
+    "reagent-source",
+    "flatlands",
+    "state-controlled",
+    "maritime-supply"
+  ],
+  "role_in_state": "Primary salt supplier and reagent source for fleet provisioning",
+  "economy_niches": [
+    "Large-scale salt pans and evaporation works",
+    "Harvesting brine minerals and halophyte-derived ritual reagents",
+    "Seasonal salt caravan staging and overland re-export",
+    "Salt-curing fisheries and leather/tannery services",
+    "Provision labor pool for coastal fleets"
+  ],
+  "culture_adjustments": [
+    "Labor-caste organization around saltworks with distinct saltkeeper tattoos",
+    "Lower prevalence of Island Creole; Coastal Tongues dominant with local cant",
+    "Heightened contractualism and oath-rituals tied to salt distribution",
+    "Practical austerity: less ceremonial display, more preservation lore"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "saline flooding",
+    "worker unrest/strike",
+    "supply-chain chokepoint",
+    "salt blight (halophyte collapse)"
+  ],
+  "constraints": [
+    "Ritual magic relies on scarce imported reagents; local production limited",
+    "Severely limited freshwater; agriculture and timber scarce",
+    "State monopoly and fortification restrict private expansion"
+  ],
+  "notes": [
+    "Seasonal access: flats traversable primarily in dry season",
+    "Evaporation works are heavily state-regulated and militarized"
+  ],
+  "generated_at": "2025-09-09T05:03:15.156Z"
+}

@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ff37aea7",
+  "checksum": "fnv1a_1a90e943",
   "burg_id": 395,
-  "name": "Burg_395",
+  "name": "Stios",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "waystation"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "supply depot",
     "fishing",
-    "ritual reagent trade",
-    "ship-repairs"
+    "harbor"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "salt-harvesting",
+    "local trade",
+    "ferry services"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual lodge",
-    "smuggler coterie"
+    "Fishermen's Co-op",
+    "Harbor Council",
+    "Tide-Priests",
+    "Smugglers' Ring"
   ],
   "problems": [
+    "storm damage",
     "reagent scarcity",
-    "banditry",
-    "isolation"
+    "smuggling",
+    "income precarity"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect influence",
-    "seafood-heavy cuisine",
-    "ritual barter customs",
-    "watchkeeping songs"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "annual tide-festival with small boat burials",
+    "diet heavy on salted fish and seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "shipwreck salvage"
+    "ritual reagent theft",
+    "ominous storm omens"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence banned"
+    "No instant resurrection; long-range mind influence rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts and seamanship"
   ],
   "notes": [
-    "Sparse official records; ideal as a mysterious waystation",
-    "Rituals rely on imported components and trained handlers"
+    "Population unknown; small harbor settlement",
+    "Tech baseline: near-medieval to early-industrial; localized ritual magic common"
   ],
-  "generated_at": "2025-09-09T04:28:42.467Z"
+  "generated_at": "2025-09-09T05:40:43.198Z"
 }

@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5f2bba8d",
+  "checksum": "fnv1a_184e901c",
   "burg_id": 318,
-  "name": "Burg_318",
-  "state_id": -1,
+  "name": "Blandle",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-supply"
+    "river-halt",
+    "crossroads"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual reagent trade",
-    "waypoint resupply",
-    "boat repair"
+    "river-trade",
+    "ferrying",
+    "local-market",
+    "ritual-supplies"
   ],
   "factions_local": [
-    "Shrine-Keepers",
-    "Harbor Guild",
-    "Coastal Clan",
-    "Smugglers"
+    "Riverbarge Guild",
+    "Smallholders' Council",
+    "Temple Stewardship"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm disruption",
-    "tidal erosion",
+    "seasonal-flooding",
+    "scarce-imports",
     "bandit raids"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with heavy nautical jargon",
-    "diet: salted fish, seaweed, preserved kelp stews",
-    "dockside tide-prayers and ancestor-calling before voyages"
+    "Riveric dialect dominant with Coastal loanwords",
+    "ritualized barter at market days",
+    "preservation-heavy cuisine (smoked/fermented)"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing ritual reagent",
-    "tidal anomaly"
+    "reagent theft",
+    "missing ferryman",
+    "smuggling"
   ],
   "constraints": [
     "rituals consume scarce imported reagents",
-    "no long-range mind-influence allowed",
-    "limited combustion industry"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "state unaligned; small strategic harbor waypoint",
-    "population undocumented; seasonal trade flux"
+    "population unknown; functions as minor trade node on a secondary river",
+    "limited craft industry; relies on itinerant merchants for specialized goods"
   ],
-  "generated_at": "2025-09-09T04:23:41.345Z"
+  "generated_at": "2025-09-09T05:35:46.484Z"
 }

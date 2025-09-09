@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fe54f51",
+  "checksum": "fnv1a_7a6aede4",
   "burg_id": 127,
-  "name": "Burg_127",
-  "state_id": 0,
+  "name": "Lequm",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "river-landing",
-    "ritual-haven"
+    "coastal",
+    "trade-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-supply",
-    "ferry-traffic",
-    "small-market"
+    "coastal trade",
+    "ritual reagent brokerage",
+    "ship repair"
   ],
   "factions_local": [
-    "ferrymen-guild",
-    "ritual-collectors",
-    "smugglers"
+    "Harbor Guild",
+    "Sea-Tide Practitioners",
+    "Smuggler Coterie",
+    "Coastwatch"
   ],
   "problems": [
-    "scarce-reagents",
-    "seasonal-flooding",
-    "banditry",
-    "corruption"
+    "piracy",
+    "reagent scarcity",
+    "seasonal storms",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "seafood-forward cuisine",
-    "nightly lantern-rituals",
-    "superstitious seamanship"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet focused on salted fish and seaweed preserves",
+    "ritualized ship-blessings before voyages",
+    "informal barter customs at dawn markets"
   ],
   "quest_hook_slots": [
-    "missing-ritual-reagents",
-    "impending-flood",
-    "smuggling-ring"
+    "smuggling",
+    "shipwrecks",
+    "missing reagent shipment"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-imported-reagents",
-    "long-range-mind-influence-banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries assist but don't replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech",
-    "navigational-auguries used alongside charts"
+    "economy tied to reagent transit and small-scale maritime trade",
+    "limited combustion industry; workshops rely on hand-powered tech"
   ],
-  "generated_at": "2025-09-09T04:10:56.548Z"
+  "generated_at": "2025-09-09T23:09:49.103Z"
 }

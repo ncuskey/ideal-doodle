@@ -1,55 +1,49 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e2db64af",
+  "checksum": "fnv1a_163da135",
   "burg_id": 227,
-  "name": "Burg_227",
-  "state_id": 0,
+  "name": "Intaberberce",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "river-crossing",
-    "ritual-supply-stop"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "river trade",
-    "ritual reagent market",
-    "ferry services"
+    "fishing",
+    "ritual-labor",
+    "waystation",
+    "boat-repair"
   ],
   "factions_local": [
-    "Dockmasters' Guild",
-    "Ancestor Remembrance Circle",
-    "River Ferry Consortium",
-    "Smuggler Cell"
+    "harbormasters",
+    "ritual-guild",
+    "trader-families"
   ],
   "problems": [
-    "bandit raids on river",
-    "scarcity of ritual reagents",
-    "seasonal flooding"
+    "scarcity",
+    "raiding",
+    "disease"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant with Coastal Tongue loanwords",
-    "daily small offerings to river and ancestors",
-    "diet: smoked fish, starchy tubers",
-    "local craft: packing and drying reagents"
+    "Coastal Tongue influence on local speech",
+    "fish-and-ferment cuisine, salt-curing traditions",
+    "ritualized boat-blessing ceremonies"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipments",
-    "rising tides"
+    "disappearing-vessels",
+    "ritual-reagent-scarcity"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "located near a river mouth and ferry crossing",
-    "limited combustion industry; small-scale steam possible"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used but do not replace charts/skill"
   ],
-  "generated_at": "2025-09-09T04:17:13.978Z"
+  "generated_at": "2025-09-09T05:29:45.808Z"
 }

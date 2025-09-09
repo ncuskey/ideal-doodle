@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3c1ebe01",
+  "checksum": "fnv1a_403df068",
   "burg_id": 149,
-  "name": "Burg_149",
-  "state_id": -1,
+  "name": "Llanver",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "reagent-node"
+    "river-port",
+    "fishing",
+    "ritual-haven"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent transshipment",
-    "coastal trade",
-    "fishing"
+    "river trade",
+    "fishing & curing",
+    "ritual-component gathering",
+    "boat repair"
   ],
   "factions_local": [
-    "merchant guild",
-    "ritualist lodge",
-    "harbormaster's office",
-    "smugglers' ring"
+    "Fisherfolk Guild",
+    "Tide-Priests",
+    "Shipwrights' Cooperative",
+    "Smugglers' Ring"
   ],
   "problems": [
+    "seasonal flooding",
     "reagent scarcity",
-    "smuggling",
-    "jurisdictional disputes"
+    "smuggling pressure",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "ritual procurement customs shape local commerce",
-    "seafood-heavy cuisine; salt-curing common"
+    "Riveric Dialect dominant",
+    "tide-blessing and quay ancestor shrines",
+    "smoked fish and seaweed cuisine",
+    "oar-song folk music"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishing crews"
+    "missing tide-priest",
+    "reagent shortage"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "ritual magic requires scarce imported reagents"
   ],
   "notes": [
-    "Small rocky cove outpost with a single stone quay",
-    "Limited formal state oversight; local powers hold sway"
+    "small tidal quay settlement; population unknown; strategic minor river stop"
   ],
-  "generated_at": "2025-09-09T04:12:26.222Z"
+  "generated_at": "2025-09-09T05:25:05.146Z"
 }

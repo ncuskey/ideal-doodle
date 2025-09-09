@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6484b209",
+  "checksum": "fnv1a_6a7b2510",
   "burg_id": 105,
-  "name": "Burg_105",
-  "state_id": 0,
+  "name": "Kuila",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-outpost"
+    "harbor",
+    "outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent depot",
-    "small-scale fishing",
-    "waystation/landing",
-    "saltworks"
+    "fishing",
+    "kelp-harvest",
+    "ritual-reagent trading",
+    "boat repair"
   ],
   "factions_local": [
-    "harbormaster's office",
-    "ritual-blenders' coven",
-    "merchant-brotherhood cell",
-    "smuggler ring"
+    "Harbormaster's House",
+    "Tide-Singers (animists)",
+    "Saltworkers' Guild",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarce imported reagents",
-    "smuggling/banditry",
-    "water/food seasonality"
+    "reagent scarcity",
+    "banditry/smuggling",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "ritual offerings to tides before departures",
-    "diet heavy on salted fish and seaweed",
-    "local craft: blending and preserving reagents"
+    "Coastal Tongues dialect with island borrowings",
+    "tide-based ritual calendar governs fishing and festivals",
+    "seafood- and kelp-centric cuisine",
+    "boatcraft and netmaking central to local identity"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-mishap",
-    "missing-ship"
+    "missing ritual reagents",
+    "tide-omen crisis"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or mind-control magics",
-    "navigational auguries cannot replace seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is banned",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "small population, functions as reagent transshipment point",
-    "strategic for coastal supply lines despite limited industry"
+    "navigational auguries used but cannot replace charts or seamanship",
+    "small slipways and tidal docks; population unknown"
   ],
-  "generated_at": "2025-09-09T04:09:37.834Z"
+  "generated_at": "2025-09-09T23:08:36.719Z"
 }

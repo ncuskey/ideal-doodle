@@ -1,54 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4fe64559",
+  "checksum": "fnv1a_22ab2d5a",
   "burg_id": 404,
-  "name": "Burg_404",
-  "state_id": 0,
+  "name": "Helsbury",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "hidden",
-    "outlier",
-    "ritual-node"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-labor",
-    "smuggling"
+    "harbor-market",
+    "small-scale fishing",
+    "reagent brokerage",
+    "ship salvage"
   ],
   "factions_local": [
-    "Ancestor Circle",
-    "Scrap Traders",
-    "Chartless Carters"
+    "harbormaster's office",
+    "Ritual Reagent Guild",
+    "fisher cooperative",
+    "smuggler ring"
   ],
   "problems": [
-    "isolation",
     "reagent scarcity",
-    "banditry"
+    "silted/fragile harbor",
+    "smuggling and corruption",
+    "seasonal storms"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Star-Calendar Scriptoria"
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "language: Coastal Tongues influence / creole",
-    "custom: nightly lantern offerings at shrine",
-    "cuisine: salted fish, fermented grains",
-    "social: kin-clan networks, transient visitors"
+    "Coastal Tongues dialect",
+    "boat-naming ancestor rituals",
+    "salt-curing cuisine",
+    "practical seamanship and weather lore"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "lost relic",
-    "strange omens"
+    "missing reagent shipments",
+    "wreck salvage"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "limited combustion industry (no high-pressure steam megatechs)"
+    "no high-pressure steam megatechs",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and banned"
   ],
   "notes": [
-    "population unknown or transient",
-    "often omitted from formal charts (hence '404')"
+    "population unknown; transient crews common",
+    "strategic waypoint for coastal traffic",
+    "harbor maintenance is a local political flashpoint"
   ],
-  "generated_at": "2025-09-09T04:29:32.785Z"
+  "generated_at": "2025-09-09T05:41:26.872Z"
 }

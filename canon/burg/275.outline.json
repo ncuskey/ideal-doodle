@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4ca20aed",
+  "checksum": "fnv1a_d7c766e5",
   "burg_id": 275,
-  "name": "Burg_275",
+  "name": "Stapton",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "river-trade"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "river trade",
-    "fishing",
-    "ritual-ingredient gathering",
+    "coastal",
+    "harbor",
     "waystation"
   ],
+  "size_hint": "small",
+  "economy_roles": [
+    "harbor trade",
+    "fishing",
+    "waystation",
+    "ritual-reagent market"
+  ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual collectors' cartel",
-    "riverwatch militia"
+    "Harbor Guild",
+    "Shipwrights' Cooperative",
+    "Tide-Cult Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "banditry on river routes",
-    "scarcity of ritual reagents",
-    "smuggling and tariff disputes",
-    "jurisdictional friction with distant state"
+    "smuggling",
+    "resource scarcity",
+    "corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects with Coastal Tongue loanwords",
-    "diet heavy on salted and smoked fish",
-    "tide-offering custom before departures"
+    "Coastal Tongues dialect predominant",
+    "fish-centered cuisine; salted preserves common",
+    "tide-festival and ship-blessing ceremonies"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagent",
-    "missing convoy"
+    "missing shipment",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "rituals consume scarce imported reagents; long-range mind influence rare and banned"
+    "ritual magic requires imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "limited combustion industry; no high-pressure steam megatechs"
   ],
   "notes": [
-    "population unknown; classified as a small outpost",
-    "accessible primarily by river; navigational auguries supplement charts"
+    "shallow sheltered harbor; shallow-draft vessels",
+    "seasonal trade with nearby islands"
   ],
-  "generated_at": "2025-09-09T04:20:41.731Z"
+  "generated_at": "2025-09-09T05:32:55.510Z"
 }

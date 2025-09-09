@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_riverside_marches",
+  "checksum": "fnv1a_30037a61",
+  "name": "Riverside Marches",
+  "aliases": [
+    "Marches of the Estuary",
+    "The Reedbar"
+  ],
+  "tags": [
+    "wetland",
+    "estuary",
+    "pilotage",
+    "augury-supply"
+  ],
+  "role_in_state": "Estuarine supply & augury buffer",
+  "economy_niches": [
+    "brackish fisheries; smoked & salted fish",
+    "reed-boatyards and small ship repair",
+    "harvest & processing of tide-herbs for auguries",
+    "sand and glass-supply for coastal crafts",
+    "pilotage, river-guides and local augury services"
+  ],
+  "culture_adjustments": [
+    "river-kinship networks stronger than open-coast kin ties",
+    "flood-season ritualism more elaborate and frequent",
+    "less market cosmopolitanism; Coastal Tongues dominant but localized dialects",
+    "guild apprenticeships focused on marshcraft and reed-construction",
+    "oral navigational lore emphasizes eddies, shallows, and seasonal channels"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal flooding",
+    "marsh-borne disease",
+    "siltation and channel loss",
+    "smuggling/banditry along river routes"
+  ],
+  "constraints": [
+    "limited deep-harbour capacity for large vessels",
+    "reedlands restrict heavy, combustion-driven industry",
+    "ritual auguries consume scarce imported reagents"
+  ],
+  "notes": [
+    "primary supplier of augury-herbs to coastal guilds",
+    "pilotage guilds exert strong local control over tolls",
+    "seasonal roads often impassable during high tides"
+  ],
+  "generated_at": "2025-09-09T05:02:40.139Z"
+}

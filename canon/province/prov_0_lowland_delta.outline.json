@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_lowland_delta",
+  "checksum": "fnv1a_ba6774e4",
+  "name": "Lowland Delta",
+  "aliases": [
+    "Delta Province",
+    "Siltfields"
+  ],
+  "tags": [
+    "delta",
+    "riverine",
+    "salt",
+    "wetland"
+  ],
+  "role_in_state": "Primary salt and riverine trade nexus",
+  "economy_niches": [
+    "salt pans and evaporation works",
+    "river-trade transshipment and lightering",
+    "boatbuilding, repair and ropewrighting",
+    "estuarine fisheries and aquaculture",
+    "marsh-harvest of ritual reagents (peat, reeds, brackish herbs)"
+  ],
+  "culture_adjustments": [
+    "yearly labor cycle driven by flood recession rather than sowing dates",
+    "stronger guild control of landing rights and tolls than uplands",
+    "stilt-house and boat-based domestic organisation dominant",
+    "specialized oral mud-charts and tidal memory rites",
+    "wider acceptance of seasonally mobile kinship (boat-households)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "saltwater intrusion",
+    "marsh-borne disease",
+    "siltation blocking deep-draft access",
+    "river-banditry on off-season routes"
+  ],
+  "constraints": [
+    "limited high-ground for storage and ritual caches",
+    "guild monopolies restrict outsider ship access",
+    "ritual reagent harvests seasonally scarce and easily depleted"
+  ],
+  "notes": [
+    "critical supplier of salt and wetland reagents to state ritual markets",
+    "seasonal labor migration to upland harvests common",
+    "navigation relies on combined oral charts and local auguries"
+  ],
+  "generated_at": "2025-09-09T05:01:56.899Z"
+}

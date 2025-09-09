@@ -1,30 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_509e269d",
+  "checksum": "fnv1a_65d901a7",
   "burg_id": 392,
-  "name": "Burg_392",
+  "name": "Fyggeklig",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "outpost",
     "coastal",
-    "ritual-laboratory",
-    "waystation"
+    "ritual-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "ritual-supply-lab",
-    "waystation-trade"
+    "waystation",
+    "boat-repair",
+    "ritual-supply-trade"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbor-masters",
-    "smugglers"
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "supply-isolation"
+    "scarcity of ritual reagents",
+    "supply isolation (seasonal)",
+    "smuggling and bribery"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -32,22 +33,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "salt-preservation cuisine",
-    "reef-offering harbor festival"
+    "Island Creole + Coastal Tongues influences",
+    "voyage-launch ancestor rites",
+    "seaweed and smoked fish cuisine",
+    "tattooed mariners with ritual sigils"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-run",
-    "lost-navigation-chart"
+    "disappearing-vessels",
+    "theft of reagent stock"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-imported-reagents"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is banned",
+    "combustion-derived industry limited"
   ],
   "notes": [
-    "seasonal storms intermittently close the harbor",
-    "small ceremonial lighthouse doubles as ritual site"
+    "population unknown; often seasonally occupied",
+    "navigation auguries aid but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:28:34.066Z"
+  "generated_at": "2025-09-09T05:40:48.916Z"
 }

@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_397a2773",
+  "checksum": "fnv1a_6182951",
   "burg_id": 108,
-  "name": "Burg_108",
+  "name": "Stryt",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "river-harbor",
-    "ritual-trading"
+    "none"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishery",
-    "ritual-supplies brokerage",
-    "transshipment point"
+    "fishing",
+    "small-boat repair",
+    "reagent trade",
+    "coastal-smuggling"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritualist coterie",
-    "clan-elders"
+    "harbormaster's crew",
+    "Sea-Tide animist shrine",
+    "merchant petty-guild",
+    "smuggler cell"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "smuggling",
-    "seasonal flooding"
+    "scarce ritual reagents",
+    "smuggling and black-market pressure",
+    "periodic bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric-influenced Coastal Tongue dialect",
-    "boat-altars and ancestor offerings common",
-    "taboos around reagent handling"
+    "Coastal Tongues with Riveric Dialect influence",
+    "sea-salt and smoked-fish cuisine",
+    "ritualized port customs and offerings",
+    "practical boatbuilding/minor craft skills"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipment",
-    "stolen ritual token"
+    "reagent theft",
+    "disappearances at sea"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and banned"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "near river mouth; uses navigational augury alongside charts",
-    "tech baseline near-medieval with local ritual craft"
+    "state affiliation unknown",
+    "population data unavailable"
   ],
-  "generated_at": "2025-09-09T04:09:42.976Z"
+  "generated_at": "2025-09-09T23:08:31.536Z"
 }

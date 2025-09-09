@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e4051bf5",
+  "checksum": "fnv1a_64191676",
   "burg_id": 79,
-  "name": "Burg_79",
+  "name": "Llanhafrwdhe",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "waystation"
+    "port",
+    "fishing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "small-scale fishing",
-    "waystation relay"
+    "fishing",
+    "salt-harvest",
+    "component-trade",
+    "small-ship-repair"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Reagent Merchant Family",
-    "Smuggler Crew"
+    "Harbor Guild",
+    "Fisherfolk Kin-council",
+    "Tide-Priests",
+    "Smugglers' Ring"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "storm damage"
+    "storm damage and erosion",
+    "smuggling and illicit trade"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "Tide-offering customs",
-    "Diet of preserved fish and seaweed"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-blessing festivals tied to fishing calendar",
+    "diet heavy on salted fish, kelp and preserved shellfish",
+    "stilted wooden houses and rock jetties"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply shortage",
-    "strange tides"
+    "missing boats and crews",
+    "theft of ritual reagents"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind-influence rare and institutionally banned",
-    "Limited combustion industry; no high-pressure steam megatechs"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is banned locally",
+    "navigational auguries supplement but don't replace charts"
   ],
   "notes": [
-    "Near shoals; navigational hazards",
-    "Minor reagent relay for inland cults",
-    "Transient population of sailors and laborers"
+    "near-medieval tech with localized ritual magic",
+    "shallow harbor limits large ships; local pilots prized"
   ],
-  "generated_at": "2025-09-09T04:37:02.809Z"
+  "generated_at": "2025-09-09T05:48:39.754Z"
 }

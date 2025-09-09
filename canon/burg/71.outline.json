@@ -1,31 +1,31 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cdfa67d5",
+  "checksum": "fnv1a_a7d32b59",
   "burg_id": 71,
-  "name": "Burg_71",
+  "name": "Coporumbia",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "waystation"
+    "harbor",
+    "reagent-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "reagent transshipment",
-    "inn & lodging",
-    "local craftwork (boat repair)"
+    "fishing",
+    "transshipment",
+    "reagent trading",
+    "boat repair & crafts"
   ],
   "factions_local": [
-    "Harbormaster's Watch",
-    "Reagent Merchants' Consortium",
-    "Ancestor-Cult Keepers"
+    "harbormaster's council",
+    "reagent merchants' syndicate",
+    "ancestor-cult elders",
+    "coastal militia"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "seasonal storm damage",
-    "occasional banditry/smuggling"
+    "reagent scarcity",
+    "smuggling",
+    "tidal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,22 +33,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "mixed Coastal Tongues / Island Creole dialect",
-    "tide-offering rituals common",
-    "diet heavy on salted fish and seaweed"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "heavy seafood and fermented fish preserves",
+    "strong sailor superstitions and ritual offerings"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "disappearances at sea"
+    "shipwreck salvage"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned"
+    "navigational auguries supplement but do not replace seamanship",
+    "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "tech: near-medieval to early industrial",
-    "important minor stop for reagent shipments"
+    "small port settlement; population unknown",
+    "strategic node for reagent imports and coastal traffic"
   ],
-  "generated_at": "2025-09-09T04:36:30.255Z"
+  "generated_at": "2025-09-09T05:48:16.265Z"
 }

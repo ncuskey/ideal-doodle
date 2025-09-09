@@ -1,52 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9663f6d3",
+  "checksum": "fnv1a_43f2999a",
   "burg_id": 397,
-  "name": "Burg_397",
+  "name": "Glam",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "reagent_supply",
-    "fishing",
+    "coastal",
+    "ritual-haven",
     "waystation"
   ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fisherfolk",
+    "ritual-labour",
+    "transit-market",
+    "provisioning"
+  ],
   "factions_local": [
-    "harbormaster_cabinet",
-    "ritual_reagent_traders",
-    "skiff_crews"
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smugglers' Knot",
+    "Ritualists' Lodge"
   ],
   "problems": [
-    "reagent_scarcity",
-    "banditry",
-    "supply_isolation"
+    "scarce ritual reagents",
+    "banditry along routes",
+    "supply volatility",
+    "local corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal dialect mix (Coastal Tongues/Island Creole)",
-    "tide-based ritual calendar",
-    "seafood-centered cuisine"
+    "Coastal Tongues influence; seafood staples",
+    "seamanship superstitions common",
+    "ritual markings and small household shrines",
+    "trade jargon mixing Riveric and Island Creole terms"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing_reagents",
-    "shipwreck_salvage"
+    "reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
-    "no_instant_resurrection",
-    "limited_combustion_industry",
-    "rituals_require_imported_reagents"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
     "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but charts required"
+    "navigational auguries used but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:28:47.318Z"
+  "generated_at": "2025-09-09T05:40:56.381Z"
 }

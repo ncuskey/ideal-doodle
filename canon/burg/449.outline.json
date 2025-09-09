@@ -1,51 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_738c223b",
+  "checksum": "fnv1a_9b7374bb",
   "burg_id": 449,
-  "name": "Burg_449",
-  "state_id": 0,
+  "name": "Kindumunzan",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "riverside",
+    "ritual-hub",
+    "ferry-crossing"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trading",
-    "coastal waystation/inn",
-    "small-scale fishing"
+    "river-trade",
+    "ritual-supply-depot",
+    "ferryman-services",
+    "smokefish-curing"
   ],
   "factions_local": [
-    "Harbormaster's Council",
-    "Ancestor Circle",
-    "Smugglers' Knot",
-    "Local Militia"
+    "Ancestor-scribes",
+    "Tide-shamans",
+    "Ferry-guild",
+    "Smuggler-coterie"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids on coastal routes",
-    "supply volatility during storms"
+    "reagent-scarcity",
+    "seasonal-flooding",
+    "banditry-on-river",
+    "taxation-corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole influence",
-    "seafood-and-fermented-kelp cuisine",
-    "rituals integrated into daily trade (visible fetish stalls)",
-    "practical seamanship customs, superstitious auguries"
+    "Riveric Dialects dominant",
+    "Ancestor-offerings central to daily life",
+    "Diet: smoked/fermented riverfish",
+    "Skilled in boat-building and ropework"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment"
+    "reagent-run",
+    "flood-relief"
   ],
   "constraints": [
+    "ritual magic consumes scarce imported reagents",
     "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "navigational auguries cannot replace charts/seamanship"
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "state-level data unknown; population n/a",
-    "serves as minor coastal logistics node"
+    "Seasonally isolated by floods",
+    "Small market at the ferry crossing",
+    "Minor strategic ford used by caravans"
   ],
-  "generated_at": "2025-09-09T04:32:40.127Z"
+  "generated_at": "2025-09-09T05:44:25.391Z"
 }

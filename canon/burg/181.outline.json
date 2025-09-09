@@ -1,55 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6d76b469",
+  "checksum": "fnv1a_4d1a6a09",
   "burg_id": 181,
-  "name": "Burg_181",
-  "state_id": 0,
+  "name": "Gobshai",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waystation"
+    "river-haven",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent trading",
-    "coastal fishing",
-    "waystation services",
-    "small-scale craft"
+    "fishery",
+    "transshipment",
+    "ritual-labor export",
+    "reedcraft"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent Syndicate",
-    "Ancestor Shrine Circle",
-    "Smuggler Cells"
+    "harbor-guild",
+    "ancestor-temple",
+    "river-wardens",
+    "smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on supply routes",
-    "corruption among brokers"
+    "scarce-reagents",
+    "banditry",
+    "seasonal-flooding",
+    "corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues with Riveric loanwords",
-    "rituals tied to sea harvests",
-    "preserved fish and sea-salted cuisine",
-    "suspicious of outsiders carrying reagents"
+    "Riveric Dialects dominant",
+    "ancestor-veneration + tide-feasts",
+    "diet: smoked fish, reed-breads",
+    "local rituals rely on labor-intensive components"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortfall",
-    "disappearances at sea"
+    "missing-reagents",
+    "river-ghosts"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no high-pressure steam megatechs"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "population unknown; transient traders common",
-    "strategic waypoint for coastal traders"
+    "near-medieval to early-industrial baseline",
+    "navigational auguries used but seamanship required",
+    "state affiliation unclear"
   ],
-  "generated_at": "2025-09-09T04:14:23.754Z"
+  "generated_at": "2025-09-09T05:26:52.769Z"
 }

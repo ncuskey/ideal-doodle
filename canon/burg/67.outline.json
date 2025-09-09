@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_61a3b395",
+  "checksum": "fnv1a_e1211bdb",
   "burg_id": 67,
-  "name": "Burg_67",
+  "name": "Celia",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent relay",
-    "coastal fishing",
-    "harbor waystation"
+    "ritual apothecaries",
+    "waystation trade",
+    "pastoral market",
+    "smallcraft workshops"
   ],
   "factions_local": [
-    "Reagent House (merchant)",
-    "Harborwrights' Guild",
-    "Shrine of Tidal Mothers",
-    "Smugglers' Coterie"
+    "Guild of Reagents",
+    "Ancestor Circle",
+    "Riverwardens",
+    "House Vela"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal supply cutoff",
-    "smuggling and piracy",
-    "jurisdictional disputes"
+    "bandit ambushes",
+    "tax extortion",
+    "ritual accidents"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "tide-blessing ceremonies before voyages",
-    "diet heavy on smoked fish and fermented sea greens",
-    "barter-heavy local economy"
+    "speaks Riveric Dialect",
+    "communal ancestor feasts",
+    "smoked river fish specialty",
+    "ritual tokens woven into clothing"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "lost reagent shipment",
-    "lighthouse haunting"
+    "missing reagent shipments",
+    "restless ancestral spirits",
+    "trade caravan ambushes"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned",
-    "navigational auguries supplement but do not replace charts"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magic",
+    "long-range mind influence rare and institutionally banned"
   ],
   "notes": [
-    "strategic relay point for ritual reagent convoys",
-    "shoreline shoals shift seasonally; charts often outdated"
+    "small river outpost and reagent depot",
+    "population fluctuates with caravan seasons"
   ],
-  "generated_at": "2025-09-09T04:36:18.497Z"
+  "generated_at": "2025-09-09T05:47:53.267Z"
 }

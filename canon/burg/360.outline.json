@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6f2cdb17",
+  "checksum": "fnv1a_b4ebda7b",
   "burg_id": 360,
-  "name": "Burg_360",
-  "state_id": 0,
+  "name": "Ataph",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-reagents",
-    "waystation"
+    "river-crossing",
+    "ritual-reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent depot",
-    "provisioning stop",
-    "fishing/saltworks",
-    "toll collection"
+    "ferrying & tolls",
+    "salted/fish curing",
+    "reagent brokerage",
+    "boat repair/carpentry"
   ],
   "factions_local": [
-    "Waystation Merchants",
-    "Shrine of the Tidal Mothers",
-    "Coastal Militia",
-    "Smuggling Crew"
+    "River Guild",
+    "Tide-Singers (sea animists)",
+    "Reagent Merchants' Syndicate",
+    "Elder Commune (ancestor rites)"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling and corruption",
-    "storm damage to supplies"
+    "scarce ritual reagents",
+    "smuggling/contraband",
+    "seasonal flooding",
+    "bandit raids on roads"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole inflection",
-    "diet: salted fish, seaweed, preserved goods",
-    "tide-linked rituals for safe passage",
-    "trade customs emphasize binding oaths"
+    "Riveric dialect with Coastal Tongue loanwords",
+    "diet heavy on salted fish, seaweed and cured goods",
+    "public tide-rituals tied to harbor schedules",
+    "boat-building guild customs dominate labor rites"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "lost reagent shipment",
-    "tidal omen"
+    "reagent theft",
+    "smuggling ring",
+    "rising tides / threatened ferry"
   ],
   "constraints": [
-    "no instant resurrection",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned",
+    "No high-pressure steam industry; limited combustion tech"
   ],
   "notes": [
-    "remote waypoint on a coastal route",
-    "supplies precarious after recent storms"
+    "State affiliation unknown; functions as small trade outpost on river"
   ],
-  "generated_at": "2025-09-09T04:26:39.911Z"
+  "generated_at": "2025-09-09T05:38:30.262Z"
 }

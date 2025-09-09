@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ae28e063",
+  "checksum": "fnv1a_5838e4f4",
   "burg_id": 300,
-  "name": "Burg_300",
-  "state_id": 0,
+  "name": "Chearcy",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "harbor",
+    "reagent-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "waystation/relay",
-    "reagent transshipment"
+    "harbor trade",
+    "provisioning",
+    "reagent brokerage"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent Brokers",
-    "Tidewatch Animists"
+    "Harbormaster's Guild",
+    "Reagent Merchants' Consortium",
+    "Temple of the Tide",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "supply scarcity",
-    "banditry on approach",
-    "unstable prices for reagents"
+    "reagent scarcity",
+    "smuggling",
+    "coastal erosion",
+    "guild rivalry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole lingua franca with Coastal Tongue loanwords",
-    "ritualized trade etiquette for reagent handling",
-    "salt-curing and seaweed-heavy cuisine"
+    "Coastal Tongues dialect dominant",
+    "ship-blessing and tide-offering rituals",
+    "diet: salted fish, fermented seaweed",
+    "social mobility tied to guild patronage"
   ],
   "quest_hook_slots": [
     "smuggling",
     "missing reagent shipment",
-    "ancestor-omen"
+    "ritual mishap"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence rare and banned"
+    "No instant resurrection or life-replacement magic",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigation auguries supplement but don't replace seamanship"
   ],
   "notes": [
-    "population unknown; seasonal influx of crews",
-    "strategic minor node for reagent routes",
-    "small permanent garrison and merchant watch"
+    "Near-medieval to early-industrial tech baseline; limited combustion industry",
+    "Chearcy handles reagent imports and ship provisioning"
   ],
-  "generated_at": "2025-09-09T04:22:27.953Z"
+  "generated_at": "2025-09-09T05:34:36.848Z"
 }

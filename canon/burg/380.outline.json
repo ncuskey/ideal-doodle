@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_20705983",
+  "checksum": "fnv1a_242fcffe",
   "burg_id": 380,
-  "name": "Burg_380",
+  "name": "Anuzah",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
     "coastal",
-    "ritual-lab"
+    "ritual-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-trading",
     "fishing",
-    "waystation/provisions"
+    "ritual-market",
+    "salt-curing",
+    "ship-repair"
   ],
   "factions_local": [
-    "Harbormaster's Council",
-    "Coastal Clan",
-    "Ritual Workshop Gild"
+    "Harbor Guild",
+    "Tide-Animist Circle",
+    "Merchants' Confraternity",
+    "Watchhouse"
   ],
   "problems": [
-    "reagent scarcity",
-    "piracy",
-    "corruption"
+    "scarce ritual reagents",
+    "seasonal storms",
+    "smuggling",
+    "resource disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongue with Island Creole loanwords",
-    "diet heavy on smoked fish and seaweed ferments",
-    "rituals tied to tides; nightly lantern offerings"
+    "Coastal Tongues dialect dominant",
+    "tide-festivals and shell-oaths",
+    "diet: salted fish and seaweeds"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent heist",
-    "missing sailors"
+    "ritual reagent theft",
+    "missing shipments"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "no instant resurrection or true life-replacement magics",
+    "rituals consume scarce imported reagents or specialized labors",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech blended with local ritual practices"
+    "near-medieval to early-industrial baseline; limited combustion industry",
+    "port vulnerable to seasonal storms and supply cuts"
   ],
-  "generated_at": "2025-09-09T04:27:45.138Z"
+  "generated_at": "2025-09-09T05:39:52.705Z"
 }

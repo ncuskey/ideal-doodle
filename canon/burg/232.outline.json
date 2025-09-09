@@ -1,56 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d5db4093",
+  "checksum": "fnv1a_a6055663",
   "burg_id": 232,
-  "name": "Burg_232",
+  "name": "Cormium",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "none",
-    "river-port",
-    "ritual-lab"
-  ],
+  "tags": [],
   "size_hint": "small",
   "economy_roles": [
-    "river trade",
-    "fishing",
-    "ritual reagent brokerage",
-    "boat repair"
+    "ore mining",
+    "smelting & forgework",
+    "ritual metalcraft",
+    "local trade"
   ],
   "factions_local": [
-    "river-guild",
-    "ritual-lodge",
-    "fisherfolk-coop"
+    "Miners' Guild",
+    "Smelters' Circle",
+    "Ritual Smiths",
+    "Magistrate's Office"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "smuggling"
+    "scarce ritual reagents",
+    "mine collapses/unstable seams",
+    "guild rivalries",
+    "bandit raids on ore convoys"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialects dominant",
-    "dockside ancestor-offerings",
-    "smoked/salted fish cuisine",
-    "boat-centric festivals"
+    "Highland Cant dialect with miner slang",
+    "ancestral ore-blessing rites",
+    "hearty stews and ironbread",
+    "festivals of sparks and hammerbeats"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing reagents",
-    "disappearances"
+    "reagent smuggling",
+    "mine collapse/underground spirits",
+    "theft of a ritual-forged blade"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection",
-    "navigational auguries cannot replace charts"
+    "no long-range mind-influence allowed",
+    "no high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "localized ritual workshops at docks",
-    "state-level details unknown"
+    "upland seam settlement, transient workforce",
+    "supplies routed by poor mountain roads"
   ],
-  "generated_at": "2025-09-09T04:17:41.200Z"
+  "generated_at": "2025-09-09T05:30:11.123Z"
 }

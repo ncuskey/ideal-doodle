@@ -1,48 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2b5c9d6f",
+  "checksum": "fnv1a_88d0d260",
   "burg_id": 331,
-  "name": "Burg_331",
+  "name": "Nasar",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-haven",
+    "tidal-harbor",
+    "ritual-workshop"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent storage",
-    "coastal fishing",
-    "waystation"
+    "fishing & salting",
+    "river transshipment",
+    "boat repair & carpentry",
+    "ritual-component trade"
   ],
   "factions_local": [
-    "Harbormasters",
-    "Reagent Depot Guild",
-    "Skiffwrights"
+    "Harbormaster's Syndicate",
+    "Tidewright Guild (boatwrights/ritualists)",
+    "River Merchants' Consortium",
+    "Shadow Bargemen (smugglers)"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "smuggling",
-    "coastal banditry"
+    "seasonal flooding/dock damage",
+    "shortage of imported ritual reagents",
+    "smuggling and jurisdictional disputes",
+    "sporadic banditry on river approaches"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "dialect: Coastal Tongues with Island Creole loanwords",
-    "markets timed to tides and fishing runs",
-    "diet: salted fish, kelp preserves, spiced legumes"
+    "Riveric-influenced dialect with Coastal Tongues loanwords",
+    "diet heavy on smoked fish, pickled salt provisions",
+    "tide-based ritual calendar governs fishing seasons",
+    "boatbuilding and ropework are prized crafts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual contamination"
+    "ritual reagent theft",
+    "disappearances at night on the river"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind-influence or instant resurrection"
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion industry (no high-pressure steam tech)"
   ],
   "notes": [
-    "state-level affiliation unknown",
-    "minor stop on coastal trade route"
+    "small tidal harbor at river mouth; docks shift each season",
+    "legal authority unclear (state unknown) — frequent charter disputes"
   ],
-  "generated_at": "2025-09-09T04:24:38.544Z"
+  "generated_at": "2025-09-09T05:36:38.413Z"
 }

@@ -1,49 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_60341aa7",
+  "checksum": "fnv1a_97b1783",
   "burg_id": 254,
-  "name": "Burg_254",
-  "state_id": 0,
+  "name": "Drior",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "coastal",
+    "harbor",
+    "augury"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "ritual-supply depot",
-    "small-market"
+    "coastal trade",
+    "reagent brokerage",
+    "fishery",
+    "augury services"
   ],
   "factions_local": [
-    "traders' consortium",
-    "ritual-operators' guild",
-    "local militia"
+    "Harbormasters",
+    "Augur's Circle",
+    "Reagent Guild",
+    "Smuggler Cells"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids",
-    "supply irregularity"
+    "reagent scarcity",
+    "smuggling",
+    "seasonal storm damage",
+    "debt bondage"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "dialect blends Coastal Tongues and Riveric Dialects",
-    "custom of daily ancestor-tokens",
-    "diet relies on preserved goods and salted fish"
+    "Coastal Tongues dialect",
+    "ritual offerings before departure",
+    "salt-preservation cuisine",
+    "night-watch and signal customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent scarcity",
-    "missing courier"
+    "failed augury",
+    "reagent theft"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents or specialized labor",
-    "long-range mind influence banned"
+    "ritual auguries consume scarce imported reagents",
+    "long-range mind influence is banned",
+    "combustion industry limited"
   ],
   "notes": [
-    "population unknown; likely transient inhabitants",
-    "location and exact economy uncertain; scout report recommended"
+    "small exposed harbor, seasonal traffic",
+    "transient population of sailors and agents",
+    "local augurs hold de facto authority over departures"
   ],
-  "generated_at": "2025-09-09T04:19:12.336Z"
+  "generated_at": "2025-09-09T05:31:44.204Z"
 }

@@ -4,56 +4,50 @@
   "checksum": "fnv1a_723e0755",
   "name": "State_7",
   "aliases": [
-    "Seawatch Marches",
-    "The Tideward"
+    "State_7 (coastal)",
+    "Seaguard March"
   ],
   "timeline_beats": [
     {
-      "id": "tb1",
-      "label": "First coastal settlement (natural harbor established)",
-      "ybp": 11000,
+      "id": "T1",
+      "label": "Founding of the Harbor Polities",
+      "ybp": 3800,
       "refs_world_events": []
     },
     {
-      "id": "tb2",
-      "label": "Proto-state consolidation under riverine trade lords",
-      "ybp": 3500,
+      "id": "T2",
+      "label": "Maritime League & Shipbuilding Boom",
+      "ybp": 1700,
       "refs_world_events": []
     },
     {
-      "id": "tb3",
-      "label": "Naval codification & guild chartering (shipwright laws)",
-      "ybp": 1800,
-      "refs_world_events": []
-    },
-    {
-      "id": "tb4",
-      "label": "Great Naval War (major fleet actions; territorial loss/gain)",
-      "ybp": 700,
+      "id": "T3",
+      "label": "Great Naval War (major naval engagements)",
+      "ybp": 600,
       "refs_world_events": [
         "W1"
       ]
     },
     {
-      "id": "tb5",
-      "label": "Territorial adjustments after Great Naval War",
-      "ybp": 640,
+      "id": "T4",
+      "label": "Territorial shifts after the Great Naval War",
+      "ybp": 560,
       "refs_world_events": [
         "BC4"
       ]
     },
     {
-      "id": "tb6",
-      "label": "Joining Coastal Defense Compact (formal alliance)",
-      "ybp": 300,
+      "id": "T5",
+      "label": "Entry into Coastal Defense Compact",
+      "ybp": 250,
       "refs_world_events": [
         "A2"
       ]
     },
     {
-      "id": "tb7",
+      "id": "T6",
       "label": "Pirate Suppression Campaigns (coastal patrol intensification)",
-      "ybp": 150,
+      "ybp": 120,
       "refs_world_events": [
         "W3"
       ]
@@ -61,46 +55,46 @@
   ],
   "factions": [
     {
-      "id": "f1",
-      "label": "Grand Maritime Guild",
-      "influence_hint": "Controls shipbuilding, port regulations, major trade concessions"
+      "id": "F1",
+      "label": "Harbor Merchant Council",
+      "influence_hint": "Controls trade policy, port tariffs, foreign dealings"
     },
     {
-      "id": "f2",
-      "label": "House Maren (coastal nobility)",
-      "influence_hint": "Holds fortified headlands and maritime levies"
+      "id": "F2",
+      "label": "Seafarers' Brotherhood",
+      "influence_hint": "Manages navigation guilds, ship crews, coastal militias"
     },
     {
-      "id": "f3",
-      "label": "Tide-Singers",
-      "influence_hint": "Ritual magics for navigation and weather; controls reagent access"
+      "id": "F3",
+      "label": "Coastal Patriciate",
+      "influence_hint": "Hereditary land-owning elites, controls fortifications and hinterland leases"
     },
     {
-      "id": "f4",
-      "label": "Harbor Workers' League",
-      "influence_hint": "Labor organization dominating loading, fish-processing, saltworks"
+      "id": "F4",
+      "label": "Tide-Speakers (clergy)",
+      "influence_hint": "Influences ritually-sanctioned voyages and reagent access"
     },
     {
-      "id": "f5",
-      "label": "Corsair Hunters",
-      "influence_hint": "Privateers and naval militia specializing in anti-piracy"
+      "id": "F5",
+      "label": "Smugglers' Networks",
+      "influence_hint": "Shadow economy; seasonal spikes during embargoes and wars"
     }
   ],
   "economy_pillars": [
-    "shipbuilding",
     "maritime trade",
-    "fishery & saltworks",
-    "ritual reagent import/export",
-    "estuary agriculture"
+    "shipbuilding & repair",
+    "fisheries & salts",
+    "ritual reagent import/redistribution",
+    "coastal agriculture & orchards"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seafaring orientation",
-      "oral tide-and-star navigational lore",
-      "port-based dialect with loanwords from Island Creole",
-      "festival calendar keyed to tidal cycles",
-      "workshop traditions in timbersmithing and ropecraft"
+      "maritime-oriented social norms",
+      "guild-based honor codes",
+      "oral sea-shanty and port folklore tradition",
+      "practical seamanship emphasized over pure augury",
+      "bilingual trading argot with Island Creole influences"
     ]
   },
   "religion": {
@@ -113,43 +107,50 @@
   },
   "regions": [
     {
-      "id": "r1",
-      "label": "North Anchorage",
+      "id": "R1",
+      "label": "Harbor City",
       "tags": [
         "trade-hub",
-        "coastal"
+        "capital"
       ]
     },
     {
-      "id": "r2",
-      "label": "Outer Shoals",
+      "id": "R2",
+      "label": "Shipwright Quarter",
       "tags": [
-        "fishing",
-        "hazardous-coast"
+        "trade-hub",
+        "industrial"
       ]
     },
     {
-      "id": "r3",
-      "label": "Saltmarsh Plains",
+      "id": "R3",
+      "label": "Fishing Coast",
       "tags": [
-        "agricultural",
-        "coastal"
+        "coastal",
+        "resource"
       ]
     },
     {
-      "id": "r4",
-      "label": "High Cliffs",
+      "id": "R4",
+      "label": "Salt Flats",
       "tags": [
-        "ritual-sites",
-        "fortified"
+        "coastal",
+        "resource"
       ]
     },
     {
-      "id": "r5",
-      "label": "River-mouth Quarter",
+      "id": "R5",
+      "label": "Eastern Cliffs",
       "tags": [
-        "estuary",
-        "trade-hub"
+        "coastal",
+        "defensive"
+      ]
+    },
+    {
+      "id": "R6",
+      "label": "Hinterland Orchards",
+      "tags": [
+        "agricultural"
       ]
     }
   ],
@@ -180,13 +181,15 @@
     "Long-range mind influence is rare and institutionally banned",
     "Navigational auguries exist but cannot replace charts and seamanship",
     "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "State must remain coastal in geography and economy"
   ],
   "notes": [
-    "Strategic chokepoints: North Anchorage harbor approaches and River-mouth narrows",
-    "Economy depends on steady reagent imports; reagent shortages destabilize Tide-Singers' power",
-    "Alliance A2 obligations affect fleet deployments and port access policies",
-    "Post-W1 border enclaves remain politically sensitive along southern shoals"
+    "Primary reliance on imported reagents; port access critical for stability",
+    "Guild autonomy strong—central authority negotiated via Merchant Council",
+    "Border stability remains fragile after BC4; coastal fortresses concentrated at chokepoints",
+    "Seasonal monsoon/coastal storms drive shipping cycles and ritual calendars",
+    "Lower layers should track reagent supply lines, shipyard capacity, and alliance obligations under A2"
   ],
-  "generated_at": "2025-09-09T03:54:02.945Z"
+  "generated_at": "2025-09-09T05:00:20.650Z"
 }

@@ -4,139 +4,132 @@
   "checksum": "fnv1a_7ce5f2eb",
   "name": "State_14",
   "aliases": [
-    "S14",
-    "Fourteen Coast",
-    "The Rilan Marches"
+    "The Strandhold",
+    "Longstrand Precinct"
   ],
   "timeline_beats": [
     {
-      "id": "TB1",
-      "label": "Coastal federation founded (league of ports)",
-      "ybp": 3700,
+      "id": "tb1",
+      "label": "First permanent coastal settlement founded",
+      "ybp": 10500,
       "refs_world_events": [
-        "River-Kingdoms_and_Leagues"
+        "Age of First Coasts"
       ]
     },
     {
-      "id": "TB2",
-      "label": "Expansion of saltworks & guild consolidation",
-      "ybp": 2200,
+      "id": "tb2",
+      "label": "Integrated into regional trade/leagues",
+      "ybp": 3800,
       "refs_world_events": [
-        "Age_of_Flux"
+        "River-Kingdoms & Leagues"
       ]
     },
     {
-      "id": "TB3",
-      "label": "Northern Fishing Coalition membership",
+      "id": "tb3",
+      "label": "Rebuilding after flux-era raids; formal Harbor Charter codified",
+      "ybp": 1200,
+      "refs_world_events": [
+        "Age of Flux"
+      ]
+    },
+    {
+      "id": "tb4",
+      "label": "Joined Coastal Defense Compact; fisheries treaty ratified",
       "ybp": 300,
       "refs_world_events": [
-        "A5",
-        "Present_Order"
-      ]
-    },
-    {
-      "id": "TB4",
-      "label": "Fisheries Sharing Treaty concluded",
-      "ybp": 200,
-      "refs_world_events": [
-        "T3",
-        "TB3"
-      ]
-    },
-    {
-      "id": "TB5",
-      "label": "Joined Coastal Defense Compact after raider surge",
-      "ybp": 80,
-      "refs_world_events": [
-        "A2"
+        "Present Order"
       ]
     }
   ],
   "factions": [
     {
-      "id": "F1",
-      "label": "Maritime Guilds",
-      "influence_hint": "Controls ports, shipbuilding, trade routes; dominant in coastal towns"
+      "id": "f1",
+      "label": "Harbor Council",
+      "influence_hint": "administration, legal charter holders, medium influence"
     },
     {
-      "id": "F2",
-      "label": "Saltbaron Houses",
-      "influence_hint": "Landed elites owning saltworks and estuary farmlands; regional political sway"
+      "id": "f2",
+      "label": "Fisher-Guild Cooperative",
+      "influence_hint": "mass membership, controls quotas and seasonal labor"
     },
     {
-      "id": "F3",
-      "label": "Tide-Scriptoria",
-      "influence_hint": "Ritual navigators and augury houses; gatekeepers of navigational auguries"
+      "id": "f3",
+      "label": "Saltwrights & Shipwrights Union",
+      "influence_hint": "controls ship repair, saltworks, technical ritual workshops"
     },
     {
-      "id": "F4",
-      "label": "Dockworkers' Syndicate",
-      "influence_hint": "Labour force in ports; organizes strikes, controls loading/processing"
+      "id": "f4",
+      "label": "Harbor Guard (naval militia)",
+      "influence_hint": "security and enforcement, strong local arm"
+    },
+    {
+      "id": "f5",
+      "label": "Merchant Liturgical Houses",
+      "influence_hint": "trade-financing and ritual brokerage, external links"
     }
   ],
   "economy_pillars": [
     "fishing",
-    "shipbuilding",
-    "saltworks",
+    "salt-production",
+    "shipbuilding/repair",
     "coastal trade",
-    "augury-services"
+    "ritual-augury services"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "seasonal sea-ritual calendars",
-      "oral pilot-chart traditions",
-      "clan-based harbour patronage",
-      "guild apprenticeship rites",
-      "practical syncretic liturgies (navigational + trade)"
+      "boat-name and kin-track communal identity",
+      "oral sea-song navigational practice",
+      "market-centered dispute resolution",
+      "artisan-runic craft traditions",
+      "seasonal migratory rhythms"
     ]
   },
   "religion": {
     "families_present": [
       "Sea-Tide Animisms",
-      "Merchant Brotherhood Liturgies",
-      "Ancestor-Remembrance Cults"
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
     ],
     "dominant": "Sea-Tide Animisms"
   },
   "regions": [
     {
-      "id": "R1",
-      "label": "Port Rilan",
+      "id": "r1",
+      "label": "North Longstrand",
+      "tags": [
+        "coastal",
+        "saltworks"
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "Outer Docklands",
       "tags": [
         "trade-hub",
-        "coastal"
+        "shipyards"
       ]
     },
     {
-      "id": "R2",
-      "label": "Saltshores",
+      "id": "r3",
+      "label": "Reefward Isles",
       "tags": [
-        "coastal",
-        "resource-hub"
+        "islands",
+        "reef-protected"
       ]
     },
     {
-      "id": "R3",
-      "label": "Outer Atolls",
+      "id": "r4",
+      "label": "Saltmarch Flats",
       "tags": [
-        "island",
-        "fishing-bases"
+        "marsh",
+        "seasonal-fishing"
       ]
     },
     {
-      "id": "R4",
-      "label": "Grey Cliffs",
+      "id": "r5",
+      "label": "Market Quarter (Harborward)",
       "tags": [
-        "coastal",
-        "defensive"
-      ]
-    },
-    {
-      "id": "R5",
-      "label": "Rivermouths",
-      "tags": [
-        "estuaries",
         "trade-hub"
       ]
     }
@@ -164,19 +157,21 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics allowed",
-    "Long-range mind influence rare and institutionally banned within polity",
-    "Navigational auguries permitted but cannot replace charts/seamanship",
-    "Ritual magic heavily dependent on scarce imported reagents or specialized labour",
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries exist but cannot replace charts and seamanship",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
     "Combustion-derived industry limited (no high-pressure steam megatechs)",
-    "Must honor interstate alliances/treaties listed in external_relations_refs"
+    "Must honor alliance/treaty obligations listed in external_relations_refs"
   ],
   "notes": [
-    "Ritual reagent supply lines are strategic vulnerabilities for commerce and auguries",
-    "Guild charters and harbour maps are primary administrative records",
-    "Seasonal monsoon/ice cycles dictate fishing and trade peaks; adaptations embedded in law",
-    "Saltworks and port access create intra-state fault lines between coast and estuary elites",
-    "Lower layers should map major ports, guild centers, and reagent import routes"
+    "High dependence on seasonal migratory fish and salted-catch exports",
+    "Ritual workshops require imported reagents; supply vulnerability affects ship repairs and auguries",
+    "Harbor Charter codifies fishing quotas; enforcement is a recurring domestic friction point",
+    "Membership in Coastal Defense Compact implies mutual defense patrol rotations",
+    "Pilot auguries commonly used for local guidance but legal requirement to carry charts and trained pilots",
+    "Storm surge and reef-shift risks shape settlement patterns and shipyard placement",
+    "Factions: recurring tensions between Harbor Council regulators and Fisher-Guild quota demands"
   ],
-  "generated_at": "2025-09-09T03:52:51.942Z"
+  "generated_at": "2025-09-09T04:58:58.997Z"
 }

@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a4f94029",
+  "checksum": "fnv1a_36dbf094",
   "burg_id": 49,
-  "name": "Burg_49",
-  "state_id": 0,
+  "name": "Taugugus",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "coastal",
     "harbor",
-    "ritual-lab"
+    "ritual-supply"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent-trade",
-    "transshipment",
-    "boatcraft"
+    "salted-fish export",
+    "barter-harbor",
+    "arcane-reagent trade",
+    "smuggling"
   ],
   "factions_local": [
-    "Sea-Tide Shrine",
-    "Seafarers' Co-op",
-    "Market Syndicate"
+    "Harbor Guild",
+    "Reagent Vendors' Syndicate",
+    "Ancestor-Temple Council",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "storm damage"
+    "scarce imports",
+    "banditry at sea",
+    "corrupt harbormasters"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with sea-related idioms",
-    "ritualized departure and landing blessings",
-    "diet heavy on salted fish and kelp",
-    "local craftsmen specialize in boat repair and net-making"
+    "Coastal Tongues dialect with heavy harbor slang",
+    "Tidal festivals blending ancestor rites and offerings",
+    "Diet: salted fish, fermented seaweed, kelp preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "storm-omen",
-    "missing shipment"
+    "missing-dredge-crew",
+    "reagent-heist"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no long-range mind influence; navigational auguries cannot replace charts"
+    "no-instant-resurrection",
+    "rituals-consume-rare-reagents",
+    "navigational-auguries-limited"
   ],
   "notes": [
-    "population unknown; functions as a reagent transshipment stop",
-    "built on a sheltered inlet with modest quay infrastructure"
+    "near-medieval tech with localized ritualization",
+    "waypoint for island-coastal trade and minor shipping lanes"
   ],
-  "generated_at": "2025-09-09T04:34:59.115Z"
+  "generated_at": "2025-09-09T05:46:28.785Z"
 }

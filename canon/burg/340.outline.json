@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3142fa63",
+  "checksum": "fnv1a_32a1aa23",
   "burg_id": 340,
-  "name": "Burg_340",
-  "state_id": -1,
+  "name": "Froi",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "harbor",
+    "ritual-landing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "coastal-supply",
-    "ritual-reagent trade"
+    "fishing",
+    "saltworks",
+    "ritual-component trade",
+    "boatbuilding"
   ],
   "factions_local": [
-    "local-militia",
-    "reagent-traders' guild",
+    "fisher guild",
     "tide-priesthood",
-    "smugglers"
+    "harbormaster's crew",
+    "coastal smugglers"
   ],
   "problems": [
-    "isolation",
     "reagent scarcity",
-    "storm damage",
-    "smuggling conflict"
+    "storm-surge damage",
+    "smuggling tensions",
+    "supply isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "salted-fish and seaweed cuisine",
-    "tide-blessing rituals",
-    "navigation superstitions; auguries respected but charts required"
+    "Coastal Tongues dialect with nautical slang",
+    "seasonal high-tide offerings festival",
+    "heavy salted-fish cuisine",
+    "boatwright guild customs"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "missing supply ship"
+    "ominous tide-omen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace charts or seamanship"
+    "ritual magic consumes rare imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown; intermittent occupancy",
-    "serves as resupply/relay point",
-    "dependent on maritime trade and imported reagents"
+    "population unknown; records spotty",
+    "access mainly by small craft; charts and seamanship still required"
   ],
-  "generated_at": "2025-09-09T04:25:20.936Z"
+  "generated_at": "2025-09-09T05:37:12.817Z"
 }

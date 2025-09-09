@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6b1990ed",
+  "checksum": "fnv1a_22896a04",
   "burg_id": 460,
-  "name": "Burg_460",
-  "state_id": 0,
+  "name": "Chales",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "river-junction",
+    "boat-landing"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent depot",
-    "small fishing/harbor",
-    "relay/waystation"
+    "river-trade",
+    "fishing",
+    "ritual-labour"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-guild depot",
-    "merchant family",
-    "coastal militia"
+    "River Guild",
+    "Harbormaster's Office",
+    "Ancestor Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit/raider landings",
-    "storm damage"
+    "scarcity of ritual reagents",
+    "bandit raids",
+    "seasonal flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical terms",
-    "local rites tied to tide cycles and reagent runs",
-    "diet: salted fish, seaweed, preserved goods",
-    "informal barter culture for imported reagents"
+    "Riveric Dialect prevalent",
+    "Boat-centric rites and offerings",
+    "Diet: smoked and salted fish",
+    "Tide superstitions shape local calendar"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "drowned shrine"
+    "flood crisis",
+    "missing reagents"
   ],
   "constraints": [
-    "no true resurrection or life-replacement magics",
-    "long-range mind influence is rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and banned"
   ],
   "notes": [
-    "state unspecified; likely coastal or small island",
-    "population unknown; functions as supply/relay for rituals",
-    "tech: near-medieval to early industrial with localized ritual magic"
+    "population unknown",
+    "strategic crossing for small craft",
+    "tech: near-medieval with localized ritual magic"
   ],
-  "generated_at": "2025-09-09T04:33:29.357Z"
+  "generated_at": "2025-09-09T05:45:02.570Z"
 }

@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7bc07be9",
+  "checksum": "fnv1a_9a94ba74",
   "burg_id": 303,
-  "name": "Burg_303",
+  "name": "Min'han",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "outpost",
-    "coastal",
-    "ritual-node"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-labor",
+    "river-trade depot",
     "fishing",
-    "waystation"
+    "ritual-ingredient brokerage",
+    "boat maintenance"
   ],
   "factions_local": [
-    "Ancestor-Shrine",
-    "Harbormaster's Council",
-    "Smugglers' Ring"
+    "Riverers' Guild",
+    "Dockside Shrinetenders",
+    "Merchant-Clan Hsu",
+    "Harbor Workers' Circle"
   ],
   "problems": [
-    "scarce-ritual-reagents",
-    "banditry",
-    "supply-isolation"
+    "scarce ritual reagents",
+    "bandit raids on river routes",
+    "silted shoals limiting access",
+    "local graft/corruption"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "Dawn ash-offering ritual",
-    "Barter-heavy; coin scarce"
+    "speaks Riveric Dialects with island loanwords",
+    "dockside offerings to ancestors and tides",
+    "cuisine: smoked riverfish and kelp stews",
+    "annual boat-festival marking spring run"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-augur"
+    "missing reagent shipment",
+    "ritual thefts"
   ],
   "constraints": [
-    "rituals require imported reagents",
-    "no instant resurrection",
-    "long-range mind magics banned"
+    "ritual magic consumes scarce imported reagents",
+    "no long-range mind-control institutions; instant resurrection banned"
   ],
   "notes": [
-    "Population unknown",
-    "Near-medieval to early-industrial tech baseline"
+    "tech level: near-medieval to early industrial with local ritual magic",
+    "population data unknown; functions as small river/coastal outpost"
   ],
-  "generated_at": "2025-09-09T04:22:49.735Z"
+  "generated_at": "2025-09-09T05:34:52.502Z"
 }

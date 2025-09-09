@@ -1,52 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4c47985b",
+  "checksum": "fnv1a_7d407b80",
   "burg_id": 296,
-  "name": "Burg_296",
+  "name": "Towbigin",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "none",
+    "river-port"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent-gathering",
-    "waystation"
+    "river trade",
+    "fish curing",
+    "reagent brokerage"
   ],
   "factions_local": [
-    "harbor-keepers",
-    "ritual-keepers",
-    "smuggler-cell"
+    "Harbormasters' Syndicate",
+    "Reagent Brotherhood",
+    "Ancestor-Remembrance Elders"
   ],
   "problems": [
-    "reagent scarcity",
-    "coastal erosion",
-    "smuggling"
+    "scarcity of reagents",
+    "bandit raids",
+    "silted channels"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "salt-preserved cuisine",
-    "tide-blessing rituals",
-    "barter-heavy economy"
+    "speaks Riveric Dialect",
+    "dockside ancestor-offerings",
+    "smoked and salted fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "shipwreck salvage"
+    "missing reagent",
+    "ancestral omen"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "limited combustion industry"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence institutionally banned",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "remote coastal outpost",
-    "seasonal access by small craft",
-    "limited state oversight"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries exist but do not replace charts or seamanship",
+    "no recorded state affiliation"
   ],
-  "generated_at": "2025-09-09T04:22:02.425Z"
+  "generated_at": "2025-09-09T05:34:16.061Z"
 }

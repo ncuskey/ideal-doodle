@@ -1,33 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1c2b9ced",
+  "checksum": "fnv1a_41c44436",
   "burg_id": 424,
-  "name": "Burg_424",
-  "state_id": -1,
+  "name": "Leighington",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-supply",
-    "harbor"
+    "river-haven",
+    "fishing-hamlet",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-supply trade",
-    "ship-repair",
-    "smuggling"
+    "river-trade",
+    "fishery",
+    "ritual-supplies",
+    "boat-repair"
   ],
   "factions_local": [
-    "fisherfolk council",
-    "ritual-supply guild",
-    "cargo captains",
-    "smugglers' ring"
+    "Boatmen's Guild",
+    "Shrine Keepers",
+    "River Merchants",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
+    "reagent-scarcity",
     "banditry",
-    "jurisdictional dispute"
+    "seasonal-flooding",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,25 +35,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Island Creole with Riveric loanwords",
-    "heavy seafood cuisine and salt-preservation",
-    "ancestor-offering customs tied to fishing rites",
-    "practical seamanship and ledger-driven trade"
+    "Riveric dialect with Coastal loanwords",
+    "Ancestor-veneration tied to boats and nets",
+    "Diet of smoked and salted fish",
+    "Spring tide-festival with ritual offerings"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual reagent shortage",
-    "shipwreck salvage"
+    "missing-fishermen",
+    "reagent-theft"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and banned"
+    "ritual-magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "remote coastal outpost reliant on inter-island trade",
-    "state authority weak or unrecorded",
-    "maps and charts locally guarded"
+    "population unknown",
+    "strategic river crossing with a small harbor"
   ],
-  "generated_at": "2025-09-09T04:30:49.968Z"
+  "generated_at": "2025-09-09T05:42:50.682Z"
 }

@@ -1,50 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_63d2e939",
+  "checksum": "fnv1a_1b57e295",
   "burg_id": 21,
-  "name": "Burg_21",
+  "name": "Gallbhear",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-port",
+    "ritual-haven"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "small-harbor",
-    "fishing",
-    "ritual-lab-support",
-    "waystation"
+    "fishery",
+    "reagent-trade",
+    "boat-repair",
+    "smallholder-agriculture"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-circle",
-    "smuggler-band"
+    "Harbor Guild",
+    "Ancestor Shrine Circle",
+    "Tidewise Mariners",
+    "Reagent Brokers"
   ],
   "problems": [
-    "scarce-imported-reagents",
-    "coastal-storms",
-    "smuggling-driven-corruption"
+    "reagent scarcity",
+    "bandit raids",
+    "shore erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loan-words",
-    "seafood-and-salted-provisions cuisine",
-    "tide-superstitions and ritual offerings"
+    "Coastal Tongue with Riveric loanwords",
+    "ancestor-feast traditions",
+    "boat-blessing rites",
+    "seaweed & smoked fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-fisher"
+    "stolen reagents",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind-influence banned"
   ],
   "notes": [
-    "navigational auguries used but charts and seamanship still required",
-    "limited combustion industry; no high-pressure steam megatechs"
+    "near-medieval to early-industrial tech",
+    "navigational auguries exist but do not replace charts",
+    "small port reliant on reagent imports"
   ],
-  "generated_at": "2025-09-09T04:16:10.270Z"
+  "generated_at": "2025-09-09T05:28:55.533Z"
 }

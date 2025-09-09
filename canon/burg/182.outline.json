@@ -1,56 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d57cc303",
+  "checksum": "fnv1a_3f2fb40a",
   "burg_id": 182,
-  "name": "Burg_182",
+  "name": "Cielbligz",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "reagent-depot"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent trade",
-    "small-scale fishing",
-    "waystation/relay",
-    "cartage & packing"
+    "coastal-fishing",
+    "ritual-reagent trade",
+    "pilotage/waystation",
+    "shipwrights"
   ],
   "factions_local": [
-    "porters' guild",
-    "ritual-lab consortium",
-    "coastal shrine circle",
-    "smugglers' knot"
+    "Harbor Consortium",
+    "Tide-Remembrance Circle",
+    "Shadow Skiffmen"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry on supply routes",
-    "official corruption"
+    "coastal erosion",
+    "smuggling",
+    "bandit raiding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues common with Riveric trade pidgin",
-    "diet heavy on salted fish and seaweed",
-    "ritualized barter and package blessings",
-    "tattooed crew identity marks"
+    "Coastal Tongues-influenced dialect",
+    "sea rites tied to safe passage",
+    "salt-preserved seafood staples",
+    "practical navigational superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearing shipments"
+    "shipwreck salvage",
+    "reagent theft"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "navigational-auguries-auxiliary-only",
-    "ritual-magic-consumes-scarce-imported-reagents"
+    "rituals require scarce imported reagents",
+    "long-range mind influence is banned",
+    "no high-pressure steam megatechs"
   ],
   "notes": [
-    "near-medieval tech with local ritual labs",
-    "minor anchorage; seasonal shelter only"
+    "near-medieval to early-industrial tech baseline",
+    "population unknown; functions as small coastal outpost"
   ],
-  "generated_at": "2025-09-09T04:14:28.591Z"
+  "generated_at": "2025-09-09T05:27:00.709Z"
 }

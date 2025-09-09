@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_saltmarsh_flats",
+  "checksum": "fnv1a_1e085484",
+  "name": "Saltmarsh Flats",
+  "aliases": [
+    "Saltmarsh",
+    "Brineflats"
+  ],
+  "tags": [
+    "coastal",
+    "wetland",
+    "saltworks",
+    "reagents",
+    "fisheries"
+  ],
+  "role_in_state": "Primary salt and reagent production hub",
+  "economy_niches": [
+    "saltworks & solar pans",
+    "brine-reagent harvesting (algae, crustaceans)",
+    "tidal fisheries & shellfisheries",
+    "reedcraft & thatch production",
+    "low-draft lightering and transshipment"
+  ],
+  "culture_adjustments": [
+    "Coastal Tongues variant rich in tidal terminology",
+    "practical hospitality reorganized around tide schedules",
+    "tighter clan-harbor kinship; communal salt-work apprenticeships",
+    "ritual practice focused on tide-rites and harvest taboos",
+    "weaker guild formalism; more itinerant labor pooling"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal inundation",
+    "salt-worker disease",
+    "smuggling & reagent theft",
+    "siltation & channel closure"
+  ],
+  "constraints": [
+    "unstable peat/soft ground prevents large shipyards",
+    "seasonal access cut by tides and storms",
+    "ritual reagent supply dependent on long-distance imports"
+  ],
+  "notes": [
+    "state relies on flats' salt for curing and long-distance trade",
+    "marsh flats are sacred; ritual calendars regulate harvest timing",
+    "navigation through flats requires local pilots and augury services"
+  ],
+  "generated_at": "2025-09-09T05:07:17.467Z"
+}

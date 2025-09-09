@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_augurers_quarter",
+  "checksum": "fnv1a_3051cfa",
+  "name": "Augurers' Quarter",
+  "aliases": [
+    "Seers' Quarter",
+    "Augury Ward"
+  ],
+  "tags": [
+    "augury",
+    "guild-district",
+    "harbor-adjacent",
+    "glasscraft"
+  ],
+  "role_in_state": "Licensed navigational-augury and ritual service hub",
+  "economy_niches": [
+    "licensed augury-services for voyages",
+    "chart & log engraving, astrolabe/glass instrument-making",
+    "import and sale of ritual reagents",
+    "boarding-houses and crew provisioning",
+    "small-scale ritual-fittings for ships (figureheads, warding charms)"
+  ],
+  "culture_adjustments": [
+    "guild-dominated practice: augurers apprenticed and licensed",
+    "higher multilingualism from constant merchant traffic",
+    "practical ritualism stricter about waste and public safety",
+    "oral navigational lore institutionalized into paid services"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "fire-hazard (glassworks & rituals)",
+    "guild-tensions",
+    "illicit-reagent-trade",
+    "disease-outbreak (crowding)"
+  ],
+  "constraints": [
+    "depends on scarce imported reagents; supply chokepoints critical",
+    "augury practices tightly regulated by guilds and state",
+    "no long-range mind-influence or instant-resurrection magics permitted"
+  ],
+  "notes": [
+    "dense urban quarter adjacent to main harbor; limited expansion room",
+    "licensed augurers are crucial for safe maritime commerce",
+    "significant informal market for contested augury techniques"
+  ],
+  "generated_at": "2025-09-09T05:02:39.340Z"
+}

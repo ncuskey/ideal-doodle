@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_703df583",
+  "checksum": "fnv1a_846c03f8",
   "burg_id": 393,
-  "name": "Burg_393",
+  "name": "Bugli",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ritual-haven"
+    "outpost",
+    "coastal",
+    "fishing"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ferry-tolls",
-    "provisions-for-rituals",
-    "waystation-trade",
-    "fish-smoking"
+    "fishing",
+    "reagent foraging",
+    "waystation",
+    "seaweed curing"
   ],
   "factions_local": [
-    "Ferrywrights' Guild",
-    "Ancestor-Remembrance Circle",
-    "Riverwatch",
-    "Covert Brokers"
+    "fisher cooperative",
+    "tide-ritualists",
+    "smugglers",
+    "harbor steward"
   ],
   "problems": [
-    "banditry along approaches",
     "reagent scarcity",
-    "seasonal flooding",
-    "corrupt toll-collection"
+    "storm damage",
+    "smuggling",
+    "isolation"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks Riveric Dialect with Coastal Tongue influences",
-    "diet heavy on smoked riverfish and fermented riverweed",
-    "regular ancestor-wake communal meals",
-    "ferrymark trading hours shape daily rhythm"
+    "Island Creole dialect",
+    "salted fish and fermented seaweed cuisine",
+    "tide-blessing rituals",
+    "communal boat-maintenance festivals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing ferryman"
+    "storm omen",
+    "disappearances"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or mind-control magics",
-    "navigational auguries cannot replace charts/seamanship"
+    "No true-life replacement magics",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "strategic but precarious river crossing; small permanent population"
+    "population unknown",
+    "limited overland access",
+    "navigational augury used alongside charts"
   ],
-  "generated_at": "2025-09-09T04:28:31.809Z"
+  "generated_at": "2025-09-09T05:40:39.484Z"
 }

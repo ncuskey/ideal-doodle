@@ -1,56 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7955eca7",
+  "checksum": "fnv1a_35fd79bf",
   "burg_id": 364,
-  "name": "Burg_364",
+  "name": "Babiln",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "river-crossing",
-    "ritual-trade"
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-ingredient trade",
-    "fishing",
-    "ferrying",
-    "wayside-inn"
+    "ferry-crossing",
+    "market-traders",
+    "ritual-laboratory",
+    "seasonal-fish-salting"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-collectors",
-    "ferry-operators",
-    "clan-elders"
+    "Ferry Guild",
+    "Harbor Ritual Circle",
+    "River-guard Ward"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "smuggling"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "bandit raids on roads"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects with Coastal Tongues loanwords",
-    "seafood- and smoke-preserved diet",
-    "local festivals tied to reagent arrival"
+    "Riveric Dialect dominant with Coastal Tongue loanwords",
+    "Flood-season ancestor rites common",
+    "Diet heavy on smoked and salted river fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ferry disaster"
+    "ritual-reagent shortage",
+    "flood-relief"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "navigation auguries cannot replace charts"
+    "no-instant-resurrection",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial tech",
-    "limited combustion industry",
-    "rituals require specialist labor"
+    "Near-medieval to early-industrial tech with ritual magic common",
+    "Navigational auguries exist but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:26:53.552Z"
+  "generated_at": "2025-09-09T05:38:51.619Z"
 }

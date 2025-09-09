@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_64cfa3bb",
+  "checksum": "fnv1a_b7a010e1",
   "burg_id": 142,
-  "name": "Burg_142",
+  "name": "Kirkcalnin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "coastal",
-    "reagent-hub"
+    "kirk",
+    "highland",
+    "market-halt"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent-storage",
-    "waystation-trade",
-    "small-scale-ship-repair"
+    "sheep-farming",
+    "wool-trade",
+    "pilgrimage-hosting",
+    "ritual-services"
   ],
   "factions_local": [
-    "merchant-guildlet",
-    "sea-rite-cult",
-    "shipwrights-guild",
-    "harbor-watch"
+    "Parish Council",
+    "Clan Calder",
+    "Ritualists' Guild",
+    "Itinerant Merchants"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "banditry-at-sea"
+    "reagent scarcity",
+    "banditry on highland tracks",
+    "clan feuds",
+    "crop failures"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "daily-tide offerings and salted-preservation cuisine",
-    "barter-rituals tied to shipment blessings"
+    "Highland Cant dialect dominant",
+    "Kirk-centered social rituals and seasonal rites",
+    "hearty oat-based cuisine and smoked lamb",
+    "ceilidh music and lamplit storytelling"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent-theft",
-    "missing-fishermen"
+    "stolen ritual reagents",
+    "pilgrim disappearance",
+    "escalating clan feud"
   ],
   "constraints": [
-    "ritual-magic consumes scarce imported reagents",
-    "no instant-resurrection or mind-control magics"
+    "Ritual magic requires scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "small population; strategic minor harbor on local lane"
+    "Name suggests ecclesiastical origin; kirk is social center",
+    "Population unknown; likely a small rural service town on highland routes"
   ],
-  "generated_at": "2025-09-09T04:11:54.322Z"
+  "generated_at": "2025-09-09T23:11:00.438Z"
 }

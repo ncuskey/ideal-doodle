@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_782b405",
+  "checksum": "fnv1a_191d345c",
   "burg_id": 453,
-  "name": "Burg_453",
+  "name": "Carporton",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-hub",
-    "ritual-lab"
+    "port",
+    "waystation"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "river-trade",
-    "ritual-component production",
     "fishing",
-    "boat-repair"
+    "small-scale trade",
+    "shipwrights",
+    "navigational-augury services"
   ],
   "factions_local": [
-    "river-guild",
-    "shrine-circle",
-    "merchant-clan",
-    "smugglers' ring"
+    "harbor guild",
+    "lightkeepers' cult",
+    "smugglers' ring",
+    "merchant agents"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry on river",
-    "seasonal-flooding"
+    "smuggling",
+    "supply scarcity",
+    "coastal raiders",
+    "superstitious unrest"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "ancestor-veneration customs",
-    "smoked-river-fish cuisine",
-    "tide-festival rituals"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet centered on salted fish and seaweed",
+    "tide-blessing festivals tied to local navigation rites",
+    "widespread ropecraft and boatbuilding skills"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "river-flood"
+    "tide-omen",
+    "missing crew"
   ],
   "constraints": [
     "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents or specialized labour",
+    "navigational auguries cannot replace charts and seamanship"
   ],
   "notes": [
-    "population unknown",
-    "strategic river crossing with small ritual labs"
+    "Population unknown; transient harbor traffic fluctuates seasonally",
+    "vulnerable to storms and raiders; maintains small outlying watchposts"
   ],
-  "generated_at": "2025-09-09T04:33:23.879Z"
+  "generated_at": "2025-09-09T05:44:41.100Z"
 }

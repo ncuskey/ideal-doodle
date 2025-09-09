@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_29d5b73d",
+  "checksum": "fnv1a_744c03b2",
   "burg_id": 277,
-  "name": "Burg_277",
-  "state_id": -1,
+  "name": "Canek",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal-haven",
-    "ritual-workshop"
+    "riverine",
+    "ferry-crossing",
+    "ritual-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-labor-services",
-    "waystation/resupply",
-    "small-scale trade"
+    "ferry-tolls",
+    "ritual-supplies",
+    "local-trade"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-coven",
-    "skippers' cartel",
-    "ancestor-clan-elders"
+    "Ferry-Keepers' Guild",
+    "Ancestor Circle",
+    "Market Consuls",
+    "Ritual Apothecaries"
   ],
   "problems": [
-    "scarce-ritual-reagents",
-    "banditry-on-supply-routes",
-    "seasonal-scarcity"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "smuggling",
+    "bandit raids on river"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical idioms",
-    "ship-augury and tide-rituals integrated into daily work",
-    "diet heavy on salt-cured fish, kelp, and preserved spices"
+    "Riveric dialect with coastal loanwords",
+    "Flood-season ancestor offerings",
+    "Cuisine: smoked fish and starch cakes"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent-theft",
-    "missing-boat"
+    "ritual-supply-shortage",
+    "disappearing ferrymen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind-influence forbidden/infrequent",
-    "navigation auguries supplementary to seamanship"
+    "rituals require scarce imported reagents",
+    "no long-range mind-influence allowed"
   ],
   "notes": [
-    "near minor anchorage servicing small-coastal traffic",
-    "population unknown; likely seasonal fluctuation"
+    "navigational auguries aid ferrymen but don't replace charts",
+    "population small; formal records sparse"
   ],
-  "generated_at": "2025-09-09T04:20:39.703Z"
+  "generated_at": "2025-09-09T05:33:03.327Z"
 }

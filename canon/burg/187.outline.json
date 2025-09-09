@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_644bcdf5",
+  "checksum": "fnv1a_eecef7da",
   "burg_id": 187,
-  "name": "Burg_187",
+  "name": "Stios",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
+    "island",
     "harbor",
-    "trade-node"
+    "ritual-supply"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "salt-harvesting",
-    "ritual-labour",
-    "local-market-trade"
+    "waystation",
+    "ritual-reagent trade",
+    "ship repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-collective",
-    "merchant-brotherhood",
-    "coastal-militia"
+    "harbormasters' guild",
+    "tide-priesthood",
+    "shipwrights' cooperative",
+    "covert smugglers"
   ],
   "problems": [
-    "scarcity-of-ritual-reagents",
-    "banditry-on-approaches",
-    "storm-damage-to-infrastructure",
-    "local-corruption"
+    "scarce imported reagents",
+    "smuggling and illicit trade",
+    "isolation in storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-rituals shape daily schedule",
-    "diet heavy on fish, seaweed, preserved salt"
+    "Island Creole dialect with coastal idioms",
+    "tide-rituals tied to fishing seasons",
+    "salt-preserved cuisine; seafood staples",
+    "kinship-led communal decisions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagent-shipment",
-    "failed-tide-ritual"
+    "missing reagent shipment",
+    "ritual gone wrong"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "long-range-mind-influence-rare-and-banned"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "port depends on imported reagents for local rituals",
-    "navigational-auguries used alongside charts"
+    "near-medieval to early-industrial baseline",
+    "navigational auguries exist but do not replace seamanship",
+    "state-level affiliation unknown"
   ],
-  "generated_at": "2025-09-09T04:14:41.485Z"
+  "generated_at": "2025-09-09T05:27:15.580Z"
 }

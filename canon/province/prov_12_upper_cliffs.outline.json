@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_upper_cliffs",
+  "checksum": "fnv1a_2c015cc5",
+  "name": "Upper Cliffs",
+  "aliases": [
+    "Highward Cliffs",
+    "Cliffwatch"
+  ],
+  "tags": [
+    "coastal",
+    "high-cliffs",
+    "lookouts",
+    "salt-production",
+    "rigging",
+    "augury-workshops"
+  ],
+  "role_in_state": "strategic lookout and niche maritime supplier",
+  "economy_niches": [
+    "cliff-dried fisheries & smokehouses",
+    "terraced salt pans & salt trade",
+    "high-grade rope, tackle and rigging workshops",
+    "ritual augury services tied to lookout stations",
+    "guano collection for fertilizer"
+  ],
+  "culture_adjustments": [
+    "lookout-clan kinship often outranks harbor-clan ties",
+    "tide-and-wind festivals include cliff-edge rites and wind-offerings",
+    "dialect peppered with lookout-specific nautical vocabulary",
+    "strong salvage-rights customs and thrift-driven salvage economy",
+    "height-taboo burial and rescue practices distinct from lowlands"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff erosion",
+    "storm-surge wash",
+    "landslip/rockfall",
+    "isolated banditry on narrow paths",
+    "winter supply bottlenecks"
+  ],
+  "constraints": [
+    "limited arable land and freshwater",
+    "steep, single-track coastal roads hinder heavy trade",
+    "ritual magic reliant on imported reagents — supply-vulnerable"
+  ],
+  "notes": [
+    "visual lookout chain integrated with state navigational auguries",
+    "key exports: salt, rope/rigging, dried fish, augury readings",
+    "local ordinances restrict large-scale shipyards to protect ledges"
+  ],
+  "generated_at": "2025-09-09T05:03:48.148Z"
+}

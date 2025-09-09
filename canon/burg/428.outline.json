@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6f6a2db5",
+  "checksum": "fnv1a_45d44a9c",
   "burg_id": 428,
-  "name": "Burg_428",
-  "state_id": -1,
+  "name": "Prean",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "ritual-stop"
+    "port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply-depot",
     "fishing",
-    "coastal-trade-stop",
-    "smuggler-cache"
+    "ritual-reagent trade",
+    "small-scale mercantile trade",
+    "boat repair"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbormaster-clan",
-    "smugglers-ring",
-    "ancestor-circle"
+    "harbourmaster's office",
+    "ritual-merchant syndicate",
+    "fishers' cooperative",
+    "smuggler ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "harbor-siltation"
+    "reagent scarcity",
+    "smuggling",
+    "tidal erosion",
+    "corrupt harbour officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "boat-blessing rites common",
-    "salt-curing and fermented fish cuisine",
-    "gift-exchange for harbor favors"
+    "Coastal Tongues variant",
+    "salted fish and sea-herb cuisine",
+    "tide-market trading customs",
+    "departure offerings to tide-spirits"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-theft",
-    "shipwreck-salvage"
+    "reagent shortage",
+    "disappearing vessels"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "navigational-auguries-limited"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; transient seasonal traffic",
-    "small strategic harbor; maps sparse"
+    "navigational auguries used but seamanship required",
+    "near-medieval to early-industrial tech baseline",
+    "vulnerable to storms and supply disruptions"
   ],
-  "generated_at": "2025-09-09T04:31:05.455Z"
+  "generated_at": "2025-09-09T05:42:57.327Z"
 }

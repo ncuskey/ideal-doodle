@@ -1,58 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_36638add",
+  "checksum": "fnv1a_3b00768d",
   "burg_id": 244,
-  "name": "Burg_244",
-  "state_id": 0,
+  "name": "Inwenverthe",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "fishing",
-    "ritual-supply"
+    "none",
+    "river-crossing",
+    "ritual-outpost"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "shore-fishing",
-    "salt-harvest",
-    "ritual reagent depot",
-    "ferry waystation"
+    "reagent foraging",
+    "subsistence agriculture",
+    "waystation/trade stop"
   ],
   "factions_local": [
-    "Temple-Pier guild",
-    "Boatwrights' cooperative",
-    "Smuggler coterie",
-    "Militia watch"
+    "Elder Kin Council",
+    "Forager Co-op",
+    "Itinerant Ritualists",
+    "Border Wardens"
   ],
   "problems": [
     "reagent scarcity",
-    "storm damage",
-    "smuggling",
-    "supply delays"
+    "bandit raids",
+    "soil fatigue"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with sea-metaphors",
-    "Diet heavy on salted fish and seaweed",
-    "Tide-blessing festivals tied to fishing seasons",
-    "Local craftwork: carved figureheads and nets"
+    "Riveric dialect with call-and-response rites",
+    "Smoked fish and flatbreads staple",
+    "Crafts: basketry and herb-drying for rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual mishap"
+    "ritual reagent shortage",
+    "ancestral spirit unrest"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind-influence is banned and rare",
-    "No instant resurrection or true life-replacement magics"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents; long-range mind influence banned"
   ],
   "notes": [
-    "Small pier with a ruined beacon used for navigation auguries",
-    "Seasonal surge of travelers during tide-festivals"
+    "Tech baseline near-medieval to early-industrial with ritual magic",
+    "Population unknown/unrecorded"
   ],
-  "generated_at": "2025-09-09T04:18:24.414Z"
+  "generated_at": "2025-09-09T05:30:50.572Z"
 }

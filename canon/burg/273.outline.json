@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2054efb5",
+  "checksum": "fnv1a_52a585da",
   "burg_id": 273,
-  "name": "Burg_273",
+  "name": "Birorum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-node"
+    "none",
+    "coastal",
+    "ritual-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "augury-supplies",
-    "waystation"
+    "harbor-trade",
+    "ritual-component processing",
+    "salt-curing"
   ],
   "factions_local": [
-    "Tidekeeper Shrine",
-    "Shipwrights' Circle",
-    "Coastwatch Militia"
+    "harbor guild",
+    "ritual scriptorium",
+    "clan council"
   ],
   "problems": [
     "reagent scarcity",
-    "coastal erosion",
-    "smuggling"
+    "bandit raids",
+    "corrupt harbormasters"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "ritual songs tied to tides",
-    "diet heavy on preserved fish and seaweed"
+    "Coastal Tongues dialect dominant",
+    "tide-offering customs",
+    "diet heavy on smoked and salted fish",
+    "seasonal ritual markets"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "failed-augury",
-    "missing-reagent caravan"
+    "reagent shortage",
+    "tidal hauntings"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "no instant resurrection",
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries limited"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries supplement but do not replace charts or seamanship"
+    "tech baseline: near-medieval to early industrial",
+    "combustion industry limited"
   ],
-  "generated_at": "2025-09-09T04:20:29.305Z"
+  "generated_at": "2025-09-09T05:32:43.593Z"
 }

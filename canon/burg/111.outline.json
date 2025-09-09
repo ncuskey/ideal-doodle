@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_269ea943",
+  "checksum": "fnv1a_517745aa",
   "burg_id": 111,
-  "name": "Burg_111",
+  "name": "Pyreaz",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal-haven",
-    "ritual-supply"
+    "funerary-port",
+    "ritual-smoke"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply depot",
-    "coastal fishing",
-    "transshipment point"
+    "funerary-rites",
+    "reagent-trade",
+    "smoked-fish",
+    "ferrying"
   ],
   "factions_local": [
-    "shipmasters' guild",
-    "ritual-scribes",
-    "smuggling ring"
+    "pyre-masters-guild",
+    "merchant-syndicate",
+    "tide-priesthood",
+    "smugglers-coterie"
   ],
   "problems": [
-    "scarce reagents",
-    "banditry on approaches",
-    "corrupt customs"
+    "reagent-scarcity",
+    "coastal-raiders",
+    "ritual-politics",
+    "air-pollution"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "seafood-curing cuisine",
-    "strict reagent-handling taboos"
+    "Coastal Tongues dialect with ritualized speech",
+    "nightly pyre processions",
+    "diet heavy on smoked fish and ash-bread",
+    "ceremonial ash-mark sashes"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-raid",
-    "missing-ship"
+    "missing-relic",
+    "funeral-unrest"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and banned"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection",
+    "long-range mind-influence banned"
   ],
   "notes": [
-    "Population unknown; transient crews dominate",
-    "Small harbour with shallow approaches; navigational auguries supplement charts"
+    "near-medieval tech with local ritual magic",
+    "navigational auguries used but seamanship required"
   ],
-  "generated_at": "2025-09-09T04:10:01.970Z"
+  "generated_at": "2025-09-09T23:08:57.642Z"
 }

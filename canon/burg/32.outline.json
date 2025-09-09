@@ -1,32 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_12cff1b9",
+  "checksum": "fnv1a_2c0324a5",
   "burg_id": 32,
-  "name": "Burg_32",
+  "name": "Northesho",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-trade",
-    "waystation"
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent trade",
     "fishing",
-    "waystation services"
+    "local-trade",
+    "ritual-reagent-market",
+    "ship-repair"
   ],
   "factions_local": [
-    "Shrine Custodians",
-    "Coastal Skippers",
-    "Reagent Merchants",
-    "Smuggler Cell"
+    "harbormasters",
+    "merchant-guildlet",
+    "sea-priest-coterie",
+    "coastal-smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "isolation",
-    "smuggling",
-    "superstition-driven unrest"
+    "reagent-scarcity",
+    "banditry-on-approach",
+    "seasonal-storms",
+    "harbor-siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,24 +34,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "mixed Coastal Tongues / Riveric dialect",
-    "ritual-heavy calendar",
-    "seaweed-fermentation cuisine",
-    "barter-oriented customs"
+    "Coastal Tongues-influenced dialect",
+    "diet heavy on salted fish and seaweed",
+    "harbor-blessing rites before voyages",
+    "folk boat-naming superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing navigator/chart"
+    "disappearing-fishermen",
+    "ritual-reagent-theft"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "navigational-auguries-limited",
+    "no-instant-resurrection-magic",
     "rituals-consume-scarce-imported-reagents"
   ],
   "notes": [
-    "remote tidal inlet harbor",
-    "frequent storms disrupt supplies"
+    "navigational-auguries used but charts and seamanship still required",
+    "accessible to small coastal vessels; overland approaches rough"
   ],
-  "generated_at": "2025-09-09T04:23:54.771Z"
+  "generated_at": "2025-09-09T05:35:47.034Z"
 }

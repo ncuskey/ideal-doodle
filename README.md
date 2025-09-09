@@ -37,18 +37,26 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run links:suggest              # Cross-state affinities + marker-driven hook placements
    ```
 
-6. **Generate Rich Lore**
+6. **Generate Heraldry** (Armoria Integration)
+   ```bash
+   npm run heraldry:gen              # Generate all heraldry (states, provinces, burgs)
+   npm run heraldry:gen:states       # Generate state heraldry only
+   npm run heraldry:gen:provinces    # Generate province heraldry only
+   npm run heraldry:gen:burgs        # Generate burg heraldry only
+   ```
+
+7. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-7. **Build Catalog**
+8. **Build Catalog**
    ```bash
    npm run catalog:build  # Create compact UI index
    ```
 
-8. **View Results**
+9. **View Results**
    ```bash
    python3 -m http.server 8000
    # Open http://localhost:8000/loregen-dashboard.html
@@ -76,6 +84,12 @@ A comprehensive world-building system that generates rich lore for fantasy world
 
 ### Cross-Link Suggestions (Deterministic Affinities + Hook Placements)
 - **Generate cross-link suggestions**: `npm run links:suggest`
+
+### Heraldry Generation (Armoria Integration)
+- **Generate all heraldry**: `npm run heraldry:gen`
+- **Generate state heraldry**: `npm run heraldry:gen:states`
+- **Generate province heraldry**: `npm run heraldry:gen:provinces`
+- **Generate burg heraldry**: `npm run heraldry:gen:burgs`
 
 ### Rich Lore Generation
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
@@ -117,7 +131,7 @@ Intelligent model selection for optimal cost/quality balance:
 
 Generated content is organized across multiple directories:
 
-```
+```text
 facts/              # Base facts from Azgaar
 ├── state/          # State facts
 ├── burg/           # Burg facts
@@ -148,6 +162,12 @@ canon/              # Canon outlines (two-pass foundation)
     └── hooks/      # Hook template definitions
         └── hook_untranslated_monolith.outline.json # Untranslated monolith hook
 
+assets/             # Generated assets
+└── heraldry/       # Armoria-generated coat of arms
+    ├── state/      # State heraldry (SVG files)
+    ├── province/   # Province heraldry (SVG files)
+    └── burg/       # Burg heraldry (SVG files)
+
 index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
 │   ├── state/      # State prompt packs
@@ -156,6 +176,7 @@ index/              # LLM-optimized data
 ├── catalog.json    # UI catalog (kingdoms + burgs)
 ├── markers.json    # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
+├── heraldry_map.json # Heraldry index (states, provinces, burgs → SVG paths)
 ├── dirty.seeds.json # Event-driven change seeds
 ├── validate-summary.json # Validation results
 ├── runs/           # Usage logs (daily files)
@@ -264,9 +285,18 @@ open http://localhost:3002
 
 ### Rich Data Processing
 - **Azgaar integration**: Extracts facts from fantasy map generators
+- **Canonical name mapping**: Uses exact names from master JSON (e.g., "Slor'th" not "State_1")
 - **Derived statistics**: Computes aggregations (top burgs, dominant cultures, etc.)
 - **Prompt optimization**: Creates compact, LLM-ready fact packs
 - **Validation**: Sanity checks prevent contradictions
+
+### Armoria Heraldry Integration
+- **Deterministic generation**: Same entity always generates same coat of arms
+- **Stable file names**: Safe seed generation for consistent paths
+- **Concurrent processing**: Configurable API rate limiting for efficiency
+- **Comprehensive indexing**: Complete mapping for UI integration
+- **Multiple formats**: SVG (preferred) and PNG support
+- **Environment configuration**: ARMORIA_BASE, HERALDRY_FORMAT, HERALDRY_SIZE, HERALDRY_CONCURRENCY
 
 ### Structured Outputs
 - Uses OpenAI **Chat Completions API** with **json_schema** response_format
@@ -287,12 +317,13 @@ open http://localhost:3002
 - **tsx** for development execution
 
 ### File Structure
-```
+```text
 src/
 ├── gen/            # AI generation utilities
 ├── pipelines/      # Lore generation scripts
 ├── derive/         # Data derivation and aggregation
-├── ingest/         # Azgaar data processing
+├── ingest/         # Azgaar data processing & canonical names
+├── heraldry/       # Armoria heraldry integration
 ├── graph/          # Dependency tracking
 ├── validate/       # Output validation
 ├── util/           # Helper functions
@@ -323,6 +354,14 @@ npm run canon:burg:outline         # Burg outlines (from fact data)
 ```bash
 npm run canon:markers:index        # Extract markers from Azgaar JSON
 npm run links:suggest              # Generate cross-state affinities + marker-driven hook placements
+```
+
+**Heraldry Generation:**
+```bash
+npm run heraldry:gen               # Generate all heraldry (states, provinces, burgs)
+npm run heraldry:gen:states        # Generate state heraldry only
+npm run heraldry:gen:provinces     # Generate province heraldry only
+npm run heraldry:gen:burgs         # Generate burg heraldry only
 ```
 
 **Rich Lore Generation:**

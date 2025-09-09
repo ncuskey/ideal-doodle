@@ -1,54 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_45072115",
+  "checksum": "fnv1a_bd9a288d",
   "burg_id": 363,
-  "name": "Burg_363",
+  "name": "Skiptonter",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "ritual-labor",
-    "coastal",
-    "waystation"
+    "none",
+    "river-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply",
+    "river-trade",
     "fishing",
-    "waystation-trade"
+    "reagent-brokering",
+    "boat-repair"
   ],
   "factions_local": [
-    "lab-guild",
-    "harbourers",
-    "coastal-clans"
+    "skippers' cooperative",
+    "shrines of Sea-Tide",
+    "reagent-runners"
   ],
   "problems": [
     "reagent-scarcity",
-    "banditry",
-    "smuggling"
+    "bandit raids",
+    "corrupt dock-licensing"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "seafaring customs",
-    "fish-centered cuisine",
-    "ritualized trade etiquette"
+    "Riveric Dialect influence",
+    "annual tide-festival with boat races",
+    "diet: smoked fish & kelp"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-supply shortage",
-    "shipwreck salvage"
+    "disappearances",
+    "augury-theft"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Rituals consume scarce imported reagents",
-    "Long-range mind influence rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "no long-range mind influence (banned)",
+    "no high-pressure steam industry"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "Navigational auguries exist but don't replace seamanship"
+    "Location: river mouth / coastal fringe; loose state ties",
+    "Population unknown; transient seafaring populace"
   ],
-  "generated_at": "2025-09-09T04:26:40.741Z"
+  "generated_at": "2025-09-09T05:38:52.237Z"
 }

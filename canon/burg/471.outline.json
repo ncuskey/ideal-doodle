@@ -1,33 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d3d4f775",
+  "checksum": "fnv1a_5ce84e3c",
   "burg_id": 471,
-  "name": "Burg_471",
+  "name": "Gatholukk",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-node"
+    "coastal-inlet",
+    "ritual-supply-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "salt-processing",
-    "ritual-labor",
-    "transshipment"
+    "ritual-ingredient trade",
+    "waystation/berthing fees",
+    "low-profile smuggling"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ancestor-Seers",
-    "Smugglers' Cell",
-    "Visiting Merchants"
+    "Shipmasters' Cooperative",
+    "Ritual Brokerage (licensed)",
+    "Ancestor-Keeper Clan",
+    "Smuggler Cell"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry",
-    "reagent-shortage",
-    "silted-anchorage"
+    "reagent scarcity",
+    "smuggling pressure",
+    "marsh-borne disease",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,24 +34,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "tide-based festivals tied to ritual calendar",
-    "diet heavy on salted and smoked seafood",
-    "ancestral tattoos mark family roles"
+    "Coastal Tongues dialect with pidgin loanwords",
+    "Ancestor veneration structures daily life",
+    "Diet centers on salted fish, seaweed, preserved mollusks",
+    "Ritual marking and small offerings common in commerce"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-supply",
-    "missing-fisher"
+    "missing reagent shipment",
+    "tide-monster harassment"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and banned"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "navigational auguries exist but do not replace seamanship"
+    "Small tidal harbor; causeway submerged at high tide",
+    "Population unknown; transient crews and seasonal laborers predominate"
   ],
-  "generated_at": "2025-09-09T04:34:20.406Z"
+  "generated_at": "2025-09-09T05:45:44.383Z"
 }

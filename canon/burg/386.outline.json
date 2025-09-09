@@ -1,48 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e5e501d3",
+  "checksum": "fnv1a_55278ce8",
   "burg_id": 386,
-  "name": "Burg_386",
-  "state_id": -1,
+  "name": "Dunshilme",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "fishing",
+    "crossroads"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal fishing",
-    "reagent trade",
-    "waystation services"
+    "fishing",
+    "salt-curing",
+    "shipwrights",
+    "ritual-auguries"
   ],
   "factions_local": [
-    "harbor master's guild",
-    "reagent merchants' syndicate",
-    "sea-rite priests"
+    "harbor guild",
+    "fisherfolk cooperative",
+    "sea-ritual circle",
+    "smuggler ring"
   ],
   "problems": [
-    "supply scarcity",
-    "smuggling",
-    "storm damage"
+    "storm damage",
+    "reagent scarcity",
+    "smuggling conflicts",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Island Creole loanwords",
-    "ship-blessing customs and small sea-offerings",
-    "diet: salted fish, fermented seaweed"
+    "Coastal Tongues dialect",
+    "diet of smoked/salted fish",
+    "tide-and-ancestor festivals",
+    "practical craft traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen reagents",
-    "shipwreck salvage"
+    "ritual reagent theft",
+    "harbor damage after storm"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no long-range mind-influence; no instant resurrection"
+    "rituals require scarce imported reagents",
+    "long-range mind influence rare/forbidden"
   ],
   "notes": [
-    "small lighthouse/night beacon tended by guild",
-    "frequent waypoint for coastal traders and ritual couriers"
+    "near-medieval to early-industrial tech",
+    "small port serving coastal lanes",
+    "state authority unclear"
   ],
-  "generated_at": "2025-09-09T04:28:10.290Z"
+  "generated_at": "2025-09-09T05:40:21.285Z"
 }

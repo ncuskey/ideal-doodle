@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_shipwright_quarter",
+  "checksum": "fnv1a_cefccbf2",
+  "name": "Shipwright Quarter",
+  "aliases": [
+    "Drydock Ward",
+    "Keelrow",
+    "Ropewalk Precinct"
+  ],
+  "tags": [
+    "maritime",
+    "guild",
+    "shipbuilding",
+    "repair",
+    "portside"
+  ],
+  "role_in_state": "Primary shipbuilding and fleet repair hub",
+  "economy_niches": [
+    "Hull construction & repair yards",
+    "Sailmaking, ropeworks, and rigging workshops",
+    "Timber seasoning, tar & pitch preparation",
+    "Guild-run apprenticeship schools and toolsmiths",
+    "Packaging and staging of imported ritual reagents for sea rites"
+  ],
+  "culture_adjustments": [
+    "Stricter guild hierarchy and visible insignia",
+    "Practical, tool-centered rituals tied to work shifts",
+    "Port slang heavily mixed with Island Creole for trade",
+    "Apprenticeship status dictates household roles and schooling",
+    "Tavern parley and dockside arbitration override formal augury"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "dockyard fire",
+    "saltwater corrosion",
+    "labor strikes / guild feuds",
+    "contraband smuggling",
+    "tidal inundation"
+  ],
+  "constraints": [
+    "limited space for expansion along crowded quays",
+    "heavy reliance on imported seasoned timber and reagents",
+    "guild charters restrict outside workshop establishment"
+  ],
+  "notes": [
+    "Supplies specialist ritual reagent-packing for voyage protections",
+    "Apprenticeship pipeline supplies state fleet crews and foremen",
+    "Buildings reinforced for heavy lifting; narrow lanes hamper wagons"
+  ],
+  "generated_at": "2025-09-09T05:08:01.130Z"
+}

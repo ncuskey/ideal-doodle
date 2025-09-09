@@ -1,51 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_67bf0fcd",
+  "checksum": "fnv1a_a2c154ad",
   "burg_id": 90,
-  "name": "Burg_90",
-  "state_id": 0,
+  "name": "Adingford",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "ford",
+    "crossroads",
+    "river-trade"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "minor port",
-    "ritual-reagent trade",
-    "fisherfolk",
-    "waystation"
+    "ferry-services",
+    "grain-market",
+    "boatbuilding",
+    "ritual-supplies"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual-scribes",
-    "smugglers' ring"
+    "river-guild",
+    "ancestor-temple-circle",
+    "merchant-brotherhood-cell",
+    "town-militia"
   ],
   "problems": [
-    "reagent scarcity",
+    "seasonal-flooding",
+    "reagent-scarcity",
     "smuggling",
-    "seasonal storms"
+    "banditry"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "seaweed-and-fish cuisine",
-    "evening tide-rituals to bless voyages"
+    "Riveric Dialects",
+    "spring ford-festa (crossing rites)",
+    "smoked-fish and bakestone cakes",
+    "strong boatcraft tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "strange lights at sea"
+    "missing-ancestor-relic",
+    "flood-threat"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind-control allowed",
-    "limited combustion industry (no high-pressure steam)"
+    "ritual-magic requires scarce imported reagents",
+    "no long-range mind influence (banned/infrequent)",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "small transient population of sailors and traders",
-    "resupply point for coastal navigation"
+    "small ford-town on a minor river",
+    "seasonal strategic crossing on regional route",
+    "growth limited by reagent import costs"
   ],
-  "generated_at": "2025-09-09T04:37:47.110Z"
+  "generated_at": "2025-09-09T05:49:35.665Z"
 }

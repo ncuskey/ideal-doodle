@@ -1,56 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_113f3677",
+  "checksum": "fnv1a_cb999261",
   "burg_id": 133,
-  "name": "Burg_133",
+  "name": "Zataph",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "waystation",
-    "ritual-supply"
+    "ritual-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "small-scale trade",
-    "ritual reagent brokerage",
-    "transit stop"
+    "reagent depot",
+    "small-scale fishing",
+    "waystation trade",
+    "ritual-labor services"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritualwrights' Circle",
-    "Coastal Clan",
-    "Smugglers' Coterie"
+    "harbormasters' syndicate",
+    "ritual-guild workshop",
+    "tide-priest circle",
+    "coastal smugglers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry on supply routes",
-    "storm and harbor damage"
+    "reagent scarcity",
+    "seasonal storm isolation",
+    "smuggling pressure",
+    "sporadic raider landings"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "seafood- and salt-preserved cuisine",
-    "tide-timed ritual calendar",
-    "suspicious of outsiders and fast deals"
+    "Coastal Tongues influence with Island Creole loanwords",
+    "tide-festival and boat-ancestor rites",
+    "diet heavy on smoked fish and pickled seaweed"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "ritual reagent theft",
-    "missing boats/crews"
+    "missing reagent shipment",
+    "spirit agitation at low tide",
+    "smuggling run uncovered"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Navigational auguries cannot replace seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no true resurrection or long-range mind control"
   ],
   "notes": [
-    "Population unknown; transient seasonal traffic",
-    "State affiliation unclear; pragmatic local governance"
+    "navigational auguries used but charts and seamanship still essential",
+    "limited combustion industry; artisanal craft and ritual labor dominate"
   ],
-  "generated_at": "2025-09-09T04:11:20.541Z"
+  "generated_at": "2025-09-09T23:10:10.521Z"
 }

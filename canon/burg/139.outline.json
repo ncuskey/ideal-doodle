@@ -1,53 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ca896993",
+  "checksum": "fnv1a_913b1c3d",
   "burg_id": 139,
-  "name": "Burg_139",
-  "state_id": 0,
+  "name": "Feinslozoy",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "outpost",
-    "harbor",
-    "ritual-site"
+    "ritual-node",
+    "crossroads"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-labor",
-    "coastal-trade"
+    "ritual-labour",
+    "waystation",
+    "fishing"
   ],
   "factions_local": [
-    "temple-clan",
-    "smugglers' crew",
-    "harbor-guild"
+    "ritual-cabal",
+    "harbormasters",
+    "smugglers"
   ],
   "problems": [
-    "scarce-reagents",
-    "storm-flood risk",
-    "bandit raids"
+    "reagent-scarcity",
+    "banditry",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "boat-blessing customs",
-    "salted-seafood cuisine"
+    "Riveric Dialect with Coastal borrowings",
+    "diet heavy on smoked fish and preserved kelp",
+    "local rituals tied to imported reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-shortage",
-    "shipwreck salvage"
+    "ritual-failure",
+    "missing-vessel"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection magics",
-    "long-range mind influence rare and banned"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents or specialized labor",
+    "combustion-derived industry limited"
   ],
   "notes": [
-    "navigation uses charts + auguries",
-    "local labor tied to tide cycles"
+    "near minor trade crossroads",
+    "wet, wind-swept climate affects storage and transport"
   ],
-  "generated_at": "2025-09-09T04:11:41.828Z"
+  "generated_at": "2025-09-09T23:10:41.732Z"
 }

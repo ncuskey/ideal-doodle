@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9dbb7671",
+  "checksum": "fnv1a_cf94b13a",
   "burg_id": 36,
-  "name": "Burg_36",
-  "state_id": -1,
-  "province_id": "unknown",
+  "name": "Ozbiard",
+  "state_id": 0,
+  "province_id": "",
   "tags": [
-    "coastal",
-    "ritual-labor",
-    "harbor"
+    "none",
+    "river-crossing",
+    "ritual-reagent-trade"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-supply",
-    "maritime-trade",
-    "ship-repair"
+    "ferry/waystation",
+    "reagent merchants",
+    "local markets",
+    "artisanal smithing"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ancestor Circle",
-    "Shrine-Keepers"
+    "Riverwardens",
+    "Ferrymen's Guild",
+    "Keeper Circle (ritualists)",
+    "Caravan Merchants"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry-on-shores",
-    "trade-rivalry"
+    "banditry on approaches",
+    "scarce ritual reagents",
+    "trade-route competition"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues common; Riveric pidgin in markets",
-    "seafood-heavy cuisine; tide-based festivals",
-    "ritual labor organized as guild-like crews"
+    "Riveric dialect with Highland Cant loanwords",
+    "ancestor veneration informs market rituals",
+    "fish-and-smoked-grain cuisine",
+    "market-day as communal ritual"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-ingredient-theft",
-    "shipwreck-salvage"
+    "missing ferryman",
+    "ritual contamination"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents"
+    "no instant resurrection or life-replacement magic",
+    "rituals consume scarce imported reagents",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "tech: near-medieval to early-industrial",
-    "navigational-auguries present but cannot replace seamanship"
+    "population unknown; strategic river crossing",
+    "near-medieval/early-industrial tech baseline"
   ],
-  "generated_at": "2025-09-09T04:26:25.777Z"
+  "generated_at": "2025-09-09T05:38:24.339Z"
 }

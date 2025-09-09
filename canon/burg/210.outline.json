@@ -1,32 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_dfd3d82f",
+  "checksum": "fnv1a_5882cc0a",
   "burg_id": 210,
-  "name": "Burg_210",
+  "name": "Ormshilton",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "reagent-stop",
-    "ritual-lab"
+    "river-port",
+    "ritual-market"
   ],
-  "size_hint": "small",
+  "size_hint": "medium",
   "economy_roles": [
-    "fishing",
-    "reagent brokerage",
-    "ship provisioning",
-    "smuggling"
+    "river-trade",
+    "grain-market",
+    "ritual-reagents-trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "Dockmasters' Guild",
-    "Reagent Brokers",
-    "Ancestor Circle",
+    "Boatmen's Guild",
+    "Merchant Syndicate",
+    "Ancestral Shrine Circle",
     "Smugglers' Ring"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling crackdowns",
-    "tidal erosion"
+    "seasonal-flooding",
+    "banditry-on-river",
+    "reagent-scarcity",
+    "local-corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,23 +34,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical argot",
-    "diet: smoked fish, seaweed, salted provisions",
-    "regular tide-festivals and small votive offerings"
+    "Riveric dialect dominant",
+    "Boat-blessing ceremonies each high tide",
+    "Cuisine emphasizes smoked fish and river grains",
+    "Markets operate on tide-timed schedule"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen reagents",
-    "missing fishermen"
+    "ritual-reagent-heist",
+    "seasonal-flood"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or long-range mind influence",
-    "limited combustion industry; no high-pressure steamworks"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "sheltered cove; frequent coastal trader waypoint",
-    "seasonal population surge during trading season"
+    "State affiliation unknown",
+    "Located on a Riveric trade junction; tide-influenced operations"
   ],
-  "generated_at": "2025-09-09T04:16:24.504Z"
+  "generated_at": "2025-09-09T05:28:49.190Z"
 }

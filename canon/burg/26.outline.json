@@ -1,54 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2c517935",
+  "checksum": "fnv1a_21cb31aa",
   "burg_id": 26,
-  "name": "Burg_26",
+  "name": "Trerurum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-hub",
-    "boat-fleet"
+    "coastal",
+    "ritual-trade"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-supplies",
-    "boat-repair",
-    "local-trade"
+    "ritual-reagents trade",
+    "coastal fishing",
+    "ferry/waystation"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-guild",
-    "fisherfolk-council"
+    "Shrine-keepers",
+    "Harbormasters",
+    "Smuggler coterie"
   ],
   "problems": [
-    "scarce-reagents",
-    "smuggling",
-    "seasonal-flooding"
+    "scarce reagents",
+    "banditry on approaches",
+    "local corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects",
-    "river-blended cuisine (smoked fish, riverweed)",
-    "evening ancestor-offerings at docks"
+    "Coastal Tongues dialect with heavy nautical slang",
+    "ritualized loading/offering customs at docks",
+    "salt-cured and smoked seafood cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-priest"
+    "ritual mishap",
+    "missing reagent shipment"
   ],
   "constraints": [
-    "rituals consume imported reagents",
-    "no long-range mind-control usage",
-    "limited combustion industry"
+    "no-instant-resurrection",
+    "long-range mind influence banned",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "near-medieval tech with local ritual practices",
-    "small seasonal population fluctuation"
+    "population unknown; small tidal outpost likely at a river mouth",
+    "local economy hinges on irregular reagent shipments"
   ],
-  "generated_at": "2025-09-09T04:19:34.725Z"
+  "generated_at": "2025-09-09T05:31:57.307Z"
 }

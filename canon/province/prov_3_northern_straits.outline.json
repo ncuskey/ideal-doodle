@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_northern_straits",
+  "checksum": "fnv1a_82303d36",
+  "name": "Northern Straits",
+  "aliases": [
+    "North Straits",
+    "Straitsward"
+  ],
+  "tags": [
+    "coastal",
+    "straits",
+    "shipyards",
+    "saltworks",
+    "reagent-hub"
+  ],
+  "role_in_state": "Maritime gateway and reagent import hub",
+  "economy_niches": [
+    "shipbuilding and repair (small-to-medium rigs)",
+    "saltworks and salting/curing",
+    "fisheries and fish-curing",
+    "bonded reagent handling and storage",
+    "pilotage, towage and navigational rite services"
+  ],
+  "culture_adjustments": [
+    "Accelerated apprenticeships for pilots and rig crews",
+    "Strong shore-born pilot caste with its own rites",
+    "Tolerated smuggling culture alongside licensed trade",
+    "Practical ritualism centered on currents and fog-auguries"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm funneling",
+    "fogbound navigational hazards",
+    "smuggling and theft",
+    "tidal flooding of low saltworks"
+  ],
+  "constraints": [
+    "Heavy dependence on imported ritual reagents",
+    "Shallow channels limit largest ocean-going craft",
+    "Guild monopolies restrict new shipwright entries"
+  ],
+  "notes": [
+    "Strategic chokepoint for state maritime traffic",
+    "Seasonal pilotage fees spike during fog season",
+    "Salt product tailored for preserving reagents and cured fish"
+  ],
+  "generated_at": "2025-09-09T05:06:20.970Z"
+}

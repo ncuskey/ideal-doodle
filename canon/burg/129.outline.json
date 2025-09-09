@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_db4aff55",
+  "checksum": "fnv1a_6aacb033",
   "burg_id": 129,
-  "name": "Burg_129",
-  "state_id": -1,
+  "name": "Wruil",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-mouth",
-    "reagent-waystation"
+    "none",
+    "harbor",
+    "ritual-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
+    "fishing",
     "reagent trade",
-    "small-scale fishing",
-    "boat repair",
-    "waystation services"
+    "ship repair",
+    "smuggling"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ritualist Lodge",
-    "Smuggler Coterie"
+    "Harbormaster's Lodge",
+    "Tide-Ritual Circle",
+    "Fisher Cooperative",
+    "Cut of Night (smugglers)"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal flooding",
-    "smuggling pressure"
+    "tidal storms",
+    "bandit raids",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "Tidal festival calendar",
-    "Diet: salted fish and fermented kelp"
+    "Coastal Tongues dialect with nautical idioms",
+    "tide-superstition offerings before voyages",
+    "salted-fish and kelp preserves staple",
+    "ritual tattoos mark rites of passage"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "strange tides"
+    "missing fishermen",
+    "reagent theft"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace seamanship",
-    "rituals consume scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence banned; no instant resurrection"
   ],
   "notes": [
-    "Small outpost at a minor channel mouth, services passing vessels",
-    "Strategic for local reagent import/export and short-range augury readings"
+    "rocky cove harbor with shallow approaches",
+    "navigational auguries used but charts and seamanship required"
   ],
-  "generated_at": "2025-09-09T04:11:05.052Z"
+  "generated_at": "2025-09-09T23:09:59.337Z"
 }

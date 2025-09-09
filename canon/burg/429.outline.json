@@ -1,55 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f7af9f4f",
+  "checksum": "fnv1a_8a190eff",
   "burg_id": 429,
-  "name": "Burg_429",
+  "name": "Sraj'jashin",
   "state_id": 0,
-  "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "waystation",
-    "ritual-depot"
-  ],
-  "size_hint": "outpost",
+  "province_id": "",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "small-scale fishing",
-    "harbor services",
-    "smuggling hub"
+    "fishing",
+    "ritual-workshops",
+    "small-scale-trading",
+    "smuggling-waypoint"
   ],
   "factions_local": [
-    "Harbormaster's Lodge",
-    "Ancestor Circle (local)",
-    "Merchant Cutter Syndicate",
-    "Tidepriest Sects"
+    "harbor-masters",
+    "tide-clan-elders",
+    "ritual-guildlet",
+    "smuggler-crew"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling & piracy",
-    "supply isolation"
+    "scarce-ritual-reagents",
+    "banditry-on-coast",
+    "harbor-siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "dialect: Coastal Tongues with Riveric loanwords",
-    "custom: nightly tide-offerings",
-    "cuisine: salted fish, fermented seaweed",
-    "governance: de facto harbormaster and elders"
+    "Coastal Tongues dialect",
+    "seaweed-and-salted-fish cuisine",
+    "tide-offering rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "ritual mishap"
+    "reagent-theft",
+    "missing-sailors"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection; long-range mind magic banned"
+    "rituals-consume-scarce-imported-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "state assignment unknown; population unknown",
-    "strategic minor harbor on coastal trade routes"
+    "sheltered-inlet; navigational-auguries practiced",
+    "seasonal population swell during tide-festivals"
   ],
-  "generated_at": "2025-09-09T04:31:09.676Z"
+  "generated_at": "2025-09-09T05:43:07.325Z"
 }

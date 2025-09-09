@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6c08adef",
+  "checksum": "fnv1a_96181f5a",
   "burg_id": 294,
-  "name": "Burg_294",
+  "name": "Cetidavar",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-harbor"
+    "none",
+    "river-crossing",
+    "ritual-labour"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "river trade",
     "fishing",
-    "ritual-reagent-trade",
-    "waystation"
+    "ritual workshops",
+    "tannery"
   ],
   "factions_local": [
-    "harbor-guild",
-    "shrines-coven",
-    "coastal-clan"
+    "River Merchants",
+    "Ancestor Priests",
+    "Dockside Syndicate",
+    "Militia Council"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "seasonal-flooding"
+    "reagent scarcity",
+    "bandit raids",
+    "corruption",
+    "seasonal floods"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "rituals timed to tides",
-    "seaweed-and-shell cuisine",
-    "oral ship-song tradition"
+    "Riveric Dialect dominant",
+    "Ancestor veneration tied to trade rites",
+    "diet: salted fish and fermented riverweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "missing-fisherfolk"
+    "ritual reagent theft",
+    "disappearances"
   ],
   "constraints": [
-    "rituals-rely-on-scarce-imported-reagents",
-    "long-range-mind-influence-illegal"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or long-range mind control",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "navigational-auguries-used-without-replacing-seamanship",
-    "limited-combustion-industry"
+    "Population unknown; sits at a strategic ford",
+    "Local crafts: ritual inks, tide-charms, leather goods"
   ],
-  "generated_at": "2025-09-09T04:22:03.498Z"
+  "generated_at": "2025-09-09T05:34:16.855Z"
 }

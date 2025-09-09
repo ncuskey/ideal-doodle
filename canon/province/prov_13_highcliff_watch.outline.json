@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_highcliff_watch",
+  "checksum": "fnv1a_71699283",
+  "name": "Highcliff Watch",
+  "aliases": [
+    "Highcliff",
+    "The Watch"
+  ],
+  "tags": [
+    "cliff-fort",
+    "naval-watch",
+    "reagent-hub",
+    "salt-terrace"
+  ],
+  "role_in_state": "coastal defensive outpost and transshipment node",
+  "economy_niches": [
+    "cliffside salt-terraces and brine processing",
+    "small-ship repair and shipwright apprenticeships",
+    "smoke-dried and salted fish curing",
+    "reagent packing, storage and relay for ritual trade",
+    "lookout provisioning and watch-supply trades"
+  ],
+  "culture_adjustments": [
+    "watch-cant supplanting long-form maritime epics",
+    "stronger martial and lookout ritual practice",
+    "guild-militias hold civic authority over clans locally",
+    "rotating clan watch-bands organize labor and passage",
+    "practical sigil-navigation emphasized over ceremonials"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "raiding corsairs",
+    "reagent theft",
+    "supply-embargoes"
+  ],
+  "constraints": [
+    "limited arable land",
+    "reliance on imported ritual reagents",
+    "guild permits required for ritual operations",
+    "no large-scale combustion/steam industry"
+  ],
+  "notes": [
+    "seasonal auguries precede patrol rotations",
+    "watch-towers double as reagent stores and granaries",
+    "signal-songs encode short-range warnings"
+  ],
+  "generated_at": "2025-09-09T05:04:29.431Z"
+}

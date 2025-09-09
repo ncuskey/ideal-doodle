@@ -1,56 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2fb137d7",
+  "checksum": "fnv1a_2919ef36",
   "burg_id": 355,
-  "name": "Burg_355",
+  "name": "Brampton",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "harbor",
-    "ritual-lighthouse"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-supply transshipment",
-    "lantern-keeping / beacon services",
-    "seasonal salt-harvest"
+    "agriculture",
+    "local trade",
+    "grain milling",
+    "caravan stop"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Keeper Circle (lantern cult)",
-    "Smugglers' Ring",
-    "Coastal Militia"
+    "Town Council",
+    "Millers' Guild",
+    "Caravanmasters",
+    "Volunteer Militia"
   ],
   "problems": [
-    "scarce imported ritual reagents",
-    "smuggling and black-market trade",
-    "storm damage and supply isolation"
+    "banditry",
+    "reagent scarcity",
+    "poor roads"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with clipped nautical terms",
-    "Diet heavy on salted fish, seaweed, preserved kelp",
-    "Nightly lantern rites to calm sea-spirits",
-    "Wary of outsiders; hospitality tied to gift-offerings"
+    "Riveric dialect dominant",
+    "harvest rites honoring ancestors",
+    "diet: salted grain, smoked meat"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-ingredient theft",
-    "storm-omen investigations"
+    "bandit raids",
+    "reagent theft"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents; costly and regulated",
-    "Long-range mind-influence is rare and institutionally banned"
+    "ritual magic needs scarce imported reagents",
+    "no instant resurrection; long-range mind influence banned",
+    "limited combustion industry (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "Near-medieval tech with pervasive localized ritual practices",
-    "Beacon atop an old brazier used in navigation augury"
+    "near-medieval to early-industrial tech",
+    "strategic crossroads on inland route",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:26:28.688Z"
+  "generated_at": "2025-09-09T05:38:05.720Z"
 }

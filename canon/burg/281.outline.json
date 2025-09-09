@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9c1c57d3",
+  "checksum": "fnv1a_dd0a2c3e",
   "burg_id": 281,
-  "name": "Burg_281",
+  "name": "Cerlin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-port"
+    "river-crossing",
+    "ferry-point",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-workshop",
-    "small-scale fishing",
-    "waystation/ship-provisions",
-    "salt-and-dried-fish trade"
+    "ferry-tolls",
+    "ritual-supplies",
+    "river-fishing",
+    "local-market barter"
   ],
   "factions_local": [
-    "ritual-guildlet",
-    "harbor-cooperative",
-    "elder-council",
-    "smugglers' clique"
+    "ferry-guild",
+    "ritual-priests",
+    "river-militia",
+    "smuggler-ring"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry on coastal approaches",
-    "corruption in port permits"
+    "flooding",
+    "reagent scarcity",
+    "bandit raids",
+    "corrupt tolls"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "diet heavy on salted fish and seaweed preserves",
-    "local taboos around night-time auguries and ship rites"
+    "Riveric Dialect with Coastal Tongue loanwords",
+    "boat-offering rituals frequent",
+    "diet: smoked fish, reedbread",
+    "wary hospitality toward strangers"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "shipwreck salvage"
+    "flood",
+    "ritual-theft"
   ],
   "constraints": [
+    "no instant resurrection",
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "long-range mind influence banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech level",
-    "navigational auguries used but charts and seamanship required"
+    "population unknown",
+    "strategic shallow crossing for upriver trade"
   ],
-  "generated_at": "2025-09-09T04:20:58.223Z"
+  "generated_at": "2025-09-09T05:33:33.564Z"
 }

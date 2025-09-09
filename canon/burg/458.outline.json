@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_86fa7173",
+  "checksum": "fnv1a_cdd0805c",
   "burg_id": 458,
-  "name": "Burg_458",
+  "name": "Zighel",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-stop"
+    "riverine",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
+    "river-stop",
     "fishing",
-    "ritual-labor-for-hire",
-    "small-scale-trade"
+    "small-ritual-lab",
+    "timber-floating"
   ],
   "factions_local": [
-    "Harbor Cooperative",
-    "Itinerant Ritualists",
-    "Smuggler Crew"
+    "Boatmen's Guild",
+    "Harbormaster's Lodge",
+    "Ancestor Circle (local)",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarce-ritual-reagents",
-    "storm-damage",
-    "smuggling"
+    "shortage-of-ritual-reagents",
+    "seasonal-flooding",
+    "bandit-brigades",
+    "contraband-trade"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant with Island Creole pidgin",
-    "diet: salted fish, seaweed preserves",
-    "tide-timed rituals and calendars"
+    "Riveric dialect dominant with coastal loanwords",
+    "Household ancestor shrines common",
+    "Diet: smoked fish, river greens",
+    "Tidal-calendar rituals tied to work and luck"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "shipwreck-recovery"
+    "missing-ritual-components",
+    "river-spirits-agitation"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-imported-reagents",
-    "long-range-mind-magic-banned"
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents or specialized labor"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational-auguries supplement but do not replace charts/seamanship"
+    "Located near river mouth on tidal flats",
+    "Sparse records; name variants common",
+    "Navigational auguries used but charts and seamanship required"
   ],
-  "generated_at": "2025-09-09T04:33:19.222Z"
+  "generated_at": "2025-09-09T05:44:53.348Z"
 }

@@ -1,31 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e753d5f5",
+  "checksum": "fnv1a_31daf92e",
   "burg_id": 40,
-  "name": "Burg_40",
+  "name": "Bretlewen",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "ritual-harbor"
+    "ritual-reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
     "reagent-trade",
-    "lighthouse-services",
-    "shipwrights"
+    "ship-provisioning",
+    "artisan-ropemaking"
   ],
   "factions_local": [
-    "Tide-Remembrancers",
-    "Harbor Guild",
-    "Smuggler Ring",
-    "Coastal Watch"
+    "harbor-guild",
+    "reagent-merchant-house",
+    "tide-priesthood",
+    "smugglers-cell"
   ],
   "problems": [
     "reagent-scarcity",
-    "seasonal-storms",
-    "smuggling-conflicts"
+    "smuggling",
+    "coastal-erosion",
+    "local-corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,22 +36,23 @@
   ],
   "culture_notes": [
     "Coastal Tongues dialect",
-    "tide-rituals set work rhythms",
-    "salt-cured seafood staple",
-    "captain-deference in social order"
+    "tide-festivals and funerary offerings",
+    "seafood-heavy cuisine",
+    "ritual-use tattoos and small shrines"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "shipwreck-exploration"
+    "reagent-theft",
+    "tidal-omen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind influence allowed"
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "rituals-consume-scarce-imported-reagents"
   ],
   "notes": [
-    "navigational auguries aid but do not replace charts",
-    "combustion industry limited"
+    "small strategic harbor reliant on imports",
+    "vulnerable to storm surge and supply disruptions"
   ],
-  "generated_at": "2025-09-09T04:29:08.173Z"
+  "generated_at": "2025-09-09T05:41:06.753Z"
 }

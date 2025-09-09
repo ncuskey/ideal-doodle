@@ -1,0 +1,5427 @@
+{
+  "world_id": "world",
+  "generated_at": "2025-09-09T05:03:50.207Z",
+  "checksum": "fnv1a_fca18343",
+  "count": 604,
+  "items": [
+    {
+      "kind": "state",
+      "id": 0,
+      "name": "State_0",
+      "seed": "world:state:0:State_0",
+      "path": "assets/heraldry/state/0.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 1,
+      "name": "State_1",
+      "seed": "world:state:1:State_1",
+      "path": "assets/heraldry/state/1.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 10,
+      "name": "State_10",
+      "seed": "world:state:10:State_10",
+      "path": "assets/heraldry/state/10.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 11,
+      "name": "State_11",
+      "seed": "world:state:11:State_11",
+      "path": "assets/heraldry/state/11.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 12,
+      "name": "State_12",
+      "seed": "world:state:12:State_12",
+      "path": "assets/heraldry/state/12.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 13,
+      "name": "State_13",
+      "seed": "world:state:13:State_13",
+      "path": "assets/heraldry/state/13.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 14,
+      "name": "State_14",
+      "seed": "world:state:14:State_14",
+      "path": "assets/heraldry/state/14.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 15,
+      "name": "State_15",
+      "seed": "world:state:15:State_15",
+      "path": "assets/heraldry/state/15.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 16,
+      "name": "State_16",
+      "seed": "world:state:16:State_16",
+      "path": "assets/heraldry/state/16.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 2,
+      "name": "State_2 (coastal)",
+      "seed": "world:state:2:State_2 (coastal)",
+      "path": "assets/heraldry/state/2.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 3,
+      "name": "State_3",
+      "seed": "world:state:3:State_3",
+      "path": "assets/heraldry/state/3.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 4,
+      "name": "State_4",
+      "seed": "world:state:4:State_4",
+      "path": "assets/heraldry/state/4.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 5,
+      "name": "State_5 (coastal)",
+      "seed": "world:state:5:State_5 (coastal)",
+      "path": "assets/heraldry/state/5.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 6,
+      "name": "State_6",
+      "seed": "world:state:6:State_6",
+      "path": "assets/heraldry/state/6.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 7,
+      "name": "State_7",
+      "seed": "world:state:7:State_7",
+      "path": "assets/heraldry/state/7.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 8,
+      "name": "State_8",
+      "seed": "world:state:8:State_8",
+      "path": "assets/heraldry/state/8.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "state",
+      "id": 9,
+      "name": "State_9",
+      "seed": "world:state:9:State_9",
+      "path": "assets/heraldry/state/9.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_border_meadow",
+      "state_id": 0,
+      "name": "Border Meadow",
+      "seed": "world:province:prov_0_border_meadow:Border Meadow:s0",
+      "path": "assets/heraldry/province/prov_0_border_meadow.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_high_dike_plains",
+      "state_id": 0,
+      "name": "High Dike Plains",
+      "seed": "world:province:prov_0_high_dike_plains:High Dike Plains:s0",
+      "path": "assets/heraldry/province/prov_0_high_dike_plains.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_high_mire",
+      "state_id": 0,
+      "name": "High Mire",
+      "seed": "world:province:prov_0_high_mire:High Mire:s0",
+      "path": "assets/heraldry/province/prov_0_high_mire.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_hinter_ridge_settlements",
+      "state_id": 0,
+      "name": "Hinter-Ridge Settlements",
+      "seed": "world:province:prov_0_hinter_ridge_settlements:Hinter-Ridge Settlements:s0",
+      "path": "assets/heraldry/province/prov_0_hinter_ridge_settlements.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_lower_marshes",
+      "state_id": 0,
+      "name": "Lower Marshes",
+      "seed": "world:province:prov_0_lower_marshes:Lower Marshes:s0",
+      "path": "assets/heraldry/province/prov_0_lower_marshes.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_lowland_delta",
+      "state_id": 0,
+      "name": "Lowland Delta",
+      "seed": "world:province:prov_0_lowland_delta:Lowland Delta:s0",
+      "path": "assets/heraldry/province/prov_0_lowland_delta.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_port_keral",
+      "state_id": 0,
+      "name": "Port Keral",
+      "seed": "world:province:prov_0_port_keral:Port Keral:s0",
+      "path": "assets/heraldry/province/prov_0_port_keral.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_port_of_skiffs",
+      "state_id": 0,
+      "name": "Port of Skiffs",
+      "seed": "world:province:prov_0_port_of_skiffs:Port of Skiffs:s0",
+      "path": "assets/heraldry/province/prov_0_port_of_skiffs.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_river_gate",
+      "state_id": 0,
+      "name": "River Gate",
+      "seed": "world:province:prov_0_river_gate:River Gate:s0",
+      "path": "assets/heraldry/province/prov_0_river_gate.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_0_saltford",
+      "state_id": 0,
+      "name": "Saltford",
+      "seed": "world:province:prov_0_saltford:Saltford:s0",
+      "path": "assets/heraldry/province/prov_0_saltford.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_capital_docks",
+      "state_id": 10,
+      "name": "Capital Docks",
+      "seed": "world:province:prov_10_capital_docks:Capital Docks:s10",
+      "path": "assets/heraldry/province/prov_10_capital_docks.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_estuary_marches",
+      "state_id": 10,
+      "name": "Estuary Marches",
+      "seed": "world:province:prov_10_estuary_marches:Estuary Marches:s10",
+      "path": "assets/heraldry/province/prov_10_estuary_marches.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_headland_forts",
+      "state_id": 10,
+      "name": "Headland Forts",
+      "seed": "world:province:prov_10_headland_forts:Headland Forts:s10",
+      "path": "assets/heraldry/province/prov_10_headland_forts.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_high_dunes_watch",
+      "state_id": 10,
+      "name": "High Dunes Watch",
+      "seed": "world:province:prov_10_high_dunes_watch:High Dunes Watch:s10",
+      "path": "assets/heraldry/province/prov_10_high_dunes_watch.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_lowshore_plains",
+      "state_id": 10,
+      "name": "Lowshore Plains",
+      "seed": "world:province:prov_10_lowshore_plains:Lowshore Plains:s10",
+      "path": "assets/heraldry/province/prov_10_lowshore_plains.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_outer_archipelago",
+      "state_id": 10,
+      "name": "Outer Archipelago",
+      "seed": "world:province:prov_10_outer_archipelago:Outer Archipelago:s10",
+      "path": "assets/heraldry/province/prov_10_outer_archipelago.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_saltflats_of_kera",
+      "state_id": 10,
+      "name": "Saltflats of Kera",
+      "seed": "world:province:prov_10_saltflats_of_kera:Saltflats of Kera:s10",
+      "path": "assets/heraldry/province/prov_10_saltflats_of_kera.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_saltworks_fringe",
+      "state_id": 10,
+      "name": "Saltworks Fringe",
+      "seed": "world:province:prov_10_saltworks_fringe:Saltworks Fringe:s10",
+      "path": "assets/heraldry/province/prov_10_saltworks_fringe.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_10_ten_harbor",
+      "state_id": 10,
+      "name": "Ten Harbor",
+      "seed": "world:province:prov_10_ten_harbor:Ten Harbor:s10",
+      "path": "assets/heraldry/province/prov_10_ten_harbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_drydock_quarter",
+      "state_id": 11,
+      "name": "Drydock Quarter",
+      "seed": "world:province:prov_11_drydock_quarter:Drydock Quarter:s11",
+      "path": "assets/heraldry/province/prov_11_drydock_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_estuary_hinter",
+      "state_id": 11,
+      "name": "Estuary Hinter",
+      "seed": "world:province:prov_11_estuary_hinter:Estuary Hinter:s11",
+      "path": "assets/heraldry/province/prov_11_estuary_hinter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_estuary_province",
+      "state_id": 11,
+      "name": "Estuary Province",
+      "seed": "world:province:prov_11_estuary_province:Estuary Province:s11",
+      "path": "assets/heraldry/province/prov_11_estuary_province.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_grand_harbor_district",
+      "state_id": 11,
+      "name": "Grand Harbor District",
+      "seed": "world:province:prov_11_grand_harbor_district:Grand Harbor District:s11",
+      "path": "assets/heraldry/province/prov_11_grand_harbor_district.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_island_chain_outposts",
+      "state_id": 11,
+      "name": "Island Chain Outposts",
+      "seed": "world:province:prov_11_island_chain_outposts:Island Chain Outposts:s11",
+      "path": "assets/heraldry/province/prov_11_island_chain_outposts.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_mainport_district",
+      "state_id": 11,
+      "name": "Mainport District",
+      "seed": "world:province:prov_11_mainport_district:Mainport District:s11",
+      "path": "assets/heraldry/province/prov_11_mainport_district.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_northern_fjordlands",
+      "state_id": 11,
+      "name": "Northern Fjordlands",
+      "seed": "world:province:prov_11_northern_fjordlands:Northern Fjordlands:s11",
+      "path": "assets/heraldry/province/prov_11_northern_fjordlands.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_outer_atoll_trading_posts",
+      "state_id": 11,
+      "name": "Outer Atoll Trading Posts",
+      "seed": "world:province:prov_11_outer_atoll_trading_posts:Outer Atoll Trading Posts:s11",
+      "path": "assets/heraldry/province/prov_11_outer_atoll_trading_posts.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_salt_flats",
+      "state_id": 11,
+      "name": "Salt Flats",
+      "seed": "world:province:prov_11_salt_flats:Salt Flats:s11",
+      "path": "assets/heraldry/province/prov_11_salt_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_11_salt_flats_refinery",
+      "state_id": 11,
+      "name": "Salt Flats & Refinery",
+      "seed": "world:province:prov_11_salt_flats_refinery:Salt Flats & Refinery:s11",
+      "path": "assets/heraldry/province/prov_11_salt_flats_refinery.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_cliffwatch",
+      "state_id": 12,
+      "name": "Cliffwatch",
+      "seed": "world:province:prov_12_cliffwatch:Cliffwatch:s12",
+      "path": "assets/heraldry/province/prov_12_cliffwatch.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_estuary_boroughs",
+      "state_id": 12,
+      "name": "Estuary Boroughs",
+      "seed": "world:province:prov_12_estuary_boroughs:Estuary Boroughs:s12",
+      "path": "assets/heraldry/province/prov_12_estuary_boroughs.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_grand_harbor",
+      "state_id": 12,
+      "name": "Grand Harbor",
+      "seed": "world:province:prov_12_grand_harbor:Grand Harbor:s12",
+      "path": "assets/heraldry/province/prov_12_grand_harbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_great_harbor",
+      "state_id": 12,
+      "name": "Great Harbor",
+      "seed": "world:province:prov_12_great_harbor:Great Harbor:s12",
+      "path": "assets/heraldry/province/prov_12_great_harbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_north_salt_flats",
+      "state_id": 12,
+      "name": "North Salt-Flats",
+      "seed": "world:province:prov_12_north_salt_flats:North Salt-Flats:s12",
+      "path": "assets/heraldry/province/prov_12_north_salt_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_outlying_fishing_isles",
+      "state_id": 12,
+      "name": "Outlying Fishing Isles",
+      "seed": "world:province:prov_12_outlying_fishing_isles:Outlying Fishing Isles:s12",
+      "path": "assets/heraldry/province/prov_12_outlying_fishing_isles.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_saltmarsh_delta",
+      "state_id": 12,
+      "name": "Saltmarsh Delta",
+      "seed": "world:province:prov_12_saltmarsh_delta:Saltmarsh Delta:s12",
+      "path": "assets/heraldry/province/prov_12_saltmarsh_delta.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_cliffward_holds",
+      "state_id": 13,
+      "name": "Cliffward Holds",
+      "seed": "world:province:prov_13_cliffward_holds:Cliffward Holds:s13",
+      "path": "assets/heraldry/province/prov_13_cliffward_holds.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_fisherstrand",
+      "state_id": 13,
+      "name": "Fisherstrand",
+      "seed": "world:province:prov_13_fisherstrand:Fisherstrand:s13",
+      "path": "assets/heraldry/province/prov_13_fisherstrand.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_market_belt",
+      "state_id": 13,
+      "name": "Market Belt",
+      "seed": "world:province:prov_13_market_belt:Market Belt:s13",
+      "path": "assets/heraldry/province/prov_13_market_belt.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_outer_shoals",
+      "state_id": 13,
+      "name": "Outer Shoals",
+      "seed": "world:province:prov_13_outer_shoals:Outer Shoals:s13",
+      "path": "assets/heraldry/province/prov_13_outer_shoals.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_port_rekka",
+      "state_id": 13,
+      "name": "Port Rekka",
+      "seed": "world:province:prov_13_port_rekka:Port Rekka:s13",
+      "path": "assets/heraldry/province/prov_13_port_rekka.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_13_saltmarsh_flats",
+      "state_id": 13,
+      "name": "Saltmarsh Flats",
+      "seed": "world:province:prov_13_saltmarsh_flats:Saltmarsh Flats:s13",
+      "path": "assets/heraldry/province/prov_13_saltmarsh_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_14_grey_cliffs",
+      "state_id": 14,
+      "name": "Grey Cliffs",
+      "seed": "world:province:prov_14_grey_cliffs:Grey Cliffs:s14",
+      "path": "assets/heraldry/province/prov_14_grey_cliffs.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_14_outer_atolls",
+      "state_id": 14,
+      "name": "Outer Atolls",
+      "seed": "world:province:prov_14_outer_atolls:Outer Atolls:s14",
+      "path": "assets/heraldry/province/prov_14_outer_atolls.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_14_port_rilan",
+      "state_id": 14,
+      "name": "Port Rilan",
+      "seed": "world:province:prov_14_port_rilan:Port Rilan:s14",
+      "path": "assets/heraldry/province/prov_14_port_rilan.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_14_rivermouths",
+      "state_id": 14,
+      "name": "Rivermouths",
+      "seed": "world:province:prov_14_rivermouths:Rivermouths:s14",
+      "path": "assets/heraldry/province/prov_14_rivermouths.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_14_saltshores",
+      "state_id": 14,
+      "name": "Saltshores",
+      "seed": "world:province:prov_14_saltshores:Saltshores:s14",
+      "path": "assets/heraldry/province/prov_14_saltshores.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_15_great_keelyards",
+      "state_id": 15,
+      "name": "Great Keelyards",
+      "seed": "world:province:prov_15_great_keelyards:Great Keelyards:s15",
+      "path": "assets/heraldry/province/prov_15_great_keelyards.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_15_harbor_city_quarter",
+      "state_id": 15,
+      "name": "Harbor City Quarter",
+      "seed": "world:province:prov_15_harbor_city_quarter:Harbor City Quarter:s15",
+      "path": "assets/heraldry/province/prov_15_harbor_city_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_15_northstrand_basin",
+      "state_id": 15,
+      "name": "Northstrand Basin",
+      "seed": "world:province:prov_15_northstrand_basin:Northstrand Basin:s15",
+      "path": "assets/heraldry/province/prov_15_northstrand_basin.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_15_outer_isles_archipelago",
+      "state_id": 15,
+      "name": "Outer Isles Archipelago",
+      "seed": "world:province:prov_15_outer_isles_archipelago:Outer Isles Archipelago:s15",
+      "path": "assets/heraldry/province/prov_15_outer_isles_archipelago.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_15_salt_flats_of_vell",
+      "state_id": 15,
+      "name": "Salt Flats of Vell",
+      "seed": "world:province:prov_15_salt_flats_of_vell:Salt Flats of Vell:s15",
+      "path": "assets/heraldry/province/prov_15_salt_flats_of_vell.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_16_cape_of_lores",
+      "state_id": 16,
+      "name": "Cape of Lores",
+      "seed": "world:province:prov_16_cape_of_lores:Cape of Lores:s16",
+      "path": "assets/heraldry/province/prov_16_cape_of_lores.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_16_inner_docklands",
+      "state_id": 16,
+      "name": "Inner Docklands",
+      "seed": "world:province:prov_16_inner_docklands:Inner Docklands:s16",
+      "path": "assets/heraldry/province/prov_16_inner_docklands.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_16_northern_estuary",
+      "state_id": 16,
+      "name": "Northern Estuary",
+      "seed": "world:province:prov_16_northern_estuary:Northern Estuary:s16",
+      "path": "assets/heraldry/province/prov_16_northern_estuary.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_16_outer_isles",
+      "state_id": 16,
+      "name": "Outer Isles",
+      "seed": "world:province:prov_16_outer_isles:Outer Isles:s16",
+      "path": "assets/heraldry/province/prov_16_outer_isles.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_16_salt_flats",
+      "state_id": 16,
+      "name": "Salt Flats",
+      "seed": "world:province:prov_16_salt_flats:Salt Flats:s16",
+      "path": "assets/heraldry/province/prov_16_salt_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_augurers_quarter",
+      "state_id": 1,
+      "name": "Augurers' Quarter",
+      "seed": "world:province:prov_1_augurers_quarter:Augurers' Quarter:s1",
+      "path": "assets/heraldry/province/prov_1_augurers_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_clifftop_dominions",
+      "state_id": 1,
+      "name": "Clifftop Dominions",
+      "seed": "world:province:prov_1_clifftop_dominions:Clifftop Dominions:s1",
+      "path": "assets/heraldry/province/prov_1_clifftop_dominions.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_glasswatch_shoals",
+      "state_id": 1,
+      "name": "Glasswatch Shoals",
+      "seed": "world:province:prov_1_glasswatch_shoals:Glasswatch Shoals:s1",
+      "path": "assets/heraldry/province/prov_1_glasswatch_shoals.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_harbor_basin",
+      "state_id": 1,
+      "name": "Harbor Basin",
+      "seed": "world:province:prov_1_harbor_basin:Harbor Basin:s1",
+      "path": "assets/heraldry/province/prov_1_harbor_basin.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_lowland_delta",
+      "state_id": 1,
+      "name": "Lowland Delta",
+      "seed": "world:province:prov_1_lowland_delta:Lowland Delta:s1",
+      "path": "assets/heraldry/province/prov_1_lowland_delta.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_northstrand_harbour",
+      "state_id": 1,
+      "name": "Northstrand Harbour",
+      "seed": "world:province:prov_1_northstrand_harbour:Northstrand Harbour:s1",
+      "path": "assets/heraldry/province/prov_1_northstrand_harbour.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_old_port_quarter",
+      "state_id": 1,
+      "name": "Old Port Quarter",
+      "seed": "world:province:prov_1_old_port_quarter:Old Port Quarter:s1",
+      "path": "assets/heraldry/province/prov_1_old_port_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_riverside_marches",
+      "state_id": 1,
+      "name": "Riverside Marches",
+      "seed": "world:province:prov_1_riverside_marches:Riverside Marches:s1",
+      "path": "assets/heraldry/province/prov_1_riverside_marches.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_saltmarsh_flats",
+      "state_id": 1,
+      "name": "Saltmarsh Flats",
+      "seed": "world:province:prov_1_saltmarsh_flats:Saltmarsh Flats:s1",
+      "path": "assets/heraldry/province/prov_1_saltmarsh_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_1_saltworks_archipelago",
+      "state_id": 1,
+      "name": "Saltworks Archipelago",
+      "seed": "world:province:prov_1_saltworks_archipelago:Saltworks Archipelago:s1",
+      "path": "assets/heraldry/province/prov_1_saltworks_archipelago.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_2_headland_forts",
+      "state_id": 2,
+      "name": "Headland Forts",
+      "seed": "world:province:prov_2_headland_forts:Headland Forts:s2",
+      "path": "assets/heraldry/province/prov_2_headland_forts.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_2_low_delta",
+      "state_id": 2,
+      "name": "Low Delta",
+      "seed": "world:province:prov_2_low_delta:Low Delta:s2",
+      "path": "assets/heraldry/province/prov_2_low_delta.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_2_reef_isles",
+      "state_id": 2,
+      "name": "Reef Isles",
+      "seed": "world:province:prov_2_reef_isles:Reef Isles:s2",
+      "path": "assets/heraldry/province/prov_2_reef_isles.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_2_saltworks_plains",
+      "state_id": 2,
+      "name": "Saltworks Plains",
+      "seed": "world:province:prov_2_saltworks_plains:Saltworks Plains:s2",
+      "path": "assets/heraldry/province/prov_2_saltworks_plains.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_2_twin_harbors",
+      "state_id": 2,
+      "name": "Twin Harbors",
+      "seed": "world:province:prov_2_twin_harbors:Twin Harbors:s2",
+      "path": "assets/heraldry/province/prov_2_twin_harbors.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_3_cliffward_march",
+      "state_id": 3,
+      "name": "Cliffward March",
+      "seed": "world:province:prov_3_cliffward_march:Cliffward March:s3",
+      "path": "assets/heraldry/province/prov_3_cliffward_march.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_3_glassmarsh",
+      "state_id": 3,
+      "name": "Glassmarsh",
+      "seed": "world:province:prov_3_glassmarsh:Glassmarsh:s3",
+      "path": "assets/heraldry/province/prov_3_glassmarsh.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_3_old_quarter",
+      "state_id": 3,
+      "name": "Old Quarter",
+      "seed": "world:province:prov_3_old_quarter:Old Quarter:s3",
+      "path": "assets/heraldry/province/prov_3_old_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_3_saltreach_harbor",
+      "state_id": 3,
+      "name": "Saltreach Harbor",
+      "seed": "world:province:prov_3_saltreach_harbor:Saltreach Harbor:s3",
+      "path": "assets/heraldry/province/prov_3_saltreach_harbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_3_windward_isles",
+      "state_id": 3,
+      "name": "Windward Isles",
+      "seed": "world:province:prov_3_windward_isles:Windward Isles:s3",
+      "path": "assets/heraldry/province/prov_3_windward_isles.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_4_estuary_marches",
+      "state_id": 4,
+      "name": "Estuary Marches",
+      "seed": "world:province:prov_4_estuary_marches:Estuary Marches:s4",
+      "path": "assets/heraldry/province/prov_4_estuary_marches.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_4_old_harbor_quarter",
+      "state_id": 4,
+      "name": "Old Harbor Quarter",
+      "seed": "world:province:prov_4_old_harbor_quarter:Old Harbor Quarter:s4",
+      "path": "assets/heraldry/province/prov_4_old_harbor_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_4_outer_isle_chain",
+      "state_id": 4,
+      "name": "Outer Isle Chain",
+      "seed": "world:province:prov_4_outer_isle_chain:Outer Isle Chain:s4",
+      "path": "assets/heraldry/province/prov_4_outer_isle_chain.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_4_ravenport",
+      "state_id": 4,
+      "name": "Ravenport",
+      "seed": "world:province:prov_4_ravenport:Ravenport:s4",
+      "path": "assets/heraldry/province/prov_4_ravenport.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_4_saltmarch_basin",
+      "state_id": 4,
+      "name": "Saltmarch Basin",
+      "seed": "world:province:prov_4_saltmarch_basin:Saltmarch Basin:s4",
+      "path": "assets/heraldry/province/prov_4_saltmarch_basin.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_5_kera_harbor",
+      "state_id": 5,
+      "name": "Kera Harbor",
+      "seed": "world:province:prov_5_kera_harbor:Kera Harbor:s5",
+      "path": "assets/heraldry/province/prov_5_kera_harbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_5_marshhead_estuary",
+      "state_id": 5,
+      "name": "Marshhead Estuary",
+      "seed": "world:province:prov_5_marshhead_estuary:Marshhead Estuary:s5",
+      "path": "assets/heraldry/province/prov_5_marshhead_estuary.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_5_outer_isles_archipelago",
+      "state_id": 5,
+      "name": "Outer Isles Archipelago",
+      "seed": "world:province:prov_5_outer_isles_archipelago:Outer Isles Archipelago:s5",
+      "path": "assets/heraldry/province/prov_5_outer_isles_archipelago.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_5_saltflats_of_vesh",
+      "state_id": 5,
+      "name": "Saltflats of Vesh",
+      "seed": "world:province:prov_5_saltflats_of_vesh:Saltflats of Vesh:s5",
+      "path": "assets/heraldry/province/prov_5_saltflats_of_vesh.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_5_shipwright_quarter_north_dock",
+      "state_id": 5,
+      "name": "Shipwright Quarter (North Dock)",
+      "seed": "world:province:prov_5_shipwright_quarter_north_dock:Shipwright Quarter (North Dock):s5",
+      "path": "assets/heraldry/province/prov_5_shipwright_quarter_north_dock.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_6_cliffwatch",
+      "state_id": 6,
+      "name": "Cliffwatch",
+      "seed": "world:province:prov_6_cliffwatch:Cliffwatch:s6",
+      "path": "assets/heraldry/province/prov_6_cliffwatch.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_6_kaiharbor",
+      "state_id": 6,
+      "name": "Kaiharbor",
+      "seed": "world:province:prov_6_kaiharbor:Kaiharbor:s6",
+      "path": "assets/heraldry/province/prov_6_kaiharbor.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_6_saltmarch_flats",
+      "state_id": 6,
+      "name": "Saltmarch Flats",
+      "seed": "world:province:prov_6_saltmarch_flats:Saltmarch Flats:s6",
+      "path": "assets/heraldry/province/prov_6_saltmarch_flats.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_6_shipwright_quarter",
+      "state_id": 6,
+      "name": "Shipwright Quarter",
+      "seed": "world:province:prov_6_shipwright_quarter:Shipwright Quarter:s6",
+      "path": "assets/heraldry/province/prov_6_shipwright_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_6_windward_shoals",
+      "state_id": 6,
+      "name": "Windward Shoals",
+      "seed": "world:province:prov_6_windward_shoals:Windward Shoals:s6",
+      "path": "assets/heraldry/province/prov_6_windward_shoals.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_7_high_cliffs",
+      "state_id": 7,
+      "name": "High Cliffs",
+      "seed": "world:province:prov_7_high_cliffs:High Cliffs:s7",
+      "path": "assets/heraldry/province/prov_7_high_cliffs.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_7_north_anchorage",
+      "state_id": 7,
+      "name": "North Anchorage",
+      "seed": "world:province:prov_7_north_anchorage:North Anchorage:s7",
+      "path": "assets/heraldry/province/prov_7_north_anchorage.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_7_outer_shoals",
+      "state_id": 7,
+      "name": "Outer Shoals",
+      "seed": "world:province:prov_7_outer_shoals:Outer Shoals:s7",
+      "path": "assets/heraldry/province/prov_7_outer_shoals.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_7_river_mouth_quarter",
+      "state_id": 7,
+      "name": "River-mouth Quarter",
+      "seed": "world:province:prov_7_river_mouth_quarter:River-mouth Quarter:s7",
+      "path": "assets/heraldry/province/prov_7_river_mouth_quarter.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_7_saltmarsh_plains",
+      "state_id": 7,
+      "name": "Saltmarsh Plains",
+      "seed": "world:province:prov_7_saltmarsh_plains:Saltmarsh Plains:s7",
+      "path": "assets/heraldry/province/prov_7_saltmarsh_plains.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_8_bay_of_tides",
+      "state_id": 8,
+      "name": "Bay of Tides",
+      "seed": "world:province:prov_8_bay_of_tides:Bay of Tides:s8",
+      "path": "assets/heraldry/province/prov_8_bay_of_tides.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_8_lowmarsh_hinterland",
+      "state_id": 8,
+      "name": "Lowmarsh Hinterland",
+      "seed": "world:province:prov_8_lowmarsh_hinterland:Lowmarsh Hinterland:s8",
+      "path": "assets/heraldry/province/prov_8_lowmarsh_hinterland.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_8_northern_headlands",
+      "state_id": 8,
+      "name": "Northern Headlands",
+      "seed": "world:province:prov_8_northern_headlands:Northern Headlands:s8",
+      "path": "assets/heraldry/province/prov_8_northern_headlands.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_8_reef_archipelago",
+      "state_id": 8,
+      "name": "Reef Archipelago",
+      "seed": "world:province:prov_8_reef_archipelago:Reef Archipelago:s8",
+      "path": "assets/heraldry/province/prov_8_reef_archipelago.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_8_salt_flats_processing_belt",
+      "state_id": 8,
+      "name": "Salt Flats & Processing Belt",
+      "seed": "world:province:prov_8_salt_flats_processing_belt:Salt Flats & Processing Belt:s8",
+      "path": "assets/heraldry/province/prov_8_salt_flats_processing_belt.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_9_cliffwatch_strand",
+      "state_id": 9,
+      "name": "Cliffwatch Strand",
+      "seed": "world:province:prov_9_cliffwatch_strand:Cliffwatch Strand:s9",
+      "path": "assets/heraldry/province/prov_9_cliffwatch_strand.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_9_isle_of_lores",
+      "state_id": 9,
+      "name": "Isle of Lores",
+      "seed": "world:province:prov_9_isle_of_lores:Isle of Lores:s9",
+      "path": "assets/heraldry/province/prov_9_isle_of_lores.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_9_lower_drylands",
+      "state_id": 9,
+      "name": "Lower Drylands",
+      "seed": "world:province:prov_9_lower_drylands:Lower Drylands:s9",
+      "path": "assets/heraldry/province/prov_9_lower_drylands.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_9_ninefold_port",
+      "state_id": 9,
+      "name": "Ninefold Port",
+      "seed": "world:province:prov_9_ninefold_port:Ninefold Port:s9",
+      "path": "assets/heraldry/province/prov_9_ninefold_port.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_9_saltwater_marshes",
+      "state_id": 9,
+      "name": "Saltwater Marshes",
+      "seed": "world:province:prov_9_saltwater_marshes:Saltwater Marshes:s9",
+      "path": "assets/heraldry/province/prov_9_saltwater_marshes.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 1,
+      "state_id": 0,
+      "name": "Burg_1",
+      "seed": "world:burg:1:Burg_1:s0",
+      "path": "assets/heraldry/burg/1.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 10,
+      "state_id": 0,
+      "name": "Burg_10",
+      "seed": "world:burg:10:Burg_10:s0",
+      "path": "assets/heraldry/burg/10.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 100,
+      "state_id": 0,
+      "name": "Burg_100",
+      "seed": "world:burg:100:Burg_100:s0",
+      "path": "assets/heraldry/burg/100.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 101,
+      "state_id": -1,
+      "name": "Burg_101",
+      "seed": "world:burg:101:Burg_101:s-1",
+      "path": "assets/heraldry/burg/101.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 102,
+      "state_id": 0,
+      "name": "Burg_102",
+      "seed": "world:burg:102:Burg_102:s0",
+      "path": "assets/heraldry/burg/102.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 103,
+      "state_id": 0,
+      "name": "Burg_103",
+      "seed": "world:burg:103:Burg_103:s0",
+      "path": "assets/heraldry/burg/103.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 104,
+      "state_id": -1,
+      "name": "Burg_104",
+      "seed": "world:burg:104:Burg_104:s-1",
+      "path": "assets/heraldry/burg/104.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 105,
+      "state_id": 0,
+      "name": "Burg_105",
+      "seed": "world:burg:105:Burg_105:s0",
+      "path": "assets/heraldry/burg/105.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 106,
+      "state_id": 0,
+      "name": "Burg_106",
+      "seed": "world:burg:106:Burg_106:s0",
+      "path": "assets/heraldry/burg/106.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 107,
+      "state_id": 0,
+      "name": "Burg_107",
+      "seed": "world:burg:107:Burg_107:s0",
+      "path": "assets/heraldry/burg/107.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 108,
+      "state_id": 0,
+      "name": "Burg_108",
+      "seed": "world:burg:108:Burg_108:s0",
+      "path": "assets/heraldry/burg/108.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 109,
+      "state_id": 0,
+      "name": "Burg_109",
+      "seed": "world:burg:109:Burg_109:s0",
+      "path": "assets/heraldry/burg/109.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 11,
+      "state_id": 0,
+      "name": "Burg_11",
+      "seed": "world:burg:11:Burg_11:s0",
+      "path": "assets/heraldry/burg/11.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 110,
+      "state_id": 0,
+      "name": "Burg_110",
+      "seed": "world:burg:110:Burg_110:s0",
+      "path": "assets/heraldry/burg/110.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 111,
+      "state_id": 0,
+      "name": "Burg_111",
+      "seed": "world:burg:111:Burg_111:s0",
+      "path": "assets/heraldry/burg/111.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 112,
+      "state_id": 0,
+      "name": "Burg_112",
+      "seed": "world:burg:112:Burg_112:s0",
+      "path": "assets/heraldry/burg/112.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 113,
+      "state_id": -1,
+      "name": "Burg_113",
+      "seed": "world:burg:113:Burg_113:s-1",
+      "path": "assets/heraldry/burg/113.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 114,
+      "state_id": -1,
+      "name": "Burg_114",
+      "seed": "world:burg:114:Burg_114:s-1",
+      "path": "assets/heraldry/burg/114.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 115,
+      "state_id": 0,
+      "name": "Burg_115",
+      "seed": "world:burg:115:Burg_115:s0",
+      "path": "assets/heraldry/burg/115.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 116,
+      "state_id": 0,
+      "name": "Burg_116",
+      "seed": "world:burg:116:Burg_116:s0",
+      "path": "assets/heraldry/burg/116.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 117,
+      "state_id": 0,
+      "name": "Burg_117",
+      "seed": "world:burg:117:Burg_117:s0",
+      "path": "assets/heraldry/burg/117.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 118,
+      "state_id": 0,
+      "name": "Burg_118",
+      "seed": "world:burg:118:Burg_118:s0",
+      "path": "assets/heraldry/burg/118.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 119,
+      "state_id": 0,
+      "name": "Burg_119",
+      "seed": "world:burg:119:Burg_119:s0",
+      "path": "assets/heraldry/burg/119.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 12,
+      "state_id": 0,
+      "name": "Burg_12",
+      "seed": "world:burg:12:Burg_12:s0",
+      "path": "assets/heraldry/burg/12.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 120,
+      "state_id": 0,
+      "name": "Burg_120",
+      "seed": "world:burg:120:Burg_120:s0",
+      "path": "assets/heraldry/burg/120.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 121,
+      "state_id": -1,
+      "name": "Burg_121",
+      "seed": "world:burg:121:Burg_121:s-1",
+      "path": "assets/heraldry/burg/121.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 122,
+      "state_id": -1,
+      "name": "Burg_122",
+      "seed": "world:burg:122:Burg_122:s-1",
+      "path": "assets/heraldry/burg/122.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 123,
+      "state_id": 0,
+      "name": "Burg_123",
+      "seed": "world:burg:123:Burg_123:s0",
+      "path": "assets/heraldry/burg/123.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 124,
+      "state_id": 0,
+      "name": "Burg_124",
+      "seed": "world:burg:124:Burg_124:s0",
+      "path": "assets/heraldry/burg/124.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 125,
+      "state_id": 0,
+      "name": "Burg_125",
+      "seed": "world:burg:125:Burg_125:s0",
+      "path": "assets/heraldry/burg/125.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 126,
+      "state_id": 0,
+      "name": "Burg_126",
+      "seed": "world:burg:126:Burg_126:s0",
+      "path": "assets/heraldry/burg/126.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 127,
+      "state_id": 0,
+      "name": "Burg_127",
+      "seed": "world:burg:127:Burg_127:s0",
+      "path": "assets/heraldry/burg/127.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 128,
+      "state_id": -1,
+      "name": "Burg_128",
+      "seed": "world:burg:128:Burg_128:s-1",
+      "path": "assets/heraldry/burg/128.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 129,
+      "state_id": -1,
+      "name": "Burg_129",
+      "seed": "world:burg:129:Burg_129:s-1",
+      "path": "assets/heraldry/burg/129.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 13,
+      "state_id": 0,
+      "name": "Burg_13",
+      "seed": "world:burg:13:Burg_13:s0",
+      "path": "assets/heraldry/burg/13.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 130,
+      "state_id": 0,
+      "name": "Burg_130",
+      "seed": "world:burg:130:Burg_130:s0",
+      "path": "assets/heraldry/burg/130.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 131,
+      "state_id": 0,
+      "name": "Burg_131",
+      "seed": "world:burg:131:Burg_131:s0",
+      "path": "assets/heraldry/burg/131.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 132,
+      "state_id": 0,
+      "name": "Burg_132",
+      "seed": "world:burg:132:Burg_132:s0",
+      "path": "assets/heraldry/burg/132.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 133,
+      "state_id": -1,
+      "name": "Burg_133",
+      "seed": "world:burg:133:Burg_133:s-1",
+      "path": "assets/heraldry/burg/133.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 134,
+      "state_id": 0,
+      "name": "Burg_134",
+      "seed": "world:burg:134:Burg_134:s0",
+      "path": "assets/heraldry/burg/134.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 135,
+      "state_id": 0,
+      "name": "Burg_135",
+      "seed": "world:burg:135:Burg_135:s0",
+      "path": "assets/heraldry/burg/135.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 136,
+      "state_id": 0,
+      "name": "Burg_136",
+      "seed": "world:burg:136:Burg_136:s0",
+      "path": "assets/heraldry/burg/136.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 137,
+      "state_id": 0,
+      "name": "Burg_137",
+      "seed": "world:burg:137:Burg_137:s0",
+      "path": "assets/heraldry/burg/137.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 138,
+      "state_id": 0,
+      "name": "Burg_138",
+      "seed": "world:burg:138:Burg_138:s0",
+      "path": "assets/heraldry/burg/138.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 139,
+      "state_id": 0,
+      "name": "Burg_139",
+      "seed": "world:burg:139:Burg_139:s0",
+      "path": "assets/heraldry/burg/139.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 14,
+      "state_id": -1,
+      "name": "Burg_14",
+      "seed": "world:burg:14:Burg_14:s-1",
+      "path": "assets/heraldry/burg/14.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 140,
+      "state_id": -1,
+      "name": "Burg_140",
+      "seed": "world:burg:140:Burg_140:s-1",
+      "path": "assets/heraldry/burg/140.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 141,
+      "state_id": 0,
+      "name": "Burg_141",
+      "seed": "world:burg:141:Burg_141:s0",
+      "path": "assets/heraldry/burg/141.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 142,
+      "state_id": 0,
+      "name": "Burg_142",
+      "seed": "world:burg:142:Burg_142:s0",
+      "path": "assets/heraldry/burg/142.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 143,
+      "state_id": -1,
+      "name": "Burg_143",
+      "seed": "world:burg:143:Burg_143:s-1",
+      "path": "assets/heraldry/burg/143.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 144,
+      "state_id": 0,
+      "name": "Burg_144",
+      "seed": "world:burg:144:Burg_144:s0",
+      "path": "assets/heraldry/burg/144.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 145,
+      "state_id": 0,
+      "name": "Burg_145",
+      "seed": "world:burg:145:Burg_145:s0",
+      "path": "assets/heraldry/burg/145.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 146,
+      "state_id": -1,
+      "name": "Burg_146",
+      "seed": "world:burg:146:Burg_146:s-1",
+      "path": "assets/heraldry/burg/146.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 147,
+      "state_id": 0,
+      "name": "Burg_147",
+      "seed": "world:burg:147:Burg_147:s0",
+      "path": "assets/heraldry/burg/147.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 148,
+      "state_id": 0,
+      "name": "Burg_148",
+      "seed": "world:burg:148:Burg_148:s0",
+      "path": "assets/heraldry/burg/148.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 149,
+      "state_id": -1,
+      "name": "Burg_149",
+      "seed": "world:burg:149:Burg_149:s-1",
+      "path": "assets/heraldry/burg/149.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 15,
+      "state_id": 0,
+      "name": "Burg_15",
+      "seed": "world:burg:15:Burg_15:s0",
+      "path": "assets/heraldry/burg/15.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 150,
+      "state_id": 0,
+      "name": "Burg_150",
+      "seed": "world:burg:150:Burg_150:s0",
+      "path": "assets/heraldry/burg/150.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 151,
+      "state_id": 0,
+      "name": "Burg_151",
+      "seed": "world:burg:151:Burg_151:s0",
+      "path": "assets/heraldry/burg/151.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 152,
+      "state_id": 0,
+      "name": "Burg_152",
+      "seed": "world:burg:152:Burg_152:s0",
+      "path": "assets/heraldry/burg/152.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 153,
+      "state_id": 0,
+      "name": "Burg_153",
+      "seed": "world:burg:153:Burg_153:s0",
+      "path": "assets/heraldry/burg/153.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 154,
+      "state_id": -1,
+      "name": "Burg_154",
+      "seed": "world:burg:154:Burg_154:s-1",
+      "path": "assets/heraldry/burg/154.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 155,
+      "state_id": -1,
+      "name": "Burg_155",
+      "seed": "world:burg:155:Burg_155:s-1",
+      "path": "assets/heraldry/burg/155.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 156,
+      "state_id": -1,
+      "name": "Burg_156",
+      "seed": "world:burg:156:Burg_156:s-1",
+      "path": "assets/heraldry/burg/156.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 157,
+      "state_id": 0,
+      "name": "Burg_157",
+      "seed": "world:burg:157:Burg_157:s0",
+      "path": "assets/heraldry/burg/157.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 158,
+      "state_id": 0,
+      "name": "Burg_158",
+      "seed": "world:burg:158:Burg_158:s0",
+      "path": "assets/heraldry/burg/158.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 159,
+      "state_id": 0,
+      "name": "Burg_159",
+      "seed": "world:burg:159:Burg_159:s0",
+      "path": "assets/heraldry/burg/159.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 16,
+      "state_id": 0,
+      "name": "Burg_16",
+      "seed": "world:burg:16:Burg_16:s0",
+      "path": "assets/heraldry/burg/16.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 160,
+      "state_id": 0,
+      "name": "Burg_160",
+      "seed": "world:burg:160:Burg_160:s0",
+      "path": "assets/heraldry/burg/160.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 161,
+      "state_id": 0,
+      "name": "Burg_161",
+      "seed": "world:burg:161:Burg_161:s0",
+      "path": "assets/heraldry/burg/161.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 162,
+      "state_id": 0,
+      "name": "Burg_162",
+      "seed": "world:burg:162:Burg_162:s0",
+      "path": "assets/heraldry/burg/162.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 163,
+      "state_id": 0,
+      "name": "Burg_163",
+      "seed": "world:burg:163:Burg_163:s0",
+      "path": "assets/heraldry/burg/163.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 164,
+      "state_id": 0,
+      "name": "Burg_164",
+      "seed": "world:burg:164:Burg_164:s0",
+      "path": "assets/heraldry/burg/164.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 165,
+      "state_id": 0,
+      "name": "Burg_165",
+      "seed": "world:burg:165:Burg_165:s0",
+      "path": "assets/heraldry/burg/165.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 166,
+      "state_id": 0,
+      "name": "Burg_166",
+      "seed": "world:burg:166:Burg_166:s0",
+      "path": "assets/heraldry/burg/166.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 167,
+      "state_id": 0,
+      "name": "Burg_167",
+      "seed": "world:burg:167:Burg_167:s0",
+      "path": "assets/heraldry/burg/167.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 168,
+      "state_id": -1,
+      "name": "Burg_168",
+      "seed": "world:burg:168:Burg_168:s-1",
+      "path": "assets/heraldry/burg/168.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 169,
+      "state_id": -1,
+      "name": "Burg_169",
+      "seed": "world:burg:169:Burg_169:s-1",
+      "path": "assets/heraldry/burg/169.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 17,
+      "state_id": 0,
+      "name": "Burg_17",
+      "seed": "world:burg:17:Burg_17:s0",
+      "path": "assets/heraldry/burg/17.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 170,
+      "state_id": 0,
+      "name": "Burg_170",
+      "seed": "world:burg:170:Burg_170:s0",
+      "path": "assets/heraldry/burg/170.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 171,
+      "state_id": 0,
+      "name": "Burg_171",
+      "seed": "world:burg:171:Burg_171:s0",
+      "path": "assets/heraldry/burg/171.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 172,
+      "state_id": 0,
+      "name": "Burg_172",
+      "seed": "world:burg:172:Burg_172:s0",
+      "path": "assets/heraldry/burg/172.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 173,
+      "state_id": 0,
+      "name": "Burg_173",
+      "seed": "world:burg:173:Burg_173:s0",
+      "path": "assets/heraldry/burg/173.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 174,
+      "state_id": 0,
+      "name": "Burg_174",
+      "seed": "world:burg:174:Burg_174:s0",
+      "path": "assets/heraldry/burg/174.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 175,
+      "state_id": -1,
+      "name": "Burg_175",
+      "seed": "world:burg:175:Burg_175:s-1",
+      "path": "assets/heraldry/burg/175.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 176,
+      "state_id": 0,
+      "name": "Burg_176",
+      "seed": "world:burg:176:Burg_176:s0",
+      "path": "assets/heraldry/burg/176.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 177,
+      "state_id": 0,
+      "name": "Burg_177",
+      "seed": "world:burg:177:Burg_177:s0",
+      "path": "assets/heraldry/burg/177.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 178,
+      "state_id": 0,
+      "name": "Burg_178",
+      "seed": "world:burg:178:Burg_178:s0",
+      "path": "assets/heraldry/burg/178.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 179,
+      "state_id": 0,
+      "name": "Burg_179",
+      "seed": "world:burg:179:Burg_179:s0",
+      "path": "assets/heraldry/burg/179.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 18,
+      "state_id": 0,
+      "name": "Burg_18",
+      "seed": "world:burg:18:Burg_18:s0",
+      "path": "assets/heraldry/burg/18.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 180,
+      "state_id": 0,
+      "name": "Burg_180",
+      "seed": "world:burg:180:Burg_180:s0",
+      "path": "assets/heraldry/burg/180.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 181,
+      "state_id": 0,
+      "name": "Burg_181",
+      "seed": "world:burg:181:Burg_181:s0",
+      "path": "assets/heraldry/burg/181.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 182,
+      "state_id": 0,
+      "name": "Burg_182",
+      "seed": "world:burg:182:Burg_182:s0",
+      "path": "assets/heraldry/burg/182.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 183,
+      "state_id": 0,
+      "name": "Burg_183",
+      "seed": "world:burg:183:Burg_183:s0",
+      "path": "assets/heraldry/burg/183.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 184,
+      "state_id": 0,
+      "name": "Burg_184",
+      "seed": "world:burg:184:Burg_184:s0",
+      "path": "assets/heraldry/burg/184.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 185,
+      "state_id": 0,
+      "name": "Burg_185",
+      "seed": "world:burg:185:Burg_185:s0",
+      "path": "assets/heraldry/burg/185.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 186,
+      "state_id": 0,
+      "name": "Burg_186",
+      "seed": "world:burg:186:Burg_186:s0",
+      "path": "assets/heraldry/burg/186.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 187,
+      "state_id": 0,
+      "name": "Burg_187",
+      "seed": "world:burg:187:Burg_187:s0",
+      "path": "assets/heraldry/burg/187.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 188,
+      "state_id": 0,
+      "name": "Burg_188",
+      "seed": "world:burg:188:Burg_188:s0",
+      "path": "assets/heraldry/burg/188.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 189,
+      "state_id": 0,
+      "name": "Burg_189",
+      "seed": "world:burg:189:Burg_189:s0",
+      "path": "assets/heraldry/burg/189.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 19,
+      "state_id": 0,
+      "name": "Burg_19",
+      "seed": "world:burg:19:Burg_19:s0",
+      "path": "assets/heraldry/burg/19.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 190,
+      "state_id": 0,
+      "name": "Burg_190",
+      "seed": "world:burg:190:Burg_190:s0",
+      "path": "assets/heraldry/burg/190.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 191,
+      "state_id": 0,
+      "name": "Burg_191",
+      "seed": "world:burg:191:Burg_191:s0",
+      "path": "assets/heraldry/burg/191.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 192,
+      "state_id": 0,
+      "name": "Burg_192",
+      "seed": "world:burg:192:Burg_192:s0",
+      "path": "assets/heraldry/burg/192.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 193,
+      "state_id": 0,
+      "name": "Burg_193",
+      "seed": "world:burg:193:Burg_193:s0",
+      "path": "assets/heraldry/burg/193.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 194,
+      "state_id": 0,
+      "name": "Harrow's Dock",
+      "seed": "world:burg:194:Harrow's Dock:s0",
+      "path": "assets/heraldry/burg/194.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 195,
+      "state_id": 0,
+      "name": "Burg_195",
+      "seed": "world:burg:195:Burg_195:s0",
+      "path": "assets/heraldry/burg/195.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 196,
+      "state_id": -1,
+      "name": "Burg_196",
+      "seed": "world:burg:196:Burg_196:s-1",
+      "path": "assets/heraldry/burg/196.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 197,
+      "state_id": 0,
+      "name": "Burg_197",
+      "seed": "world:burg:197:Burg_197:s0",
+      "path": "assets/heraldry/burg/197.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 198,
+      "state_id": 0,
+      "name": "Burg_198",
+      "seed": "world:burg:198:Burg_198:s0",
+      "path": "assets/heraldry/burg/198.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 199,
+      "state_id": 0,
+      "name": "Burg_199",
+      "seed": "world:burg:199:Burg_199:s0",
+      "path": "assets/heraldry/burg/199.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 2,
+      "state_id": 0,
+      "name": "Burg_2",
+      "seed": "world:burg:2:Burg_2:s0",
+      "path": "assets/heraldry/burg/2.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 20,
+      "state_id": 0,
+      "name": "Burg_20",
+      "seed": "world:burg:20:Burg_20:s0",
+      "path": "assets/heraldry/burg/20.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 200,
+      "state_id": 0,
+      "name": "Burg_200",
+      "seed": "world:burg:200:Burg_200:s0",
+      "path": "assets/heraldry/burg/200.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 201,
+      "state_id": -1,
+      "name": "Burg_201",
+      "seed": "world:burg:201:Burg_201:s-1",
+      "path": "assets/heraldry/burg/201.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 202,
+      "state_id": -1,
+      "name": "Burg_202",
+      "seed": "world:burg:202:Burg_202:s-1",
+      "path": "assets/heraldry/burg/202.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 203,
+      "state_id": 0,
+      "name": "Burg_203",
+      "seed": "world:burg:203:Burg_203:s0",
+      "path": "assets/heraldry/burg/203.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 204,
+      "state_id": 0,
+      "name": "Burg_204",
+      "seed": "world:burg:204:Burg_204:s0",
+      "path": "assets/heraldry/burg/204.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 205,
+      "state_id": 0,
+      "name": "Burg_205",
+      "seed": "world:burg:205:Burg_205:s0",
+      "path": "assets/heraldry/burg/205.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 206,
+      "state_id": 0,
+      "name": "Burg_206",
+      "seed": "world:burg:206:Burg_206:s0",
+      "path": "assets/heraldry/burg/206.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 207,
+      "state_id": 0,
+      "name": "Burg_207",
+      "seed": "world:burg:207:Burg_207:s0",
+      "path": "assets/heraldry/burg/207.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 208,
+      "state_id": -1,
+      "name": "Burg_208",
+      "seed": "world:burg:208:Burg_208:s-1",
+      "path": "assets/heraldry/burg/208.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 209,
+      "state_id": -1,
+      "name": "Burg_209",
+      "seed": "world:burg:209:Burg_209:s-1",
+      "path": "assets/heraldry/burg/209.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 21,
+      "state_id": 0,
+      "name": "Burg_21",
+      "seed": "world:burg:21:Burg_21:s0",
+      "path": "assets/heraldry/burg/21.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 210,
+      "state_id": -1,
+      "name": "Burg_210",
+      "seed": "world:burg:210:Burg_210:s-1",
+      "path": "assets/heraldry/burg/210.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 211,
+      "state_id": 0,
+      "name": "Burg_211",
+      "seed": "world:burg:211:Burg_211:s0",
+      "path": "assets/heraldry/burg/211.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 212,
+      "state_id": -1,
+      "name": "Burg_212",
+      "seed": "world:burg:212:Burg_212:s-1",
+      "path": "assets/heraldry/burg/212.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 213,
+      "state_id": 0,
+      "name": "Burg_213",
+      "seed": "world:burg:213:Burg_213:s0",
+      "path": "assets/heraldry/burg/213.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 214,
+      "state_id": 0,
+      "name": "Burg_214",
+      "seed": "world:burg:214:Burg_214:s0",
+      "path": "assets/heraldry/burg/214.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 215,
+      "state_id": 0,
+      "name": "Burg_215",
+      "seed": "world:burg:215:Burg_215:s0",
+      "path": "assets/heraldry/burg/215.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 216,
+      "state_id": 0,
+      "name": "Burg_216",
+      "seed": "world:burg:216:Burg_216:s0",
+      "path": "assets/heraldry/burg/216.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 217,
+      "state_id": 0,
+      "name": "Burg_217",
+      "seed": "world:burg:217:Burg_217:s0",
+      "path": "assets/heraldry/burg/217.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 218,
+      "state_id": 0,
+      "name": "Burg_218",
+      "seed": "world:burg:218:Burg_218:s0",
+      "path": "assets/heraldry/burg/218.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 219,
+      "state_id": -1,
+      "name": "Burg_219",
+      "seed": "world:burg:219:Burg_219:s-1",
+      "path": "assets/heraldry/burg/219.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 22,
+      "state_id": -1,
+      "name": "Burg_22",
+      "seed": "world:burg:22:Burg_22:s-1",
+      "path": "assets/heraldry/burg/22.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 220,
+      "state_id": 0,
+      "name": "Burg_220",
+      "seed": "world:burg:220:Burg_220:s0",
+      "path": "assets/heraldry/burg/220.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 221,
+      "state_id": 0,
+      "name": "Burg_221",
+      "seed": "world:burg:221:Burg_221:s0",
+      "path": "assets/heraldry/burg/221.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 222,
+      "state_id": 0,
+      "name": "Burg_222",
+      "seed": "world:burg:222:Burg_222:s0",
+      "path": "assets/heraldry/burg/222.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 223,
+      "state_id": 0,
+      "name": "Burg_223",
+      "seed": "world:burg:223:Burg_223:s0",
+      "path": "assets/heraldry/burg/223.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 224,
+      "state_id": 0,
+      "name": "Burg_224",
+      "seed": "world:burg:224:Burg_224:s0",
+      "path": "assets/heraldry/burg/224.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 225,
+      "state_id": 0,
+      "name": "Burg_225",
+      "seed": "world:burg:225:Burg_225:s0",
+      "path": "assets/heraldry/burg/225.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 226,
+      "state_id": 0,
+      "name": "Burg_226",
+      "seed": "world:burg:226:Burg_226:s0",
+      "path": "assets/heraldry/burg/226.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 227,
+      "state_id": 0,
+      "name": "Burg_227",
+      "seed": "world:burg:227:Burg_227:s0",
+      "path": "assets/heraldry/burg/227.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 228,
+      "state_id": 0,
+      "name": "Burg_228",
+      "seed": "world:burg:228:Burg_228:s0",
+      "path": "assets/heraldry/burg/228.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 229,
+      "state_id": -1,
+      "name": "Burg_229",
+      "seed": "world:burg:229:Burg_229:s-1",
+      "path": "assets/heraldry/burg/229.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 23,
+      "state_id": -1,
+      "name": "Burg_23",
+      "seed": "world:burg:23:Burg_23:s-1",
+      "path": "assets/heraldry/burg/23.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 230,
+      "state_id": -1,
+      "name": "Burg_230",
+      "seed": "world:burg:230:Burg_230:s-1",
+      "path": "assets/heraldry/burg/230.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 231,
+      "state_id": 0,
+      "name": "Burg_231",
+      "seed": "world:burg:231:Burg_231:s0",
+      "path": "assets/heraldry/burg/231.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 232,
+      "state_id": 0,
+      "name": "Burg_232",
+      "seed": "world:burg:232:Burg_232:s0",
+      "path": "assets/heraldry/burg/232.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 233,
+      "state_id": 0,
+      "name": "Burg_233",
+      "seed": "world:burg:233:Burg_233:s0",
+      "path": "assets/heraldry/burg/233.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 234,
+      "state_id": -1,
+      "name": "Burg_234",
+      "seed": "world:burg:234:Burg_234:s-1",
+      "path": "assets/heraldry/burg/234.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 235,
+      "state_id": 0,
+      "name": "Burg_235",
+      "seed": "world:burg:235:Burg_235:s0",
+      "path": "assets/heraldry/burg/235.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 236,
+      "state_id": 0,
+      "name": "Burg_236",
+      "seed": "world:burg:236:Burg_236:s0",
+      "path": "assets/heraldry/burg/236.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 237,
+      "state_id": -1,
+      "name": "Burg_237",
+      "seed": "world:burg:237:Burg_237:s-1",
+      "path": "assets/heraldry/burg/237.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 238,
+      "state_id": 0,
+      "name": "Burg_238",
+      "seed": "world:burg:238:Burg_238:s0",
+      "path": "assets/heraldry/burg/238.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 239,
+      "state_id": 0,
+      "name": "Burg_239",
+      "seed": "world:burg:239:Burg_239:s0",
+      "path": "assets/heraldry/burg/239.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 24,
+      "state_id": 0,
+      "name": "Burg_24",
+      "seed": "world:burg:24:Burg_24:s0",
+      "path": "assets/heraldry/burg/24.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 240,
+      "state_id": -1,
+      "name": "Burg_240",
+      "seed": "world:burg:240:Burg_240:s-1",
+      "path": "assets/heraldry/burg/240.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 241,
+      "state_id": 0,
+      "name": "Burg_241",
+      "seed": "world:burg:241:Burg_241:s0",
+      "path": "assets/heraldry/burg/241.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 242,
+      "state_id": 0,
+      "name": "Burg_242",
+      "seed": "world:burg:242:Burg_242:s0",
+      "path": "assets/heraldry/burg/242.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 243,
+      "state_id": 0,
+      "name": "Burg_243",
+      "seed": "world:burg:243:Burg_243:s0",
+      "path": "assets/heraldry/burg/243.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 244,
+      "state_id": 0,
+      "name": "Burg_244",
+      "seed": "world:burg:244:Burg_244:s0",
+      "path": "assets/heraldry/burg/244.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 245,
+      "state_id": 0,
+      "name": "Burg_245",
+      "seed": "world:burg:245:Burg_245:s0",
+      "path": "assets/heraldry/burg/245.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 246,
+      "state_id": 0,
+      "name": "Burg_246",
+      "seed": "world:burg:246:Burg_246:s0",
+      "path": "assets/heraldry/burg/246.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 247,
+      "state_id": 0,
+      "name": "Burg_247",
+      "seed": "world:burg:247:Burg_247:s0",
+      "path": "assets/heraldry/burg/247.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 248,
+      "state_id": 0,
+      "name": "Burg_248",
+      "seed": "world:burg:248:Burg_248:s0",
+      "path": "assets/heraldry/burg/248.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 249,
+      "state_id": 0,
+      "name": "Burg_249",
+      "seed": "world:burg:249:Burg_249:s0",
+      "path": "assets/heraldry/burg/249.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 25,
+      "state_id": 0,
+      "name": "Burg_25",
+      "seed": "world:burg:25:Burg_25:s0",
+      "path": "assets/heraldry/burg/25.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 250,
+      "state_id": 0,
+      "name": "Burg_250",
+      "seed": "world:burg:250:Burg_250:s0",
+      "path": "assets/heraldry/burg/250.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 251,
+      "state_id": -1,
+      "name": "Burg_251",
+      "seed": "world:burg:251:Burg_251:s-1",
+      "path": "assets/heraldry/burg/251.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 252,
+      "state_id": 0,
+      "name": "Burg_252",
+      "seed": "world:burg:252:Burg_252:s0",
+      "path": "assets/heraldry/burg/252.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 253,
+      "state_id": -1,
+      "name": "Burg_253",
+      "seed": "world:burg:253:Burg_253:s-1",
+      "path": "assets/heraldry/burg/253.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 254,
+      "state_id": 0,
+      "name": "Burg_254",
+      "seed": "world:burg:254:Burg_254:s0",
+      "path": "assets/heraldry/burg/254.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 255,
+      "state_id": -1,
+      "name": "Burg_255",
+      "seed": "world:burg:255:Burg_255:s-1",
+      "path": "assets/heraldry/burg/255.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 256,
+      "state_id": -1,
+      "name": "Burg_256",
+      "seed": "world:burg:256:Burg_256:s-1",
+      "path": "assets/heraldry/burg/256.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 257,
+      "state_id": 0,
+      "name": "Burg_257",
+      "seed": "world:burg:257:Burg_257:s0",
+      "path": "assets/heraldry/burg/257.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 258,
+      "state_id": 0,
+      "name": "Burg_258",
+      "seed": "world:burg:258:Burg_258:s0",
+      "path": "assets/heraldry/burg/258.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 259,
+      "state_id": 0,
+      "name": "Burg_259",
+      "seed": "world:burg:259:Burg_259:s0",
+      "path": "assets/heraldry/burg/259.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 26,
+      "state_id": 0,
+      "name": "Burg_26",
+      "seed": "world:burg:26:Burg_26:s0",
+      "path": "assets/heraldry/burg/26.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 260,
+      "state_id": 0,
+      "name": "Burg_260",
+      "seed": "world:burg:260:Burg_260:s0",
+      "path": "assets/heraldry/burg/260.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 261,
+      "state_id": -1,
+      "name": "Burg_261",
+      "seed": "world:burg:261:Burg_261:s-1",
+      "path": "assets/heraldry/burg/261.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 262,
+      "state_id": -1,
+      "name": "Burg_262",
+      "seed": "world:burg:262:Burg_262:s-1",
+      "path": "assets/heraldry/burg/262.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 263,
+      "state_id": 0,
+      "name": "Burg_263",
+      "seed": "world:burg:263:Burg_263:s0",
+      "path": "assets/heraldry/burg/263.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 264,
+      "state_id": 0,
+      "name": "Burg_264",
+      "seed": "world:burg:264:Burg_264:s0",
+      "path": "assets/heraldry/burg/264.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 265,
+      "state_id": 0,
+      "name": "Burg_265",
+      "seed": "world:burg:265:Burg_265:s0",
+      "path": "assets/heraldry/burg/265.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 266,
+      "state_id": 0,
+      "name": "Burg_266",
+      "seed": "world:burg:266:Burg_266:s0",
+      "path": "assets/heraldry/burg/266.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 267,
+      "state_id": 0,
+      "name": "Burg_267",
+      "seed": "world:burg:267:Burg_267:s0",
+      "path": "assets/heraldry/burg/267.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 268,
+      "state_id": 0,
+      "name": "Burg_268",
+      "seed": "world:burg:268:Burg_268:s0",
+      "path": "assets/heraldry/burg/268.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 269,
+      "state_id": 0,
+      "name": "Burg_269",
+      "seed": "world:burg:269:Burg_269:s0",
+      "path": "assets/heraldry/burg/269.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 27,
+      "state_id": -1,
+      "name": "Burg_27",
+      "seed": "world:burg:27:Burg_27:s-1",
+      "path": "assets/heraldry/burg/27.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 270,
+      "state_id": -1,
+      "name": "Burg_270",
+      "seed": "world:burg:270:Burg_270:s-1",
+      "path": "assets/heraldry/burg/270.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 271,
+      "state_id": 0,
+      "name": "Burg_271",
+      "seed": "world:burg:271:Burg_271:s0",
+      "path": "assets/heraldry/burg/271.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 272,
+      "state_id": -1,
+      "name": "Burg_272",
+      "seed": "world:burg:272:Burg_272:s-1",
+      "path": "assets/heraldry/burg/272.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 273,
+      "state_id": 0,
+      "name": "Burg_273",
+      "seed": "world:burg:273:Burg_273:s0",
+      "path": "assets/heraldry/burg/273.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 274,
+      "state_id": 0,
+      "name": "Burg_274",
+      "seed": "world:burg:274:Burg_274:s0",
+      "path": "assets/heraldry/burg/274.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 275,
+      "state_id": -1,
+      "name": "Burg_275",
+      "seed": "world:burg:275:Burg_275:s-1",
+      "path": "assets/heraldry/burg/275.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 276,
+      "state_id": 0,
+      "name": "Burg_276",
+      "seed": "world:burg:276:Burg_276:s0",
+      "path": "assets/heraldry/burg/276.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 277,
+      "state_id": -1,
+      "name": "Burg_277",
+      "seed": "world:burg:277:Burg_277:s-1",
+      "path": "assets/heraldry/burg/277.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 278,
+      "state_id": 0,
+      "name": "Burg_278",
+      "seed": "world:burg:278:Burg_278:s0",
+      "path": "assets/heraldry/burg/278.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 279,
+      "state_id": -1,
+      "name": "Burg_279",
+      "seed": "world:burg:279:Burg_279:s-1",
+      "path": "assets/heraldry/burg/279.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 28,
+      "state_id": 0,
+      "name": "Burg_28",
+      "seed": "world:burg:28:Burg_28:s0",
+      "path": "assets/heraldry/burg/28.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 280,
+      "state_id": -1,
+      "name": "Burg_280",
+      "seed": "world:burg:280:Burg_280:s-1",
+      "path": "assets/heraldry/burg/280.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 281,
+      "state_id": 0,
+      "name": "Burg_281",
+      "seed": "world:burg:281:Burg_281:s0",
+      "path": "assets/heraldry/burg/281.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 282,
+      "state_id": -1,
+      "name": "Burg_282",
+      "seed": "world:burg:282:Burg_282:s-1",
+      "path": "assets/heraldry/burg/282.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 283,
+      "state_id": 0,
+      "name": "Burg_283",
+      "seed": "world:burg:283:Burg_283:s0",
+      "path": "assets/heraldry/burg/283.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 284,
+      "state_id": 0,
+      "name": "Burg_284",
+      "seed": "world:burg:284:Burg_284:s0",
+      "path": "assets/heraldry/burg/284.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 285,
+      "state_id": 0,
+      "name": "Burg_285",
+      "seed": "world:burg:285:Burg_285:s0",
+      "path": "assets/heraldry/burg/285.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 286,
+      "state_id": 0,
+      "name": "Burg_286",
+      "seed": "world:burg:286:Burg_286:s0",
+      "path": "assets/heraldry/burg/286.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 287,
+      "state_id": -1,
+      "name": "Burg_287",
+      "seed": "world:burg:287:Burg_287:s-1",
+      "path": "assets/heraldry/burg/287.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 288,
+      "state_id": 0,
+      "name": "Burg_288",
+      "seed": "world:burg:288:Burg_288:s0",
+      "path": "assets/heraldry/burg/288.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 289,
+      "state_id": 0,
+      "name": "Burg_289",
+      "seed": "world:burg:289:Burg_289:s0",
+      "path": "assets/heraldry/burg/289.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 29,
+      "state_id": -1,
+      "name": "Burg_29",
+      "seed": "world:burg:29:Burg_29:s-1",
+      "path": "assets/heraldry/burg/29.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 290,
+      "state_id": 0,
+      "name": "Burg_290",
+      "seed": "world:burg:290:Burg_290:s0",
+      "path": "assets/heraldry/burg/290.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 291,
+      "state_id": 0,
+      "name": "Burg_291",
+      "seed": "world:burg:291:Burg_291:s0",
+      "path": "assets/heraldry/burg/291.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 292,
+      "state_id": -1,
+      "name": "Burg_292",
+      "seed": "world:burg:292:Burg_292:s-1",
+      "path": "assets/heraldry/burg/292.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 293,
+      "state_id": 0,
+      "name": "Burg_293",
+      "seed": "world:burg:293:Burg_293:s0",
+      "path": "assets/heraldry/burg/293.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 294,
+      "state_id": 0,
+      "name": "Burg_294",
+      "seed": "world:burg:294:Burg_294:s0",
+      "path": "assets/heraldry/burg/294.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 295,
+      "state_id": 0,
+      "name": "Burg_295",
+      "seed": "world:burg:295:Burg_295:s0",
+      "path": "assets/heraldry/burg/295.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 296,
+      "state_id": 0,
+      "name": "Burg_296",
+      "seed": "world:burg:296:Burg_296:s0",
+      "path": "assets/heraldry/burg/296.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 297,
+      "state_id": -1,
+      "name": "Burg_297",
+      "seed": "world:burg:297:Burg_297:s-1",
+      "path": "assets/heraldry/burg/297.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 298,
+      "state_id": 0,
+      "name": "Burg_298",
+      "seed": "world:burg:298:Burg_298:s0",
+      "path": "assets/heraldry/burg/298.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 299,
+      "state_id": -1,
+      "name": "Burg_299",
+      "seed": "world:burg:299:Burg_299:s-1",
+      "path": "assets/heraldry/burg/299.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 3,
+      "state_id": 0,
+      "name": "Burg_3",
+      "seed": "world:burg:3:Burg_3:s0",
+      "path": "assets/heraldry/burg/3.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 30,
+      "state_id": 0,
+      "name": "Burg_30",
+      "seed": "world:burg:30:Burg_30:s0",
+      "path": "assets/heraldry/burg/30.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 300,
+      "state_id": 0,
+      "name": "Burg_300",
+      "seed": "world:burg:300:Burg_300:s0",
+      "path": "assets/heraldry/burg/300.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 301,
+      "state_id": 0,
+      "name": "Burg_301",
+      "seed": "world:burg:301:Burg_301:s0",
+      "path": "assets/heraldry/burg/301.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 302,
+      "state_id": -1,
+      "name": "Burg_302",
+      "seed": "world:burg:302:Burg_302:s-1",
+      "path": "assets/heraldry/burg/302.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 303,
+      "state_id": 0,
+      "name": "Burg_303",
+      "seed": "world:burg:303:Burg_303:s0",
+      "path": "assets/heraldry/burg/303.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 304,
+      "state_id": 0,
+      "name": "Burg_304",
+      "seed": "world:burg:304:Burg_304:s0",
+      "path": "assets/heraldry/burg/304.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 305,
+      "state_id": 0,
+      "name": "Burg_305",
+      "seed": "world:burg:305:Burg_305:s0",
+      "path": "assets/heraldry/burg/305.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 306,
+      "state_id": -1,
+      "name": "Burg_306",
+      "seed": "world:burg:306:Burg_306:s-1",
+      "path": "assets/heraldry/burg/306.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 307,
+      "state_id": 0,
+      "name": "Burg_307",
+      "seed": "world:burg:307:Burg_307:s0",
+      "path": "assets/heraldry/burg/307.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 308,
+      "state_id": 0,
+      "name": "Burg_308",
+      "seed": "world:burg:308:Burg_308:s0",
+      "path": "assets/heraldry/burg/308.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 309,
+      "state_id": -1,
+      "name": "Burg_309",
+      "seed": "world:burg:309:Burg_309:s-1",
+      "path": "assets/heraldry/burg/309.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 31,
+      "state_id": 0,
+      "name": "Burg_31",
+      "seed": "world:burg:31:Burg_31:s0",
+      "path": "assets/heraldry/burg/31.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 310,
+      "state_id": -1,
+      "name": "Burg_310",
+      "seed": "world:burg:310:Burg_310:s-1",
+      "path": "assets/heraldry/burg/310.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 311,
+      "state_id": -1,
+      "name": "Burg_311",
+      "seed": "world:burg:311:Burg_311:s-1",
+      "path": "assets/heraldry/burg/311.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 312,
+      "state_id": 0,
+      "name": "Burg_312",
+      "seed": "world:burg:312:Burg_312:s0",
+      "path": "assets/heraldry/burg/312.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 313,
+      "state_id": -1,
+      "name": "Burg_313",
+      "seed": "world:burg:313:Burg_313:s-1",
+      "path": "assets/heraldry/burg/313.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 314,
+      "state_id": 0,
+      "name": "Burg_314",
+      "seed": "world:burg:314:Burg_314:s0",
+      "path": "assets/heraldry/burg/314.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 315,
+      "state_id": 0,
+      "name": "Burg_315",
+      "seed": "world:burg:315:Burg_315:s0",
+      "path": "assets/heraldry/burg/315.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 316,
+      "state_id": 0,
+      "name": "Burg_316",
+      "seed": "world:burg:316:Burg_316:s0",
+      "path": "assets/heraldry/burg/316.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 317,
+      "state_id": -1,
+      "name": "Burg_317",
+      "seed": "world:burg:317:Burg_317:s-1",
+      "path": "assets/heraldry/burg/317.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 318,
+      "state_id": -1,
+      "name": "Burg_318",
+      "seed": "world:burg:318:Burg_318:s-1",
+      "path": "assets/heraldry/burg/318.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 319,
+      "state_id": 0,
+      "name": "Burg_319",
+      "seed": "world:burg:319:Burg_319:s0",
+      "path": "assets/heraldry/burg/319.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 32,
+      "state_id": 0,
+      "name": "Burg_32",
+      "seed": "world:burg:32:Burg_32:s0",
+      "path": "assets/heraldry/burg/32.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 320,
+      "state_id": 0,
+      "name": "Burg_320",
+      "seed": "world:burg:320:Burg_320:s0",
+      "path": "assets/heraldry/burg/320.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 321,
+      "state_id": 0,
+      "name": "Burg_321",
+      "seed": "world:burg:321:Burg_321:s0",
+      "path": "assets/heraldry/burg/321.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 322,
+      "state_id": 0,
+      "name": "Burg_322",
+      "seed": "world:burg:322:Burg_322:s0",
+      "path": "assets/heraldry/burg/322.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 323,
+      "state_id": 0,
+      "name": "Burg_323",
+      "seed": "world:burg:323:Burg_323:s0",
+      "path": "assets/heraldry/burg/323.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 324,
+      "state_id": 0,
+      "name": "Burg_324",
+      "seed": "world:burg:324:Burg_324:s0",
+      "path": "assets/heraldry/burg/324.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 325,
+      "state_id": 0,
+      "name": "Burg_325",
+      "seed": "world:burg:325:Burg_325:s0",
+      "path": "assets/heraldry/burg/325.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 326,
+      "state_id": 0,
+      "name": "Burg_326",
+      "seed": "world:burg:326:Burg_326:s0",
+      "path": "assets/heraldry/burg/326.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 327,
+      "state_id": -1,
+      "name": "Burg_327",
+      "seed": "world:burg:327:Burg_327:s-1",
+      "path": "assets/heraldry/burg/327.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 328,
+      "state_id": -1,
+      "name": "Burg_328",
+      "seed": "world:burg:328:Burg_328:s-1",
+      "path": "assets/heraldry/burg/328.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 329,
+      "state_id": 0,
+      "name": "Burg_329",
+      "seed": "world:burg:329:Burg_329:s0",
+      "path": "assets/heraldry/burg/329.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 33,
+      "state_id": 0,
+      "name": "Burg_33",
+      "seed": "world:burg:33:Burg_33:s0",
+      "path": "assets/heraldry/burg/33.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 330,
+      "state_id": 0,
+      "name": "Burg_330",
+      "seed": "world:burg:330:Burg_330:s0",
+      "path": "assets/heraldry/burg/330.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 331,
+      "state_id": 0,
+      "name": "Burg_331",
+      "seed": "world:burg:331:Burg_331:s0",
+      "path": "assets/heraldry/burg/331.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 332,
+      "state_id": 0,
+      "name": "Burg_332",
+      "seed": "world:burg:332:Burg_332:s0",
+      "path": "assets/heraldry/burg/332.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 333,
+      "state_id": -1,
+      "name": "Burg_333",
+      "seed": "world:burg:333:Burg_333:s-1",
+      "path": "assets/heraldry/burg/333.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 334,
+      "state_id": 0,
+      "name": "Burg_334",
+      "seed": "world:burg:334:Burg_334:s0",
+      "path": "assets/heraldry/burg/334.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 335,
+      "state_id": -1,
+      "name": "Burg_335",
+      "seed": "world:burg:335:Burg_335:s-1",
+      "path": "assets/heraldry/burg/335.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 336,
+      "state_id": 0,
+      "name": "Burg_336",
+      "seed": "world:burg:336:Burg_336:s0",
+      "path": "assets/heraldry/burg/336.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 337,
+      "state_id": 0,
+      "name": "Burg_337",
+      "seed": "world:burg:337:Burg_337:s0",
+      "path": "assets/heraldry/burg/337.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 338,
+      "state_id": 0,
+      "name": "Burg_338",
+      "seed": "world:burg:338:Burg_338:s0",
+      "path": "assets/heraldry/burg/338.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 339,
+      "state_id": -1,
+      "name": "Burg_339",
+      "seed": "world:burg:339:Burg_339:s-1",
+      "path": "assets/heraldry/burg/339.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 34,
+      "state_id": 0,
+      "name": "Burg_34",
+      "seed": "world:burg:34:Burg_34:s0",
+      "path": "assets/heraldry/burg/34.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 340,
+      "state_id": -1,
+      "name": "Burg_340",
+      "seed": "world:burg:340:Burg_340:s-1",
+      "path": "assets/heraldry/burg/340.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 341,
+      "state_id": 0,
+      "name": "Burg_341",
+      "seed": "world:burg:341:Burg_341:s0",
+      "path": "assets/heraldry/burg/341.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 342,
+      "state_id": 0,
+      "name": "Burg_342",
+      "seed": "world:burg:342:Burg_342:s0",
+      "path": "assets/heraldry/burg/342.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 343,
+      "state_id": -1,
+      "name": "Burg_343",
+      "seed": "world:burg:343:Burg_343:s-1",
+      "path": "assets/heraldry/burg/343.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 344,
+      "state_id": -1,
+      "name": "Burg_344",
+      "seed": "world:burg:344:Burg_344:s-1",
+      "path": "assets/heraldry/burg/344.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 345,
+      "state_id": -1,
+      "name": "Burg_345",
+      "seed": "world:burg:345:Burg_345:s-1",
+      "path": "assets/heraldry/burg/345.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 346,
+      "state_id": 0,
+      "name": "Burg_346",
+      "seed": "world:burg:346:Burg_346:s0",
+      "path": "assets/heraldry/burg/346.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 347,
+      "state_id": 0,
+      "name": "Burg_347",
+      "seed": "world:burg:347:Burg_347:s0",
+      "path": "assets/heraldry/burg/347.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 348,
+      "state_id": 0,
+      "name": "Tidebreak",
+      "seed": "world:burg:348:Tidebreak:s0",
+      "path": "assets/heraldry/burg/348.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 349,
+      "state_id": -1,
+      "name": "Burg_349",
+      "seed": "world:burg:349:Burg_349:s-1",
+      "path": "assets/heraldry/burg/349.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 35,
+      "state_id": 0,
+      "name": "Burg_35",
+      "seed": "world:burg:35:Burg_35:s0",
+      "path": "assets/heraldry/burg/35.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 350,
+      "state_id": 0,
+      "name": "Burg_350",
+      "seed": "world:burg:350:Burg_350:s0",
+      "path": "assets/heraldry/burg/350.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 351,
+      "state_id": 0,
+      "name": "Burg_351",
+      "seed": "world:burg:351:Burg_351:s0",
+      "path": "assets/heraldry/burg/351.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 352,
+      "state_id": -1,
+      "name": "Burg_352",
+      "seed": "world:burg:352:Burg_352:s-1",
+      "path": "assets/heraldry/burg/352.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 353,
+      "state_id": 0,
+      "name": "Burg_353",
+      "seed": "world:burg:353:Burg_353:s0",
+      "path": "assets/heraldry/burg/353.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 354,
+      "state_id": 0,
+      "name": "Burg_354",
+      "seed": "world:burg:354:Burg_354:s0",
+      "path": "assets/heraldry/burg/354.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 355,
+      "state_id": 0,
+      "name": "Burg_355",
+      "seed": "world:burg:355:Burg_355:s0",
+      "path": "assets/heraldry/burg/355.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 356,
+      "state_id": 0,
+      "name": "Burg_356",
+      "seed": "world:burg:356:Burg_356:s0",
+      "path": "assets/heraldry/burg/356.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 357,
+      "state_id": 0,
+      "name": "Burg_357",
+      "seed": "world:burg:357:Burg_357:s0",
+      "path": "assets/heraldry/burg/357.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 358,
+      "state_id": 0,
+      "name": "Burg_358",
+      "seed": "world:burg:358:Burg_358:s0",
+      "path": "assets/heraldry/burg/358.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 359,
+      "state_id": 0,
+      "name": "Burg_359",
+      "seed": "world:burg:359:Burg_359:s0",
+      "path": "assets/heraldry/burg/359.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 36,
+      "state_id": -1,
+      "name": "Burg_36",
+      "seed": "world:burg:36:Burg_36:s-1",
+      "path": "assets/heraldry/burg/36.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 360,
+      "state_id": 0,
+      "name": "Burg_360",
+      "seed": "world:burg:360:Burg_360:s0",
+      "path": "assets/heraldry/burg/360.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 361,
+      "state_id": 0,
+      "name": "Burg_361",
+      "seed": "world:burg:361:Burg_361:s0",
+      "path": "assets/heraldry/burg/361.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 362,
+      "state_id": 0,
+      "name": "Burg_362",
+      "seed": "world:burg:362:Burg_362:s0",
+      "path": "assets/heraldry/burg/362.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 363,
+      "state_id": 0,
+      "name": "Burg_363",
+      "seed": "world:burg:363:Burg_363:s0",
+      "path": "assets/heraldry/burg/363.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 364,
+      "state_id": 0,
+      "name": "Burg_364",
+      "seed": "world:burg:364:Burg_364:s0",
+      "path": "assets/heraldry/burg/364.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 365,
+      "state_id": 0,
+      "name": "Burg_365",
+      "seed": "world:burg:365:Burg_365:s0",
+      "path": "assets/heraldry/burg/365.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 366,
+      "state_id": 0,
+      "name": "Burg_366",
+      "seed": "world:burg:366:Burg_366:s0",
+      "path": "assets/heraldry/burg/366.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 367,
+      "state_id": -1,
+      "name": "Burg_367",
+      "seed": "world:burg:367:Burg_367:s-1",
+      "path": "assets/heraldry/burg/367.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 368,
+      "state_id": 0,
+      "name": "Burg_368",
+      "seed": "world:burg:368:Burg_368:s0",
+      "path": "assets/heraldry/burg/368.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 369,
+      "state_id": 0,
+      "name": "Burg_369",
+      "seed": "world:burg:369:Burg_369:s0",
+      "path": "assets/heraldry/burg/369.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 37,
+      "state_id": 0,
+      "name": "Burg_37",
+      "seed": "world:burg:37:Burg_37:s0",
+      "path": "assets/heraldry/burg/37.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 370,
+      "state_id": -1,
+      "name": "Burg_370",
+      "seed": "world:burg:370:Burg_370:s-1",
+      "path": "assets/heraldry/burg/370.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 371,
+      "state_id": -1,
+      "name": "Burg_371",
+      "seed": "world:burg:371:Burg_371:s-1",
+      "path": "assets/heraldry/burg/371.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 372,
+      "state_id": 0,
+      "name": "Burg_372",
+      "seed": "world:burg:372:Burg_372:s0",
+      "path": "assets/heraldry/burg/372.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 373,
+      "state_id": 0,
+      "name": "Burg_373",
+      "seed": "world:burg:373:Burg_373:s0",
+      "path": "assets/heraldry/burg/373.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 374,
+      "state_id": -1,
+      "name": "Burg_374",
+      "seed": "world:burg:374:Burg_374:s-1",
+      "path": "assets/heraldry/burg/374.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 375,
+      "state_id": 0,
+      "name": "Burg_375",
+      "seed": "world:burg:375:Burg_375:s0",
+      "path": "assets/heraldry/burg/375.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 376,
+      "state_id": -1,
+      "name": "Burg_376",
+      "seed": "world:burg:376:Burg_376:s-1",
+      "path": "assets/heraldry/burg/376.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 377,
+      "state_id": 0,
+      "name": "Burg_377",
+      "seed": "world:burg:377:Burg_377:s0",
+      "path": "assets/heraldry/burg/377.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 378,
+      "state_id": -1,
+      "name": "Burg_378",
+      "seed": "world:burg:378:Burg_378:s-1",
+      "path": "assets/heraldry/burg/378.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 379,
+      "state_id": 0,
+      "name": "Burg_379",
+      "seed": "world:burg:379:Burg_379:s0",
+      "path": "assets/heraldry/burg/379.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 38,
+      "state_id": 0,
+      "name": "Burg_38",
+      "seed": "world:burg:38:Burg_38:s0",
+      "path": "assets/heraldry/burg/38.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 380,
+      "state_id": 0,
+      "name": "Burg_380",
+      "seed": "world:burg:380:Burg_380:s0",
+      "path": "assets/heraldry/burg/380.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 381,
+      "state_id": 0,
+      "name": "Burg_381",
+      "seed": "world:burg:381:Burg_381:s0",
+      "path": "assets/heraldry/burg/381.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 382,
+      "state_id": 0,
+      "name": "Burg_382",
+      "seed": "world:burg:382:Burg_382:s0",
+      "path": "assets/heraldry/burg/382.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 383,
+      "state_id": -1,
+      "name": "Burg_383",
+      "seed": "world:burg:383:Burg_383:s-1",
+      "path": "assets/heraldry/burg/383.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 384,
+      "state_id": 0,
+      "name": "Burg_384",
+      "seed": "world:burg:384:Burg_384:s0",
+      "path": "assets/heraldry/burg/384.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 385,
+      "state_id": null,
+      "name": "Burg_385",
+      "seed": "world:burg:385:Burg_385:sNaN",
+      "path": "assets/heraldry/burg/385.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 386,
+      "state_id": -1,
+      "name": "Burg_386",
+      "seed": "world:burg:386:Burg_386:s-1",
+      "path": "assets/heraldry/burg/386.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 387,
+      "state_id": -1,
+      "name": "Burg_387",
+      "seed": "world:burg:387:Burg_387:s-1",
+      "path": "assets/heraldry/burg/387.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 388,
+      "state_id": 0,
+      "name": "Burg_388",
+      "seed": "world:burg:388:Burg_388:s0",
+      "path": "assets/heraldry/burg/388.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 389,
+      "state_id": -1,
+      "name": "Burg_389",
+      "seed": "world:burg:389:Burg_389:s-1",
+      "path": "assets/heraldry/burg/389.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 39,
+      "state_id": 0,
+      "name": "Burg_39",
+      "seed": "world:burg:39:Burg_39:s0",
+      "path": "assets/heraldry/burg/39.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 390,
+      "state_id": -1,
+      "name": "Burg_390",
+      "seed": "world:burg:390:Burg_390:s-1",
+      "path": "assets/heraldry/burg/390.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 391,
+      "state_id": 0,
+      "name": "Saltward Outpost",
+      "seed": "world:burg:391:Saltward Outpost:s0",
+      "path": "assets/heraldry/burg/391.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 392,
+      "state_id": -1,
+      "name": "Burg_392",
+      "seed": "world:burg:392:Burg_392:s-1",
+      "path": "assets/heraldry/burg/392.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 393,
+      "state_id": 0,
+      "name": "Burg_393",
+      "seed": "world:burg:393:Burg_393:s0",
+      "path": "assets/heraldry/burg/393.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 394,
+      "state_id": 0,
+      "name": "Burg_394",
+      "seed": "world:burg:394:Burg_394:s0",
+      "path": "assets/heraldry/burg/394.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 395,
+      "state_id": -1,
+      "name": "Burg_395",
+      "seed": "world:burg:395:Burg_395:s-1",
+      "path": "assets/heraldry/burg/395.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 396,
+      "state_id": 0,
+      "name": "Burg_396",
+      "seed": "world:burg:396:Burg_396:s0",
+      "path": "assets/heraldry/burg/396.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 397,
+      "state_id": 0,
+      "name": "Burg_397",
+      "seed": "world:burg:397:Burg_397:s0",
+      "path": "assets/heraldry/burg/397.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 398,
+      "state_id": 0,
+      "name": "Burg_398",
+      "seed": "world:burg:398:Burg_398:s0",
+      "path": "assets/heraldry/burg/398.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 399,
+      "state_id": -1,
+      "name": "Burg_399",
+      "seed": "world:burg:399:Burg_399:s-1",
+      "path": "assets/heraldry/burg/399.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 4,
+      "state_id": 0,
+      "name": "Burg_4",
+      "seed": "world:burg:4:Burg_4:s0",
+      "path": "assets/heraldry/burg/4.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 40,
+      "state_id": 0,
+      "name": "Burg_40",
+      "seed": "world:burg:40:Burg_40:s0",
+      "path": "assets/heraldry/burg/40.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 400,
+      "state_id": 0,
+      "name": "Burg_400",
+      "seed": "world:burg:400:Burg_400:s0",
+      "path": "assets/heraldry/burg/400.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 401,
+      "state_id": 0,
+      "name": "Burg_401",
+      "seed": "world:burg:401:Burg_401:s0",
+      "path": "assets/heraldry/burg/401.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 402,
+      "state_id": 0,
+      "name": "Burg_402",
+      "seed": "world:burg:402:Burg_402:s0",
+      "path": "assets/heraldry/burg/402.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 403,
+      "state_id": 0,
+      "name": "Burg_403",
+      "seed": "world:burg:403:Burg_403:s0",
+      "path": "assets/heraldry/burg/403.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 404,
+      "state_id": 0,
+      "name": "Burg_404",
+      "seed": "world:burg:404:Burg_404:s0",
+      "path": "assets/heraldry/burg/404.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 405,
+      "state_id": -1,
+      "name": "Burg_405",
+      "seed": "world:burg:405:Burg_405:s-1",
+      "path": "assets/heraldry/burg/405.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 406,
+      "state_id": 0,
+      "name": "Burg_406",
+      "seed": "world:burg:406:Burg_406:s0",
+      "path": "assets/heraldry/burg/406.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 407,
+      "state_id": 0,
+      "name": "Burg_407",
+      "seed": "world:burg:407:Burg_407:s0",
+      "path": "assets/heraldry/burg/407.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 408,
+      "state_id": 0,
+      "name": "Burg_408",
+      "seed": "world:burg:408:Burg_408:s0",
+      "path": "assets/heraldry/burg/408.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 409,
+      "state_id": 0,
+      "name": "Burg_409",
+      "seed": "world:burg:409:Burg_409:s0",
+      "path": "assets/heraldry/burg/409.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 41,
+      "state_id": 0,
+      "name": "Burg_41",
+      "seed": "world:burg:41:Burg_41:s0",
+      "path": "assets/heraldry/burg/41.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 410,
+      "state_id": 0,
+      "name": "Burg_410",
+      "seed": "world:burg:410:Burg_410:s0",
+      "path": "assets/heraldry/burg/410.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 411,
+      "state_id": -1,
+      "name": "Burg_411",
+      "seed": "world:burg:411:Burg_411:s-1",
+      "path": "assets/heraldry/burg/411.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 412,
+      "state_id": -1,
+      "name": "Burg_412",
+      "seed": "world:burg:412:Burg_412:s-1",
+      "path": "assets/heraldry/burg/412.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 413,
+      "state_id": 0,
+      "name": "Burg_413",
+      "seed": "world:burg:413:Burg_413:s0",
+      "path": "assets/heraldry/burg/413.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 414,
+      "state_id": 0,
+      "name": "Burg_414",
+      "seed": "world:burg:414:Burg_414:s0",
+      "path": "assets/heraldry/burg/414.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 415,
+      "state_id": 0,
+      "name": "Burg_415",
+      "seed": "world:burg:415:Burg_415:s0",
+      "path": "assets/heraldry/burg/415.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 416,
+      "state_id": 0,
+      "name": "Burg_416",
+      "seed": "world:burg:416:Burg_416:s0",
+      "path": "assets/heraldry/burg/416.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 417,
+      "state_id": 0,
+      "name": "Burg_417",
+      "seed": "world:burg:417:Burg_417:s0",
+      "path": "assets/heraldry/burg/417.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 418,
+      "state_id": 0,
+      "name": "Burg_418",
+      "seed": "world:burg:418:Burg_418:s0",
+      "path": "assets/heraldry/burg/418.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 419,
+      "state_id": 0,
+      "name": "Burg_419",
+      "seed": "world:burg:419:Burg_419:s0",
+      "path": "assets/heraldry/burg/419.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 42,
+      "state_id": 0,
+      "name": "Burg_42",
+      "seed": "world:burg:42:Burg_42:s0",
+      "path": "assets/heraldry/burg/42.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 420,
+      "state_id": -1,
+      "name": "Burg_420",
+      "seed": "world:burg:420:Burg_420:s-1",
+      "path": "assets/heraldry/burg/420.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 421,
+      "state_id": -1,
+      "name": "Burg_421",
+      "seed": "world:burg:421:Burg_421:s-1",
+      "path": "assets/heraldry/burg/421.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 422,
+      "state_id": -1,
+      "name": "Burg_422",
+      "seed": "world:burg:422:Burg_422:s-1",
+      "path": "assets/heraldry/burg/422.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 423,
+      "state_id": 0,
+      "name": "Burg_423",
+      "seed": "world:burg:423:Burg_423:s0",
+      "path": "assets/heraldry/burg/423.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 424,
+      "state_id": -1,
+      "name": "Burg_424",
+      "seed": "world:burg:424:Burg_424:s-1",
+      "path": "assets/heraldry/burg/424.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 425,
+      "state_id": 0,
+      "name": "Burg_425",
+      "seed": "world:burg:425:Burg_425:s0",
+      "path": "assets/heraldry/burg/425.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 426,
+      "state_id": -1,
+      "name": "Burg_426",
+      "seed": "world:burg:426:Burg_426:s-1",
+      "path": "assets/heraldry/burg/426.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 427,
+      "state_id": 0,
+      "name": "Burg_427",
+      "seed": "world:burg:427:Burg_427:s0",
+      "path": "assets/heraldry/burg/427.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 428,
+      "state_id": -1,
+      "name": "Burg_428",
+      "seed": "world:burg:428:Burg_428:s-1",
+      "path": "assets/heraldry/burg/428.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 429,
+      "state_id": 0,
+      "name": "Burg_429",
+      "seed": "world:burg:429:Burg_429:s0",
+      "path": "assets/heraldry/burg/429.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 43,
+      "state_id": 0,
+      "name": "Burg_43",
+      "seed": "world:burg:43:Burg_43:s0",
+      "path": "assets/heraldry/burg/43.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 430,
+      "state_id": 0,
+      "name": "Burg_430",
+      "seed": "world:burg:430:Burg_430:s0",
+      "path": "assets/heraldry/burg/430.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 431,
+      "state_id": -1,
+      "name": "Burg_431",
+      "seed": "world:burg:431:Burg_431:s-1",
+      "path": "assets/heraldry/burg/431.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 432,
+      "state_id": 0,
+      "name": "Burg_432",
+      "seed": "world:burg:432:Burg_432:s0",
+      "path": "assets/heraldry/burg/432.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 433,
+      "state_id": 0,
+      "name": "Burg_433",
+      "seed": "world:burg:433:Burg_433:s0",
+      "path": "assets/heraldry/burg/433.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 434,
+      "state_id": 0,
+      "name": "Burg_434",
+      "seed": "world:burg:434:Burg_434:s0",
+      "path": "assets/heraldry/burg/434.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 435,
+      "state_id": 0,
+      "name": "Burg_435",
+      "seed": "world:burg:435:Burg_435:s0",
+      "path": "assets/heraldry/burg/435.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 436,
+      "state_id": 0,
+      "name": "Burg_436",
+      "seed": "world:burg:436:Burg_436:s0",
+      "path": "assets/heraldry/burg/436.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 437,
+      "state_id": -1,
+      "name": "Burg_437",
+      "seed": "world:burg:437:Burg_437:s-1",
+      "path": "assets/heraldry/burg/437.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 438,
+      "state_id": 0,
+      "name": "Burg_438",
+      "seed": "world:burg:438:Burg_438:s0",
+      "path": "assets/heraldry/burg/438.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 439,
+      "state_id": 0,
+      "name": "Gullbridge Outpost",
+      "seed": "world:burg:439:Gullbridge Outpost:s0",
+      "path": "assets/heraldry/burg/439.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 44,
+      "state_id": 0,
+      "name": "Burg_44",
+      "seed": "world:burg:44:Burg_44:s0",
+      "path": "assets/heraldry/burg/44.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 440,
+      "state_id": 0,
+      "name": "Burg_440",
+      "seed": "world:burg:440:Burg_440:s0",
+      "path": "assets/heraldry/burg/440.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 441,
+      "state_id": 0,
+      "name": "Burg_441",
+      "seed": "world:burg:441:Burg_441:s0",
+      "path": "assets/heraldry/burg/441.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 442,
+      "state_id": -1,
+      "name": "Burg_442",
+      "seed": "world:burg:442:Burg_442:s-1",
+      "path": "assets/heraldry/burg/442.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 443,
+      "state_id": 0,
+      "name": "Burg_443",
+      "seed": "world:burg:443:Burg_443:s0",
+      "path": "assets/heraldry/burg/443.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 444,
+      "state_id": 0,
+      "name": "Burg_444",
+      "seed": "world:burg:444:Burg_444:s0",
+      "path": "assets/heraldry/burg/444.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 445,
+      "state_id": 0,
+      "name": "Burg_445",
+      "seed": "world:burg:445:Burg_445:s0",
+      "path": "assets/heraldry/burg/445.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 446,
+      "state_id": 0,
+      "name": "Burg_446",
+      "seed": "world:burg:446:Burg_446:s0",
+      "path": "assets/heraldry/burg/446.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 447,
+      "state_id": 0,
+      "name": "Burg_447",
+      "seed": "world:burg:447:Burg_447:s0",
+      "path": "assets/heraldry/burg/447.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 448,
+      "state_id": -1,
+      "name": "Burg_448",
+      "seed": "world:burg:448:Burg_448:s-1",
+      "path": "assets/heraldry/burg/448.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 449,
+      "state_id": 0,
+      "name": "Burg_449",
+      "seed": "world:burg:449:Burg_449:s0",
+      "path": "assets/heraldry/burg/449.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 45,
+      "state_id": -1,
+      "name": "Burg_45",
+      "seed": "world:burg:45:Burg_45:s-1",
+      "path": "assets/heraldry/burg/45.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 450,
+      "state_id": -1,
+      "name": "Burg_450",
+      "seed": "world:burg:450:Burg_450:s-1",
+      "path": "assets/heraldry/burg/450.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 451,
+      "state_id": 0,
+      "name": "Burg_451",
+      "seed": "world:burg:451:Burg_451:s0",
+      "path": "assets/heraldry/burg/451.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 452,
+      "state_id": 0,
+      "name": "Burg_452",
+      "seed": "world:burg:452:Burg_452:s0",
+      "path": "assets/heraldry/burg/452.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 453,
+      "state_id": 0,
+      "name": "Burg_453",
+      "seed": "world:burg:453:Burg_453:s0",
+      "path": "assets/heraldry/burg/453.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 454,
+      "state_id": 0,
+      "name": "Burg_454",
+      "seed": "world:burg:454:Burg_454:s0",
+      "path": "assets/heraldry/burg/454.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 455,
+      "state_id": -1,
+      "name": "Burg_455",
+      "seed": "world:burg:455:Burg_455:s-1",
+      "path": "assets/heraldry/burg/455.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 456,
+      "state_id": -1,
+      "name": "Burg_456",
+      "seed": "world:burg:456:Burg_456:s-1",
+      "path": "assets/heraldry/burg/456.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 457,
+      "state_id": 0,
+      "name": "Burg_457",
+      "seed": "world:burg:457:Burg_457:s0",
+      "path": "assets/heraldry/burg/457.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 458,
+      "state_id": 0,
+      "name": "Burg_458",
+      "seed": "world:burg:458:Burg_458:s0",
+      "path": "assets/heraldry/burg/458.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 459,
+      "state_id": 0,
+      "name": "Burg_459",
+      "seed": "world:burg:459:Burg_459:s0",
+      "path": "assets/heraldry/burg/459.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 46,
+      "state_id": -1,
+      "name": "Burg_46",
+      "seed": "world:burg:46:Burg_46:s-1",
+      "path": "assets/heraldry/burg/46.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 460,
+      "state_id": 0,
+      "name": "Burg_460",
+      "seed": "world:burg:460:Burg_460:s0",
+      "path": "assets/heraldry/burg/460.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 461,
+      "state_id": 0,
+      "name": "Burg_461",
+      "seed": "world:burg:461:Burg_461:s0",
+      "path": "assets/heraldry/burg/461.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 462,
+      "state_id": -1,
+      "name": "Burg_462",
+      "seed": "world:burg:462:Burg_462:s-1",
+      "path": "assets/heraldry/burg/462.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 463,
+      "state_id": -1,
+      "name": "Burg_463",
+      "seed": "world:burg:463:Burg_463:s-1",
+      "path": "assets/heraldry/burg/463.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 464,
+      "state_id": 0,
+      "name": "Burg_464",
+      "seed": "world:burg:464:Burg_464:s0",
+      "path": "assets/heraldry/burg/464.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 465,
+      "state_id": 0,
+      "name": "Burg_465",
+      "seed": "world:burg:465:Burg_465:s0",
+      "path": "assets/heraldry/burg/465.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 466,
+      "state_id": 0,
+      "name": "Burg_466",
+      "seed": "world:burg:466:Burg_466:s0",
+      "path": "assets/heraldry/burg/466.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 467,
+      "state_id": 0,
+      "name": "Burg_467",
+      "seed": "world:burg:467:Burg_467:s0",
+      "path": "assets/heraldry/burg/467.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 468,
+      "state_id": 0,
+      "name": "Burg_468",
+      "seed": "world:burg:468:Burg_468:s0",
+      "path": "assets/heraldry/burg/468.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 469,
+      "state_id": -1,
+      "name": "Burg_469",
+      "seed": "world:burg:469:Burg_469:s-1",
+      "path": "assets/heraldry/burg/469.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 47,
+      "state_id": -1,
+      "name": "Burg_47",
+      "seed": "world:burg:47:Burg_47:s-1",
+      "path": "assets/heraldry/burg/47.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 470,
+      "state_id": 0,
+      "name": "Burg_470",
+      "seed": "world:burg:470:Burg_470:s0",
+      "path": "assets/heraldry/burg/470.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 471,
+      "state_id": 0,
+      "name": "Burg_471",
+      "seed": "world:burg:471:Burg_471:s0",
+      "path": "assets/heraldry/burg/471.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 472,
+      "state_id": 0,
+      "name": "Burg_472",
+      "seed": "world:burg:472:Burg_472:s0",
+      "path": "assets/heraldry/burg/472.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 473,
+      "state_id": 0,
+      "name": "Burg_473",
+      "seed": "world:burg:473:Burg_473:s0",
+      "path": "assets/heraldry/burg/473.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 474,
+      "state_id": 0,
+      "name": "Burg_474",
+      "seed": "world:burg:474:Burg_474:s0",
+      "path": "assets/heraldry/burg/474.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 475,
+      "state_id": -1,
+      "name": "Burg_475",
+      "seed": "world:burg:475:Burg_475:s-1",
+      "path": "assets/heraldry/burg/475.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 476,
+      "state_id": 0,
+      "name": "Burg_476",
+      "seed": "world:burg:476:Burg_476:s0",
+      "path": "assets/heraldry/burg/476.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 477,
+      "state_id": 0,
+      "name": "Burg_477",
+      "seed": "world:burg:477:Burg_477:s0",
+      "path": "assets/heraldry/burg/477.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 478,
+      "state_id": -1,
+      "name": "Burg_478",
+      "seed": "world:burg:478:Burg_478:s-1",
+      "path": "assets/heraldry/burg/478.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 48,
+      "state_id": 0,
+      "name": "Burg_48",
+      "seed": "world:burg:48:Burg_48:s0",
+      "path": "assets/heraldry/burg/48.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 49,
+      "state_id": 0,
+      "name": "Burg_49",
+      "seed": "world:burg:49:Burg_49:s0",
+      "path": "assets/heraldry/burg/49.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 5,
+      "state_id": 0,
+      "name": "Burg_5",
+      "seed": "world:burg:5:Burg_5:s0",
+      "path": "assets/heraldry/burg/5.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 50,
+      "state_id": -1,
+      "name": "Burg_50",
+      "seed": "world:burg:50:Burg_50:s-1",
+      "path": "assets/heraldry/burg/50.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 51,
+      "state_id": 0,
+      "name": "Burg_51",
+      "seed": "world:burg:51:Burg_51:s0",
+      "path": "assets/heraldry/burg/51.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 52,
+      "state_id": 0,
+      "name": "Burg_52",
+      "seed": "world:burg:52:Burg_52:s0",
+      "path": "assets/heraldry/burg/52.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 53,
+      "state_id": -1,
+      "name": "Burg_53",
+      "seed": "world:burg:53:Burg_53:s-1",
+      "path": "assets/heraldry/burg/53.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 54,
+      "state_id": 0,
+      "name": "Burg_54",
+      "seed": "world:burg:54:Burg_54:s0",
+      "path": "assets/heraldry/burg/54.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 55,
+      "state_id": 0,
+      "name": "Saltwatch Quay",
+      "seed": "world:burg:55:Saltwatch Quay:s0",
+      "path": "assets/heraldry/burg/55.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 56,
+      "state_id": 0,
+      "name": "Burg_56",
+      "seed": "world:burg:56:Burg_56:s0",
+      "path": "assets/heraldry/burg/56.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 57,
+      "state_id": 0,
+      "name": "Burg_57",
+      "seed": "world:burg:57:Burg_57:s0",
+      "path": "assets/heraldry/burg/57.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 58,
+      "state_id": 0,
+      "name": "Burg_58",
+      "seed": "world:burg:58:Burg_58:s0",
+      "path": "assets/heraldry/burg/58.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 59,
+      "state_id": 0,
+      "name": "Burg_59",
+      "seed": "world:burg:59:Burg_59:s0",
+      "path": "assets/heraldry/burg/59.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 6,
+      "state_id": 0,
+      "name": "Burg_6",
+      "seed": "world:burg:6:Burg_6:s0",
+      "path": "assets/heraldry/burg/6.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 60,
+      "state_id": 0,
+      "name": "Burg_60",
+      "seed": "world:burg:60:Burg_60:s0",
+      "path": "assets/heraldry/burg/60.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 61,
+      "state_id": 0,
+      "name": "Burg_61",
+      "seed": "world:burg:61:Burg_61:s0",
+      "path": "assets/heraldry/burg/61.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 62,
+      "state_id": -1,
+      "name": "Burg_62",
+      "seed": "world:burg:62:Burg_62:s-1",
+      "path": "assets/heraldry/burg/62.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 63,
+      "state_id": 0,
+      "name": "Burg_63",
+      "seed": "world:burg:63:Burg_63:s0",
+      "path": "assets/heraldry/burg/63.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 64,
+      "state_id": 0,
+      "name": "Burg_64",
+      "seed": "world:burg:64:Burg_64:s0",
+      "path": "assets/heraldry/burg/64.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 65,
+      "state_id": -1,
+      "name": "Burg_65",
+      "seed": "world:burg:65:Burg_65:s-1",
+      "path": "assets/heraldry/burg/65.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 66,
+      "state_id": 0,
+      "name": "Burg_66",
+      "seed": "world:burg:66:Burg_66:s0",
+      "path": "assets/heraldry/burg/66.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 67,
+      "state_id": 0,
+      "name": "Burg_67",
+      "seed": "world:burg:67:Burg_67:s0",
+      "path": "assets/heraldry/burg/67.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 68,
+      "state_id": -1,
+      "name": "Burg_68",
+      "seed": "world:burg:68:Burg_68:s-1",
+      "path": "assets/heraldry/burg/68.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 69,
+      "state_id": -1,
+      "name": "Burg_69",
+      "seed": "world:burg:69:Burg_69:s-1",
+      "path": "assets/heraldry/burg/69.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 7,
+      "state_id": 0,
+      "name": "Burg_7",
+      "seed": "world:burg:7:Burg_7:s0",
+      "path": "assets/heraldry/burg/7.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 70,
+      "state_id": 0,
+      "name": "Burg_70",
+      "seed": "world:burg:70:Burg_70:s0",
+      "path": "assets/heraldry/burg/70.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 71,
+      "state_id": 0,
+      "name": "Burg_71",
+      "seed": "world:burg:71:Burg_71:s0",
+      "path": "assets/heraldry/burg/71.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 72,
+      "state_id": 0,
+      "name": "Burg_72",
+      "seed": "world:burg:72:Burg_72:s0",
+      "path": "assets/heraldry/burg/72.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 73,
+      "state_id": null,
+      "name": "Burg_73",
+      "seed": "world:burg:73:Burg_73:sNaN",
+      "path": "assets/heraldry/burg/73.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 74,
+      "state_id": 0,
+      "name": "Burg_74",
+      "seed": "world:burg:74:Burg_74:s0",
+      "path": "assets/heraldry/burg/74.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 75,
+      "state_id": 0,
+      "name": "Burg_75",
+      "seed": "world:burg:75:Burg_75:s0",
+      "path": "assets/heraldry/burg/75.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 76,
+      "state_id": 0,
+      "name": "Burg_76",
+      "seed": "world:burg:76:Burg_76:s0",
+      "path": "assets/heraldry/burg/76.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 77,
+      "state_id": 0,
+      "name": "Burg_77",
+      "seed": "world:burg:77:Burg_77:s0",
+      "path": "assets/heraldry/burg/77.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 78,
+      "state_id": -1,
+      "name": "Burg_78",
+      "seed": "world:burg:78:Burg_78:s-1",
+      "path": "assets/heraldry/burg/78.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 79,
+      "state_id": 0,
+      "name": "Burg_79",
+      "seed": "world:burg:79:Burg_79:s0",
+      "path": "assets/heraldry/burg/79.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 8,
+      "state_id": null,
+      "name": "Burg_8",
+      "seed": "world:burg:8:Burg_8:sNaN",
+      "path": "assets/heraldry/burg/8.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 80,
+      "state_id": 0,
+      "name": "Burg_80",
+      "seed": "world:burg:80:Burg_80:s0",
+      "path": "assets/heraldry/burg/80.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 81,
+      "state_id": -1,
+      "name": "Burg_81",
+      "seed": "world:burg:81:Burg_81:s-1",
+      "path": "assets/heraldry/burg/81.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 82,
+      "state_id": 0,
+      "name": "Burg_82",
+      "seed": "world:burg:82:Burg_82:s0",
+      "path": "assets/heraldry/burg/82.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 83,
+      "state_id": -1,
+      "name": "Burg_83",
+      "seed": "world:burg:83:Burg_83:s-1",
+      "path": "assets/heraldry/burg/83.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 84,
+      "state_id": 0,
+      "name": "Burg_84",
+      "seed": "world:burg:84:Burg_84:s0",
+      "path": "assets/heraldry/burg/84.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 85,
+      "state_id": 0,
+      "name": "Burg_85",
+      "seed": "world:burg:85:Burg_85:s0",
+      "path": "assets/heraldry/burg/85.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 86,
+      "state_id": 0,
+      "name": "Burg_86",
+      "seed": "world:burg:86:Burg_86:s0",
+      "path": "assets/heraldry/burg/86.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 87,
+      "state_id": -1,
+      "name": "Burg_87",
+      "seed": "world:burg:87:Burg_87:s-1",
+      "path": "assets/heraldry/burg/87.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 88,
+      "state_id": 0,
+      "name": "Burg_88",
+      "seed": "world:burg:88:Burg_88:s0",
+      "path": "assets/heraldry/burg/88.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 89,
+      "state_id": 0,
+      "name": "Burg_89",
+      "seed": "world:burg:89:Burg_89:s0",
+      "path": "assets/heraldry/burg/89.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 9,
+      "state_id": 0,
+      "name": "Burg_9",
+      "seed": "world:burg:9:Burg_9:s0",
+      "path": "assets/heraldry/burg/9.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 90,
+      "state_id": 0,
+      "name": "Burg_90",
+      "seed": "world:burg:90:Burg_90:s0",
+      "path": "assets/heraldry/burg/90.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 91,
+      "state_id": 0,
+      "name": "Burg_91",
+      "seed": "world:burg:91:Burg_91:s0",
+      "path": "assets/heraldry/burg/91.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 92,
+      "state_id": -1,
+      "name": "Burg_92",
+      "seed": "world:burg:92:Burg_92:s-1",
+      "path": "assets/heraldry/burg/92.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 93,
+      "state_id": 0,
+      "name": "Burg_93",
+      "seed": "world:burg:93:Burg_93:s0",
+      "path": "assets/heraldry/burg/93.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 94,
+      "state_id": 0,
+      "name": "Burg_94",
+      "seed": "world:burg:94:Burg_94:s0",
+      "path": "assets/heraldry/burg/94.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 95,
+      "state_id": 0,
+      "name": "Burg_95",
+      "seed": "world:burg:95:Burg_95:s0",
+      "path": "assets/heraldry/burg/95.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 96,
+      "state_id": 0,
+      "name": "Burg_96",
+      "seed": "world:burg:96:Burg_96:s0",
+      "path": "assets/heraldry/burg/96.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 97,
+      "state_id": 0,
+      "name": "Burg_97",
+      "seed": "world:burg:97:Burg_97:s0",
+      "path": "assets/heraldry/burg/97.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 98,
+      "state_id": 0,
+      "name": "Burg_98",
+      "seed": "world:burg:98:Burg_98:s0",
+      "path": "assets/heraldry/burg/98.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "burg",
+      "id": 99,
+      "state_id": -1,
+      "name": "Burg_99",
+      "seed": "world:burg:99:Burg_99:s-1",
+      "path": "assets/heraldry/burg/99.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_upper_cliffs",
+      "state_id": 12,
+      "name": "Upper Cliffs",
+      "seed": "world:province:prov_12_upper_cliffs:Upper Cliffs:s12",
+      "path": "assets/heraldry/province/prov_12_upper_cliffs.svg",
+      "format": "svg"
+    },
+    {
+      "kind": "province",
+      "id": "prov_12_outer_isles",
+      "state_id": 12,
+      "name": "Outer Isles",
+      "seed": "world:province:prov_12_outer_isles:Outer Isles:s12",
+      "path": "assets/heraldry/province/prov_12_outer_isles.svg",
+      "format": "svg"
+    }
+  ]
+}

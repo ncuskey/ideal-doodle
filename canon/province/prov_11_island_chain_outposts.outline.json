@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_island_chain_outposts",
+  "checksum": "fnv1a_e4ba19bb",
+  "name": "Island Chain Outposts",
+  "aliases": [
+    "Island Outposts",
+    "Chain Outposts"
+  ],
+  "tags": [
+    "maritime",
+    "archipelago",
+    "re-export",
+    "nav-augury"
+  ],
+  "role_in_state": "Peripheral trade & navigational relay",
+  "economy_niches": [
+    "Coastal and deep-water fishing",
+    "Small-shipbuilding and repair",
+    "Re-export/transshipment hubs",
+    "Saltworks and fish-drying",
+    "Ritual-reagent storage and brokerage"
+  ],
+  "culture_adjustments": [
+    "Stronger Island Creole usage in daily speech",
+    "Local variants of ritual tattooing emphasizing sea-spirits",
+    "Higher tolerance for armed private crews and brokered security",
+    "Augural pilot guilds hold outsized local authority",
+    "Seasonal, itinerant population tied to trade cycles"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storms and reef hazards",
+    "piracy/privateering",
+    "supply-chain shortages",
+    "reef navigation accidents"
+  ],
+  "constraints": [
+    "Minimal arable land",
+    "High dependence on mainland imports (food, reagents)",
+    "No large-scale heavy industry possible"
+  ],
+  "notes": [
+    "Serve as customs relays and augural waystations",
+    "Population fluctuates with fishing and shipping seasons",
+    "Local outposts negotiate wide autonomy with state"
+  ],
+  "generated_at": "2025-09-09T05:03:21.383Z"
+}

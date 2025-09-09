@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c4874939",
+  "checksum": "fnv1a_b2fd2983",
   "burg_id": 220,
-  "name": "Burg_220",
+  "name": "Stroi",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-labour-hub",
-    "river-crossing"
+    "none",
+    "harbor",
+    "ritual-smithing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "waystation/boat repair",
-    "salted-fish processing",
-    "small-scale craftwork"
+    "fishing",
+    "ritual reagent trade",
+    "boat repair",
+    "smuggling"
   ],
   "factions_local": [
-    "harbormaster's office",
-    "ritual-labor syndicate",
-    "coastal militia",
-    "smuggling crew"
+    "Harbormasters' Council",
+    "Tide-Wardens (Sea-Tide animists)",
+    "Merchants' Brokers",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "banditry along supply routes",
-    "corrupt permit extortion"
+    "reagent scarcity",
+    "silted channel limiting access",
+    "smuggling-related violence",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,23 +35,24 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Riveric trade pidgin",
-    "Ship-blessing and tide-offering rituals frequent",
-    "Diet heavy on salt-preserved fish and seaweed",
-    "Guild-run work hierarchy governs day labor"
+    "Coastal Tongues dialect with Riveric turns",
+    "Ancestor offerings tied to seafaring rites",
+    "Diet focused on smoked fish, kelp, and preserved goods",
+    "Hull-charms and sealed ritual amulets common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing crew"
+    "reagent shortage",
+    "disappearing boats"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents"
+    "rituals require scarce imported reagents",
+    "no true resurrection or life-replacement magics; long-range mind influence rare and banned",
+    "navigational auguries exist but cannot replace charts/seamanship"
   ],
   "notes": [
-    "Near-medieval to early-industrial baseline with ritual magic",
-    "Strategic waypoint for coastal and river traffic"
+    "Near-medieval tech with pervasive localized ritual magic",
+    "Harbor siltation threatens economic lifeline"
   ],
-  "generated_at": "2025-09-09T04:16:53.481Z"
+  "generated_at": "2025-09-09T05:29:30.688Z"
 }

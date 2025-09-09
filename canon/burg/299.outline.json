@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_44652955",
+  "checksum": "fnv1a_2c225f10",
   "burg_id": 299,
-  "name": "Burg_299",
+  "name": "Louriba",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
     "harbor",
-    "ritual-labour"
+    "fishing",
+    "ritual-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent transshipment",
-    "waystation/harbor fees",
-    "light fishing",
-    "augury services"
+    "fishery",
+    "reagent brokerage",
+    "shipwright",
+    "coastal market"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Reagent Merchant Cartel",
-    "Augury Circle",
-    "Coastal Militia"
+    "harbormasters",
+    "fisher guild",
+    "reagent brokers",
+    "smuggler crews"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "shipwreck salvage disputes",
-    "seasonal storms"
+    "coastal flooding/erosion",
+    "piracy and smuggling",
+    "corrupt harbor officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with clipped loanwords",
-    "ritual offerings before voyages",
-    "salt-preserved cuisine and dried fish",
-    "superstitious seamanship customs"
+    "Coastal Tongues variant dialect",
+    "seafood-heavy cuisine",
+    "harborside offering rituals",
+    "boat-naming superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "shipwreck salvage",
-    "augury mishap"
+    "reagent shortage",
+    "angered tide-spirit"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind influence allowed",
-    "combustion industry limited (no high-pressure steam)"
+    "rituals require scarce imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "Population small and variable; records sparse",
-    "Serves as resupply point for longer voyages",
-    "Navigation uses charts plus local auguries"
+    "navigational auguries supplement but do not replace charts",
+    "limited combustion-derived industry"
   ],
-  "generated_at": "2025-09-09T04:22:24.730Z"
+  "generated_at": "2025-09-09T05:34:34.192Z"
 }

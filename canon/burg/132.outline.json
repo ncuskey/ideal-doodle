@@ -1,49 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7187ab85",
+  "checksum": "fnv1a_19cd2130",
   "burg_id": 132,
-  "name": "Burg_132",
+  "name": "Khuzunba",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-ferry",
+    "reagent-depot",
+    "timber"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-labour",
-    "waystation"
+    "reagent trade",
+    "river ferrying",
+    "timber milling",
+    "smoked-fish curing"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-coven",
-    "itinerant-merchants"
+    "Rivermen's Guild",
+    "Ancestor House of Khuzun",
+    "Merchant Brotherhood agents",
+    "Shadow skiffs (smugglers)"
   ],
   "problems": [
-    "piracy",
-    "reagent scarcity",
-    "seasonal storm damage"
+    "banditry on river routes",
+    "scarce imported reagents",
+    "seasonal flooding",
+    "local corruption"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in dialect",
-    "sea-ritual calendar important",
-    "salt-preserved cuisine; kin-based households"
+    "Riveric dialect dominant",
+    "Ancestor rites held at fords",
+    "diet: smoked fish & river weeds",
+    "crafts: boatbuilding, net-weaving"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual reagent theft",
-    "shipwreck salvage"
+    "missing reagent shipment",
+    "seasonal flood"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
     "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and banned"
+    "long-range mind-influence banned locally"
   ],
   "notes": [
-    "population unknown",
-    "accessible mainly by coastal skiff; local auguries used"
+    "founded at a shallow ford/ferry point",
+    "strategic but vulnerable supply line"
   ],
-  "generated_at": "2025-09-09T04:11:18.562Z"
+  "generated_at": "2025-09-09T23:10:10.522Z"
 }

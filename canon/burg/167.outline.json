@@ -1,56 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1af2f401",
+  "checksum": "fnv1a_8d954c2c",
   "burg_id": 167,
-  "name": "Burg_167",
+  "name": "Tuzur",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-haven"
+    "river-trade",
+    "ritual-lab"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "ritual-labour",
-    "small-scale trade",
-    "smuggling"
+    "ferrying",
+    "ritual-labor",
+    "small-scale trade"
   ],
   "factions_local": [
-    "shipwrights' guild",
-    "tide-seer ritual circle",
-    "trader-boat captains",
-    "smugglers' kin"
+    "Ferrymen's Guild",
+    "Ancestor Circle",
+    "Pilgrim Merchants"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling violence",
-    "food spoilage"
+    "scarce-ritual-reagents",
+    "banditry",
+    "seasonal-flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "shipboard ancestor offerings common",
-    "preservation-heavy cuisine: salt, smoke, fermentation",
-    "strong seamanship superstitions and augury use"
+    "speaks Riveric Dialect",
+    "ancestor-veneration central",
+    "river-fish and smoked-grain diet"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing boat"
+    "missing-ritual-reagents",
+    "river-omens/monster"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned"
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "navigational auguries supplement charts but don't replace seamanship"
   ],
   "notes": [
-    "near-medieval tech with localized ritual workshops",
-    "navigational auguries supplement charts, not replace them"
+    "population unknown; small riverside outpost",
+    "near-medieval tech with pervasive localized ritual magic"
   ],
-  "generated_at": "2025-09-09T04:13:29.301Z"
+  "generated_at": "2025-09-09T05:26:00.000Z"
 }

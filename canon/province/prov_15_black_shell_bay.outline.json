@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_black_shell_bay",
+  "checksum": "fnv1a_311b7830",
+  "name": "Black-Shell Bay",
+  "aliases": [
+    "Black Shell",
+    "The Bay"
+  ],
+  "tags": [
+    "coastal",
+    "bay",
+    "saltflats",
+    "shipyard",
+    "smuggling-haven"
+  ],
+  "role_in_state": "primary saltworks and small-ship entrepôt",
+  "economy_niches": [
+    "saltworks and cured-fish export",
+    "small-shipbuilding and repair",
+    "transshipment/contraband hub",
+    "tidal oyster/seaweed aquaculture",
+    "harbor-based artisan trade"
+  ],
+  "culture_adjustments": [
+    "stronger clandestine/smuggler subculture within kin clans",
+    "harbor courts emphasize expedient, pragmatic rulings over strict legalism",
+    "tide-time rites intensified; local tide-calendar variants",
+    "apprenticeships shortened for rapid seamanship deployment",
+    "navigational auguries more common among pilots"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "siltation/shallow channels",
+    "pirate/privateer activity",
+    "customs corruption",
+    "seasonal quarantine outbreaks"
+  ],
+  "constraints": [
+    "no deepwater docks (shallow bay)",
+    "ritual magic requires imported reagents",
+    "seasonal access limits (monsoon/tides)"
+  ],
+  "notes": [
+    "harbor festivals tied to navigation and tidal omens",
+    "local economy tolerates organized contraband as de facto income",
+    "salt pans require regular labor rotations tied to tide cycles"
+  ],
+  "generated_at": "2025-09-09T05:04:46.685Z"
+}

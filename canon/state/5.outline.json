@@ -2,53 +2,47 @@
   "world_id": "world",
   "state_id": 5,
   "checksum": "fnv1a_6735bff9",
-  "name": "State_5",
+  "name": "State_5 (coastal)",
   "aliases": [
-    "Kera Commonwealth",
-    "Kera Pierlands"
+    "State Five",
+    "The Fifth Coast",
+    "Glassharbor Dominion"
   ],
   "timeline_beats": [
     {
-      "id": "tb1",
-      "label": "First permanent coastal settlements founded",
-      "ybp": 9200,
+      "id": "B1",
+      "label": "Initial coastal settlement and reef-harbor founding",
+      "ybp": 8000,
       "refs_world_events": []
     },
     {
-      "id": "tb2",
-      "label": "Rise of port-kings and chartered guilds",
+      "id": "B2",
+      "label": "Integration into regional river-coast trade networks",
       "ybp": 3200,
       "refs_world_events": []
     },
     {
-      "id": "tb3",
-      "label": "Great Naval War (major naval battles nearby)",
-      "ybp": 550,
+      "id": "B3",
+      "label": "Great Naval War; major fleet actions off state shores",
+      "ybp": 1400,
       "refs_world_events": [
         "W1"
       ]
     },
     {
-      "id": "tb4",
-      "label": "Territorial shifts after the Great Naval War",
-      "ybp": 540,
+      "id": "B4",
+      "label": "Territorial shifts and port reorganization after naval conflict",
+      "ybp": 1100,
       "refs_world_events": [
         "BC4"
       ]
     },
     {
-      "id": "tb5",
-      "label": "Open-Seas Treaty enacted; sea lanes codified",
-      "ybp": 450,
+      "id": "B5",
+      "label": "Entry into maritime accords and trade bloc membership",
+      "ybp": 200,
       "refs_world_events": [
-        "T1"
-      ]
-    },
-    {
-      "id": "tb6",
-      "label": "Formal entry into Maritime Trading League / Sea Trade Union",
-      "ybp": 300,
-      "refs_world_events": [
+        "T1",
         "A1",
         "TB1"
       ]
@@ -56,46 +50,46 @@
   ],
   "factions": [
     {
-      "id": "f1",
-      "label": "Port Aristocracy (House Kera et al.)",
-      "influence_hint": "Controls major harbors, seats in trade council"
+      "id": "F1",
+      "label": "Harbor Merchants Guild",
+      "influence_hint": "dominant economic / controls customs and long-distance trade contracts"
     },
     {
-      "id": "f2",
-      "label": "Shipwrights' Guild",
-      "influence_hint": "Monopoly on large-ship construction and naval repairs"
+      "id": "F2",
+      "label": "Tide-Templars",
+      "influence_hint": "religious order; controls ritual auguries for navigation and coastal rites"
     },
     {
-      "id": "f3",
-      "label": "Tide-Priesthood",
-      "influence_hint": "Controls navigational auguries, coastal rituals"
+      "id": "F3",
+      "label": "Shipwrights & Chandlers Combine",
+      "influence_hint": "industrial; controls shipbuilding yards and reagent-linked workshops"
     },
     {
-      "id": "f4",
-      "label": "Merchant Brotherhood",
-      "influence_hint": "Runs long-distance caravans, commodity finance"
+      "id": "F4",
+      "label": "Coastal Patriciate",
+      "influence_hint": "political land-owners; ports and fortifications"
     },
     {
-      "id": "f5",
-      "label": "Coastal Militias & Smugglers",
-      "influence_hint": "Local power in outer isles and informal trade"
+      "id": "F5",
+      "label": "Estuary Shadow Network",
+      "influence_hint": "informal smugglers and brokers; influence in border/black-market trade"
     }
   ],
   "economy_pillars": [
     "shipbuilding",
-    "fisheries",
     "long-distance maritime trade",
-    "saltworks and fish-salting",
-    "trade in ritual reagents"
+    "fisheries & saltworks",
+    "navigational-augury services",
+    "reagent import/trading"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "maritime pragmatism",
-      "oral sea-ballad tradition",
-      "clan-linked port guilds",
-      "navigation augmented by ritual auguries",
-      "commercial legalism (sea law)"
+      "seafaring oral navigational lore",
+      "guild-centered apprenticeship culture",
+      "clan-linked harbor kinship",
+      "practical ritualism tied to voyages",
+      "commercial pragmatism with formal hospitality codes"
     ]
   },
   "religion": {
@@ -108,43 +102,53 @@
   },
   "regions": [
     {
-      "id": "r1",
-      "label": "Kera Harbor",
+      "id": "R1",
+      "label": "Glassharbor",
+      "tags": [
+        "trade-hub",
+        "coastal",
+        "fortified"
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "North Firth",
       "tags": [
         "coastal",
-        "trade-hub"
+        "shipyards"
       ]
     },
     {
-      "id": "r2",
-      "label": "Saltflats of Vesh",
+      "id": "R3",
+      "label": "Saltmarsh Flats",
       "tags": [
         "coastal",
-        "industry"
+        "saltworks",
+        "resource"
       ]
     },
     {
-      "id": "r3",
-      "label": "Outer Isles Archipelago",
-      "tags": [
-        "archipelago",
-        "smuggling"
-      ]
-    },
-    {
-      "id": "r4",
-      "label": "Shipwright Quarter (North Dock)",
-      "tags": [
-        "industry",
-        "trade-hub"
-      ]
-    },
-    {
-      "id": "r5",
-      "label": "Marshhead Estuary",
+      "id": "R4",
+      "label": "River-mouth Quarter",
       "tags": [
         "estuary",
-        "fisheries"
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Southern Headlands",
+      "tags": [
+        "coastal",
+        "naval-base"
+      ]
+    },
+    {
+      "id": "R6",
+      "label": "High Cliffs Watch",
+      "tags": [
+        "coastal",
+        "lookout"
       ]
     }
   ],
@@ -179,15 +183,15 @@
     "No instant resurrection or true life-replacement magics",
     "Long-range mind influence is rare and institutionally banned",
     "Navigational auguries cannot replace charts or seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
     "Combustion-derived industry limited; no high-pressure steam megatechs",
-    "Must respect Open-Seas Treaty (T1) and post-war border realities (BC4)"
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Must comply with Open-Seas Treaty (T1) obligations and post-war border settlements (BC4)"
   ],
   "notes": [
-    "High dependency on imported ritual reagents — supply vulnerability",
-    "Outer Isles underwent jurisdictional change after BC4; local loyalties divided",
-    "Port Aristocracy vs. Guilds is primary internal political tension",
-    "Naval infrastructure concentrated in Kera Harbor and North Dock"
+    "High dependence on imported reagents and maritime trade routes for ritual and industry",
+    "Factional tensions: Harbor Merchants vs. Tide-Templars over control of auguries and port policy",
+    "Coastal exposure makes naval capability and alliance membership (A1/TB1) strategically critical",
+    "Smuggling networks exploit post-war border reorganization (BC4); enforcement uneven"
   ],
-  "generated_at": "2025-09-09T03:53:57.854Z"
+  "generated_at": "2025-09-09T05:00:38.586Z"
 }

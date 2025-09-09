@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_728e8df5",
+  "checksum": "fnv1a_6885fa6a",
   "burg_id": 297,
-  "name": "Burg_297",
-  "state_id": -1,
+  "name": "Drior",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "waystation"
+    "harbor",
+    "reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "reagent trade",
     "fishing",
-    "lighthouse-tithes",
-    "ritual-lab-services"
+    "ship maintenance",
+    "smuggling transit"
   ],
   "factions_local": [
-    "Harbor Watch",
-    "Pilgrim Circle",
-    "Smuggler Cell"
+    "Harbor Guild",
+    "Reagent Brokers",
+    "Ancestor Shrine Keepers",
+    "Militia Ward"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "supply isolation"
+    "scarce imported reagents",
+    "smuggling and organized crime",
+    "harbor siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "Ancestor-tide offerings common",
-    "diet: salted fish and seaweed"
+    "speaks Coastal Tongues dialect",
+    "ritual offerings tied to fishing seasons",
+    "diet heavy on preserved fish and seaweed",
+    "crafts: netmaking, hull-planking"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "strange tides"
+    "missing reagent shipment",
+    "ritual disturbance"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "combustion industry limited; no high-pressure steam megatechs"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence magics"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "strategic coastal waystation; population unknown"
+    "near-medieval tech with localized ritual magic",
+    "small strategic harbor for reagent and coastal trade"
   ],
-  "generated_at": "2025-09-09T04:22:13.568Z"
+  "generated_at": "2025-09-09T05:34:13.158Z"
 }

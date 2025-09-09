@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_outer_isles",
+  "checksum": "fnv1a_4d64ac79",
+  "name": "Outer Isles",
+  "aliases": [
+    "Outer Isles",
+    "Sea-Shelf Cluster"
+  ],
+  "tags": [
+    "islands",
+    "maritime",
+    "harbor-clans",
+    "ritual-reagents"
+  ],
+  "role_in_state": "Maritime outposts and repair/ritual resource hubs",
+  "economy_niches": [
+    "small-boat fisheries",
+    "ship repair and careening yards",
+    "salt pans and sea-salted products",
+    "ritual reagent harvesting and primary processing",
+    "seaweed gardens and coastal market produce"
+  ],
+  "culture_adjustments": [
+    "stronger harbor-clan endogamy than mainland",
+    "tighter control of navigational augury by island ritualists",
+    "tide- and moon-festivals amplified into local rites",
+    "pragmatic thrift: craft skills prized over scholastic trade"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm exposure",
+    "reef hazards",
+    "pirate raiding",
+    "supply isolation",
+    "reagent overharvest"
+  ],
+  "constraints": [
+    "limited arable land",
+    "dependence on irregular supply ships",
+    "volatile reagent stocks for ritual workshops"
+  ],
+  "notes": [
+    "serves as waystations for coastal trade lanes",
+    "important source of exported ritual components and repair services"
+  ],
+  "generated_at": "2025-09-09T05:03:48.161Z"
+}

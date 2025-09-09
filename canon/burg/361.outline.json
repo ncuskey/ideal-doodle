@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a81bd769",
+  "checksum": "fnv1a_9d3db893",
   "burg_id": 361,
-  "name": "Burg_361",
+  "name": "Gobruing",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-estuary",
-    "waystation",
-    "reagent-hub"
+    "river-crossing",
+    "ritual-hub",
+    "fishing"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing & salting",
-    "transshipment/waystation",
-    "ritual-reagent trade",
-    "boatbuilding & repair"
+    "ritual reagent trade",
+    "river tolls",
+    "fishing",
+    "waystation services"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Reagent Traders' Consortium",
-    "Ancestor Circle (local cult)",
-    "Coastal Smuggling Ring"
+    "Boatmen's Cooperative",
+    "Shrine of the Tidal Ancestors",
+    "Ritual Merchants' Syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling & black-market influence",
-    "tidal erosion/shoreline loss"
+    "scarce imported reagents",
+    "bandit raids on river routes",
+    "periodic flood damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "mixed Riveric- Coastal Tongue dialect with Island Creole loanwords",
-    "communal ancestor feast each high tide",
-    "diet centered on salted fish, seaweed, smoked shellfish",
-    "local artisan tradition in small craft boatbuilding"
+    "Speaks a Riveric Dialect with Coastal Tongue loanwords",
+    "Seasonal boat-festival and ancestor offerings",
+    "Diet centered on smoked fish and riverweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "strange tidal omens"
+    "ritual reagent theft",
+    "disappearing barges"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no resurrection/true life-replacement magics",
-    "navigational auguries limited; charts & seamanship required"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence uncommon and institutionally banned"
   ],
   "notes": [
-    "small population; strategic minor waystation at river mouth",
-    "guild controls most reagent imports — leverage point for plots"
+    "near-medieval to early-industrial tech level",
+    "navigational auguries used but seamanship required"
   ],
-  "generated_at": "2025-09-09T04:26:35.881Z",
-  "state_id": 0
+  "generated_at": "2025-09-09T05:38:28.215Z"
 }

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_saltmarsh_delta",
+  "checksum": "fnv1a_5811891d",
+  "name": "Saltmarsh Delta",
+  "aliases": [
+    "The Saltmarch",
+    "Delta of Tides"
+  ],
+  "tags": [
+    "coastal",
+    "delta",
+    "salt-production",
+    "fisheries",
+    "ritual-components"
+  ],
+  "role_in_state": "primary salt supplier and tidal transshipment hub",
+  "economy_niches": [
+    "salt pans & evaporation works",
+    "tidal fisheries and shellfish farms",
+    "reed/seaweed harvests for ritual reagents",
+    "small-boat repair and shore-based shipwrights",
+    "transshipment point for inland goods via estuary skiffs"
+  ],
+  "culture_adjustments": [
+    "stronger tide-rituals and local augury variants",
+    "harbor-clan authority outweighs distant magistrates",
+    "seasonal working rhythms tied to spring-neap tides",
+    "practical salvage culture; looting normalized in storms",
+    "oral tide-proverbs supplement standard Coastal Tongues lexicon"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "storm-surge",
+    "saltwater ingress to farmland",
+    "smuggling/piracy",
+    "marsh-borne disease cycles"
+  ],
+  "constraints": [
+    "limited arable land and poor soils",
+    "heavy ritual reagents require imported transport",
+    "unstable channels hinder permanent infrastructure"
+  ],
+  "notes": [
+    "vital to state's salt and ritual-component supply chains",
+    "seasonal access windows govern trade and festivals"
+  ],
+  "generated_at": "2025-09-09T05:03:36.629Z"
+}

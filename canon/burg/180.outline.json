@@ -1,59 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_641b4d43",
+  "checksum": "fnv1a_a8ab73ef",
   "burg_id": 180,
-  "name": "Burg_180",
+  "name": "Rilluph",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "harbor",
-    "ritual-lab",
-    "waystation"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "provisioning",
-    "reagent-trade",
-    "pilgrim-supply",
-    "coastal-smuggling"
+    "river-fishing",
+    "small-scale trade",
+    "ritual-supply trade",
+    "boat-repair"
   ],
   "factions_local": [
-    "harbor-masters",
-    "reagent-merchants",
-    "pilgrim-guild",
-    "coastal-watch"
+    "Riverwrights' Guild",
+    "Ancestor Circle (local)",
+    "Dockmasters",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "reagent-shortages",
-    "banditry",
-    "smuggling",
-    "scarcity"
+    "reagent scarcity",
+    "seasonal floods",
+    "bandit raids",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "salted fish and seaweed staples",
-    "pilgrim hospitality rituals at waystations",
-    "night-market barter customs"
+    "Riveric dialect dominant",
+    "spring tide-festival with boat-processions",
+    "diet: smoked and fermented fish",
+    "strong superstition around navigation auguries"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-pilgrim"
+    "stolen ritual reagents",
+    "mysterious drownings"
   ],
   "constraints": [
     "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and institutionally banned"
   ],
   "notes": [
-    "state affiliation unknown",
-    "small harbor and ritual-supply node on coastal route",
-    "limited combustion industry; local crafts and ritual services dominate"
+    "small harbor settlement reliant on passing traffic",
+    "local ritual workshops compete for imported components"
   ],
-  "generated_at": "2025-09-09T04:14:17.592Z"
+  "generated_at": "2025-09-09T05:27:11.645Z"
 }

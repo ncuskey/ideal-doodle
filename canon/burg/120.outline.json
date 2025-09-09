@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4435ba37",
+  "checksum": "fnv1a_61b20216",
   "burg_id": 120,
-  "name": "Burg_120",
-  "state_id": 0,
+  "name": "Doucherin",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "outpost",
-    "ritual-station"
+    "riverine",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent depot",
-    "coastal fishing",
-    "waystation trade",
-    "ritual-support services"
+    "river-trade",
+    "apothecary/ritual-supplies",
+    "fishing",
+    "boat-repair"
   ],
   "factions_local": [
-    "merchant syndicate",
-    "ritual-keepers",
-    "harbor watch",
-    "smuggler cell"
+    "merchant-guild",
+    "temple-coven",
+    "dockworkers' syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "isolation",
-    "corruption"
+    "scarce ritual reagents",
+    "riverbanditry",
+    "official corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide-offering customs",
-    "salt-preserved cuisine",
-    "apprentice ritualists"
+    "Riveric Dialect common; Coastal Tongues influence",
+    "Tide-and-ancestor offerings at docks",
+    "Cuisine: smoked fish, river herbs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing vessel"
+    "missing reagents",
+    "seasonal flood-threat"
   ],
   "constraints": [
-    "rituals need scarce imported reagents",
-    "navigational auguries supplement but don't replace charts"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "resupply by coastal trader weekly",
-    "nav-augury shrine on headland"
+    "shallow harbor; navigational auguries supplement charts",
+    "small apothecary exports prepared ritual components"
   ],
-  "generated_at": "2025-09-09T04:10:39.251Z"
+  "generated_at": "2025-09-09T23:09:19.114Z"
 }

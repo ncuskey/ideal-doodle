@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_northern_shoals",
+  "checksum": "fnv1a_473b60b0",
+  "name": "Northern Shoals",
+  "aliases": [
+    "The Shoals",
+    "Northbank"
+  ],
+  "tags": [
+    "coastal",
+    "shoals",
+    "transshipment",
+    "salvage",
+    "kelp-reagents"
+  ],
+  "role_in_state": "shallow-water transshipment & repair frontier",
+  "economy_niches": [
+    "lightship repair & careening for shallow-draft vessels",
+    "salted-fish and marine preserves (shoal-specialties)",
+    "transshipment / lighterage between deep ports and inshore lanes",
+    "wreck-salvage & timber salvage",
+    "kelp- and shell-derived ritual reagent production"
+  ],
+  "culture_adjustments": [
+    "weaker centralized guild control; informal flotilla crews and boat-clans dominate",
+    "stronger salvage-pragmatism and opportunistic law (claims by working presence)",
+    "pronounced island-crew idioms and loanwords from Island Creole",
+    "more visible sea-animist rites at landing-reefs and wreck-sites",
+    "seasonal migratory labor patterns (shore crews follow shoal-exposures)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "shoal-grounding",
+    "seasonal storms and tidal surges",
+    "smuggling & petty piracy",
+    "reagent-supply interruption",
+    "silting and channel change"
+  ],
+  "constraints": [
+    "limited deep-draft berthing due to siltation and shoals",
+    "repair industry constrained to low-pressure, manual techniques",
+    "ritual magic use depends on imported/fragile reagent supply chains"
+  ],
+  "notes": [
+    "important waystation for northern coastal routes and navigational-augury relays",
+    "extensive wreck-fields both hazard and economic resource",
+    "practical local customs often take precedence over distant guild edicts"
+  ],
+  "generated_at": "2025-09-09T05:06:38.608Z"
+}

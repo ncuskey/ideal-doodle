@@ -1,54 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a4a4d503",
+  "checksum": "fnv1a_7df2aa0b",
   "burg_id": 308,
-  "name": "Burg_308",
+  "name": "Cornum",
   "state_id": 0,
-  "province_id": "",
+  "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-hub",
-    "outpost"
+    "crossroads",
+    "ritual-labour"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-harbor",
-    "reagent-transshipment",
-    "fishing",
-    "local-market"
+    "market-hub",
+    "ritual-supply",
+    "agriculture",
+    "caravan-stop"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-brokers",
-    "clan-elders"
+    "merchant-guild",
+    "ritual-syndicate",
+    "local-militia"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "storm-damage"
+    "scarcity-of-reagents",
+    "banditry",
+    "corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "seafood-heavy cuisine",
-    "ship-blessing rites"
+    "mixed Coastal/Riveric dialect",
+    "market-day ritual bargaining",
+    "crafts relying on ritual-labour"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "lost-ritual-cargo",
-    "blighted-altar"
+    "reagent-shortage",
+    "disappearances"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion-industry"
+    "limited-combustion-industry",
+    "rituals-consume-imported-reagents"
   ],
   "notes": [
-    "minor port on reagent route",
-    "seasonal market during tide-fest"
+    "located at inland crossroads near seasonal river",
+    "population small, fluctuates with trade"
   ],
-  "generated_at": "2025-09-09T04:23:02.186Z"
+  "generated_at": "2025-09-09T05:35:10.499Z"
 }

@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3a8fb663",
+  "checksum": "fnv1a_4bc80e6e",
   "burg_id": 313,
-  "name": "Burg_313",
+  "name": "Clifractle",
   "state_id": -1,
-  "province_id": "",
+  "province_id": "unknown",
   "tags": [
-    "harbor",
-    "reagent-stop"
+    "none",
+    "coastal",
+    "cliffwatch"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "reagent brokerage",
-    "ship repair",
-    "waystation provisioning"
+    "fishing",
+    "lighthouse/navigation aid",
+    "stone quarrying",
+    "ritual reagent transshipment"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual lodge",
-    "smuggler coterie"
+    "Harbormaster's Hold",
+    "Quarry Guildlet",
+    "Tide-Seers (animists)",
+    "Smuggler Cells"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "corrupt harbormaster"
+    "coastal erosion/cliff instability",
+    "scarcity of imported reagents",
+    "smuggling and illicit trade",
+    "frequent storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole-influenced Coastal Tongue dialect",
-    "sea-blessing ceremonies common",
-    "diet: salted fish and fermented seaweed"
+    "Coastal Tongues dialect influence",
+    "cliff-blessing and sea-safe rituals",
+    "diet: dried fish, kelp, fermented shellfish",
+    "terraced stone architecture on ledges"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual mishap"
+    "impending cliff collapse",
+    "missing lighthouse keeper"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no instant resurrection or true life-replacement magic",
-    "limited combustion industry; no high-pressure steam megatechs"
+    "rituals require scarce imported reagents",
+    "no instant resurrection; limited long-range mind magic"
   ],
   "notes": [
-    "population unknown; intermittent traffic",
-    "serves as coastal resupply and reagent transit point"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "state affiliation unknown"
   ],
-  "generated_at": "2025-09-09T04:23:26.736Z"
+  "generated_at": "2025-09-09T05:35:29.312Z"
 }

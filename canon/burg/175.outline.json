@@ -1,53 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f71b29eb",
+  "checksum": "fnv1a_a6a0505f",
   "burg_id": 175,
-  "name": "Burg_175",
-  "state_id": -1,
+  "name": "Hengay",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-labor"
+    "river-haven",
+    "ritual-supply",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale provisioning",
-    "ritual-component processing",
-    "coastal fishing",
-    "transit trade / informal storage"
+    "river-trade",
+    "fishing",
+    "ritual-labor",
+    "timber"
   ],
   "factions_local": [
-    "Harbor Cooperative",
-    "Compound of Ritual Appentices",
-    "Independent Skiffmen"
+    "river-guild",
+    "temple-collective",
+    "smuggler-cell",
+    "town-militia"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "smuggling and informal trade",
-    "sporadic banditry on supply routes"
+    "reagent-scarcity",
+    "banditry",
+    "smuggling",
+    "corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks a Coastal Tongues dialect with Riveric loan-forms",
-    "meals heavy on preserved fish, seaweed, spiced starches",
-    "ritual schedules tied to tidal and lunar markers"
+    "Riveric Dialect predominant",
+    "boat-funerals common",
+    "preservation-heavy cuisine (salted/fermented)",
+    "market-day barter culture"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagents",
-    "supply-convoy ambushes"
+    "missing-boat",
+    "stolen-ritual-reagents"
   ],
   "constraints": [
-    "no-true-resurrection: irreversible death common",
-    "rituals consume scarce imported reagents; supply-sensitive"
+    "no-instant-resurrection",
+    "limited-combustion-industry",
+    "rituals-consume-scarce-imported-reagents"
   ],
   "notes": [
-    "small outpost reliant on periodic coastal shipments",
-    "local ritualists skilled but limited by reagent access"
+    "located at river mouth/estuary",
+    "strategic stop for coastal and river traffic",
+    "population unknown; seasonal fluctuation"
   ],
-  "generated_at": "2025-09-09T04:14:01.209Z"
+  "generated_at": "2025-09-09T05:26:36.069Z"
 }

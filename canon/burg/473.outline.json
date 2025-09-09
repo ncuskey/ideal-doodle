@@ -1,33 +1,30 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_95dfee35",
+  "checksum": "fnv1a_b7607290",
   "burg_id": 473,
-  "name": "Burg_473",
-  "state_id": 0,
+  "name": "Honk",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "waystation"
+    "fishing",
+    "ritual-lab"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-reagent trade",
-    "small-scale fishing",
-    "pilotage & fees",
-    "supply depot"
+    "fishing",
+    "ritual reagent gathering",
+    "waystation/trading"
   ],
   "factions_local": [
-    "Reagent Merchant House",
-    "Shipwrights' Co-op",
-    "Ancestor Cult Circle",
-    "Harbormaster's Office"
+    "Harbormaster's Council",
+    "Ancestor Keepers",
+    "Smuggler crew"
   ],
   "problems": [
     "reagent scarcity",
-    "isolation & supply delays",
-    "smuggling & black market",
-    "cult/merchant tension"
+    "supply isolation",
+    "storm damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,22 +32,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole dominant; Coastal Tongues influence",
-    "tide-festival calendar; prow-shrine ancestor offerings",
-    "naval superstitions shape rites and commerce"
+    "Coastal Tongues dialect",
+    "ship-blessing rites",
+    "diet: salted fish and seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "lost ritual cargo",
+    "vanishing fishermen"
   ],
   "constraints": [
+    "ritual magic consumes scarce imported reagents",
     "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents; navigational auguries cannot replace charts"
+    "navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "tech baseline: near-medieval to early industrial",
-    "state authority weak/unknown; local factions hold sway"
+    "near-medieval to early-industrial tech",
+    "small population; transient crews common"
   ],
-  "generated_at": "2025-09-09T04:34:27.164Z"
+  "generated_at": "2025-09-09T05:45:49.973Z"
 }

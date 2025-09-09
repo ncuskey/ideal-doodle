@@ -1,52 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8d7c20cd",
+  "checksum": "fnv1a_3f5256de",
   "burg_id": 398,
-  "name": "Burg_398",
+  "name": "Agelton",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "none"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
+    "river trade",
     "fishing",
-    "reagent-trade",
-    "waystation"
+    "reagent transshipment",
+    "grain milling"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritualist Lodge",
-    "Smuggler Cell"
+    "harbor guild",
+    "merchant brokers",
+    "temple custodians",
+    "ferrymen's lodge"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "supply intermittency"
+    "seasonal flooding",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "smoked and salted seafood cuisine",
-    "strict reagent-taboo customs"
+    "Riveric Dialect dominant",
+    "boat-funeral customs",
+    "smoked-fish cuisine",
+    "tide-market weekly fair"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "shipwreck salvage"
+    "disappearing ferryman"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magic",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence rare and institutionally banned"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection; long-range mind influence rare/banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries exist but do not replace charts or seamanship"
+    "Population unknown; small settlement"
   ],
-  "generated_at": "2025-09-09T04:28:56.331Z"
+  "generated_at": "2025-09-09T05:41:03.288Z"
 }

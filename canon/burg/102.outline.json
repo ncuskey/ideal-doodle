@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_877ec3",
+  "checksum": "fnv1a_1543c163",
   "burg_id": 102,
-  "name": "Burg_102",
+  "name": "Uraz",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "harbor",
     "ritual-supply"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual reagent exchange",
-    "waystation for coastal traders",
-    "charter boat services"
+    "small-fishing",
+    "ritual-supplies",
+    "transit-waystation",
+    "smuggling-hub"
   ],
   "factions_local": [
-    "Sea-Tide animist clan",
-    "Ancestor-Remembrance shrine keepers",
-    "itinerant merchant agents",
-    "local skiffmasters (informal)"
+    "Merchant Brotherhood cell",
+    "ritual-circle",
+    "harbormaster",
+    "smuggler-crew"
   ],
   "problems": [
-    "scarcity of imported ritual reagents",
-    "seasonal supply disruptions",
-    "coastal banditry/smuggling",
-    "jurisdictional friction over landing rights"
+    "reagent-scarcity",
+    "smuggling",
+    "corrupt-harbor",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speech: Coastal Tongues with Riveric loanwords",
-    "custom: small tide-based ancestor offerings at landings",
-    "cuisine: salted fish, kelp-ferments, ship-brewed ales"
+    "Island Creole-influenced Coastal Tongues",
+    "seafood-heavy cuisine",
+    "ritualized trade customs",
+    "oral ancestor tales"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual site dispute"
+    "missing-ritual-reagents",
+    "shipwreck-investigation"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no long-range mind control or instant resurrection"
+    "no instant resurrection or true life-replacement magics",
+    "navigational-auguries cannot replace charts/seamanship",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "navigational auguries used but skilled pilots required",
-    "small natural cove limits large vessels; seasonal siltation"
+    "population unknown; role as coastal waypoint likely",
+    "local rituals tied to maritime traffic and imported materials"
   ],
-  "generated_at": "2025-09-09T04:09:18.400Z"
+  "generated_at": "2025-09-09T23:08:10.848Z"
 }

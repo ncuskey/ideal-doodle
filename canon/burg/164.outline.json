@@ -1,54 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8c7a51a7",
+  "checksum": "fnv1a_26dede08",
   "burg_id": 164,
-  "name": "Burg_164",
-  "state_id": 0,
-  "province_id": "prov_unknown",
-  "tags": [
-    "harbor",
-    "ritual-site"
-  ],
+  "name": "Bratzakt",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent-trade",
-    "small-shipbuilding"
+    "reagent depot",
+    "waystation trade",
+    "pack-animal services",
+    "herb foraging"
   ],
   "factions_local": [
-    "harborers",
-    "sea-priests",
-    "reagent-merchants",
-    "militia"
+    "Merchant Brotherhood agents",
+    "Local clan council",
+    "Licensed ritual brokers",
+    "Smuggling ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "coastal-bandits",
-    "superstition-factionalism"
+    "reagent scarcity",
+    "bandit ambushes",
+    "supply-route disruption",
+    "guild rivalry"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect",
-    "boat-festival calendar",
-    "salt-cured seafood cuisine",
-    "ritual patronage for navigational auguries"
+    "Riveric dialect mix in speech",
+    "caravan-feast on arrival days",
+    "preservation-heavy cuisine (smoked, salted)",
+    "ritualized barter customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "disappearances"
+    "reagent theft",
+    "missing caravan"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-reagents",
-    "no-high-pressure-steam"
+    "ritual magic consumes scarce imported reagents; no instant resurrection/true life-replacement; long-range mind influence rare and institutionally banned"
   ],
   "notes": [
-    "state unknown; small strategic harbor",
-    "navigation uses auguries plus charts and seamanship"
+    "population unknown; transient caravan population",
+    "founded as exchange point for ritual reagents and pack routes"
   ],
-  "generated_at": "2025-09-09T04:13:13.864Z"
+  "generated_at": "2025-09-09T05:25:58.293Z"
 }

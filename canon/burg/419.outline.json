@@ -1,50 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7eb4f535",
+  "checksum": "fnv1a_94ce063e",
   "burg_id": 419,
-  "name": "Burg_419",
+  "name": "Diningell",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trading",
-    "small-scale fishing",
-    "boat maintenance"
+    "river-market",
+    "agricultural hub",
+    "artisan workshops",
+    "reagent brokerage"
   ],
   "factions_local": [
-    "Harbormaster's Circle",
-    "Reagent Syndicate",
-    "Ancestor Shrine Keepers"
+    "Merchants' Syndicate",
+    "Town Council",
+    "Ancestor Priory",
+    "Riverboat Hands' Guild"
   ],
   "problems": [
-    "reagent scarcity",
+    "scarce imported reagents",
+    "smuggling",
     "bandit raids",
-    "ritual contamination"
+    "corrupt officials"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ancestor-feast calendar observed",
-    "sea-ritual work songs",
-    "salt-cured fish and kelp cuisine"
+    "Riveric-influenced dialect with Coastal loanwords",
+    "communal ancestor feasts",
+    "market-day social rituals",
+    "artisan ceremonial crafts using ritual reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual sabotage",
-    "missing fishermen"
+    "ritual reagent theft",
+    "disappearances"
   ],
   "constraints": [
-    "Rituals consume scarce imported reagents",
-    "No instant resurrection or life-replacement magics",
-    "Navigation auguries cannot replace charts or seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "limited combustion industry — no high-pressure steam megatechs"
   ],
   "notes": [
-    "Population unknown; transient crews and traders",
-    "Dependent on imported reagents and coastal trade"
+    "population unknown; small river crossroads",
+    "local economy tied to reagent transit"
   ],
-  "generated_at": "2025-09-09T04:30:23.869Z"
+  "generated_at": "2025-09-09T05:42:30.393Z"
 }

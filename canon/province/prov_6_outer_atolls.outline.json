@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_outer_atolls",
+  "checksum": "fnv1a_a5b000b2",
+  "name": "Outer Atolls",
+  "aliases": [
+    "Atoll Chain",
+    "Outer Reefs"
+  ],
+  "tags": [
+    "coastal",
+    "atolls",
+    "saltworks",
+    "fishing",
+    "pilotage"
+  ],
+  "role_in_state": "pilotage & reagent supply gateway",
+  "economy_niches": [
+    "spars & small-vessel shipbuilding",
+    "salt & guano pans (reagent-grade salts)",
+    "dried & smoked seafood exports",
+    "coral & shell reagent collection",
+    "paid pilotage & ritual navigation services"
+  ],
+  "culture_adjustments": [
+    "heightened clan autonomy; harbor-clans act as micro-states",
+    "navigation rites become civic offices with fees",
+    "oral contract practice favored over formal literacy",
+    "sea-fosterage and multi-clan kin networks common",
+    "animist reef-guard rituals prioritized over temple formalism"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "coral-reef piracy",
+    "reagent-poaching",
+    "freshwater scarcity"
+  ],
+  "constraints": [
+    "limited arable land",
+    "reliance on imported reagents for rituals",
+    "no heavy industry due to reef foundations"
+  ],
+  "notes": [
+    "pilotage fees underwrite clan militias and repair yards",
+    "minor but vital source of halide salts used in temple rites"
+  ],
+  "generated_at": "2025-09-09T05:07:47.240Z"
+}

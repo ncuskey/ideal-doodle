@@ -1,51 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_adb26729",
+  "checksum": "fnv1a_1f19d470",
   "burg_id": 24,
-  "name": "Burg_24",
-  "state_id": 0,
+  "name": "Uxbrid",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "river-crossing",
+    "ferry-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trading",
-    "waystation/inn",
-    "small-scale fishing"
+    "ferry transit",
+    "small-scale trade",
+    "boat repair",
+    "ritual-lab services"
   ],
   "factions_local": [
-    "harbormaster's guildlet",
-    "ritual-lab coterie",
-    "merchant smugglers"
+    "ferrymen's guild",
+    "merchant syndicate",
+    "temple circle",
+    "bridge-keepers"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "banditry on hinter routes",
-    "isolation/lack of official support"
+    "banditry",
+    "reagent scarcity",
+    "silted channel",
+    "tax extortion"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "dusk ancestor-offering customs",
-    "salt-preserved fish staples"
+    "Riveric dialect with Coastal loanwords",
+    "Ferry rites for safe passage",
+    "Smoked fish and bean pottages",
+    "Bridge-mending festival each spring"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual mishap/curse"
+    "river-monster",
+    "bridge-sabotage"
   ],
   "constraints": [
+    "no instant resurrection",
     "rituals consume scarce imported reagents",
-    "no instant resurrection magics allowed",
-    "long-range mind influence is rare and banned"
+    "long-range mind influence banned"
   ],
   "notes": [
-    "state affiliation unknown",
-    "tech: near-medieval → early industrial + localized ritual magic"
+    "Population unknown; transient trade traffic",
+    "Strategic crossing on a minor river",
+    "Limited combustion industry; craft and ritual services dominate"
   ],
-  "generated_at": "2025-09-09T04:18:09.872Z"
+  "generated_at": "2025-09-09T05:30:36.108Z"
 }

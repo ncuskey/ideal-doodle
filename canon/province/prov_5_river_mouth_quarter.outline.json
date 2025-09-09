@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_river_mouth_quarter",
+  "checksum": "fnv1a_c5eba65c",
+  "name": "River-mouth Quarter",
+  "aliases": [
+    "Estuary Ward",
+    "Riverquarter"
+  ],
+  "tags": [
+    "coastal",
+    "river-mouth",
+    "estuary",
+    "trade-hub",
+    "guild-dominated",
+    "saltworks"
+  ],
+  "role_in_state": "Primary transshipment hub between ocean trade and inland rivers",
+  "economy_niches": [
+    "shipbuilding & repair (estuary craft)",
+    "saltworks and fish-salting",
+    "riverine cargo transshipment",
+    "navigational-augury waystation",
+    "reagent handling & bonded storage for maritime trade"
+  ],
+  "culture_adjustments": [
+    "vessel styles blend seafaring and riverine design",
+    "harbor clans hold stronger territorial kinship than inland ports",
+    "rituals emphasize quick tide-appeasement before offloading",
+    "greater tolerance for itinerant crews and transient labor",
+    "apprenticeships include estuary-dredging and shoal-reading skills"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation & shoaling",
+    "smuggling & illicit reagent trade",
+    "dockside fires",
+    "tidal-borne disease"
+  ],
+  "constraints": [
+    "limited bonded warehouse space for reagent stocks",
+    "seasonal river closures and variable tidal windowing",
+    "guild-controlled berths and quay-fees constrain newcomers"
+  ],
+  "notes": [
+    "key node for ocean↔river cargo transshipment",
+    "high seasonal labor influx; apprentices in steady demand",
+    "regular dredging and augury used to predict shoaling"
+  ],
+  "generated_at": "2025-09-09T05:07:13.717Z"
+}

@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f7c8b917",
+  "checksum": "fnv1a_426053b",
   "burg_id": 258,
-  "name": "Burg_258",
+  "name": "Givzienis",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-outpost"
+    "harbor",
+    "ritual-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-lab services",
-    "reagent-trade"
+    "coastal-fishing",
+    "provisioning-rituals",
+    "transshipment-waypoint"
   ],
   "factions_local": [
-    "Shrine Guild",
-    "Salt Merchants",
-    "Smuggler Ring"
+    "temple-scriptorium",
+    "shipwrights-clan",
+    "fisher-coop",
+    "smugglers-ring"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "bandit raids on supply boats",
-    "dependency on ritual-lab income"
+    "reagent-scarcity",
+    "smuggling-and-corruption",
+    "tidal-erosion",
+    "isolation-and-supply-delays"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "Shipboard ceremonial meals",
-    "Ancestor veneration tied to fishing rites"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet: smoked fish, seaweed preserves",
+    "strong boat-ancestor observances",
+    "superstitious about charts vs. auguries"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-sabotage",
-    "missing-reagents"
+    "stolen-ritual-reagents",
+    "missing-fishing-fleet"
   ],
   "constraints": [
-    "no-instant-resurrection",
     "rituals consume scarce imported reagents",
-    "limited combustion industry"
+    "long-range mind-influence banned/rare",
+    "navigational-auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "navigational auguries exist but do not replace charts/seamanship"
+    "near-medieval to early-industrial baseline; limited combustion tech",
+    "small port serving coasters and ritual supply vessels"
   ],
-  "generated_at": "2025-09-09T04:19:26.278Z"
+  "generated_at": "2025-09-09T05:31:42.359Z"
 }

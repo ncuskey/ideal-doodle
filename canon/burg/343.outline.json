@@ -1,59 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8ba4d611",
+  "checksum": "fnv1a_4aa76457",
   "burg_id": 343,
-  "name": "Burg_343",
-  "state_id": -1,
+  "name": "Farnaahx",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "ritual-hub"
+    "river-port",
+    "ritual-trade",
+    "outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-labour",
-    "waystation-services",
-    "coastal-guides"
+    "river tolls",
+    "reagent brokerage",
+    "fishing & smokehouses",
+    "boat maintenance"
   ],
   "factions_local": [
-    "sea-priesthood",
-    "pilot-guild",
-    "merchant-smugglers",
-    "harbor-council"
+    "Riverwardens' Guild",
+    "Reagent Consortium (importers)",
+    "Shrine of Ancestor Ties",
+    "Harborwatch Militia"
   ],
   "problems": [
-    "reagent-scarcity",
-    "seasonal-storms",
+    "reagent scarcity",
+    "seasonal flooding",
     "smuggling",
-    "jurisdictional-disputes"
+    "silted channel limiting access"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominates",
-    "tide-blessing ceremonies common",
-    "salt-preserved seafood cuisine",
-    "navigation lore and pilot rites emphasized"
+    "Speaks a Riveric-influenced Coastal Tongue dialect",
+    "Tide-blessing rites before departures",
+    "Diet heavy on smoked fish and fermented estuary vegetables",
+    "Signals and bell-rituals govern daily market hours"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-navigator"
+    "missing-reagent shipment",
+    "breach/flood control"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics locally",
-    "long-range mind-influence is banned/infrequent"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown; transient mariners dominate",
-    "small navigational station where charts/auguries are validated",
-    "limited combustion industry; industrial tech rare"
+    "Population undocumented; functions as a small trade/ritual transshipment point",
+    "Access depends on seasonal tides and local charts; reagent supply lines are strategic"
   ],
-  "generated_at": "2025-09-09T04:25:23.704Z"
+  "generated_at": "2025-09-09T05:37:23.293Z"
 }

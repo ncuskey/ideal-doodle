@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e6ffc8c7",
+  "checksum": "fnv1a_e49c5276",
   "burg_id": 366,
-  "name": "Burg_366",
+  "name": "Swaxai",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "reagent-hub",
-    "riverine",
-    "outpost"
+    "coastal",
+    "harbor",
+    "ritual-dependence"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent trade",
-    "boat repair",
-    "fisheries",
-    "ritual labor"
+    "fishing",
+    "ritual-labor",
+    "waystation",
+    "smuggling"
   ],
   "factions_local": [
-    "river merchants",
-    "ritual consortium",
-    "boatwrights",
-    "smuggler ring"
+    "tide-priests",
+    "merchant-syndicate",
+    "shipwrights"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry along river",
-    "seasonal flood damage"
+    "reagent-scarcity",
+    "raiding",
+    "smuggling-tensions"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect predominant",
-    "tide-blessing ceremonies",
-    "frugal preserved-fish cuisine"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "Seafaring superstitions govern schedules and rites",
+    "Fishing-season rituals shape labor and festivals",
+    "diet heavy on fermented fish and sea vegetables"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "missing ritual barges"
+    "reagent-theft",
+    "missing-ship"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "long-range mind influence banned",
-    "combustion industry limited"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigational-auguries-do-not-replace-seamanship"
   ],
   "notes": [
-    "population unknown; transient river traffic",
-    "local economy tied to ritual supply chains"
+    "near-medieval to early-industrial tech baseline",
+    "limited combustion industry; remote supply chain"
   ],
-  "generated_at": "2025-09-09T04:27:00.354Z"
+  "generated_at": "2025-09-09T05:38:45.575Z"
 }

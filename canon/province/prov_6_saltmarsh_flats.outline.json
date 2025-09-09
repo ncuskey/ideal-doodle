@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_saltmarsh_flats",
+  "checksum": "fnv1a_17e8891e",
+  "name": "Saltmarsh Flats",
+  "aliases": [
+    "The Flats",
+    "Saltflats"
+  ],
+  "tags": [
+    "coastal",
+    "tidal-flats",
+    "salt-production",
+    "reagent-source",
+    "harbor-clan-zone"
+  ],
+  "role_in_state": "Primary salt & reagent supplier; seasonal provisioning outpost",
+  "economy_niches": [
+    "Large-scale salt pans and refined salt export",
+    "Brine-derived ritual reagent collection and drying",
+    "Dried seafood processing (salted fish, kelp cakes)",
+    "Ship provisioning: rope, pitch, and foodstuffs",
+    "Seasonal reed/cordage harvest for maritime gear"
+  ],
+  "culture_adjustments": [
+    "Stronger labor-clan control over tidal work rhythms and quotas",
+    "Navigation rites emphasize tide-reading and salt-omens over star augury",
+    "Local Coastal Tongues dialect salted with maritime jargon and tally-marks",
+    "Merchant contracts adapted for seasonal access windows and spoilage risk"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal inundation",
+    "salt-pan collapse/contamination",
+    "brackish-borne disease",
+    "smuggling and illicit reagent trade"
+  ],
+  "constraints": [
+    "Limited fresh water and arable land",
+    "Corrosive environment shortens metal/tool life",
+    "Seasonal accessibility tied to tides and weather"
+  ],
+  "notes": [
+    "Critical to state ritual-magic supply chain due to brine reagents",
+    "Managed commons and quotas enforced by harbor-clans",
+    "High demand for preservative expertise; attracts itinerant specialists"
+  ],
+  "generated_at": "2025-09-09T05:07:32.676Z"
+}

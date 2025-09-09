@@ -1,51 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_77f68fd",
+  "checksum": "fnv1a_79a30817",
   "burg_id": 439,
-  "name": "Gullbridge Outpost",
-  "state_id": 0,
-  "province_id": "prov_unknown",
-  "tags": [],
+  "name": "Thogent",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "river-port",
+    "ritual-hub"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent transshipment",
-    "smuggling waystation",
+    "fishing & small-scale trade",
+    "ritual-labor workshops",
+    "ferry services",
     "boat repair"
   ],
   "factions_local": [
-    "Harbor Crier Guild",
-    "Reagent Syndicate",
-    "Ancestor Shrine Wardens"
+    "Ferrywrights' Union",
+    "Tide-Scryers' Lodge",
+    "Herbalist/ reagent traders"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling competition",
-    "supply isolation"
+    "bandit raids on river routes",
+    "seasonal flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole-influenced speech",
-    "seaweed-and-shellfish cuisine",
-    "kinship tied to boat crews",
-    "small ritual shrines at piers"
+    "Riveric Dialect dominant with Coastal Tongue influences",
+    "Festival of the First Tide yearly (boat-procession)",
+    "Diet heavy on smoked/ salted river fish",
+    "Rituals tied to imported reagents and craft-specialists"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual failure"
+    "missing ferryman",
+    "reagent theft"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "navigational auguries exist but cannot replace charts or seamanship"
+    "long-range mind influence rare and banned",
+    "no instant resurrection / life-replacement magics"
   ],
   "notes": [
-    "strategic waypoint on a coastal route",
-    "supplies arrive irregularly by small coasters"
+    "Population unknown; small riverside cluster around a crossing",
+    "Strategic local node for upriver trade and ritual services"
   ],
-  "generated_at": "2025-09-09T04:31:55.405Z"
+  "generated_at": "2025-09-09T05:43:42.082Z"
 }

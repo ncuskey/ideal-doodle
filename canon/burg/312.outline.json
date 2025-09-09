@@ -1,53 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_14abd26d",
+  "checksum": "fnv1a_fd00a76c",
   "burg_id": 312,
-  "name": "Burg_312",
+  "name": "Gobring",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "river-crossing",
+    "ritual-supply"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "Coastal fishing",
-    "Supply depot",
-    "Reagent exchange",
-    "Small ship repair"
+    "waystation",
+    "ritual-component processing",
+    "small-scale fishing",
+    "local trade"
   ],
   "factions_local": [
-    "Harbormaster's guild",
-    "Reagent traders' cartel",
-    "Ancestor chapel",
-    "Smugglers' ring"
+    "Harbormaster's Council",
+    "Ancestor Circle",
+    "Ritual Craftsmen's Syndicate"
   ],
   "problems": [
-    "Reagent scarcity",
-    "Storm damage",
-    "Banditry",
-    "Corruption"
+    "scarce ritual reagents",
+    "bandit raids on ferries",
+    "tidal flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "Sea-faring rites and ancestor offerings",
-    "Diet heavy on salted fish and seaweed"
+    "Riveric Dialect dominant; Coastal Tongue loanwords",
+    "Ancestor veneration shapes festivals",
+    "Diet: smoked riverfish and marsh tubers",
+    "Craft: component drying and tincture-making"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing crew"
+    "missing reagents",
+    "spirit unrest"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection or life-replacement magic",
-    "Navigational auguries cannot replace charts or seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry; no high-pressure steam"
   ],
   "notes": [
-    "Population unknown; transient maritime traffic",
-    "Weather-exposed coastal location"
+    "Small outpost at narrow river ford near tidal marsh",
+    "Transient population of ferrymen, ritual apprentices, and traders"
   ],
-  "generated_at": "2025-09-09T04:23:23.528Z"
+  "generated_at": "2025-09-09T05:35:32.482Z"
 }

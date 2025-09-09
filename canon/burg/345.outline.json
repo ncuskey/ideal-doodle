@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bfadb18d",
+  "checksum": "fnv1a_40674499",
   "burg_id": 345,
-  "name": "Burg_345",
+  "name": "Wruilbog",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-labour"
+    "none",
+    "bog",
+    "peat-harvest"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-component harvesting",
-    "waystation trade",
-    "smallcraft repair"
+    "peat-harvest",
+    "herbalism/ritual-components",
+    "reedcraft",
+    "ferrying"
   ],
   "factions_local": [
-    "harbormaster's kin",
-    "ritual guild",
-    "smugglers"
+    "Peatcutters' Clan",
+    "Herbalist Coven",
+    "Marsh-Ferrymen",
+    "Shrine-Keepers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "bandit raids on night approaches",
-    "religious friction between cults"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "miasma/disease",
+    "isolation"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Star-Calendar Scriptoria (minor)"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "work cycles tied to tides and moon phases",
-    "salt-preserved dishes, seaweed use",
-    "superstitious about auguries and ship spirits"
+    "Riveric Dialect",
+    "peat-smoked cuisine",
+    "reed-boat travel",
+    "strong ancestor-veneration"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagent",
-    "shipwreck salvage"
+    "disappearances",
+    "ritual-component theft"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no high-pressure steam megatechs",
+    "rituals require scarce imported reagents",
+    "no instant resurrection magics",
     "long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; functions as a resupply outpost",
-    "exposed to frequent storms that disrupt schedules"
+    "population unknown",
+    "access by seasonal ferries and causeways"
   ],
-  "generated_at": "2025-09-09T04:25:37.160Z"
+  "generated_at": "2025-09-09T05:37:40.657Z"
 }

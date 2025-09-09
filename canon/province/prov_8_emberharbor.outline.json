@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_emberharbor",
+  "checksum": "fnv1a_517c9289",
+  "name": "Emberharbor",
+  "aliases": [
+    "The Kiln-Quay",
+    "Emberport"
+  ],
+  "tags": [
+    "port",
+    "shipwrights",
+    "saltworks",
+    "reagent-kilns"
+  ],
+  "role_in_state": "primary shipbuilding and reagent-smelting port",
+  "economy_niches": [
+    "shipbuilding & repair",
+    "salt-panning and fish-salting",
+    "ritual-reagent smelting (kilns and smoke-works)",
+    "timber prepping, caulking and treenail manufacture",
+    "coastal provisioning & small-scale trade"
+  ],
+  "culture_adjustments": [
+    "fire-and-smoke symbolism prominent in local rites",
+    "guild councils exercise strong municipal authority",
+    "voyage oaths commonly sworn over embers and kiln-fires",
+    "tide-calendar offset by seasonal kiln/smelt schedule",
+    "pragmatic tolerance for ritual detritus tied to industry"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "harbor fires",
+    "coastal storm surge",
+    "reagent-supply disruption",
+    "guild unrest",
+    "smuggling"
+  ],
+  "constraints": [
+    "scarce fresh water for saltworks and kilns",
+    "reliance on imported ritual reagents",
+    "strict kiln/fire regulations limit expansions",
+    "state ban on long-range mind-augury enforcement complicates some merchant rites"
+  ],
+  "notes": [
+    "center for ship-naming ceremonies and voyage-oath registration",
+    "apprenticeship certification required for shipwrights; fees often paid in kind"
+  ],
+  "generated_at": "2025-09-09T05:08:25.311Z"
+}

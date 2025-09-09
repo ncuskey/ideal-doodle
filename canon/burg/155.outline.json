@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a54e52fb",
+  "checksum": "fnv1a_49e61851",
   "burg_id": 155,
-  "name": "Burg_155",
+  "name": "Geliba",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-workshop"
+    "none",
+    "coastal",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-collection",
-    "coastal-fishing",
-    "waystation",
-    "salt-curing"
+    "fishing",
+    "ritual reagent trade",
+    "shipwrights/piloting",
+    "local market transit"
   ],
   "factions_local": [
-    "ritual-guild",
-    "boatmen-clan",
-    "smugglers"
+    "guild of tide-readers",
+    "merchant kin",
+    "harbor wardens",
+    "ancestor-priests"
   ],
   "problems": [
-    "scarce-reagents",
-    "supply-isolation",
-    "banditry"
+    "scarce imported reagents",
+    "bandit rafts and smugglers",
+    "harbor siltation",
+    "corrupt wardens"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence",
-    "ritualized trade etiquette",
-    "preservation-heavy cuisine"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "nightly tide-offerings and ancestor-singing",
+    "diet heavy on salted fish and fermented algae",
+    "practical seamanship mixed with ritual augury"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "sea-bound-claim"
+    "reagent-theft",
+    "missing lightship crew"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "rituals-require-scarce-reagents"
+    "no instant resurrection",
+    "limited combustion industry",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "population: n/a",
-    "state: unknown",
-    "navigational-augury in limited use"
+    "silted, shallow harbor limits vessel size",
+    "navigational auguries exist but charts and pilots remain essential"
   ],
-  "generated_at": "2025-09-09T04:12:49.360Z"
+  "generated_at": "2025-09-09T05:25:18.330Z"
 }

@@ -1,55 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e26bccd9",
+  "checksum": "fnv1a_f6726119",
   "burg_id": 4,
-  "name": "Burg_4",
+  "name": "Afordbume",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-supply"
+    "crossroads",
+    "ritual-node"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-ingredient trade",
     "waystation",
-    "saltworks"
+    "ritual-supply",
+    "smallholder agriculture",
+    "pack-animal trade"
   ],
   "factions_local": [
-    "sea-clan",
-    "merchant-brotherhood-cell",
-    "harbor-watch"
+    "Ancestor Circle",
+    "Caravan Guild",
+    "Ritual Artisans' Lodge"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "seasonal-flooding"
+    "scarce-imports",
+    "bandit ambushes",
+    "ritual reagent shortages"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-festival customs",
-    "diet: salted fish & kelp",
-    "local crafts incorporate ritual motifs"
+    "speaks Riveric Dialects with Highland loanwords",
+    "feasts tied to star-calendar observances",
+    "lineage marked by carved house plaques"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-sabotage",
-    "missing-ship"
+    "lost-ancestral-relic",
+    "ritual-backfire"
   ],
   "constraints": [
     "no-instant-resurrection",
-    "rituals consume scarce imported reagents"
+    "rituals-require-rare-reagents"
   ],
   "notes": [
-    "population unknown",
-    "navigation aided by auguries but charts required"
+    "located at a seasonal ford on a minor trade route",
+    "supplies arrive mainly by caravan from the coast"
   ],
-  "generated_at": "2025-09-09T04:29:04.460Z"
+  "generated_at": "2025-09-09T05:41:03.111Z"
 }

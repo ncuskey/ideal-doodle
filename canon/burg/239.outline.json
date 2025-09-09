@@ -1,50 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_602a2bed",
+  "checksum": "fnv1a_4f9bfe49",
   "burg_id": 239,
-  "name": "Burg_239",
-  "state_id": 0,
+  "name": "Driordeek",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "small",
+  "tags": [
+    "remote",
+    "ritual-hub"
+  ],
+  "size_hint": "outpost",
   "economy_roles": [
-    "waystation for regional trade",
-    "reagent brokerage (ritual supplies)",
-    "subsistence farming",
-    "artisan workshops"
+    "reagent transshipment",
+    "coastal fishing",
+    "local crafts & repairs"
   ],
   "factions_local": [
-    "merchant family syndicate",
-    "temple circle (ancestor rites)",
-    "harbor/road wardens",
-    "small artisan guild"
+    "Harbor House",
+    "Ancestor-Remembrance cell",
+    "Border Militia"
   ],
   "problems": [
-    "reagent scarcity and price gouging",
-    "smuggling along trade routes",
-    "occasional bandit raids"
+    "reagent scarcity",
+    "smuggling",
+    "sea-surge damage"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence with Riveric loanwords",
-    "market days include ritualized bargains",
-    "strong kinship obligations govern disputes",
-    "local cuisine: salted fish, spiced rootcakes"
+    "Coastal Tongues dialect with many nautical loanwords",
+    "tide-honoring festivals tied to fishing seasons",
+    "salt-preserved seafood staple; barter common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing guide/escort"
+    "missing reagents",
+    "sea-creature harassment"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement; long-range mind influence rare/forbidden"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "outpost on a secondary trade route; population undocumented"
+    "population unknown; functions as small coastal transshipment point",
+    "accessible mainly by shallow-draft craft; vulnerable to storms"
   ],
-  "generated_at": "2025-09-09T04:18:01.766Z"
+  "generated_at": "2025-09-09T05:30:31.127Z"
 }

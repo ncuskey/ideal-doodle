@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_afbca09d",
+  "checksum": "fnv1a_3b6a5023",
   "burg_id": 17,
-  "name": "Burg_17",
+  "name": "Brid",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-node",
-    "reagent-stop"
+    "bridge",
+    "river-crossing",
+    "toll-haven"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
+    "toll-house",
     "river-trade",
     "fishing",
-    "reagent-transshipment",
     "ritual-labor"
   ],
   "factions_local": [
-    "Harbormaster's Circle",
-    "Ritual Scriptorium",
-    "Smuggler Ring"
+    "Tollkeepers' Guild",
+    "Riverfolk Clan",
+    "Bridgewatch Militia",
+    "Merchant Syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on river",
-    "corruption in permits"
+    "seasonal floods",
+    "toll corruption",
+    "smuggling",
+    "reagent scarcity"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric-influenced Coastal Tongue dialect",
-    "strong ancestor veneration",
-    "tide-linked ritual calendar"
+    "Riveric Dialects dominant",
+    "bridge-blessing rituals at low tide",
+    "smoked fish staple",
+    "market timed to ebb tide"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ancestor relic",
-    "reagent supply run"
+    "bridge-sabotage",
+    "river-monster"
   ],
   "constraints": [
-    "no true-resurrection magic",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "rituals require scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned",
+    "limited combustion industry (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "small outpost; population unknown",
-    "depends on imported reagents and river traffic"
+    "tolls collected at ebb tide",
+    "narrow quay excludes large vessels",
+    "pilgrims leave offerings under the bridge arches"
   ],
-  "generated_at": "2025-09-09T04:13:37.859Z"
+  "generated_at": "2025-09-09T05:26:07.099Z"
 }

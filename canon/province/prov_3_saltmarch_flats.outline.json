@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_saltmarch_flats",
+  "checksum": "fnv1a_c7e59598",
+  "name": "Saltmarch Flats",
+  "aliases": [
+    "Salt Marshes",
+    "The Flats"
+  ],
+  "tags": [
+    "saltworks",
+    "tidal-flats",
+    "reagent-export",
+    "lowland"
+  ],
+  "role_in_state": "Primary salt and reagent producer",
+  "economy_niches": [
+    "Brine evaporation saltworks (bulk salt export)",
+    "Fish salting and curing for long-distance trade",
+    "Harvesting halophyte reagents and dried marine botanicals",
+    "Tidal-boat logistics and low-draft vessel maintenance"
+  ],
+  "culture_adjustments": [
+    "Ritual purity and salt-taboo norms stronger than coastal average",
+    "Guild-run gang labor and apprenticeship larger proportion of population",
+    "Timekeeping tied to tidal cycles rather than ship calendars",
+    "Oral rites emphasize salt-born ancestors and marsh spirits"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge/floodplain",
+    "soil salinization",
+    "worker unrest",
+    "smuggling of reagents"
+  ],
+  "constraints": [
+    "Limited freshwater agriculture; imports required for staples",
+    "Ritual magic dependent on imported reagents — strict guild controls",
+    "Unstable substrate limits heavy machinery and large steam plants"
+  ],
+  "notes": [
+    "Flat, tidal landscape with seasonal causeways and evaporative pans",
+    "Saltworks operate under state guild charters tied to maritime trade"
+  ],
+  "generated_at": "2025-09-09T05:06:14.826Z"
+}

@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f1b03797",
+  "checksum": "fnv1a_dbbe2baa",
   "burg_id": 267,
-  "name": "Burg_267",
-  "state_id": 0,
+  "name": "Titondon",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "island",
-    "harbor",
-    "ritual-beacon"
+    "none"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "fishing",
-    "beacon-rituals",
-    "transshipment",
-    "smuggling"
+    "river trade",
+    "market hub",
+    "ritual reagent brokerage",
+    "shipwrights"
   ],
   "factions_local": [
-    "shipmasters' guild",
-    "beacon keepers",
-    "clan council",
-    "smugglers"
+    "merchant guild",
+    "ritual cabal",
+    "harbormasters",
+    "river kin clans"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling",
-    "supply intermittency"
+    "scarce ritual reagents",
+    "banditry on river routes",
+    "smuggling networks"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole dialect with Coastal Tongue loanwords",
-    "seafood-heavy cuisine, fermented fish staples",
-    "nightly beacon rites tied to fishing seasons",
-    "strong seamanship and superstitious navigation customs"
+    "Riveric-influenced dialect with Coastal Tongue loanwords",
+    "Tide and ancestor festivals timed to river calendar",
+    "Diet heavy on smoked fish and preserved goods",
+    "Formal etiquette around ritual workshops and offerings"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "shipwreck salvage"
+    "disappearing barges"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents and local specialist labor",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind-influence is banned and rare"
+    "rituals consume scarce imported reagents",
+    "no long-range mind influence; resurrection/mind-replacement banned"
   ],
   "notes": [
-    "permanent population small; reliant on visiting supply ships",
-    "beacon ritual doubles as navigational aid and market catalyst"
+    "near-medieval to early-industrial baseline; navigational auguries assist but don't replace charts",
+    "state affiliation unknown"
   ],
-  "generated_at": "2025-09-09T04:20:02.105Z"
+  "generated_at": "2025-09-09T05:32:37.194Z"
 }

@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_ebbshore_bay",
+  "checksum": "fnv1a_bedc083e",
+  "name": "Ebbshore Bay",
+  "aliases": [
+    "The Ebbward",
+    "Bay of Falling Tides"
+  ],
+  "tags": [
+    "harbour-hub",
+    "salt-flats",
+    "reagent-port",
+    "shipwright-districts"
+  ],
+  "role_in_state": "Primary maritime trade, shipbuilding and reagent transshipment hub",
+  "economy_niches": [
+    "Shipbuilding, repair and outfitting",
+    "Long-distance maritime trade & transshipment of reagents",
+    "Fisheries, salting and saltworks",
+    "Storage and refinement of imported ritual reagents",
+    "Charting and navigational instrument workshops"
+  ],
+  "culture_adjustments": [
+    "Stronger guild authority; dock-guild courts resolve most disputes",
+    "Apprenticeship bonds longer and more formal than state norm",
+    "Practical ritualism focused on tide rites and harbor safety",
+    "Local Coastal Tongues dialect heavy with navigational lexicon",
+    "Ancestor veneration emphasizes drowned kin and seafarer memorials"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge and tidal flooding",
+    "harbour shoaling/siltation",
+    "piracy and small-boat raiding",
+    "guild strikes and labor unrest"
+  ],
+  "constraints": [
+    "Heavy dependence on imported ritual reagents",
+    "Harbour depth limits largest oceanic warships and cargoers",
+    "Seasonal monsoon/ebb-season restricts safe passage"
+  ],
+  "notes": [
+    "Major transshipment point for reagents used in state ritual industries",
+    "Extensive salt pans on ebb flats; salterns controlled by merchant houses",
+    "Apprenticeships enforceable by guild courts; bonded labor common in yards"
+  ],
+  "generated_at": "2025-09-09T05:06:10.890Z"
+}

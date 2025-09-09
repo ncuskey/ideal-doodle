@@ -1,55 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a9a20eb",
+  "checksum": "fnv1a_b7aeed29",
   "burg_id": 7,
-  "name": "Burg_7",
+  "name": "Stroila",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-hub"
+    "river-haven",
+    "ritual-supply",
+    "boatbuilding"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-labor",
-    "small-scale trade",
-    "boat-repair"
+    "fishing & salting",
+    "ritual reagent brokerage",
+    "boat repair & carpentry",
+    "waystation for coastal traders"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual-coven",
-    "shipwrights-guild"
+    "Harbor Consortium",
+    "Tidewardens (Sea-Tide animists)",
+    "Merchant Guildlet",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "scarce-ritual-reagents",
-    "banditry-along-shore",
-    "silted-channel"
+    "reagent scarcity",
+    "smuggling & black market",
+    "tidal erosion",
+    "guild corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "evening ancestor-offerings at docks",
-    "smoked-salt seafood cuisine",
-    "boat-varnish ritual craft"
+    "Riveric/Coastal dialect blend",
+    "ritualized barter customs at docks",
+    "seafood- and seaweed-heavy cuisine",
+    "local craft focus on small craft & nets"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagent-shipments",
-    "disappearing-fishermen"
+    "missing reagent shipment",
+    "shrine desecration"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-require-scarce-imported-reagents",
-    "long-range-mind-influence-banned"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "navigational-auguries used alongside charts",
-    "combustion-industry limited"
+    "sited at a river mouth; strategic coastal-node for inland trade",
+    "seasonal tides and storms shape access and schedules",
+    "local economy tightly linked to reagent import routes"
   ],
-  "generated_at": "2025-09-09T04:36:23.866Z"
+  "generated_at": "2025-09-09T05:47:58.599Z"
 }

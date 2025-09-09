@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8be4c3d5",
+  "checksum": "fnv1a_56366355",
   "burg_id": 80,
-  "name": "Burg_80",
+  "name": "Dierdeek",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "outpost"
+    "river-crossing",
+    "saltworks"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-harbor",
-    "ritual-lab",
-    "salt-curing",
-    "waystation"
+    "ferry-crossing",
+    "fish-salting",
+    "ritual-supply",
+    "small-market"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-keepers",
-    "smuggler-ring",
-    "ancestor-clan"
+    "ferrymen-guild",
+    "salters-cooperative",
+    "ancestor-priests",
+    "harbormaster-council"
   ],
   "problems": [
-    "scarce-reagents",
-    "isolation",
-    "smuggling",
-    "poor-charts"
+    "seasonal-flooding",
+    "banditry",
+    "reagent-scarcity",
+    "smuggling"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues influence",
-    "tide-blessing festivals",
-    "salt-fish cuisine",
-    "folk-rituals tied to lunar-navigation"
+    "speaks Riveric Dialects with Coastal loanwords",
+    "tide-blessing ceremonies before launches",
+    "salt-preserved cuisine dominant",
+    "reciprocity and small credit-notes govern trade"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-failure",
-    "lost-chart"
+    "flood-threat",
+    "missing-ferryman"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents or specialized burg-labors"
+    "no-instant-resurrection",
+    "rituals-consume-rare-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "Tech: near-medieval to early industrial",
-    "Navigational auguries exist but cannot replace charts or seamanship"
+    "near-medieval tech with localized ritual magic",
+    "population unknown; seasonal fishers and transient traders"
   ],
-  "generated_at": "2025-09-09T04:37:09.080Z"
+  "generated_at": "2025-09-09T05:48:48.868Z"
 }

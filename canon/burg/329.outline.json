@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d6e1e009",
+  "checksum": "fnv1a_7363c8a5",
   "burg_id": 329,
-  "name": "Burg_329",
+  "name": "Klilm",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "fishing",
-    "ritual-hub"
+    "none",
+    "river-crossing",
+    "ritual-outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "reagent-trade",
-    "ship-repair",
-    "smuggling"
+    "river-fishing",
+    "ferrying/boat-tending",
+    "ritual-reagent brokerage",
+    "small-scale salt-smoking"
   ],
   "factions_local": [
-    "fishers' guild",
-    "ritual circle",
-    "harbor-merchant syndicate",
-    "shore-watch militia"
+    "Ferry Kin",
+    "Shrine Keepers (Ancestor-Remembrance)",
+    "Harbor Guild",
+    "River Smugglers"
   ],
   "problems": [
+    "seasonal flooding/siltation",
     "reagent scarcity",
-    "storm damage",
-    "smuggling turf wars"
+    "smuggling undermining guild rules"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole loanwords",
-    "sea-festival offerings and keel-singing",
-    "diet heavy on salted fish and kelp preserves"
+    "Riveric dialect with Coastal Tongue loanwords",
+    "Ancestor-tide offerings tied to fishing seasons",
+    "diet centered on salted/ smoked river fish",
+    "small craft and tattoo marks denote ferry families"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fisherfolk"
+    "flood-threat",
+    "stolen-shrine-relic"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "No instant resurrection or long-range mind-control; limited combustion industry"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence or true resurrection magics"
   ],
   "notes": [
-    "State unknown; population data unavailable",
-    "Near-medieval to early-industrial tech baseline with pervasive ritual practice"
+    "small, strategic crossing/outpost on a tidal river; population unclear",
+    "navigational auguries used but charts and seamanship still required"
   ],
-  "generated_at": "2025-09-09T04:24:39.243Z"
+  "generated_at": "2025-09-09T05:36:24.904Z"
 }

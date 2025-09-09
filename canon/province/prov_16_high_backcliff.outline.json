@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_high_backcliff",
+  "checksum": "fnv1a_442bfcac",
+  "name": "High Backcliff",
+  "aliases": [
+    "Tall Backcliff",
+    "The High Brow"
+  ],
+  "tags": [
+    "cliff",
+    "coastal",
+    "reagent-storage",
+    "haulways"
+  ],
+  "role_in_state": "cliffside lookout and reagent/transshipment caches",
+  "economy_niches": [
+    "perched deep-water line fisheries",
+    "wind-salted terrace saltworks",
+    "rope, block & haulway manufacture",
+    "drying/storage for imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "boat-kinship shifted toward haul/crew lineages (landed crews)",
+    "tide rites incorporate echo-chanting from cliff ledges",
+    "navigation lore emphasizes wind-read and cliff-signs over reef-chants",
+    "ancestor rites use cliff ledge cairns and cairn-votives"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "rockfall/erosion",
+    "windstorm exposure",
+    "supply isolation in bad weather",
+    "smuggling/banditry on remote ledges"
+  ],
+  "constraints": [
+    "very limited arable land",
+    "high cost to build/maintain cliff haul infrastructure",
+    "ritual work vulnerable to reagent supply disruptions"
+  ],
+  "notes": [
+    "preferred site for wind-drying reagents and salted goods",
+    "sacred burial ledges restrict large-scale coastal works",
+    "guilds control haulway and cliff-rights"
+  ],
+  "generated_at": "2025-09-09T05:05:26.172Z"
+}

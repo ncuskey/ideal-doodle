@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 12,
+  "province_id": "prov_12_fleetyards",
+  "checksum": "fnv1a_a9898784",
+  "name": "Fleetyards",
+  "aliases": [
+    "The Yards",
+    "Harborworks"
+  ],
+  "tags": [
+    "shipbuilding",
+    "dockyards",
+    "ritual-workshops",
+    "salt-curing"
+  ],
+  "role_in_state": "Primary naval shipbuilding, repair and ritual outfitting hub",
+  "economy_niches": [
+    "warship and merchant hull construction",
+    "large-scale repair & careening",
+    "rigging, sailmaking and carpentry guilds",
+    "ritual-component workshops for navigational auguries",
+    "salt-curing and fish packing for provisioning fleets"
+  ],
+  "culture_adjustments": [
+    "guild-contract norms override some harbor-clan protocols",
+    "practical, deadline-driven work rhythms supplant slower festival pacing",
+    "ritual practices focused on seaworthiness and voyage-luck integrated into yards",
+    "harbor-readers (practical augurists) hold civic sway over some ports"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding/ship-surge",
+    "dockyard fire and sawmill blaze",
+    "labor strikes and guild disputes",
+    "pirate raids on outgoing fleets"
+  ],
+  "constraints": [
+    "relies on imported ritual reagents and specialized timbers",
+    "limited arable land — provisioning dependent on maritime supply",
+    "long-range mind-influence and instant-revival magics banned in yards"
+  ],
+  "notes": [
+    "state naval contracts cause cyclical boom-and-bust labor demand",
+    "concentration of skilled artisans makes migration control a political issue",
+    "saltworks and curing houses clustered to serve fleet provisioning"
+  ],
+  "generated_at": "2025-09-09T05:03:50.894Z"
+}

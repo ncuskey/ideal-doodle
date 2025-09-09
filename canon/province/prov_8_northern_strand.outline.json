@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_northern_strand",
+  "checksum": "fnv1a_211ce21c",
+  "name": "Northern Strand",
+  "aliases": [
+    "North Strand",
+    "Strandmarch"
+  ],
+  "tags": [
+    "coastal",
+    "saltmarsh",
+    "shipyards",
+    "reagent-harvest"
+  ],
+  "role_in_state": "secondary shipyard and ritual-reagent supply hub",
+  "economy_niches": [
+    "smallcraft building & repair",
+    "saltworks and brine gardens",
+    "tidal kelp and reagent algae farms",
+    "coastal fishing fleets",
+    "processing/export of ritual reagents"
+  ],
+  "culture_adjustments": [
+    "tide-timed work rhythms stricter than state norm",
+    "stronger guild oversight of apprenticeships",
+    "voyage-oath and ship-naming rituals intensified",
+    "practical syncretism with local ancestor rites"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge/floodplain",
+    "saltpan fires",
+    "smuggling and coastal banditry",
+    "seasonal navigation closures"
+  ],
+  "constraints": [
+    "limited fresh water inland",
+    "guild monopolies on key trades",
+    "reagent exports taxed and tightly licensed"
+  ],
+  "notes": [
+    "important supplier of scarce ritual ingredients",
+    "harbors favor small to medium vessels, not deep-draft ships",
+    "apprenticeship is main route to status"
+  ],
+  "generated_at": "2025-09-09T05:08:14.488Z"
+}

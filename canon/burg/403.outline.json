@@ -1,53 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3bd3e963",
+  "checksum": "fnv1a_dc14bb80",
   "burg_id": 403,
-  "name": "Burg_403",
+  "name": "Bridgewent",
   "state_id": 0,
-  "province_id": "",
+  "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-hub"
+    "bridge",
+    "river-crossing",
+    "toll",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent brokerage",
-    "ship provisioning",
-    "fishing",
-    "ritual-lab services"
+    "toll collection",
+    "river trade",
+    "ferrying",
+    "smithing"
   ],
   "factions_local": [
-    "Harbor Syndicate",
-    "House of Tides (ritual atelier)",
-    "Pilgrim Provisioners"
+    "Tollmaster's Guild",
+    "Bridgewardens",
+    "Rivermen's Cooperative",
+    "Wayfarer Innkeepers"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "navigational hazards"
+    "seasonal flooding",
+    "banditry on approaches",
+    "infrastructure decay",
+    "corruption in toll office"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Speaks Coastal Tongues dialect",
-    "Salt-curing and seaweed cuisine",
-    "Ship-blessing rites before departure"
+    "Riveric Dialect predominant",
+    "Annual bridge-feast with toll-blessing ritual",
+    "Cuisine: smoked river fish, barley bread",
+    "Architecture: timber superstructure on stone piers"
   ],
   "quest_hook_slots": [
-    "missing reagent shipment",
-    "wreck salvage",
-    "smuggling ring"
+    "smuggling",
+    "bridge-collapse",
+    "missing toll-ledger"
   ],
   "constraints": [
-    "Rituals consume scarce imported reagents",
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence banned"
+    "Ritual magic consumes scarce imported reagents",
+    "No high-pressure steam megatechs",
+    "Long-range mind influence institutionally banned"
   ],
   "notes": [
-    "Navigational auguries used locally but charts and seamanship remain essential",
-    "Limited combustion industry; workshops rely on hand and ritual labor"
+    "Population unknown; traffic surges during trading seasons",
+    "Strategic crossing on a regional trade artery; toll records are valuable"
   ],
-  "generated_at": "2025-09-09T04:29:25.961Z"
+  "generated_at": "2025-09-09T05:41:24.236Z"
 }

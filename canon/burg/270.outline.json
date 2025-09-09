@@ -1,53 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_78ac993f",
+  "checksum": "fnv1a_ad458556",
   "burg_id": 270,
-  "name": "Burg_270",
-  "state_id": -1,
+  "name": "Raj'jess",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "harbor"
+    "waystation"
   ],
   "size_hint": "small",
   "economy_roles": [
+    "harbor-trade",
     "fishing",
-    "small-scale trade",
-    "ritual-supply",
-    "boat-repair"
+    "ritual-reagent-sourcing",
+    "ship-repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-apothecaries",
-    "clan-matriarchs"
+    "merchant-brotherhood",
+    "tide-shamans",
+    "harbormasters",
+    "smugglers"
   ],
   "problems": [
     "reagent-scarcity",
-    "banditry",
-    "tax-pressures"
+    "smuggling",
+    "corrupt-harbor-authority",
+    "tidal-erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "tide-based festivals and boat-processions",
-    "cuisine: salt-preserved fish, seaweed condiments"
+    "Coastal Tongues dialect influence",
+    "tide-rituals tied to fishing seasons",
+    "preservation cuisine: pickling, drying",
+    "strong maritime superstitions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent shortage",
-    "heir-dispute"
+    "reagent-heist",
+    "tidal-omen"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-imported-reagents",
-    "limited-combustion-industry"
+    "rituals require scarce imported reagents",
+    "no long-range mind-influence allowed",
+    "limited combustion industry (no high-pressure steam megatech)"
   ],
   "notes": [
-    "population unknown",
-    "serves nearby islets; navigation aids present but limited"
+    "small port/waystation on coastal route",
+    "population unknown/seasonal",
+    "navigation uses auguries but still needs charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:20:17.155Z"
+  "generated_at": "2025-09-09T05:32:45.613Z"
 }

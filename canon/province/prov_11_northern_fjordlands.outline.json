@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 11,
+  "province_id": "prov_11_northern_fjordlands",
+  "checksum": "fnv1a_8cec9354",
+  "name": "Northern Fjordlands",
+  "aliases": [
+    "Northern Fjords",
+    "Fjordlands North"
+  ],
+  "tags": [
+    "coastal",
+    "fjord",
+    "shipbuilding",
+    "saltworks",
+    "fishing",
+    "ritual-reagents"
+  ],
+  "role_in_state": "Maritime resource and shipbuilding hub",
+  "economy_niches": [
+    "Deep-water fishing (cod, whale drivers)",
+    "Small-ship building and repair (coastal craft)",
+    "Saltworks and kelp-derived reagents",
+    "Re-export of inland goods via sheltered fjord harbors",
+    "Supply node for ritual-reagent collectors and packers"
+  ],
+  "culture_adjustments": [
+    "Stronger clan/local-cove identities over provincial loyalty",
+    "More conservative seamanship rites—age-grade initiation extended",
+    "Wider use of Highland Cant loanwords in remote coves",
+    "Ancestor veneration focused on sea-bound lineages (boat tombs)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "fjord-ice (seasonal blockage)",
+    "coastal-raid/banditry",
+    "navigation-hazards (hidden skerries)"
+  ],
+  "constraints": [
+    "Scarce arable land limits grain production",
+    "Harbors seasonally ice-locked; shipping window constrained",
+    "Ritual magic reliant on imported reagents via precarious routes"
+  ],
+  "notes": [
+    "Important source of kelp-based reagents used statewide",
+    "Local navigational auguries strong but cannot replace charts"
+  ],
+  "generated_at": "2025-09-09T05:03:16.159Z"
+}

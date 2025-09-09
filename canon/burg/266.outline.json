@@ -1,31 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d7faedcd",
+  "checksum": "fnv1a_cee88831",
   "burg_id": 266,
-  "name": "Burg_266",
+  "name": "Corsamulo",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost"
+    "estuary",
+    "ritual-reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "fishing",
-    "salt-curing",
-    "ritual-foraging",
-    "small-scale-trade"
+    "river trade",
+    "fishing & salt-curing",
+    "shipbuilding & repair",
+    "ritual-reagent market"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ancestral-priests",
-    "merchant-boatters",
-    "smugglers"
+    "Merchants' Guild",
+    "Fishermen's Cooperative",
+    "Tide-Priesthood (Sea-Tide Animism)",
+    "Dockmasters' Consortium",
+    "Smuggler Cell"
   ],
   "problems": [
-    "reagent-scarcity",
-    "weather-isolation",
-    "banditry"
+    "reagent scarcity",
+    "tidal flooding and siltation",
+    "smuggling and corruption",
+    "river pirates"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,24 +35,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole trade pidgin",
-    "Daily tide-offering ritual",
-    "Preserved fish central to diet",
-    "Shipyard songs and seamanship superstitions"
+    "Coastal Tongues + Riveric Dialect mix",
+    "seafood & salt-preserved cuisine",
+    "tide-calendar festivals",
+    "boat-amulet superstition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-shortage",
-    "haunted-shrine"
+    "reagent theft",
+    "shrine desecration"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-reagents",
-    "long-range-mind-influence-banned"
+    "no instant resurrection or life-replacement magic",
+    "rituals require scarce imported reagents",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "Population unknown; seasonal flux",
-    "Relies on charted sea lanes and navigational auguries"
+    "population unknown/seasonal (crews and itinerant traders)",
+    "strategic estuary node prone to silting"
   ],
-  "generated_at": "2025-09-09T04:19:56.266Z"
+  "generated_at": "2025-09-09T05:32:19.983Z"
 }

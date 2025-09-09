@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_cd043223",
+  "checksum": "fnv1a_cfb9054b",
   "burg_id": 407,
-  "name": "Burg_407",
+  "name": "Bramney",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-supply-node"
+    "river-port",
+    "ferry-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual supply depot",
-    "coastal fishing",
-    "ship repair",
-    "small market"
+    "river trade",
+    "fishing",
+    "ferrying",
+    "ritual-labor"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Shrine Keepers (Ancestor)",
-    "Smuggler Ring"
+    "Ferrymen's Guild",
+    "Merchant House Tallen",
+    "Ritual House Osren",
+    "Smuggler Crew"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "isolation",
-    "weather damage"
+    "banditry on river",
+    "harbor siltation",
+    "damp-borne illness"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "dialect: Coastal Tongues influence",
-    "tide-offering customs",
-    "diet: dried fish & seaweed",
-    "suspicious of outsiders"
+    "Riveric Dialect base with Coastal Tongues loanwords",
+    "Seasonal flood-festival honoring ancestors",
+    "Boatwright and net-mending crafts prominent",
+    "Diet: smoked fish, porridge, brined vegetables"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "tidal omens"
+    "reagent heist",
+    "ferry disaster"
   ],
   "constraints": [
-    "no instant resurrection",
+    "no instant resurrection or life-replacement magics",
     "rituals consume scarce imported reagents",
-    "navigational auguries do not replace charts"
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "resupply point for coastal traders",
-    "perennial low population; records spotty"
+    "Near-medieval to early-industrial tech baseline",
+    "Harbor partially silted; navigation hazardous at low water"
   ],
-  "generated_at": "2025-09-09T04:29:35.876Z"
+  "generated_at": "2025-09-09T05:41:34.941Z"
 }

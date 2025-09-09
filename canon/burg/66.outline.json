@@ -1,59 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_aa7dfbb5",
+  "checksum": "fnv1a_dae1ae8f",
   "burg_id": 66,
-  "name": "Burg_66",
+  "name": "Aberg",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "waystation",
-    "ritual-harbor"
+    "river-crossing",
+    "ferry-town"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual reagent trade",
-    "pilotage/harbor fees",
-    "smuggling"
+    "ferrying and tolls",
+    "river trade hub",
+    "ritual-labor services",
+    "fish and salt curing"
   ],
   "factions_local": [
-    "harbor-wardens",
-    "Ancestor-Remembrance circle",
-    "merchant-brotherhood agents",
-    "smuggler-ring"
+    "Ferry Guild",
+    "River Traders' Syndicate",
+    "Temple Wardens",
+    "Harbor-side Smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "corrupt harbor-officials"
+    "banditry on approaches",
+    "corrupt toll collection",
+    "scarcity of ritual reagents",
+    "seasonal flooding"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole prevalent; pidgin with Coastal Tongues",
-    "strong ancestor veneration at family pier altars",
-    "rituals tied to tides; offerings of sea-rare reagents",
-    "barter and harbor-credit common"
+    "Riveric dialect with Coastal Tongue loanwords",
+    "boat-based cuisine (smoked fish, salted goods)",
+    "annual river-ancestor boat festival",
+    "small craft-marking ritual before voyages"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "lost chart"
+    "missing ferry",
+    "reagent theft"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence banned"
+    "no long-range mind control or instant resurrection"
   ],
   "notes": [
-    "population unknown; transient crew-dominated",
-    "staging point for coastal voyages",
-    "navigation auguries used but charts still needed"
+    "strategic crossing at a tidal river mouth",
+    "population unknown; functions as local service hub"
   ],
-  "generated_at": "2025-09-09T04:36:12.988Z"
+  "generated_at": "2025-09-09T05:47:38.117Z"
 }

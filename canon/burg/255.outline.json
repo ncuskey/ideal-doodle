@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7a8ee5ed",
+  "checksum": "fnv1a_2876e533",
   "burg_id": 255,
-  "name": "Burg_255",
+  "name": "Nanshigangad",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "coastal"
+    "coastal",
+    "harbor",
+    "ritual-site"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent transshipment",
-    "boat maintenance"
+    "salt-curing",
+    "ritual-labor services",
+    "waystation trade"
   ],
   "factions_local": [
-    "Fishermen's Knot (guild)",
-    "Tide-Shrine Circle",
-    "Coastal Smugglers"
+    "Harbor Guild",
+    "Ritual Practitioners' Circle",
+    "Merchant Clan Kava",
+    "Coastal Watch"
   ],
   "problems": [
-    "isolation",
-    "reagent scarcity",
-    "smuggling pressure"
+    "scarce imported reagents",
+    "bandit raids on coastal routes",
+    "corruption among harbor officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "diet of salted fish and seaweed",
-    "regular tide-offering ceremonies",
-    "boatwright and net-mending traditions"
+    "speaks Coastal Tongues dialect",
+    "tide-ancestor offerings common",
+    "diet centered on salted fish and seaweed",
+    "local craft: net-weaving and ritual shell-work"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing pilgrim",
-    "reagent shortage"
+    "missing reagent shipments",
+    "ritual mishap / curse"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "long-range mind influence banned locally"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline; limited combustion industry",
-    "navigational auguries supplement but do not replace charts and seamanship"
+    "population unknown; functions as small ritualized port",
+    "navigational auguries used but seamanship required"
   ],
-  "generated_at": "2025-09-09T04:19:13.387Z"
+  "generated_at": "2025-09-09T05:31:33.156Z"
 }

@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_cliffwatch",
+  "checksum": "fnv1a_1b4c3551",
+  "name": "Cliffwatch",
+  "aliases": [
+    "The Watch",
+    "Cliffguard"
+  ],
+  "tags": [
+    "coastal",
+    "watchtower",
+    "ship-repair",
+    "salt-terraces"
+  ],
+  "role_in_state": "coastal sentinel and emergency ship-repair hub",
+  "economy_niches": [
+    "cliffside salt-terraces and fish-curing",
+    "small-vessel ship-repair and careening",
+    "kedge/pilchard fisheries and preserves",
+    "drying/preparation of sea-magic reagents (algal salts, drift resins)"
+  ],
+  "culture_adjustments": [
+    "tide-strict timekeeping — tidal markers override communal clocks",
+    "watch-guilds outrank merchant houses in local prestige",
+    "voyage-oaths and lookout-offerings more elaborate than state norm",
+    "lineage-based crew apprenticeship (crew families preferred)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "rockfall",
+    "pirate raids",
+    "supply-isolation (winter gales)"
+  ],
+  "constraints": [
+    "steep terrain limits heavy industry and large slipways",
+    "shipbuilding depends on imported timber",
+    "ritual magic consumption of scarce imported reagents"
+  ],
+  "notes": [
+    "network of watch-towers enforces tide-calendared signals",
+    "prefers refit/repair of coastal craft over constructing ocean-going hulks"
+  ],
+  "generated_at": "2025-09-09T05:08:34.851Z"
+}

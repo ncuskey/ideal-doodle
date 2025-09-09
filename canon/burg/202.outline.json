@@ -1,53 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1f6bda39",
+  "checksum": "fnv1a_4d2d72b9",
   "burg_id": 202,
-  "name": "Burg_202",
+  "name": "Mangis",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-node"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-processing",
-    "ritual-component workshops",
-    "waystation for coastal traffic"
+    "river-trade",
+    "fishing and fish-curing",
+    "ritual-labour services",
+    "timber milling"
   ],
   "factions_local": [
-    "Harbor Clan",
-    "Ritual Lodge",
-    "Coastal Traders"
+    "Harbormaster's Enclave",
+    "Shrine of River-Ancestors",
+    "Boatmen's Cooperative",
+    "Night-Market Crews"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal isolation",
-    "smuggling"
+    "reagent-scarcity for rituals",
+    "banditry along the river",
+    "harbor corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "ship-blessing and tide-offering rites",
-    "cuisine centered on salt-preserved fish"
+    "Riveric Dialect dominant",
+    "Ancestor-offerings performed at landings",
+    "Diet: smoked and salted fish staples",
+    "Seasonal boat-festivals with talismanic rites"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishermen"
+    "ritual-reagent shortage",
+    "river-monster sightings"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents; combustion industry limited"
   ],
   "notes": [
-    "wind-swept outpost on shoals; limited arable land",
-    "navigational auguries used but local charts and seamanship required"
+    "Near-medieval to early-industrial tech with local ritual magic",
+    "Situated at a navigable river mouth; political state ties unclear"
   ],
-  "generated_at": "2025-09-09T04:15:45.593Z"
+  "generated_at": "2025-09-09T05:28:15.100Z"
 }

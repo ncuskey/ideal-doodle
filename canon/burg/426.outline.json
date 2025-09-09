@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_abefc259",
+  "checksum": "fnv1a_dee4dd9f",
   "burg_id": 426,
-  "name": "Burg_426",
-  "state_id": -1,
+  "name": "Thult",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-labor"
+    "river-mouth",
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-harbor",
-    "fishery",
-    "ritual-supply",
-    "waystation"
+    "fishing",
+    "ritual-reagent trade",
+    "pilgrim services"
   ],
   "factions_local": [
-    "harbor-guild",
-    "tide-priesthood",
-    "smugglers",
-    "ritual-crafters"
+    "Tidewatchers (priests)",
+    "Reagent Brokers' Syndicate",
+    "Skiffmasters' Guild"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "harsh-weather",
-    "corrupt-harbormaster"
+    "reagent scarcity",
+    "spring-tide flooding",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole with Riveric loanwords",
-    "tide-offering ceremonies",
-    "seaweed-and-smoked-fish cuisine",
-    "barter-focused social norms"
+    "Coastal Tongues with Riveric loanwords",
+    "tide-night ancestor ceremonies",
+    "diet of salted riverfish and fermented seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ritual-reagents",
-    "shipwreck-diversion"
+    "disappearing reagents",
+    "ritual mishap"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection allowed",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "state association unknown",
-    "population unknown; functions as coastal ritual resupply and waypoint"
+    "State governance unknown — semi-autonomous frontier outpost",
+    "harbor usable only at mid tides; navigation aided by auguries"
   ],
-  "generated_at": "2025-09-09T04:30:57.910Z"
+  "generated_at": "2025-09-09T05:42:52.948Z"
 }

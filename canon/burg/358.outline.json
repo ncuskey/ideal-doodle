@@ -1,51 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_971a555",
+  "checksum": "fnv1a_4274ec60",
   "burg_id": 358,
-  "name": "Burg_358",
-  "state_id": 0,
+  "name": "Blusxea",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
     "fishing",
-    "ritual-reagent trade"
+    "reagent trade",
+    "ship repair",
+    "saltworks"
   ],
   "factions_local": [
-    "Coastal Wharfmen",
-    "Reagent Syndicate",
-    "Tidewatch Clan"
+    "fishermen's guild",
+    "reagent merchants",
+    "tide-priest circle",
+    "dockmasters"
   ],
   "problems": [
     "reagent scarcity",
-    "isolation",
-    "smuggling"
+    "smuggling",
+    "corruption",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "diet heavy on preserved fish and kelp",
-    "regular tide-offerings and ship-blessing rites"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "seafood- and salt-forward cuisine; communal tide-feasts",
+    "strong seamanship superstitions and small-scale ritual observances",
+    "imports shape material culture and ritual practices"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "shipwreck salvage"
+    "missing reagent shipment",
+    "tide spirit unrest"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion-derived industry"
+    "long-range mind influence is banned; navigational auguries cannot replace charts"
   ],
   "notes": [
-    "state affiliation unknown",
-    "serves as a maritime waypoint and small reagent market"
+    "population unknown; functions as a small regional port",
+    "limited heavy industry due to tech and reagent constraints"
   ],
-  "generated_at": "2025-09-09T04:26:20.202Z"
+  "generated_at": "2025-09-09T05:38:39.789Z"
 }

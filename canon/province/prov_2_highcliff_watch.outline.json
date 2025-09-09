@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_highcliff_watch",
+  "checksum": "fnv1a_6a1e5dd8",
+  "name": "Highcliff Watch",
+  "aliases": [
+    "Highcliff",
+    "The Watch"
+  ],
+  "tags": [
+    "coastal",
+    "cliff-guard",
+    "maritime-checkpoint",
+    "signal-beacons"
+  ],
+  "role_in_state": "cliffside maritime checkpoint",
+  "economy_niches": [
+    "coastal ship repair & hull-sheathing",
+    "salt-curing and smoked-fish exports",
+    "signal-station tolls & pilotage fees",
+    "re-export hub for ritual reagents",
+    "seasonal lookout labor and mercantile lodging"
+  ],
+  "culture_adjustments": [
+    "military-watch rituals overlay merchant patronage",
+    "navigational auguries institutionalized in beacon rites",
+    "clan-house power weakened by crown-sanctioned signal guilds",
+    "practical assimilation of islander boat-craft, wary social acceptance"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "sea-surge",
+    "cliff-erosion",
+    "smuggling",
+    "raider landings",
+    "ritual-reagent theft"
+  ],
+  "constraints": [
+    "limited arable hinterland",
+    "dependence on imported ritual reagents",
+    "no high-pressure steam industry",
+    "strict maritime charters limit autonomous militias"
+  ],
+  "notes": [
+    "beacon network enforces tolling and navigation control",
+    "strategic chokepoint for state maritime routes",
+    "sparse inland population; economy tied to passing fleets"
+  ],
+  "generated_at": "2025-09-09T05:05:55.875Z"
+}

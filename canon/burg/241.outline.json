@@ -1,50 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_65be9fcb",
+  "checksum": "fnv1a_70f5ff22",
   "burg_id": 241,
-  "name": "Burg_241",
-  "state_id": 0,
+  "name": "Fruict",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "none",
+    "orchard",
+    "market-town"
+  ],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-lab trade",
-    "waystation services"
+    "orchard-cultivation",
+    "fruit-processing",
+    "river-trade",
+    "seasonal-labor"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual-house",
-    "smugglers"
+    "Orchard Guild",
+    "Market Council",
+    "Harvest Circle"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "seasonal storms"
+    "blight/pest",
+    "water-scarcity",
+    "market-exploitation"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "sea-funeral rites common",
-    "diet: salted fish and fermented seaweed"
+    "Riveric dialect",
+    "harvest festivals tied to star calendar",
+    "preserves and fermented fruit cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "blight",
+    "market-scandal"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual magic requires costly reagents",
+    "no long-range mind influence",
+    "limited combustion industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries aid but don't replace charts or seamanship"
+    "near-medieval to early-industrial tech with ritual magic",
+    "seasonal population flux during harvest"
   ],
-  "generated_at": "2025-09-09T04:18:17.086Z"
+  "generated_at": "2025-09-09T05:30:38.710Z"
 }

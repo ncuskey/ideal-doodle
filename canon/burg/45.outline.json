@@ -1,52 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_681f4eb1",
+  "checksum": "fnv1a_632407d0",
   "burg_id": 45,
-  "name": "Burg_45",
-  "state_id": -1,
+  "name": "Dunston",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-crossing",
+    "ford",
+    "market"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent brokerage",
-    "waystation for coastal traffic",
-    "small-scale fishing",
-    "smuggling transits"
+    "river-ferry",
+    "weekly-market",
+    "milling",
+    "ritual-supply-trade"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Reagent Syndicate",
-    "Pilgrim House"
+    "Ferrymen's Guild",
+    "Market Syndicate",
+    "Abbey of Quiet Waters",
+    "Town Watch"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "banditry on approach roads",
-    "jurisdictional disputes"
+    "seasonal-flooding",
+    "banditry-on-roads",
+    "reagent-scarcity",
+    "corrupt-tolls"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "harbor ancestor rites are common",
-    "diet: salted fish, seaweed, spice stews",
-    "ritual barter etiquette governs major trades"
+    "Riveric dialect dominant",
+    "Crossing rites before long journeys",
+    "Diet: smoked fish and rye",
+    "Market-day draws hinterland farmers"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ancestral omen"
+    "flood-threat",
+    "missing-ferryman"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries cannot replace charts or seamanship",
-    "ritual magic consumes scarce imported reagents"
+    "rituals require scarce imported reagents",
+    "no instant resurrection magics",
+    "limited combustion industry"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "combustion industry limited; ritual labs central"
+    "Near-medieval to early-industrial baseline",
+    "Navigational auguries exist but do not replace charts/seamanship",
+    "State-level governance unknown"
   ],
-  "generated_at": "2025-09-09T04:32:40.820Z"
+  "generated_at": "2025-09-09T05:44:25.672Z"
 }

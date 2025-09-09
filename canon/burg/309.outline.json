@@ -1,56 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bc31c48d",
+  "checksum": "fnv1a_3850f333",
   "burg_id": 309,
-  "name": "Burg_309",
+  "name": "Salces",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-trade",
-    "coastal"
+    "saltworks",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-labor and reagent brokerage",
-    "small-scale fishing and preservation",
-    "transit point for coastal cargo",
-    "local craft: rope, nets, salted goods"
+    "salt-harvesting",
+    "fishing",
+    "provisioning",
+    "ritual-labor"
   ],
   "factions_local": [
-    "Porters' Cooperative",
-    "House of Minor Rites",
-    "Coastal Kinclan",
-    "Itinerant Merchant-Brokers"
+    "Saltworkers Guild",
+    "Fisherfolk Council",
+    "Shipwrights",
+    "Temple of Tides"
   ],
   "problems": [
-    "scarce imported ritual reagents",
-    "banditry on approach routes",
-    "supply isolation in storms",
-    "local magical contamination incidents"
+    "smuggling",
+    "reagent scarcity",
+    "bandit raids"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue influence with Riveric pidgin trade speech",
-    "dockside ancestor offerings and ritual knots",
-    "diet: salt-preserved fish, seaweed, hardy grains",
-    "practical layered dress for damp, windy climate"
+    "Coastal Tongues dialect with Riveric influence",
+    "seasonal tide-harvest festival",
+    "preservation techniques tied to rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "strange tides/omens"
+    "resource dispute",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents or specialized local labor",
-    "Long-range mind-influence is rare and institutionally banned"
+    "rituals require scarce imported reagents",
+    "no instant resurrection magics",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; transient workforce common",
-    "limited combustion industry; craft-based production"
+    "near-medieval to early-industrial tech baseline",
+    "population unknown; transient trade traffic"
   ],
-  "generated_at": "2025-09-09T04:23:07.971Z"
+  "generated_at": "2025-09-09T05:35:10.510Z"
 }

@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8321f2b9",
+  "checksum": "fnv1a_8950e99e",
   "burg_id": 185,
-  "name": "Burg_185",
+  "name": "Akkuss",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-haven",
-    "ritual-labor",
-    "outpost"
+    "harbor",
+    "ritual-workshop",
+    "shipwrights"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "river-trade",
-    "reagent-transshipment",
-    "fishing"
+    "fishing",
+    "ritual-manufacture",
+    "ship-repair",
+    "local-market-trade"
   ],
   "factions_local": [
-    "Harbormasters' Guild",
-    "Reagent Consortium",
-    "Shrine-Stewards",
-    "Smugglers' Cell"
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Shipwrights' Brotherhood",
+    "Smuggler Ring"
   ],
   "problems": [
-    "reagent-scarcity",
+    "scarce-imports",
     "banditry",
-    "siltation"
+    "resource-depletion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects with Coastal loanwords",
-    "nightly river-song ritual",
-    "diet: smoked fish & fermented paste"
+    "Coastal Tongues dialect dominant",
+    "harbor rites and tide-offerings common",
+    "diet heavy on salted fish and seaweed",
+    "ritual labour integrated into crafts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagent",
-    "river-silt-blockage"
+    "ritual-theft",
+    "missing-ships"
   ],
   "constraints": [
-    "rituals-require-scarce-imported-reagents",
-    "no-high-pressure-steam-megatech"
+    "rituals consume scarce imported reagents",
+    "no high-pressure combustion industry",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "state affiliation unknown; supply links fragile",
-    "navigational auguries used but do not replace charts"
+    "near-medieval to early-industrial baseline",
+    "navigational auguries used alongside charts"
   ],
-  "generated_at": "2025-09-09T04:14:39.320Z"
+  "generated_at": "2025-09-09T05:27:15.104Z"
 }

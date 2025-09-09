@@ -1,49 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7650c2d3",
+  "checksum": "fnv1a_c5fc9d3c",
   "burg_id": 443,
-  "name": "Burg_443",
-  "state_id": 0,
+  "name": "Zriokots",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "outpost",
+    "ritual-waystation",
+    "coastal"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "ritual-component depot",
-    "local fishing",
-    "small-scale market"
+    "ritual-reagent hub",
+    "fishing",
+    "waystation for mariners",
+    "salt processing"
   ],
   "factions_local": [
-    "Augury Relay (navigators)",
-    "Trader's Cooperative",
-    "Ancestor-Remembrance Shrine"
+    "ritual-guild",
+    "harbormasters",
+    "smuggling-ring",
+    "elders-council"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "coastal erosion"
+    "banditry",
+    "corruption",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "annual ship-bone remembrance",
-    "diet heavy on salt-preserved fish and kelp"
+    "speaks Coastal Tongues with Riveric loanwords",
+    "ritual meals centered on preserved fish and brine",
+    "custom of leaving offerings at waymarkers"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "disappearing augury",
-    "scarce reagents"
+    "reagent-smuggling",
+    "missing-augury charts",
+    "sacred-effigy theft"
   ],
   "constraints": [
-    "no long-range mind influence allowed",
-    "rituals require imported/specialist reagents"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents and specialized labor"
   ],
   "notes": [
-    "state and population unknown",
-    "serves as navigational/ritual relay at a minor harbor or river mouth"
+    "acts as coastal ritual waypoint",
+    "local augurs require paid permits"
   ],
-  "generated_at": "2025-09-09T04:32:20.655Z"
+  "generated_at": "2025-09-09T05:44:04.195Z"
 }

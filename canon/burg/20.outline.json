@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ba471df1",
+  "checksum": "fnv1a_e038cd3",
   "burg_id": 20,
-  "name": "Burg_20",
+  "name": "Lolilurum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-hamlet",
-    "ritual-stop"
+    "coastal",
+    "harbor",
+    "ritual-port"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ferrying",
-    "fish-curing",
-    "ritual-supply",
-    "local-trade"
+    "fishing",
+    "salt-curing",
+    "ritual-supply trade",
+    "boat repair"
   ],
   "factions_local": [
-    "ferrymen-guild",
-    "ritual-apprentices",
-    "merchant-boatters",
-    "ancestral-clan-council"
+    "Shipwrights' Guild",
+    "Tide-Seers (animists)",
+    "Saltworkers' Union",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "seasonal-flooding",
-    "reagent-scarcity",
-    "river-pirates"
+    "scarce imported ritual reagents",
+    "silted/shallow harbor",
+    "smuggling vs. guild enforcement"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with Coastal Tongues loanwords",
-    "Ancestor-river rites shape daily schedule",
-    "Smoked fish and fermented river-vegetables staple",
-    "Boat-built kin chambers; ceremonies aboard"
+    "Coastal Tongues dialect with heavy sailor jargon",
+    "seaweed and fermented fish staple cuisine",
+    "public docking rituals before long voyages",
+    "strong taboo against deep-trawling certain coves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ferry",
-    "stolen-reagents"
+    "stolen ritual reagents",
+    "disappearing shipments"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "navigational auguries assist but do not replace seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no high-pressure steam industry; limited combustion tech"
   ],
   "notes": [
-    "Small outpost serving ritual travelers and river traffic",
-    "Limited state oversight; strong local customs"
+    "population unknown; many transient crews",
+    "minor stop for coastal traders and ritual voyages"
   ],
-  "generated_at": "2025-09-09T04:15:32.667Z"
+  "generated_at": "2025-09-09T05:28:11.001Z"
 }

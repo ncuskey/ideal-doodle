@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_882bff55",
+  "checksum": "fnv1a_a85b047b",
   "burg_id": 150,
-  "name": "Burg_150",
-  "state_id": 0,
+  "name": "Thatcking",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "outpost",
     "coastal",
-    "waystation",
-    "ritual-harbor"
+    "ritual-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
+    "resupply-stop",
     "fishing",
-    "waystation provisioning",
-    "ritual-reagent trade",
-    "shipwright services"
+    "reagent-trading",
+    "ship-repair"
   ],
   "factions_local": [
-    "harbor priesthood",
-    "merchant cutters",
-    "shipwright clan",
-    "smugglers' ring"
+    "harbormaster-crew",
+    "ritual-guild",
+    "smugglers",
+    "ancestor-priests"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal storms",
-    "smuggling pressure",
-    "isolation"
+    "scarce-reagents",
+    "banditry",
+    "supply-shortages",
+    "territorial-disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "sea-augury customs",
-    "salted-fish cuisine",
-    "ritualized provisioning"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "sailor superstitions and tide-rituals",
+    "market customs revolve around barter for ritual reagents",
+    "diet heavy on salted fish and preserved seaweed"
   ],
   "quest_hook_slots": [
-    "stolen reagents",
-    "missing waypoint beacon",
-    "smuggled relics"
+    "smuggling",
+    "disappearing-ships",
+    "reagent-theft"
   ],
   "constraints": [
-    "no instant resurrection",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "long-range-mind-influence-rare-and-banned"
   ],
   "notes": [
-    "population unknown",
-    "strategic navigational waypoint",
-    "limited combustion industry"
+    "population unknown; transient maritime clientele",
+    "strategic coastal resupply and ritual exchange point"
   ],
-  "generated_at": "2025-09-09T04:12:30.163Z"
+  "generated_at": "2025-09-09T05:24:53.082Z"
 }

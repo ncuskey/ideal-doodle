@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7fe44773",
+  "checksum": "fnv1a_173400fb",
   "burg_id": 171,
-  "name": "Burg_171",
+  "name": "Pons",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ritual-provision"
+    "bridge-town",
+    "toll-point"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ferry/toll",
-    "fish-curing",
-    "ritual reagent trade",
-    "timber milling"
+    "toll collection",
+    "river trade",
+    "ferry services",
+    "seasonal market"
   ],
   "factions_local": [
-    "Ferrymen Guild",
-    "Shrine-keeper Kinship",
-    "Reagent Merchant Agent",
-    "Riverwatch Band"
+    "bridge-keepers",
+    "ferrymen's guild",
+    "merchant agents"
   ],
   "problems": [
     "banditry on approaches",
-    "scarcity of imported reagents",
-    "silted landing and seasonal floods"
+    "seasonal flooding",
+    "toll disputes",
+    "scarce imported ritual reagents"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Riveric dialect with coastal loanwords",
-    "Diet heavy on smoked/pressed river fish",
-    "Funerary boat rites and tide-timed festivals"
+    "Riveric Dialect dominant",
+    "ritual toll-blessing before crossing",
+    "communal bridge-maintenance feast",
+    "local cuisine: smoked river fish"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent theft",
-    "ferry sabotage"
+    "bridge sabotage",
+    "tollhouse corruption",
+    "missing ferryman"
   ],
   "constraints": [
-    "Rituals consume scarce imported reagents or local labor",
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "combustion industry is limited"
   ],
   "notes": [
-    "Tech baseline: near-medieval to early-industrial; navigational auguries augment but do not replace charts",
-    "Outpost reliant on seasonal trade and single main landing"
+    "Pons = 'bridge' in local usage",
+    "strategic crossing with low permanent population, high transient traffic"
   ],
-  "generated_at": "2025-09-09T04:13:49.095Z"
+  "generated_at": "2025-09-09T05:26:28.296Z"
 }

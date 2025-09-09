@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_de53c7ed",
+  "checksum": "fnv1a_7118110f",
   "burg_id": 55,
-  "name": "Saltwatch Quay",
+  "name": "Chalk",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "ritual-lab"
+    "quarry",
+    "ritual-labor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-curing",
-    "reagent processing",
-    "waystation for coastal traders"
+    "chalk-quarrying",
+    "lime-kilns",
+    "small-scale-fishing",
+    "boat-repair"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Saltworkers' Cooperative",
-    "Ritual Circle of Tides",
-    "Smuggler Crew"
+    "quarry-masters",
+    "limeworkers-guild",
+    "harbor-wardens",
+    "ancestor-circle"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling and banditry",
-    "coastal erosion",
-    "neglect by distant authorities"
+    "coastal-erosion",
+    "scarce-imports",
+    "labor-disputes",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "diet heavy on cured and pickled fish",
-    "seasonal tide-and-ancestor festivals"
+    "Coastal Tongues dialect",
+    "lime-burning rites tied to quarry calendar",
+    "sea-salted cuisine with smoked fish",
+    "stonecraft and masonry skills"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual reagent theft",
-    "shipwreck salvage"
+    "sinkholes",
+    "labor-strike"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned"
+    "rituals require scarce imported reagents",
+    "no high-pressure steam or instant resurrection"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic",
-    "small, seasonal population; traders dominate"
+    "near-medieval with localized ritual magic",
+    "port and ledges precarious due to chalk cliffs",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:35:30.279Z"
+  "generated_at": "2025-09-09T05:46:48.587Z"
 }

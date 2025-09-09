@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ccd64317",
+  "checksum": "fnv1a_d6befb60",
   "burg_id": 160,
-  "name": "Burg_160",
-  "state_id": 0,
+  "name": "Klilm",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "reagent-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-trade",
-    "fishing",
-    "ritual-services",
-    "waystation"
+    "reagent brokerage",
+    "small-scale fishing",
+    "boatbuilding",
+    "salt curing"
   ],
   "factions_local": [
-    "Harbor-Merchant Guild",
-    "Reagent Collectors' Lodge",
-    "Ancestor Shrine Stewardship"
+    "Reagent Merchants' Consortium",
+    "Fisherfolk Guild",
+    "Temple of the Sea-Tide",
+    "Harborwatch militia",
+    "Smugglers' coterie"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "smuggling through back channels",
-    "periodic bandit raids"
+    "reagent scarcity",
+    "smuggling",
+    "harbor siltation",
+    "militia corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant; loanwords from Island Creole",
-    "diet heavy on salted fish, seaweed, dried herbs",
-    "customs emphasize tide-offerings and ledger-based patronage"
+    "Dialect: Coastal Tongues with Riveric loanwords",
+    "Custom: tide-offerings before voyages",
+    "Cuisine: salted fish and seaweed preserves",
+    "Market days set by local tide-calendar"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent shortage",
-    "disappearances"
+    "omens at tide"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no long-range mind control or instant resurrection"
+    "Ritual magic depends on scarce imported reagents",
+    "No instant resurrection or long-range mind control"
   ],
   "notes": [
-    "small, strategic coastal outpost handling rare ritual imports",
-    "local economy fragile and tied to occasional shipping lanes"
+    "Access by shallow-draft boats only",
+    "No confirmed state administration (state unknown)"
   ],
-  "generated_at": "2025-09-09T04:13:05.369Z"
+  "generated_at": "2025-09-09T05:25:41.423Z"
 }

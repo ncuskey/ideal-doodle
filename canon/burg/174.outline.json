@@ -1,56 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_83106f9d",
+  "checksum": "fnv1a_c46c81b8",
   "burg_id": 174,
-  "name": "Burg_174",
+  "name": "Drior",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
-    "ritual-lab",
-    "river-hub"
+    "none",
+    "river-node",
+    "boatbuilding"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "ferry crossing",
+    "river trade",
+    "fishing",
     "boat repair",
-    "smoked-fish curing"
+    "ritual-service labor"
   ],
   "factions_local": [
-    "Ancestor-Remembrance shrine",
-    "ferrymen's guild",
-    "reagent merchants"
+    "Riverboat Guild",
+    "Ancestor Clan Council",
+    "Temple Scriptorium",
+    "Markethouse Syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on approaches",
-    "seasonal tidal flooding"
+    "seasonal flooding",
+    "scarce imported reagents",
+    "bandit raids"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Riveric Dialect common; Coastal Tongues influence",
-    "tide-based festivals and ancestor offerings",
-    "diet: smoked fish, brined seaweed",
-    "local craft: small-scale ritual component work"
+    "Riveric Dialect prevalence",
+    "ancestor-veneration rituals at quayside",
+    "smoked fish and reed-bread cuisine",
+    "woodcarving and boatwright craft traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual contamination"
+    "flood-threat",
+    "ritual-reagent theft"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
+    "ritual magic consumes scarce imported reagents",
     "no instant resurrection or life-replacement magics",
-    "navigational auguries cannot replace seamanship"
+    "long-range mind influence banned"
   ],
   "notes": [
-    "tech: near-medieval to early-industrial; limited combustion",
-    "location unspecified; assumed riverside outpost",
-    "population unknown"
+    "population unknown; transient river traffic dominant",
+    "tech level near-medieval with localized ritual practices"
   ],
-  "generated_at": "2025-09-09T04:13:50.378Z"
+  "generated_at": "2025-09-09T05:26:37.088Z"
 }

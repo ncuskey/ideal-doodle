@@ -1,58 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_690767f5",
+  "checksum": "fnv1a_2388e076",
   "burg_id": 279,
-  "name": "Burg_279",
+  "name": "Vreasinx",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "lighthouse",
-    "waystation"
+    "ritual-lab",
+    "harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "lighthouse maintenance",
-    "reagent transshipment",
-    "fishing",
-    "salting & curing"
+    "ritual reagent brokerage",
+    "small-scale fishing",
+    "waystation/trade post",
+    "ship provisioning"
   ],
   "factions_local": [
-    "Harbormaster's Watch",
-    "Reagent Brokers' Syndicate",
-    "Ancestor Tender Circle",
-    "Tidewardens"
+    "Tide-Offerers (animist circle)",
+    "Provisioners' Syndicate",
+    "Harbormaster's coterie",
+    "Shadowcutters (smugglers)"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "storm damage",
-    "isolation"
+    "smuggling and corruption",
+    "coastal erosion/tidal damage"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "ancestor-tide feasts",
-    "salted-fish cuisine",
-    "ritualized bartering customs"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "night markets timed to tides",
+    "diet heavy on salted fish and seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipments",
-    "ancestor unrest"
+    "ritual reagent theft",
+    "disappearances at sea"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "navigational auguries cannot replace seamanship"
+    "ritual magic requires scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "remote rocky islet",
-    "seasonal crew influx during trading season"
+    "near-medieval to early-industrial baseline tech",
+    "navigational auguries used but do not replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:20:55.067Z"
+  "generated_at": "2025-09-09T05:33:04.339Z"
 }

@@ -1,58 +1,50 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fa040a65",
+  "checksum": "fnv1a_1d4d5b16",
   "burg_id": 6,
-  "name": "Burg_6",
-  "state_id": 0,
+  "name": "Aber",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-lab",
-    "waystation"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual reagent harvesting",
-    "waystation/ship services",
-    "salt-curing"
+    "river-trade",
+    "fishing",
+    "ritual-supply",
+    "boat-repair"
   ],
   "factions_local": [
-    "tide-shrine clan",
-    "harborwich merchants",
-    "boatwright cooperative",
-    "shadow-smugglers"
+    "Boatmen's Guild",
+    "Tidewatch Priests",
+    "Merchant House Velis"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling-run conflict",
-    "supply shortages"
+    "seasonal floods",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Island Creole base with Riveric loanwords",
-    "tide-offering rituals shape daily schedule",
-    "diet heavy on salted fish, seaweed, preserved goods",
-    "craft focus: small boats, nets, ceremonial trinkets"
+    "Riveric Dialect dominant",
+    "Stilted timber architecture",
+    "Annual tide-festival with ancestor rites",
+    "Cuisine: smoked fish and fermented grains"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-component theft",
-    "shipwreck salvage"
+    "stolen ritual reagents",
+    "rising floods"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or mind-control nets",
-    "navigational auguries aid but don't replace charts"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "limited combustion industry; manual and wind power dominant",
-    "local augurers prized for tide-reading during storms"
+    "population unknown; small riverside burg",
+    "navigation uses local auguries but still needs charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:35:39.412Z"
+  "generated_at": "2025-09-09T05:47:20.423Z"
 }

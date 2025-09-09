@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7877674f",
+  "checksum": "fnv1a_bf7d8ac2",
   "burg_id": 452,
-  "name": "Burg_452",
-  "state_id": 0,
+  "name": "Veekz",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "coastal-node"
+    "harbor",
+    "ritual-lab",
+    "market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply depot",
-    "small-scale fishing",
-    "waystation/reshop",
-    "coastal trade hub"
+    "fishing",
+    "ritual reagent trade",
+    "coastal market",
+    "ship maintenance"
   ],
   "factions_local": [
-    "Ritual Suppliers' Guild",
-    "Harbormaster's Syndicate",
-    "Ancestor Shrine Custodians"
+    "harbormasters' syndicate",
+    "ritual apothecaries' circle",
+    "local militia",
+    "coastal smugglers"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "piracy and smuggling",
-    "supply-chain isolation"
+    "reagent scarcity",
+    "smuggling and contraband",
+    "bandit raids",
+    "corrupt port officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues variant spoken",
-    "diet centered on preserved seafood and smoked fare",
-    "public rituals tied to fishing seasons",
-    "strong deference to ancestor-officiants"
+    "Coastal Tongues with Island Creole loanwords",
+    "tide-honoring festivals and boat-carving rites",
+    "diet centered on salted fish, seaweed fermentations"
   ],
   "quest_hook_slots": [
-    "reagent theft",
-    "ritual accident",
-    "smuggler crackdown"
+    "smuggling",
+    "reagent shortage",
+    "haunted tidal shrine"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned",
-    "limited combustion industry (no high-pressure steam megatech)"
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence rare and institutionally banned",
+    "ritual magic consumes scarce imported reagents; limited combustion industry"
   ],
   "notes": [
-    "reachable by coastal coaster and rough road",
-    "good staging point for nearby islands and reefs"
+    "tech baseline near-medieval to early industrial with localized ritual magic",
+    "state affiliation unspecified; coastal inference from name/tags"
   ],
-  "generated_at": "2025-09-09T04:32:57.482Z"
+  "generated_at": "2025-09-09T05:44:31.535Z"
 }

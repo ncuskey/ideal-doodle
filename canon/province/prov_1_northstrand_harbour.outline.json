@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 1,
+  "province_id": "prov_1_northstrand_harbour",
+  "checksum": "fnv1a_ad7168a1",
+  "name": "Northstrand Harbour",
+  "aliases": [
+    "Northstrand",
+    "North Strand"
+  ],
+  "tags": [
+    "coastal",
+    "harbour",
+    "shipbuilding",
+    "fisheries",
+    "augury"
+  ],
+  "role_in_state": "Primary northern shipyard and trade hub",
+  "economy_niches": [
+    "ship repair, fitting and small craft construction",
+    "salted-fish processing and curing",
+    "timber milling and maritime timber trade",
+    "augury‑services and pilotage",
+    "glassware, lanterns and coastal crafts"
+  ],
+  "culture_adjustments": [
+    "Guild authority stronger; local guilds control quays and pilot licenses",
+    "Sea-clan kinship networks supplant some inland lineage ties",
+    "Market cosmopolitanism includes frequent Island Creole traders",
+    "Practical ritualism: compact sea-safe rites used daily by crews",
+    "Apprenticeships accelerated for seasonal fishing and shipwork"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "tidal flooding and storm surge",
+    "siltation and shoal growth at approaches",
+    "piracy and smuggling networks",
+    "guild monopolies creating entry barriers"
+  ],
+  "constraints": [
+    "Shallow, shifting approaches limit large deep-draft vessels",
+    "Local ritual magic consumes imported reagents and pilot labor",
+    "Quays require continual maintenance against rot and tide"
+  ],
+  "notes": [
+    "Key node for State_1's maritime trade and augury services",
+    "Augury houses double as pilot stations; fees fund quay upkeep",
+    "Glassworks use abundant sea-sand; salted-fish exports seasonally peak"
+  ],
+  "generated_at": "2025-09-09T05:02:26.886Z"
+}

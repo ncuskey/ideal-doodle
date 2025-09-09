@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_border_meadow",
+  "checksum": "fnv1a_7790d8b2",
+  "name": "Border Meadow",
+  "aliases": [
+    "Bordermead",
+    "Meadowedge"
+  ],
+  "tags": [
+    "border",
+    "meadow",
+    "riverine",
+    "buffer-zone"
+  ],
+  "role_in_state": "Grain reserve and border buffer",
+  "economy_niches": [
+    "seasonal flood-meadow grain cultivation",
+    "reed and ritual-herb harvesting",
+    "salt-pans and brine ponds",
+    "ferrying, tolling and river-cross services",
+    "pastoral transhumance (sheep/oxen)"
+  ],
+  "culture_adjustments": [
+    "Less boat-centric; stronger overland kin ties",
+    "Heightened boundary ancestor rites and cairn maintenance",
+    "Seasonal migrant labor rhythms tied to grazing cycles",
+    "Preference for oxen carts and ferries over sea-going craft",
+    "Local Riveric speech layered with border loanwords"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "border-tension",
+    "banditry",
+    "saltmarsh encroachment"
+  ],
+  "constraints": [
+    "Seasonal river access limits trade months",
+    "Ritual reagents scarce—reliant on external trade",
+    "No large shipyards; only ferries and flatboats built locally"
+  ],
+  "notes": [
+    "Acts as buffer between State_0 and neighboring polities",
+    "Key supplier of grain reserves and ritual reeds",
+    "Local guilds coordinate communal flood defenses"
+  ],
+  "generated_at": "2025-09-09T05:02:20.777Z"
+}

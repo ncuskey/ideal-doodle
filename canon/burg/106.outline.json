@@ -1,57 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_951db9a3",
+  "checksum": "fnv1a_9a23c9b1",
   "burg_id": 106,
-  "name": "Burg_106",
+  "name": "Mithusshin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-labor",
-    "waystation"
+    "none",
+    "ritual-labor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-labor depot",
-    "transit/waystation",
-    "salt-curing"
+    "ritual-workshops",
+    "herbalist-traders",
+    "riverine-boatmen"
   ],
   "factions_local": [
-    "Ancestor Shrine Keepers",
-    "Tidewright Guild",
-    "Smugglers' Ring",
-    "Harbormaster's Office"
+    "Ancestor Lodge",
+    "Ritual Artisans' Guild",
+    "Merchant Syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids on coastal routes",
-    "jurisdictional dispute",
-    "infrastructure decay"
+    "reagent-scarcity",
+    "banditry",
+    "guild-feud"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "ritual feasts tied to tidal calendar",
-    "seaweed-salted cuisine",
-    "shore-burial taboos"
+    "Riveric Dialect influence",
+    "ancestor-veneration festivals",
+    "preserved-fish and fermented grains"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "shrine desecration"
+    "missing-reagents",
+    "ancestral-omens"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "long-range mind-influence is banned"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "population unknown; seasonal influx of ritual workers",
-    "navigational augury practiced locally but does not replace charts"
+    "pop: unknown",
+    "tech: near-medieval to early industrial"
   ],
-  "generated_at": "2025-09-09T04:09:41.102Z"
+  "generated_at": "2025-09-09T23:08:39.629Z"
 }

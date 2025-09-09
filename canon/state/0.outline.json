@@ -4,86 +4,81 @@
   "checksum": "fnv1a_ea6e19e2",
   "name": "State_0",
   "aliases": [
-    "Lowland Marches",
-    "Riverway Canton"
+    "Delta Polity",
+    "The Lowland Delta"
   ],
   "timeline_beats": [
     {
       "id": "TB1",
-      "label": "Proto-settlement along river creeks",
-      "ybp": 3800,
-      "refs_world_events": []
+      "label": "Early delta settlement and coastal harbors established",
+      "ybp": 8000,
+      "refs_world_events": [
+        "Era_First_Coasts"
+      ]
     },
     {
       "id": "TB2",
-      "label": "Consolidation into a river-canton during River-Kingdoms",
-      "ybp": 3200,
-      "refs_world_events": []
+      "label": "Integration into river-league trade networks; guild rise",
+      "ybp": 3300,
+      "refs_world_events": [
+        "Era_River-Kingdoms_Leagues"
+      ]
     },
     {
       "id": "TB3",
-      "label": "Age of Flux disruptions; migration influx under T4 protocols",
-      "ybp": 1400,
+      "label": "Fragmentation during Age of Flux; local houses and rites consolidate",
+      "ybp": 1200,
       "refs_world_events": [
-        "T4"
+        "Era_Age_of_Flux"
       ]
     },
     {
       "id": "TB4",
-      "label": "Border War of the Lowlands (territorial loss, BC1 cession)",
-      "ybp": 650,
+      "label": "Border settlement, Lowland Cession and legal codification",
+      "ybp": 300,
       "refs_world_events": [
-        "W2",
+        "Era_Present_Order",
         "BC1"
-      ]
-    },
-    {
-      "id": "TB5",
-      "label": "Integration into Coastal-River trade networks; Alliance A3 and TB2 membership",
-      "ybp": 180,
-      "refs_world_events": [
-        "A3",
-        "TB2",
-        "T2"
       ]
     }
   ],
   "factions": [
     {
       "id": "F1",
-      "label": "Lowland Guilds",
-      "influence_hint": "Commercial control of river tariffs and reagent imports; dominant in ports"
+      "label": "River-Guild Council",
+      "influence_hint": "Controls major ports, trade licenses, and reagent imports"
     },
     {
       "id": "F2",
-      "label": "Dike-Lord Nobility",
-      "influence_hint": "Controls irrigation, levies on grain; political-military elite"
+      "label": "Lowland Houses",
+      "influence_hint": "Landed elite; taxation and militia in interior plains"
     },
     {
       "id": "F3",
-      "label": "Tide-Remembrance Clerisy",
-      "influence_hint": "Manages ancestor rites and navigation auguries; shapes public ritual life"
+      "label": "Saltworkers' Syndicate",
+      "influence_hint": "Monopoly on saltworks and seasonal labor; local political leverage"
     },
     {
       "id": "F4",
-      "label": "Frontier Settler Councils",
-      "influence_hint": "Push inland settlement; influence border policy and militia recruitment"
+      "label": "Cabinet of Ancestors",
+      "influence_hint": "Clerical-ritual authority; regulatory role over permitted magic"
     }
   ],
   "economy_pillars": [
-    "riverine trade",
-    "lowland grain & saltworks",
-    "shipbuilding & repair",
-    "ritual-reagent brokerage"
+    "river-trade",
+    "grain agriculture",
+    "salt-production",
+    "shipbuilding",
+    "ritual-reagent commerce"
   ],
   "culture": {
     "language_family": "Riveric Dialects",
     "traits": [
-      "clan-kinship networks",
-      "oral navigational lore",
-      "tariff and contract emphasis",
-      "craft specialization in boatwrighting",
-      "public ancestor feasts"
+      "oral navigational lore and seamanship rites",
+      "guild-apprenticeship social structure",
+      "seasonal flood-calendars drive labor cycles",
+      "boat-centric kinship and naming",
+      "practical ritualism tied to material offerings"
     ]
   },
   "religion": {
@@ -97,41 +92,46 @@
   "regions": [
     {
       "id": "R1",
-      "label": "Port of Skiffs",
+      "label": "Lowland Delta",
       "tags": [
-        "coastal",
-        "trade-hub"
+        "riverine",
+        "grain-hub",
+        "floodplain"
       ]
     },
     {
       "id": "R2",
-      "label": "Lower Marshes",
+      "label": "Saltford",
       "tags": [
-        "lowland",
+        "coastal",
+        "trade-hub",
         "saltworks"
       ]
     },
     {
       "id": "R3",
-      "label": "High Dike Plains",
+      "label": "Port Keral",
       "tags": [
-        "agricultural",
-        "irrigation"
+        "coastal",
+        "shipbuilding",
+        "trade-hub"
       ]
     },
     {
       "id": "R4",
-      "label": "River Gate",
+      "label": "High Mire",
       "tags": [
-        "border",
-        "fortified"
+        "inland",
+        "peatlands",
+        "ritual-sites"
       ]
     },
     {
       "id": "R5",
-      "label": "Hinter-Ridge Settlements",
+      "label": "Border Meadow",
       "tags": [
-        "frontier"
+        "border-region",
+        "contested"
       ]
     }
   ],
@@ -168,17 +168,20 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence rare and institutionally banned",
-    "Navigational auguries exist but cannot replace charts or seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Combustion-derived industry limited; no high-pressure steam megatechs"
+    "Tech baseline: near-medieval to early-industrial; no high-pressure steam megatechs",
+    "Ritual magic consumes scarce imported reagents; no true life-replacement or instant resurrection magics",
+    "Long-range mind influence is rare and institutionally banned within polity",
+    "Navigational auguries augment but do not replace charts and seamanship",
+    "Combustion-derived industry limited by fuel and craft constraints",
+    "Obligations under T2 (River Boundary Accord) and T4 (Migration and Settlement Protocol) must be honored",
+    "Alliance obligations to A3 constrain unilateral offensive actions; BC1 altered borders that remain legally binding"
   ],
   "notes": [
-    "Strategic lowland position: commerce-focused, vulnerable at River Gate",
-    "Relies on imported ritual reagents controlled by Lowland Guilds",
-    "Recent border cession (BC1) shapes frontier settlement policy",
-    "Member of A3 and TB2; treaties T2/T4 constrain migration and boundary claims"
+    "Ritual reagent supply routed primarily via TB2 trade links; disruption -> sharp ritual/service shortages",
+    "Guilds (River-Guild, Saltworkers) effectively manage ports and customs; expect layered administrative control",
+    "Seasonal floods dictate planting/harvest cycles and militia mobilization timing",
+    "Border Meadow remains a flashpoint owing to W2 legacy and BC1; local militias active",
+    "No centralized high-pressure industrial infrastructure; manufacturing remains craft/guild-based"
   ],
-  "generated_at": "2025-09-09T03:52:03.923Z"
+  "generated_at": "2025-09-09T04:58:17.005Z"
 }

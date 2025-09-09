@@ -1,57 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6fdfafef",
+  "checksum": "fnv1a_5ace08e5",
   "burg_id": 326,
-  "name": "Burg_326",
+  "name": "Slofboif",
   "state_id": 0,
-  "province_id": "",
+  "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "ritual-supply"
+    "harbor-outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual reagent trade",
-    "small-scale fishing",
-    "waystation services",
-    "boat repair"
+    "fishing",
+    "salt-curing",
+    "ship-repair",
+    "ritual-augury services"
   ],
   "factions_local": [
-    "Reagent Broker's Cell",
-    "Boatwright Cooperative",
-    "Tidewatchers (animist clergy)",
-    "Smugglers' Knot"
+    "Harbor Guild",
+    "Tidepriests (animist cult)",
+    "Reagent Brokers"
   ],
   "problems": [
     "scarce imported reagents",
-    "isolation/poor resupply",
-    "banditry and smuggling",
-    "ritual-safety incidents"
+    "smuggling and illicit trade",
+    "supply-vessel delays"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "tide-based festivals and omens",
-    "diet heavy on preserved seafood and seaweed"
+    "Coastal Tongues with Island Creole loanwords",
+    "diet: salted fish, fermented seaweeds",
+    "nightly tide-blessings and captain auguries"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "missing fishermen"
+    "shipwreck salvage"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "navigational auguries supplementary only"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence rare and banned",
+    "ritual magic consumes scarce imported reagents; navigational auguries assist but don't replace seamanship"
   ],
   "notes": [
-    "small outpost; population unknown",
-    "serves as a coastal supply node for ritualists and sailors",
-    "limited heavy-industry; craftsmanship and barter dominate"
+    "near-medieval to early-industrial baseline",
+    "vulnerable to supply-chain disruptions",
+    "name likely local phrase ('slof' = salt/estuary) — folk etymology"
   ],
-  "generated_at": "2025-09-09T04:24:13.108Z"
+  "generated_at": "2025-09-09T05:36:12.674Z"
 }

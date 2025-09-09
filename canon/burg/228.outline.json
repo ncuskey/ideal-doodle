@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5631b769",
+  "checksum": "fnv1a_aaa7597",
   "burg_id": 228,
-  "name": "Burg_228",
-  "state_id": 0,
+  "name": "Shomyard",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "shipyard",
     "coastal",
-    "ritual-harbor",
-    "waystation"
+    "ritual-workshop"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal fishing",
-    "ritual reagent trade",
-    "ship salvage",
-    "waystation services"
+    "shipbuilding & repair",
+    "timber export",
+    "ritual-component processing",
+    "fishing"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Tidewardens (Sea-Tide Animists)",
-    "Apothecarist Circle",
-    "Smugglers' Ring"
+    "Shipwrights' Guild",
+    "Harborwatch",
+    "Ritualwrights' Circle",
+    "Smugglers' Syndicate"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling",
-    "isolation"
+    "corruption at the docks",
+    "timid defenses against raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "tide-feast and offering customs",
-    "salt-preserved cuisine (fish, seaweed)",
-    "barrel- and net-craft traditions"
+    "Coastal Tongues dialect with nautical slang",
+    "tide-based ritual calendar",
+    "diet: smoked fish, preserved lumber-fruit preserves",
+    "craft rites tied to ship launch ceremonies"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "shipwreck salvage"
+    "reagent theft",
+    "vanishing ship"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "navigational auguries cannot replace charts/seamanship",
-    "no instant resurrection or life-replacement magics"
+    "No instant resurrection or true life-replacement magics",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "remote resupply cadence (seasonal)",
-    "small protected anchorage; limited freshwater"
+    "near-medieval tech with localized ritual magic",
+    "navigational auguries used but do not replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:17:25.633Z"
+  "generated_at": "2025-09-09T05:29:48.248Z"
 }

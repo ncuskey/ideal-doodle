@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4c9d1629",
+  "checksum": "fnv1a_bef8f2f6",
   "burg_id": 29,
-  "name": "Burg_29",
+  "name": "Gatford",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-outpost"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-supply trade",
-    "waystation"
+    "river-crossing market",
+    "ferry tolls",
+    "grain trade",
+    "boat repair"
   ],
   "factions_local": [
-    "Harbormaster Circle",
-    "Ancestor Remembrancers",
-    "Coastal Smugglers"
+    "tollkeepers' guild",
+    "ferrymen's union",
+    "merchant traders",
+    "temple caretakers"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal isolation",
-    "bandit raids"
+    "seasonal flooding",
+    "bandit raids",
+    "reagent scarcity"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect mix",
-    "seaweed-and-smoked-fish cuisine",
-    "ritual etiquette tied to tides"
+    "Riveric Dialect dominant",
+    "smoked fish and barley gruel cuisine",
+    "blessing rites performed at the ford",
+    "strong boatwright craft tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ships",
-    "stolen-ritual-reagents"
+    "river-monster",
+    "toll corruption"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "limited combustion industry; no high-pressure steam megatechs",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech with local ritual magic",
-    "Navigational auguries exist but don't replace charts",
-    "Population small/seasonal; records sparse"
+    "ford closes in high water",
+    "harbor shallow; large ships anchor offshore"
   ],
-  "generated_at": "2025-09-09T04:21:40.734Z"
+  "generated_at": "2025-09-09T05:33:56.911Z"
 }

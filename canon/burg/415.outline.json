@@ -1,32 +1,29 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bcb746fd",
+  "checksum": "fnv1a_663d41b5",
   "burg_id": 415,
-  "name": "Burg_415",
+  "name": "Treaq",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "river-crossing",
-    "outpost",
-    "smuggling-node"
-  ],
-  "size_hint": "small",
+  "tags": [],
+  "size_hint": "outpost",
   "economy_roles": [
-    "river trade",
-    "fishery",
-    "ritual-labor services",
-    "smuggling"
+    "waystation/resupply",
+    "fish & kelp harvest",
+    "naval augury services",
+    "minor trade hub"
   ],
   "factions_local": [
-    "boatmen's guild",
-    "shrine-keepers",
-    "riverbaron's retainers",
-    "smugglers' syndicate"
+    "Harbormaster's coterie",
+    "Augury Circle",
+    "Kelpers' Guild",
+    "Smugglers' ring"
   ],
   "problems": [
-    "banditry along the channel",
-    "scarcity of ritual reagents",
-    "seasonal tidal flooding"
+    "scarce ritual reagents",
+    "smuggling conflicts",
+    "periodic sea blight",
+    "harsh weather & supply disruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,24 +31,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Riveric Dialects",
-    "boat-christening and ancestor-feast customs",
-    "diet centered on smoked fish and reed-bakes",
-    "practical salt-weathered clothing styles"
+    "Coastal Tongues + Island Creole mix; terse nautical idioms",
+    "annual tide-feast & hull-blessing rites",
+    "diet heavy on salted fish, kelp, preserved goods"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearing boats"
+    "ritual reagent theft",
+    "missing augurer"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Navigational auguries cannot replace charts or seamanship",
-    "Ritual magic consumes scarce imported reagents"
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace charts or seamanship",
+    "no instant resurrection; long-range mind influence banned"
   ],
   "notes": [
-    "Small, loosely governed river outpost with unclear population",
-    "Strategic crossing and stopping point for inland-coastal trade"
+    "frontier coastal outpost, strategic resupply point",
+    "population unknown / transient seafaring community"
   ],
-  "generated_at": "2025-09-09T04:30:02.591Z"
+  "generated_at": "2025-09-09T05:42:10.987Z"
 }

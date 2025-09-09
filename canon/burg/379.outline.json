@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e5861a4f",
+  "checksum": "fnv1a_d9d7882a",
   "burg_id": 379,
-  "name": "Burg_379",
+  "name": "Nuradab",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-node"
+    "riverine",
+    "ritual-market",
+    "harbor-outpost"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
+    "river-trade",
     "ritual-supply",
-    "waystation"
+    "boat-repair",
+    "fermenting-fisheries"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-syndicate",
-    "coastal-wardens"
+    "river-merchants",
+    "ritual-guild",
+    "temple-keepers"
   ],
   "problems": [
     "reagent-scarcity",
-    "smuggling",
-    "weather-isolation"
+    "banditry-on-route",
+    "market-corruption"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "ship-blessing tide festivals",
-    "salt-preserved seafood cuisine"
+    "Riveric Dialects dominant",
+    "ancestor-wakes shape civic calendar",
+    "fermented-river-fish cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-failure",
-    "missing-supply"
+    "reagent-scarcity",
+    "disappearances"
   ],
   "constraints": [
-    "rituals-consume-scarce-reagents",
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned"
+    "no-true-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigation-auguries-not-substitute"
   ],
   "notes": [
-    "population unknown; intermittent resupply",
-    "local navigational-auguries support pilots",
-    "limited combustion industry"
+    "near-medieval-tech",
+    "localized-ritual-magic-required-labor"
   ],
-  "generated_at": "2025-09-09T04:27:42.091Z"
+  "generated_at": "2025-09-09T05:39:39.968Z"
 }

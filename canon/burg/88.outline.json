@@ -1,55 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_df86a855",
+  "checksum": "fnv1a_60f8588d",
   "burg_id": 88,
-  "name": "Burg_88",
-  "state_id": 0,
+  "name": "Bridgenilbo",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "waystation"
+    "river-crossing",
+    "toll-post"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "waystation/repairs",
-    "ritual-augury services",
-    "salt-curing"
+    "bridge tolls",
+    "ferrying",
+    "innkeeping",
+    "smokehouse"
   ],
   "factions_local": [
-    "harbormaster's crew",
-    "Tide-Shrine keepers",
-    "coastal smugglers",
-    "repairwrights' cooperative"
+    "Tollmaster's Guild",
+    "Bridgewrights' Lodge",
+    "Riverfolk Clan"
   ],
   "problems": [
-    "shortage of imported ritual reagents",
-    "seasonal storm isolation",
-    "smuggling-driven violence"
+    "bridge decay",
+    "seasonal flooding",
+    "banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical idioms",
-    "preservation-heavy cuisine (salt, smoke, pickling)",
-    "star-calendar fishing rites observed before long voyages"
+    "Riveric Dialect dominant",
+    "bridge-offering festival each spring",
+    "smoked-fish staple"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual reagent theft",
-    "disappearances at sea"
+    "structural collapse",
+    "missing pilgrims"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
     "ritual magic consumes scarce imported reagents",
-    "navigational auguries cannot replace charts/seamanship"
+    "no long-range mind control allowed",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with limited combustion industry",
-    "strategic small harbor used as repair/relay point for regional traffic"
+    "strategic crossing on a midriver trade route",
+    "small population, functions as toll and resupply point"
   ],
-  "generated_at": "2025-09-09T04:37:35.846Z"
+  "generated_at": "2025-09-09T05:49:14.577Z"
 }

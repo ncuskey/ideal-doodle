@@ -1,57 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_513f8a35",
+  "checksum": "fnv1a_717b0b58",
   "burg_id": 13,
-  "name": "Burg_13",
+  "name": "Boumaberg",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "river-trade",
-    "ritual-hub"
+    "hilltown",
+    "market",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "river trade",
-    "fishing",
-    "ritual-supply depot",
-    "waystation"
+    "market-trade",
+    "ritual-artifact crafting",
+    "sheep-wool tanning",
+    "waystation/transit"
   ],
   "factions_local": [
-    "Harbormasters' Ring",
-    "Ancestor-Remembrance Cell",
-    "Augur's Lodge",
-    "Smuggler Coterie"
+    "Merchants' Syndicate",
+    "Guild of Ritual Artificers",
+    "Hillwatch Militia"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids",
-    "supply isolation"
+    "reagent scarcity",
+    "bandit raids on trade routes",
+    "guild corruption"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant",
-    "daily trade includes ritual offerings",
-    "diet: smoked fish and riverweed",
-    "crafts: small-boat carpentry"
+    "Highland Cant base with Riveric trade loanwords",
+    "strong ancestor-veneration customs",
+    "diet: smoked cheese, barley dumplings; market spices from coastal traders"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual mishap",
-    "supply shortage"
+    "ritual reagent theft",
+    "missing surveyors/trade caravan"
   ],
   "constraints": [
     "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Navigational auguries cannot replace charts/seamanship"
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Tech: near-medieval to early industrial; limited combustion industry",
-    "Small/outpost scale; population sparse or transient"
+    "State-level authority unclear; burg semi-autonomous with powerful guilds",
+    "Tech: near-medieval to early-industrial; combustion industry limited"
   ],
-  "generated_at": "2025-09-09T04:11:02.625Z"
+  "generated_at": "2025-09-09T23:10:00.651Z"
 }

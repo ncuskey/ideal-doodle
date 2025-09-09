@@ -1,52 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9b16dd0f",
+  "checksum": "fnv1a_f9914f3f",
   "burg_id": 469,
-  "name": "Burg_469",
-  "state_id": -1,
+  "name": "Badushizd",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "ritual-hub"
+    "salt-route"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-lab",
-    "waystation"
+    "reagent depot",
+    "caravan stop",
+    "saltworks",
+    "herbalists"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-circle",
-    "local-elders"
+    "Reagent Guild outpost",
+    "Caravanmasters' Lodge",
+    "Ancestor Shrine",
+    "Smuggler Cell"
   ],
   "problems": [
-    "scarcity",
+    "reagent scarcity",
     "banditry",
-    "supply-disruption"
+    "water stress"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal-dialect (Coastal Tongues influence)",
-    "ancestor-feast customs",
-    "salt-preserved cuisine"
+    "Highland Cant dialect influence",
+    "ritualized reagent-handling customs",
+    "preserved-salt heavy cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-shortage",
-    "rogue-ritual"
+    "reagent theft",
+    "missing caravan"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Combustion industry limited (no high-pressure steam)"
   ],
   "notes": [
-    "Tech: near-medieval to early industrial with localized ritual magic",
-    "Population unknown; functions as small ritual/harbor outpost"
+    "Outpost built around a spring and minor shrine",
+    "Strategic salt/caravan nexus on inland trade route"
   ],
-  "generated_at": "2025-09-09T04:34:10.269Z"
+  "generated_at": "2025-09-09T05:45:39.088Z"
 }

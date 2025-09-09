@@ -1,51 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2cdc10f5",
+  "checksum": "fnv1a_aae09b84",
   "burg_id": 248,
-  "name": "Burg_248",
-  "state_id": 0,
+  "name": "Felhobgar",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-outpost"
+    "ritual-node",
+    "fishing-haven"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-workshop",
-    "fishermen",
-    "reagent-trade"
+    "fishing",
+    "reagent-processing",
+    "minor-ship-repair",
+    "smuggling"
   ],
   "factions_local": [
-    "tide-shrine-coven",
-    "artisan-ritual-guild",
-    "harbor-smugglers"
+    "Harbormaster's Lodge",
+    "Ancestor Circle of Felhobgar",
+    "Dockside Guild of Tinkerers",
+    "Shadow-Braid Smugglers"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry",
-    "harsh-weather"
+    "reagent-scarcity",
+    "banditry/shore-raiders",
+    "sporadic-supply-cuts"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "household ancestor-shrines",
-    "salt-cured seafood staples"
+    "Coastal Tongues dialect with clipped loanwords",
+    "diet heavy on salt-cured fish and kelp preserves",
+    "tide-superstitions shape daily routines",
+    "woodcarving talismans common among shipwrights"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "strange-disappearances"
+    "stolen-ritual-reagents",
+    "mysterious-disappearances-at-sea"
   ],
   "constraints": [
-    "rituals-consume-scarce-imported-reagents",
-    "no-instant-resurrection"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and banned"
   ],
   "notes": [
-    "population unknown; sparse records",
-    "local navigational-augury complements charts"
+    "small cliffside harbor with a narrow inlet",
+    "access by coastal track; liable to be cut off in storms"
   ],
-  "generated_at": "2025-09-09T04:18:50.852Z"
+  "generated_at": "2025-09-09T05:31:04.102Z"
 }

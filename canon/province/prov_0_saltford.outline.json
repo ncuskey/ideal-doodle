@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_saltford",
+  "checksum": "fnv1a_b9cd34a1",
+  "name": "Saltford",
+  "aliases": [
+    "Salt Ford",
+    "Saltworks Bend"
+  ],
+  "tags": [
+    "salt-production",
+    "river-port",
+    "shipyards",
+    "reagent-trade",
+    "guild-stronghold"
+  ],
+  "role_in_state": "Primary salt hub and river-port supplying ritual reagents",
+  "economy_niches": [
+    "evaporative salt pans and salt refining",
+    "river-barge salt trade and transshipment",
+    "small-ship repair and flatboat construction",
+    "processing/curing of ritual reagents using saline methods"
+  ],
+  "culture_adjustments": [
+    "Stronger merchant-guild control; apprenticeship over kinship for crafts",
+    "Seasonal migrant workforce peaks tied to salt-harvest windows",
+    "Pragmatic purification rites centered on salt use in daily ritual",
+    "Heavier contact with Coastal Tongues traders; lexical borrowings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "salinization of hinterland soils",
+    "worker unrest",
+    "river piracy",
+    "fire in drying-works"
+  ],
+  "constraints": [
+    "Depends on imported reagents for high-value rituals",
+    "Guild charters restrict new entrants and mechanized expansion",
+    "Combustion/steam industry limited by legal and resource caps"
+  ],
+  "notes": [
+    "Key supplier for state ritual-reagent commerce and salt taxes",
+    "Labor cycles governed by state flood-calendar; travel often seasonal",
+    "Shipyards specialize in river craft, not deep-sea vessels"
+  ],
+  "generated_at": "2025-09-09T05:01:58.852Z"
+}

@@ -1,53 +1,50 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a978455d",
+  "checksum": "fnv1a_1a8b06df",
   "burg_id": 389,
-  "name": "Burg_389",
-  "state_id": -1,
+  "name": "Walton",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "waystation",
-    "ritual-supply",
-    "coastal-trade"
+    "river-port",
+    "grain-market",
+    "ferry-crossing",
+    "ritual-apothecary"
   ],
   "factions_local": [
-    "harbor-masters",
-    "ritual-syndicate",
-    "merchant-crew",
-    "smugglers-ring"
+    "ferrymasters",
+    "grain-merchants",
+    "ancestor-lodge",
+    "river-watch"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry/smuggling",
-    "supply-dependence",
-    "inter-faction-tension"
+    "seasonal-flooding",
+    "river-banditry",
+    "supply-scarcity"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "seafood-and-preserved diet",
-    "loading/unloading rituals tied to magic use",
-    "practical seamanship prioritized over augury"
+    "Riveric Dialect prevalence",
+    "river-funerary rites",
+    "fish-and-barley cuisine; market tokens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "tidal-omen"
+    "flood-threat",
+    "missing-ferryman"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "navigation-auguries-limited"
+    "rituals-consume-rare-reagents",
+    "no-instant-resurrection"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with local ritual workshops",
-    "population unknown; small strategic cove outpost"
+    "population-approx-unknown",
+    "on-minor-navigable-river; local ferry hub"
   ],
-  "generated_at": "2025-09-09T04:28:15.735Z"
+  "generated_at": "2025-09-09T05:40:20.888Z"
 }

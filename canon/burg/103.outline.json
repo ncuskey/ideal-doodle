@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_459931ed",
+  "checksum": "fnv1a_ffeec8bc",
   "burg_id": 103,
-  "name": "Burg_103",
+  "name": "Blus",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-halt",
-    "ritual-supply"
+    "harbor",
+    "ritual-workshops"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ferry-crossing",
-    "ritual reagent trade",
-    "fish smoking",
-    "local market"
+    "fishing",
+    "ship repair & careening",
+    "processing ritual reagents",
+    "local market trade"
   ],
   "factions_local": [
-    "Ferry Guild",
-    "Apothecary Collective",
-    "Ancestor-Keeper Lodge"
+    "dockworkers' guild",
+    "ritual-craft confraternity",
+    "merchant family syndicate",
+    "shorewatch militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids on roads",
-    "seasonal flooding"
+    "scarcity of imported ritual reagents",
+    "smuggling and illicit trade",
+    "banditry along coastal approaches",
+    "deteriorating quay infrastructure"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialect dominant; loanwords from Coastal Tongues",
-    "Regular river-offering rites tied to harvest/fishing",
-    "Diet heavy on smoked fish, freshwater algae cakes"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "seafood- and kelp-based cuisine, strong pickling tradition",
+    "work-centered ritual customs tied to component exchange",
+    "practical tide- and star-superstitions guide daily life"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "ferry disaster"
+    "missing sailors",
+    "reagent theft"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or mind-control magics",
-    "navigational auguries supplement but do not replace seamanship"
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "Small riverside waypoint controlling a ford and ferry",
-    "Seasonal siltation affects trade; reagent traders travel infrequently"
+    "tech baseline near-medieval to early-industrial with localized ritual magic",
+    "navigational auguries exist but do not replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:09:17.149Z"
+  "generated_at": "2025-09-09T23:08:13.524Z"
 }

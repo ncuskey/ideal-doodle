@@ -1,55 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a347568f",
+  "checksum": "fnv1a_f7ad61db",
   "burg_id": 371,
-  "name": "Burg_371",
-  "state_id": -1,
-  "province_id": "unknown",
+  "name": "Gevillenay",
+  "state_id": 0,
+  "province_id": "",
   "tags": [
-    "coastal",
-    "ritual-provisioning",
-    "harbor-outpost"
+    "crossroads"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-provisioning",
-    "local-trade",
-    "smuggling"
+    "ritual-lab",
+    "waystation",
+    "herbalists",
+    "wagon-trade"
   ],
   "factions_local": [
-    "fishermen's guild",
-    "ritual-labour lodge",
-    "harbormaster clique",
-    "smuggler ring"
+    "Keeper-Guild",
+    "Merchant-Syndicate",
+    "Militia",
+    "Ancestor-Circle"
   ],
   "problems": [
     "reagent-scarcity",
-    "banditry",
-    "harbor-siltation"
+    "bandit-raids",
+    "jurisdictional-disputes"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "fermented seafood staples",
-    "tide-calendar festivals with small offerings"
+    "Riveric dialect dominant",
+    "annual ancestor-feast traditions",
+    "apothecary and ritual-craft focus"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing-reagents",
-    "angered-tide-spirit"
+    "reagent-smuggling",
+    "ritual-accident",
+    "missing-keeper"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no long-range mind-influence; no resurrection magics"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imports",
+    "no-long-range-mind-control"
   ],
   "notes": [
-    "population unknown; seasonal fluctuation",
-    "shallow approach limits ship size; goods transshipped"
+    "near-medieval to early-industrial tech",
+    "navigational-auguries exist but limited"
   ],
-  "generated_at": "2025-09-09T04:27:14.455Z"
+  "generated_at": "2025-09-09T05:39:09.892Z"
 }

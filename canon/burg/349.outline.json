@@ -1,53 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_91235615",
+  "checksum": "fnv1a_39aedb59",
   "burg_id": 349,
-  "name": "Burg_349",
-  "state_id": -1,
+  "name": "Stapton",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-workshop"
+    "river-port",
+    "market-town"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trading",
-    "ritual workshop",
-    "fishing",
-    "boat repair"
+    "river trade",
+    "grain milling",
+    "ritual-reagent brokerage"
   ],
   "factions_local": [
-    "Ritual Guild",
-    "Shipmasters' Cooperative",
-    "Harbor Watch",
-    "Smugglers' Ring"
+    "Merchants' Guild",
+    "Temple Circle",
+    "Riverboat Syndicate"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids",
-    "corruption"
+    "banditry on roads",
+    "corrupt tolls"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with Coastal Tongues loanwords",
-    "Fish-and-smoked-seafood cuisine",
-    "Small public offerings before voyages"
+    "speaks Riveric Dialect",
+    "market-day barter customs",
+    "procession-based ancestor rites"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "shrine disturbances"
+    "missing reagents",
+    "river disappearances"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence broadly banned"
   ],
   "notes": [
-    "state unknown; peripheral to major polities",
-    "population data unavailable"
+    "near-medieval to early-industrial tech baseline",
+    "localized ritual guild presence",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:25:44.259Z"
+  "generated_at": "2025-09-09T05:37:40.352Z"
 }

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_outer_shoals",
+  "checksum": "fnv1a_a1ea22c4",
+  "name": "Outer Shoals",
+  "aliases": [
+    "The Shoals",
+    "Outer Shoals"
+  ],
+  "tags": [
+    "coastal",
+    "shoals",
+    "pilotage",
+    "saltworks",
+    "reagent-harvest"
+  ],
+  "role_in_state": "hazardous pilotage zone and reagent/salt supplier",
+  "economy_niches": [
+    "pilotage and lightship services",
+    "salt-pans and salt refining",
+    "salvage, wrecking and buoy maintenance",
+    "shore-harvest of ritual reagents (seaweeds, star-sand)",
+    "small skiff shipyards and ropework"
+  ],
+  "culture_adjustments": [
+    "tide-calendars emphasize shoal-crossing windows (neap/king tides)",
+    "strong local salvage rites and votive offerings at wreck-sites",
+    "pilot-gangs outrank merchant guild reps in local authority",
+    "apprenticeship favors hands-on seamanship over formal guild halls"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "shoal-navigation hazards",
+    "seasonal storms and sudden squalls",
+    "shipwreck-driven banditry/salvage violence",
+    "salt-pond contamination",
+    "supply isolation at high seas"
+  ],
+  "constraints": [
+    "minimal arable land",
+    "access strongly seasonal and tide-dependent",
+    "ritual magic reliant on imported reagents (scarce)"
+  ],
+  "notes": [
+    "pilot guilds maintain lightships and charge passage fees",
+    "economy fragile to tariff shifts and reagent shortages",
+    "local timekeeping synchronized to tide-watch rather than solar calendars"
+  ],
+  "generated_at": "2025-09-09T05:08:43.048Z"
+}

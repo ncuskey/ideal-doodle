@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3db581d3",
+  "checksum": "fnv1a_91ea94be",
   "burg_id": 474,
-  "name": "Burg_474",
+  "name": "Salter",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "harbor",
-    "trade-stop",
-    "ritual-node"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
+    "salt production",
     "fishing",
-    "minor-trade",
-    "reagent-processing",
-    "ship-repair"
+    "small-scale coastal trade",
+    "boat repair"
   ],
   "factions_local": [
-    "harbor-masters",
-    "shipwrights-guild",
-    "reagent-collectors",
-    "ancestor-chapel"
+    "Saltworkers' Guild",
+    "Tidepriests",
+    "Harbormaster's Office",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent-scarcity",
     "smuggling",
-    "coastal-erosion"
+    "storm damage and silting",
+    "scarcity of ritual reagents",
+    "guild corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ship-blessing rituals common",
-    "diet heavy on salted fish and seaweed",
-    "rituals rely on imported reagents"
+    "Coastal Tongues local dialect",
+    "salt-cured cuisine and preservation skills",
+    "regular tide-offering rituals",
+    "practical boatbuilding and netcraft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "disappearances"
+    "reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
-    "ritual-magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry (no high-pressure megatech)"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "population unknown",
-    "navigational auguries practiced but charts required"
+    "population unknown; seasonal fishing booms",
+    "salt pans vulnerable to silting and storm surge"
   ],
-  "generated_at": "2025-09-09T04:34:28.903Z"
+  "generated_at": "2025-09-09T05:46:01.572Z"
 }

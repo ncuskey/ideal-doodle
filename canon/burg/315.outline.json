@@ -1,52 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_87f3a427",
+  "checksum": "fnv1a_6d3ca2c4",
   "burg_id": 315,
-  "name": "Burg_315",
-  "state_id": 0,
+  "name": "Brybgar",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "none",
-    "ritual-hub"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-labour",
-    "small-scale fishing",
-    "local trade"
+    "river ferry",
+    "timber export",
+    "smoked-fish market"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbor-masters",
-    "clan-elders"
+    "Ferrywrights' Guild",
+    "River Watch militia",
+    "Temple of Tide elders",
+    "Smuggler network"
   ],
   "problems": [
-    "scarcity of reagents",
-    "banditry on supply routes",
-    "dependence on imported goods"
+    "seasonal flooding",
+    "bandit raids",
+    "reagent scarcity"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "strong ancestor-veneration customs",
-    "diet heavy on smoked fish and seaweed",
-    "local crafts: talismans and ritual gear"
+    "Riveric dialect dominant",
+    "rituals tied to tides and harvest",
+    "diet centered on smoked/salted fish",
+    "transient, work-season population"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual failure",
-    "missing supplies"
+    "levee failure",
+    "missing ferry crew"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned",
+    "combustion industry limited; no high-pressure steam megatechs"
   ],
   "notes": [
-    "Navigational auguries used but charts and seamanship still required",
-    "Combustion industry limited; workshops are small-scale"
+    "monthly reagent barge connects to coastal port",
+    "located at a strategic river ford"
   ],
-  "generated_at": "2025-09-09T04:23:27.359Z"
+  "generated_at": "2025-09-09T05:35:33.051Z"
 }

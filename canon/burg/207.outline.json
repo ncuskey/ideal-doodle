@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3ff58853",
+  "checksum": "fnv1a_415c0d27",
   "burg_id": 207,
-  "name": "Burg_207",
-  "state_id": 0,
+  "name": "Hegus",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation/trade-post",
-    "small-scale fishing",
-    "reagent storage/relay",
-    "ritual-labour services"
+    "reagent trade",
+    "fishing",
+    "transit stop",
+    "boat repair"
   ],
   "factions_local": [
-    "harbormaster guildlet",
-    "ritualist lodge",
-    "fisher cooperative",
-    "coastal smugglers"
+    "Harbormasters Guild",
+    "Reagent Merchants",
+    "Tidewatch Militia",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarcity of imported ritual reagents",
-    "banditry/sea raiders",
-    "intermittent supply lines",
-    "jurisdictional disputes"
+    "reagent scarcity",
+    "smuggling",
+    "coastal storms",
+    "corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "tide-timed rituals and festivals",
-    "diet heavy on fish, seaweed, preserved goods",
-    "cautious hospitality toward strangers"
+    "Coastal Tongues influence with Island Creole loanwords",
+    "diet heavy on salted/smoked fish and seaweed",
+    "tide-related rituals and luck customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-supply heist",
-    "disappearing ships"
+    "reagent shortage",
+    "storm omen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is banned/rare",
-    "combustion industry and heavy steam limited"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and banned"
   ],
   "notes": [
-    "depends on sea lanes and occasional supply runners",
-    "navigational auguries used but do not replace charts",
-    "provincial/administrative status unknown"
+    "minor stop on local sea lane",
+    "limited formal archives or academies"
   ],
-  "generated_at": "2025-09-09T04:16:05.528Z"
+  "generated_at": "2025-09-09T05:28:30.459Z"
 }

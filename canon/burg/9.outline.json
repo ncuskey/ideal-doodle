@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_452f6c7b",
+  "checksum": "fnv1a_da782221",
   "burg_id": 9,
-  "name": "Burg_9",
+  "name": "Ouvilyles",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-outpost"
+    "island",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-labor",
-    "waystation"
+    "salt-harvest",
+    "ritual-ingredient gathering",
+    "waystation/boat-repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-coven",
-    "smugglers"
+    "Fishermen's guild",
+    "Tide-Watcher cult",
+    "Merchant brokers",
+    "Smuggler ring"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry-along-inlet",
-    "isolation"
+    "scarce imported reagents",
+    "seasonal isolation",
+    "storm damage",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence",
-    "tide-feasts and keel-blessing rites",
-    "salt-preserved cuisine"
+    "Island Creole dialect with Coastal Tongue loanwords",
+    "lineage-offering customs tied to sea voyages",
+    "sea-rituals mark fishing seasons",
+    "net- and rope-making crafts prominent"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ritual-reagent",
-    "disappearing-boats"
+    "reagent shortage",
+    "storm omens"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "navigational-auguries-are-advisory-only"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare and institutionally banned"
   ],
   "notes": [
-    "population unknown",
-    "limited combustion industry"
+    "small exposed natural harbor, useful as coastal waypoint",
+    "seasonal trade links to larger ports; sometimes cut off by storms"
   ],
-  "generated_at": "2025-09-09T04:37:48.940Z"
+  "generated_at": "2025-09-09T05:49:26.756Z"
 }

@@ -1,48 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4407cb99",
+  "checksum": "fnv1a_3353f32f",
   "burg_id": 400,
-  "name": "Burg_400",
+  "name": "Gunal",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "ritual-outpost"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "supply depot",
-    "ritual reagent trade",
-    "waystation/inn"
+    "fishing",
+    "waystation",
+    "ritual-lab-markets",
+    "pilgrim-services"
   ],
   "factions_local": [
-    "Reagent Merchants",
-    "Ritualist Lodge",
-    "Militia Outpost"
+    "harbor master's clique",
+    "ritual-collectors' circle",
+    "smugglers' cove",
+    "coastal militia"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "bandit raids on routes",
-    "isolation from major markets"
+    "scarce ritual reagents",
+    "smuggling",
+    "tidal crop failures"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal-influenced dialect (Coastal Tongues substratum)",
-    "ritual-focused social calendar around reagent cycles",
-    "diet heavy on preserved fish and traded staples"
+    "Coastal Tongues dialect with tidal idioms",
+    "preserved-seafood cuisine (salted, smoked)",
+    "strong tide-superstitions and small shrine offerings",
+    "local craft: carved ritual tokens and navigational charms"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply shortage",
-    "ritual mishap"
+    "missing-reagents",
+    "tidal-omen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
+    "ritual magic requires scarce imported reagents",
+    "no long-range mind-influence allowed",
     "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "population unknown; functions as remote resupply/outpost",
-    "strategic value tied to reagent routes and coastal access"
+    "near-medieval to early-industrial baseline with localized ritual magic",
+    "navigational auguries exist but seamanship and charts remain necessary"
   ],
-  "generated_at": "2025-09-09T04:29:06.666Z"
+  "generated_at": "2025-09-09T05:41:12.752Z"
 }

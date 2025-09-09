@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5b6969cd",
+  "checksum": "fnv1a_1bbfb71a",
   "burg_id": 10,
-  "name": "Burg_10",
+  "name": "Abermaicto",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
+    "none",
     "coastal",
-    "ritual-workshop"
+    "portside"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-component trade",
-    "waystation/resupply",
-    "boatwrights"
+    "transshipment",
+    "ritual-supply depot",
+    "ship repair"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-vessel collective",
-    "coastal militia",
-    "smugglers' ring"
+    "harbour guild",
+    "captain's council",
+    "ritual-scribes",
+    "smuggling ring"
   ],
   "problems": [
-    "scarce reagents",
-    "bandit raids",
-    "supply shortages",
-    "religious faction tension"
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,23 +35,25 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "salt-preserved fish staples; ritual spiced broths",
-    "boat-naming and tide-blessing voyage rituals"
+    "Coastal Tongues dialect with clipped vowels",
+    "diet of salted fish, kelp cakes, and smoked shellfish",
+    "ship-focused rituals; votive offerings at the headland",
+    "informal barter networks; coin circulation limited"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipment of reagents",
-    "ritual mishap/curse"
+    "storm-omen",
+    "missing cargo"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "rituals consume scarce imported reagents or specialized labour",
-    "long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries辅助但不能替代航海图与技艺"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline with localized ritual magic",
-    "navigational auguries used but cannot replace charts/seamanship"
+    "near-medieval to early-industrial baseline",
+    "minor port for reagent imports and island traffic",
+    "population unknown; functions as local hub/outpost"
   ],
-  "generated_at": "2025-09-09T04:09:18.965Z"
+  "generated_at": "2025-09-09T23:08:11.032Z"
 }

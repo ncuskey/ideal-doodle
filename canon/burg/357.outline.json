@@ -1,57 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_51101933",
+  "checksum": "fnv1a_39766686",
   "burg_id": 357,
-  "name": "Burg_357",
+  "name": "Gizad",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "waystation",
-    "ritual-depot"
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "transit/waystation",
-    "ritual-supply depot",
-    "small-scale trade"
+    "reagent trade",
+    "waystation"
   ],
   "factions_local": [
-    "harbor guild",
+    "harbormaster's crew",
     "ritual apothecaries",
-    "coastal militia",
-    "smugglers' circle"
+    "elders' council"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "storm damage to quays",
-    "banditry on approach roads"
+    "reagent scarcity",
+    "coastal erosion",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in everyday speech",
-    "ritual ship-blessing customs",
-    "diet heavy on salt-fermented fish",
-    "informal barter culture around ritual goods"
+    "Coastal Tongues dialect with trader pidgin",
+    "Tide-linked shrine customs and offerings",
+    "Diet: smoked fish, seaweed, preserved shellfish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "sea-monster harassment",
-    "sacred relic theft"
+    "supply run",
+    "shrine disturbance"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
     "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or long-range mind influence"
   ],
   "notes": [
-    "tech baseline: near-medieval to early industrial",
-    "navigational auguries used but do not replace charts or seamanship"
+    "Population transient; permanent inhabitants few",
+    "Built on a rocky spit; vulnerable to storms and rising seas"
   ],
-  "generated_at": "2025-09-09T04:26:23.111Z"
+  "generated_at": "2025-09-09T05:38:13.047Z"
 }

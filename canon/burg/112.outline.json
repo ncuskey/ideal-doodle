@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c0375d0d",
+  "checksum": "fnv1a_745aa692",
   "burg_id": 112,
-  "name": "Burg_112",
+  "name": "Abergrererch",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "outpost"
+    "ritual-labor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-scale fishing",
-    "salt-curing",
-    "reagent transshipment",
-    "wreck-salvage"
+    "fishing",
+    "salt-works",
+    "ritual reagent gathering",
+    "waystation trade"
   ],
   "factions_local": [
-    "Fisher's Co-stead",
-    "Tide-Wardens (animist ritualists)",
-    "Reagent Midden Traders",
-    "Hidden Cove Smugglers"
+    "Harbormaster's Council",
+    "Reagent Syndicate",
+    "Ancestor Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarcity of imported ritual reagents",
-    "banditry/smuggling",
-    "coastal erosion and dangerous reefs",
-    "seasonal isolation"
+    "reagent scarcity",
+    "smuggling conflicts",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical jargon",
-    "offerings to sea-spirits common before voyages",
-    "diet: salted fish, seaweed, simple traded staples"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet: salt-preserved fish and kelp breads",
+    "nightly tide-offerings common",
+    "labors tied to ritual cadence"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reef hauntings",
-    "reagent theft"
+    "missing reagent shipment",
+    "tide-omen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents; shapes trade",
-    "no instant resurrection or true life-replacement magics"
+    "rituals consume scarce imported reagents",
+    "no high-pressure combustion industry allowed",
+    "long-range mind influence effectively banned"
   ],
   "notes": [
-    "population unknown; largely transient and seasonal",
-    "suits low-level coastal/outpost adventure scenes"
+    "population unknown; strategic minor inlet waystation",
+    "local economy tied to seasonal tides"
   ],
-  "generated_at": "2025-09-09T04:09:58.509Z"
+  "generated_at": "2025-09-09T23:08:57.301Z"
 }

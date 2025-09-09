@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7f0eafad",
+  "checksum": "fnv1a_53877f87",
   "burg_id": 58,
-  "name": "Burg_58",
-  "state_id": 0,
+  "name": "Cathrash",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "waystation",
-    "ritual-labour"
+    "ritual-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-labour",
+    "ritual-reagent trade",
     "ship-repair",
-    "salvage"
+    "smuggling"
   ],
   "factions_local": [
-    "ritual-guild",
-    "shipmasters' syndicate",
-    "salvagers' crew",
-    "harbormaster's office"
+    "Harbormasters' Guild",
+    "Tidewardens (Sea-Tide animists)",
+    "Reagent Merchants' Consortium",
+    "Smugglers' Ring"
   ],
   "problems": [
     "reagent scarcity",
-    "storm damage",
-    "smuggling",
-    "supply delays"
+    "frequent storm damage",
+    "smuggling and corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "tide-festival customs",
-    "salt-curing cuisine",
-    "shipwright rites"
+    "Coastal Tongues with Island Creole influences",
+    "seafood- and preserved-salt heavy cuisine",
+    "dockside ancestor-offering rituals",
+    "boats and hulls bear ritual sigils"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "failed augury"
+    "missing priest",
+    "ominous storm-omens"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents; long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind control",
+    "navigational auguries complement charts only"
   ],
   "notes": [
-    "state unknown",
-    "population n/a",
-    "target burg 58"
+    "near-medieval to early-industrial tech baseline with local ritual uses",
+    "small natural harbor; tidal inlet shapes streets and defenses"
   ],
-  "generated_at": "2025-09-09T04:35:27.918Z"
+  "generated_at": "2025-09-09T05:47:06.225Z"
 }

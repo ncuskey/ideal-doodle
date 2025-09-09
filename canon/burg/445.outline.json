@@ -1,50 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c2ad38ab",
+  "checksum": "fnv1a_3308b9c0",
   "burg_id": 445,
-  "name": "Burg_445",
+  "name": "Fruict",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "orchard",
+    "river-crossing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "trade-stop",
-    "ritual-supply",
-    "waystation"
+    "fruit orcharding",
+    "market transit",
+    "drying & preservation",
+    "reagent preparation"
   ],
   "factions_local": [
-    "merchant-guildlet",
-    "ritual-collectors",
-    "local-militia"
+    "Orchard Guild",
+    "Riverboat Traders",
+    "Ancestor Circle",
+    "Ritualwrights"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-lines"
+    "seasonal blight",
+    "reagent scarcity",
+    "river flooding",
+    "bandit raids"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "ritual-craft traditions",
-    "salt-preserved cuisine"
+    "Riveric Dialect",
+    "ancestor-harvest festival",
+    "preserved-fruit cuisine"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "scarce-reagents",
-    "missing-merchant"
+    "blight",
+    "stolen reagents",
+    "missing riverboats"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents; long-range mind influence rare/banned"
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; records sparse",
-    "strategic minor stop for regional travel"
+    "seasonal river access affects trade",
+    "small market draws itinerant specialists"
   ],
-  "generated_at": "2025-09-09T04:32:19.821Z"
+  "generated_at": "2025-09-09T05:44:06.266Z"
 }

@@ -1,56 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ac47b53",
+  "checksum": "fnv1a_f074d39a",
   "burg_id": 186,
-  "name": "Burg_186",
+  "name": "Eszi",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ritual-trade"
+    "none",
+    "coastal",
+    "ritual-supply"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ferrying",
-    "ritual-supply",
-    "fishery",
-    "local-market"
+    "fishing",
+    "ritual-supply trade",
+    "waystation/relay"
   ],
   "factions_local": [
-    "Guild of Ferrymen",
-    "Shrinekeepers",
-    "Market Consortium",
-    "Riverwatch militia"
+    "Harbormaster Lodge",
+    "Ritual Merchants",
+    "Clan Asha"
   ],
   "problems": [
-    "seasonal-flooding",
-    "reagent-scarcity",
-    "smuggling",
-    "banditry"
+    "scarce ritual reagents",
+    "seasonal storms",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with Riveric loanwords",
-    "daily small-scale offerings at river shrines",
-    "diet heavy on smoked fish and river herbs"
+    "Riveric dialect with Coastal accent",
+    "tide-blessing rituals at new moon",
+    "seaweed-and-salt cuisine; preserved fish staples"
   ],
   "quest_hook_slots": [
-    "missing-ferry-boat",
-    "stolen-reagents",
-    "ritual-curse"
+    "smuggling",
+    "ritual-theft",
+    "missing sailors"
   ],
   "constraints": [
-    "rituals consume rare imported reagents",
-    "long-range mind influence is banned/rare",
-    "limited combustion industry; no high-pressure steam tech"
+    "rituals require scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "state authority unclear; semi-autonomous local governance",
-    "navigational auguries used for crossing tides but charts remain essential"
+    "small strategic harbor on a minor trade route",
+    "population transient; many seasonal crews and supplicants"
   ],
-  "generated_at": "2025-09-09T04:14:41.479Z"
+  "generated_at": "2025-09-09T05:27:20.245Z"
 }

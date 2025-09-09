@@ -1,31 +1,29 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a8fae925",
+  "checksum": "fnv1a_33f90040",
   "burg_id": 12,
-  "name": "Burg_12",
+  "name": "Wruilx",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-shrine"
+    "ritual-trade"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "pilgrimage stop",
-    "fish-processing",
-    "salt-harvest",
-    "reagent-trade node"
+    "reagent trading",
+    "small-scale fishing",
+    "waystation services"
   ],
   "factions_local": [
-    "Shrine Guild",
-    "Harbormasters",
-    "Pilgrim-vendors",
-    "Coastal boat-clans"
+    "Harbor Watch",
+    "Reagent Merchants' Syndicate",
+    "Ancestor Circle"
   ],
   "problems": [
     "reagent scarcity",
     "smuggling",
-    "seasonal storm damage"
+    "seasonal storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,22 +31,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced Coastal Tongue dialect",
-    "sea-procession ancestor rites yearly",
-    "salted-fish cuisine, ritual offerings incorporated"
+    "Coastal Tongues dialect dominant",
+    "Ancestor-offering customs",
+    "Salt-cured fish staple diet",
+    "Evening tide-watch rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "sacred-reagent theft",
-    "seafaring disappearance"
+    "missing shipment",
+    "ritual reagent shortage"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics"
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "resupply intermittent; navigational auguries supplement charts",
-    "combustion industry limited; local workshops rely on manual/mechanical tech"
+    "Near-medieval to early industrial tech with localized ritual magic",
+    "Navigational auguries exist but seamanship required"
   ],
-  "generated_at": "2025-09-09T04:10:24.630Z"
+  "generated_at": "2025-09-09T23:09:16.140Z"
 }

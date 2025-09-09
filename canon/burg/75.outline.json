@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bab41855",
+  "checksum": "fnv1a_de73315a",
   "burg_id": 75,
-  "name": "Burg_75",
+  "name": "Tungripo",
   "state_id": 0,
-  "province_id": "",
-  "tags": [],
-  "size_hint": "outpost",
+  "province_id": "unknown",
+  "tags": [
+    "ritual-magic",
+    "coastal"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade depot",
-    "coastal fishing",
-    "waystation/landing",
-    "salterns"
+    "fishing",
+    "reagent-trading",
+    "pilotage/harbor services"
   ],
   "factions_local": [
-    "harbor clan",
-    "ritual reagent guild",
-    "merchant kin",
-    "coastal militia"
+    "Harbormaster's Guild",
+    "Reagent Hermitage",
+    "Smugglers' Mesh",
+    "Fisherfolk Cooperative"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry on supply routes",
-    "smuggling"
+    "smuggling",
+    "coastal erosion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence; local pidgin with Island Creole traces",
-    "harbor rites tied to safe passage",
-    "diet heavy on salted fish and seaweed",
-    "boat-naming and tide-superstitions common"
+    "Coastal Tongues-influenced dialect",
+    "seafood-heavy cuisine; salt-preservation",
+    "harbor festivals tied to tide-rituals",
+    "practical ritual craft integrated into trades"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipment",
-    "ritual reagent theft"
+    "reagent shortage",
+    "ritual mishap"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magic",
-    "navigational auguries cannot replace charts/seamanship"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "periodic supply ships control prosperity",
-    "limited formal state oversight; local guilds dominate"
+    "population data n/a",
+    "state unknown mapped to 0"
   ],
-  "generated_at": "2025-09-09T04:36:45.556Z"
+  "generated_at": "2025-09-09T05:48:25.550Z"
 }

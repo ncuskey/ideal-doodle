@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d99b5771",
+  "checksum": "fnv1a_cd476952",
   "burg_id": 347,
-  "name": "Burg_347",
+  "name": "Inveram",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waystation",
-    "ritual-harbor"
+    "none",
+    "river-mouth",
+    "minor-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
+    "fisheries",
+    "port-services",
     "salt-processing",
-    "ritual-component trade",
-    "small-ship provisioning"
+    "ritual-component-trade"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-keepers",
-    "coastal-clan elders",
-    "smugglers' ring"
+    "Harbor Guild",
+    "Ritual Merchants' Syndicate",
+    "Fisherfolk Kin",
+    "Coastal Watch"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "periodic storm damage",
-    "pirate raids"
+    "smuggling",
+    "reagent-shortage",
+    "banditry",
+    "tidal-flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,22 +35,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks a Coastal Tongues dialect with Riveric loanwords",
-    "meals heavy on salted fish and fermented shellfish",
-    "harbor-front ancestor offerings before voyages"
+    "Coastal Tongue dialect with Riveric loanwords",
+    "sea-salted cuisine, preserved fish staples",
+    "dockside ritual offerings common before sailings",
+    "market schedule tied to tide cycles"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ships",
-    "ritual-supply shortage"
+    "missing-shore-priest",
+    "reagent-heist"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is banned"
+    "ritual magic needs scarce imported reagents",
+    "navigational auguries limited; seamanship required"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but seamanship required"
+    "Name implies river-mouth harbor; strategic minor landing",
+    "Population unknown; functions as small trading outpost"
   ],
-  "generated_at": "2025-09-09T04:25:44.471Z"
+  "generated_at": "2025-09-09T05:37:32.836Z"
 }

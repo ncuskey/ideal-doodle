@@ -1,50 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f1068707",
+  "checksum": "fnv1a_9bbd0d8",
   "burg_id": 432,
-  "name": "Burg_432",
+  "name": "Kas",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "port"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "reagent supply",
-    "artisanal fishing"
+    "fishing",
+    "shipwrights",
+    "reagent-trade",
+    "waystation-trade"
   ],
   "factions_local": [
-    "ritualcrafters",
-    "harbor guild",
-    "clan elders"
+    "harbor-guild",
+    "reagent-merchants",
+    "elders-coven",
+    "smuggler-ring"
   ],
   "problems": [
-    "scarcity",
-    "banditry",
-    "infrastructure decay"
+    "reagent-scarcity",
+    "smuggling",
+    "coastal-erosion",
+    "corrupt-harbor-officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "public rituals tied to reagent cycles",
-    "seafood-forward cuisine"
+    "Coastal Tongues dialect influence",
+    "tide-blessing festivals",
+    "fermented fish and grain cuisine",
+    "strong shipwright craft traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearances"
+    "reagent-theft",
+    "tidal-haunting"
   ],
   "constraints": [
-    "rituals require scarce reagents",
-    "no long-range mind control"
+    "rituals consume scarce imported reagents",
+    "no-instant-resurrection",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "population unknown; records sparse",
-    "access via coastal track and small harbor"
+    "navigational-auguries supplement but do not replace charts",
+    "population unknown; functions as a small regional port"
   ],
-  "generated_at": "2025-09-09T04:31:24.516Z"
+  "generated_at": "2025-09-09T05:43:22.178Z"
 }

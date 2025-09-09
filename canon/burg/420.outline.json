@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8504eda5",
+  "checksum": "fnv1a_47a89d70",
   "burg_id": 420,
-  "name": "Burg_420",
-  "state_id": -1,
+  "name": "Mackesey",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "ritual-node",
-    "waystation"
+    "river-port",
+    "timber-trade",
+    "ritual-labour"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply depot",
-    "fishing",
-    "waystation"
+    "boatbuilding",
+    "timber export",
+    "ritual-supply workshops",
+    "local market"
   ],
   "factions_local": [
-    "ritual-guild",
-    "harbormaster",
-    "small-merchant-lodge"
+    "Guild of Tallymen",
+    "Ritual Laborers' Circle",
+    "Riverwatchers"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "jurisdiction-ambiguity"
+    "reagent scarcity",
+    "seasonal flooding",
+    "smuggling"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "ritual offerings tied to fishing season",
-    "salt-preserved cuisine, communal boat feasts"
+    "Riveric Dialect dominant with coastal loanwords",
+    "strong small-boat and ferryman customs",
+    "annual river-blessing festival",
+    "use of carved votive tokens in trade"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "disappearing-ships"
+    "reagent theft",
+    "flood threat"
   ],
   "constraints": [
-    "no instant resurrection",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "no high-pressure steam industry",
+    "long-range mind influence is banned"
   ],
   "notes": [
     "near-medieval to early-industrial tech baseline",
-    "localized ritual magic pervasive and material-dependent"
+    "navigational auguries used but cannot replace charts"
   ],
-  "generated_at": "2025-09-09T04:30:29.385Z"
+  "generated_at": "2025-09-09T05:42:27.937Z"
 }

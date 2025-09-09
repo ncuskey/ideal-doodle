@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5d9b3eff",
+  "checksum": "fnv1a_65f71c57",
   "burg_id": 359,
-  "name": "Burg_359",
+  "name": "Slukex",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "ritual-dependent",
-    "estuary",
-    "waystation"
+    "outpost",
+    "river-estuary",
+    "ritual-node"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-supply node",
-    "fishing",
-    "transshipment/warehousing"
+    "fish-smoking",
+    "ritual-workshop",
+    "boat-repair",
+    "river-waystation"
   ],
   "factions_local": [
-    "ritual-cabal",
-    "harbormaster's clique",
-    "caravan agent house"
+    "dockworkers' cooperative",
+    "local ritual-cabinet",
+    "smugglers' ring",
+    "coastal wardens"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids on roads",
-    "supply disruptions in bad weather"
+    "reagent scarcity",
+    "smuggling",
+    "tidal flooding",
+    "jurisdictional neglect"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced Riveric dialect",
-    "diet heavy on smoked fish and seaweed",
-    "ritualized loading/unloading etiquette",
-    "strong tide superstitions"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-blessing rituals before voyages",
+    "staple diet: smoked fish and seaweed cakes"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "shipwreck salvage"
+    "reagent theft",
+    "mysterious tidal disappearance"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or mind-control magics",
-    "navigational auguries limited; seamanship needed"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection; long-range mind-influence banned",
+    "navigational auguries don't replace charts or seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "small estuarine harbor with fragile supply lines"
+    "population unknown; transient crews and seasonal workers",
+    "access via narrow estuary; prone to silting and storm blockage"
   ],
-  "generated_at": "2025-09-09T04:26:19.640Z",
-  "state_id": 0
+  "generated_at": "2025-09-09T05:38:29.865Z"
 }

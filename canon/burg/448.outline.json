@@ -1,59 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f7aa7bd9",
+  "checksum": "fnv1a_8b919343",
   "burg_id": 448,
-  "name": "Burg_448",
-  "state_id": -1,
+  "name": "Bihulton",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
     "coastal",
-    "ritual-lab"
+    "harbor",
+    "ritual-supply"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual reagent trade",
-    "fishing",
-    "waystation/harbor fees",
-    "minor ship repairs"
+    "fishery",
+    "saltworks",
+    "ritual-supplies",
+    "shipwrights"
   ],
   "factions_local": [
-    "shrine caretakers",
-    "harbor guild",
-    "ritualist family",
-    "coastal militia"
+    "Fishers' Guild",
+    "Saltmasters",
+    "Harbormaster's House",
+    "Ancestor-Kin council"
   ],
   "problems": [
-    "scarce reagents",
-    "banditry on supply routes",
-    "seasonal isolation",
-    "ritual contamination incidents"
+    "reagent scarcity",
+    "silted harbor",
+    "banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "fish-and-seaweed staple cuisine",
-    "local taboos around reagent waste",
-    "strong kin/fealty networks"
+    "Coastal Tongues dialect with clipped maritime terms",
+    "seafood-and-salt heavy cuisine",
+    "ritual barter common — offerings for safe voyages",
+    "strong sailor superstitions and portside festivals"
   ],
   "quest_hook_slots": [
     "smuggling",
     "reagent theft",
-    "lighthouse/augury failure"
+    "harbor collapse"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no high-pressure combustion industry",
-    "long-range mind influence is banned"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence allowed",
+    "limited combustion industry; no steam megatech"
   ],
   "notes": [
-    "population unknown; small community",
-    "strategic minor harbor on coastal route",
-    "supplies disrupted by seasonal storms"
+    "population unknown; transient seafaring presence",
+    "important minor node on coastal trade route"
   ],
-  "generated_at": "2025-09-09T04:32:32.782Z"
+  "generated_at": "2025-09-09T05:44:23.265Z"
 }

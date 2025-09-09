@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 15,
+  "province_id": "prov_15_high_watch_cliffs",
+  "checksum": "fnv1a_be813d5c",
+  "name": "High-Watch Cliffs",
+  "aliases": [
+    "Highwatch",
+    "Cliffs of the Watch"
+  ],
+  "tags": [
+    "cliff-coast",
+    "watchpoint",
+    "lighthouse",
+    "beacon-chain"
+  ],
+  "role_in_state": "strategic coastal lookout and maritime enforcement",
+  "economy_niches": [
+    "cliffside fishing and kelp harvest",
+    "guano collection and fertilizer trade",
+    "watchtower provisioning and beacon maintenance",
+    "repair/provision stops for coastal vessels",
+    "small-scale building-stone quarrying"
+  ],
+  "culture_adjustments": [
+    "heightened beacon-and-watch ritualism",
+    "lineage rites emphasize fallen-watch ancestors",
+    "tide-timekeeping doubled into hourly watch shifts",
+    "seamanship apprenticeship prioritizes signaling/navigation",
+    "greater suspicion of strangers; formal inspection customs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "cliff-erosion",
+    "landslide",
+    "smuggling/piracy",
+    "seasonal fresh-water scarcity"
+  ],
+  "constraints": [
+    "limited arable land and overland access",
+    "harbors shallow for large vessels",
+    "ritual magic dependent on imported reagents"
+  ],
+  "notes": [
+    "beacon-festivals govern navigation windows; auguries limited to aiding charts",
+    "watch-garrisons double as customs inspectors and rescue crews",
+    "hidden coves facilitate both legal trans-shipment and contraband"
+  ],
+  "generated_at": "2025-09-09T05:05:04.435Z"
+}

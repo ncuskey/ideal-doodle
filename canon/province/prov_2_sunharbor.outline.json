@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_sunharbor",
+  "checksum": "fnv1a_73d2bceb",
+  "name": "Sunharbor",
+  "aliases": [
+    "Sun Harbor",
+    "Solharbor",
+    "Harbor of Dawns"
+  ],
+  "tags": [
+    "coastal",
+    "major-port",
+    "shipbuilding",
+    "re-export-hub"
+  ],
+  "role_in_state": "Primary maritime trade & shipbuilding hub",
+  "economy_niches": [
+    "Caravel and cutter shipyards (specialized hulls for long routes)",
+    "Salt-curing and preserved-fish workshops",
+    "Re-export warehouses for ritual reagents and imported goods",
+    "Charter brokerage, freight insurance and notary services",
+    "Harbor-side cooperages & ropewright guilds"
+  ],
+  "culture_adjustments": [
+    "Stronger charterist merchant networks overriding single clan dominance",
+    "High pragmatic tolerance for islander migrant customs and Island Creole elements",
+    "Larger public role for navigational augury houses tied to ship guilds",
+    "Ritual seamanship practices integrated into daily dockwork (practical, less arcane spectacle)"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-harbor blockage",
+    "smuggling of ritual reagents",
+    "dockworker strikes and guild unrest",
+    "harbor silting and reduced access for larger ships"
+  ],
+  "constraints": [
+    "Ritual magic usage depends on scarce imported reagents (limits large-scale ritual work)",
+    "Limited industrial steam capacity; heavy mechanization constrained"
+  ],
+  "notes": [
+    "Key regional node for State_2's re-export trade and maritime taxes",
+    "Prominent augury lighthouse houses double as merchant patron chapels"
+  ],
+  "generated_at": "2025-09-09T05:05:44.459Z"
+}

@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c34cd543",
+  "checksum": "fnv1a_7a328f57",
   "burg_id": 346,
-  "name": "Burg_346",
+  "name": "Phiggal",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "river-crossing",
+    "ritual-reagent-trade"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waypoint-trade",
-    "reagent-depot",
+    "ferrying",
     "fishing",
-    "boat-repair"
+    "reagent brokerage",
+    "boat repair"
   ],
   "factions_local": [
-    "harbormaster-guild",
-    "reagent-merchant-family",
-    "shrine-keepers",
-    "smugglers-ring"
+    "river-boatmen",
+    "ancestral-priesthood",
+    "merchant middlemen",
+    "local militia"
   ],
   "problems": [
-    "scarce-imported-reagents",
-    "banditry/smuggling",
-    "weather-disruption"
+    "scarce imported reagents",
+    "silted channel",
+    "bandit raids",
+    "seasonal flooding"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric/Coastal dialect mix",
-    "fish-and-smoked-preserve cuisine",
-    "rituals timed to tides and ancestor-days",
-    "trade etiquette favors ledger-gifts"
+    "Riveric dialect with coastal loanwords",
+    "Tide-offering nights shape calendar",
+    "Diet heavy on smoked and pickled fish",
+    "Wariness of outsiders and traveling priests"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagents",
-    "ritual-accident"
+    "missing reagents",
+    "river-creature"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind-influence banned",
-    "no high-pressure combustion industry"
+    "relies on imported ritual reagents",
+    "long-range mind-influence is banned",
+    "no instant resurrection or life-replacement magics"
   ],
   "notes": [
-    "population unknown; strategic small riverside/island outpost",
-    "serves as regional reagent transfer point"
+    "small, transient population clustered at a silt-prone crossing",
+    "strategic but marginal: trade volume spikes with low water"
   ],
-  "generated_at": "2025-09-09T04:25:40.541Z"
+  "generated_at": "2025-09-09T05:37:35.447Z"
 }

@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a6be2dd5",
+  "checksum": "fnv1a_3b420782",
   "burg_id": 372,
-  "name": "Burg_372",
+  "name": "Stiag",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "fishing",
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "small-market",
-    "ritual-supply"
+    "small-scale fishing",
+    "salt-curing",
+    "local augury services",
+    "waypoint trade"
   ],
   "factions_local": [
-    "clan-hold",
-    "ritual-conclave",
-    "itinerant-merchants"
+    "Tide-Priests (Sea-Tide sect)",
+    "Saltworkers' Guild",
+    "Small-boat Skippers"
   ],
   "problems": [
-    "isolation",
-    "scarcity",
-    "banditry"
+    "scarcity of ritual reagents",
+    "seasonal storms",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with Riveric loanwords",
-    "salt-curing and dried-fish cuisine",
-    "daily ancestor-shrine visits common",
-    "ritual labor tied to imported reagents"
+    "speaks Coastal Tongues dialect",
+    "diet: salted fish, kelp, preserved goods",
+    "custom: nightly tide-offerings",
+    "minor observance of Star-Calendar festivals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-cutoff",
-    "ritual-accident"
+    "missing-augury",
+    "disappearing-priests"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals consume scarce imported reagents",
-    "limited-combustion-industry"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control rituals",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "population unknown; strategic coastal waypoint",
-    "local demand for reagent-handlers and small markets"
+    "navigational auguries used but do not replace charts or seamanship",
+    "population unknown / transient harbor traffic"
   ],
-  "generated_at": "2025-09-09T04:27:22.521Z"
+  "generated_at": "2025-09-09T05:39:11.059Z"
 }

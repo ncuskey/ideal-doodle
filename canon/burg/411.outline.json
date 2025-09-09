@@ -1,57 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_be3d7f55",
+  "checksum": "fnv1a_86ac6c51",
   "burg_id": 411,
-  "name": "Burg_411",
-  "state_id": -1,
+  "name": "Naram",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "coastal",
-    "ritual-hub"
+    "river-crossing",
+    "ritual-reagent-trade"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "ritual-laboratory",
-    "fishing",
-    "local-trade",
-    "waystation"
+    "river tolls / ferry services",
+    "reagent middleman / alchemical goods",
+    "smoked fish & river produce",
+    "seasonal market / caravan relay"
   ],
   "factions_local": [
-    "Ancestor-Circle shrine",
-    "Minor merchant house",
-    "Dockworkers' cooperative",
-    "Smuggler runners"
+    "Ferry Guild",
+    "Shrine Brotherhood (Ancestor)",
+    "Dockside Merchants",
+    "Riverwatch Militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "bandit raids"
+    "seasonal floods and silting",
+    "scarcity of imported ritual reagents",
+    "bandit raids on upriver roads",
+    "corrupt toll collection"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ritual barter common (goods for rites)",
-    "seafood-heavy cuisine",
-    "strong memorial rites for lost sailors"
+    "Riveric dialect with Coastal loanwords",
+    "Ancestor-offerings performed aboard ferries",
+    "Cuisine: smoked riverfish, fermented riverweed",
+    "Annual boat-race and dredging rites"
   ],
   "quest_hook_slots": [
+    "smuggling",
     "reagent theft",
-    "tide-omen",
-    "missing pilots"
+    "flood rescue"
   ],
   "constraints": [
     "No instant resurrection or true life-replacement magics",
-    "Rituals consume scarce imported reagents",
-    "Combustion industry limited; no high-pressure steam megatechs"
+    "Long-range mind influence is rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "State affiliation unknown; remote supply lines",
-    "Navigational auguries exist but do not replace charts and seamanship"
+    "Population unknown; strategic midriver crossing",
+    "Channels require seasonal dredging; navigation hazardous in wet season"
   ],
-  "generated_at": "2025-09-09T04:29:55.623Z"
+  "generated_at": "2025-09-09T05:42:22.822Z"
 }

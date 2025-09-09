@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e24cf1a7",
+  "checksum": "fnv1a_f35870c9",
   "burg_id": 177,
-  "name": "Burg_177",
-  "state_id": 0,
-  "province_id": "unknown",
+  "name": "Moggbig",
   "tags": [
-    "coastal",
-    "ritual-node",
-    "harbor"
+    "none",
+    "quarry",
+    "ritual-lab",
+    "crossroads"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "small-scale ritual-labor",
-    "waystation for coastal traders",
-    "salt-preservation"
+    "stonecutting",
+    "ritual-supply",
+    "river-ferry",
+    "local-market"
   ],
   "factions_local": [
-    "harbor council",
-    "ritual circle (local adepts)",
-    "shipwrights' guild",
-    "smugglers' coterie"
+    "Stonecutters' Circle",
+    "Ancestral Shrine Keepers",
+    "Merchant Syndicate",
+    "Ferry Wardens"
   ],
   "problems": [
-    "scarce imported reagents",
-    "coastal banditry/smuggling",
-    "supply scarcity in bad weather"
+    "reagent-scarcity",
+    "bandit-raids",
+    "landslides"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with Riveric loanwords",
-    "tide-offerings and nightly lantern rites",
-    "diet focused on salt-preserved fish and seaweed"
+    "Highland Cant influence",
+    "stone-mending festival",
+    "salt-preserving cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "ritual disruption at high tide"
+    "missing-stoneworker",
+    "stolen-ancestor-relic"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "limited combustion-derived industry"
+    "rituals-consume-scarce-reagents",
+    "no-instant-resurrection",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "small, weather-vulnerable outpost serving coastal traffic",
-    "navigational auguries used but charts and seamanship required"
+    "population unknown",
+    "strategic upland quarry"
   ],
-  "generated_at": "2025-09-09T04:14:08.991Z"
+  "generated_at": "2025-09-09T05:26:41.402Z",
+  "state_id": 0
 }

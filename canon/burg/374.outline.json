@@ -1,33 +1,30 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3b85eebd",
+  "checksum": "fnv1a_8737bf4e",
   "burg_id": 374,
-  "name": "Burg_374",
-  "state_id": -1,
+  "name": "Buggan",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "coastal",
-    "ritual-stop"
+    "coastal"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "waystation",
-    "reagent trade",
-    "small-ship repair"
+    "coastal waystation",
+    "ritual-reagent trading"
   ],
   "factions_local": [
-    "Harbormaster's Office",
-    "Temple of Tides",
-    "Trader's Syndicate",
-    "Smugglers' Knot"
+    "Harbor Guild",
+    "Ancestor Circle",
+    "Smuggler Cell",
+    "Coastal Militia"
   ],
   "problems": [
-    "supply scarcity",
-    "smuggling",
-    "raids/banditry",
-    "religious tension"
+    "scarce imported reagents",
+    "banditry on supply routes",
+    "isolation during storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -35,22 +32,23 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominant",
-    "sea-blessing rituals common",
-    "diet heavy on preserved fish and seaweed"
+    "speaks Coastal Tongues with Island Creole substratum",
+    "strong sea-ancestor rites tied to daily work",
+    "diet centered on salted fish and preserved seaweed"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "shipwreck salvage"
+    "reagent theft",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents or specialized labor",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "population unknown; transient mariners dominate",
-    "poorly charted; navigational augury available but limited"
+    "near-medieval to early industrial tech baseline",
+    "navigational auguries exist but complement charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:27:25.699Z"
+  "generated_at": "2025-09-09T05:39:21.667Z"
 }

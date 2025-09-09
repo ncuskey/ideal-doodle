@@ -1,0 +1,55 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_saltflats",
+  "checksum": "fnv1a_c4d7eded",
+  "name": "Saltflats",
+  "aliases": [
+    "Saline Flats",
+    "Salt Wastes"
+  ],
+  "tags": [
+    "salt-production",
+    "coastal-margin",
+    "evaporative-pans",
+    "low-pop"
+  ],
+  "role_in_state": "primary salt producer and coastal transshipment margin",
+  "economy_niches": [
+    "solar evaporative salt pans",
+    "small-boat transshipment for shoal coasts",
+    "seasonal salt-harvest labor export",
+    "storage/distribution hub for imported ritual reagents"
+  ],
+  "culture_adjustments": [
+    "kinship organized around pan-work crews rather than boats",
+    "sea-calendar emphasizes dry/wet cycles for evaporation",
+    "work-songs and reef-chants adapted to pacing salt-harvest",
+    "fewer large guild halls; ephemeral field shrines common"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation",
+    "saline soil blight",
+    "labor unrest during harvest",
+    "smuggling/contraband via shoal channels"
+  ],
+  "constraints": [
+    "scarce freshwater; agriculture marginal",
+    "ritual magic dependent on imported reagents",
+    "limited heavy mechanized industry"
+  ],
+  "notes": [
+    "salt pans require rotation to avoid permanent salinization",
+    "shoreline and shoal channels shift frequently; constant re-surveying"
+  ],
+  "generated_at": "2025-09-09T05:05:22.426Z"
+}

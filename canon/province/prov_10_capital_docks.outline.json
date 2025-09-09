@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_capital_docks",
+  "checksum": "fnv1a_7f3e5c69",
+  "name": "Capital Docks",
+  "aliases": [
+    "State_10 Capital Docks",
+    "The Quay",
+    "Harbor Quarter"
+  ],
+  "tags": [
+    "maritime",
+    "capital",
+    "port",
+    "guild-hub"
+  ],
+  "role_in_state": "primary maritime hub and entry port",
+  "economy_niches": [
+    "shipbuilding & repair",
+    "long-distance maritime trade and warehousing",
+    "fisheries, salting and preservation",
+    "navigation-augury services and pilotage",
+    "ritual-reagent import/export and quarantine handling"
+  ],
+  "culture_adjustments": [
+    "intense guild authority over daily life and justice",
+    "higher linguistic diversity; afloat lingua franca with Coastal Tongues core",
+    "pragmatic secular merchant norms often override clan customs",
+    "work-day rites and shipwright craft-rituals more elaborate",
+    "stronger emphasis on mobility and contract kinship among dockworkers"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge & tidal flooding",
+    "wharf fires in timber yards",
+    "smuggling and piracy nodes",
+    "reagent spoilage or contamination",
+    "labor unrest and strikes"
+  ],
+  "constraints": [
+    "ritual magic depends on scarce imported reagents and guild-controlled labs",
+    "no high-pressure steam industry; heavy craftwork remains manual/low-pressure",
+    "navigational auguries supplement but do not replace charts and skilled pilots"
+  ],
+  "notes": [
+    "principal customs and quarantine point for State_10 imports/exports",
+    "guild courts (shipwrights, merchants, pilots) exercise parallel jurisdiction",
+    "strategic choke-point: protecting docks is state priority"
+  ],
+  "generated_at": "2025-09-09T05:02:59.783Z"
+}

@@ -1,57 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_65c57c49",
+  "checksum": "fnv1a_8848aacf",
   "burg_id": 8,
-  "name": "Burg_8",
-  "state_id": "unknown",
+  "name": "Focelia",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "port"
+    "harbor",
+    "ritual-haven"
   ],
   "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-labour",
-    "waystation",
-    "smuggling"
+    "reagent-processing",
+    "small-scale trade",
+    "pilotage"
   ],
   "factions_local": [
-    "Tide-Reader Circle",
-    "Ancestor Kinhold",
-    "Dockside Syndicate",
-    "Forum of Small Merchants"
+    "harbor-guild",
+    "tide-shrine",
+    "smugglers' crew",
+    "town-council"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit raids",
-    "corrupt dock permits",
-    "silted harbor"
+    "reagent-scarcity",
+    "piracy",
+    "coastal-erosion",
+    "corrupt-guild"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "tide-synced festivals and ancestor offerings",
-    "diet: salted fish, kelp cakes, fermented shellfish"
+    "Coastal Tongues dialect",
+    "tide-festival calendar",
+    "seaweed-heavy cuisine",
+    "shipwright craft traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "plague",
-    "disappearances"
+    "reagent-theft",
+    "reef-haunting"
   ],
   "constraints": [
-    "rituals require scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence is rare and legally banned"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "navigational-auguries-limited"
   ],
   "notes": [
-    "small port reliant on seasonal traders for reagents",
-    "local ritual labs double as preservers and trade services"
+    "near-medieval tech with pervasive ritual magic",
+    "seasonal monsoon closure of harbor"
   ],
-  "generated_at": "2025-09-09T04:37:05.877Z"
+  "generated_at": "2025-09-09T05:48:42.521Z"
 }

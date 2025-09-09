@@ -1,54 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7a5815ad",
+  "checksum": "fnv1a_ea1eaa23",
   "burg_id": 183,
-  "name": "Burg_183",
+  "name": "Veekz",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
     "coastal",
-    "ritual-hub"
+    "ritual-trade"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-lab supply-cache",
-    "waystation for coastal traffic",
-    "limited-fishing and barter"
+    "ritual-reagent trade",
+    "fishing",
+    "ship provisioning",
+    "smuggling hub"
   ],
   "factions_local": [
-    "ritual-guild",
-    "ship-captain's-clan",
-    "coastal-wardens"
+    "tide-priest circle",
+    "merchant kinship",
+    "harborborn smugglers",
+    "local militia"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "supply-ship dependence",
-    "banditry on coastal tracks"
+    "reagent scarcity",
+    "smuggling violence",
+    "supply isolation",
+    "superstitious unrest"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence on dialect",
-    "diet heavy on preserved fish and ship-provisions",
-    "local customs revolve around tide-rituals and cargo rites"
+    "Island Creole dialect with coastal proverbs",
+    "sea-fermented cuisine and preserved fish",
+    "tattooed voyage rites and departure ceremonies",
+    "communally-maintained signal fires"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-run",
-    "ritual-failure"
+    "missing reagent shipment",
+    "tide-omen portents"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts and seamanship"
   ],
   "notes": [
-    "population unknown; functions as small coastal outpost",
-    "accessible by sea and infrequent coastal caravan runs"
+    "State affiliation unknown; quasi-autonomous outpost",
+    "Strategic small resupply node for ritual-reagent coastal trade"
   ],
-  "generated_at": "2025-09-09T04:14:27.626Z"
+  "generated_at": "2025-09-09T05:27:01.249Z"
 }

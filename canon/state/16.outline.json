@@ -4,132 +4,138 @@
   "checksum": "fnv1a_3a8c39f3",
   "name": "State_16",
   "aliases": [
-    "Harbor Principality",
-    "State16 Coast"
+    "Tideward Duchy",
+    "Duchy of Tidal Gates"
   ],
   "timeline_beats": [
     {
       "id": "tb1",
-      "label": "Coastal settlement consolidation",
+      "label": "First harbor settlements",
       "ybp": 9000,
-      "refs_world_events": []
+      "refs_world_events": [
+        "Age of First Coasts"
+      ]
     },
     {
       "id": "tb2",
-      "label": "League of Rivermouths founded (regional maritime confederation)",
+      "label": "Duchy consolidation around main estuary",
       "ybp": 3800,
-      "refs_world_events": []
+      "refs_world_events": [
+        "River-Kingdoms & Leagues"
+      ]
     },
     {
       "id": "tb3",
-      "label": "Port chartered as administrative nucleus",
-      "ybp": 2700,
-      "refs_world_events": []
+      "label": "Maritime league expansion & colonial piers",
+      "ybp": 2200,
+      "refs_world_events": [
+        "River-Kingdoms & Leagues"
+      ]
     },
     {
       "id": "tb4",
-      "label": "Centralization into a mercantile maritime state",
-      "ybp": 800,
-      "refs_world_events": []
+      "label": "Flux-era privateer wars and reef fortifications",
+      "ybp": 900,
+      "refs_world_events": [
+        "Age of Flux"
+      ]
     },
     {
       "id": "tb5",
-      "label": "Entry into Inner-Coastal Accord",
-      "ybp": 120,
-      "refs_world_events": []
+      "label": "Joined Inner-Coastal Accord",
+      "ybp": 150,
+      "refs_world_events": [
+        "A3"
+      ]
     }
   ],
   "factions": [
     {
-      "id": "f1",
-      "label": "Merchant Guilds",
-      "influence_hint": "dominant in law, trade policy, and reagent import contracts"
+      "id": "F1",
+      "label": "Maritime Guild",
+      "influence_hint": "dominant economic actor; controls long-distance ships and reagent imports"
     },
     {
-      "id": "f2",
-      "label": "Harbor Lords",
-      "influence_hint": "regional landholders controlling fortified promontories"
+      "id": "F2",
+      "label": "Harbormasters Council",
+      "influence_hint": "administers ports, customs, local militias; high local authority"
     },
     {
-      "id": "f3",
-      "label": "Tide-Seers",
-      "influence_hint": "ritual navigators with cultural sway over voyages"
+      "id": "F3",
+      "label": "Tide-Temples",
+      "influence_hint": "religious sway over sailors and navigation rituals"
     },
     {
-      "id": "f4",
-      "label": "Dockworkers' Syndicate",
-      "influence_hint": "labor power over quays, periodic strike capability"
-    },
-    {
-      "id": "f5",
-      "label": "Foreign Trade Houses",
-      "influence_hint": "external capital and control of scarce reagents"
+      "id": "F4",
+      "label": "Coastal Nobility",
+      "influence_hint": "landed elites controlling cliffs, fortresses, levy troops"
     }
   ],
   "economy_pillars": [
-    "coastal trade",
-    "fisheries & preserves",
-    "shipbuilding & repair",
-    "salt & curing",
-    "ritual-augury services / reagent trade"
+    "shipbuilding",
+    "fishing",
+    "salt-production",
+    "transshipment/trade-hub",
+    "imported ritual reagents"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "maritime orientation and seasonal navigation calendar",
-      "guild-centric civic institutions",
-      "ancestor-sea ritual integration",
-      "pragmatic syncretism in belief and law",
-      "strong port civic identities"
+      "sea-oriented calendars and tide rituals",
+      "oral navigation lore (lead-nodes, reef-chants)",
+      "guild lineages dominate craft transmission",
+      "kinship networks tied to boats, not land",
+      "practical syncretism of ancestor rites and sea-animisms"
     ]
   },
   "religion": {
     "families_present": [
       "Sea-Tide Animisms",
-      "Merchant Brotherhood Liturgies",
-      "Ancestor-Remembrance Cults"
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
     ],
     "dominant": "Sea-Tide Animisms"
   },
   "regions": [
     {
-      "id": "r1",
-      "label": "Inner Docklands",
-      "tags": [
-        "trade-hub",
-        "urban"
-      ]
-    },
-    {
-      "id": "r2",
-      "label": "Northern Estuary",
-      "tags": [
-        "estuary",
-        "fishery"
-      ]
-    },
-    {
-      "id": "r3",
-      "label": "Cape of Lores",
+      "id": "R1",
+      "label": "North Reefs",
       "tags": [
         "coastal",
-        "fortified"
+        "fishing"
       ]
     },
     {
-      "id": "r4",
-      "label": "Salt Flats",
+      "id": "R2",
+      "label": "Main Market (Harbor District)",
+      "tags": [
+        "coastal",
+        "trade-hub"
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Saltflats",
       "tags": [
         "coastal",
         "resource"
       ]
     },
     {
-      "id": "r5",
+      "id": "R4",
+      "label": "High Backcliff",
+      "tags": [
+        "highland",
+        "fortified"
+      ]
+    },
+    {
+      "id": "R5",
       "label": "Outer Isles",
       "tags": [
-        "islands",
-        "waystations"
+        "island",
+        "seasonal",
+        "trading-posts"
       ]
     }
   ],
@@ -144,17 +150,15 @@
     "No instant resurrection or true life-replacement magics",
     "Long-range mind influence is rare and institutionally banned",
     "Navigational auguries exist but cannot replace charts and seamanship",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)",
-    "Ritual magic consumes scarce imported reagents or specialized burg-labors",
-    "Maritime dependence: ports vulnerable to blockade; reagent supply lines critical",
-    "Must honor obligations of alliance A3 (Inner-Coastal Accord)"
+    "Ritual magic consumes scarce imported reagents or specialized labor",
+    "Combustion-derived industry limited; no high-pressure steam megatechs",
+    "Coastal-state logistics dependent on secure port access and reagent supply"
   ],
   "notes": [
-    "Strategic chokepoints: Inner Docklands drydock and Cape of Lores batteries",
-    "Seasonal monsoon/navigation windows constrain long voyages and trade cycles",
-    "Smuggling and reagent black market centered in Outer Isles and Northern Estuary",
-    "Tide-Seers control key voyage rites; Merchant Guilds fund reagent imports",
-    "Limited heavy industry; major projects require imported combustible fuels or external partners"
+    "Ports and Maritime Guild control access to imported reagents critical for major rituals",
+    "Harbor District is strategic chokepoint for economy and defense",
+    "Tide-Temple rituals tied to seasonal navigation windows; disruption causes trade/morale shocks",
+    "Membership in A3 constrains independent privateering policy"
   ],
-  "generated_at": "2025-09-09T03:53:18.910Z"
+  "generated_at": "2025-09-09T04:59:36.681Z"
 }

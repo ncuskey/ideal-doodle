@@ -1,55 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e9aec7f5",
+  "checksum": "fnv1a_2c12f25d",
   "burg_id": 14,
-  "name": "Burg_14",
-  "state_id": -1,
+  "name": "Inwenver",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "small-port",
-    "ritual-supply-node"
-  ],
+  "tags": [],
   "size_hint": "small",
   "economy_roles": [
+    "ritual-ingredient trade",
+    "riverine market",
     "fishing",
-    "ritual-supply trade",
-    "boat repair",
-    "saltworks"
+    "boat maintenance"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor Shrine Circle",
-    "Ritual Artisans' Lodge",
-    "Smugglers' Ring"
+    "Harbormaster's Guild",
+    "Marketwrights' Cooperative",
+    "Ritualwright House",
+    "Smuggler coterie"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "harbor silting"
+    "coastal erosion",
+    "guild rivalries",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "strong sea-ancestor veneration",
-    "diet centered on salted fish and kelp",
-    "ritual tokens used as small-change"
+    "Coastal Tongue dialect with Riveric loanwords",
+    "tide-festival and hull-blessing ceremonies",
+    "salt-preserved cuisine, seaweed staples",
+    "boatcraft and tide-charts common"
   ],
   "quest_hook_slots": [
-    "reagent theft",
-    "shipwreck salvage",
-    "missing ritualists"
+    "missing reagent shipments",
+    "tide-shrine unrest",
+    "smuggled artifacts"
   ],
   "constraints": [
-    "Ritual magic requires scarce imported reagents",
-    "No instant resurrection; long-range mind influence is banned"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or true life-replacement magics",
+    "Navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "Tech near-medieval to early industrial; localized ritual magic common",
-    "Navigational auguries aid but don't replace seamanship"
+    "State unknown; coastal/river junction implied",
+    "Population unknown"
   ],
-  "generated_at": "2025-09-09T04:11:49.474Z"
+  "generated_at": "2025-09-09T23:10:44.033Z"
 }

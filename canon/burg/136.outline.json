@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_66ffcdc5",
+  "checksum": "fnv1a_9ba0dbff",
   "burg_id": 136,
-  "name": "Burg_136",
+  "name": "Rraresh",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "ritual-hub"
+    "none"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-ingredient-gathering",
-    "small-scale-fishing",
+    "salt-harvest",
+    "ritual-reagents-gathering",
+    "fishing",
     "waystation-trade"
   ],
   "factions_local": [
-    "sea-tide-priests",
-    "local-ritual-coven",
-    "itinerant-merchant-syndicate"
+    "shrines-coven",
+    "coastal-clan",
+    "traders-agent",
+    "smuggler-crew"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry-on-routes",
-    "supply-irregularity"
+    "reagent-scarcity",
+    "banditry",
+    "irregular-supplies"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "daily ritualized work practices",
-    "seafood-and-preserved-salt cuisine"
+    "Coastal Tongues with Island Creole influences",
+    "Ancestor veneration tied to fishing rites",
+    "star-calendar festivals mark sailing seasons",
+    "diet centered on seafood and smoked fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent-shortage",
-    "disappearances"
+    "reagent-supply-crisis",
+    "shipwreck-recovery"
   ],
   "constraints": [
-    "no-true-resurrection",
-    "limited-combustion-industry",
-    "rituals-consume-scarce-imported-reagents"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "navigational-auguries-cannot-replace-seamanship"
   ],
   "notes": [
-    "population unknown; transient residents common",
-    "navigational-auguries used but charts required"
+    "near-medieval tech with localized ritual magic",
+    "outpost dependent on periodic resupply ships",
+    "small population with informal governance"
   ],
-  "generated_at": "2025-09-09T04:11:29.560Z"
+  "generated_at": "2025-09-09T23:10:38.410Z"
 }

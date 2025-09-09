@@ -4,133 +4,148 @@
   "checksum": "fnv1a_57b13f",
   "name": "State_6",
   "aliases": [
-    "The Tidehold",
-    "Sixth Coast"
+    "The Saltward Coast",
+    "Sixth Hold"
   ],
   "timeline_beats": [
     {
-      "id": "TB1",
-      "label": "Early coastal settlement and reef-harvesting culture",
-      "ybp": 9500,
+      "id": "tb1",
+      "label": "Confederation formed (coastal clans unite)",
+      "ybp": 3500,
       "refs_world_events": []
     },
     {
-      "id": "TB2",
-      "label": "Integration into regional port networks (river & league era)",
-      "ybp": 3200,
+      "id": "tb2",
+      "label": "Shipbuilding & long-distance trade boom",
+      "ybp": 1800,
       "refs_world_events": []
     },
     {
-      "id": "TB3",
-      "label": "Devastation and territorial shifts during the Great Naval War",
-      "ybp": 1500,
+      "id": "tb3",
+      "label": "Privateering surge and regional raids",
+      "ybp": 900,
+      "refs_world_events": []
+    },
+    {
+      "id": "tb4",
+      "label": "Great Naval War (major territorial shifts)",
+      "ybp": 600,
       "refs_world_events": [
         "W1",
         "BC4"
       ]
     },
     {
-      "id": "TB4",
-      "label": "Reconstruction, entrance into maritime blocs and treaties",
-      "ybp": 400,
+      "id": "tb5",
+      "label": "Open-Seas Treaty; entry into Sea Trade Union/League",
+      "ybp": 480,
+      "refs_world_events": [
+        "T1",
+        "TB1",
+        "A1"
+      ]
+    },
+    {
+      "id": "tb6",
+      "label": "Present-order stabilization; league diplomacy",
+      "ybp": 120,
       "refs_world_events": [
         "A1",
-        "T1",
         "TB1"
       ]
     }
   ],
   "factions": [
     {
-      "id": "F1",
-      "label": "Shipwright Guild",
-      "influence_hint": "Controls yards, licensing for large hulls and ritual fittings"
+      "id": "f1",
+      "label": "Maritime Guild",
+      "influence_hint": "Controls long-distance trade, dominant in port councils"
     },
     {
-      "id": "F2",
-      "label": "Maritime Merchant Houses",
-      "influence_hint": "Directs long-distance trade and reagent imports"
+      "id": "f2",
+      "label": "Tide-Temple Orders",
+      "influence_hint": "Controls navigational rites, salt-reagent privileges"
     },
     {
-      "id": "F3",
+      "id": "f3",
       "label": "Coastal Nobility",
-      "influence_hint": "Holds shore rights, port dues and militia commissions"
+      "influence_hint": "Landed elites, hinterland levies and taxation"
     },
     {
-      "id": "F4",
-      "label": "Tide-Seer Collegium",
-      "influence_hint": "Monopolizes navigational auguries and tide-rituals"
+      "id": "f4",
+      "label": "Shipwrights' Consortium",
+      "influence_hint": "Monopolizes large-ship construction and salvage"
     },
     {
-      "id": "F5",
-      "label": "Harborwatch",
-      "influence_hint": "Local naval militia, enforces embargoes and patrols reefs"
+      "id": "f5",
+      "label": "Harbor Workers' Guild",
+      "influence_hint": "Labor force in ports; strikes disrupt trade"
     }
   ],
   "economy_pillars": [
     "shipbuilding",
-    "long-distance maritime trade",
-    "salt & fisheries",
-    "reef-harvested reagents",
-    "artisan metalwork/ropes"
+    "coastal trade",
+    "salt & reagent production",
+    "fishing & dried seafood exports",
+    "artisanal metalwork"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "mariner idioms and tide-based calendar",
-      "guild-centered social organization",
-      "seasonal tide and passing-ship festivals",
-      "contractual commerce norms",
-      "oral memorials of naval loss and valor"
+      "seafaring pragmatism",
+      "kinship organized around harbor-clans",
+      "ritualized navigation and pilot rites",
+      "merchant honor codes and contract literacy",
+      "practical syncretism of temple and clan rites"
     ]
   },
   "religion": {
     "families_present": [
       "Sea-Tide Animisms",
-      "Merchant Brotherhood Liturgies",
-      "Ancestor-Remembrance Cults"
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
     ],
     "dominant": "Sea-Tide Animisms"
   },
   "regions": [
     {
-      "id": "R1",
-      "label": "Kaiharbor",
-      "tags": [
-        "trade-hub",
-        "coastal"
-      ]
-    },
-    {
-      "id": "R2",
-      "label": "Windward Shoals",
-      "tags": [
-        "reef",
-        "fishing"
-      ]
-    },
-    {
-      "id": "R3",
-      "label": "Saltmarch Flats",
+      "id": "r1",
+      "label": "Harborhaven",
       "tags": [
         "coastal",
-        "agrarian"
-      ]
-    },
-    {
-      "id": "R4",
-      "label": "Shipwright Quarter",
-      "tags": [
-        "industrial",
         "trade-hub"
       ]
     },
     {
-      "id": "R5",
-      "label": "Cliffwatch",
+      "id": "r2",
+      "label": "Saltmarsh Flats",
       "tags": [
         "coastal",
-        "fortified"
+        "reagent-source"
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "Ironcliff Yards",
+      "tags": [
+        "coastal",
+        "shipyards"
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "Outer Atolls",
+      "tags": [
+        "island",
+        "navigation"
+      ]
+    },
+    {
+      "id": "r5",
+      "label": "Mireford Estuary",
+      "tags": [
+        "estuary",
+        "trade-node"
       ]
     }
   ],
@@ -162,20 +177,20 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is banned and rare",
-    "Navigational auguries do not replace charts and seamanship",
-    "Ritual magic consumes scarce imported reagents or specialist labor",
-    "Combustion-derived heavy industry limited (no high-pressure steam megatech)",
-    "Treaty obligations under T1 and alliance commitments under A1 must be observed",
-    "Post-War border realities per BC4 constrain expansion along contested shoals"
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Navigational auguries cannot replace charts and seamanship",
+    "Ritual magic requires scarce imported reagents or specialized labor",
+    "Combustion-derived industry limited (no high-pressure steam megatechs)",
+    "Must respect inter-state treaties and border settlements (T1, BC4)",
+    "Per coastal-map context: heavy dependence on maritime supply lines; vulnerable to blockade"
   ],
   "notes": [
-    "Major ports rely on imported reagents for ritual boosts; supply vulnerability shapes policy",
-    "Shipwright Guild licensing required for vessels above a specified tonnage and for ritual fittings",
-    "Dense reef systems create navigational chokepoints and shape naval tactics",
-    "Harborwatch enforces embargoes tied to Merchant House disputes",
-    "Lower layers must model seasonal monsoon/tide cycles affecting trade windows"
+    "Major ports clustered around Harborhaven and Ironcliff; governance is port-centric",
+    "Relies on imported reagents; trade disruptions hit ritual functions and ship maintenance",
+    "Balanced power: guilds vs. temple orders vs. nobility; harbor labor adds instability",
+    "Key strategic chokepoints at Outer Atolls and Mireford channel",
+    "Naval capacity shaped policy since Great Naval War; diplomacy within A1/TB1 is central"
   ],
-  "generated_at": "2025-09-09T03:53:56.799Z"
+  "generated_at": "2025-09-09T05:00:20.925Z"
 }

@@ -1,58 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_11896dd5",
+  "checksum": "fnv1a_3f0ea951",
   "burg_id": 118,
-  "name": "Burg_118",
+  "name": "Bontete",
   "state_id": 0,
-  "province_id": "prov_unknown",
+  "province_id": "unknown",
   "tags": [
-    "harbor",
-    "reagent-trade",
+    "outpost",
+    "reagent-hub"
+  ],
+  "size_hint": "outpost",
+  "economy_roles": [
+    "river trade",
+    "reagent milling",
+    "fishing",
     "waystation"
   ],
-  "size_hint": "small",
-  "economy_roles": [
-    "reagent trade",
-    "fishing",
-    "dockside services",
-    "smuggling"
-  ],
   "factions_local": [
-    "Guild of Tide-Readers",
-    "Merchant Consortium",
-    "Dockworkers' Cooperative",
-    "Ancestor Shrine Keepers"
+    "dockmasters' guild",
+    "ancestral elders",
+    "reagent traders",
+    "bandit crew"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "bandit raids on coastal roads",
-    "sanitation and disease risk",
-    "guild corruption and extortion"
+    "reagent scarcity",
+    "banditry",
+    "corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole loanwords",
-    "voyage-offering rituals common before departures",
-    "diet heavy on salted fish and reagent-spiced stews",
-    "markets peak at tide change for arriving caravans"
+    "Riveric Dialects dominant",
+    "ancestor-feasting rituals important",
+    "smoked fish staple",
+    "barter and favors common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "missing priest"
+    "supply-run",
+    "ritual-heist"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "combustion industry limited; no high-pressure steam megatechs"
+    "no instant resurrection",
+    "long-range mind magic banned",
+    "reagents scarce and imported"
   ],
   "notes": [
-    "State jurisdiction currently unclear",
-    "serves as strategic waypoint for coastal traders and ritual caravans"
+    "population unknown; transient traffic heavy",
+    "maps sparse; navigational auguries used"
   ],
-  "generated_at": "2025-09-09T04:10:19.278Z"
+  "generated_at": "2025-09-09T23:09:14.778Z"
 }

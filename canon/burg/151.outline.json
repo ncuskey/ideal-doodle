@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_70dee843",
+  "checksum": "fnv1a_19972f27",
   "burg_id": 151,
-  "name": "Burg_151",
-  "state_id": 0,
+  "name": "Charcy",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "undocumented",
-    "frontier"
+    "river-port",
+    "ritual-workshops",
+    "market-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "subsistence farming",
-    "smallcraft workshops",
-    "local trade",
-    "ritual-supply gathering"
+    "river-trade",
+    "fishery/salt-curing",
+    "ritual-supply workshops",
+    "boat-repair & carpentry"
   ],
   "factions_local": [
-    "Village Elders",
-    "Herbalists' Circle",
-    "Itinerant Ritualists",
-    "River/Coast Boat Crew"
+    "Rivermen's Guild",
+    "Apprentice Ritualwrights",
+    "Harbor Watch"
   ],
   "problems": [
     "reagent scarcity",
-    "banditry",
-    "isolation"
+    "bandit raids on river traffic",
+    "silted/shifting docks"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Star-Calendar Scriptoria"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "mixed dialect influences (Coastal/Riveric traces)",
-    "daily life structured by ritual obligations",
-    "diet focused on preserved staples and local catch",
-    "festivals tied to stars and harvest"
+    "Riveric-influenced dialect; Coastal Tongue loanwords",
+    "Tide-festival and salt-preservation cuisine",
+    "Ledger-centric merchant etiquette; small-scale ritual patronage"
   ],
   "quest_hook_slots": [
-    "ritual reagent shortage",
-    "disappearances of elders"
+    "smuggling",
+    "missing ritual reagents",
+    "harbor dispute"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence; institutional bans enforced",
+    "limited combustion industry (no heavy steam tech)"
   ],
   "notes": [
-    "population undocumented; entry scant",
-    "near-medieval tech with localized ritual practices"
+    "population unknown; functions as a local trade node",
+    "strategic choke on a navigable river bend"
   ],
-  "generated_at": "2025-09-09T04:12:30.062Z"
+  "generated_at": "2025-09-09T05:25:05.562Z"
 }

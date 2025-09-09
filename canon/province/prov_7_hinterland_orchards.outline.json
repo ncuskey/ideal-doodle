@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_hinterland_orchards",
+  "checksum": "fnv1a_2a029be",
+  "name": "Hinterland Orchards",
+  "aliases": [
+    "The Orchards",
+    "Hinterlands"
+  ],
+  "tags": [
+    "orchard",
+    "reagents",
+    "agriculture",
+    "inland",
+    "labor-export"
+  ],
+  "role_in_state": "Primary supplier of fruit, reagent plants and seasonal labor to coastal ports",
+  "economy_niches": [
+    "stone-fruit and orchard produce (preserves, fresh export)",
+    "cultivation of ritual-reagent plants",
+    "small-scale distillation (fruit spirits, oils) for ritual and trade",
+    "seasonal labor export (harvest crews to ports)",
+    "cartage and riverine transport of bulky goods"
+  ],
+  "culture_adjustments": [
+    "land-tenured, family-run orchard households rather than guild dominance",
+    "seasonal harvest calendar and festivals override maritime rhythms",
+    "oral lore emphasizes ancestor stewardship over sea-shanty tradition",
+    "trading argot simplified toward Coastal Tongues with fewer Island Creole forms",
+    "practical skepticism of navigational auguries; reliance on soil-rituals for fertility"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Ancestor-Remembrance Cults"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "pests and blight",
+    "seasonal flooding",
+    "banditry on rural roads",
+    "labor unrest during peak harvest"
+  ],
+  "constraints": [
+    "limited access to imported ritual reagents; dependent on coastal redistribution",
+    "poor roads and river bottlenecks raise transport costs",
+    "land-tenure laws restrict orchard consolidation"
+  ],
+  "notes": [
+    "bulk, low-margin goods; political leverage tied to seasonal labor flows",
+    "local distillation produces partial substitutes for some imported reagents"
+  ],
+  "generated_at": "2025-09-09T05:08:23.161Z"
+}

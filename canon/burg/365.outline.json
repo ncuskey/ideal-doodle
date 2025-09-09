@@ -1,28 +1,28 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6ec65f91",
+  "checksum": "fnv1a_e8a84482",
   "burg_id": 365,
-  "name": "Burg_365",
+  "name": "Stryt",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "Reagent waypoint",
-    "Coastal fishing",
-    "Waystation trade"
+    "waystation/harbor services",
+    "small-scale fishing & salt-curing",
+    "ritual-reagents depot",
+    "informal smuggling/transshipment"
   ],
   "factions_local": [
-    "Harborwrights",
-    "Shrine-keepers",
-    "Reagent merchants",
-    "Smuggling ring"
+    "harbormasters' guild (local)",
+    "smugglers' crew",
+    "ritualists' confraternity",
+    "coastal militia/watch"
   ],
   "problems": [
-    "Reagent scarcity",
-    "Bandit raids",
-    "Corrupt harbor officials",
-    "Storm damage"
+    "scarcity of imported ritual reagents",
+    "smuggling-related violence/corruption",
+    "exposed to storms and supply interruptions"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -30,24 +30,22 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "Strict ritual etiquette around reagent handling",
-    "Salt-preserved cuisine and fish-based staples",
-    "Oral shipping lore and augury traditions"
+    "Coastal Tongues dialect with Island Creole slang",
+    "custom: nightly tide-offerings and salt-curing festivals",
+    "food: smoked/salted fish staples; thrift and barter common"
   ],
   "quest_hook_slots": [
-    "Smuggling",
-    "Missing shipment",
-    "Shrine desecration"
+    "smuggling",
+    "ritual-supply theft",
+    "shipwreck salvage"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and banned",
-    "Ritual magic consumes scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind-influence and life-replacement magics are absent/banned locally"
   ],
   "notes": [
-    "Population unknown; strategic minor inlet",
-    "Navigational auguries used but not a substitute for charts"
+    "population unknown; functions as minor coastal waypoint",
+    "strategic importance tied to reagent transshipment and navigational shelter"
   ],
-  "generated_at": "2025-09-09T04:26:47.527Z"
+  "generated_at": "2025-09-09T05:38:53.274Z"
 }

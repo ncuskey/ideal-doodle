@@ -1,54 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_dec293f5",
+  "checksum": "fnv1a_8955468f",
   "burg_id": 11,
-  "name": "Burg_11",
+  "name": "Bington",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-harbor"
+    "river-trade",
+    "reagent-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "waystation/shipstores",
-    "reagent-trade",
-    "small-ship repair"
+    "river ferrying",
+    "reagent brokerage",
+    "artisan smithing",
+    "market trading"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "reagent merchants",
-    "Ancestor-Remembrance shrine",
-    "local smugglers"
+    "Merchant Guild",
+    "Herbalists' Circle",
+    "Town Militia",
+    "Elder Council"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids on supply boats",
-    "silted/shallow entrance"
+    "bandit raids on river",
+    "smuggling"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "tide-and-ancestor festivals govern schedule",
-    "diet: salted fish, fermented seaweed",
-    "local crafts: driftwood talismans for rituals"
+    "Riveric dialect with Coastal loanwords",
+    "market-day barter and shared feasts",
+    "ritual offerings tied to seasonal river levels"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing navigator",
-    "reagent run"
+    "reagent theft",
+    "river disappearances"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or life-replacement magics"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "state jurisdiction unclear",
-    "population small/scattered; exact number unknown"
+    "population unknown; functions as a minor waypoint on a trade river",
+    "limited combustion industry; reliance on artisanal and ritual trades"
   ],
-  "generated_at": "2025-09-09T04:09:53.719Z"
+  "generated_at": "2025-09-09T23:08:51.861Z"
 }

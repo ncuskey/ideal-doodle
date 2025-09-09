@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_80597c5",
+  "checksum": "fnv1a_1ba87d24",
   "burg_id": 235,
-  "name": "Burg_235",
-  "state_id": 0,
+  "name": "Slehzitha",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "riverside",
-    "ritual-supply",
-    "waystation"
+    "coastal",
+    "ritual-reagents",
+    "fishing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-component trade",
-    "ferry/waystation",
-    "small-scale fishing"
+    "fishing",
+    "ritual-reagent processing",
+    "local trade",
+    "boatbuilding/repair"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-suppliers' cartel",
-    "boatmen's cooperative"
+    "Shipmasters' Council",
+    "Ritual Syndic",
+    "Ancestor-Remembrance Circle",
+    "Harbor Smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling"
+    "scarce imported reagents",
+    "pirate/raider landings",
+    "guild corruption"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Mixed Riveric-Coastal dialect",
-    "Seafood-heavy diet",
-    "Ritual taboos around night launches"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet heavy in salted fish, seaweed, fermented shellfish",
+    "tide-honoring festivals with small ritual offerings"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "shrine desecration"
+    "reagent theft",
+    "disappearances at sea"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents / local labor",
+    "no instant resurrection; long-range mind influence banned"
   ],
   "notes": [
-    "exposed small harbor, poor shelter in storms",
-    "serves as a ferry node between larger settlements"
+    "population small, maritime hamlet",
+    "layout clustered around a tidal quay and reef channels"
   ],
-  "generated_at": "2025-09-09T04:17:51.746Z"
+  "generated_at": "2025-09-09T05:30:09.423Z"
 }

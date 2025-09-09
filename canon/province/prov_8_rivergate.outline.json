@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_rivergate",
+  "checksum": "fnv1a_feeff641",
+  "name": "Rivergate",
+  "aliases": [
+    "The Gates",
+    "Lower Riverward"
+  ],
+  "tags": [
+    "estuary",
+    "harbor",
+    "reagent-hub",
+    "guild-center"
+  ],
+  "role_in_state": "Principal inland estuary and reagent transit point",
+  "economy_niches": [
+    "estuary trade transshipment",
+    "smallcraft shipbuilding & repair",
+    "salt-marsh refining",
+    "ritual-reagent cleansing & packing",
+    "seasonal river fisheries"
+  ],
+  "culture_adjustments": [
+    "river-tide rituals prioritized over open-sea rites",
+    "guilds control dockspace and apprenticeship routes",
+    "strong artisan/boatwright ancestor veneration",
+    "voyage oaths adapted for short river runs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "silt-choked channels",
+    "smuggling",
+    "guild feuding"
+  ],
+  "constraints": [
+    "seasonal access limited by silt and tides",
+    "licensed guild monopoly on reagent handling",
+    "limited combustion/steam industry capacity"
+  ],
+  "notes": [
+    "key waypoint for state maritime trade; upstream land use affects access",
+    "apprentice labor central to reagent processing and smallcraft work"
+  ],
+  "generated_at": "2025-09-09T05:08:38.124Z"
+}

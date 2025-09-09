@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2304db95",
+  "checksum": "fnv1a_a8c2aaa",
   "burg_id": 91,
-  "name": "Burg_91",
-  "state_id": 0,
+  "name": "Selocobri",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ritual-outpost",
-    "coastal"
+    "harbor",
+    "ritual-workshops"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ferrying",
-    "ritual-reagents-trade",
-    "smuggling"
+    "salt-harvesting",
+    "craftwork",
+    "ritual-labour"
   ],
   "factions_local": [
-    "Harbormaster's Consortium",
-    "Ritual Scribes' Lodge",
-    "Ferry Operators' Guild",
-    "Shadow-Carters (smugglers)"
+    "Harbor Guild",
+    "Ritualwrights' Circle",
+    "Ancestor Priests",
+    "Merchants' Agents"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "storm-surge-damage",
-    "corrupt-harbor-officials"
+    "scarce ritual reagents",
+    "smuggling",
+    "harbor-siltation",
+    "local corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues variant spoken",
-    "diet heavy on fish and seaweed",
-    "dockside ancestor-offerings common",
-    "ritual barter accepted as currency"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "daily offerings to tide-spirits and ancestors at dawn",
+    "diet heavy on salted fish, seaweed, preserved shellfish",
+    "seasonal tide-procession festival with raft-burnings"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "scarce-reagent-supply",
-    "missing-ferryman"
+    "ritual reagent shortage",
+    "harbor strike"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imported-reagents",
-    "long-range-mind-influence-rare-and-banned"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace seamanship"
   ],
   "notes": [
-    "located at a shifting river mouth",
-    "seasonal isolation during monsoon",
-    "local pilots required due to shoals"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "state governance unclear; semi-autonomous port customs"
   ],
-  "generated_at": "2025-09-09T04:37:48.957Z"
+  "generated_at": "2025-09-09T05:49:27.165Z"
 }

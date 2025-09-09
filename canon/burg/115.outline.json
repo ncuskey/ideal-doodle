@@ -1,58 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5d8618b",
+  "checksum": "fnv1a_3d25a50",
   "burg_id": 115,
-  "name": "Burg_115",
+  "name": "Pornum",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
-    "ritual-node"
+    "harbor",
+    "ritual-workshop"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-reagent depot",
-    "coastal trade",
     "fishing",
+    "ritual-labour-export",
     "waystation"
   ],
   "factions_local": [
-    "trader guild",
-    "ritual circle",
-    "harbor militia",
-    "elders' council"
+    "Harbor-Guild",
+    "Tidefan Clan",
+    "Ritual-Scribes"
   ],
   "problems": [
-    "scarce reagents",
-    "bandit raids",
-    "supply delays",
-    "corruption"
+    "reagent scarcity",
+    "smuggling",
+    "harsh weather"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "ship-blessing rites common",
-    "diet: salted fish and kelp",
-    "barter-preferred economy"
+    "speaks a Coastal Tongues dialect laced with sailor jargon",
+    "salt-curing and seaweed staples",
+    "strong tide-offering and harbor-superstition practices"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing sailors"
+    "missing-supply-run",
+    "ritual-sabotage"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No long-range mind influence; institutionally banned",
-    "No instant resurrection or true life-replacement magics"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence permitted",
+    "combustion industry limited (no high-pressure steam megatech)"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "Navigational auguries exist but do not replace seamanship",
-    "State authority unknown; local autonomy likely"
+    "population unknown; functions as peripheral port/relay",
+    "uses navigational auguries but still relies on charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:10:16.540Z"
+  "generated_at": "2025-09-09T23:09:05.206Z"
 }

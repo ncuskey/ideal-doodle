@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b6d2fe65",
+  "checksum": "fnv1a_607434a5",
   "burg_id": 194,
-  "name": "Harrow's Dock",
+  "name": "Winkley",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-outpost"
+    "river-crossing",
+    "ferry",
+    "reagent-waypoint"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-harvesting",
-    "ritual-supplying",
-    "smuggling"
+    "river trade",
+    "ferry crossing",
+    "market town",
+    "supply point for ritual reagents"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Shrine Keepers",
-    "Smuggler Ring",
-    "Saltwrights"
+    "Ferriesmen's Guild",
+    "Market Consortium",
+    "Local Ritual Circle",
+    "Town Watch"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry",
-    "silted-channel",
-    "corrupt-guild-officials"
+    "bandit raids on river",
+    "scarcity of imported reagents",
+    "silted ford and seasonal flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with tidal idioms",
-    "Diet heavy on preserved fish and kelp",
-    "Ritual tattoos mark crew status"
+    "Riveric dialect predominant",
+    "river-blessing rites before crossings",
+    "fish-and-grain cuisine",
+    "weekly market day is social focus"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "supply-run",
-    "ritual-heist"
+    "smuggling of ritual reagents",
+    "disappearing ferryman",
+    "flood-driven salvage"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no true resurrection magics",
-    "long-range mind-influence outlawed"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection; long-range mind control rare/banned",
+    "navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "pier partly collapsed; seasonal storms worsen access",
-    "navigation aided by auguries but charts and pilots required"
+    "population unknown; small burg",
+    "strategic waypoint on inland river route",
+    "tech baseline: near-medieval to early industrial"
   ],
-  "generated_at": "2025-09-09T04:15:12.185Z"
+  "generated_at": "2025-09-09T05:27:47.245Z"
 }

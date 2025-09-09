@@ -1,28 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bb9223af",
+  "checksum": "fnv1a_e57ec676",
   "burg_id": 324,
-  "name": "Burg_324",
-  "state_id": 0,
-  "province_id": "prov_unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "name": "Ishzit",
+  "state_id": -1,
+  "province_id": "unknown",
+  "tags": [
+    "none",
+    "coastal",
+    "fishing"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-reagent depot",
-    "waystation"
+    "fishing",
+    "navigation-auguries",
+    "boat-repair",
+    "smuggling"
   ],
   "factions_local": [
-    "harbor-crew",
-    "ritual-collectors",
-    "traders' guildlet",
-    "coastal-clan"
+    "harbor-masters",
+    "augury-coven",
+    "smuggler-ring",
+    "local-merchants"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "storm damage",
-    "bandit raids"
+    "reagent-scarcity",
+    "reef-hazards",
+    "smuggling-clashes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -30,23 +34,22 @@
   ],
   "culture_notes": [
     "Coastal Tongues dialect",
-    "salt-blessed rites for sailors",
-    "diet heavy on smoked/fermented fish"
+    "tide-festival customs",
+    "salt-fermented seafood"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-reagent shipments",
-    "sea-omen"
+    "reef-monster",
+    "missing-augur"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Rituals consume scarce imported reagents",
-    "Long-range mind influence is rare/banned"
+    "rituals consume scarce imported reagents",
+    "navigational auguries augment but do not replace charts",
+    "no long-range mind-control allowed"
   ],
   "notes": [
-    "Near-medieval tech with localized ritual practice",
-    "Small outpost serving coastal navigation and pilgrims",
-    "Dependent on imported reagents and outside trade"
+    "population unknown; small harbor outpost",
+    "state administration unknown"
   ],
-  "generated_at": "2025-09-09T04:24:16.133Z"
+  "generated_at": "2025-09-09T05:36:20.323Z"
 }

@@ -1,54 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_edce0313",
+  "checksum": "fnv1a_ea8d4d4",
   "burg_id": 306,
-  "name": "Burg_306",
+  "name": "Dobok",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "river-crossing",
+    "ritual-shrine"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "ritual-supply",
-    "fishing",
-    "smuggling"
+    "ferry crossing",
+    "reagent market",
+    "boat repair",
+    "subsistence fishing"
   ],
   "factions_local": [
-    "Shipmasters' Guild",
-    "Ritualist Circle",
-    "Customs Watch",
-    "Smugglers' Coterie"
+    "Ferrymen's Guild",
+    "Shrine Keepers",
+    "Reagent Syndicate",
+    "Riverborne Coursers"
   ],
   "problems": [
-    "scarcity",
-    "banditry",
-    "corruption",
-    "resource-competition"
+    "seasonal flooding",
+    "scarce ritual reagents",
+    "bandit ambushes"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Riveric dialect with Coastal loanwords",
-    "seafood- and salt-preservation cuisine",
-    "ritual token exchange common at docks"
+    "Riveric dialect dominant",
+    "river offerings and small shrine festivals",
+    "fermented fish and barley staples",
+    "boatcraft and ropework traditions"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing-crew",
-    "ritual-theft"
+    "stolen reagent shipment",
+    "missing ferryman",
+    "rising flood threat"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
     "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "long-range mind influence locally banned",
+    "limited combustion industry—no heavy steam"
   ],
   "notes": [
-    "state affiliation unknown; frontier outpost character",
-    "supply reliant on irregular coastal/river traffic",
-    "navigational auguries used but do not replace charts or seamanship"
+    "population small and seasonally transient",
+    "strategic crossing for upriver trade in ritual materials"
   ],
-  "generated_at": "2025-09-09T04:22:47.994Z"
+  "generated_at": "2025-09-09T05:34:58.877Z"
 }

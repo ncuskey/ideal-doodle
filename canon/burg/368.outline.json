@@ -1,32 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_49b57f17",
+  "checksum": "fnv1a_c2b76aa6",
   "burg_id": 368,
-  "name": "Burg_368",
+  "name": "Cocham",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-node",
-    "ritual-harbor"
+    "coastal",
+    "harbor",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ingredient-trade",
-    "ferry-tolls",
-    "boat-repair"
+    "salt-curing",
+    "ritual-lab services",
+    "boat repair"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ancestor Shrine Keepers",
-    "Riverwatch",
-    "Smugglers' Cell"
+    "Tide-Remembrance Temple",
+    "Dockmasters' Syndicate",
+    "House Merial (merchant kin)",
+    "Smugglers' Knot"
   ],
   "problems": [
-    "scarce-ritual-reagents",
-    "banditry-on-waterways",
-    "seasonal-flooding",
-    "tax-pressures-from-passing-guilds"
+    "reagent scarcity",
+    "smuggling",
+    "coastal erosion",
+    "corrupt dock-licenses"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -34,24 +35,25 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric dialect with coastal loanwords",
-    "salted-fish and fermented-riverweed staples",
-    "tide-linked communal rituals",
-    "boating festivals mark merchant seasons"
+    "Dialect: Coastal Tongues with Island Creole loanwords",
+    "Cuisine: salted fish, fermented seaweed stews",
+    "Custom: nightly tide-offerings at low tide",
+    "Festivals tied to star-calendar fishing moons"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-boat",
-    "ritual-reagent-theft"
+    "missing ritual reagents",
+    "tidal curse"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "limited-combustion-industry"
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence is rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "narrow economy tied to passing traffic and reagent shipments",
-    "navigational-auguries used but charts and seamanship still required"
+    "Near-medieval to early-industrial tech; limited combustion industry",
+    "Localized ritual-labs central to local economy",
+    "State affiliation unknown; functions as a small frontier port"
   ],
-  "generated_at": "2025-09-09T04:26:55.813Z"
+  "generated_at": "2025-09-09T05:39:03.034Z"
 }

@@ -1,54 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9e7e460b",
+  "checksum": "fnv1a_7b51bf67",
   "burg_id": 140,
-  "name": "Burg_140",
-  "state_id": -1,
+  "name": "Skuphje",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "coastal",
     "harbor",
-    "ritual-outpost"
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fisheries",
-    "minor-trade",
-    "ritual-labor",
-    "boat-repair"
+    "fishing",
+    "transshipment/waystation",
+    "ritual-workshops"
   ],
   "factions_local": [
-    "Harbormasters",
-    "Shipwrights' Guild",
-    "Ancestor Circle",
-    "Smugglers' Ring"
+    "Harbor Guild",
+    "Ancestor Priests",
+    "Reagent Traders",
+    "Smuggler Cell"
   ],
   "problems": [
     "reagent scarcity",
-    "coastal erosion",
-    "bandit raids"
+    "smuggling",
+    "coastal storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with Island Creole loanwords",
-    "seafood-focused cuisine; salt-curing common",
-    "regular tide-offerings and small ancestor shrines"
+    "Coastal Tongues base with Island Creole loanwords",
+    "tide-propitiation rites shape daily schedule",
+    "local cuisine: salt-fermented fish and seaweed preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual theft",
-    "disappearances"
+    "reagent theft",
+    "unnatural tide"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "limited combustion-derived industry"
+    "rituals expend scarce imported reagents",
+    "long-range mind-influence is banned locally"
   ],
   "notes": [
-    "lies near tricky shoals; navigational auguries used",
-    "supplies intermittent; reliant on larger ports for bulk goods"
+    "rocky inlet harbor; limited arable land",
+    "strategic waypoint for coastal traders and small craft"
   ],
-  "generated_at": "2025-09-09T04:11:52.321Z"
+  "generated_at": "2025-09-09T23:10:52.197Z"
 }

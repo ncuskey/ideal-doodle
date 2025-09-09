@@ -1,55 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_ee4368b1",
+  "checksum": "fnv1a_45c5534f",
   "burg_id": 64,
-  "name": "Burg_64",
+  "name": "Kesorough",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
     "coastal",
-    "ritual-trade"
+    "harbor",
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "supply relay",
-    "ritual-reagent broker",
-    "small-scale fishing",
-    "smuggler waypoint"
+    "fishing",
+    "salt-curing",
+    "small-scale trade",
+    "boat repair"
   ],
   "factions_local": [
-    "merchant syndicate",
-    "coastal militia",
-    "ritual guild",
-    "smuggler band"
+    "Harbourmasters' Guild",
+    "Tidewardens (animists)",
+    "Shipwrights' Collective",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "scarcity of reagents",
-    "bandit raids",
-    "jurisdiction disputes"
+    "scarce ritual reagents",
+    "tidal erosion and flooding",
+    "smuggling and black-market trade"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues with Riveric loanwords",
-    "tide-mark festivals and offering rites",
-    "diet heavy on pickled fish and seaweed"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "Tide-blessing festivals tied to fishing seasons",
+    "Cuisine heavy on salted and smoked fish",
+    "Boat-scar tradition tattoos for families"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances"
+    "ritual reagent theft",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "No instant resurrection; ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace seamanship or charts",
+    "Limited combustion industry; mechanical tech modest"
   ],
   "notes": [
-    "near-medieval to early industrial tech baseline",
-    "navigational auguries exist but cannot replace charts and seamanship",
-    "population unknown"
+    "Harbor fog common; piloting hazardous",
+    "Waypoint between nearby isles; strategic for small-scale trade",
+    "Population unknown; transient seafaring community"
   ],
-  "generated_at": "2025-09-09T04:36:01.473Z"
+  "generated_at": "2025-09-09T05:47:35.536Z"
 }

@@ -1,0 +1,54 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_north_firth",
+  "checksum": "fnv1a_a3df6e56",
+  "name": "North Firth",
+  "aliases": [
+    "North Firth"
+  ],
+  "tags": [
+    "coastal",
+    "firth",
+    "harbor",
+    "shipyards"
+  ],
+  "role_in_state": "Northern gateway for convoys and refit services",
+  "economy_niches": [
+    "ship repair & refitting",
+    "herring fisheries & saltworks",
+    "navigational-augury outposts",
+    "timber yards for masts and spars",
+    "reagent transshipment and humid storage"
+  ],
+  "culture_adjustments": [
+    "denser clan-harbor kinship concentrated in small coves",
+    "rituals focused on immediate voyage safety and hull blessing",
+    "oral seamanship lore outweighs formal guild records",
+    "practical skepticism toward inland magistrates"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "seasonal ice pack",
+    "smuggling & cutter raids",
+    "guild conflicts over slipways"
+  ],
+  "constraints": [
+    "limited fresh water sources",
+    "reliant on imported reagents; humidity complicates storage"
+  ],
+  "notes": [
+    "preferred site for sea-trialing experimental hulls",
+    "strategically important for long-distance convoy staging"
+  ],
+  "generated_at": "2025-09-09T05:07:00.755Z"
+}

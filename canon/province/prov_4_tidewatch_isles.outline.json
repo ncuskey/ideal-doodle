@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_tidewatch_isles",
+  "checksum": "fnv1a_9a72060c",
+  "name": "Tidewatch Isles",
+  "aliases": [
+    "Tidewatch",
+    "The Watches"
+  ],
+  "tags": [
+    "islands",
+    "maritime",
+    "guild-hub",
+    "augury"
+  ],
+  "role_in_state": "Maritime watch, ship-repair and transshipment hub",
+  "economy_niches": [
+    "small-boat shipbuilding & repairs",
+    "salted-fish & marine preserves",
+    "transshipment & re-export",
+    "navigational-augury services",
+    "ritual-reagent storage & trade"
+  ],
+  "culture_adjustments": [
+    "augury guilds dominate port governance",
+    "island Creole influences coastal Tongues dialect",
+    "oral law prioritizes seafaring kin-lines",
+    "conservative, shoal-first seamanship practices"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "reef-grounding",
+    "piracy/smuggling",
+    "reagent-shortage",
+    "guild-feuds"
+  ],
+  "constraints": [
+    "scarce arable land",
+    "dependence on imported ritual reagents",
+    "heavy industry restricted by reef and guild regulation",
+    "long-range mind-influence prohibited"
+  ],
+  "notes": [
+    "watchtowers double as ritual-augury shrines",
+    "guild courts handle most maritime disputes",
+    "key node for state navigational-augury and reagent transshipment"
+  ],
+  "generated_at": "2025-09-09T05:06:56.315Z"
+}

@@ -1,50 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_70e00d2f",
+  "checksum": "fnv1a_642d743e",
   "burg_id": 319,
-  "name": "Burg_319",
+  "name": "Badeby",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "small-port"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "Fishing",
-    "Reagent trading",
-    "Waystation for coasters",
-    "Ship salvage/repair"
+    "fishing",
+    "small-market trading",
+    "ritual-reagent processing",
+    "boatbuilding"
   ],
   "factions_local": [
-    "Harbormasters' Council",
-    "Reagent Merchants",
-    "Ancestor-Wake Circle",
-    "Smugglers' Knot"
+    "Fishermen's Cooperative",
+    "Tide-Singers (Sea-Tide Animists)",
+    "Harborwrights' Guild",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "Scarcity of imported ritual reagents",
-    "Smuggling and law evasion",
-    "Storm damage to landings"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling and corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominant",
-    "Communal wake-feasts for lost sailors",
-    "Diet heavy on salted fish, kelp and preserved shellfish"
+    "Coastal Tongues dialect",
+    "annual tide-festival and boat-burials",
+    "salt-curing and seaweed cuisine",
+    "practical boatcraft and network skills"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "sea-omen"
+    "ritual reagent theft",
+    "missing fishing vessel"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is locally banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "limited combustion industry (no high-pressure steam)"
   ],
   "notes": [
-    "Population unknown; mapped as an outpost waystation",
-    "Navigational auguries used but do not replace charts or seamanship"
+    "population unknown; small strategic river-mouth outpost",
+    "seasonal trade links to nearby islands"
   ],
-  "generated_at": "2025-09-09T04:23:49.228Z"
+  "generated_at": "2025-09-09T05:35:50.999Z"
 }

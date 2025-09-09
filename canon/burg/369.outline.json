@@ -1,54 +1,52 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7b519fe9",
+  "checksum": "fnv1a_302976f0",
   "burg_id": 369,
-  "name": "Burg_369",
-  "state_id": 0,
+  "name": "Halingin",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-outpost"
+    "coastal"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent trade",
-    "fishing",
-    "waystation/landing",
-    "small ship maintenance"
+    "fishing and tidal farms",
+    "ritual reagent processing",
+    "boat repair and carpentry",
+    "local market trading"
   ],
   "factions_local": [
-    "merchant-guildlet",
-    "ritual-collective",
-    "shorewatch",
-    "smuggler-ring"
+    "Harbormaster's Circle",
+    "Saltwright Guild",
+    "Ancestor Shrine Priests",
+    "Smuggler coterie"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on supply routes",
-    "economic precarity"
+    "scarce imported reagents",
+    "smuggling and black-market tension",
+    "coastal erosion and silted channels"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "seafood-and-seaweed dietary staples",
-    "rituals tied to tides and seasonal visits of reagent traders"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide-harvest calendar and moon festivals",
+    "diet: salted fish, seaweed, fermented shellfish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual component",
-    "disappearances at sea"
+    "ritual reagent shortage",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind control rare/banned"
+    "no instant resurrection or true life-replacement magics",
+    "ritual magic consumes scarce imported reagents or specialized labour"
   ],
   "notes": [
-    "near-medieval to early-industrial tech with pervasive ritual trade",
-    "frontier outpost dependent on irregular reagent shipments"
+    "near-medieval to early-industrial tech with localized ritual crafts",
+    "navigation uses auguries but depends on charts and pilots"
   ],
-  "generated_at": "2025-09-09T04:26:57.996Z"
+  "generated_at": "2025-09-09T05:39:04.875Z"
 }

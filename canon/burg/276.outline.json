@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_eb7d7b83",
+  "checksum": "fnv1a_f362df77",
   "burg_id": 276,
-  "name": "Burg_276",
+  "name": "Ajashal'ar",
   "state_id": 0,
-  "province_id": "",
+  "province_id": "unknown",
   "tags": [
     "none",
-    "crossroads",
-    "ritual-workshop"
+    "coastal",
+    "ritual-supply"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "coastal trade",
-    "ritual reagent processing",
-    "fisherfolk",
-    "waystation"
+    "fishing",
+    "ritual-ingredient trade",
+    "waystation",
+    "salt-curing"
   ],
   "factions_local": [
-    "harbormasters",
-    "ritual guild",
-    "smugglers",
-    "ancestor-clergy"
+    "Harbormasters",
+    "Tide-Binding Circle",
+    "Merchant Brokers",
+    "Smugglers' Knot"
   ],
   "problems": [
     "reagent scarcity",
+    "storm damage",
     "smuggling",
-    "banditry",
-    "corruption"
+    "corrupt harbor officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "daily tide-offerings and ancestor altars",
-    "diet: smoked fish and fermented seaweed",
-    "crafts: beadwork and reagent distillation"
+    "Island Creole–tinged Coastal Tongues dialect",
+    "annual tide-procession festival",
+    "diet: shellfish, salted fish",
+    "guilds manage labor for ritual preparation"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "tide-omen"
+    "missing tide-augury",
+    "reagent heist"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare/banned"
   ],
   "notes": [
-    "state unknown; light provincial oversight",
-    "serves as waypoint for coastal and riverine trade"
+    "small strategic harbor on coastal route",
+    "population unknown"
   ],
-  "generated_at": "2025-09-09T04:20:56.581Z"
+  "generated_at": "2025-09-09T05:33:07.759Z"
 }

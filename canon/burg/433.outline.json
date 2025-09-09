@@ -1,59 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_6821ff45",
+  "checksum": "fnv1a_947fb2fb",
   "burg_id": 433,
-  "name": "Burg_433",
+  "name": "Ukex",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
     "coastal",
+    "ritual-outpost",
     "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "reagent-trading",
-    "waystation",
-    "boat-maintenance"
+    "reagent trade",
+    "ship provisioning",
+    "salt-harvest"
   ],
   "factions_local": [
-    "Fisherfolk Guild",
-    "Apothecarists' Circle",
-    "Mariners' Lodge",
-    "Smugglers' Coterie"
+    "tide-priest circle",
+    "reagent brokers",
+    "harbor militia",
+    "coastal smugglers"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "coastal erosion",
-    "sporadic banditry"
+    "bandit raids",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide-feast and ancestor offerings",
-    "salt-fermented fish cuisine",
-    "nets doubled as ritual charms"
+    "Coastal Tongues with Island Creole influences",
+    "diet heavy on salted/fermented seafood",
+    "communal tide-remembrance ceremonies",
+    "boat-building as communal craft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "tide-omen unrest"
+    "reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or mind-control magics",
-    "limited combustion industry; no high-pressure steam"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or long-range mind control",
+    "navigational auguries cannot replace charts/seamanship"
   ],
   "notes": [
-    "State affiliation unknown",
-    "Population data unavailable",
-    "minor strategic coastal stop for shipping lanes"
+    "near-medieval tech with localized ritual magic",
+    "small harbor/beacon outpost serving coastal traffic"
   ],
-  "generated_at": "2025-09-09T04:31:30.215Z"
+  "generated_at": "2025-09-09T05:43:18.097Z"
 }

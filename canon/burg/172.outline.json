@@ -1,52 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_98961ac5",
+  "checksum": "fnv1a_6e32d21e",
   "burg_id": 172,
-  "name": "Burg_172",
-  "state_id": 0,
+  "name": "Froi",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "small",
+  "tags": [
+    "river-crossing",
+    "ritual-lab"
+  ],
+  "size_hint": "outpost",
   "economy_roles": [
-    "waystation",
-    "artisanal-rituals",
-    "small-market",
-    "subsistence-agriculture"
+    "ferry-halt",
+    "timber trade",
+    "ritual reagents"
   ],
   "factions_local": [
-    "local-council",
-    "merchant-guild",
-    "ritual-priests",
-    "militia"
+    "ferrymen guild",
+    "ritual practitioners",
+    "river wardens"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry",
-    "isolation"
+    "seasonal floods",
+    "reagent scarcity",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "rituals integrated into daily trade",
-    "seafood-forward cuisine",
-    "tattooing and ancestor tokens"
+    "Riveric Dialects dominant",
+    "ritual herb preparation common",
+    "smoked fish staple"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-supply-crisis",
-    "ancestral-omen"
+    "ritual reagent shortage",
+    "ferry disaster"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "ritual-magic-consumes-scarce-imported-reagents",
-    "limited-combustion-industry-no-high-pressure-steam"
+    "rituals consume rare imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "state_id unknown; set to 0",
-    "suitable as small coastal outpost or waystation"
+    "near-medieval to early-industrial baseline",
+    "navigational auguries used but not a substitute for charts"
   ],
-  "generated_at": "2025-09-09T04:13:51.592Z"
+  "generated_at": "2025-09-09T05:26:15.532Z"
 }

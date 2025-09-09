@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bc5d49f1",
+  "checksum": "fnv1a_cdaa1041",
   "burg_id": 69,
-  "name": "Burg_69",
-  "state_id": -1,
+  "name": "Borviorimi",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "ritual-node"
-  ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "fishing",
-    "ritual-supply",
+    "harbor",
+    "ritual-labour",
     "waystation"
   ],
+  "size_hint": "small",
+  "economy_roles": [
+    "fishing",
+    "salt-processing",
+    "ritual-reagent sourcing",
+    "coastal trade"
+  ],
   "factions_local": [
-    "Ancestor Circle",
-    "Harbor Syndicate",
-    "Itinerant Scriveners"
+    "Harbor Guild",
+    "Ritual Sisterhood",
+    "Smugglers' Ring",
+    "Elders' Council"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "smuggling"
+    "scarce reagents",
+    "banditry on approaches",
+    "trade competition"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
     "Coastal Tongues dialect with Riveric loanwords",
-    "seafood-and-ferments cuisine",
-    "ritual taboos govern market days"
+    "seafood-heavy, fermented-fish cuisine",
+    "public ancestor rituals tied to tide cycle"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "sacred relic theft"
+    "sacred-reagent-theft",
+    "disappearances"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and institutionally banned",
-    "navigational auguries cannot replace charts and seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence rare and institutionally banned"
   ],
   "notes": [
-    "ritual magic consumes scarce imported reagents; supply ships are vital",
-    "near-medieval to early-industrial tech baseline with localized ritual magic"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries exist but don't replace charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:36:30.008Z"
+  "generated_at": "2025-09-09T05:48:03.647Z"
 }

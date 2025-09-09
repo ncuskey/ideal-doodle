@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_502d996f",
+  "checksum": "fnv1a_9ad385e7",
   "burg_id": 221,
-  "name": "Burg_221",
+  "name": "Givzie",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "outpost",
-    "ritual-supply"
+    "coastal",
+    "reagent-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply depot",
-    "small-scale fishing",
-    "charter/guides"
+    "reagent trading",
+    "ferry / waystation",
+    "salt-preservation",
+    "small-scale fishing"
   ],
   "factions_local": [
-    "ritual-guild cell",
-    "harbormasters",
-    "coastal smugglers"
+    "Harbormasters' Council",
+    "Ritual Reagent Guild",
+    "Smugglers' Cell",
+    "Shrine-Keepers"
   ],
   "problems": [
-    "scarce reagents",
-    "banditry on approach paths",
-    "fragile supply lines"
+    "reagent scarcity",
+    "smuggling",
+    "tidal flooding",
+    "local corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "seafood-and-dried-fish staples",
-    "ritual etiquette around offerings"
+    "Dialect: Coastal Tongues with Riveric loanwords",
+    "Tide-festival for incoming reagent shipments",
+    "Diet: salted fish, seaweed preserves",
+    "Custom: first catch offered at shrine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "shipwreck salvage"
+    "reagent theft",
+    "shrine desecration"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind-influence rare and banned"
+    "Ritual magic consumes scarce imported reagents",
+    "No long-range mind influence; navigational auguries limited"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but charts required"
+    "Small coastal outpost on a minor inlet; population unknown",
+    "Target: Burg 221"
   ],
-  "generated_at": "2025-09-09T04:16:58.497Z"
+  "generated_at": "2025-09-09T05:29:28.890Z"
 }

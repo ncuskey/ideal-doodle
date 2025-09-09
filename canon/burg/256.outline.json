@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bbbb992b",
+  "checksum": "fnv1a_6a126e1",
   "burg_id": 256,
-  "name": "Burg_256",
-  "state_id": -1,
+  "name": "Gob",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "harbor",
-    "ritual-node"
+    "river-harbor",
+    "ritual-reagent-trade",
+    "ferry-crossing"
   ],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "timber export",
-    "ritual-lab services",
-    "small-ship repair"
+    "ferry-toll",
+    "reagent-collecting",
+    "boat-repair"
   ],
   "factions_local": [
-    "Harbormaster",
-    "Shipwrights' Knot",
-    "Ancestor Shrine Circle",
-    "Smuggling Crew"
+    "boatmasters guild",
+    "reed-harvesters",
+    "ancestor-kin council",
+    "skiff merchants"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "storm damage",
-    "bandit raids",
-    "smuggling tensions"
+    "reagent scarcity",
+    "tidal flooding",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "sea-ritual calendar governs fishing seasons",
-    "salt-preserved cuisine (fish, kelp)",
-    "strong ancestor-veneration funerary rites"
+    "Riveric Dialect with Coastal Tongue loanwords",
+    "tide-led calendar; funerary-boat rites",
+    "salted-fish cuisine; barter-heavy market"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent heist",
-    "shipwreck salvage"
+    "missing reagent shipment",
+    "rising tide threat"
   ],
   "constraints": [
-    "no instant resurrection",
     "rituals consume scarce imported reagents",
-    "limited combustion industry"
+    "no instant resurrection; long-range mind-influence banned",
+    "limited combustion industry; near-medieval tech baseline"
   ],
   "notes": [
-    "access via single rocky inlet",
-    "economy seasonal and shipping-dependent"
+    "near-medieval to early-industrial with localized ritual magic",
+    "population unknown; seasonal trade flux"
   ],
-  "generated_at": "2025-09-09T04:19:19.381Z"
+  "generated_at": "2025-09-09T05:31:36.412Z"
 }

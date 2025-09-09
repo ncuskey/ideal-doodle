@@ -1,50 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_90e4ed05",
+  "checksum": "fnv1a_919cd73c",
   "burg_id": 158,
-  "name": "Burg_158",
+  "name": "Aberanwenve",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [],
-  "size_hint": "small",
+  "size_hint": "outpost",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-supply-trading",
-    "waystation-services"
+    "Fishing",
+    "Reagent trade",
+    "Pilotage/waystation",
+    "Light craftwork"
   ],
   "factions_local": [
-    "shipmasters-circle",
-    "ritual-wardens",
-    "trader-clan"
+    "Harbormaster's Guild",
+    "Reagent House",
+    "Local Elders",
+    "Coastal Smugglers"
   ],
   "problems": [
-    "reagent-scarcity",
-    "storm-damage",
-    "bandit-raids"
+    "Reagent scarcity",
+    "Seasonal storm damage",
+    "Banditry on approach",
+    "Supply irregularity"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect influence in speech",
-    "fish-and-seaweed cuisine",
-    "ritual-status tied to material offerings",
-    "tight-knit kin groups"
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "Sea-oriented festivals and rites",
+    "Salt-preservation and smoked-fish cuisine",
+    "Polite trading rituals tied to small-scale rites"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "ritual-artifact-theft",
-    "missing-captain"
+    "Smuggling",
+    "Missing pilot",
+    "Reagent theft"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence is rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "No instant resurrection or life-replacement magic",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence is rare and banned"
   ],
   "notes": [
-    "near-medieval tech with localized ritual magic integration",
-    "serves as a resupply/waystation on coastal routes"
+    "Near-medieval to early-industrial baseline",
+    "Navigational auguries exist but do not replace charts",
+    "Combustion industry limited; no high-pressure steam tech"
   ],
-  "generated_at": "2025-09-09T04:12:53.730Z"
+  "generated_at": "2025-09-09T05:25:24.664Z"
 }

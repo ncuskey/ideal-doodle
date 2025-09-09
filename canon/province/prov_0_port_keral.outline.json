@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 0,
+  "province_id": "prov_0_port_keral",
+  "checksum": "fnv1a_1a52ca4e",
+  "name": "Port Keral",
+  "aliases": [
+    "Keral",
+    "Keral Quay",
+    "Port Keral"
+  ],
+  "tags": [
+    "port",
+    "shipyard",
+    "salt",
+    "reagent-hub",
+    "guild-hub"
+  ],
+  "role_in_state": "primary river-port and maritime gateway",
+  "economy_niches": [
+    "river transshipment and tolling",
+    "salt-processing and packing for export",
+    "shipbuilding, repair and caulking yards",
+    "ritual-reagent brokerage, storage and repackaging",
+    "guild-run pilotage and chart selling"
+  ],
+  "culture_adjustments": [
+    "more cosmopolitan and multilingual than hinterland",
+    "strong merchant-guild legal autonomy vs state norms",
+    "boat-centric kinship intensified into clan-run yards",
+    "practical Sea-Tide rituals mixed into daily port rites",
+    "faster adoption of commodified ancestor-offerings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Ancestor-Remembrance Cults",
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Merchant Brotherhood Liturgies"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "piracy and sea-raiding",
+    "timber-yard fire",
+    "guild strikes",
+    "smuggling/black-market"
+  ],
+  "constraints": [
+    "limited quay and storage space; seasonal backlog at high floods",
+    "harbor access controlled by guild licenses",
+    "ritual magic use constrained by scarce imported reagents and storage quotas"
+  ],
+  "notes": [
+    "key chokepoint for state grain and salt exports",
+    "major warehouses double as reagent-depots subject to customs inspection",
+    "apprenticeship system central to workforce and social mobility"
+  ],
+  "generated_at": "2025-09-09T05:01:57.675Z"
+}

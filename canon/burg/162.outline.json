@@ -1,51 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f094e6d7",
+  "checksum": "fnv1a_a208c0d1",
   "burg_id": 162,
-  "name": "Burg_162",
-  "state_id": 0,
+  "name": "Styr",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "river-crossing",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-supply depot",
-    "local market"
+    "ritual-ingredient trade",
+    "ferrying & tolls",
+    "grain market",
+    "boat repair"
   ],
   "factions_local": [
-    "merchant caravan guild",
-    "ritualist lodge",
-    "militia watch"
+    "River Guild",
+    "Shrine Collegium",
+    "Ferrymasters' Syndicate"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "bandit raids on routes",
-    "infrastructure neglect"
+    "reagent scarcity",
+    "seasonal flooding",
+    "guild rivalry"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in speech",
-    "trade-focused social norms",
-    "diet emphasizes preserved fish and grain"
+    "Riveric dialect heavily used",
+    "ferries blessed before voyages",
+    "diet of smoked freshwater fish and river vegetables",
+    "ritual barges used for ancestor rites"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearance of a caravan"
+    "flood-omen",
+    "reagent supply run"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Long-range mind influence is rare and institutionally banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "Population and exact location unknown",
-    "Probable minor transit/supply node on coastal or river routes"
+    "near-medieval to early industrial tech with localized ritual practices",
+    "navigational auguries exist but seamanship still required"
   ],
-  "generated_at": "2025-09-09T04:13:07.307Z"
+  "generated_at": "2025-09-09T05:25:40.162Z"
 }

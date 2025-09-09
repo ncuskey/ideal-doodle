@@ -1,54 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c416f12f",
+  "checksum": "fnv1a_55caa72",
   "burg_id": 261,
-  "name": "Burg_261",
-  "state_id": -1,
+  "name": "Sortisigen",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "river-crossing",
-    "ritual-node"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "ferry-landing",
-    "reagent-trading",
-    "fishing",
-    "seasonal-market"
+    "ritual-reagent depot",
+    "coastal fishing & salting",
+    "waystation for coastal traders",
+    "small-scale ship repairs"
   ],
   "factions_local": [
-    "Ferry Guild",
-    "Reagent Collectors",
-    "Elders' Council"
+    "Reagent Syndicate",
+    "Harbormen's Cooperative",
+    "Temple Keepers (sea cult)"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "silted-dock"
+    "reagent scarcity and price gouging",
+    "smuggling and illicit trade",
+    "isolation during storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric dialect with Coastal loanwords",
-    "Dried-fish and river-soup cuisine",
-    "Boat festivals timed to tide-rituals"
+    "Coastal Tongues with Island Creole loanwords",
+    "tide-rituals tied to daily work rhythms",
+    "diet: salted fish, preserved kelp, ship-baked bread",
+    "local crafts emphasize watertight joinery and glassware for reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-ferries",
-    "reagent-theft"
+    "reagent shortage",
+    "missing merchant ship"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "limited combustion industry; no high-pressure steam megatechs"
+    "no instant resurrection or true life-replacement magics",
+    "rituals consume scarce imported reagents"
   ],
   "notes": [
-    "Transient population; traffic-driven economy",
-    "Strategic small crossing on feeder route"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "navigational auguries used but do not replace charts/seamanship"
   ],
-  "generated_at": "2025-09-09T04:19:41.868Z"
+  "generated_at": "2025-09-09T05:31:58.701Z"
 }

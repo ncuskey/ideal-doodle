@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5ce6a9a3",
+  "checksum": "fnv1a_4acf91e2",
   "burg_id": 317,
-  "name": "Burg_317",
-  "state_id": -1,
+  "name": "Gagielt",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "river-crossing",
-    "ferry-node"
+    "riverine",
+    "waystation",
+    "ritual-supply-trade"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ferry fees",
-    "small-scale fishing",
-    "reagent transshipment",
-    "waystation services"
+    "river-port",
+    "fish-processing",
+    "ritual-ingredient trade",
+    "ferry-services"
   ],
   "factions_local": [
-    "Ferrymen's Knot",
-    "Tide-wardens",
-    "Trader caravans",
-    "Hidden Reagent Broker"
+    "harbormasters",
+    "ritual-syndicate",
+    "merchant-collective"
   ],
   "problems": [
-    "reagent scarcity",
-    "seasonal flooding",
-    "bandit predation",
-    "jurisdictional taxes"
+    "supply-scarcity",
+    "smuggling",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Speaks Riveric Dialect with Coastal Tongue loanwords",
-    "Tide and ancestor rituals shape daily schedule",
-    "Diet heavy on smoked fish and kelp preserves",
-    "Low literacy focused on navigation and ritual calendars"
+    "Riveric Dialects predominant",
+    "cargo-blessing rituals common",
+    "diet heavy on smoked fish and riverveggies"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "tidal-omen",
-    "missing-ferryman"
+    "disappearing shipments",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "rituals consume scarce imported reagents",
+    "no long-range mind influence (banned/rare)",
+    "limited combustion industry (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "Population undocumented; transient river traffic dominates",
-    "Strategic ferry node for inland trade; modest built infrastructure"
+    "population unknown; seasonal traffic varies",
+    "access limited at low-water seasons; nearby marshes supply herbs"
   ],
-  "generated_at": "2025-09-09T04:23:54.543Z"
+  "generated_at": "2025-09-09T05:35:44.034Z"
 }

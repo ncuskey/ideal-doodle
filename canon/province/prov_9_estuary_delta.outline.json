@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_estuary_delta",
+  "checksum": "fnv1a_a0392d97",
+  "name": "Estuary Delta",
+  "aliases": [
+    "Lower Estuary",
+    "Siltreach"
+  ],
+  "tags": [
+    "delta",
+    "estuarine",
+    "kelp-beds",
+    "shallow-ports"
+  ],
+  "role_in_state": "primary coastal intake and small-ship outfitting",
+  "economy_niches": [
+    "estuarine fisheries (smolt, flatfish, bivalves)",
+    "kelp and seaweed processing (fertilizer, fiber additives)",
+    "silt-salt and brine harvesting",
+    "reed-and-puddle boatcraft for shallow channels",
+    "navigational-augury waystations for inshore pilots"
+  ],
+  "culture_adjustments": [
+    "local Coastal Tongues dialect with riverine vocabulary",
+    "net- and reed-working rites more central than open-sea festivals",
+    "apprenticeship favors shallow-water skippers over oceangoing crews",
+    "ancestor rituals syncretized with river/estuary spirits"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "siltation and channel-shifting",
+    "mosquito-borne disease",
+    "smuggling corridors"
+  ],
+  "constraints": [
+    "limited deepwater berths; small-craft traffic only",
+    "seasonal tidal closures restrict trade windows",
+    "ritual reagents costly — augury limited in scale"
+  ],
+  "notes": [
+    "guild councils control charters and boatyards",
+    "salt-flat and kelp harvests run on communal permits"
+  ],
+  "generated_at": "2025-09-09T05:09:02.798Z"
+}

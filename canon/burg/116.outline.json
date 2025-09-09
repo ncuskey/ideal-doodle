@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_573ad08d",
+  "checksum": "fnv1a_b4cd5aa1",
   "burg_id": 116,
-  "name": "Burg_116",
+  "name": "Racoriorie",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "ritual-supply",
     "coastal",
+    "ritual-hub"
+  ],
+  "size_hint": "small",
+  "economy_roles": [
+    "coastal-fishing",
+    "ritual-reagents-trade",
+    "ship-repair",
     "waystation"
   ],
-  "size_hint": "outpost",
-  "economy_roles": [
-    "ritual-reagent trade",
-    "small-scale fishing",
-    "transit/waystation"
-  ],
   "factions_local": [
-    "Reagent Merchants' Syndicate",
-    "Tide-Seers (animist)",
-    "Harbormaster's House"
+    "harbor-guild",
+    "ritual-scriptorium",
+    "merchant-brotherhood",
+    "smugglers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "banditry on supply routes",
-    "ritual theft/sabotage"
+    "reagent-scarcity",
+    "smuggling",
+    "storm-damage",
+    "navigational-hazards"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
     "Coastal Tongues-influenced dialect",
-    "salt-curing and seaweed cuisine",
-    "strong tide superstitions"
+    "boat-festival and tide-rituals",
+    "salted/fermented seafood staples",
+    "contract-based ritual labor"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent heist",
-    "missing sailors"
+    "ritual-reagent-theft",
+    "lighthouse-sabotage"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "combustion industry limited"
+    "limited imported ritual reagents",
+    "no high-pressure/steam industry"
   ],
   "notes": [
-    "population unknown; functions as coastal ritual-supply outpost",
-    "navigational auguries used but local charts and seamanship essential"
+    "small strategic waystation for coastal traffic",
+    "population seasonal and under-documented"
   ],
-  "generated_at": "2025-09-09T04:10:22.718Z"
+  "generated_at": "2025-09-09T23:09:09.793Z"
 }

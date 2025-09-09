@@ -1,57 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_258e3e45",
+  "checksum": "fnv1a_2120908c",
   "burg_id": 316,
-  "name": "Burg_316",
+  "name": "Sios",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "none",
     "coastal",
-    "ritual-depot"
+    "ritual-harvest"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "harbor-waystation",
-    "ritual-supply-trading",
-    "salt-curing"
+    "fishing",
+    "harvest of ritual reagents",
+    "boat repair and ropework",
+    "local market/trade stop"
   ],
   "factions_local": [
-    "harbor-guild",
-    "shore-clan",
-    "ritual-herbalists",
-    "smugglers"
+    "Fishermens' Knot (guild)",
+    "Tide-wardens (shrine caretakers)",
+    "Elder Council of Houses",
+    "Occasional smugglers' ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "navigation-hazards",
-    "infrastructure-decay"
+    "seasonal storm damage",
+    "shortage of imported ritual reagents",
+    "sporadic banditry on approach",
+    "market isolation in bad weather"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "sea-salted cuisine; pickling common",
-    "ritual offerings integrated into trade",
-    "local taboo against public maps"
+    "Coastal Tongues dialect with riveric loanwords",
+    "strong tide-based calendar and festivals",
+    "diet heavy on smoked fish and seaweed",
+    "crafts emphasize rope, nets, and carved driftwood talismans"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "failed-ritual",
-    "missing-shipment"
+    "storm-omen investigation",
+    "disappearances at sea"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare/banned",
-    "navigation auguries cannot replace charts or seamanship"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind-influence is rare and banned"
   ],
   "notes": [
-    "state affiliation unknown; likely border/outpost",
-    "population small and transient",
-    "use NPCs: harbormaster, ritual-merchant, tide-priest"
+    "settlement clustered around a tidal cove with shallow harbor",
+    "local shrine doubles as weather-watch and ritual lab"
   ],
-  "generated_at": "2025-09-09T04:23:37.250Z"
+  "generated_at": "2025-09-09T05:35:36.726Z"
 }

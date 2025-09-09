@@ -1,57 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_2d1de535",
+  "checksum": "fnv1a_a2744415",
   "burg_id": 73,
-  "name": "Burg_73",
-  "state_id": "unknown",
+  "name": "Hordhshi",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "ritual-labor"
+    "ritual-magic",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent-gathering",
-    "waystation-trade",
-    "light-repair"
+    "salt-harvesting",
+    "boat-repair",
+    "ritual-labor"
   ],
   "factions_local": [
     "harbor-guild",
-    "Sea-Tide Shrine",
-    "coastal-clan"
+    "salt-farmers",
+    "tide-priesthood",
+    "coastal-smugglers"
   ],
   "problems": [
-    "scarcity of reagents",
-    "banditry along approaches",
-    "supply-line disruption"
+    "scarce-imports",
+    "banditry",
+    "resource-depletion"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "tide-blessing rites common",
-    "preserved seafood and smoke-curing cuisine",
-    "barter culture around ritual components"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "regular tide-offerings to ancestors",
+    "diet centered on salted fish and shellfish",
+    "local crafts: rope-weaving and net-mending"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-shrine-supplies",
-    "shipwreck-salvage"
+    "ritual-sabotage",
+    "missing-fleet"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or mind-control magics",
+    "navigational auguries augment but do not replace seamanship"
   ],
   "notes": [
-    "population unknown",
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but do not replace seamanship"
+    "population data unknown; serves as small coastal node",
+    "tech: near-medieval with localized ritual industry"
   ],
-  "generated_at": "2025-09-09T04:36:38.530Z"
+  "generated_at": "2025-09-09T05:48:16.520Z"
 }

@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3cbe430d",
+  "checksum": "fnv1a_f403bb80",
   "burg_id": 332,
-  "name": "Burg_332",
+  "name": "Gob",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-node"
+    "riverine",
+    "fishing",
+    "ritual-supply"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent-trade",
-    "small-scale-fishing",
-    "waystation-services"
+    "fishing",
+    "ritual-supply-trading",
+    "boat-repair",
+    "seasonal-market"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-workcaste",
-    "itinerant-merchant-clan"
+    "Fisherfolk Cooperative",
+    "Shrine Keepers (Ancestor cult)",
+    "Saltborne Traders",
+    "Loose Smugglers"
   ],
   "problems": [
-    "reagent-scarcity",
+    "reagent scarcity",
+    "seasonal flooding",
     "smuggling",
-    "sporadic-banditry"
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "maritime rites timed to tides and fish runs",
-    "diet: salted fish, fermented kelp"
+    "Riveric-Coastal dialect blend",
+    "Diet: smoked fish, seaweed, fermented bakes",
+    "Boats and talismans central to festivals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "missing-navigator"
+    "disappearing-fishermen",
+    "reagent-heist"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magic",
-    "long-range mind-influence banned"
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries supplementary only",
+    "long-range mind-influence is banned"
   ],
   "notes": [
-    "state administration unknown",
-    "population data unavailable",
-    "small ritual supply hub for nearby coasts"
+    "Name 'Gob': local word for 'little berth'",
+    "State authority thin; records sparse"
   ],
-  "generated_at": "2025-09-09T04:24:42.666Z"
+  "generated_at": "2025-09-09T05:36:47.389Z"
 }

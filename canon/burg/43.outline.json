@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7f0e627d",
+  "checksum": "fnv1a_16037254",
   "burg_id": 43,
-  "name": "Burg_43",
+  "name": "Ormsfield",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
-    "coastal",
-    "ritual-trade"
+    "agricultural",
+    "river-crossing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "harbor services",
-    "reagent trade",
-    "waystation resupply",
-    "fishing and salting"
+    "grain farming",
+    "mill/grist",
+    "ferry tolls",
+    "reagent-herb cultivation"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Reagent Merchants' Syndicate",
-    "Ancestor-Remembrance Circle",
-    "Volunteer Watch"
+    "Manor House",
+    "Millers' Guild",
+    "Apothecary Circle",
+    "Parish Elders"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal isolation",
-    "smuggling",
-    "religious friction"
+    "seasonal flooding",
+    "banditry on approach roads",
+    "pressure from distant merchants"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "ritualized offerings to tides and ancestors",
-    "diet heavy on salted and smoked fish"
+    "Riveric Dialect common; Coastal influences minimal",
+    "harvest and star-calendar festivals shape year",
+    "simple cuisine: flatbreads, salted cheese, preserved herbs",
+    "deferential customs toward manor and elder council"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "supply crisis",
-    "botched ritual"
+    "missing reagent shipments",
+    "flood threat",
+    "land dispute"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare and banned",
-    "combustion-derived industry limited"
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry; no steam megatechs"
   ],
   "notes": [
-    "population unknown; seasonal fluctuations likely",
-    "serves a minor channel landing and passing coastal traffic",
-    "local economy depends on passing ships and ritual consignments"
+    "near-medieval tech with localized ritual practices",
+    "ford + small ferry ties Ormsfield into a regional lane",
+    "small population; exact numbers unknown"
   ],
-  "generated_at": "2025-09-09T04:31:13.846Z"
+  "generated_at": "2025-09-09T05:43:07.771Z"
 }

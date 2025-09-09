@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a34080d5",
+  "checksum": "fnv1a_7bd0a960",
   "burg_id": 257,
-  "name": "Burg_257",
-  "state_id": 0,
+  "name": "Gobok",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-supply",
-    "waystation"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "ship provisioning",
-    "fish curing",
-    "ritual reagent depot",
-    "market transit"
+    "fishing",
+    "small-scale trade",
+    "component-processing (ritual reagents)",
+    "boat repair"
   ],
   "factions_local": [
-    "dockmasters' guild",
-    "ritual apprentices' circle",
-    "smugglers' ring"
+    "Harbor Guild",
+    "Ancestor Temple",
+    "Reagent Traders",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling and bribery",
-    "seasonal isolation"
+    "scarce imported reagents",
+    "harsh tides and siltation",
+    "coastal banditry",
+    "local graft"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect with island loanwords",
-    "ship-blessing and salt-harvest rites",
-    "diet centered on salt-cured fish and sea vegetables"
+    "Coastal Tongues dialect with nautical terms",
+    "daily offerings before sea voyages",
+    "fish-and-seaweed cuisine",
+    "knotwork and ceremonial net-mending"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual theft"
+    "reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is banned and rare",
-    "combustion industry limited — no high-pressure steam tech"
+    "no instant resurrection or long-range mind control",
+    "navigational auguries require charts and skill"
   ],
   "notes": [
-    "located on a narrow inlet; dependent on seasonal coastal traffic",
-    "navigational auguries used but local charts and seamanship required"
+    "population unknown; harbor-dependent",
+    "localized ritual craft integrated into economy",
+    "silted channels limit larger ships"
   ],
-  "generated_at": "2025-09-09T04:19:24.612Z"
+  "generated_at": "2025-09-09T05:31:37.576Z"
 }

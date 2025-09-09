@@ -1,48 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_34090475",
+  "checksum": "fnv1a_312894c8",
   "burg_id": 165,
-  "name": "Burg_165",
+  "name": "Uyagh",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-settlement",
+    "reagent-hub"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "crossroads-market",
-    "ritual-supply",
-    "herbal-trade"
+    "river-trade",
+    "reagent-brokering",
+    "timber-processing"
   ],
   "factions_local": [
-    "Merchant Brotherhood",
-    "Ancestor Shrine Wardens",
-    "Militia Council"
+    "Riverguild merchants",
+    "Ancestral-Keepers sect",
+    "Town militia"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "militia infighting"
+    "banditry on river routes",
+    "reagent scarcity/pricing",
+    "seasonal floods"
   ],
   "religion_presence": [
     "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "ritual offerings tied to salted seafood",
-    "commerce mixes coin and barter"
+    "Speaks Riveric Dialect with Coastal loanwords",
+    "Strong ancestor-veneration rituals",
+    "Diet heavy on smoked fish and river plants",
+    "Small public rites rely on imported reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "missing ritual relic",
+    "flood emergency"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "ritual magic consumes scarce imported reagents"
+    "ritual-magic requires scarce imported reagents",
+    "no instant resurrection; long-range mind-influence rare/banned"
   ],
   "notes": [
-    "population unknown; transient travelers common",
-    "strategic minor waypoint for regional trade"
+    "Target index 165: Uyagh",
+    "State unknown (state_id 0)"
   ],
-  "generated_at": "2025-09-09T04:13:27.212Z"
+  "generated_at": "2025-09-09T05:25:52.886Z"
 }

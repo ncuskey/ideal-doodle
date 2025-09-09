@@ -1,31 +1,33 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c3712e25",
+  "checksum": "fnv1a_890ec084",
   "burg_id": 31,
-  "name": "Burg_31",
+  "name": "Klearzan",
   "state_id": 0,
-  "province_id": "unknown_province",
+  "province_id": "coastal-district-7",
   "tags": [
     "coastal",
-    "ritual-supply",
-    "waystation"
+    "harbor",
+    "reagent-transit"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply",
-    "fishing",
-    "chart-copying",
-    "smuggling"
+    "harbor trade",
+    "reagent transit",
+    "salt and fish processing",
+    "small-ship repair"
   ],
   "factions_local": [
-    "ritual_guild",
-    "shipmasters_coop",
-    "coastal_militia"
+    "Harbormaster Guild",
+    "Herbalists' Circle",
+    "Smugglers' Ring",
+    "Temple Custodians"
   ],
   "problems": [
-    "reagent_scarcity",
-    "smuggling_conflicts",
-    "poor_charts"
+    "smuggling",
+    "reagent scarcity",
+    "storm damage to quays",
+    "corrupt harbor officials"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -33,23 +35,25 @@
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide-offering customs",
-    "preserved-fish staples"
+    "Coastal Tongues dialect dominant",
+    "seafood- and salt-heavy cuisine",
+    "daily rituals tied to safe passage and trade",
+    "practical ritual craft integrated with shipping"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent_heist",
-    "missing_navigator"
+    "ritual reagent theft",
+    "disappearances"
   ],
   "constraints": [
-    "no_instant_resurrection",
-    "rituals_consume_scarce_imported_reagents",
-    "navigational_auguries_do_not_replace_charts"
+    "No instant resurrection or true life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "State unknown; frontier outpost",
-    "Population unknown; seasonal flux"
+    "perched on a rocky inlet with a cramped quay",
+    "seasonal fogs and storms disrupt navigation",
+    "small population; administrative records sparse"
   ],
-  "generated_at": "2025-09-09T04:23:17.851Z"
+  "generated_at": "2025-09-09T05:35:22.855Z"
 }

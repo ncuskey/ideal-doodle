@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_760b9753",
+  "checksum": "fnv1a_13bfd9b1",
   "burg_id": 100,
-  "name": "Burg_100",
-  "state_id": 0,
+  "name": "Oz'lush",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-harbor"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
+    "fishing",
+    "reagent transshipment",
     "waystation",
-    "coastal-fishing",
-    "ritual-supply-depot"
+    "ship repair"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-collectors",
-    "local-chief",
-    "smuggler-ring"
+    "harbormaster's cadre",
+    "reagent merchants",
+    "clan council",
+    "sea-priest circle"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "unreliable-supplies"
+    "scarce imports",
+    "bandit raids",
+    "sanitation strain"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue influence in speech",
-    "ritual commerce shapes daily work",
-    "salt-preserved fish cuisine",
-    "tide-festival calendar"
+    "Coastal Tongues-influenced dialect",
+    "strong shipboard superstitions",
+    "ritualized barter for reagents",
+    "seaweed-and-shell cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-convoy",
-    "reagent-heist"
+    "reagent shortage",
+    "shipwreck salvage"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "rituals-consume-scarce-reagents"
+    "ritual magic requires scarce imported reagents",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "state unspecified; small strategic waypoint",
-    "population unknown"
+    "strategic stop on coastal routes; population transient",
+    "ambient ritual practices common but resource-limited"
   ],
-  "generated_at": "2025-09-09T04:09:14.966Z"
+  "generated_at": "2025-09-09T23:08:10.612Z"
 }

@@ -1,52 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fdd588d5",
+  "checksum": "fnv1a_ca9ad733",
   "burg_id": 396,
-  "name": "Burg_396",
+  "name": "Klear",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "crossroads",
-    "ritual-supply"
+    "harbor",
+    "ritual-lab",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
-    "ritual-trade",
-    "supply-depot"
+    "fishery",
+    "ritual reagent workshop",
+    "boat-repair",
+    "small-scale trade"
   ],
   "factions_local": [
-    "local-merchants-guild",
-    "ritual-scribe-house",
-    "riverwardens",
-    "smuggling-ring"
+    "Tidewardens (Animist cult)",
+    "Harbor Guild",
+    "Shipwrights' Syndicate",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "banditry",
-    "dependence-on-imports"
+    "reagent scarcity",
+    "corrupt harbormaster",
+    "tidal erosion",
+    "smuggling"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "mix of Coastal Tongues and Riveric idioms",
-    "commerce rituals tied to trade etiquette",
-    "preservation-heavy cuisine (dried, salted, smoked)"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "diet: salted fish, seaweed, smoked kelp",
+    "tide-blessing rites before voyages",
+    "craft: ropework and sail repair"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "missing-caravan"
+    "reagent theft",
+    "missing fishermen"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "no long-range mind influence; navigational auguries limited"
+    "no resurrection or life-replacement magics",
+    "navigational auguries do not replace seamanship"
   ],
   "notes": [
-    "population unknown; seasonal traffic flux",
-    "strategic relay for reagent and trade shipments"
+    "near-medieval to early-industrial tech baseline with localized ritual magic",
+    "state authority unclear; local guilds hold power"
   ],
-  "generated_at": "2025-09-09T04:29:04.999Z"
+  "generated_at": "2025-09-09T05:40:52.602Z"
 }

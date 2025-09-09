@@ -1,50 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f04d8a6f",
+  "checksum": "fnv1a_5bc56b93",
   "burg_id": 416,
-  "name": "Burg_416",
+  "name": "Rrar'kij",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "reagent trade",
-    "fishing",
-    "transit waystation"
+    "fishing/sea-forage",
+    "ritual-reagent trade",
+    "smuggling/transit",
+    "tidewatch services"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritual House (local)",
-    "Smugglers' Ring"
+    "Tidekeepers (animist priory)",
+    "Reagent brokers",
+    "Skiffmasters' cartel",
+    "Clan elders' council"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry",
-    "isolation"
+    "scarce imported reagents",
+    "smuggling-driven violence",
+    "tidal erosion/isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "tide-based ritual calendar",
-    "seafood-and-smoked cuisine"
+    "Coastal Tongue dialect with clipped consonants",
+    "Diet heavy on shellfish and dried seaweeds",
+    "Tidal rituals mark work and festivals",
+    "Taboos around bringing inland soil to shore"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual disruption"
+    "missing reagent shipments",
+    "rising/strange tides"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "navigational auguries cannot replace charts; long-range mind influence banned"
+    "ritual magic consumes rare imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "limited combustion industry; no high-pressure megatech"
+    "population unrecorded; transient crews common",
+    "strategic tiny harbor and tidewatch"
   ],
-  "generated_at": "2025-09-09T04:30:10.630Z"
+  "generated_at": "2025-09-09T05:42:11.873Z"
 }

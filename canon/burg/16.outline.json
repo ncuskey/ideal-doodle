@@ -1,55 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_de64e16d",
+  "checksum": "fnv1a_5f69e74e",
   "burg_id": 16,
-  "name": "Burg_16",
+  "name": "Iahzit",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "ritual-magic-node",
-    "riverine",
-    "market-crossroads"
+    "none",
+    "river-port",
+    "ritual-hub"
   ],
   "size_hint": "small",
   "economy_roles": [
+    "ritual-lab",
     "river-trade",
-    "fish-curing",
-    "ritual-reagent-trade",
     "boat-repair"
   ],
   "factions_local": [
-    "pilots-guild",
-    "merchant-collective",
-    "harbor-temple"
+    "temple-guild",
+    "river-clan",
+    "merchant-brotherhood"
   ],
   "problems": [
-    "reagent-scarcity",
-    "banditry-on-waterways",
-    "corrupt-port-officials"
+    "scarce-reagents",
+    "banditry",
+    "corruption"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Riveric Dialects dominant; Coastal Tongues understood",
-    "Tide-day ancestor rites shape business calendars",
-    "Diet: salted fish, fermented seaweed, river-grain porridges"
+    "Riveric Dialects dominant",
+    "ancestor-feasts common",
+    "boat-building craft",
+    "incense-ritual cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "tide-omen"
+    "ritual-ingredient theft",
+    "political-intrigue"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents or specialist labor",
-    "Combustion industry limited; no high-pressure steam megatechs"
+    "No instant resurrection",
+    "Rituals consume scarce imported reagents",
+    "Long-range mind influence rare/banned"
   ],
   "notes": [
-    "State affiliation unknown; functions as a minor logistics node",
-    "Population data unavailable; vulnerable to supply shocks"
+    "Near-medieval tech with localized ritual magic",
+    "Navigational auguries used but not a substitute for charts"
   ],
-  "generated_at": "2025-09-09T04:13:05.671Z"
+  "generated_at": "2025-09-09T05:25:41.287Z"
 }

@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_3a2c8309",
+  "checksum": "fnv1a_1aee6a0d",
   "burg_id": 85,
-  "name": "Burg_85",
+  "name": "Andomapurno",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "none",
     "coastal",
-    "harbor"
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "saltworks",
-    "ritual-harbor services",
-    "smuggling"
+    "small-scale trade",
+    "ritual-lab-supplies",
+    "salt-harvesting"
   ],
   "factions_local": [
-    "Harbormaster's Council",
-    "Salters' Guild",
-    "Pilgrim Order (Sea-Tide)",
-    "Smugglers' Clique"
+    "Harbor Guild",
+    "Tidekin Priesthood",
+    "Smugglers' Knot",
+    "Guild of Rites"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "smuggling and law evasion",
-    "periodic tidal storms damaging wharves"
+    "scarcity of ritual reagents",
+    "coastal erosion and flooding",
+    "smuggling and illicit trade",
+    "local corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with clipped nautical terms",
-    "tide-blessing customs and communal low-tide rites",
-    "diet heavy on salted fish, seaweed, and preserved shellfish"
+    "speaks Coastal Tongues dialect",
+    "tide festivals central to calendar",
+    "diet: smoked fish, seaweed, preserved salt",
+    "seamanship rituals linked to navigation auguries"
   ],
   "quest_hook_slots": [
+    "smuggling",
     "reagent theft",
-    "tide-spirit unrest",
-    "smuggling crackdown"
+    "disappearances"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "no high-pressure steam megatechs"
+    "ritual reagents scarce and costly",
+    "no instant resurrection magics",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "near-medieval to early-industrial coastal tech",
-    "navigational auguries used but do not replace charts",
-    "population small/outpost; exact numbers unknown"
+    "near-medieval to early-industrial tech baseline",
+    "navigational auguries used alongside charts and seamanship"
   ],
-  "generated_at": "2025-09-09T04:37:26.418Z"
+  "generated_at": "2025-09-09T05:49:00.016Z"
 }

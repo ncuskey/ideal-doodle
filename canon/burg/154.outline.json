@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b638c4a5",
+  "checksum": "fnv1a_963f48af",
   "burg_id": 154,
-  "name": "Burg_154",
+  "name": "Siosvil",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-harbor"
+    "harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "ritual-supply provisioning",
-    "transshipment/waystation",
-    "smuggling conduit"
+    "small-scale trade",
+    "saltworks",
+    "ritual-supply workshop"
   ],
   "factions_local": [
-    "Harbormaster's Crew",
-    "Shrine-Keepers (sea rites)",
-    "Riggers' Consortium",
-    "Shadow-Lighters (smugglers)"
+    "Harbor Guild",
+    "Ritual Coterie",
+    "Coastal Clan",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarcity of imported ritual reagents",
-    "seasonal storm damage",
-    "smuggling-driven corruption",
-    "banditry on hinterland roads"
+    "reagent scarcity",
+    "isolation",
+    "smuggling",
+    "seasonal storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Dialect: Coastal Tongues variant with nautical slang",
-    "Cuisine: salted fish, seaweed preserves, fermented shellfish",
-    "Customs: nightly tide-offerings and small ancestor-safety rites before voyages",
-    "Skills: ropework, sail-repair, small-boat seamanship"
+    "speaks Coastal Tongues dialect",
+    "single-family longhouses",
+    "diet heavy on preserved fish",
+    "boat-feast communal rites"
   ],
   "quest_hook_slots": [
     "smuggling",
     "stolen ritual reagents",
-    "disappearances at sea"
+    "missing fishermen"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no long-range mind-control or instant resurrection"
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "navigational auguries supplemental only"
   ],
   "notes": [
-    "population unknown; functions as minor coastal stop and ritual supply point",
-    "limited defensive works; reliant on natural harbor and armed boats"
+    "population unknown; transient seafarers common",
+    "limited infrastructure; pier and salt pans are main assets"
   ],
-  "generated_at": "2025-09-09T04:12:42.846Z"
+  "generated_at": "2025-09-09T05:25:16.208Z"
 }

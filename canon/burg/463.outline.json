@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f7acac6f",
+  "checksum": "fnv1a_d905717b",
   "burg_id": 463,
-  "name": "Burg_463",
-  "state_id": -1,
+  "name": "Blushair",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "dye-production"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "waystation/relay",
-    "reagent depot",
-    "coastal fishing",
-    "pilotage/guide services"
+    "fishing",
+    "blush-dye production",
+    "shore-trade",
+    "ritual-labor services"
   ],
   "factions_local": [
-    "harbormaster's clique",
-    "reagent brokers",
-    "pilgrim lodge",
-    "shadow skiff crew"
+    "Fisherfolk Guild",
+    "Dyer's Circle",
+    "Pilgrim House (Ancestor rites)",
+    "Hidden Freighters"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "bandit/smuggler raids",
-    "silted/treacherous channel",
-    "administrative corruption"
+    "reagent-scarcity",
+    "seasonal-storm damage",
+    "smuggling",
+    "overfishing"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "ritual token exchange common in trade",
-    "diet heavy on smoked/fermented seafood",
-    "customary tipping of pilots with small votive offerings"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "local cuisine heavy on shellfish and seaweed",
+    "dyeing and tattoo traditions tied to identity",
+    "tide-time ancestor memorials"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "strange tides/omens"
+    "dye-curse",
+    "missing-ritual-reagent"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "no high-pressure steam megatechs"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "long-range-mind-influence banned"
   ],
   "notes": [
-    "serves as transshipment point for ritual supplies",
-    "local pilots hold outsized informal power"
+    "small seasonal port; supply lines sporadic",
+    "population unknown; transient crews common",
+    "blush dye is a prized local craft and trade good"
   ],
-  "generated_at": "2025-09-09T04:33:36.279Z"
+  "generated_at": "2025-09-09T05:45:16.797Z"
 }

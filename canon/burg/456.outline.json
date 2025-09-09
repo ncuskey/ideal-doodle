@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_59e74807",
+  "checksum": "fnv1a_83981f65",
   "burg_id": 456,
-  "name": "Burg_456",
-  "state_id": -1,
+  "name": "Chox",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
+    "crossroads",
     "ritual-node"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small harbor",
-    "ritual reagent trade",
-    "fishing",
-    "waystation"
+    "ritual-lab",
+    "local-trade",
+    "foraging"
   ],
   "factions_local": [
-    "Shrine Circle",
-    "Harbormasters' Syndicate",
-    "Smugglers' Crows",
-    "Militia Watch"
+    "Ancestor Circle",
+    "Tide-Feoff",
+    "Merchant Tally"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "isolated supply lines",
-    "storm damage"
+    "reagent-scarcity",
+    "banditry",
+    "guild-corruption"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "tide-superstitions and morning offerings",
-    "salt-preserved cuisine",
-    "ritual songs at dawn"
+    "Riveric dialect with Coastal loanwords",
+    "ancestor-feasts timed to tides",
+    "simple fish-and-forage cuisine"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances"
+    "missing-ritual-components",
+    "ancestral-curse"
   ],
   "constraints": [
-    "no instant resurrection",
-    "long-range mind influence banned",
-    "rituals consume scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind-influence rare and banned",
+    "navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "tech: near-medieval to early industrial with localized ritual magic",
-    "population unknown; likely small outpost",
-    "strategic waypoint for coastal trade"
+    "small stop for nearby coastal/river traffic",
+    "services limited; important local hub for ritual supply exchanges"
   ],
-  "generated_at": "2025-09-09T04:33:06.699Z"
+  "generated_at": "2025-09-09T05:44:45.481Z"
 }

@@ -1,51 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_400281ad",
+  "checksum": "fnv1a_aa6fd789",
   "burg_id": 130,
-  "name": "Burg_130",
+  "name": "Corieltauva",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waystation"
+    "none",
+    "riverine"
   ],
-  "size_hint": "outpost",
+  "size_hint": "medium",
   "economy_roles": [
-    "waystation",
-    "ritual-reagent trade",
-    "small-scale fishing"
+    "ritual-ingredient trade",
+    "river-trade hub",
+    "fishing",
+    "boatbuilding"
   ],
   "factions_local": [
-    "harbormaster guild",
-    "ritualist traders",
-    "smugglers' ring"
+    "Temple Circle",
+    "Skippers' Consortium",
+    "Merchant House"
   ],
   "problems": [
-    "scarcity of ritual reagents",
-    "coastal banditry",
-    "contested tidal shoals"
+    "reagent scarcity",
+    "banditry on river",
+    "seasonal flooding"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "evening tide-offerings common",
-    "diet heavy on salted and smoked fish"
+    "Riveric dialect dominant",
+    "boat-funerals and ancestor wakes",
+    "smoked-salted fish cuisine",
+    "processional barges with ritual carvings"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances at sea"
+    "missing ritual ingredient",
+    "disappearing barge"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no true life-replacement or instant resurrection"
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "serves as coastal resupply point for ritual routes",
-    "strategic shoals complicate navigation"
+    "near river mouth and salt marsh",
+    "seasonal trade peak at low water"
   ],
-  "generated_at": "2025-09-09T04:11:10.749Z"
+  "generated_at": "2025-09-09T23:10:13.063Z"
 }

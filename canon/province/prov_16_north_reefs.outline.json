@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 16,
+  "province_id": "prov_16_north_reefs",
+  "checksum": "fnv1a_eb70d8b8",
+  "name": "North Reefs",
+  "aliases": [
+    "North Reef Archipelago",
+    "Reefward"
+  ],
+  "tags": [
+    "coastal",
+    "reef-archipelago",
+    "pilotage",
+    "saltpans",
+    "ship-repair"
+  ],
+  "role_in_state": "pilotage and reef-harvest hub",
+  "economy_niches": [
+    "reef fisheries and sponge harvest",
+    "careening & ship repair yards",
+    "saltpans on sheltered cayes",
+    "pilotage and lead-node maintenance",
+    "coral/sponge reagents for rituals"
+  ],
+  "culture_adjustments": [
+    "tide-rituals focused on reef spirits and shoal-sentience",
+    "boat-kinship binds crews across dispersed cay settlements",
+    "local reef-chants and reef-mapping lore variant from state canon",
+    "pilot and yard guilds dominate craft transmission",
+    "strict conservation taboos around breeding shoals"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "reef-storms",
+    "shipwrecks & salvage conflicts",
+    "navigation/charting errors",
+    "resource depletion (sponges/coral)"
+  ],
+  "constraints": [
+    "limited freshwater and arable land",
+    "fragile reefs restrict heavy industry",
+    "ritual reagent exports regulated by guild monopolies"
+  ],
+  "notes": [
+    "essential transit lane for State_16 shipping",
+    "local guilds control lighthouses and pilot licences",
+    "settlements are dispersed cay hamlets and yard clusters"
+  ],
+  "generated_at": "2025-09-09T05:05:36.996Z"
+}

@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 5,
+  "province_id": "prov_5_high_cliffs_watch",
+  "checksum": "fnv1a_949a6a35",
+  "name": "High Cliffs Watch",
+  "aliases": [
+    "High Cliffs",
+    "The Watch"
+  ],
+  "tags": [
+    "coastal",
+    "watch",
+    "navigational",
+    "strategic"
+  ],
+  "role_in_state": "sea-approach early-warning and augury beacon network",
+  "economy_niches": [
+    "augury-assisted beacon services and navigational consultancy",
+    "cliffside saltworks and fish smoke-drying",
+    "emergency ship repair and hull care for small/mid vessels",
+    "reagent storage, repackaging and transshipment for ritual use",
+    "garrison provisioning and watch-house supply trade"
+  ],
+  "culture_adjustments": [
+    "sentinel ethos: rotational watch duty overrides clan cycles",
+    "ritual practice oriented toward storm-control and beacon rites",
+    "guild oversight stricter for augury practitioners and beacon-keepers",
+    "hospitality narrowed to maritime travelers and distressed crews"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "cliff-erosion",
+    "storm-surge",
+    "fog-driven navigational hazard",
+    "smuggling and pirate landings"
+  ],
+  "constraints": [
+    "scarce flat land limits shipyard scale",
+    "ritual auguries consume imported reagents and specialized labor",
+    "exposed winds restrict large combustion-driven installations"
+  ],
+  "notes": [
+    "primary early-warning node for State_5 sea lanes",
+    "beacon rituals supplement but do not replace charts and seamanship",
+    "harbors accommodate only small to mid-sized vessels; transshipment common"
+  ],
+  "generated_at": "2025-09-09T05:07:43.633Z"
+}

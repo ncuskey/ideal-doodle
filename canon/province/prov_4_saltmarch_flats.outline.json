@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 4,
+  "province_id": "prov_4_saltmarch_flats",
+  "checksum": "fnv1a_21e56bf4",
+  "name": "Saltmarch Flats",
+  "aliases": [
+    "Salt Marsh",
+    "The Flats"
+  ],
+  "tags": [
+    "coastal",
+    "marsh",
+    "salt-production",
+    "transshipment"
+  ],
+  "role_in_state": "Primary saltworks and low-tide transshipment flats",
+  "economy_niches": [
+    "Salt evaporation ponds & brine harvesting",
+    "Cured fish, kelp and brine-preserve workshops",
+    "Tidal staging and light repair for small craft",
+    "Reed-thatch and brine-resistant carpentry",
+    "Seasonal labor provision for augury crews"
+  ],
+  "culture_adjustments": [
+    "Seasonal, migrant-heavy population over stable guild cores",
+    "Weaker formal guild control; reliance on informal crews and contractors",
+    "Marsh-born Coastal Tongues dialect with many nautical idioms",
+    "Practical fatalism toward drownings and storm loss",
+    "Higher tolerance for smugglers and transient merchants"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "seasonal inundation",
+    "brine-soil exhaustion",
+    "salt theft and smuggling",
+    "reed-fire spread",
+    "marsh fevers"
+  ],
+  "constraints": [
+    "scarce fresh water for large settlements",
+    "poor load-bearing ground limits large shipyards",
+    "ritual magic consumes imported reagents, raising costs"
+  ],
+  "notes": [
+    "Vital supplier of salt and preserved provisions for State_4 fleets",
+    "Hosts small navigational-augury posts tied to tide-ritual timings",
+    "Labor peaks align with low-tide harvest windows"
+  ],
+  "generated_at": "2025-09-09T05:06:47.011Z"
+}

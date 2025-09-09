@@ -1,48 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b35eb7d9",
+  "checksum": "fnv1a_c4c03b36",
   "burg_id": 286,
-  "name": "Burg_286",
+  "name": "Linden",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "riverside",
+    "timber",
+    "ritual-market"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal fishing",
-    "saltworks",
-    "ritual reagent gathering"
+    "timber-harvest",
+    "boat-repair",
+    "ritual-supplies-trade",
+    "local-market"
   ],
   "factions_local": [
-    "Harvester Cooperative",
-    "Ancestor-Keepers",
-    "Militia Watch"
+    "Millers' Guild",
+    "Boatwrights' Lodge",
+    "Ritual Merchants",
+    "Riverwatch"
   ],
   "problems": [
-    "scarce imported reagents",
-    "smuggling raids",
-    "coastal erosion"
+    "seasonal-flooding",
+    "resource-scarcity",
+    "bandit-raids",
+    "ritual-debt"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "seafood and kelp staples",
-    "night-sail taboos and lunar rites"
+    "speaks Riveric Dialects",
+    "annual linden-tree festival with boat-procession",
+    "diet: smoked fish, linden-honey preserves",
+    "weekly ritual-market for reagent trade"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "ancestral unrest"
+    "festival-saboteur",
+    "missing-boat-crews"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection or long-range mind-control magics"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-imported-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech; ritual magic common",
-    "Navigational auguries used but seamanship required"
+    "state_id unknown represented as 0",
+    "small river-trade hub serving nearby linden groves"
   ],
-  "generated_at": "2025-09-09T04:21:27.399Z"
+  "generated_at": "2025-09-09T05:33:40.322Z"
 }

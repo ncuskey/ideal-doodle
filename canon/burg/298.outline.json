@@ -1,53 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c48a2daf",
+  "checksum": "fnv1a_65b3a2d0",
   "burg_id": 298,
-  "name": "Burg_298",
-  "state_id": 0,
+  "name": "Adnictum",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost"
+    "none"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-reagents",
-    "waystation"
+    "ritual-supply",
+    "waystation",
+    "local-trade"
   ],
   "factions_local": [
-    "Dockworkers' Guild",
-    "Tide-Ritualists",
-    "Skiff-Masters",
-    "Smuggler Crew"
+    "Harbormaster's Lodge",
+    "Ritualist Circle",
+    "Merchant Brotherhood Cell",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent scarcity",
+    "scarce-ritual-reagents",
     "banditry",
-    "hazardous shoals"
+    "coastal-storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks Island Creole with Coastal Tongue influences",
-    "strong tide-rituals and ancestor observances",
-    "diet: salted fish, seaweed stews, fermented brews"
+    "Coastal Tongues influence in speech",
+    "seafaring and dried-fish cuisine",
+    "ancestor-veneration integrated into daily ritual",
+    "local dialect borrows ritual terms"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing lighthouse keeper",
-    "reagent heist"
+    "ritual-failure",
+    "missing-shipment"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "navigational auguries cannot replace charts and seamanship"
+    "rituals-consume-scarce-imported-reagents",
+    "no-instant-resurrection-or-life-replacement-magic",
+    "navigational-auguries-cannot-replace-charts-or-seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "combustion industry limited; no high-pressure steam megatechs"
+    "near-medieval to early-industrial tech with localized ritual magic",
+    "population unknown; strategic minor harbor/outpost"
   ],
-  "generated_at": "2025-09-09T04:22:28.437Z"
+  "generated_at": "2025-09-09T05:34:23.959Z"
 }

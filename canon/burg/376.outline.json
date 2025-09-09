@@ -1,48 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_9abca68d",
+  "checksum": "fnv1a_a17b8c29",
   "burg_id": 376,
-  "name": "Burg_376",
+  "name": "Kas",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-port",
+    "silted-harbor",
+    "ritual-craft"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal-fishing",
-    "reagent-trade",
-    "waystation/transit"
+    "river-trade",
+    "fishing",
+    "boat-repair",
+    "ritual-labor"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ancestor-Remembrance Circle",
-    "Smuggler Crew"
+    "merchant-guild",
+    "ancestral-priests",
+    "boatmen-union",
+    "smugglers-cell"
   ],
   "problems": [
-    "scarcity-of-ritual-reagents",
-    "bandit/brigand raids",
-    "deteriorating-piers"
+    "reagent-scarcity",
+    "banditry",
+    "seasonal-flooding"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "dialect: Coastal Tongues variant",
-    "custom: offerings before voyages",
-    "cuisine: salted fish, seaweed preserves"
+    "Riveric-Coastal dialect blend",
+    "strong ancestor-veneration customs",
+    "diet: salted fish and river rice",
+    "departure rituals for traders"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "haunted-shore"
+    "reagent-shortage",
+    "ancestral-omen"
   ],
   "constraints": [
-    "ritual-magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare/banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or long-range mind control",
+    "navigational auguries cannot replace charts or seamanship"
   ],
   "notes": [
-    "state affiliation unknown",
-    "population data unavailable; small/transient community"
+    "strategic river-mouth location; harbor silts in dry season",
+    "local boatmen enforce nightly tolls and harbor rules"
   ],
-  "generated_at": "2025-09-09T04:27:30.960Z"
+  "generated_at": "2025-09-09T05:39:34.521Z"
 }

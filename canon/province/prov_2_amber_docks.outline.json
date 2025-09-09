@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_amber_docks",
+  "checksum": "fnv1a_6456bff4",
+  "name": "Amber Docks",
+  "aliases": [
+    "Amber Quay",
+    "Amber Slip",
+    "Amber Harbor"
+  ],
+  "tags": [
+    "coastal",
+    "maritime-hub",
+    "dockyard",
+    "re-export"
+  ],
+  "role_in_state": "Primary shipbuilding and re-export hub",
+  "economy_niches": [
+    "shipbuilding, repair and outfitting",
+    "long-distance provisioning & chandlery",
+    "salt-curing and preserved-fish export",
+    "warehousing and re-export of ritual reagents",
+    "charter finance, brokers and maritime insurance"
+  ],
+  "culture_adjustments": [
+    "Guilds hold greater day-to-day power than inland clan-houses",
+    "Harbor augury rituals routinized into sailing schedules",
+    "Practical language mixing with islander Coastal Tongues variants",
+    "Commercialized seafaring superstitions used in marketing",
+    "Patronage networks oriented around shipping lines, not landholdings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / floodplain",
+    "smuggling & contraband",
+    "dockworker strikes / labor unrest",
+    "theft of ritual reagents",
+    "fire in timber yards"
+  ],
+  "constraints": [
+    "Limited heavy steam industry; shipyards rely on timber and low-pressure mechanisms",
+    "Ritual magic requires imported reagents that must be stored and guarded"
+  ],
+  "notes": [
+    "Navigational auguries practiced locally but do not replace charts or seamanship",
+    "Merchant Brotherhood controls many port licenses and dispute arbitration"
+  ],
+  "generated_at": "2025-09-09T05:05:59.550Z"
+}

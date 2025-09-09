@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 8,
+  "province_id": "prov_8_saltmarsh_flats",
+  "checksum": "fnv1a_24aba0b8",
+  "name": "Saltmarsh Flats",
+  "aliases": [
+    "The Flats",
+    "Salt-Marshes",
+    "Flat Pans"
+  ],
+  "tags": [
+    "wetlands",
+    "salt-works",
+    "reagent-processing",
+    "provisioning"
+  ],
+  "role_in_state": "Primary salt and ritual-reagent supplier for coastal trade",
+  "economy_niches": [
+    "Salt evaporation and refining",
+    "Tidal/estuary fisheries (oysters, brine shrimp)",
+    "Ritual-reagent processing (evaporites, concentrated brines)",
+    "Reed and peat harvesting for shipyards and fuel",
+    "Seasonal provisioning for coastal fleets"
+  ],
+  "culture_adjustments": [
+    "Local timekeeping uses micro-tide cycles rather than broad sea-calendar",
+    "Guild ownership of pans and flats central to social order",
+    "Ship-naming rituals adapted to salt-works (pan/pond and crew oaths)",
+    "Ancestor rites emphasize drowned kin and tidal offerings"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "storm-surge",
+    "salt-encroachment of arable land",
+    "banditry targeting salt caravans",
+    "seasonal labor shortages"
+  ],
+  "constraints": [
+    "Unstable, waterlogged ground limits heavy construction",
+    "High soil salinity prevents cereal agriculture",
+    "Ritual processing depends on scarce imported reagents",
+    "Seasonal inaccessibility at extreme tides"
+  ],
+  "notes": [
+    "Evaporation pans largely guild-owned and significant state tax revenue",
+    "Local Coastal Tongues dialect rich in saltwork jargon",
+    "Key node for provisioning ships and supplying ritual economies"
+  ],
+  "generated_at": "2025-09-09T05:08:38.009Z"
+}

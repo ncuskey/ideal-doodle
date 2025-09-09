@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f82a686d",
+  "checksum": "fnv1a_f07991df",
   "burg_id": 208,
-  "name": "Burg_208",
-  "state_id": -1,
+  "name": "Mursoli",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "waystation"
+    "river-port",
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "ritual-workshops (reagent services)",
-    "provisioning/waystation",
-    "light ship repair"
+    "riverine fishing",
+    "small-scale trade",
+    "ritual-service provisioning",
+    "boat repair"
   ],
   "factions_local": [
-    "Sea-Tide shrine keepers",
-    "Saltworkers/boatwrights guild",
-    "Loose smuggling crew"
+    "harbor masters' guild",
+    "Ancestor Shrine Custodians",
+    "pilots' cooperative",
+    "smugglers' network"
   ],
   "problems": [
-    "reagent scarcity",
-    "supply intermittency",
-    "storm damage vulnerability"
+    "reagent scarcity for rituals",
+    "banditry along estuary",
+    "tidal flooding and siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole dialect with Coastal Tongue loanwords",
-    "tide-offering customs and nightly lamp processions",
-    "diet: salted/fermented fish, tubers; communal hull-feasts"
+    "Riveric dialect with Coastal Tongue loanwords",
+    "launching rites tied to tide and ancestors",
+    "diet heavy on smoked fish and sea plants"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen ritual reagents",
-    "failed tide-ritual"
+    "missing ritual reagents",
+    "tidal omens"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no resurrection/true life-replacement magic"
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is banned locally",
+    "limited combustion industry; no high-pressure steam tech"
   ],
   "notes": [
-    "population unknown; relies on irregular supply runs",
-    "navigational augury used but charts and seamanship remain essential"
+    "at mouth of a silting river; pilots rely on navigational auguries",
+    "jurisdiction muddled between inland and coastal authorities"
   ],
-  "generated_at": "2025-09-09T04:16:01.666Z"
+  "generated_at": "2025-09-09T05:28:32.324Z"
 }

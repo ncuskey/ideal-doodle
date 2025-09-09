@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_19a55d45",
+  "checksum": "fnv1a_d3eaff21",
   "burg_id": 92,
-  "name": "Burg_92",
-  "state_id": -1,
+  "name": "Iubhrach",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor"
+    "fishing",
+    "remote"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing and salted-fish trade",
-    "ritual-reagent brokerage",
-    "boat repair and ropeworks",
-    "seasonal smuggling"
+    "fishing",
+    "kelp-harvest",
+    "boat-repair",
+    "ritual-shrine-services"
   ],
   "factions_local": [
-    "Harbormaster's Guild",
-    "Ancestral Shrine Keepers",
-    "Smugglers' Ring",
-    "Merchant Brotherhood agent post"
+    "harbor-guild",
+    "clan-house",
+    "shrine-custodians",
+    "smugglers"
   ],
   "problems": [
-    "shortage of imported ritual reagents",
-    "banditry along inlet channels",
-    "siltation and harbor maintenance",
-    "local corruption of permit system"
+    "reagent-scarcity",
+    "isolation",
+    "coastal-erosion",
+    "banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole loanwords",
-    "diet centered on salted fish, seaweed, and shellfish",
-    "tide-linked rituals and seasonal boat blessings",
-    "crafts: net-making, tarred rope, small-boat carpentry"
+    "Highland Cant with Coastal Tongues loanwords",
+    "diet centered on shellfish, kelp, smoked fish",
+    "strong ancestor-sea offerings and tide-watch rituals",
+    "boat-decoration and ropework crafts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "mysterious wreck"
+    "missing-fishermen",
+    "reagent-theft"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "rituals require scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence is rare and banned"
   ],
   "notes": [
-    "navigational auguries used but do not replace charts",
-    "small harbor requires annual dredging; dredge taxes contentious"
+    "accessible by small boats only; rocky inlet",
+    "population unknown; seasonal fishing boom",
+    "local shrine runs tide-watch and weather-augury services"
   ],
-  "generated_at": "2025-09-09T04:37:54.213Z"
+  "generated_at": "2025-09-09T05:49:31.446Z"
 }

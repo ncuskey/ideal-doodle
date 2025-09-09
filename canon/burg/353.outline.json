@@ -1,55 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_87159a63",
+  "checksum": "fnv1a_f50db912",
   "burg_id": 353,
-  "name": "Burg_353",
-  "state_id": 0,
+  "name": "Treaq",
+  "state_id": -1,
   "province_id": "unknown",
-  "tags": [
-    "riverine",
-    "ritual-lab"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "rite-for-hire",
-    "boat repair",
-    "waystation trade"
+    "reagent trade hub",
+    "small fishing fleet",
+    "coastal waystation",
+    "transshipment point (occasional smuggling)"
   ],
   "factions_local": [
-    "ritual guild",
-    "boatmen's crew",
-    "merchant middlemen"
+    "Harbor Syndicate",
+    "Shrine of Tidal Recall",
+    "Coastal Pilots' Guild",
+    "Smugglers' Circle"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal floods",
-    "bandit raids"
+    "bandit raids on supply boats",
+    "corrupt dockmaster"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric dialect dominant",
-    "fish-and-rice cuisine",
-    "public river-rituals at dawn",
-    "strong kinship obligations"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ritualized barter around ritual reagents",
+    "salt-preserved cuisine",
+    "nightly tide-singing tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagents",
-    "ritual malfunction"
+    "reagent shortage",
+    "tidal omens"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "long-range mind influence rare and banned",
-    "limited combustion-derived industry"
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries cannot replace charts or seamanship",
+    "no instant resurrection or true life-replacement magics"
   ],
   "notes": [
-    "navigational auguries used but do not replace charts",
-    "near-medieval tech with localized ritual magic",
-    "supply lines seasonal"
+    "Near-medieval to early-industrial tech; ritual magic materially important",
+    "state affiliation unknown — functions like a border/coastal outpost"
   ],
-  "generated_at": "2025-09-09T04:26:04.133Z"
+  "generated_at": "2025-09-09T05:38:11.609Z"
 }

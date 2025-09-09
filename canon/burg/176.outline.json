@@ -1,49 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8a5dc395",
+  "checksum": "fnv1a_4b63105",
   "burg_id": 176,
-  "name": "Burg_176",
+  "name": "Aberkinver",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "harbor",
+    "ritual-lab"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-labour depot",
-    "fishing support",
-    "waystation trade"
+    "fishing",
+    "piloting/navigation",
+    "reagent-trade",
+    "smuggling"
   ],
   "factions_local": [
-    "ritual-guild cell",
-    "harbor cooperative",
-    "itinerant merchants"
+    "Harbor Master's House",
+    "Tide-Caller Fellowship",
+    "Smugglers' Ring",
+    "Dockworkers' Cooperative"
   ],
   "problems": [
-    "reagent scarcity",
-    "supply isolation",
+    "scarce ritual reagents",
+    "smuggling crackdowns",
+    "seasonal storms",
     "coastal erosion"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "sea-oriented cuisine (dried fish, kelp)",
-    "ritual calendar tied to tides"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "annual tide-festivals and boat-burials",
+    "diet heavy in salted fish and kelp",
+    "widespread use of braided tide-charms"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing ritualist"
+    "shipwreck salvage",
+    "stolen reagents"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "ritual magic consumes scarce imported reagents or specialist local labor",
-    "long-range mind influence rare and institutionally banned"
+    "Rituals require scarce imported reagents",
+    "Navigational auguries cannot replace charts or seamanship",
+    "Long-range mind-influence is rare and institutionally banned"
   ],
   "notes": [
-    "population data unavailable; transient and small",
-    "serves as resupply point on coastal routes"
+    "strategic estuary pilotage point with weak port authority",
+    "population small; census unreliable"
   ],
-  "generated_at": "2025-09-09T04:14:01.258Z"
+  "generated_at": "2025-09-09T05:26:40.501Z"
 }

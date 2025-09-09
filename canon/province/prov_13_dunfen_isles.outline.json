@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_dunfen_isles",
+  "checksum": "fnv1a_2fbcb529",
+  "name": "Dunfen Isles",
+  "aliases": [
+    "Dunfen",
+    "Dunfen Archipelago"
+  ],
+  "tags": [
+    "islands",
+    "maritime-hub",
+    "reagent-transit",
+    "salt-works"
+  ],
+  "role_in_state": "Island shipbuilding, salt & reagent transshipment node",
+  "economy_niches": [
+    "smallcraft shipbuilding and repair",
+    "salt pans and brine-processing",
+    "coastal fisheries and drying yards",
+    "reagent transshipment and bonded storage",
+    "longshore trade and lighterage services"
+  ],
+  "culture_adjustments": [
+    "Port-cant colored by Island Creole borrowings",
+    "Clan-led cooperative labor often supersedes guild practice",
+    "Tide-centric auguries more frequent and locally elaborate",
+    "Literacy skewed toward seamanship/accounting, less inland law",
+    "Seasonal seabird/kelp rites regulate harvest rights"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-exposure",
+    "reef-wrecks",
+    "maritime piracy",
+    "reagent-smuggling",
+    "overfishing"
+  ],
+  "constraints": [
+    "scarce arable land",
+    "dependence on imported ritual reagents",
+    "limited heavy/large-hull industrialization by tech and regulation"
+  ],
+  "notes": [
+    "Pier-guilds enforce bonded reagent storage and access rules",
+    "Tide-augury seasons narrow safe trading windows",
+    "Salt works operate via clan-guild labor-sharing agreements"
+  ],
+  "generated_at": "2025-09-09T05:04:32.646Z"
+}

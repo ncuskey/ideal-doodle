@@ -1,52 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_da195269",
+  "checksum": "fnv1a_7cd74c5c",
   "burg_id": 383,
-  "name": "Burg_383",
-  "state_id": -1,
+  "name": "Gobringai",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-stop"
+    "coastal",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-service",
-    "waystation",
-    "forager-supply"
+    "fishing and salt-curing",
+    "ritual reagent trade",
+    "boat repair and carpentry",
+    "small-scale smuggling"
   ],
   "factions_local": [
-    "ritual-house",
-    "traders-syndicate",
-    "border-militia"
+    "Shrine Circle (sea-tide priests)",
+    "Skippers' Cooperative",
+    "Reagent Merchant House",
+    "Harbor Wardens"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-isolation"
+    "scarcity of ritual reagents",
+    "seasonal storm damage",
+    "covert smuggling and bribery"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
-    "Sea-Tide Animisms"
+    "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence in speech",
-    "strong ancestor-veneration rituals",
-    "sea-supplied simple diet"
+    "speaks Coastal Tongues with Riveric loanwords",
+    "strong ancestor-veneration in maritime rites",
+    "diet: salted fish, seaweed, simple fermented goods"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-run",
-    "disappearances"
+    "ritual reagent theft",
+    "disappearing boats"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "no instant resurrection or life-replacement magic",
+    "ritual magic consumes scarce imported reagents",
+    "limited combustion/steam industry"
   ],
   "notes": [
-    "population unknown; remote waypoint",
-    "strategic for ritual pilgrims and small-scale trade"
+    "tech: near-medieval to early industrial with ritual magic",
+    "navigational auguries used but do not replace seamanship"
   ],
-  "generated_at": "2025-09-09T04:27:56.249Z"
+  "generated_at": "2025-09-09T05:39:58.463Z"
 }

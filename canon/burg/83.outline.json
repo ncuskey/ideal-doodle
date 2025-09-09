@@ -1,52 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_eba10855",
+  "checksum": "fnv1a_d658d57a",
   "burg_id": 83,
-  "name": "Burg_83",
-  "state_id": -1,
+  "name": "Totham",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "ritual-magic"
+    "river-port",
+    "ritual-harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-depot",
-    "fishing",
-    "waystation"
+    "river trade",
+    "fisheries",
+    "reagent brokerage",
+    "boat maintenance"
   ],
   "factions_local": [
-    "fishermen-guild",
-    "ritual-keepers",
-    "trader-cooperative"
+    "Boatmen Guild",
+    "Dockmaster's Council",
+    "Reagent Wardens",
+    "Ancestor Shrine Keepers"
   ],
   "problems": [
-    "scarcity-of-reagents",
-    "supply-line-disruption",
-    "banditry"
+    "reagent scarcity",
+    "river banditry",
+    "corrupt dock fees"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues variant",
-    "seafood-heavy cuisine",
-    "ritual offerings for safe passage"
+    "Riveric Dialects dominant",
+    "tide-wakes and ancestor offerings",
+    "smoked fish with sea-salt spice"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-heist",
-    "missing-lighthouse-keeper"
+    "missing cargo",
+    "ritual reagent theft"
   ],
   "constraints": [
-    "no instant resurrection",
+    "limited arable hinterland",
     "rituals consume scarce imported reagents",
-    "long-range mind influence banned"
+    "no high-pressure industrialization"
   ],
   "notes": [
-    "navigational-auguries exist but do not replace charts",
-    "combustion industry limited"
+    "small, strategic river-mouth outpost",
+    "population sparse and seasonally variable with trade"
   ],
-  "generated_at": "2025-09-09T04:37:26.299Z"
+  "generated_at": "2025-09-09T05:48:56.369Z"
 }

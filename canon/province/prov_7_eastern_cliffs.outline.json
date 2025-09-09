@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_eastern_cliffs",
+  "checksum": "fnv1a_333ebd78",
+  "name": "Eastern Cliffs",
+  "aliases": [
+    "East Cliffs",
+    "The Clifftongue"
+  ],
+  "tags": [
+    "maritime",
+    "cliffs",
+    "lighthouses",
+    "ship-repair",
+    "reagent-hub"
+  ],
+  "role_in_state": "navigational gateway and ship-repair hub",
+  "economy_niches": [
+    "lighthouse keepers & pilotage services",
+    "cliffside ship repair, caulking and hull-salvage",
+    "drying/salting fisheries and kelp-salt production",
+    "transshipment and short-term storage of imported ritual reagents",
+    "terraced coastal orchards and salt-tolerant produce"
+  ],
+  "culture_adjustments": [
+    "guild dominance by lighthouse and pilot associations over inland merchants",
+    "oral tradition specialized for signal codes and fog-signals",
+    "ritual practices focused on tide-warding and cliff-spirits",
+    "greater suspicion of longshore caravans; heavy local patronage networks"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "coastal-erosion",
+    "shipwreck concentration",
+    "seasonal dense fog",
+    "smuggling and wreck-pillage"
+  ],
+  "constraints": [
+    "limited arable land and fresh water",
+    "difficult overland access for large wagons",
+    "ritual reagent storage regulated by guild charters"
+  ],
+  "notes": [
+    "local pilots legally required for passage through cliff channels",
+    "seasonal fogs increase reliance on lighthouses and signal-music"
+  ],
+  "generated_at": "2025-09-09T05:08:16.481Z"
+}

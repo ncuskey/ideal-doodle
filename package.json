@@ -41,6 +41,11 @@
 
     "catalog:build": "tsx src/pipelines/buildCatalog.ts",
 
+    "heraldry:gen": "tsx src/pipelines/genHeraldry.ts",
+    "heraldry:gen:states": "tsx src/pipelines/genHeraldry.ts --kind=state",
+    "heraldry:gen:provinces": "tsx src/pipelines/genHeraldry.ts --kind=province",
+    "heraldry:gen:burgs": "tsx src/pipelines/genHeraldry.ts --kind=burg",
+
     "pipeline:full:one": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full -- --id=1 && npm run lore:burg:full -- --id=1",
     "pipeline:full:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all",
     "pipeline:full:all+validate": "npm run pipeline:full:all && npm run validate:lore",

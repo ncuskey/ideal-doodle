@@ -1,58 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_98bbdd0d",
+  "checksum": "fnv1a_9416d8e8",
   "burg_id": 310,
-  "name": "Burg_310",
-  "state_id": -1,
+  "name": "Preanggek",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "waystation"
+    "coastal",
+    "ritual-labors"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent trade",
-    "shipwright",
-    "provisioning"
+    "salt-processing",
+    "ritual-component trade",
+    "boat-repair"
   ],
   "factions_local": [
     "Harbor Guild",
-    "Shrine Keepers",
-    "Smuggler Ring",
-    "Captains' Council"
+    "Ancestor Circle",
+    "Saltworkers' Cooperative",
+    "Smuggler Crew"
   ],
   "problems": [
-    "reagent scarcity",
-    "storm damage",
-    "smuggling",
-    "jurisdiction disputes"
+    "scarce ritual reagents",
+    "bandit raids on coastal roads",
+    "coastal erosion"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "tide-linked rituals and festivals",
-    "seafood-centric cuisine",
-    "navigation superstitions and auguries"
+    "speaks Coastal Tongues dialect",
+    "diet heavy on salted fish and seaweed",
+    "nightly tide-offering customs",
+    "communal ritual labor shifts for processing reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "storm omen"
+    "disappearances",
+    "ritual-failure"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents"
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "long-range-mind-influence-rare-and-banned"
   ],
   "notes": [
-    "Near-medieval to early industrial tech baseline",
-    "small outport; population unknown",
-    "navigational auguries supplement but do not replace charts"
+    "navigational auguries used but charts and seamanship still essential",
+    "harbor prone to fog and seasonal storms"
   ],
-  "generated_at": "2025-09-09T04:23:13.139Z"
+  "generated_at": "2025-09-09T05:35:12.401Z"
 }

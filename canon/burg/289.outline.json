@@ -1,58 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_902b0983",
+  "checksum": "fnv1a_3ed8167e",
   "burg_id": 289,
-  "name": "Burg_289",
-  "state_id": 0,
+  "name": "Darlowbig",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "outpost",
-    "ritual-lab"
+    "river-crossing",
+    "timber",
+    "ferry"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-supply",
-    "coastal-fishing",
-    "waystation"
+    "river trade",
+    "timber export",
+    "ferry tolls",
+    "ritual-supply brokerage"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-practitioners",
-    "smugglers",
-    "ancestor-clan"
+    "Ferrymasters' Syndicate",
+    "Timbermen's Co-op",
+    "Ancestral Shrine Kin",
+    "Tollkeeper's House"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry",
-    "reagent-shortage",
-    "harsh-weather"
+    "seasonal floods",
+    "reagent scarcity",
+    "bandit tolls",
+    "corrupt tollkeepers"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Island Creole influences",
-    "seafood-centric cuisine; salt-preserving customs",
-    "ancestor-offerings at boathouses",
-    "superstitious navigation rituals"
+    "Riveric Dialect variant",
+    "boat-song communal rites",
+    "fish-and-root cuisine",
+    "crossing-rituals for safe passage"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent-starvation",
-    "shipwreck-salvage"
+    "missing ferryman",
+    "stolen ritual reagents",
+    "rising flood omen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
+    "ritual magic consumes scarce imported reagents",
     "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and institutionally banned"
+    "combustion industry limited; no high-pressure steam megatechs"
   ],
   "notes": [
-    "population unknown; sparse settlement pattern",
-    "near-medieval to early-industrial tech baseline",
-    "serves as coastal waystation and ritual resupply point"
+    "state assignment unknown",
+    "population unknown; small settlement",
+    "strategic river ford on minor route"
   ],
-  "generated_at": "2025-09-09T04:21:37.387Z"
+  "generated_at": "2025-09-09T05:33:53.756Z"
 }

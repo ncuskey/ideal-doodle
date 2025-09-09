@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_harbor_city",
+  "checksum": "fnv1a_a2db8d4d",
+  "name": "Harbor City",
+  "aliases": [
+    "The Harbor",
+    "Mainport"
+  ],
+  "tags": [
+    "port",
+    "shipbuilding",
+    "trade-hub",
+    "kelp-processing",
+    "navigational-augury"
+  ],
+  "role_in_state": "Primary maritime hub and shipbuilding center",
+  "economy_niches": [
+    "Shipbuilding and repair yards",
+    "Transshipment and maritime trade brokerage",
+    "Salted/fish preservation and export",
+    "Navigational-augury services and charting aids",
+    "Kelp and seaweed processing (fertilizers, tannins)"
+  ],
+  "culture_adjustments": [
+    "Guild-dominated apprenticeship system with dockside rites",
+    "Denser patronage networks and broker-centric dispute resolution",
+    "More frequent rope-and-net ritual festivals tied to shipping seasons",
+    "Multilingual dockspeech blending Coastal Tongues and Riveric loanwords",
+    "Practical legal charters tailored to vessel contracts over kin-law"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge / flood",
+    "shipyard fire",
+    "piracy and privateers",
+    "guild strikes and labor unrest"
+  ],
+  "constraints": [
+    "Ritual auguries consume scarce imported reagents limiting frequency",
+    "Harbor expansion constrained by shoals and engineered breakwaters",
+    "No institutional long-range mind-influence or resurrection magics enforced"
+  ],
+  "notes": [
+    "Strategic economic linchpin of State_9; patronage determines access to yards",
+    "Localized ritual magic supports navigation and preservation but raises reagent supply vulnerability",
+    "Near-medieval to early-industrial tech with limited combustion industry"
+  ],
+  "generated_at": "2025-09-09T05:08:52.426Z"
+}

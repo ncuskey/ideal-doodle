@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_66128e85",
+  "checksum": "fnv1a_2aec1518",
   "burg_id": 295,
-  "name": "Burg_295",
+  "name": "Rothleach",
   "state_id": 0,
-  "province_id": "unknown",
+  "province_id": "",
   "tags": [
-    "coastal",
-    "outpost",
-    "ritual-harvest"
+    "river-port",
+    "ferry-crossing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "salt-harvest",
-    "ritual-labor-for-harvests"
+    "ferry-tolls",
+    "fish-smoking",
+    "boat-repair",
+    "ritual-reagent-trade"
   ],
   "factions_local": [
-    "Headman council",
-    "Tide-ritual circle",
-    "Saltworkers cooperative",
-    "Coastal smugglers"
+    "ferrymen-guild",
+    "river-priests",
+    "smuggler-ring",
+    "market-council"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry along supply routes",
-    "resource-strain on fish stocks"
+    "seasonal-flooding",
+    "reagent-scarcity",
+    "banditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Speaks Coastal Tongues dialect with nautical idioms",
-    "Diet centered on salted fish and seaweed preserves",
-    "Ritual calendar tied to tides and ancestral offerings"
+    "Riveric dialect dominant",
+    "boat-funeral customs",
+    "smoked-fish cuisine",
+    "flood-offering festival"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-reagent-shortage",
-    "missing-fishermen"
+    "flood-threat",
+    "missing-ferryman"
   ],
   "constraints": [
-    "Ritual magic requires scarce imported reagents",
-    "No instant resurrection or long-range mind control"
+    "reliance-on-imported-ritual-reagents",
+    "no-instant-resurrection-or-life-replacement-magic",
+    "navigational-auguries-limited"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech with localized ritual craft",
-    "Navigational auguries used but seamanship still required"
+    "small, seasonal population with transient crews",
+    "strategic river crossing and ferry hub"
   ],
-  "generated_at": "2025-09-09T04:21:57.503Z"
+  "generated_at": "2025-09-09T05:34:15.498Z"
 }

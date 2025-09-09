@@ -1,52 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5fb7c635",
+  "checksum": "fnv1a_fc49d5f9",
   "burg_id": 19,
-  "name": "Burg_19",
+  "name": "Cortustel",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-hub"
+    "ritual-port"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "ritual-supply depot",
-    "small ship repair"
+    "ritual-supply",
+    "light-trade",
+    "waystation"
   ],
   "factions_local": [
-    "harbormaster's council",
-    "ritual coven",
-    "merchant runners"
+    "harbor-guild",
+    "ritual-sorority",
+    "smugglers",
+    "elders-council"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "seasonal storms"
+    "scarce-reagents",
+    "banditry",
+    "supply-dependence"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "seafood preservation cuisine",
-    "crafts incorporate ritual motifs"
+    "Coastal Tongues dialect with loanwords from Island Creole",
+    "seafood and fermented-fish staples",
+    "tide-tied rituals shape daily schedules",
+    "shipmarks and ledger-bound credit customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual shipment",
-    "storm-wreck salvage"
+    "missing-sacrament",
+    "ritual-contamination"
   ],
   "constraints": [
-    "No instant resurrection",
-    "Long-range mind influence banned",
-    "Rituals consume scarce imported reagents"
+    "no-instant-resurrection",
+    "rituals-consume-imported-reagents",
+    "limited-combustion-industry"
   ],
   "notes": [
-    "Near-medieval to early-industrial baseline",
-    "Navigational auguries used but do not replace charts"
+    "near-medieval to early-industrial baseline",
+    "navigational-auguries present but not a substitute for seamanship",
+    "state authority unknown; semi-autonomous local governance"
   ],
-  "generated_at": "2025-09-09T04:14:52.485Z"
+  "generated_at": "2025-09-09T05:27:34.142Z"
 }

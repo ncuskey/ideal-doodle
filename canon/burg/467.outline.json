@@ -1,51 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_55c8fe87",
+  "checksum": "fnv1a_505c9680",
   "burg_id": 467,
-  "name": "Burg_467",
+  "name": "Aray",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-supply"
+    "waystation"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-reagent-trade",
-    "waystation-services"
+    "fishing",
+    "ship-provisioning",
+    "reagent trade"
   ],
   "factions_local": [
-    "sea-shrine-clan",
-    "small-merchant-coop",
-    "harbor-watch"
+    "fisher-guild",
+    "sea-tide shrine",
+    "smuggler ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling",
-    "seasonal-storms"
+    "reagent scarcity",
+    "seasonal storms",
+    "pirate raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "Diet heavy on salted fish and seaweeds",
-    "Evening tide rituals visible from shore"
+    "Coastal Tongues dialect with Island Creole loanwords",
+    "tight kinship networks; tide-based rituals",
+    "diet: salted fish, seaweed preserves",
+    "local folk-auguries for short-range navigation"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-failure",
-    "missing-ships"
+    "reagent theft",
+    "missing lightkeeper"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection or true life-replacement magics"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind-influence banned",
+    "navigational auguries supplement but do not replace charts/seamanship"
   ],
   "notes": [
-    "Small anchorage, strategic waypoint for coastal traffic",
-    "Population low/variable; records scarce"
+    "state association unknown",
+    "population unknown; likely small harbor reliant on visiting merchants"
   ],
-  "generated_at": "2025-09-09T04:33:58.967Z"
+  "generated_at": "2025-09-09T05:45:29.199Z"
 }

@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f2bee735",
+  "checksum": "fnv1a_8ec53d82",
   "burg_id": 93,
-  "name": "Burg_93",
+  "name": "Cudmin",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "none",
+    "coastal",
+    "fishing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "subsistence farming",
-    "forage-and-supply (ritual reagents)",
-    "waystation services",
-    "artisan repair"
+    "fishing",
+    "salt-curing",
+    "ferry-tolls"
   ],
   "factions_local": [
-    "village council",
-    "ritualist circle",
-    "merchant caretakers",
-    "harvest cooperative"
+    "Fishermen's Guild",
+    "Dockmasters",
+    "Saltworkers' Cooperative",
+    "Smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "corrupt middlemen"
+    "smuggling",
+    "tidal-flooding",
+    "supply-scarcity"
   ],
   "religion_presence": [
+    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues / Riveric Dialect influences possible",
-    "communal ancestor rites prominent",
-    "oral lore and chart-keeping over formal records",
-    "salt-preservation and simple stews common"
+    "Coastal Tongues dialect",
+    "seafood-heavy cuisine",
+    "ritual offerings to the sea",
+    "practical shipwright crafts"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "mysterious disappearance"
+    "tidal-monster",
+    "missing-fishermen"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned"
+    "no-instant-resurrection",
+    "rituals-consume-scarce-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "near-medieval to early industrial tech with localized ritual magic",
-    "location not clearly recorded in central state registry"
+    "population-unknown",
+    "strategic small harbor",
+    "limited combustion industry"
   ],
-  "generated_at": "2025-09-09T04:37:57.434Z"
+  "generated_at": "2025-09-09T05:49:32.494Z"
 }

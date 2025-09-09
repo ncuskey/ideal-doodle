@@ -1,48 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_42270fd",
+  "checksum": "fnv1a_20ec12f2",
   "burg_id": 459,
-  "name": "Burg_459",
+  "name": "Knutster",
   "state_id": 0,
-  "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "province_id": "",
+  "tags": [
+    "river-port",
+    "boatbuilding"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "provisioning",
-    "ritual reagent trade",
-    "fisherfolk"
+    "river trade",
+    "fishing",
+    "timber processing",
+    "boat repair"
   ],
   "factions_local": [
-    "Reagent Merchant House",
-    "Harbormaster's Office",
-    "Ancestor-Remembrance Circle"
+    "boatmen's cooperative",
+    "river merchants' guild",
+    "sea-tide shrine circle",
+    "smugglers' ring"
   ],
   "problems": [
+    "seasonal flooding",
+    "reagent scarcity",
     "smuggling",
-    "scarcity of reagents",
-    "coastal erosion"
+    "disputed landing rights"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "coastal dialect of Coastal Tongues",
-    "tide-linked ritual offerings common",
-    "preservation and caching of fish and reagents"
+    "Riveric Dialect dominant",
+    "river funerary rites common",
+    "salted-fish cuisine",
+    "boat-adornment talisman craft"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "erosion crisis"
+    "rising flood",
+    "stolen shrine relic"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned locally"
+    "navigational auguries supplement but cannot replace charts or seamanship",
+    "no instant resurrection; long-range mind influence rare and banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but do not replace charts or seamanship"
+    "state affiliation unknown",
+    "near-medieval tech with localized ritual magic",
+    "population unknown; functions as small river hub"
   ],
-  "generated_at": "2025-09-09T04:33:20.133Z"
+  "generated_at": "2025-09-09T05:45:01.027Z"
 }

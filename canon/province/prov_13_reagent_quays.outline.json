@@ -1,0 +1,61 @@
+{
+  "world_id": "world",
+  "state_id": 13,
+  "province_id": "prov_13_reagent_quays",
+  "checksum": "fnv1a_222471c3",
+  "name": "Reagent Quays",
+  "aliases": [
+    "Reagent Quays",
+    "The Quays",
+    "Reagent Ports"
+  ],
+  "tags": [
+    "reagents",
+    "ports",
+    "transshipment",
+    "guild-hub",
+    "salt-processing"
+  ],
+  "role_in_state": "primary reagent transshipment and provisioning hub",
+  "economy_niches": [
+    "reagent transshipment & bonded storage",
+    "salt-processing for reagent preservation",
+    "ship provisioning, repair and chandlery",
+    "guild-run reagent auctions and assaying",
+    "low-scale ritual-lab services for voyage auguries"
+  ],
+  "culture_adjustments": [
+    "tighter guild secrecy and permit culture than broader state",
+    "port cant enriched by visiting Island Creole merchants",
+    "ritual packing and reagent-handling rites common among dock crews",
+    "higher pragmatic literacy among clerks and foremen",
+    "normalization of foreign seasonal labor and cross-clan crews"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "fire in reagent stores",
+    "smuggling and theft",
+    "tidal surge / flooding",
+    "guild disputes over quotas",
+    "supply-chain disruption from inland routes"
+  ],
+  "constraints": [
+    "strict guild regulations on reagent handling and licensing",
+    "limited inland transport capacity for heavy reagents",
+    "ritual magic consumption of scarce imported reagents raises storage hazards"
+  ],
+  "notes": [
+    "critical node for state ritual-magic supply chains",
+    "seasonal auguries and sailing windows dictate throughput peaks",
+    "licensed handlers required for bonded quays and auctions"
+  ],
+  "generated_at": "2025-09-09T05:04:07.266Z"
+}

@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f6c49d93",
+  "checksum": "fnv1a_fcaf53ba",
   "burg_id": 292,
-  "name": "Burg_292",
+  "name": "Culzan",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "ritual-magic"
+    "river-crossing",
+    "ferry-hub",
+    "ritual-labour"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-component depot",
-    "fisherfolk",
-    "waystation/relay"
+    "ferry tolls",
+    "smoked fish/river trade",
+    "ritual-apothecary services",
+    "timber transshipment"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual syndicate",
-    "coastal kin-clan"
+    "ferrymen's guild",
+    "apothecaries' confraternity",
+    "harbor militia",
+    "local merchants' syndicate"
   ],
   "problems": [
-    "reagent scarcity",
-    "banditry on supply routes",
-    "intermittent provisioning"
+    "scarce imported ritual reagents",
+    "seasonal flooding",
+    "riverbanditry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "tide-blessing and nets-mending communal rites",
-    "diet centered on preserved and smoked seafood",
-    "ritual handling of imported reagents common"
+    "Riveric Dialect dominant",
+    "annual river-cleaning feast with votive offerings",
+    "diet heavy on smoked/fried freshwater fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing shipments",
-    "ritual contamination"
+    "reagent shortage",
+    "ritual dispute"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals consume scarce imported reagents"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "limited combustion industry (no high-pressure steam)"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries used but seamanship essential"
+    "population unknown; functions as strategic crossing and ritual service node",
+    "supplies and reagents arrive intermittently by river"
   ],
-  "generated_at": "2025-09-09T04:21:51.562Z"
+  "generated_at": "2025-09-09T05:34:04.422Z"
 }

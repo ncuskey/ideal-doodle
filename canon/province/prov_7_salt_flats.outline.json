@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 7,
+  "province_id": "prov_7_salt_flats",
+  "checksum": "fnv1a_b9d543ee",
+  "name": "Salt Flats",
+  "aliases": [
+    "Saltworks",
+    "Brine Flats",
+    "Saltern Marches"
+  ],
+  "tags": [
+    "coastal-margin",
+    "salt-production",
+    "brine-pans",
+    "low-pop"
+  ],
+  "role_in_state": "Primary salt supplier and ritual-reagent transshipment hub",
+  "economy_niches": [
+    "Bulk salt extraction & refining",
+    "Ritual reagent desalination/processing",
+    "Salted fisheries and fish-curing",
+    "Seasonal labor brokerage for saltern work",
+    "Repair services for salt-corroded ships and gear"
+  ],
+  "culture_adjustments": [
+    "Work rhythms tied to evaporation cycles rather than port schedules",
+    "High social value on endurance and practical corrosion-proof craft",
+    "Mobile saltern camps and seasonal households dominate settlement pattern",
+    "Stricter guild control of pan-ownership and labor rotations",
+    "Local songs and laments focused on brine and loss rather than long voyages"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "brine-flooding",
+    "labor unrest",
+    "salt-tax banditry",
+    "resource exhaustion"
+  ],
+  "constraints": [
+    "Seasonal production curtailed by monsoon/precipitation variability",
+    "Ritual magic use expensive due to reagent import dependency",
+    "Chronic freshwater scarcity limits permanent urban growth"
+  ],
+  "notes": [
+    "Key node for state-wide ritual reagent redistribution",
+    "Terrain includes crusted pans and concealed mud under a brittle crust",
+    "Few permanent burgs; emphasis on mobile infrastructure and pan-maintenance"
+  ],
+  "generated_at": "2025-09-09T05:08:07.288Z"
+}

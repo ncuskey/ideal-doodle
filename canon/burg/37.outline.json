@@ -1,53 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fdf5ddfd",
+  "checksum": "fnv1a_552bdb0e",
   "burg_id": 37,
-  "name": "Burg_37",
-  "state_id": 0,
+  "name": "Birilia",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "outpost",
     "coastal",
-    "ritual-lab"
+    "harbor",
+    "apothecary"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent-trading",
-    "waystation"
+    "small-scale trade",
+    "apothecary reagents import",
+    "boat repair"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Ritual Keepers",
-    "Smugglers' Cell"
+    "Harbormaster's Office",
+    "Apothecary Guild",
+    "Tide-Priests",
+    "Smuggler Ring"
   ],
   "problems": [
-    "scarcity of imported reagents",
-    "banditry on supply routes",
-    "seasonal supply disruptions"
+    "reagent scarcity",
+    "storm damage",
+    "smuggling",
+    "disease outbreaks"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongue dialect mixed with Island Creole loanwords",
-    "diet heavy on salted/preserved seafood and seaweed",
-    "tide-offering customs tied to safe passage and catches"
+    "Coastal Tongues dialect",
+    "annual tide-festival",
+    "diet: salted fish and seaweed",
+    "strong offering/superstition customs"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing sailor"
+    "storm-curse",
+    "missing reagent shipment"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "navigational auguries cannot replace seamanship",
-    "no instant resurrection or life-replacement magics"
+    "No instant resurrection",
+    "Ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "relies on irregular supply ships; winter storms isolate the outpost",
-    "small ritual lab is locally vital and politically sensitive"
+    "Population unknown; small quay port",
+    "Dependent on imported ritual reagents"
   ],
-  "generated_at": "2025-09-09T04:27:06.556Z"
+  "generated_at": "2025-09-09T05:39:12.451Z"
 }

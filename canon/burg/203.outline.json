@@ -1,55 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5ad840d3",
+  "checksum": "fnv1a_1610da2a",
   "burg_id": 203,
-  "name": "Burg_203",
+  "name": "Wargleyme",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-depot",
-    "small-harbor"
+    "frontier",
+    "timber",
+    "waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trading",
-    "small-scale fishing",
-    "supplies waystation"
+    "fur trade",
+    "timber harvest",
+    "staging inn",
+    "ritual-herb gathering"
   ],
   "factions_local": [
-    "harbor crew",
-    "ritual merchants",
-    "local clan elders"
+    "Hunters' Lodge",
+    "Riverwatch Militia",
+    "Merchant Caravaneers",
+    "Remembrance Circle"
   ],
   "problems": [
+    "banditry",
     "reagent scarcity",
-    "smuggling rings",
-    "coastal erosion",
-    "sporadic banditry"
+    "seasonal isolation",
+    "territorial wolfpacks"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "sea-salt preserved cuisine",
-    "ritual barter customs",
-    "strong ancestor-veneration aboard ships"
+    "Highland Cant influence on local speech",
+    "wolf-hunting rites and annual pack-takings",
+    "practical barter culture; strong gift/feast etiquette"
   ],
   "quest_hook_slots": [
-    "reagent smuggling",
-    "shipwreck salvage"
+    "smuggling",
+    "ritual reagent theft",
+    "wolf den mystery"
   ],
   "constraints": [
-    "no instant resurrection",
-    "rituals consume scarce imported reagents",
-    "long-range mind-influence banned"
+    "Rituals require scarce imported or specialized reagents",
+    "No instant resurrection or long-range mind-influence magics",
+    "Combustion industry remains limited; no high-pressure steam megatech"
   ],
   "notes": [
-    "state jurisdiction unknown",
-    "population data unavailable"
+    "Name suggests local wolf/ley folklore and frontier identity",
+    "Seasonal equinox market draws traders and ritual specialists"
   ],
-  "generated_at": "2025-09-09T04:15:50.339Z"
+  "generated_at": "2025-09-09T05:28:17.867Z"
 }

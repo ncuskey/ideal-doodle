@@ -1,0 +1,57 @@
+{
+  "world_id": "world",
+  "state_id": 14,
+  "province_id": "prov_14_saltmarch_flats",
+  "checksum": "fnv1a_c836eaab",
+  "name": "Saltmarch Flats",
+  "aliases": [
+    "The Flats",
+    "Saltmarch"
+  ],
+  "tags": [
+    "coastal",
+    "salt-production",
+    "marsh",
+    "seasonal-labor"
+  ],
+  "role_in_state": "primary salt-production and preservation hinterland",
+  "economy_niches": [
+    "salt pans & evaporation works",
+    "seasonal salt-harvest crews (paid-in-kind)",
+    "salt-cured fish and kelp processing",
+    "brine-derived preservation goods for ship provisioning",
+    "small-scale boat repair focused on hull salt-treatment"
+  ],
+  "culture_adjustments": [
+    "boat-name kinships dominate work gangs rather than inland kin-lines",
+    "oral tide-songs adapted to mudflat timing and salt-harvest cues",
+    "greater mobility — large seasonal migration to/from flats",
+    "artisan-runic prestige lower; pragmatic craft rites tied to salt work",
+    "market dispute-resolution emphasizes cargo claims and shares"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "floodplain",
+    "storm-surge",
+    "saltwater-intrusion",
+    "mire-sink"
+  ],
+  "constraints": [
+    "limited arable land — reliance on imports for staples",
+    "ritual-augury requires scarce imported reagents",
+    "few permanent towns; seasonal labor logistics constrain growth"
+  ],
+  "notes": [
+    "labor and trade peak around lowest spring tides",
+    "salt stockpiles are strategic state assets and targets in crises"
+  ],
+  "generated_at": "2025-09-09T05:04:45.943Z"
+}

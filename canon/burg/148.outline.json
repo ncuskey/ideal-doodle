@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_a0a9791b",
+  "checksum": "fnv1a_646c4440",
   "burg_id": 148,
-  "name": "Burg_148",
-  "state_id": 0,
+  "name": "Matenvers",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-supply"
+    "river-crossing",
+    "reagent-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small-harbor trade",
-    "ritual reagent foraging",
-    "boat maintenance",
-    "waystation lodging"
+    "ferry waystation",
+    "reagent transit",
+    "preservation smokehouse",
+    "small crafts"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Tide-Seers",
-    "Smuggler crew"
+    "Ferry Guild",
+    "Reagent Traders' Co-op",
+    "Shrine Circle (Ancestor cult)",
+    "River Bandits"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "coastal erosion"
+    "bandit raids",
+    "flood disruptions"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues with Island Creole influence",
-    "diet: salted fish, seaweed preserves",
-    "folk rituals timed to tides and lunar markers",
-    "navigation blends charts with augury rites"
+    "Riveric dialect dominant",
+    "ferry-centric rituals and offerings",
+    "diet: smoked/preserved fish and river herbs",
+    "annual current-ritual festival"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagents",
-    "strange tides"
+    "reagent theft",
+    "missing ferry crew"
   ],
   "constraints": [
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "navigational auguries complement but don't replace charts",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "State affiliation unknown; semi-autonomous practical governance",
-    "Small harbor settlement; vulnerable to storms and supply interruptions"
+    "near-medieval to early-industrial tech with pervasive ritual magic",
+    "population transient/unknown; serves travellers and traders"
   ],
-  "generated_at": "2025-09-09T04:12:12.857Z"
+  "generated_at": "2025-09-09T05:24:54.560Z"
 }

@@ -1,56 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_e92ad5b",
+  "checksum": "fnv1a_89ed2c36",
   "burg_id": 195,
-  "name": "Burg_195",
+  "name": "Gigbig",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none",
-    "coastal",
-    "waypoint"
+    "harbor",
+    "ritual-lab"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ferry waypoint",
-    "reagent staging",
-    "fishing"
+    "fishing",
+    "saltworks",
+    "ritual-supply",
+    "waystation"
   ],
   "factions_local": [
-    "Local Council",
-    "Fisherfolk Cooperative",
-    "Ritual Apothecaries",
-    "Smuggler Crew"
+    "Harbormasters' Guild",
+    "Ancestor-Priesthood",
+    "Ritualwrights",
+    "Smugglers' Cell"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "supply unreliability"
+    "scarcity",
+    "smuggling",
+    "reagent shortages",
+    "bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect predominant",
-    "dockside ancestor offerings",
-    "salt-cured cuisine",
-    "ritualized pre-departure rites"
+    "Coastal Tongues-influenced dialect",
+    "strong ancestor-veneration customs",
+    "salt-preserved seafood cuisine",
+    "night-market trade rhythms"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing ferryman"
+    "missing-ritual-components",
+    "harbor-ghosts"
   ],
   "constraints": [
-    "ritual magic requires scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence rare and institutionally banned"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and banned"
   ],
   "notes": [
-    "population unknown",
-    "strategic coastal waypoint",
-    "limited combustion industry"
+    "port authority weak; informal rule common",
+    "population unknown; transient seafarers prominent"
   ],
-  "generated_at": "2025-09-09T04:15:14.677Z"
+  "generated_at": "2025-09-09T05:27:50.670Z"
 }

@@ -1,0 +1,59 @@
+{
+  "world_id": "world",
+  "state_id": 3,
+  "province_id": "prov_3_outer_isles",
+  "checksum": "fnv1a_f55db80c",
+  "name": "Outer Isles",
+  "aliases": [
+    "Outer Archipelago",
+    "The Outermark"
+  ],
+  "tags": [
+    "islands",
+    "maritime",
+    "saltworks",
+    "fishing",
+    "reagents"
+  ],
+  "role_in_state": "peripheral maritime trans-shipment & coastal support",
+  "economy_niches": [
+    "salting & cured fish",
+    "small-craft shipbuilding & repair",
+    "salt pans / evaporative works",
+    "reagent trans-shipment & storage",
+    "lighthouse / augury services"
+  ],
+  "culture_adjustments": [
+    "kinship-led piers and clan-run quays over city guild halls",
+    "stronger reef-keeping Sea-Tide rites tied to daily work",
+    "oral seamarks codified as ballads used for navigation",
+    "shorter, sea-focused apprenticeships; less inland patron dependence"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "reef-hazards",
+    "supply-isolation",
+    "piracy",
+    "reagent-shortage"
+  ],
+  "constraints": [
+    "limited arable land",
+    "reliance on imported grain",
+    "rituals consume scarce imported reagents"
+  ],
+  "notes": [
+    "seasonal population flux with fishing cycles",
+    "guilds regulate pier-licenses and reagent stores",
+    "local chart-songs carry legal and navigational weight"
+  ],
+  "generated_at": "2025-09-09T05:06:31.186Z"
+}

@@ -1,56 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fb0833e5",
+  "checksum": "fnv1a_930cb177",
   "burg_id": 446,
-  "name": "Burg_446",
+  "name": "Brybsil",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "ritual-hub"
+    "river-hamlet",
+    "ritual-reagents"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-depot",
-    "waystation",
-    "small-scale-fishing",
-    "timber-cutting"
+    "river-trade",
+    "fish-salting",
+    "ritual-reagents",
+    "boat-repair"
   ],
   "factions_local": [
-    "Harbormaster's Council",
-    "Ancestor-Shrine Circle",
-    "Smugglers' Knot"
+    "Tidewardens",
+    "Boatwrights' Cord",
+    "Smugglers' Quarter",
+    "Ancestor House"
   ],
   "problems": [
     "reagent-scarcity",
-    "smuggling",
-    "jurisdictional-disputes"
+    "seasonal-flooding",
+    "river-bandits"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "funerary incense rites common",
-    "smoked-salt cuisine",
-    "augury tokens used in navigation"
+    "Riveric dialect with coastal loanwords",
+    "Tide-festival with offering-barges",
+    "Salt-preserved smokehouse cuisine"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent-shortage",
-    "tidal-omen"
+    "missing reagent shipment",
+    "smuggling ring",
+    "haunting at high tide"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "rituals-consume-scarce-imports",
-    "navigational-auguries-auxiliary-only"
+    "Ritual magic consumes rare imported reagents",
+    "Long-range mind-influence banned; navigation needs charts"
   ],
   "notes": [
-    "small transient population",
-    "resupply stop for coastal traders",
-    "local economy tied to itinerant ritual teams"
+    "Tidal river bend location",
+    "Population small; records sparse"
   ],
-  "generated_at": "2025-09-09T04:32:37.734Z"
+  "generated_at": "2025-09-09T05:44:14.101Z"
 }

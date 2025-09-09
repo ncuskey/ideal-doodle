@@ -1,49 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_bcde3525",
+  "checksum": "fnv1a_3345a651",
   "burg_id": 169,
-  "name": "Burg_169",
-  "state_id": -1,
+  "name": "Kluird",
+  "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "river-port",
+    "reagent-hub",
+    "market-crossroads"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "coastal fishing",
-    "reagent brokerage",
-    "waystation trade"
+    "river-trade",
+    "fish-curing",
+    "reagent-import",
+    "ferry-services"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritual reagent syndicate",
-    "smuggler crew"
+    "ferrymen's guild",
+    "river-merchant cartel",
+    "temple-house of Sea-Tide"
   ],
   "problems": [
-    "scarcity_of_ritual_reagents",
-    "banditry_on_coastal_routes",
-    "seasonal_isolation"
+    "smuggling",
+    "reagent-scarcity",
+    "seasonal-flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant with Island Creole pidgin",
-    "sea-blessed foodways (salted fish, kelp preserves)",
-    "rituals tied to tides and ancestor offerings"
+    "speaks Riveric Dialects with Coastal loanwords",
+    "diet centered on cured fish and brined goods",
+    "market-day rituals: offerings to tides before trade"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing lighthouse keeper"
+    "reagent-heist",
+    "missing-ferryman"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind control banned"
+    "no-instant-resurrection",
+    "long-range-mind-influence-banned",
+    "ritual-magic-needs-imported-scarce-reagents"
   ],
   "notes": [
-    "population unknown; functions as coastal waypoint",
-    "navigational auguries used but charts/seamanship required"
+    "population unknown; functions as local trade node",
+    "tight-knit ferryman families control river access"
   ],
-  "generated_at": "2025-09-09T04:13:34.284Z"
+  "generated_at": "2025-09-09T05:26:19.286Z"
 }

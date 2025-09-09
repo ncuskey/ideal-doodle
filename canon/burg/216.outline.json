@@ -1,57 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_70950a0b",
+  "checksum": "fnv1a_fa191154",
   "burg_id": 216,
-  "name": "Burg_216",
-  "state_id": 0,
+  "name": "Zriokots",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
+    "none",
     "harbor",
-    "ritual-node"
+    "ritual-supply"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "salt-processing",
-    "ritual-lab",
-    "waystation"
+    "ritual-supply depot",
+    "coastal fishing",
+    "waystation trade"
   ],
   "factions_local": [
-    "harbormaster's-office",
-    "ritual-guild",
-    "shipwrights",
-    "smuggler-ring"
+    "merchant-guildlet",
+    "ritual-cabal",
+    "kinship-line"
   ],
   "problems": [
-    "scarce-reagents",
-    "supply-ship-disruption",
-    "banditry"
+    "reagent shortage",
+    "banditry on approaches",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "boat-centric cuisine (smoked fish, seaweed)",
-    "rituals tied to tides",
-    "strong hospitality to mariners"
+    "Coastal Tongues influence in speech",
+    "strong ancestor-veneration customs",
+    "diet heavy on salt-preserved fish"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "supply-shortage",
-    "ritual-accident"
+    "reagent heist",
+    "ancestral omen"
   ],
   "constraints": [
     "no-instant-resurrection",
-    "long-range-mind-influence-banned",
-    "rituals-consume-scarce-reagents"
+    "rituals consume imported reagents",
+    "limited combustion industry"
   ],
   "notes": [
-    "population unknown; seasonal flux",
-    "serves as navigational waypoint with augury shrines"
+    "population unknown; transient trade traffic",
+    "remote; navigational auguries used but not relied on alone"
   ],
-  "generated_at": "2025-09-09T04:16:52.712Z"
+  "generated_at": "2025-09-09T05:29:06.831Z"
 }

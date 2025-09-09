@@ -1,28 +1,32 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_94fdc141",
+  "checksum": "fnv1a_c795c9d7",
   "burg_id": 82,
-  "name": "Burg_82",
-  "state_id": 0,
+  "name": "Viebureta",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "coastal",
+    "harbor"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent trade",
     "fishing",
-    "waystation"
+    "salt-curing",
+    "small-scale trade",
+    "ritual-ingredient processing"
   ],
   "factions_local": [
-    "local-ancestral-clergy",
-    "coastal-fisher-guild",
-    "itinerant-ritual-merchants"
+    "Harbormasters Guild",
+    "Saltworkers Cooperative",
+    "Ancestor Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "reagent-scarcity",
-    "smuggling/bandits",
-    "supply-isolation"
+    "reagent scarcity",
+    "corrupt quay officials",
+    "seasonal storms",
+    "smuggling"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
@@ -30,23 +34,24 @@
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect",
-    "daily tide-omen rituals",
-    "seafood-and-dried-reagent cuisine"
+    "Coastal Tongues dialect dominant",
+    "tide-festival calendar with offerings to sea-spirits",
+    "diet heavy on salted fish and seaweed",
+    "local crafts: glassblowing, network, ritual component prep"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent-theft",
-    "tide-omen"
+    "reagent theft",
+    "tide-spirit unrest"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no high-pressure steam megatechs",
-    "long-range mind influence banned/rare"
+    "No instant resurrection or true life-replacement magics",
+    "Long-range mind influence rare and institutionally banned",
+    "Ritual magic consumes scarce imported reagents or specialized labor"
   ],
   "notes": [
-    "near-medieval to early-industrial tech",
-    "navigational auguries exist but seamanship required"
+    "Population unknown — recent survey/safe-harbor status uncertain",
+    "Port vulnerable to supply interruptions and storm damage"
   ],
-  "generated_at": "2025-09-09T04:37:20.722Z"
+  "generated_at": "2025-09-09T05:49:00.420Z"
 }

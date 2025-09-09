@@ -1,58 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d31a5aab",
+  "checksum": "fnv1a_13369fc6",
   "burg_id": 441,
-  "name": "Burg_441",
+  "name": "Biok",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-node",
-    "fishing"
+    "harbor",
+    "ritual-lab"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade & storage",
-    "fishing & salt-curing",
-    "ship provisioning",
-    "small-scale craft barter"
+    "fishing",
+    "salt-curing",
+    "reagent-gathering",
+    "local trade"
   ],
   "factions_local": [
-    "Harbormasters' Ring",
-    "Reagent Syndicate",
-    "Ancestor Circle (local)",
-    "Skiff-Owners' Guild"
+    "Fishers' Guild",
+    "Reagent Harvesters",
+    "Dockworkers' Council",
+    "Small Merchants"
   ],
   "problems": [
-    "scarce imported ritual reagents",
-    "smuggling through coves",
-    "salt-driven decay of timber/warehouses",
-    "periodic bandit raids on shore"
+    "reagent scarcity",
+    "smuggling",
+    "coastal raids",
+    "sanitation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues base with Island Creole influence",
-    "strong ritual etiquette around reagent handling",
-    "diet heavy on salted fish, seaweed, fermented shell",
-    "tide-linked festivals honoring ancestors and safe passage"
+    "Coastal Tongue dialect with local idioms",
+    "Diet: fermented fish, seaweeds, salted provisions",
+    "Boat-building and net-weaving crafts",
+    "Seasonal tide-harvest rituals"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances at sea"
+    "ritual reagent shortage",
+    "missing fishermen"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
-    "long-range mind influence is rare and institutionally banned",
-    "ritual magic consumes scarce imported reagents"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection; long-range mind influence rare or banned",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "holds minor navigational hazard points used by local pilots"
+    "small tidal quay, lichen-lined warehouses",
+    "navigational-augury shrine near headland"
   ],
-  "generated_at": "2025-09-09T04:32:11.184Z"
+  "generated_at": "2025-09-09T05:43:43.283Z"
 }

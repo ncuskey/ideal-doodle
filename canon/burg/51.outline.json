@@ -1,58 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1d18d245",
+  "checksum": "fnv1a_2c884f3e",
   "burg_id": 51,
-  "name": "Burg_51",
+  "name": "Presanistu",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "harbor",
-    "ritual-supply"
-  ],
+  "tags": [],
   "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent transshipment",
-    "boat repair",
-    "local market"
+    "reagent trade",
+    "fishing & small harbor commerce",
+    "ritual artisanry"
   ],
   "factions_local": [
-    "Dockworkers' Cooperative",
-    "House of Tide-Charms (ritual suppliers)",
-    "Smuggler Crew",
-    "Tide-Priests"
+    "Harbor Masters' Syndicate",
+    "Ritual Lampwrights' Circle",
+    "Ancestor-Kin Council"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling and corruption",
-    "storm damage",
-    "pirate raids"
+    "smuggling & piracy",
+    "clerical rivalry"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with Island Creole borrowings",
-    "diet centered on preserved fish, seaweed, salted kelp",
-    "strong seamanship and tide-omen customs",
-    "ritual labor visible in market life"
+    "Coastal Tongues dialect",
+    "seafood-heavy cuisine",
+    "public tide-timed rituals",
+    "strong kinship obligations"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "ominous tide-omens"
+    "missing reagents",
+    "ancestral unrest"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence rare and institutionally banned",
-    "Ritual magic consumes scarce imported reagents"
+    "rituals consume scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "Port reliant on seasonal trade for ritual reagents",
-    "Navigational auguries used but do not replace charts"
+    "population unknown; small harbor node",
+    "local pilots and charts required for safe navigation"
   ],
-  "generated_at": "2025-09-09T04:35:04.205Z"
+  "generated_at": "2025-09-09T05:46:35.132Z"
 }

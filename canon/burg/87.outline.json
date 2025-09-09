@@ -1,52 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_4d095405",
+  "checksum": "fnv1a_f0b5c82f",
   "burg_id": 87,
-  "name": "Burg_87",
-  "state_id": -1,
+  "name": "Ialsirt",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-hub"
+    "ritual-port",
+    "fishing"
   ],
   "size_hint": "small",
   "economy_roles": [
-    "fishery",
-    "waystation-trade",
-    "reagent-processing"
+    "small-scale fishing",
+    "ritual reagent processing",
+    "saltworks",
+    "local trade"
   ],
   "factions_local": [
-    "Harbor Guild",
-    "Shipwrights' Circle",
-    "Ancestor Remembrance Lodge"
+    "Sea-priest coterie",
+    "Fishermen's syndicate",
+    "Reagent merchants",
+    "Harbor smuggling ring"
   ],
   "problems": [
-    "scarce-reagents",
-    "smuggling",
-    "storm-damage"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggler influence",
+    "harbor siltation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect",
-    "salt-preserved cuisine",
-    "ritual barter customs"
+    "Coastal Tongues dialect with islandisms",
+    "Tide festivals and regular offerings to sea-spirits",
+    "Cuisine: shellfish, smoked & preserved fish",
+    "Public ritual displays at the harbor"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-shortage",
-    "stormwreck salvage"
+    "reagent theft",
+    "disappearing fishermen"
   ],
   "constraints": [
-    "no-instant-resurrection",
-    "limited-combustion-industry",
-    "ritual-magic consumes scarce imported reagents"
+    "No instant resurrection or life-replacement magics",
+    "Ritual magic consumes scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "population unknown; strategic coastal waypoint",
-    "navigational auguries used but charts essential"
+    "Navigational auguries exist but do not replace charts or seamanship",
+    "Small sheltered cove; vulnerable to storm damage and seasonal silt"
   ],
-  "generated_at": "2025-09-09T04:37:32.630Z"
+  "generated_at": "2025-09-09T05:49:08.832Z"
 }

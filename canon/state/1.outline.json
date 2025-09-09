@@ -1,101 +1,112 @@
 {
   "world_id": "world",
   "state_id": 1,
-  "checksum": "fnv1a_ced74611",
-  "name": "State_1",
+  "checksum": "fnv1a_5f87bcb3",
+  "name": "Slor'th",
   "aliases": [
-    "The First Harbor",
-    "Lowland Coast"
+    "Slorth",
+    "The Tide-Held City",
+    "Slor'th Coastrealm"
   ],
   "timeline_beats": [
     {
       "id": "TB1",
-      "label": "Founding coastal settlement; ritual waystations established",
-      "ybp": 10500,
+      "label": "Founding of the Tide-Halls (compact of coast clans)",
+      "ybp": 3600,
       "refs_world_events": []
     },
     {
       "id": "TB2",
-      "label": "Growth into a regional port-league city-state",
-      "ybp": 3500,
-      "refs_world_events": []
+      "label": "Border War of the Lowlands (protracted lowland campaigns)",
+      "ybp": 2200,
+      "refs_world_events": [
+        "W2"
+      ]
     },
     {
       "id": "TB3",
-      "label": "Joins Maritime Trading League (formalized alliance)",
-      "ybp": 1800,
+      "label": "Accession to the Maritime Trading League",
+      "ybp": 1300,
       "refs_world_events": [
         "A1"
       ]
     },
     {
       "id": "TB4",
-      "label": "Engaged in the Great Naval War (major fleet actions)",
-      "ybp": 900,
+      "label": "Great Naval War (major fleet engagements)",
+      "ybp": 700,
       "refs_world_events": [
         "W1"
       ]
     },
     {
       "id": "TB5",
-      "label": "Signs Open-Seas Treaty to curb privateering and standardize tariffs",
-      "ybp": 400,
+      "label": "Open-Seas Treaty ratified (formal maritime law alignment)",
+      "ybp": 450,
       "refs_world_events": [
         "T1"
       ]
     },
     {
       "id": "TB6",
-      "label": "Lowland Cession after Border War settlement; internal resettlement",
-      "ybp": 150,
+      "label": "Lowland Cession (territorial loss to neighbor states)",
+      "ybp": 200,
       "refs_world_events": [
-        "BC1",
-        "W2"
+        "BC1"
+      ]
+    },
+    {
+      "id": "TB7",
+      "label": "Entry into Sea Trade Union / Coastal-River Commerce Ring",
+      "ybp": 60,
+      "refs_world_events": [
+        "TB1",
+        "TB2"
       ]
     }
   ],
   "factions": [
     {
       "id": "F1",
-      "label": "Merchant Guilds",
-      "influence_hint": "Control customs, finance, dominant in port politics"
+      "label": "Harbormasters' Guild",
+      "influence_hint": "dominant (controls customs, docks, trade licensing)"
     },
     {
       "id": "F2",
-      "label": "Coastal Nobility",
-      "influence_hint": "Holds fortresses and legal authority in hinterland"
+      "label": "Tide-Court Oligarchy",
+      "influence_hint": "high (formal rulers, maritime law, diplomatic leads)"
     },
     {
       "id": "F3",
-      "label": "Shipwrights & Maratime Artisans",
-      "influence_hint": "Controls shipbuilding yards and dock labor"
+      "label": "Shipwrights' Clans",
+      "influence_hint": "strong (controls shipbuilding and naval logistics)"
     },
     {
       "id": "F4",
-      "label": "Order of Tide-Seers",
-      "influence_hint": "Regulates navigational auguries and ritual services"
+      "label": "Seabound Preservers (animist clergy)",
+      "influence_hint": "moderate (rituals for navigation, blessing of voyages)"
     },
     {
       "id": "F5",
-      "label": "Lowland Settlers' Council",
-      "influence_hint": "Rising local voice after recent cession; land rights focus"
+      "label": "Salt & Reagent Merchants",
+      "influence_hint": "growing (control scarce imported ritual reagents)"
     }
   ],
   "economy_pillars": [
     "shipbuilding",
-    "longshore trade and transshipment",
-    "salt & fish processing",
-    "ritual-augury services",
-    "imported reagent commerce"
+    "long-distance maritime trade",
+    "fishing & salting",
+    "reagent import & brokerage",
+    "port services & transshipment"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "maritime orientation and seamanship lore",
-      "guild-centric urban institutions",
-      "gift-exchange etiquette in trade",
-      "oral port-laws and sea shanty tradition",
-      "practical syncretism of coastal rites"
+      "seafaring ethos and port-centric identity",
+      "guild-structured civic governance",
+      "oral charting and star-route lore",
+      "practical ritualism tied to voyages",
+      "lexical borrowings from Island Creole and Riveric traders"
     ]
   },
   "religion": {
@@ -109,7 +120,7 @@
   "regions": [
     {
       "id": "R1",
-      "label": "Harbor Basin",
+      "label": "Great Harbor Quarter",
       "tags": [
         "trade-hub",
         "coastal"
@@ -117,34 +128,42 @@
     },
     {
       "id": "R2",
-      "label": "Lowland Delta",
+      "label": "Saltflats & Saltworks",
       "tags": [
-        "coastal",
-        "fertile"
+        "resource",
+        "coastal"
       ]
     },
     {
       "id": "R3",
-      "label": "Clifftop Dominions",
+      "label": "Lowland Marches",
+      "tags": [
+        "lowland",
+        "contested"
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Cliffward Bastion",
       "tags": [
         "coastal",
         "fortified"
       ]
     },
     {
-      "id": "R4",
-      "label": "Saltworks Archipelago",
+      "id": "R5",
+      "label": "Tidewatch Isles (archipelago)",
       "tags": [
-        "coastal",
-        "resource"
+        "island",
+        "naval-outposts"
       ]
     },
     {
-      "id": "R5",
-      "label": "Old Port Quarter",
+      "id": "R6",
+      "label": "Dockyard Ring",
       "tags": [
-        "historic",
-        "trade-hub"
+        "industry",
+        "shipbuilding"
       ]
     }
   ],
@@ -201,18 +220,19 @@
     }
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Navigational auguries cannot replace charts or seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+    "tech baseline: near-medieval to early industrial",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind influence is rare and institutionally banned",
+    "navigational auguries exist but cannot replace charts or seamanship",
+    "ritual magic consumes scarce imported reagents or specialized burg-labor",
+    "combustion-derived industry limited (no high-pressure steam megatechs)"
   ],
   "notes": [
-    "Coastal strategic economy; port control equals political power",
-    "Guilds regulate imports of ritual reagents; trade chokepoints are leverage",
-    "Tide-Seer order is licensed; augury services taxed and restricted for warfare",
-    "Recent Lowland Cession (BC1) increased agrarian resettlement pressure",
-    "Multiple overlapping alliances/treaties influence naval rules-of-engagement"
+    "strategic dependence on imported ritual reagents via port routes",
+    "Harbormasters' Guild controls revenue flows; political power tied to customs",
+    "Lowland border remains sensitive after BC1; cliffs and islands secure sea approaches",
+    "strong institutional seamanship; navigational auguries supplement but do not replace skilled pilots",
+    "membership in A1/TB1/TB2 shapes trade access and dispute resolution"
   ],
-  "generated_at": "2025-09-09T03:52:10.507Z"
+  "generated_at": "2025-09-09T05:20:33.180Z"
 }

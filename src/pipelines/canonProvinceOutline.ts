@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
 import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { buildNameMaps } from "../ingest/canonicalNames";
 
 type J = any;
 const readJson = <T=any>(p: string): T | null => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return null; } };
@@ -27,6 +28,8 @@ function gather() {
   const provFactDir = fs.existsSync("facts/derived/province") ? "facts/derived/province" :
                       fs.existsSync("facts/province") ? "facts/province" : "";
   const haveFactProvs = !!provFactDir;
+
+  const { provinceNameById } = buildNameMaps();
   const states = stateFiles.map(p => {
     const so = readJson<J>(p); // state outline
     const id = so?.state_id ?? parseInt(path.basename(p).split(".")[0], 10);
@@ -114,12 +117,13 @@ async function main() {
   if (g.haveFactProvs && g.provFactDir) {
     const factFiles = listJson(g.provFactDir);
     if (factFiles.length > 0) {
+      const { provinceNameById } = buildNameMaps();
       for (const pf of factFiles) {
         const j = readJson<J>(pf);
         const stateId = Number(j?.state ?? j?.stateId ?? j?.s ?? NaN);
         if (!Number.isFinite(stateId)) continue;
         const provId = String(j?.id ?? path.basename(pf, ".json"));
-        const name = j?.name || j?.Name || `Province_${provId}`;
+        const name = provinceNameById.get(String(provId)) || j?.name || j?.Name || `Province_${provId}`;
         const burghint = g.burgByProv.get(provId) || [];
         candidates.push({ state_id: stateId, province_id: provId, name, settlements_hint: burghint, source: "facts" });
       }

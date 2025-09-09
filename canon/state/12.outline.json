@@ -4,39 +4,45 @@
   "checksum": "fnv1a_4779f903",
   "name": "State_12",
   "aliases": [
-    "Harbor-Principalities",
+    "The Harbor Principality",
     "Tideward"
   ],
   "timeline_beats": [
     {
-      "id": "B1",
-      "label": "First coastal settlements",
-      "ybp": 8000,
-      "refs_world_events": []
+      "id": "TB1",
+      "label": "Founding of coastal settlement",
+      "ybp": 9500,
+      "refs_world_events": [
+        "Era_First_Coasts"
+      ]
     },
     {
-      "id": "B2",
-      "label": "Formation of coastal confederacies",
-      "ybp": 3500,
-      "refs_world_events": []
+      "id": "TB2",
+      "label": "Harbor charter and inland river link established",
+      "ybp": 3800,
+      "refs_world_events": [
+        "Era_River_Kingdoms"
+      ]
     },
     {
-      "id": "B3",
-      "label": "Codification of fisheries & harbor law",
-      "ybp": 1800,
-      "refs_world_events": []
+      "id": "TB3",
+      "label": "Integration into regional maritime trade networks",
+      "ybp": 1100,
+      "refs_world_events": [
+        "Era_Age_of_Flux"
+      ]
     },
     {
-      "id": "B4",
-      "label": "Entry into Maritime Trading League",
-      "ybp": 400,
+      "id": "TB4",
+      "label": "Joined Maritime Trading League (formal alliance)",
+      "ybp": 350,
       "refs_world_events": [
         "A1"
       ]
     },
     {
-      "id": "B5",
-      "label": "Fisheries sharing treaty revised",
+      "id": "TB5",
+      "label": "Fisheries sharing treaty ratified with neighbors",
       "ybp": 120,
       "refs_world_events": [
         "T3"
@@ -46,45 +52,45 @@
   "factions": [
     {
       "id": "F1",
-      "label": "Harbor Guilds (shipwrights & pilots)",
-      "influence_hint": "High; controls docks and ship provisioning"
+      "label": "Harbor Guild",
+      "influence_hint": "Controls port tariffs, ship charters, trade licenses"
     },
     {
       "id": "F2",
-      "label": "Clan-Fisher Cooperatives",
-      "influence_hint": "High in coastal districts; seasonal mobilization power"
+      "label": "Northern Fishers Cooperative",
+      "influence_hint": "Mobilizes coastal fleets; seasonal political leverage"
     },
     {
       "id": "F3",
-      "label": "Salt-Barons",
-      "influence_hint": "Medium; control saltworks and export tariffs"
+      "label": "Tide-Speakers (clerical order)",
+      "influence_hint": "Gatekeepers of sea-rituals; sway public seasonal rites"
     },
     {
       "id": "F4",
-      "label": "Tide-Scriptoria (ritual navigators)",
-      "influence_hint": "Medium; gatekeepers for augury services"
+      "label": "Council of Wharves",
+      "influence_hint": "Oligarchic administration: taxation, local defense"
     },
     {
       "id": "F5",
-      "label": "Merchant Consortia",
-      "influence_hint": "Medium-High; foreign trade and reagent import networks"
+      "label": "Riverwardens",
+      "influence_hint": "Controls river transshipment and smuggling corridors"
     }
   ],
   "economy_pillars": [
+    "maritime trade",
     "fisheries",
-    "shipbuilding",
-    "saltworks",
-    "coastal trade",
-    "navigational-augury services"
+    "shipbuilding & repair",
+    "ritual workshops (exported components & services)",
+    "salt & coastal agriculture"
   ],
   "culture": {
     "language_family": "Coastal Tongues",
     "traits": [
-      "maritime-oriented kinship clans",
-      "oral harbor law and customs",
-      "seasonal labor rhythms (monsoonal fisheries)",
-      "ritual seamanship practices",
-      "practical mercantile etiquette"
+      "seafaring lexicon and proverbs",
+      "seasonal tide-and-moon festivals",
+      "pragmatic mercantile ethos",
+      "strong harbor-clan kinship",
+      "widespread navigational augury practices"
     ]
   },
   "religion": {
@@ -98,39 +104,39 @@
   "regions": [
     {
       "id": "R1",
-      "label": "Great Harbor",
+      "label": "Grand Harbor",
       "tags": [
-        "coastal",
-        "trade-hub"
+        "trade-hub",
+        "coastal"
       ]
     },
     {
       "id": "R2",
-      "label": "North Salt-Flats",
+      "label": "Saltmarsh Delta",
       "tags": [
         "coastal",
-        "salt-works"
+        "riverine"
       ]
     },
     {
       "id": "R3",
-      "label": "Estuary Boroughs",
+      "label": "Upper Cliffs",
       "tags": [
-        "estuary",
-        "trade-hub"
+        "highland",
+        "watch"
       ]
     },
     {
       "id": "R4",
-      "label": "Cliffwatch",
+      "label": "Fleetyards",
       "tags": [
-        "coastal",
-        "military-outlook"
+        "shipbuilding",
+        "industrial"
       ]
     },
     {
       "id": "R5",
-      "label": "Outlying Fishing Isles",
+      "label": "Outer Isles",
       "tags": [
         "island",
         "seasonal"
@@ -170,17 +176,19 @@
     }
   ],
   "constraints": [
+    "Tech baseline: near-medieval to early-industrial; no high-pressure steam megatechs",
+    "Ritual magic requires scarce imported reagents or specialist labors; consumption is material and recurrent",
     "No instant resurrection or true life-replacement magics",
-    "Long-range mind influence is rare and institutionally banned",
-    "Navigational auguries cannot replace charts and seamanship",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Combustion-derived industry limited (no high-pressure steam megatechs)"
+    "Long-range mind-influence is rare and institutionally banned",
+    "Navigational auguries exist but cannot replace charts, seamanship, or legal navigational practices",
+    "Must comply with multistate treaties (T1, T3) on open-seas access and fisheries sharing"
   ],
   "notes": [
-    "Economy heavily dependent on imported ritual reagents via Merchant Consortia",
-    "Seasonal storms drive political rhythms and fishing rights disputes",
-    "Harbor Guilds control chokepoints for customs and augury access",
-    "Factions balance: Guilds/Cooperatives vs Salt-Barons; treaties and leagues stabilize external trade"
+    "Strategic economy depends on imported reagents routed via trade partners (A1, TB2); supply shocks destabilize ritual workshops",
+    "Seasonal storms and shifting tides drive migration of fishing effort between Grand Harbor and Outer Isles",
+    "Factional tension: Harbor Guild (trade) vs Northern Fishers (access & quotas)",
+    "Obligations under Open-Seas Treaty may require naval patrol contributions during disputes",
+    "Riverwardens form informal bridge to inland commerce; control of Saltmarsh Delta is a persistent flashpoint"
   ],
-  "generated_at": "2025-09-09T03:52:29.438Z"
+  "generated_at": "2025-09-09T04:58:57.881Z"
 }

@@ -1,58 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_1ab63a13",
+  "checksum": "fnv1a_649cc0",
   "burg_id": 302,
-  "name": "Burg_302",
+  "name": "Lympsbury",
   "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "outpost",
-    "ritual-supply"
+    "river-crossing",
+    "market-town"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "small-scale trade",
-    "ritual reagent brokerage",
-    "nav-augury support"
+    "river-trade",
+    "seasonal-markets",
+    "ritual-labs",
+    "grain-milling"
   ],
   "factions_local": [
-    "Tidewatchers",
-    "Ancestor Circle",
-    "Shipwrights' coop",
-    "Covert Skiffmen"
+    "Merchants' Cooperative",
+    "Ancestor-House",
+    "Riverboatmen's Guild",
+    "Guild of Ritual Artisans"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "isolation",
-    "sporadic banditry"
+    "bandit raiding",
+    "trade toll disputes",
+    "guild corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant; Riveric loanwords",
-    "tide-honoring festivals and small household rites",
-    "diet: salted fish, fermented sea vegetables",
-    "rituals use imported reagents; local specialists prized"
+    "Riveric Dialect dominant",
+    "Ancestor veneration central",
+    "Market-week festivals",
+    "Ritual craft and offerings common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing vessel",
-    "reagent run"
+    "missing reagent",
+    "river obstruction"
   ],
   "constraints": [
-    "no instant resurrection",
-    "limited combustion industry",
-    "long-range mind influence banned"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or true life-replacement magics",
+    "long-range mind-influence rare and institutionally banned"
   ],
   "notes": [
-    "navigational auguries used but charts/skill required",
-    "population and formal state ties uncertain"
+    "Population unknown; small river-market at a crossing (likely strategic)",
+    "Nominally outside strong state control; owes dues to regional guilds"
   ],
-  "generated_at": "2025-09-09T04:22:43.891Z"
+  "generated_at": "2025-09-09T05:34:43.294Z"
 }

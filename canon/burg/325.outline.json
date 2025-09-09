@@ -1,56 +1,51 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c33ff6f1",
+  "checksum": "fnv1a_c39f9bc4",
   "burg_id": 325,
-  "name": "Burg_325",
+  "name": "Glervaq",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-port"
-  ],
+  "tags": [],
   "size_hint": "outpost",
   "economy_roles": [
+    "harbor waystation",
+    "reagent market",
     "fishing",
-    "ritual-supply trade",
-    "inn & lodging",
-    "boatsmithing"
+    "lightkeeping"
   ],
   "factions_local": [
-    "Harbor Guild",
+    "Harbormasters' Guild",
+    "Reagent Brokers",
     "Ancestor Circle",
-    "Smugglers' Ring",
-    "Harbormaster's Council"
+    "Smuggler Ring"
   ],
   "problems": [
-    "reagent scarcity",
-    "smuggling",
-    "salt damage to craft"
+    "scarce ritual reagents",
+    "coastal piracy",
+    "supply shortages",
+    "jurisdiction disputes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Speaks Coastal Tongues with Island Creole borrowings",
-    "Docks as focus for nightly offerings",
-    "Diet heavy on smoked/salted fish and seaweed",
-    "Tide-song work rhythms and superstitions"
+    "Coastal Tongues with Riveric loanwords",
+    "tide offerings and keel-burning rites",
+    "diet heavy on salted fish and kelp preserves"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearances at sea"
+    "missing lighthouse keeper",
+    "reagent theft"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence rare and institutionally banned"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "Rocky inlet harbor, exposed to storms",
-    "Small permanent population; seasonal sailors and ritual-pilgrims"
+    "navigational auguries used but do not replace charts",
+    "strategic waypoint for coastal traders and small convoys"
   ],
-  "generated_at": "2025-09-09T04:24:20.043Z"
+  "generated_at": "2025-09-09T05:36:04.898Z"
 }

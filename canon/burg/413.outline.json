@@ -1,51 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_b2433735",
+  "checksum": "fnv1a_c713e6f8",
   "burg_id": 413,
-  "name": "Burg_413",
+  "name": "Gobsil",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "none",
+    "coastal",
+    "ritual-supply"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "ritual-reagent trade",
     "small-scale fishing",
-    "waystation/inn"
+    "ritual reagent brokerage",
+    "waystation trade",
+    "coastal salvage"
   ],
   "factions_local": [
-    "harbormaster's clique",
-    "ritual-supplier lodge",
-    "itinerant merchants"
+    "Fisherfolk Council",
+    "Reagent Merchants' Ring",
+    "Tidewatchers (animist devotees)",
+    "Harbor Cutters (smugglers)"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "bandit/raider skiffs",
-    "irregular supply runs"
+    "reagent scarcity",
+    "smuggling and lawlessness",
+    "coastal erosion",
+    "periodic bandit raids"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dominant dialect",
-    "seafood-and-smoked-fish cuisine",
-    "local customs blend sailor superstitions with household ancestor rites",
-    "rituals require imported material components"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ancestor-wakes blend with sea-blessing rites",
+    "salt-curing and kelp-based cuisine",
+    "barter-heavy small-boat commerce"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "ritual contamination"
+    "missing ritualist / priest",
+    "reagent run"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence is rare and institutionally banned",
-    "no instant resurrection or true life-replacement magics"
+    "no instant resurrection magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries aid but do not replace seamanship",
-    "state-level details unknown"
+    "sparse population; intermittent port-of-call for local craft",
+    "navigational auguries used but charts and seamanship required"
   ],
-  "generated_at": "2025-09-09T04:30:04.119Z"
+  "generated_at": "2025-09-09T05:41:56.618Z"
 }

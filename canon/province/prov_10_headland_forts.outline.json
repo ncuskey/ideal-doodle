@@ -1,0 +1,56 @@
+{
+  "world_id": "world",
+  "state_id": 10,
+  "province_id": "prov_10_headland_forts",
+  "checksum": "fnv1a_289ddfb5",
+  "name": "Headland Forts",
+  "aliases": [
+    "The Headlands",
+    "Cape Garrisons"
+  ],
+  "tags": [
+    "coastal",
+    "military",
+    "navigation",
+    "outpost"
+  ],
+  "role_in_state": "Strategic coastal defense and maritime waystation",
+  "economy_niches": [
+    "ship repair & hull care for convoy fleets",
+    "signal-station & beacon maintenance (paid posts)",
+    "provisioning garrisons and passing fleets (salted stores)",
+    "navigation-augury relay services",
+    "small-scale salted/dried fisheries for long voyages"
+  ],
+  "culture_adjustments": [
+    "militarized clan leadership with duty-driven rank",
+    "ritualized nightwatch and beacon rites unique to forts",
+    "sea-proverb oral forms shortened into watch-codes",
+    "practical austerity in feasts; storehouse-first mentality"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge/sea-erosion",
+    "cliff instability",
+    "corsair/raiding parties",
+    "supply-chain isolation in winter"
+  ],
+  "constraints": [
+    "scarce arable land—reliant on imported food",
+    "ritual reagents rationed by garrison command",
+    "construction limited by cliffs and access paths"
+  ],
+  "notes": [
+    "seasonal garrison rotations shape local market cycles",
+    "beacons serve both practical navigation and sanctioned augury relay"
+  ],
+  "generated_at": "2025-09-09T05:02:54.690Z"
+}

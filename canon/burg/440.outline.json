@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_aba144a9",
+  "checksum": "fnv1a_3c294d76",
   "burg_id": 440,
-  "name": "Burg_440",
+  "name": "Sioshas",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-supplier",
-    "waystation"
+    "fishing"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "small-fishing",
-    "provisioning",
-    "reagent-trade",
-    "smuggling"
+    "fishing",
+    "salt-curing",
+    "ritual-supply",
+    "small-scale-trade"
   ],
   "factions_local": [
-    "harborwatch",
-    "reagent-merchants",
-    "shore-priests",
-    "privateers"
+    "fishermen's guild",
+    "tide-priests",
+    "portmaster's office",
+    "smuggler-cell"
   ],
   "problems": [
-    "scarce-reagents",
-    "supply-disruption",
-    "banditry"
+    "scarce-ritual-reagents",
+    "storm-damage",
+    "smuggling",
+    "isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Ancestor-Remembrance Cults",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "formal ritual etiquette around reagent handling",
-    "seafood-focused cuisine with fermented condiments"
+    "Coastal Tongues dialect",
+    "boat-kinship clan structure",
+    "seaweed-and-salt cuisine",
+    "tide-change offerings common"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing-shipment",
-    "ritual-accident"
+    "missing-sailors",
+    "stolen-ritual-reagents"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Limited combustion industry; no high-pressure steam megatechs"
+    "ritual magic consumes scarce imported reagents",
+    "no instant resurrection or life-replacement magics",
+    "navigational auguries augment but do not replace seamanship"
   ],
   "notes": [
-    "Population unknown; transient crews dominate",
-    "Navigational auguries used but cannot replace charts and seamanship"
+    "near-medieval to early-industrial tech baseline",
+    "limited combustion industry; reliant on imported goods"
   ],
-  "generated_at": "2025-09-09T04:31:55.710Z"
+  "generated_at": "2025-09-09T05:43:50.493Z"
 }

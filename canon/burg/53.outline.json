@@ -1,56 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_77191e5d",
+  "checksum": "fnv1a_bc9cd4cb",
   "burg_id": 53,
-  "name": "Burg_53",
-  "state_id": -1,
+  "name": "Kilwyntiga",
+  "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "riverine",
-    "ritual-supply",
-    "waystation"
+    "coastal",
+    "harbor",
+    "ritual-labour"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-ingredient depot",
-    "small-scale fishing",
-    "waystation/inn",
-    "barter trading"
+    "fishing",
+    "small-scale ship repair",
+    "ritual-supply crafting",
+    "salt production",
+    "smuggling"
   ],
   "factions_local": [
-    "ritual-syndicate",
-    "harbormaster's guild",
-    "coastal clan elders",
-    "smuggler crew"
+    "Harbormasters' Guild",
+    "Tide-Priests",
+    "Merchant Runners",
+    "Smugglers' Ring"
   ],
   "problems": [
     "reagent scarcity",
-    "bandit raids on supply routes",
-    "isolation during storms"
+    "storm damage to quays",
+    "corruption among officials",
+    "bandit raids on coastal routes"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Riveric Dialect predominates",
-    "ancestor-offering coastal rites",
-    "diet: salted fish and seaweed stews",
-    "practical seamanship; superstitions about tides"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "tide festivals and nightly votive offerings",
+    "diet heavy on smoked fish, seaweed and salted stores",
+    "ritual-labour guilds regulate reagent access"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "stolen ritual reagents",
+    "missing fishermen"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection or life-replacement magics",
-    "long-range mind-influence rare and banned"
+    "No instant resurrection or life-replacement magics",
+    "Long-range mind influence rare and institutionally banned; ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "navigation relies on charts despite local auguries",
-    "dependent on passing coastal trade; fortunes fluctuate"
+    "Near-medieval to early-industrial baseline; limited combustion industry",
+    "Unclear state affiliation; local authorities and guilds hold real power"
   ],
-  "generated_at": "2025-09-09T04:35:17.810Z"
+  "generated_at": "2025-09-09T05:46:41.886Z"
 }

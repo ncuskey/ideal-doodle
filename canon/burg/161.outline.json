@@ -1,52 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_90c3f2e5",
+  "checksum": "fnv1a_7fecb69d",
   "burg_id": 161,
-  "name": "Burg_161",
+  "name": "Paasheaf",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal-outpost"
+    "agrarian",
+    "harvest-ritual"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "reagent-transit",
-    "waystation",
-    "minor-ship-repair"
+    "grain farming",
+    "sheep-rearing",
+    "loomwork/thatched-basketry",
+    "local-market-trade"
   ],
   "factions_local": [
-    "harbormaster",
-    "reagent-merchant-guild",
-    "shrine-keepers"
+    "elders council",
+    "harvest guild",
+    "shrine-keeper family"
   ],
   "problems": [
-    "scarce-imports",
-    "smuggling",
-    "storm-damage"
+    "seasonal blight",
+    "banditry on minor roads",
+    "scarce imported reagents"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongue with Island Creole borrowings",
-    "tide-harvest festivals and barter rituals",
-    "diet: salt-cured fish, seaweed, preserved kelp"
+    "speaks Riveric Dialect",
+    "annual sheaf-weaving harvest festival",
+    "diet: porridge, preserved cheese, salted pork",
+    "craft focus: baskets, simple textiles"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "missing-reagents",
-    "storm-omen"
+    "crop-blight",
+    "stolen-ritual-reagents",
+    "missing-herds-or-children"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection; long-range mind influence banned"
+    "rituals consume scarce imported reagents",
+    "no long-range mind-influence permitted",
+    "limited combustion-derived industry"
   ],
   "notes": [
-    "near-medieval to early-industrial tech baseline",
-    "navigational auguries supplement but do not replace charts"
+    "small agricultural settlement with ritual harvest significance",
+    "near-medieval to early-industrial baseline with localized ritual magic"
   ],
-  "generated_at": "2025-09-09T04:13:14.831Z"
+  "generated_at": "2025-09-09T05:25:46.772Z"
 }

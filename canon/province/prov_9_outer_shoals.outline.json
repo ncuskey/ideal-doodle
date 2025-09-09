@@ -1,0 +1,60 @@
+{
+  "world_id": "world",
+  "state_id": 9,
+  "province_id": "prov_9_outer_shoals",
+  "checksum": "fnv1a_8fbb71d7",
+  "name": "Outer Shoals",
+  "aliases": [
+    "Shoalward",
+    "The Breakers"
+  ],
+  "tags": [
+    "coastal",
+    "shoals",
+    "kelp-beds",
+    "navigation-hazard",
+    "salvage-zone"
+  ],
+  "role_in_state": "maritime hazard buffer and specialized resource zone",
+  "economy_niches": [
+    "reef-harbor ship repair & careening",
+    "salted & cured fish exports",
+    "kelp/seaweed processing (fertilizer, binders)",
+    "navigational-augury outposts & pilot services",
+    "seasonal salvage, pearl & sponge gathering"
+  ],
+  "culture_adjustments": [
+    "apprenticeship emphasizes reef-skill and shallow-water seamanship",
+    "salvage-charters and informal rights override some port guild norms",
+    "rope-and-net festivals incorporate hazard-clearing rites",
+    "practical animist rites dominate daily working routines",
+    "more improvisational craft forms for small reef craft"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm-surge",
+    "reef-grounding",
+    "salvage-piracy",
+    "toxic kelp-bloom",
+    "seasonal isolation"
+  ],
+  "constraints": [
+    "limited arable land",
+    "hazardous approach prevents large deepwater ports",
+    "ritual-magic reliant on scarce imported reagents"
+  ],
+  "notes": [
+    "key calibration zone for state navigational-auguries",
+    "common source of inter-merchant salvage disputes",
+    "seasonal workforce peaks during low-wind months"
+  ],
+  "generated_at": "2025-09-09T05:08:55.958Z"
+}

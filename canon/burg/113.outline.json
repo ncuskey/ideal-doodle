@@ -1,50 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_8f50d3b7",
+  "checksum": "fnv1a_142593e7",
   "burg_id": 113,
-  "name": "Burg_113",
+  "name": "Crild",
   "state_id": -1,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "river-harbor"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "waystation/relay",
+    "fishing",
     "reagent transshipment",
-    "coastal fishing"
+    "ferry waypoint",
+    "small-scale trade"
   ],
   "factions_local": [
-    "Harbor Council",
+    "Harborwardens",
     "Reagent Syndicate",
-    "Pilgrim Lodgers"
+    "Ancestor Circle",
+    "Smugglers' Ring"
   ],
   "problems": [
-    "scarce imported reagents",
-    "smuggling and illicit trade",
-    "periodic bandit raids"
+    "banditry",
+    "reagent scarcity",
+    "corrupt port officials",
+    "fog/navigation hazards"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues-influenced dialect with loanwords for navigation",
-    "ritual offerings to tides before departure",
-    "diet heavy on salted fish, pickled seaweeds and reagent-spiced stews"
+    "Coastal Tongues dialect influence",
+    "seafood-and-salted-preserve cuisine",
+    "tide-offering rituals",
+    "superstitious seamanship jargon"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing reagent shipment",
-    "strange tides"
+    "missing reagent shipments",
+    "ritual theft"
   ],
   "constraints": [
+    "no instant resurrection",
     "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or long-range mind control",
-    "limited combustion industry (no high-pressure steam megatech)"
+    "navigational auguries cannot replace charts"
   ],
   "notes": [
-    "location/status within state unclear; functions as local coastal relay",
-    "seasonal navigation and augury important to schedules"
+    "state affiliation unknown",
+    "sparse population data",
+    "transit point for ritual reagents"
   ],
-  "generated_at": "2025-09-09T04:10:01.813Z"
+  "generated_at": "2025-09-09T23:08:59.514Z"
 }

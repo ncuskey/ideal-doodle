@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c4750053",
+  "checksum": "fnv1a_4ed6f7df",
   "burg_id": 236,
-  "name": "Burg_236",
+  "name": "Inve",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "coastal",
-    "reagent-hub"
+    "none",
+    "river-harbor",
+    "ritual-augury"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent-harvest",
-    "small-scale-fishing",
-    "waystation",
-    "ritual-supply-depot"
+    "fishing",
+    "augury-services",
+    "local-market",
+    "waystation"
   ],
   "factions_local": [
-    "harvesters-guild",
-    "ritual-clerics",
-    "skippers-cooperative",
-    "smugglers-cell"
+    "Harbor Guild",
+    "Augur Circle",
+    "Merchant Brotherhood agents",
+    "Coastwatch"
   ],
   "problems": [
-    "scarce-imports",
-    "banditry-on-coast",
-    "supply-uncertainty"
+    "scarce-ritual-reagents",
+    "smuggling",
+    "seasonal-storms"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "sea-memorial ceremonies for drowned kin",
-    "diet based on salt-preserved fish and seaweeds"
+    "Coastal Tongues with Riveric loanwords",
+    "boat-first customs; rites held at tide",
+    "diet: smoked fish, seaweed; stilted architecture"
   ],
   "quest_hook_slots": [
-    "missing-reagents",
     "smuggling",
-    "shipwreck-salvage"
+    "ritual-theft",
+    "disappearances"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents; trade-dependent"
+    "rituals require scarce imported reagents",
+    "no long-range mind-influence allowed",
+    "navigation auguries cannot replace charts/crew"
   ],
   "notes": [
-    "Population small and seasonal; often transient sailors",
-    "Strategic minor node for collecting ritual materials and servicing coastal traffic"
+    "at river mouth; serves passing coastal traffic",
+    "seasonal access limits overland supply"
   ],
-  "generated_at": "2025-09-09T04:17:54.157Z"
+  "generated_at": "2025-09-09T05:30:14.371Z"
 }

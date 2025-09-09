@@ -1,53 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_7b74c12b",
+  "checksum": "fnv1a_17b0da2b",
   "burg_id": 438,
-  "name": "Burg_438",
+  "name": "Pyreazi",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "ritual-supply"
+    "funeral-pyres",
+    "ashworks"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "fishing",
-    "ritual-ingredient trade",
-    "boat repair"
+    "ritual funerary services",
+    "ash-harvesting & processing",
+    "reagent trade",
+    "small-scale fisheries"
   ],
   "factions_local": [
-    "Fisherfolk Guild",
-    "Tide-Animists Circle",
-    "Smugglers' Coterie"
+    "Ancestor Pyre Cult",
+    "Ashworkers' Guild",
+    "Tidewatchers",
+    "Smugglers' crew"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling",
-    "tidal siltation"
+    "fire hazards & stray embers",
+    "bandit raids",
+    "suspicion from mainland authorities"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "diet: salted fish, seaweed, preserved shellfish",
-    "customs: tide-based rites and small-boat festivals"
+    "Coastal Tongues + Island Creole dialect blend",
+    "Nightly pyre-processions and ash offerings",
+    "Cuisine: smoked fish and ash-cured meats"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing dredge",
-    "tidal-ghosts"
+    "ritual-desecration",
+    "out-of-control-fire"
   ],
   "constraints": [
-    "No instant resurrection or life-replacement magics",
-    "Ritual magic consumes scarce imported reagents",
-    "Long-range mind influence is rare and institutionally banned"
+    "no resurrection magics",
+    "rituals consume scarce imported reagents",
+    "navigational auguries cannot replace charts"
   ],
   "notes": [
-    "Near-medieval to early-industrial tech baseline",
-    "Navigational auguries used but do not replace charts"
+    "local ash traded as low-grade ritual reagent",
+    "limited combustion industry; no high-pressure steam"
   ],
-  "generated_at": "2025-09-09T04:32:06.979Z"
+  "generated_at": "2025-09-09T05:43:40.642Z"
 }

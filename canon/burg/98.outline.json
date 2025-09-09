@@ -1,54 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_39cc8f5d",
+  "checksum": "fnv1a_2ad2dc33",
   "burg_id": 98,
-  "name": "Burg_98",
+  "name": "Watchwark",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "watchpost",
     "coastal",
-    "ritual-outpost"
+    "lighthouse"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "fishing",
-    "ritual-supply",
-    "transhipment",
-    "smuggling"
+    "signal relay",
+    "fisher support",
+    "coastal patrol",
+    "toll collection"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-wardens",
-    "smuggler-ring",
-    "clan-council"
+    "Harbor Wardens",
+    "Signal Guild",
+    "Smugglers' Cell",
+    "Tidekeeper Chapel"
   ],
   "problems": [
-    "scarce-reagents",
-    "banditry",
-    "supply-disruptions"
+    "smuggling",
+    "supply scarcity",
+    "reef hazards",
+    "garrison fatigue"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with loanwords from Island Creole",
-    "sea-focused cuisine: dried fish, kelp, smoked shellfish",
-    "ritual calendar keyed to local tides and moon phases"
+    "Coastal Tongues dialect with nautical slang",
+    "diet: salted fish, kelp, preserved stores",
+    "nightly beacon and tide rituals",
+    "rotating-watch social structure"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual-supplier theft",
-    "missing-shipments"
+    "mysterious light/wreck",
+    "missing watchmen"
   ],
   "constraints": [
-    "No instant resurrection or true life-replacement magics",
-    "Ritual magic consumes scarce imported reagents or specialized labor",
-    "Navigational auguries do not replace charts and seamanship"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or life-replacement magics",
+    "Navigational auguries aid but don't replace seamanship"
   ],
   "notes": [
-    "Near-medieval to early-industrial baseline tech",
-    "Strategic minor harbor serving nearby islands and coastal traders"
+    "Strategic outpost controlling a reefed approach",
+    "Small permanent population; garrison rotated from regional ports"
   ],
-  "generated_at": "2025-09-09T04:38:14.962Z"
+  "generated_at": "2025-09-09T05:49:52.350Z"
 }

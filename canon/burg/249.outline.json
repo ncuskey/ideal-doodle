@@ -1,55 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_259ec45b",
+  "checksum": "fnv1a_d72601d4",
   "burg_id": 249,
-  "name": "Burg_249",
+  "name": "Kophje",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [
-    "coastal",
-    "ritual-depot",
-    "waystation"
-  ],
-  "size_hint": "outpost",
+  "tags": [],
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "boat repair",
-    "fisheries",
-    "coastal lodging"
+    "fishing",
+    "reagent brokerage",
+    "waystation/transit",
+    "cartage & repair"
   ],
   "factions_local": [
-    "ritual-runner guild",
-    "fisher cooperative",
-    "harbormaster's office"
+    "Harbor Guild",
+    "Ancestor-Remembrance Circle",
+    "Merchant House Saila",
+    "Smugglers' Coterie"
   ],
   "problems": [
-    "smuggling",
-    "reagent scarcity",
-    "bandit raids"
+    "scarce imported reagents",
+    "banditry on approach routes",
+    "corruption among port officials"
   ],
   "religion_presence": [
+    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect influence",
-    "seaweed-and-fish cuisine",
-    "tide-festival and boat-blessing rituals"
+    "Coastal Tongues dialect with Riveric loanwords",
+    "ancestor offerings fused into daily fishing rites",
+    "seaweed-and-spice preserves common",
+    "practical shipwright and net-mending traditions"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "ritual reagent theft",
-    "missing lighthouse keeper"
+    "reagent shortage",
+    "ancestor unrest/hauntings"
   ],
   "constraints": [
-    "Ritual magic consumes scarce imported reagents",
-    "No instant resurrection; long-range mind influence banned",
-    "Navigational auguries cannot replace charts or seamanship"
+    "Ritual magic requires scarce imported reagents",
+    "Long-range mind influence is rare and institutionally banned",
+    "No high-pressure steam megatechs; limited combustion industry"
   ],
   "notes": [
-    "Population transient and poorly documented",
-    "Key stop for coastal traders and reagent runners"
+    "Population unknown; functions as coastal waypoint and minor port",
+    "Likely a hub for ritual reagent trade and clandestine goods"
   ],
-  "generated_at": "2025-09-09T04:18:55.336Z"
+  "generated_at": "2025-09-09T05:31:05.865Z"
 }

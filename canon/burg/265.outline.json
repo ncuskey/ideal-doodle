@@ -1,52 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_fc003b17",
+  "checksum": "fnv1a_1be0d594",
   "burg_id": 265,
-  "name": "Burg_265",
-  "state_id": 0,
-  "province_id": "unknown",
+  "name": "Crerags",
+  "state_id": -1,
+  "province_id": "",
   "tags": [],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual-reagent trade",
-    "waystation/inn",
-    "small-boat fishing",
-    "barter & repair"
+    "quarrying",
+    "gathering of ritual herbs",
+    "waystation for pack caravans",
+    "small-market trade"
   ],
   "factions_local": [
-    "apothecarists' coterie",
-    "harbor guild",
-    "riverwardens",
-    "smugglers' ring"
+    "Quarrymasters' Collective",
+    "Garrison of the Crag Pass",
+    "Herbwardens' Circle",
+    "Ancestor-Seers"
   ],
   "problems": [
-    "reagent scarcity",
-    "river banditry",
-    "administrative limbo"
+    "scarce ritual reagents",
+    "rockfalls and quarry accidents",
+    "isolation and supply delays",
+    "smuggling of restricted auguries"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Riveric-Coastal dialect mix",
-    "long-boat processions for safe passage",
-    "pickled fish, reagent-infused teas common"
+    "Highland Cant dialect prevalent",
+    "stonecraft and cliff-side masonry",
+    "preserved meats and herb stews common",
+    "annual rock-clearing rites"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent theft",
-    "river disappearances"
+    "collapsed quarry",
+    "missing shrine relic",
+    "smuggling ring"
   ],
   "constraints": [
-    "no instant resurrection or life-replacement magics",
     "ritual magic consumes scarce imported reagents",
-    "limited combustion industry — no high-pressure steam megatechs"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind-influence rare and banned"
   ],
   "notes": [
-    "border/outpost with unknown state affiliation",
-    "frequent stop for itinerant ritualists and navigational augurs"
+    "population unknown (sparse outpost)",
+    "controls a narrow mountain pass",
+    "access difficult in bad weather"
   ],
-  "generated_at": "2025-09-09T04:19:53.134Z"
+  "generated_at": "2025-09-09T05:32:23.790Z"
 }

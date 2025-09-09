@@ -1,50 +1,53 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_c21c3935",
+  "checksum": "fnv1a_4cdd68fb",
   "burg_id": 219,
-  "name": "Burg_219",
-  "state_id": -1,
-  "province_id": "unknown",
+  "name": "Noster",
+  "state_id": 0,
+  "province_id": "",
   "tags": [
-    "none"
+    "river-crossing",
+    "ritual-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "waystation",
     "fishing",
-    "ritual-supplier"
+    "waystation/boat-repair",
+    "ritual-labor services"
   ],
   "factions_local": [
-    "fishermen's coop",
-    "ritual-smiths",
-    "smuggling ring"
+    "harbor-guild",
+    "ritual-cabinet",
+    "river-watch"
   ],
   "problems": [
-    "scarce reagents",
-    "bandit raids",
-    "supply isolation"
+    "reagent scarcity",
+    "banditry on approach roads",
+    "seasonal flooding"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with Riveric loanwords",
-    "seafood-heavy cuisine; salted and smoked staples",
-    "tidal ancestor-shrines and small ritual lighthouses"
+    "Riveric Dialect with coastal loanwords",
+    "tide-harvest rites important to schedule work",
+    "diet of smoked/salted fish and river greens"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "disappearances at sea"
+    "missing ritual reagents",
+    "river-monster/strange currents"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no high-pressure steam industry; limited combustion tech"
+    "no instant resurrection or life-replacement magics",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence is rare and banned"
   ],
   "notes": [
-    "tidal causeway access at low water",
-    "minor harbor; navigational auguries supplement charts"
+    "navigational auguries used by pilots but not a substitute for charts",
+    "combustion industry limited"
   ],
-  "generated_at": "2025-09-09T04:16:56.675Z"
+  "generated_at": "2025-09-09T05:29:14.288Z"
 }

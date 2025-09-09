@@ -1,58 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_67e432d9",
+  "checksum": "fnv1a_28951104",
   "burg_id": 242,
-  "name": "Burg_242",
+  "name": "Neford",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
+    "ford",
     "river-crossing",
-    "reagent-trade"
+    "ritual-waystation"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "reagent trade",
-    "fishing",
-    "toll collection",
-    "smuggling support"
+    "ferrying",
+    "grain-trade",
+    "milling",
+    "ritual-reagent-exchange"
   ],
   "factions_local": [
-    "Merchant syndicate",
-    "Shrine-keepers (Sea-Tide)",
-    "River-crew guild",
-    "Smugglers' ring"
+    "Ferrywrights' Guild",
+    "River Watch",
+    "Temple of Ancestors",
+    "Merchant Brokers"
   ],
   "problems": [
-    "scarce imported reagents",
-    "bandit ambushes",
-    "corrupt tolls",
-    "contaminated water"
+    "seasonal-flooding",
+    "banditry-on-road",
+    "reagent-scarcity"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Riveric Dialects dominant",
-    "Boat-funeral customs",
-    "Diet: salted fish & river greens",
-    "Gift-exchange at shrines"
+    "Riveric Dialect predominant",
+    "annual ford-festival with boat-races",
+    "diet: smoked freshwater fish and barley"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual reagent",
-    "river spirit unrest"
+    "flood-threat",
+    "stolen-ritual-reagents"
   ],
   "constraints": [
-    "Rituals require scarce imported reagents",
-    "No instant resurrection or life-replacement magics",
-    "Long-range mind influence rare and institutionally banned"
+    "no-instant-resurrection",
+    "ritual-magic-consumes-scarce-reagents",
+    "long-range-mind-influence-banned"
   ],
   "notes": [
-    "Population unknown; transient, traffic-centric",
-    "Located on a navigable river crossing",
-    "Modest warehouses for ritual reagents"
+    "Strategic ford on midriver trade route",
+    "Small woodworking and milling center",
+    "Nearby peat marshes used for ritual smoke"
   ],
-  "generated_at": "2025-09-09T04:18:20.520Z"
+  "generated_at": "2025-09-09T05:30:49.393Z"
 }

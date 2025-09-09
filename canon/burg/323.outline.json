@@ -1,52 +1,59 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_798014d5",
+  "checksum": "fnv1a_a823e42e",
   "burg_id": 323,
-  "name": "Burg_323",
+  "name": "Joimtoilm",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
-    "none"
+    "none",
+    "coastal",
+    "ritual-harbor"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "river ferry/waystation",
-    "ritual-reagent brokerage",
-    "inn/tavern",
-    "small boat repair"
+    "fishing",
+    "ritual-navigation",
+    "salt-curing",
+    "minor trade",
+    "ship repair"
   ],
   "factions_local": [
-    "Ferrymen's Co-op",
-    "Reagent Brokers' Ring",
-    "Ancestor-Priest Circle"
+    "Harbor Guild",
+    "Tide-Remembrance Circle",
+    "Smugglers' Coterie",
+    "Merchant Envoys"
   ],
   "problems": [
     "reagent scarcity",
-    "smuggling clashes",
-    "seasonal flooding"
+    "storm damage",
+    "smuggling",
+    "isolation"
   ],
   "religion_presence": [
-    "Ancestor-Remembrance Cults",
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "speaks Riveric Dialect",
-    "river-offering customs at current-turning",
-    "diet heavy on salted/smoked fish"
+    "Coastal Tongues dialect",
+    "seafaring ritual customs",
+    "diet: salted fish and kelp",
+    "voyage-offering tradition"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ferryman",
-    "stolen ritual reagent"
+    "reagent-theft",
+    "strange-tides"
   ],
   "constraints": [
     "ritual magic consumes scarce imported reagents",
-    "long-range mind influence institutionally banned"
+    "no long-range mind magics",
+    "limited combustion industry"
   ],
   "notes": [
-    "state affiliation unclear",
-    "seasonal population spikes with reagent caravans"
+    "navigational auguries cannot replace charts or seamanship",
+    "near-medieval to early-industrial tech baseline"
   ],
-  "generated_at": "2025-09-09T04:24:03.421Z"
+  "generated_at": "2025-09-09T05:36:12.328Z"
 }

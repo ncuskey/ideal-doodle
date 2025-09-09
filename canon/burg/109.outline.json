@@ -1,53 +1,55 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d62dac99",
+  "checksum": "fnv1a_9845e7e8",
   "burg_id": 109,
-  "name": "Burg_109",
+  "name": "Ulbtongli",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
+  "tags": [
+    "riverine",
+    "waypoint"
+  ],
   "size_hint": "outpost",
   "economy_roles": [
-    "small fishery",
-    "reagent transshipment",
-    "ferry/waystation",
-    "salt harvesting"
+    "river ferry",
+    "fishery",
+    "reagent trade",
+    "transit lodging"
   ],
   "factions_local": [
-    "harbor-elders",
-    "reagent-merchant circle",
-    "tide-priesthood"
+    "Riverboat Guild",
+    "Ancestor Shrine Council",
+    "Harborwatch",
+    "Reagent Peddlers"
   ],
   "problems": [
     "reagent scarcity",
-    "seasonal storms",
-    "smuggling",
-    "isolation"
+    "bandit skiffs",
+    "silted channel"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Sea-Tide Animisms"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with heavy nautical slang",
-    "rituals timed to tides and moon phases",
-    "seafood-and-salt preservation cuisine",
-    "boat-building and knotcraft respected crafts"
+    "Riveric Dialect with Coastal loanwords",
+    "Boat-wake funeral rites",
+    "Diet centered on smoked riverfish and kelp",
+    "Practical layered oilcloth clothing"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "shipwreck salvage"
+    "ritual reagent theft",
+    "river-creature attack"
   ],
   "constraints": [
-    "ritual magic consumes scarce imported reagents",
-    "no instant resurrection or true life-replacement magics",
-    "long-range mind influence is rare and institutionally banned"
+    "no instant resurrection",
+    "rituals consume scarce imported reagents",
+    "long-range mind influence banned"
   ],
   "notes": [
-    "population unknown; functions as minor transshipment outpost",
-    "state/province affiliation unclear"
+    "strategic river waypoint; limited deep-draft access",
+    "local economy tied to passing vessels and ritual supply chains"
   ],
-  "generated_at": "2025-09-09T04:09:38.681Z"
+  "generated_at": "2025-09-09T23:08:40.825Z"
 }

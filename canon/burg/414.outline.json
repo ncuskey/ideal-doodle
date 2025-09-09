@@ -1,54 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_728728a3",
+  "checksum": "fnv1a_a458222",
   "burg_id": 414,
-  "name": "Burg_414",
+  "name": "Xurx",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "ritual-harbor"
+    "augury-outpost"
   ],
   "size_hint": "outpost",
   "economy_roles": [
-    "subsistence fishing",
-    "reagent trading",
-    "waystation",
-    "small-scale ship repair"
+    "fishing",
+    "waystation-port",
+    "ritual-augury-services",
+    "small-scale-trade"
   ],
   "factions_local": [
-    "harbormaster's guild",
-    "ritual-priesthood",
-    "smuggler band"
+    "harbor-council",
+    "augury-priests",
+    "merchant-brotherhood-agents",
+    "smuggler-ring"
   ],
   "problems": [
-    "scarce ritual reagents",
-    "isolated supply lines",
-    "bandit raids"
+    "scarce-ritual-reagents",
+    "smuggling",
+    "storm-damage",
+    "supply-isolation"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
     "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect dominant",
-    "sea-blessing rites and small shrines",
-    "diet of salted fish and foraged seaweed",
-    "local craft: hull and net repair"
+    "Coastal Tongues with Island Creole loanwords",
+    "diet: salted fish, kelp, preserved citrus",
+    "night-tide rites and small-boat superstitions",
+    "harbor access governed by augury etiquette"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent theft",
-    "missing fishing crew"
+    "augury-failure",
+    "reagent-run"
   ],
   "constraints": [
-    "no instant resurrection",
-    "ritual magic consumes scarce imported reagents",
-    "long-range mind influence banned"
+    "ritual-magic consumes scarce imported reagents",
+    "navigational-auguries supplemental-only; cannot replace seamanship; long-range mind-influence banned"
   ],
   "notes": [
-    "near-medieval to early-industrial baseline",
-    "navigational auguries present but limited"
+    "population unknown",
+    "near-medieval to early-industrial tech; localized ritual magic common"
   ],
-  "generated_at": "2025-09-09T04:30:16.377Z"
+  "generated_at": "2025-09-09T05:42:13.591Z"
 }

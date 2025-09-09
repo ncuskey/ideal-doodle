@@ -1,52 +1,56 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_84be5e2d",
+  "checksum": "fnv1a_2e6da493",
   "burg_id": 192,
-  "name": "Burg_192",
-  "state_id": 0,
-  "province_id": "province_unknown",
+  "name": "Froibieq",
+  "state_id": -1,
+  "province_id": "unknown",
   "tags": [
-    "outpost",
-    "ritual-lab"
+    "river-port",
+    "ritual-lab",
+    "market-hub"
   ],
-  "size_hint": "outpost",
+  "size_hint": "small",
   "economy_roles": [
-    "ritual reagent depot",
-    "fishermen",
-    "waystation",
-    "salt-curing"
+    "fishing",
+    "ferrying",
+    "ritual-ingredient-trade",
+    "local-market"
   ],
   "factions_local": [
-    "ritual confraternity",
-    "coastal merchants",
-    "harbor militia"
+    "harbor-guild",
+    "ritual-cabal",
+    "ferryman-clan",
+    "merchant-collective"
   ],
   "problems": [
-    "scarcity of reagents",
-    "bandit raids",
-    "supply irregularity"
+    "reagent-scarcity",
+    "seasonal-flooding",
+    "banditry-on-roads"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults"
+    "Ancestor-Remembrance Cults",
+    "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "speaks Coastal Tongues dialect",
-    "tide-shrine tithes common",
-    "diet heavy on salt-cured fish"
+    "Riveric dialect with Coastal Tongue loanwords",
+    "Daily offerings to river spirits",
+    "Diet heavy on smoked/fermented fish",
+    "Ritual tattoos mark trade status"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "missing ritual cargo"
+    "ritual-heist",
+    "flood-evacuation"
   ],
   "constraints": [
-    "rituals consume scarce imported reagents",
-    "no instant resurrection; long-range mind influence rare and banned",
-    "navigational auguries useful but not a substitute for charts"
+    "Ritual magic consumes scarce imported reagents",
+    "No instant resurrection or mind-control magics"
   ],
   "notes": [
-    "sparse population and records",
-    "strategic coastal waypoint for reagent shipments"
+    "Population unknown; functions as small trade/ritual outpost",
+    "Near-medieval tech with localized ritual practices"
   ],
-  "generated_at": "2025-09-09T04:15:05.489Z"
+  "generated_at": "2025-09-09T05:27:35.453Z"
 }

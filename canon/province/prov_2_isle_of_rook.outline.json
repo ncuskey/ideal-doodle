@@ -1,0 +1,58 @@
+{
+  "world_id": "world",
+  "state_id": 2,
+  "province_id": "prov_2_isle_of_rook",
+  "checksum": "fnv1a_cf7a65f",
+  "name": "Isle of Rook",
+  "aliases": [
+    "Rook Isle",
+    "Rookholm"
+  ],
+  "tags": [
+    "island",
+    "maritime",
+    "salt-processing",
+    "shipwright",
+    "re-export"
+  ],
+  "role_in_state": "maritime re-export hub and shipwright outpost",
+  "economy_niches": [
+    "shipbuilding and repair yards",
+    "salt pans and preserved-fish production",
+    "staging point for ritual reagent re-exports",
+    "pilotage and navigational-augury services",
+    "seaweed-based dyes and small coastal crafts"
+  ],
+  "culture_adjustments": [
+    "clan-patron shipping houses outweigh civic guild authority",
+    "high practical tolerance for islander migrants; Island Creole widely spoken",
+    "augury rituals are woven into daily port routines and contracts",
+    "ancestor-rites emphasize sailors lost at sea over inland lineages"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Merchant Brotherhood Liturgies",
+      "Ancestor-Remembrance Cults"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "sea storms and coastal erosion",
+    "piracy and smuggling enclaves",
+    "reagent supply interruptions",
+    "seasonal freshwater scarcity"
+  ],
+  "constraints": [
+    "limited arable land and freshwater",
+    "ritual magic dependent on imported reagents",
+    "no high-pressure steam industry feasible"
+  ],
+  "notes": [
+    "key pilot station on State_2 coastal routes",
+    "seasonal rock-shrine pilgrimage for ship-blessings",
+    "local shipwrighting uses layered-timber techniques unique to isle"
+  ],
+  "generated_at": "2025-09-09T05:06:03.687Z"
+}

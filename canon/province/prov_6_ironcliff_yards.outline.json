@@ -1,0 +1,62 @@
+{
+  "world_id": "world",
+  "state_id": 6,
+  "province_id": "prov_6_ironcliff_yards",
+  "checksum": "fnv1a_48719b96",
+  "name": "Ironcliff Yards",
+  "aliases": [
+    "Ironcliff",
+    "The Yards",
+    "Cliffside Yards"
+  ],
+  "tags": [
+    "shipbuilding",
+    "saltworks",
+    "harbor-clan",
+    "reagent-works",
+    "metalwork"
+  ],
+  "role_in_state": "Primary shipbuilding and reagent-processing hub",
+  "economy_niches": [
+    "wooden ship construction & repair",
+    "salt curing & dried seafood exports",
+    "coastal reagent distillation (brines, salts)",
+    "artisanal hull metalwork and fittings",
+    "licensed pilotage and charter services"
+  ],
+  "culture_adjustments": [
+    "harbor-clans dominate municipal authority",
+    "pilot initiation rites are stricter and vocational",
+    "workplace rituals outrank formal temple schedules",
+    "higher contract literacy among yard masters",
+    "ancestor veneration integrated into launches and repairs"
+  ],
+  "religion_profile": {
+    "families_present": [
+      "Sea-Tide Animisms",
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
+    ],
+    "dominant": "Sea-Tide Animisms"
+  },
+  "settlements_hint": [],
+  "risks": [
+    "storm surge",
+    "industrial fire",
+    "salt/reagent contamination",
+    "labor unrest",
+    "coastal raids"
+  ],
+  "constraints": [
+    "limited fresh water for heavy processes",
+    "harbor depth restricts very large hulls",
+    "dependence on imported exotic reagents",
+    "clan labor obligations limit rapid scaling"
+  ],
+  "notes": [
+    "strategic state asset for fleets and reagent supply",
+    "seasonal slowdown during monsoon and heavy storms",
+    "pilot rites control yard access and contracts"
+  ],
+  "generated_at": "2025-09-09T05:07:35.918Z"
+}

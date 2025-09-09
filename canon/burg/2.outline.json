@@ -1,53 +1,58 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_f914d00d",
+  "checksum": "fnv1a_77722509",
   "burg_id": 2,
-  "name": "Burg_2",
+  "name": "Gatesin",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "none",
+    "gate",
+    "toll",
+    "crossroads"
+  ],
+  "size_hint": "small",
   "economy_roles": [
-    "small-scale fishing",
-    "reagent transshipment",
-    "harbor services"
+    "toll collection",
+    "innkeeping",
+    "market trading",
+    "wagon repair"
   ],
   "factions_local": [
-    "harbor guild",
-    "ritualist house",
-    "smuggler ring",
-    "coastal militia"
+    "Tollmasters",
+    "Caravaners' Guild",
+    "Shrinekeepers",
+    "Smugglers"
   ],
   "problems": [
-    "reagent scarcity",
-    "bandit raids",
-    "silted inlet",
-    "jurisdictional dispute"
+    "banditry",
+    "scarcity of imported reagents",
+    "corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
     "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
     "Merchant Brotherhood Liturgies"
   ],
   "culture_notes": [
-    "Island Creole-influenced dialect",
-    "ritualized morning tide rites",
-    "salt-cured fish cuisine",
-    "transient, multiethnic population"
+    "Riveric dialect with Highland loanwords",
+    "ritual toll ceremonies at sunrise",
+    "cuisine: smoked fish and roadside stew",
+    "local magic uses imported reagents sparingly"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "reagent shortage",
-    "disappearing fishermen"
+    "ritual theft",
+    "disappearances"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents"
+    "no instant resurrection or life-replacement magics",
+    "ritual magic consumes scarce imported reagents",
+    "long-range mind influence is rare and institutionally banned"
   ],
   "notes": [
-    "sheltered inlet, prone to silt build-up",
-    "strategic waypoint for coastal traders",
-    "population small and seasonal"
+    "strategic pass/river-gate controlling trade",
+    "navigational auguries used locally but do not replace charts"
   ],
-  "generated_at": "2025-09-09T04:15:39.234Z"
+  "generated_at": "2025-09-09T05:28:08.072Z"
 }

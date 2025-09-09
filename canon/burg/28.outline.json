@@ -1,48 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5ffb311",
+  "checksum": "fnv1a_8080b65d",
   "burg_id": 28,
-  "name": "Burg_28",
+  "name": "Sugusilemi",
   "state_id": 0,
   "province_id": "unknown",
-  "tags": [],
-  "size_hint": "outpost",
+  "tags": [
+    "coastal",
+    "reagent-trade"
+  ],
+  "size_hint": "small",
   "economy_roles": [
     "fishing",
-    "reagent trade",
-    "waystation"
+    "salt-harvesting",
+    "ritual-reagent brokerage",
+    "small-ship maintenance"
   ],
   "factions_local": [
-    "dockmasters' guild",
-    "ritual vendors",
-    "coastal militia"
+    "Harbor Master's Circle",
+    "Reagent Coterie",
+    "Clan Council",
+    "Smugglers' Network"
   ],
   "problems": [
-    "supply scarcity",
-    "smuggling",
-    "seasonal storms"
+    "reagent scarcity",
+    "seasonal storms",
+    "smuggling-driven corruption"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Merchant Brotherhood Liturgies"
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues influence",
-    "tide-harvest festivals",
-    "smoked/salted seafood diet"
+    "coastal tongue dialect with island loanwords",
+    "strong ancestor-veneration at household level",
+    "diet heavy on salted fish and preserved seaweed"
   ],
   "quest_hook_slots": [
-    "missing reagent shipment",
-    "shipwreck salvage dispute",
-    "drowned ancestor apparition"
+    "smuggling",
+    "reagent shortage",
+    "ancestral disturbance"
   ],
   "constraints": [
-    "No instant resurrection",
-    "Rituals consume scarce imported reagents"
+    "ritual magic consumes rare imported reagents",
+    "no long-range mind control or instant resurrection",
+    "limited combustion industry—no high-pressure steam tech"
   ],
   "notes": [
-    "Population unknown",
-    "Located on minor coast/estuary"
+    "state-level governance unknown — local clan authority dominant",
+    "navigational auguries used but charts and seamanship required"
   ],
-  "generated_at": "2025-09-09T04:21:00.622Z"
+  "generated_at": "2025-09-09T05:33:18.943Z"
 }

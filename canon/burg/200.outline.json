@@ -1,55 +1,57 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_d7069dd",
+  "checksum": "fnv1a_8a333d77",
   "burg_id": 200,
-  "name": "Burg_200",
+  "name": "Shoroughbou",
   "state_id": 0,
   "province_id": "unknown",
   "tags": [
     "coastal",
-    "harbor",
-    "ritual-trading"
+    "waystation",
+    "reagent-hub"
   ],
   "size_hint": "outpost",
   "economy_roles": [
     "fishing",
-    "reagent-trade",
-    "waystation-for-sailors",
-    "salt-harvest"
+    "coastal-waystation",
+    "reagent-trading",
+    "ship-repairs"
   ],
   "factions_local": [
-    "harbor-guild",
-    "ritual-syndicate",
-    "clan-kin-council"
+    "harbormaster's clique",
+    "smugglers' ring",
+    "ritual-apothecaries",
+    "coastal-elders"
   ],
   "problems": [
-    "scarcity-of-ritual-reagents",
-    "supply-isolation",
-    "banditry-at-sea"
+    "reagent scarcity",
+    "tidal erosion",
+    "petty corruption",
+    "smuggling-run violence"
   ],
   "religion_presence": [
     "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with riveric loanwords",
-    "diet heavy on salted fish, seaweed, preserved legumes",
-    "tide-honoring rites shape work and festival calendar"
+    "Coastal Tongues with Island Creole loanwords",
+    "tide-blessing rituals before voyages",
+    "diet: smoked saltfish, seaweed stews",
+    "practical oilskins adorned with talismanic knots"
   ],
   "quest_hook_slots": [
-    "smuggling",
-    "reagent-shortage",
-    "disappearances-at-sea"
+    "shipwreck salvage",
+    "ritual reagent theft",
+    "smuggling"
   ],
   "constraints": [
-    "rituals-consume-scarce-imported-reagents",
-    "no-instant-resurrection-or-life-replacement",
-    "long-range-mind-influence-rare-and-banned"
+    "ritual magic depends on scarce imported reagents",
+    "navigation auguries supplement but do not replace seamanship"
   ],
   "notes": [
-    "near-medieval to early-industrial tech level",
-    "navigational-auguries available but seamanship still required"
+    "pier on tidal mudflats; access varies with tide",
+    "official magistrate weak; harbormaster holds de facto power"
   ],
-  "generated_at": "2025-09-09T04:15:40.978Z"
+  "generated_at": "2025-09-09T05:28:06.878Z"
 }

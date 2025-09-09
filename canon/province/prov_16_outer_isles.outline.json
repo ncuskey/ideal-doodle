@@ -5,55 +5,53 @@
   "checksum": "fnv1a_84cec6ea",
   "name": "Outer Isles",
   "aliases": [
-    "Outer Archipelago",
-    "Windward Skerries"
+    "Outer Isles",
+    "Outer Chain"
   ],
   "tags": [
-    "island",
-    "maritime",
     "archipelago",
-    "reagent-hub",
-    "shipwrights"
+    "waystation",
+    "reef-navigation",
+    "saltworks"
   ],
-  "role_in_state": "maritime relay, ship-repair chain and buffer",
+  "role_in_state": "maritime waystation and reef-pilot belt",
   "economy_niches": [
-    "seasonal fisheries & preserved foods",
-    "shipbuilding, careening & hull repair",
-    "saltworks and curing industries",
-    "transshipment of ritual reagents / augury waystations",
-    "coastal relay trade & pilotage services"
+    "light craft and boat-repair (pilot skiffs, shallops)",
+    "salt and cured fish production",
+    "provisioning/ship victualling for transshipment routes",
+    "reef-charting, pilotage and oral navigation services",
+    "seaweed and guano fertilizer harvesting"
   ],
   "culture_adjustments": [
-    "stronger local guild autonomy vs. mainland civic councils",
-    "dialectal Coastal Tongues variant with island lexemes",
-    "ritual life keyed to immediate tide-storm cycles",
-    "maritime ancestor cults emphasize rock-line offerings",
-    "practical syncretism favors shipwright patron rites"
+    "kinship organized around boats rather than land tenure",
+    "strengthened reef-taboo liturgies and reef-chants",
+    "craft knowledge passed in kin-line households, fewer formal guild halls",
+    "calendar keyed to local tide-phenomena and storm-season markers",
+    "practical syncretism favors animistic reef rites over merchant ritual formalism"
   ],
   "religion_profile": {
     "families_present": [
       "Sea-Tide Animisms",
-      "Merchant Brotherhood Liturgies",
-      "Ancestor-Remembrance Cults"
+      "Ancestor-Remembrance Cults",
+      "Merchant Brotherhood Liturgies"
     ],
     "dominant": "Sea-Tide Animisms"
   },
   "settlements_hint": [],
   "risks": [
-    "storm-surge and seasonal isolation",
-    "piracy/privateering",
-    "supply-chain bottlenecks",
-    "reagent scarcity for ritual services"
+    "storm-exposure",
+    "reef-groundings",
+    "piracy/privateer raids",
+    "resource depletion (kelp/bird colonies)"
   ],
   "constraints": [
-    "limited arable land; food imports required",
-    "access windows constrained by seasonal weather",
-    "no large-scale combustion industry; craft-scale only"
+    "limited timber and fresh water",
+    "seasonal isolation during monsoon/storm windows",
+    "state guild licensing restricts large-scale shipbuilding"
   ],
   "notes": [
-    "key transshipment point for reagents and augury services",
-    "acts as strategic maritime buffer and pilot network",
-    "guild networks control most shoreside infrastructure"
+    "vital source of local navigation lore and oral charts",
+    "supplies low-weight ritual reagents and bulk salt for state trade"
   ],
-  "generated_at": "2025-09-09T04:05:33.525Z"
+  "generated_at": "2025-09-09T05:05:42.091Z"
 }

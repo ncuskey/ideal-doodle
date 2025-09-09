@@ -1,55 +1,54 @@
 {
   "world_id": "world",
-  "checksum": "fnv1a_5761531d",
+  "checksum": "fnv1a_2f9a24ba",
   "burg_id": 95,
-  "name": "Burg_95",
-  "state_id": 0,
+  "name": "Agrande",
+  "state_id": -1,
   "province_id": "unknown",
   "tags": [
-    "harbor",
-    "ritual-depot"
+    "trade-hub",
+    "ritual-market"
   ],
-  "size_hint": "outpost",
+  "size_hint": "large",
   "economy_roles": [
-    "coastal-fishing",
-    "ritual-reagent depot",
-    "pilgrimage waypoint"
+    "long-distance trade",
+    "ritual reagent import",
+    "grain export",
+    "artisanal manufactures"
   ],
   "factions_local": [
-    "harbor-masters guild",
-    "reagent-collectors",
-    "ancestor-clan elders",
-    "itinerant-priesthood"
+    "Merchant Guild",
+    "Ritual Collegium",
+    "City Council",
+    "Smugglers' Ring"
   ],
   "problems": [
     "reagent scarcity",
     "smuggling",
-    "supply delays"
+    "corruption"
   ],
   "religion_presence": [
-    "Sea-Tide Animisms",
-    "Ancestor-Remembrance Cults",
-    "Merchant Brotherhood Liturgies"
+    "Merchant Brotherhood Liturgies",
+    "Star-Calendar Scriptoria"
   ],
   "culture_notes": [
-    "Coastal Tongues dialect with nautical slang",
-    "seasonal sea-blessing festivals",
-    "diet centered on salt-preserved fish and sea greens",
-    "harvest rituals tied to tide cycles"
+    "Coastal Tongue with Merchant jargon",
+    "public market rituals for shipment blessings",
+    "heavy use of imported spices and reagents"
   ],
   "quest_hook_slots": [
     "smuggling",
-    "stolen-reagents",
-    "missing-pilgrim"
+    "reagent shortage",
+    "disappearances"
   ],
   "constraints": [
-    "no instant resurrection magics",
-    "rituals consume scarce imported reagents",
-    "long-range mind influence rare and banned"
+    "no instant resurrection or life-replacement magics",
+    "long-range mind influence rare and banned",
+    "ritual magic consumes scarce imported reagents"
   ],
   "notes": [
-    "Near-medieval to early industrial tech with localized ritual magic",
-    "navigational auguries assist but don't replace seamanship"
+    "population uncertain; major trade entrepôt",
+    "relies on imported reagents and shipping lanes"
   ],
-  "generated_at": "2025-09-09T04:38:16.348Z"
+  "generated_at": "2025-09-09T05:49:47.748Z"
 }
