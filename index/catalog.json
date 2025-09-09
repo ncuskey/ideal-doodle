@@ -1,0 +1,5799 @@
+{
+  "kingdoms": [
+    {
+      "kind": "state",
+      "id": 0,
+      "name": "Neutrals",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 69698,
+        "military": null,
+        "burgCount": 0,
+        "portCount": 0
+      },
+      "burgs": []
+    },
+    {
+      "kind": "state",
+      "id": 1,
+      "name": "Slor'th",
+      "color": "#66c2a5",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 27312,
+        "military": [
+          {
+            "i": 0,
+            "a": 8381,
+            "cell": 4457,
+            "x": 1546.66,
+            "y": 594.08,
+            "bx": 1546.66,
+            "by": 594.08,
+            "u": {
+              "archers": 4308,
+              "cavalry": 347,
+              "infantry": 3490,
+              "artillery": 236
+            },
+            "n": 0,
+            "name": "1st (Slalzan) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 1,
+            "a": 4721,
+            "cell": 4218,
+            "x": 1599.69,
+            "y": 570.95,
+            "bx": 1599.69,
+            "by": 570.95,
+            "u": {
+              "archers": 2630,
+              "artillery": 72,
+              "cavalry": 136,
+              "infantry": 1883
+            },
+            "n": 0,
+            "name": "2nd (Slalzan) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 2,
+            "a": 4199,
+            "cell": 5087,
+            "x": 1535.3,
+            "y": 667.1,
+            "bx": 1535.3,
+            "by": 667.1,
+            "u": {
+              "archers": 2041,
+              "cavalry": 219,
+              "artillery": 85,
+              "infantry": 1854
+            },
+            "n": 0,
+            "name": "3rd (Sushaj) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 3,
+            "a": 4056,
+            "cell": 4096,
+            "x": 1573.53,
+            "y": 557.39,
+            "bx": 1573.53,
+            "by": 557.39,
+            "u": {
+              "archers": 2015,
+              "cavalry": 206,
+              "infantry": 1788,
+              "artillery": 47
+            },
+            "n": 0,
+            "name": "4th (Maj'a) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 4,
+            "a": 4013,
+            "cell": 5493,
+            "x": 1623.43,
+            "y": 705.91,
+            "bx": 1623.43,
+            "by": 705.91,
+            "u": {
+              "archers": 2221,
+              "cavalry": 113,
+              "artillery": 109,
+              "infantry": 1570
+            },
+            "n": 0,
+            "name": "5th (Maj'aj'kij) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 5,
+            "a": 3931,
+            "cell": 4091,
+            "x": 1503.07,
+            "y": 549.39,
+            "bx": 1503.07,
+            "by": 549.39,
+            "u": {
+              "archers": 1616,
+              "cavalry": 315,
+              "infantry": 1962,
+              "artillery": 38
+            },
+            "n": 0,
+            "name": "6th (Stiag) Regiment",
+            "state": 1,
+            "icon": "⚔️"
+          },
+          {
+            "i": 6,
+            "a": 3863,
+            "cell": 4696,
+            "x": 1531.5,
+            "y": 631.9,
+            "bx": 1531.5,
+            "by": 631.9,
+            "u": {
+              "archers": 1901,
+              "cavalry": 209,
+              "infantry": 1739,
+              "artillery": 14
+            },
+            "n": 0,
+            "name": "7th (Sushaj) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 7,
+            "a": 2355,
+            "cell": 4957,
+            "x": 1621.47,
+            "y": 647.52,
+            "bx": 1621.47,
+            "by": 647.52,
+            "u": {
+              "archers": 1270,
+              "artillery": 18,
+              "cavalry": 85,
+              "infantry": 982
+            },
+            "n": 0,
+            "name": "8th (Maj'aj'kij) Regiment",
+            "state": 1,
+            "icon": "🏹"
+          },
+          {
+            "i": 8,
+            "a": 2272,
+            "cell": 5218,
+            "x": 1453,
+            "y": 681.3,
+            "bx": 1453,
+            "by": 681.3,
+            "u": {
+              "infantry": 1260,
+              "cavalry": 246,
+              "artillery": 24,
+              "archers": 742
+            },
+            "n": 0,
+            "name": "9th (Sushaj) Regiment",
+            "state": 1,
+            "icon": "⚔️"
+          },
+          {
+            "i": 9,
+            "a": 20,
+            "cell": 5376,
+            "x": 1637.16,
+            "y": 703.77,
+            "bx": 1637.16,
+            "by": 703.77,
+            "u": {
+              "fleet": 20
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 1,
+            "icon": "🌊"
+          },
+          {
+            "i": 10,
+            "a": 1,
+            "cell": 5215,
+            "x": 1425.4,
+            "y": 687.59,
+            "bx": 1425.4,
+            "by": 687.59,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 1,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 34,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 1,
+          "name": "Slalzan",
+          "pop": 69.64,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 72,
+          "name": "Krazashju",
+          "pop": 17.702,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 253,
+          "name": "Shan'jen",
+          "pop": 17.235,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 230,
+          "name": "Gojesh",
+          "pop": 16.037,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 198,
+          "name": "Maj'aj'kij",
+          "pop": 14.93,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 76,
+          "name": "Najas",
+          "pop": 12.815,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 330,
+          "name": "Stiag",
+          "pop": 10.119,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 217,
+          "name": "Rraj'aj'jaz",
+          "pop": 9.986,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 137,
+          "name": "Sku'tu",
+          "pop": 9.363,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 292,
+          "name": "Culzan",
+          "pop": 8.61,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 270,
+          "name": "Raj'jess",
+          "pop": 6.738,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 277,
+          "name": "Canek",
+          "pop": 6.438,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 359,
+          "name": "Slukex",
+          "pop": 5.8,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 41,
+          "name": "Aj'hishjej",
+          "pop": 4.875,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 106,
+          "name": "Mithusshin",
+          "pop": 4.725,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 27,
+          "name": "Vupjess",
+          "pop": 3.972,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 136,
+          "name": "Rraresh",
+          "pop": 3.929,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 17,
+          "name": "Brid",
+          "pop": 3.889,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 42,
+          "name": "Cult'harjar",
+          "pop": 3.822,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 417,
+          "name": "Srasarjass",
+          "pop": 3.48,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 133,
+          "name": "Zataph",
+          "pop": 3.016,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 418,
+          "name": "Shass",
+          "pop": 2.914,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 180,
+          "name": "Rilluph",
+          "pop": 2.808,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 99,
+          "name": "Gapjesshaph",
+          "pop": 2.515,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 191,
+          "name": "Etesh",
+          "pop": 2,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 307,
+          "name": "Xar'jess",
+          "pop": 1.879,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 186,
+          "name": "Eszi",
+          "pop": 1.717,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 360,
+          "name": "Ataph",
+          "pop": 1.6,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 100,
+          "name": "Oz'lush",
+          "pop": 1.465,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 229,
+          "name": "Ath'jas",
+          "pop": 1.447,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 211,
+          "name": "Cothuss",
+          "pop": 1.415,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 212,
+          "name": "Cesher",
+          "pop": 1.04,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 282,
+          "name": "Ki'jassin",
+          "pop": 1.026,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 416,
+          "name": "Rrar'kij",
+          "pop": 1.009,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 10,
+      "name": "Arelerglosia",
+      "color": "#d3a8d8",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 17685,
+        "military": [
+          {
+            "i": 0,
+            "a": 6890,
+            "cell": 1044,
+            "x": 1156.5,
+            "y": 201.46,
+            "bx": 1156.5,
+            "by": 201.46,
+            "u": {
+              "archers": 1671,
+              "cavalry": 3045,
+              "infantry": 2162,
+              "artillery": 12
+            },
+            "n": 0,
+            "name": "1st (Aberdurum) Regiment",
+            "state": 10,
+            "icon": "🐴"
+          },
+          {
+            "i": 1,
+            "a": 2883,
+            "cell": 1256,
+            "x": 1111.46,
+            "y": 236.8,
+            "bx": 1111.46,
+            "by": 236.8,
+            "u": {
+              "infantry": 1273,
+              "archers": 1194,
+              "cavalry": 413,
+              "artillery": 3
+            },
+            "n": 0,
+            "name": "2nd (Aberdurum) Regiment",
+            "state": 10,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 2744,
+            "cell": 861,
+            "x": 1167.54,
+            "y": 181.93,
+            "bx": 1167.54,
+            "by": 181.93,
+            "u": {
+              "archers": 1428,
+              "cavalry": 163,
+              "artillery": 43,
+              "infantry": 1110
+            },
+            "n": 0,
+            "name": "3rd (Bodubin) Regiment",
+            "state": 10,
+            "icon": "🏹"
+          },
+          {
+            "i": 3,
+            "a": 3,
+            "cell": 859,
+            "x": 1159.08,
+            "y": 176.32,
+            "bx": 1159.08,
+            "by": 176.32,
+            "u": {
+              "fleet": 3
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 10,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 11,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 447,
+          "name": "Bodubin",
+          "pop": 19.385,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 255,
+          "name": "Nanshigangad",
+          "pop": 12.323,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 356,
+          "name": "Indiraber",
+          "pop": 10.262,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 10,
+          "name": "Abermaicto",
+          "pop": 3.746,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 46,
+          "name": "Chlaber",
+          "pop": 2.408,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 66,
+          "name": "Aberg",
+          "pop": 1.869,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 336,
+          "name": "Chafonver",
+          "pop": 1.244,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 450,
+          "name": "Grugvidh",
+          "pop": 1.216,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 328,
+          "name": "Durifigabe",
+          "pop": 1.102,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 378,
+          "name": "Innyde",
+          "pop": 0.81,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 392,
+          "name": "Fyggeklig",
+          "pop": 0.661,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 11,
+      "name": "Chipleteria",
+      "color": "#abf760",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 63938,
+        "military": [
+          {
+            "i": 0,
+            "a": 4097,
+            "cell": 996,
+            "x": 509.45,
+            "y": 207.61,
+            "bx": 509.45,
+            "by": 207.61,
+            "u": {
+              "infantry": 1655,
+              "cavalry": 1634,
+              "artillery": 23,
+              "archers": 785
+            },
+            "n": 0,
+            "name": "1st (Bington) Regiment",
+            "state": 11,
+            "icon": "⚔️"
+          },
+          {
+            "i": 1,
+            "a": 2449,
+            "cell": 994,
+            "x": 489.35,
+            "y": 208.44,
+            "bx": 489.35,
+            "by": 208.44,
+            "u": {
+              "infantry": 1251,
+              "cavalry": 382,
+              "artillery": 29,
+              "archers": 787
+            },
+            "n": 0,
+            "name": "2nd (Titondon) Regiment",
+            "state": 11,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 3,
+            "cell": 803,
+            "x": 459.01,
+            "y": 168.71,
+            "bx": 459.01,
+            "by": 168.71,
+            "u": {
+              "fleet": 3
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 11,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 30,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 267,
+          "name": "Titondon",
+          "pop": 26.859,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 226,
+          "name": "Penkseyles",
+          "pop": 20.174,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 175,
+          "name": "Hengay",
+          "pop": 19.441,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 48,
+          "name": "Cocking",
+          "pop": 15.728,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 404,
+          "name": "Helsbury",
+          "pop": 8.692,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 407,
+          "name": "Bramney",
+          "pop": 8.66,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 25,
+          "name": "Wartontalis",
+          "pop": 7.214,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 32,
+          "name": "Northesho",
+          "pop": 7.197,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 468,
+          "name": "Boston",
+          "pop": 7.075,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 88,
+          "name": "Bridgenilbo",
+          "pop": 6.338,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 370,
+          "name": "Brasbury",
+          "pop": 4.917,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 387,
+          "name": "Warton",
+          "pop": 4.888,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 402,
+          "name": "Wigley",
+          "pop": 4.31,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 459,
+          "name": "Knutster",
+          "pop": 4.224,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 289,
+          "name": "Darlowbig",
+          "pop": 3.988,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 320,
+          "name": "Kencestab",
+          "pop": 3.935,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 424,
+          "name": "Leighington",
+          "pop": 3.186,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 11,
+          "name": "Bington",
+          "pop": 2.716,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 64,
+          "name": "Kesorough",
+          "pop": 2.399,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 194,
+          "name": "Winkley",
+          "pop": 2.144,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 199,
+          "name": "Chisfieldge",
+          "pop": 1.784,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 423,
+          "name": "Yeobury",
+          "pop": 1.738,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 225,
+          "name": "Redcker",
+          "pop": 1.711,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 40,
+          "name": "Bretlewen",
+          "pop": 1.679,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 29,
+          "name": "Gatford",
+          "pop": 1.576,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 363,
+          "name": "Skiptonter",
+          "pop": 1.428,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 409,
+          "name": "Axbrolere",
+          "pop": 0.804,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 448,
+          "name": "Bihulton",
+          "pop": 0.697,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 337,
+          "name": "Wineford",
+          "pop": 0.687,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 390,
+          "name": "Pentalisbo",
+          "pop": 0.685,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 12,
+      "name": "Doblin",
+      "color": "#f2dd5b",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 135767,
+        "military": [
+          {
+            "i": 0,
+            "a": 4422,
+            "cell": 4438,
+            "x": 1288.87,
+            "y": 598.8,
+            "bx": 1288.87,
+            "by": 598.8,
+            "u": {
+              "cavalry": 2848,
+              "infantry": 767,
+              "archers": 799,
+              "artillery": 8
+            },
+            "n": 0,
+            "name": "1st (Kluird) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 1,
+            "a": 4197,
+            "cell": 4781,
+            "x": 1010.57,
+            "y": 630.23,
+            "bx": 1010.57,
+            "by": 630.23,
+            "u": {
+              "cavalry": 3199,
+              "infantry": 472,
+              "archers": 517,
+              "artillery": 9
+            },
+            "n": 0,
+            "name": "2nd (Gobs) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 2,
+            "a": 3764,
+            "cell": 3843,
+            "x": 1390.01,
+            "y": 526.87,
+            "bx": 1390.01,
+            "by": 526.87,
+            "u": {
+              "cavalry": 2914,
+              "artillery": 12,
+              "infantry": 376,
+              "archers": 462
+            },
+            "n": 0,
+            "name": "3rd (Gneab) Regiment",
+            "state": 12,
+            "icon": "👑"
+          },
+          {
+            "i": 3,
+            "a": 3283,
+            "cell": 4074,
+            "x": 1278.72,
+            "y": 553.76,
+            "bx": 1278.72,
+            "by": 553.76,
+            "u": {
+              "cavalry": 2539,
+              "infantry": 350,
+              "archers": 390,
+              "artillery": 4
+            },
+            "n": 0,
+            "name": "4th (Kluird) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 4,
+            "a": 2664,
+            "cell": 2738,
+            "x": 1377.96,
+            "y": 410.45,
+            "bx": 1377.96,
+            "by": 410.45,
+            "u": {
+              "cavalry": 1978,
+              "infantry": 319,
+              "archers": 361,
+              "artillery": 6
+            },
+            "n": 0,
+            "name": "5th (Stroi) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 5,
+            "a": 2596,
+            "cell": 4088,
+            "x": 1467.79,
+            "y": 551.25,
+            "bx": 1467.79,
+            "by": 551.25,
+            "u": {
+              "cavalry": 1385,
+              "archers": 569,
+              "infantry": 637,
+              "artillery": 5
+            },
+            "n": 0,
+            "name": "6th (Gneab) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 6,
+            "a": 2235,
+            "cell": 2508,
+            "x": 1445.74,
+            "y": 377.94,
+            "bx": 1445.74,
+            "by": 377.94,
+            "u": {
+              "cavalry": 1287,
+              "archers": 461,
+              "infantry": 479,
+              "artillery": 8
+            },
+            "n": 0,
+            "name": "7th (Stroi) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 7,
+            "a": 1903,
+            "cell": 4915,
+            "x": 1151.23,
+            "y": 650.58,
+            "bx": 1151.23,
+            "by": 650.58,
+            "u": {
+              "cavalry": 1060,
+              "archers": 458,
+              "infantry": 378,
+              "artillery": 7
+            },
+            "n": 0,
+            "name": "8th (Glervaq) Regiment",
+            "state": 12,
+            "icon": "🐴"
+          },
+          {
+            "i": 8,
+            "a": 139,
+            "cell": 5563,
+            "x": 1041,
+            "y": 719.5,
+            "bx": 1041,
+            "by": 719.5,
+            "u": {
+              "archers": 85,
+              "cavalry": 17,
+              "artillery": 4,
+              "infantry": 33
+            },
+            "n": 0,
+            "name": "9th (Slof) Regiment",
+            "state": 12,
+            "icon": "🏹"
+          },
+          {
+            "i": 9,
+            "a": 1,
+            "cell": 5069,
+            "x": 1360.5,
+            "y": 676.9,
+            "bx": 1360.5,
+            "by": 676.9,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 12,
+            "icon": "🌊"
+          },
+          {
+            "i": 10,
+            "a": 1,
+            "cell": 5184,
+            "x": 1121.5,
+            "y": 687.9,
+            "bx": 1121.5,
+            "by": 687.9,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 12,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 62,
+        "portCount": 3
+      },
+      "burgs": [
+        {
+          "id": 12,
+          "name": "Wruilx",
+          "pop": 21.289,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 129,
+          "name": "Wruil",
+          "pop": 19.883,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 204,
+          "name": "Rekx",
+          "pop": 18.291,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 181,
+          "name": "Gobshai",
+          "pop": 12.115,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 406,
+          "name": "Phig",
+          "pop": 10.523,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 394,
+          "name": "Bratliaq",
+          "pop": 10.406,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 272,
+          "name": "Bryb",
+          "pop": 10.293,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 442,
+          "name": "Heshas",
+          "pop": 9.736,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 316,
+          "name": "Sios",
+          "pop": 9.463,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 248,
+          "name": "Felhobgar",
+          "pop": 9.433,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 169,
+          "name": "Kluird",
+          "pop": 9.291,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 231,
+          "name": "Phig",
+          "pop": 8.944,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 161,
+          "name": "Paasheaf",
+          "pop": 8.839,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 304,
+          "name": "Kaszils",
+          "pop": 8.147,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 422,
+          "name": "Kleab",
+          "pop": 7.975,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 279,
+          "name": "Vreasinx",
+          "pop": 7.945,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 111,
+          "name": "Pyreaz",
+          "pop": 7.706,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 325,
+          "name": "Glervaq",
+          "pop": 7.452,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 365,
+          "name": "Stryt",
+          "pop": 7.072,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 373,
+          "name": "Veekz",
+          "pop": 6.587,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 257,
+          "name": "Gobok",
+          "pop": 6.308,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 463,
+          "name": "Blushair",
+          "pop": 5.108,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 415,
+          "name": "Treaq",
+          "pop": 4.998,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 197,
+          "name": "Givzie",
+          "pop": 4.149,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 297,
+          "name": "Drior",
+          "pop": 4.011,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 375,
+          "name": "Stioshas",
+          "pop": 4.004,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 345,
+          "name": "Wruilbog",
+          "pop": 3.903,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 315,
+          "name": "Brybgar",
+          "pop": 3.418,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 428,
+          "name": "Prean",
+          "pop": 3.315,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 454,
+          "name": "Veekzi",
+          "pop": 3.152,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 473,
+          "name": "Honk",
+          "pop": 3.123,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 421,
+          "name": "Crild",
+          "pop": 3.068,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 154,
+          "name": "Siosvil",
+          "pop": 2.935,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 80,
+          "name": "Dierdeek",
+          "pop": 2.874,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 372,
+          "name": "Stiag",
+          "pop": 2.398,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 475,
+          "name": "Chox",
+          "pop": 2.36,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 341,
+          "name": "Slofta",
+          "pop": 2.306,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 271,
+          "name": "Driorvaq",
+          "pop": 1.976,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 324,
+          "name": "Ishzit",
+          "pop": 1.857,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 108,
+          "name": "Stryt",
+          "pop": 1.823,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 382,
+          "name": "Sleh",
+          "pop": 1.799,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 241,
+          "name": "Fruict",
+          "pop": 1.65,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 413,
+          "name": "Gobsil",
+          "pop": 1.602,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 464,
+          "name": "Qosx",
+          "pop": 1.533,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 174,
+          "name": "Drior",
+          "pop": 1.487,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 414,
+          "name": "Xurx",
+          "pop": 1.459,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 458,
+          "name": "Zighel",
+          "pop": 1.33,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 264,
+          "name": "Honk",
+          "pop": 1.244,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 343,
+          "name": "Farnaahx",
+          "pop": 1.243,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 221,
+          "name": "Givzie",
+          "pop": 1.229,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 235,
+          "name": "Slehzitha",
+          "pop": 1.12,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 252,
+          "name": "Kuird",
+          "pop": 1.108,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 381,
+          "name": "Slofzia",
+          "pop": 1.1,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 455,
+          "name": "Suirx",
+          "pop": 1.064,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 476,
+          "name": "Phax",
+          "pop": 1.043,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 376,
+          "name": "Kas",
+          "pop": 1.021,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 160,
+          "name": "Klilm",
+          "pop": 0.952,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 256,
+          "name": "Gob",
+          "pop": 0.947,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 189,
+          "name": "Iahniots",
+          "pop": 0.917,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 444,
+          "name": "Kas",
+          "pop": 0.767,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 443,
+          "name": "Zriokots",
+          "pop": 0.574,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 431,
+          "name": "Qeeqeenis",
+          "pop": 0.504,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 13,
+      "name": "Rilorbaria",
+      "color": "#65cec5",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 35181,
+        "military": [
+          {
+            "i": 0,
+            "a": 3670,
+            "cell": 1464,
+            "x": 1020.52,
+            "y": 261.01,
+            "bx": 1020.52,
+            "by": 261.01,
+            "u": {
+              "infantry": 1615,
+              "archers": 1607,
+              "cavalry": 422,
+              "artillery": 26
+            },
+            "n": 0,
+            "name": "1st (Chearcy) Regiment",
+            "state": 13,
+            "icon": "⚔️"
+          },
+          {
+            "i": 1,
+            "a": 2876,
+            "cell": 1364,
+            "x": 1096.69,
+            "y": 252.05,
+            "bx": 1096.69,
+            "by": 252.05,
+            "u": {
+              "infantry": 1260,
+              "archers": 857,
+              "cavalry": 744,
+              "artillery": 15
+            },
+            "n": 0,
+            "name": "2nd (Fermaw) Regiment",
+            "state": 13,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 1868,
+            "cell": 1250,
+            "x": 1052.5,
+            "y": 228.76,
+            "bx": 1052.5,
+            "by": 228.76,
+            "u": {
+              "archers": 865,
+              "cavalry": 252,
+              "artillery": 42,
+              "infantry": 709
+            },
+            "n": 0,
+            "name": "3rd (Boumaberg) Regiment",
+            "state": 13,
+            "icon": "👑"
+          },
+          {
+            "i": 3,
+            "a": 1210,
+            "cell": 1566,
+            "x": 942.96,
+            "y": 276.6,
+            "bx": 942.96,
+            "by": 276.6,
+            "u": {
+              "archers": 374,
+              "cavalry": 258,
+              "artillery": 18,
+              "infantry": 560
+            },
+            "n": 0,
+            "name": "4th (Akereskcalia) Regiment",
+            "state": 13,
+            "icon": "⚔️"
+          },
+          {
+            "i": 4,
+            "a": 14,
+            "cell": 1250,
+            "x": 1045.05,
+            "y": 222.82,
+            "bx": 1045.05,
+            "by": 222.82,
+            "u": {
+              "fleet": 14
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 13,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 32,
+        "portCount": 5
+      },
+      "burgs": [
+        {
+          "id": 13,
+          "name": "Boumaberg",
+          "pop": 40.953,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 408,
+          "name": "Gerunos",
+          "pop": 21.312,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 148,
+          "name": "Matenvers",
+          "pop": 16.784,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 263,
+          "name": "Invers",
+          "pop": 14.991,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 347,
+          "name": "Inveram",
+          "pop": 12.165,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 300,
+          "name": "Chearcy",
+          "pop": 11.835,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 466,
+          "name": "Inverkurum",
+          "pop": 10.744,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 23,
+          "name": "Treraldierug",
+          "pop": 9.908,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 233,
+          "name": "Kirkcallan",
+          "pop": 9.554,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 143,
+          "name": "Lannve",
+          "pop": 9.085,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 227,
+          "name": "Intaberberce",
+          "pop": 8.722,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 250,
+          "name": "Abeven",
+          "pop": 8.631,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 79,
+          "name": "Llanhafrwdhe",
+          "pop": 8.492,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 26,
+          "name": "Trerurum",
+          "pop": 8.358,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 92,
+          "name": "Iubhrach",
+          "pop": 7.631,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 158,
+          "name": "Aberanwenve",
+          "pop": 6.72,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 62,
+          "name": "Divaberfan",
+          "pop": 6.018,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 81,
+          "name": "Fhlaijomaber",
+          "pop": 4.959,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 112,
+          "name": "Abergrererch",
+          "pop": 4.35,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 436,
+          "name": "Brithninse",
+          "pop": 3.847,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 245,
+          "name": "Broswsnaid",
+          "pop": 3.028,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 53,
+          "name": "Kilwyntiga",
+          "pop": 2.622,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 123,
+          "name": "Nans",
+          "pop": 2.458,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 470,
+          "name": "Dhodh",
+          "pop": 2.358,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 176,
+          "name": "Aberkinver",
+          "pop": 2.356,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 78,
+          "name": "Llanvergoed",
+          "pop": 2.284,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 405,
+          "name": "Kirk",
+          "pop": 1.772,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 21,
+          "name": "Gallbhear",
+          "pop": 1.694,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 117,
+          "name": "Insanfartsea",
+          "pop": 1.678,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 73,
+          "name": "Hordhshi",
+          "pop": 1.655,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 142,
+          "name": "Kirkcalnin",
+          "pop": 1.627,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 163,
+          "name": "Aberdynolnin",
+          "pop": 0.866,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 14,
+      "name": "Ban",
+      "color": "#ed9c89",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 47537,
+        "military": [
+          {
+            "i": 0,
+            "a": 2976,
+            "cell": 1597,
+            "x": 1317.87,
+            "y": 277.21,
+            "bx": 1317.87,
+            "by": 277.21,
+            "u": {
+              "infantry": 681,
+              "cavalry": 1721,
+              "artillery": 17,
+              "archers": 557
+            },
+            "n": 0,
+            "name": "1st (Aberlochia) Regiment",
+            "state": 14,
+            "icon": "👑"
+          },
+          {
+            "i": 1,
+            "a": 2947,
+            "cell": 1377,
+            "x": 1272.89,
+            "y": 249.83,
+            "bx": 1272.89,
+            "by": 249.83,
+            "u": {
+              "infantry": 1013,
+              "cavalry": 1195,
+              "artillery": 9,
+              "archers": 730
+            },
+            "n": 0,
+            "name": "2nd (Inwenverthe) Regiment",
+            "state": 14,
+            "icon": "🐴"
+          },
+          {
+            "i": 2,
+            "a": 2561,
+            "cell": 1274,
+            "x": 1323.26,
+            "y": 231.38,
+            "bx": 1323.26,
+            "by": 231.38,
+            "u": {
+              "infantry": 1144,
+              "archers": 867,
+              "cavalry": 537,
+              "artillery": 13
+            },
+            "n": 0,
+            "name": "3rd (Knutstedge) Regiment",
+            "state": 14,
+            "icon": "⚔️"
+          },
+          {
+            "i": 3,
+            "a": 1496,
+            "cell": 1720,
+            "x": 1461.64,
+            "y": 292.19,
+            "bx": 1461.64,
+            "by": 292.19,
+            "u": {
+              "infantry": 574,
+              "cavalry": 582,
+              "artillery": 2,
+              "archers": 338
+            },
+            "n": 0,
+            "name": "4th (Zinar) Regiment",
+            "state": 14,
+            "icon": "🐴"
+          },
+          {
+            "i": 4,
+            "a": 1004,
+            "cell": 2611,
+            "x": 1244.03,
+            "y": 396.67,
+            "bx": 1244.03,
+            "by": 396.67,
+            "u": {
+              "infantry": 198,
+              "cavalry": 641,
+              "artillery": 2,
+              "archers": 163
+            },
+            "n": 0,
+            "name": "5th (Undushur) Regiment",
+            "state": 14,
+            "icon": "🐴"
+          },
+          {
+            "i": 5,
+            "a": 3,
+            "cell": 1276,
+            "x": 1354.46,
+            "y": 223.05,
+            "bx": 1354.46,
+            "by": 223.05,
+            "u": {
+              "fleet": 3
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 14,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 30,
+        "portCount": 3
+      },
+      "burgs": [
+        {
+          "id": 14,
+          "name": "Inwenver",
+          "pop": 19.529,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 135,
+          "name": "Knutstedge",
+          "pop": 11.86,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 96,
+          "name": "Lochi",
+          "pop": 10.562,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 364,
+          "name": "Babiln",
+          "pop": 7.44,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 244,
+          "name": "Inwenverthe",
+          "pop": 6.811,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 314,
+          "name": "Invernantira",
+          "pop": 6.57,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 437,
+          "name": "Zinar",
+          "pop": 5.557,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 38,
+          "name": "Sudmanches",
+          "pop": 4.555,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 471,
+          "name": "Gatholukk",
+          "pop": 4.44,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 469,
+          "name": "Badushizd",
+          "pop": 4.317,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 33,
+          "name": "Brutony",
+          "pop": 3.754,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 449,
+          "name": "Kindumunzan",
+          "pop": 3.138,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 327,
+          "name": "Arighigeryst",
+          "pop": 2.65,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 125,
+          "name": "Zizad",
+          "pop": 2.337,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 45,
+          "name": "Dunston",
+          "pop": 1.656,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 358,
+          "name": "Blusxea",
+          "pop": 1.646,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 60,
+          "name": "Digaberg",
+          "pop": 1.58,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 461,
+          "name": "Bibuzadd",
+          "pop": 1.411,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 357,
+          "name": "Gizad",
+          "pop": 1.289,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 379,
+          "name": "Nuradab",
+          "pop": 1.163,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 451,
+          "name": "Nararam",
+          "pop": 1.076,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 393,
+          "name": "Bugli",
+          "pop": 1.003,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 380,
+          "name": "Anuzah",
+          "pop": 0.897,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 435,
+          "name": "Ghrai",
+          "pop": 0.836,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 438,
+          "name": "Pyreazi",
+          "pop": 0.826,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 467,
+          "name": "Aray",
+          "pop": 0.787,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 398,
+          "name": "Agelton",
+          "pop": 0.744,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 410,
+          "name": "Kirukthun",
+          "pop": 0.706,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 411,
+          "name": "Naram",
+          "pop": 0.652,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 426,
+          "name": "Thult",
+          "pop": 0.609,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 15,
+      "name": "Hob",
+      "color": "#f9aabb",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 8779,
+        "military": [
+          {
+            "i": 0,
+            "a": 5530,
+            "cell": 2637,
+            "x": 1593.01,
+            "y": 395.51,
+            "bx": 1593.01,
+            "by": 395.51,
+            "u": {
+              "archers": 2202,
+              "cavalry": 1920,
+              "infantry": 1380,
+              "artillery": 28
+            },
+            "n": 0,
+            "name": "1st (Ial) Regiment",
+            "state": 15,
+            "icon": "🏹"
+          },
+          {
+            "i": 1,
+            "a": 5210,
+            "cell": 2520,
+            "x": 1606.38,
+            "y": 375.51,
+            "bx": 1606.38,
+            "by": 375.51,
+            "u": {
+              "archers": 2853,
+              "cavalry": 985,
+              "artillery": 94,
+              "infantry": 1278
+            },
+            "n": 0,
+            "name": "2nd (Ial) Regiment",
+            "state": 15,
+            "icon": "👑"
+          },
+          {
+            "i": 2,
+            "a": 2702,
+            "cell": 2293,
+            "x": 1573.75,
+            "y": 349.42,
+            "bx": 1573.75,
+            "by": 349.42,
+            "u": {
+              "archers": 1457,
+              "cavalry": 552,
+              "infantry": 670,
+              "artillery": 23
+            },
+            "n": 0,
+            "name": "3rd (Sleh) Regiment",
+            "state": 15,
+            "icon": "🏹"
+          },
+          {
+            "i": 3,
+            "a": 2632,
+            "cell": 2993,
+            "x": 1502.89,
+            "y": 434.47,
+            "bx": 1502.89,
+            "by": 434.47,
+            "u": {
+              "cavalry": 1347,
+              "archers": 618,
+              "infantry": 653,
+              "artillery": 14
+            },
+            "n": 0,
+            "name": "4th (Ial) Regiment",
+            "state": 15,
+            "icon": "🐴"
+          },
+          {
+            "i": 4,
+            "a": 20,
+            "cell": 2520,
+            "x": 1605.29,
+            "y": 367.12,
+            "bx": 1605.29,
+            "by": 367.12,
+            "u": {
+              "fleet": 20
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 15,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 13,
+        "portCount": 1
+      },
+      "burgs": [
+        {
+          "id": 15,
+          "name": "Hob",
+          "pop": 44.702,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 220,
+          "name": "Stroi",
+          "pop": 12.598,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 55,
+          "name": "Chalk",
+          "pop": 8.986,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 260,
+          "name": "Gob",
+          "pop": 8.915,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 239,
+          "name": "Driordeek",
+          "pop": 8.835,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 240,
+          "name": "Shass",
+          "pop": 7.85,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 340,
+          "name": "Froi",
+          "pop": 7.76,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 196,
+          "name": "Fyggan",
+          "pop": 3.546,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 84,
+          "name": "Watliaq",
+          "pop": 3.247,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 206,
+          "name": "Slutiarm",
+          "pop": 1.926,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 172,
+          "name": "Froi",
+          "pop": 1.625,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 412,
+          "name": "Gobruing",
+          "pop": 1.568,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 441,
+          "name": "Biok",
+          "pop": 1.022,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 16,
+      "name": "Iahzit",
+      "color": "#d79edf",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 47590,
+        "military": [
+          {
+            "i": 0,
+            "a": 1898,
+            "cell": 5127,
+            "x": 519.62,
+            "y": 676.12,
+            "bx": 519.62,
+            "by": 676.12,
+            "u": {
+              "cavalry": 1098,
+              "infantry": 288,
+              "archers": 504,
+              "artillery": 8
+            },
+            "n": 0,
+            "name": "1st (Gneab) Regiment",
+            "state": 16,
+            "icon": "🐴"
+          },
+          {
+            "i": 1,
+            "a": 1430,
+            "cell": 4361,
+            "x": 351,
+            "y": 598.4,
+            "bx": 351,
+            "by": 598.4,
+            "u": {
+              "cavalry": 1306,
+              "infantry": 40,
+              "archers": 83,
+              "artillery": 1
+            },
+            "n": 0,
+            "name": "2nd (Dobok) Regiment",
+            "state": 16,
+            "icon": "🐴"
+          },
+          {
+            "i": 2,
+            "a": 882,
+            "cell": 5251,
+            "x": 394.03,
+            "y": 683.33,
+            "bx": 394.03,
+            "by": 683.33,
+            "u": {
+              "cavalry": 636,
+              "infantry": 102,
+              "archers": 143,
+              "artillery": 1
+            },
+            "n": 0,
+            "name": "3rd (Dobok) Regiment",
+            "state": 16,
+            "icon": "🐴"
+          },
+          {
+            "i": 3,
+            "a": 1,
+            "cell": 4601,
+            "x": 339.71,
+            "y": 609.45,
+            "bx": 339.71,
+            "by": 609.45,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 16,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 13,
+        "portCount": 4
+      },
+      "burgs": [
+        {
+          "id": 352,
+          "name": "Gigbig",
+          "pop": 12.759,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 457,
+          "name": "Threshai",
+          "pop": 11.158,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 44,
+          "name": "Sleh",
+          "pop": 9.165,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 346,
+          "name": "Phiggal",
+          "pop": 8.649,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 16,
+          "name": "Iahzit",
+          "pop": 8.324,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 113,
+          "name": "Crild",
+          "pop": 5.638,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 395,
+          "name": "Stios",
+          "pop": 3.262,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 317,
+          "name": "Gagielt",
+          "pop": 2.444,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 366,
+          "name": "Swaxai",
+          "pop": 1.696,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 456,
+          "name": "Chox",
+          "pop": 1.365,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 311,
+          "name": "Kleard",
+          "pop": 1.204,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 262,
+          "name": "Wruilkeh",
+          "pop": 0.988,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 374,
+          "name": "Buggan",
+          "pop": 0.703,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 2,
+      "name": "Gatesinia",
+      "color": "#fc8d62",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 70782,
+        "military": [
+          {
+            "i": 0,
+            "a": 3421,
+            "cell": 1405,
+            "x": 289.58,
+            "y": 261.05,
+            "bx": 289.58,
+            "by": 261.05,
+            "u": {
+              "archers": 1410,
+              "cavalry": 629,
+              "infantry": 1352,
+              "artillery": 30
+            },
+            "n": 0,
+            "name": "1st (Oakburghia) Regiment",
+            "state": 2,
+            "icon": "🏹"
+          },
+          {
+            "i": 1,
+            "a": 2963,
+            "cell": 1743,
+            "x": 365.19,
+            "y": 295.5,
+            "bx": 365.19,
+            "by": 295.5,
+            "u": {
+              "archers": 996,
+              "artillery": 13,
+              "cavalry": 665,
+              "infantry": 1289
+            },
+            "n": 0,
+            "name": "2nd (Axbridford) Regiment",
+            "state": 2,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 2740,
+            "cell": 1414,
+            "x": 408.96,
+            "y": 261.57,
+            "bx": 408.96,
+            "by": 261.57,
+            "u": {
+              "infantry": 1280,
+              "archers": 1012,
+              "cavalry": 432,
+              "artillery": 16
+            },
+            "n": 0,
+            "name": "3rd (Stapton) Regiment",
+            "state": 2,
+            "icon": "⚔️"
+          },
+          {
+            "i": 3,
+            "a": 1407,
+            "cell": 3994,
+            "x": 260.07,
+            "y": 558.06,
+            "bx": 260.07,
+            "by": 558.06,
+            "u": {
+              "archers": 362,
+              "cavalry": 434,
+              "artillery": 14,
+              "infantry": 597
+            },
+            "n": 0,
+            "name": "4th (Newceshamia) Regiment",
+            "state": 2,
+            "icon": "⚔️"
+          },
+          {
+            "i": 4,
+            "a": 364,
+            "cell": 985,
+            "x": 373,
+            "y": 206.4,
+            "bx": 373,
+            "by": 206.4,
+            "u": {
+              "archers": 187,
+              "artillery": 2,
+              "cavalry": 25,
+              "infantry": 150
+            },
+            "n": 0,
+            "name": "5th (Redcking) Regiment",
+            "state": 2,
+            "icon": "👑"
+          },
+          {
+            "i": 5,
+            "a": 3,
+            "cell": 612,
+            "x": 336.7,
+            "y": 165.9,
+            "bx": 336.7,
+            "by": 165.9,
+            "u": {
+              "fleet": 3
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 2,
+            "icon": "🌊"
+          },
+          {
+            "i": 6,
+            "a": 2,
+            "cell": 2195,
+            "x": 265.52,
+            "y": 349.15,
+            "bx": 265.52,
+            "by": 349.15,
+            "u": {
+              "fleet": 2
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 2,
+            "icon": "🌊"
+          },
+          {
+            "i": 7,
+            "a": 2,
+            "cell": 3254,
+            "x": 206.54,
+            "y": 489.58,
+            "bx": 206.54,
+            "by": 489.58,
+            "u": {
+              "fleet": 2
+            },
+            "n": 1,
+            "name": "3rd Fleet",
+            "state": 2,
+            "icon": "🌊"
+          },
+          {
+            "i": 8,
+            "a": 2,
+            "cell": 3994,
+            "x": 243.16,
+            "y": 571.67,
+            "bx": 243.16,
+            "by": 571.67,
+            "u": {
+              "fleet": 2
+            },
+            "n": 1,
+            "name": "4th Fleet",
+            "state": 2,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 61,
+        "portCount": 10
+      },
+      "burgs": [
+        {
+          "id": 309,
+          "name": "Salces",
+          "pop": 25.814,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 242,
+          "name": "Neford",
+          "pop": 19.396,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 213,
+          "name": "Tartondal",
+          "pop": 17.802,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 145,
+          "name": "Swaton",
+          "pop": 17.544,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 453,
+          "name": "Carporton",
+          "pop": 17.299,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 275,
+          "name": "Stapton",
+          "pop": 17.127,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 302,
+          "name": "Lympsbury",
+          "pop": 15.932,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 243,
+          "name": "Salseave",
+          "pop": 13.537,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 150,
+          "name": "Thatcking",
+          "pop": 12.756,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 77,
+          "name": "Axbridford",
+          "pop": 12.691,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 274,
+          "name": "Alisford",
+          "pop": 12.499,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 22,
+          "name": "Clifton",
+          "pop": 12.483,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 214,
+          "name": "Westckingle",
+          "pop": 12.334,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 349,
+          "name": "Stapton",
+          "pop": 12.124,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 223,
+          "name": "Bucleshover",
+          "pop": 10.926,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 57,
+          "name": "Albridgerid",
+          "pop": 10.906,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 61,
+          "name": "Sovertondon",
+          "pop": 10.436,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 462,
+          "name": "Kingley",
+          "pop": 10.015,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 168,
+          "name": "Blandling",
+          "pop": 9.78,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 153,
+          "name": "Whithamney",
+          "pop": 9.406,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 224,
+          "name": "Boroughbrid",
+          "pop": 9.191,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 296,
+          "name": "Towbigin",
+          "pop": 8.662,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 2,
+          "name": "Gatesin",
+          "pop": 7.537,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 369,
+          "name": "Halingin",
+          "pop": 7.451,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 215,
+          "name": "Gafordge",
+          "pop": 7.038,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 246,
+          "name": "Calton",
+          "pop": 6.743,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 68,
+          "name": "Portster",
+          "pop": 6.154,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 141,
+          "name": "Cudhurstham",
+          "pop": 5.971,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 218,
+          "name": "Whithore",
+          "pop": 5.73,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 234,
+          "name": "Chisford",
+          "pop": 5.7,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 203,
+          "name": "Wargleyme",
+          "pop": 5.676,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 355,
+          "name": "Brampton",
+          "pop": 5.499,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 228,
+          "name": "Shomyard",
+          "pop": 5.498,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 101,
+          "name": "Dodbrid",
+          "pop": 5.159,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 98,
+          "name": "Watchwark",
+          "pop": 4.517,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 159,
+          "name": "Congraton",
+          "pop": 3.655,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 318,
+          "name": "Blandle",
+          "pop": 2.994,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 335,
+          "name": "Watcheldock",
+          "pop": 2.743,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 200,
+          "name": "Shoroughbou",
+          "pop": 1.9,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 301,
+          "name": "Sidmin",
+          "pop": 1.859,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 156,
+          "name": "Avediton",
+          "pop": 1.727,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 83,
+          "name": "Totham",
+          "pop": 1.718,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 259,
+          "name": "Whitfordle",
+          "pop": 1.705,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 124,
+          "name": "Helston",
+          "pop": 1.702,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 290,
+          "name": "Bosburymock",
+          "pop": 1.697,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 86,
+          "name": "Bosdon",
+          "pop": 1.686,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 286,
+          "name": "Linden",
+          "pop": 1.679,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 39,
+          "name": "Exningley",
+          "pop": 1.653,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 35,
+          "name": "Camblewent",
+          "pop": 1.579,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 219,
+          "name": "Noster",
+          "pop": 1.54,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 391,
+          "name": "Perscomney",
+          "pop": 1.355,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 351,
+          "name": "Sonexe",
+          "pop": 1.208,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 288,
+          "name": "Merwick",
+          "pop": 1.13,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 56,
+          "name": "Mitford",
+          "pop": 0.943,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 188,
+          "name": "Bingham",
+          "pop": 0.908,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 420,
+          "name": "Mackesey",
+          "pop": 0.819,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 386,
+          "name": "Dunshilme",
+          "pop": 0.729,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 427,
+          "name": "Balterbot",
+          "pop": 0.717,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 474,
+          "name": "Salter",
+          "pop": 0.69,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 287,
+          "name": "Darkeby",
+          "pop": 0.674,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 425,
+          "name": "Kilknethet",
+          "pop": 0.633,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 3,
+      "name": "Zataphruz",
+      "color": "#8da0cb",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 19309,
+        "military": [
+          {
+            "i": 0,
+            "a": 3684,
+            "cell": 3860,
+            "x": 1626.57,
+            "y": 531.33,
+            "bx": 1626.57,
+            "by": 531.33,
+            "u": {
+              "archers": 2070,
+              "cavalry": 97,
+              "artillery": 81,
+              "infantry": 1436
+            },
+            "n": 0,
+            "name": "1st (Nasar) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 1,
+            "a": 3521,
+            "cell": 3004,
+            "x": 1651.98,
+            "y": 429.58,
+            "bx": 1651.98,
+            "by": 429.58,
+            "u": {
+              "archers": 1979,
+              "cavalry": 99,
+              "infantry": 1398,
+              "artillery": 45
+            },
+            "n": 0,
+            "name": "2nd (Xas'tu) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 2,
+            "a": 2929,
+            "cell": 3366,
+            "x": 1638.1,
+            "y": 483.4,
+            "bx": 1638.1,
+            "by": 483.4,
+            "u": {
+              "archers": 1643,
+              "cavalry": 69,
+              "infantry": 1108,
+              "artillery": 109
+            },
+            "n": 0,
+            "name": "3rd (Xas'tu) Regiment",
+            "state": 3,
+            "icon": "👑"
+          },
+          {
+            "i": 3,
+            "a": 2691,
+            "cell": 3362,
+            "x": 1607.15,
+            "y": 473.17,
+            "bx": 1607.15,
+            "by": 473.17,
+            "u": {
+              "archers": 1418,
+              "cavalry": 113,
+              "infantry": 1148,
+              "artillery": 12
+            },
+            "n": 0,
+            "name": "4th (Xas'tu) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 4,
+            "a": 2549,
+            "cell": 4222,
+            "x": 1627.5,
+            "y": 577.2,
+            "bx": 1627.5,
+            "by": 577.2,
+            "u": {
+              "archers": 1432,
+              "cavalry": 71,
+              "artillery": 41,
+              "infantry": 1005
+            },
+            "n": 0,
+            "name": "5th (Ki'jiress) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 5,
+            "a": 2047,
+            "cell": 3856,
+            "x": 1567.38,
+            "y": 528.48,
+            "bx": 1567.38,
+            "by": 528.48,
+            "u": {
+              "archers": 1055,
+              "artillery": 11,
+              "cavalry": 94,
+              "infantry": 887
+            },
+            "n": 0,
+            "name": "6th (Nasar) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 6,
+            "a": 307,
+            "cell": 5818,
+            "x": 1651.9,
+            "y": 745.2,
+            "bx": 1651.9,
+            "by": 745.2,
+            "u": {
+              "archers": 172,
+              "artillery": 3,
+              "cavalry": 9,
+              "infantry": 123
+            },
+            "n": 0,
+            "name": "7th (Mapjar) Regiment",
+            "state": 3,
+            "icon": "🏹"
+          },
+          {
+            "i": 7,
+            "a": 37,
+            "cell": 3366,
+            "x": 1651.7,
+            "y": 483.49,
+            "bx": 1651.7,
+            "by": 483.49,
+            "u": {
+              "fleet": 37
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 3,
+            "icon": "🌊"
+          },
+          {
+            "i": 8,
+            "a": 12,
+            "cell": 4225,
+            "x": 1644.61,
+            "y": 585.53,
+            "bx": 1644.61,
+            "by": 585.53,
+            "u": {
+              "fleet": 12
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 3,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 20,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 3,
+          "name": "Itheshruz",
+          "pop": 27.459,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 190,
+          "name": "Ki'jiress",
+          "pop": 17.86,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 331,
+          "name": "Nasar",
+          "pop": 13.824,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 185,
+          "name": "Akkuss",
+          "pop": 11.543,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 104,
+          "name": "Oz'jash",
+          "pop": 10.539,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 269,
+          "name": "Arksas",
+          "pop": 9.946,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 429,
+          "name": "Sraj'jashin",
+          "pop": 7.725,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 323,
+          "name": "Joimtoilm",
+          "pop": 7.414,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 58,
+          "name": "Cathrash",
+          "pop": 7.126,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 207,
+          "name": "Hegus",
+          "pop": 6.713,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 329,
+          "name": "Klilm",
+          "pop": 6.012,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 140,
+          "name": "Skuphje",
+          "pop": 5.341,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 276,
+          "name": "Ajashal'ar",
+          "pop": 4.251,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 268,
+          "name": "Srurd",
+          "pop": 3.372,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 249,
+          "name": "Kophje",
+          "pop": 2.984,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 303,
+          "name": "Min'han",
+          "pop": 2.193,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 30,
+          "name": "Shan'ji",
+          "pop": 2.002,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 385,
+          "name": "Rroksas",
+          "pop": 1.592,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 291,
+          "name": "Shurrush",
+          "pop": 1.496,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 342,
+          "name": "Mogg",
+          "pop": 1.052,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 4,
+      "name": "Duntefia",
+      "color": "#e78ac3",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 16924,
+        "military": [
+          {
+            "i": 0,
+            "a": 3059,
+            "cell": 652,
+            "x": 657.98,
+            "y": 148.11,
+            "bx": 657.98,
+            "by": 148.11,
+            "u": {
+              "infantry": 1407,
+              "cavalry": 445,
+              "artillery": 41,
+              "archers": 1166
+            },
+            "n": 0,
+            "name": "1st (Afordbume) Regiment",
+            "state": 4,
+            "icon": "⚔️"
+          },
+          {
+            "i": 1,
+            "a": 2567,
+            "cell": 646,
+            "x": 613.22,
+            "y": 154.92,
+            "bx": 613.22,
+            "by": 154.92,
+            "u": {
+              "infantry": 1181,
+              "archers": 958,
+              "cavalry": 400,
+              "artillery": 28
+            },
+            "n": 0,
+            "name": "2nd (Afordbume) Regiment",
+            "state": 4,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 12,
+            "cell": 650,
+            "x": 643,
+            "y": 166.66,
+            "bx": 643,
+            "by": 166.66,
+            "u": {
+              "fleet": 12
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 4,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 8,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 313,
+          "name": "Clifractle",
+          "pop": 20.463,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 24,
+          "name": "Uxbrid",
+          "pop": 15.546,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 122,
+          "name": "Horston",
+          "pop": 14.369,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 368,
+          "name": "Cocham",
+          "pop": 6.472,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 401,
+          "name": "Wasaltonden",
+          "pop": 4.605,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 4,
+          "name": "Afordbume",
+          "pop": 3.856,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 319,
+          "name": "Badeby",
+          "pop": 2.951,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 295,
+          "name": "Rothleach",
+          "pop": 0.911,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 5,
+      "name": "Brat",
+      "color": "#a6d854",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 109746,
+        "military": [
+          {
+            "i": 0,
+            "a": 3320,
+            "cell": 5271,
+            "x": 656.86,
+            "y": 687.93,
+            "bx": 656.86,
+            "by": 687.93,
+            "u": {
+              "cavalry": 2580,
+              "infantry": 308,
+              "archers": 426,
+              "artillery": 6
+            },
+            "n": 0,
+            "name": "1st (Ulbligz) Regiment",
+            "state": 5,
+            "icon": "🐴"
+          },
+          {
+            "i": 1,
+            "a": 2074,
+            "cell": 5539,
+            "x": 805.18,
+            "y": 711.66,
+            "bx": 805.18,
+            "by": 711.66,
+            "u": {
+              "cavalry": 1363,
+              "archers": 366,
+              "infantry": 335,
+              "artillery": 10
+            },
+            "n": 0,
+            "name": "2nd (Ozbiard) Regiment",
+            "state": 5,
+            "icon": "🐴"
+          },
+          {
+            "i": 2,
+            "a": 1963,
+            "cell": 5848,
+            "x": 670.7,
+            "y": 749.55,
+            "bx": 670.7,
+            "by": 749.55,
+            "u": {
+              "cavalry": 726,
+              "archers": 740,
+              "infantry": 488,
+              "artillery": 9
+            },
+            "n": 0,
+            "name": "3rd (Ulbligz) Regiment",
+            "state": 5,
+            "icon": "🏹"
+          },
+          {
+            "i": 3,
+            "a": 993,
+            "cell": 5865,
+            "x": 866,
+            "y": 755.4,
+            "bx": 866,
+            "by": 755.4,
+            "u": {
+              "cavalry": 441,
+              "archers": 307,
+              "infantry": 238,
+              "artillery": 7
+            },
+            "n": 0,
+            "name": "4th (Kui) Regiment",
+            "state": 5,
+            "icon": "🐴"
+          },
+          {
+            "i": 4,
+            "a": 331,
+            "cell": 4045,
+            "x": 892.1,
+            "y": 556.3,
+            "bx": 892.1,
+            "by": 556.3,
+            "u": {
+              "cavalry": 296,
+              "infantry": 14,
+              "archers": 21
+            },
+            "n": 0,
+            "name": "5th (Stiag) Regiment",
+            "state": 5,
+            "icon": "🐴"
+          },
+          {
+            "i": 5,
+            "a": 1,
+            "cell": 5926,
+            "x": 651.91,
+            "y": 772.99,
+            "bx": 651.91,
+            "by": 772.99,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 5,
+            "icon": "🌊"
+          },
+          {
+            "i": 6,
+            "a": 1,
+            "cell": 5532,
+            "x": 762.56,
+            "y": 709.51,
+            "bx": 762.56,
+            "by": 709.51,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 5,
+            "icon": "🌊"
+          },
+          {
+            "i": 7,
+            "a": 1,
+            "cell": 5666,
+            "x": 906.55,
+            "y": 735.87,
+            "bx": 906.55,
+            "by": 735.87,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "3rd Fleet",
+            "state": 5,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 51,
+        "portCount": 8
+      },
+      "burgs": [
+        {
+          "id": 36,
+          "name": "Ozbiard",
+          "pop": 18.56,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 128,
+          "name": "Cosxea",
+          "pop": 17.227,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 87,
+          "name": "Ialsirt",
+          "pop": 15.836,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 254,
+          "name": "Drior",
+          "pop": 14.76,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 5,
+          "name": "Ulbligz",
+          "pop": 13.15,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 47,
+          "name": "Bridvelb",
+          "pop": 12.122,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 65,
+          "name": "Brybtong",
+          "pop": 11.939,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 344,
+          "name": "Cielb",
+          "pop": 11.638,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 50,
+          "name": "Breszai",
+          "pop": 11.466,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 165,
+          "name": "Uyagh",
+          "pop": 11.093,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 182,
+          "name": "Cielbligz",
+          "pop": 11.016,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 280,
+          "name": "Paas",
+          "pop": 10.979,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 446,
+          "name": "Brybsil",
+          "pop": 10.82,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 361,
+          "name": "Gobruing",
+          "pop": 10.558,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 283,
+          "name": "Shagaald",
+          "pop": 8.853,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 178,
+          "name": "Axibieq",
+          "pop": 8.479,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 109,
+          "name": "Ulbtongli",
+          "pop": 8.406,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 31,
+          "name": "Klearzan",
+          "pop": 7.806,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 183,
+          "name": "Veekz",
+          "pop": 7.699,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 105,
+          "name": "Kuila",
+          "pop": 7.198,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 445,
+          "name": "Fruict",
+          "pop": 6.81,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 222,
+          "name": "Srefshas",
+          "pop": 6.488,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 397,
+          "name": "Glam",
+          "pop": 6.382,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 192,
+          "name": "Froibieq",
+          "pop": 6.311,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 383,
+          "name": "Gobringai",
+          "pop": 5.96,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 353,
+          "name": "Treaq",
+          "pop": 5.666,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 465,
+          "name": "Pyreaz",
+          "pop": 5.203,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 396,
+          "name": "Klear",
+          "pop": 4.939,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 332,
+          "name": "Gob",
+          "pop": 4.216,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 432,
+          "name": "Kas",
+          "pop": 4.152,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 326,
+          "name": "Slofboif",
+          "pop": 3.896,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 310,
+          "name": "Preanggek",
+          "pop": 3.895,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 162,
+          "name": "Styr",
+          "pop": 3.618,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 477,
+          "name": "Dierm",
+          "pop": 2.615,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 430,
+          "name": "Wruilhob",
+          "pop": 2.262,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 312,
+          "name": "Gobring",
+          "pop": 2.198,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 384,
+          "name": "Hobrin",
+          "pop": 2.062,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 306,
+          "name": "Dobok",
+          "pop": 2.028,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 146,
+          "name": "Driorzan",
+          "pop": 1.986,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 265,
+          "name": "Crerags",
+          "pop": 1.684,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 126,
+          "name": "Brid",
+          "pop": 1.661,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 187,
+          "name": "Stios",
+          "pop": 1.648,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 97,
+          "name": "Froi",
+          "pop": 1.594,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 434,
+          "name": "Paas",
+          "pop": 1.506,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 293,
+          "name": "Stioltia",
+          "pop": 1.45,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 216,
+          "name": "Zriokots",
+          "pop": 1.169,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 258,
+          "name": "Givzienis",
+          "pop": 1.147,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 278,
+          "name": "Cosvilkeh",
+          "pop": 1.02,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 94,
+          "name": "Kleab",
+          "pop": 0.82,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 433,
+          "name": "Ukex",
+          "pop": 0.693,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 305,
+          "name": "Srurdvelb",
+          "pop": 0.685,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 6,
+      "name": "Aber",
+      "color": "#ffd92f",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 6858,
+        "military": [
+          {
+            "i": 0,
+            "a": 1566,
+            "cell": 1479,
+            "x": 1223.12,
+            "y": 255.15,
+            "bx": 1223.12,
+            "by": 255.15,
+            "u": {
+              "infantry": 701,
+              "cavalry": 413,
+              "archers": 446,
+              "artillery": 6
+            },
+            "n": 0,
+            "name": "1st (Aber) Regiment",
+            "state": 6,
+            "icon": "⚔️"
+          }
+        ],
+        "burgCount": 8,
+        "portCount": 1
+      },
+      "burgs": [
+        {
+          "id": 348,
+          "name": "Intinbrirair",
+          "pop": 10.698,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 6,
+          "name": "Aber",
+          "pop": 10.674,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 171,
+          "name": "Pons",
+          "pop": 8.741,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 149,
+          "name": "Llanver",
+          "pop": 5.959,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 388,
+          "name": "Abermaicraf",
+          "pop": 2.89,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 236,
+          "name": "Inve",
+          "pop": 2.775,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 419,
+          "name": "Diningell",
+          "pop": 2.514,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 89,
+          "name": "Chlaberden",
+          "pop": 1.656,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 7,
+      "name": "Bhiagab",
+      "color": "#73e3a7",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 12063,
+        "military": [
+          {
+            "i": 0,
+            "a": 6493,
+            "cell": 2398,
+            "x": 1515.91,
+            "y": 368.05,
+            "bx": 1515.91,
+            "by": 368.05,
+            "u": {
+              "cavalry": 2857,
+              "artillery": 40,
+              "infantry": 1598,
+              "archers": 1998
+            },
+            "n": 0,
+            "name": "1st (Stroila) Regiment",
+            "state": 7,
+            "icon": "🐴"
+          },
+          {
+            "i": 1,
+            "a": 4271,
+            "cell": 2630,
+            "x": 1497.09,
+            "y": 391.8,
+            "bx": 1497.09,
+            "by": 391.8,
+            "u": {
+              "cavalry": 2218,
+              "archers": 981,
+              "infantry": 1055,
+              "artillery": 17
+            },
+            "n": 0,
+            "name": "2nd (Stroila) Regiment",
+            "state": 7,
+            "icon": "🐴"
+          },
+          {
+            "i": 2,
+            "a": 3740,
+            "cell": 1846,
+            "x": 1550.8,
+            "y": 303.1,
+            "bx": 1550.8,
+            "by": 303.1,
+            "u": {
+              "archers": 970,
+              "artillery": 41,
+              "infantry": 930,
+              "cavalry": 1799
+            },
+            "n": 0,
+            "name": "3rd (Moggbig) Regiment",
+            "state": 7,
+            "icon": "🐴"
+          },
+          {
+            "i": 3,
+            "a": 3503,
+            "cell": 2178,
+            "x": 1543.08,
+            "y": 336.5,
+            "bx": 1543.08,
+            "by": 336.5,
+            "u": {
+              "cavalry": 1768,
+              "archers": 841,
+              "infantry": 870,
+              "artillery": 24
+            },
+            "n": 0,
+            "name": "4th (Stroila) Regiment",
+            "state": 7,
+            "icon": "🐴"
+          },
+          {
+            "i": 4,
+            "a": 8,
+            "cell": 1846,
+            "x": 1551.49,
+            "y": 288.35,
+            "bx": 1551.49,
+            "by": 288.35,
+            "u": {
+              "fleet": 8
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 7,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 16,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 177,
+          "name": "Moggbig",
+          "pop": 18.677,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 7,
+          "name": "Stroila",
+          "pop": 17.257,
+          "port": false,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 74,
+          "name": "Kleabsil",
+          "pop": 11.179,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 237,
+          "name": "Zarag",
+          "pop": 8.787,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 164,
+          "name": "Bratzakt",
+          "pop": 8.506,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 400,
+          "name": "Gunal",
+          "pop": 8.255,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 472,
+          "name": "Kaszai",
+          "pop": 7.795,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 102,
+          "name": "Uraz",
+          "pop": 6.324,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 195,
+          "name": "Gigbig",
+          "pop": 5.592,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 322,
+          "name": "Honk",
+          "pop": 5.444,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 132,
+          "name": "Khuzunba",
+          "pop": 5.305,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 440,
+          "name": "Sioshas",
+          "pop": 5.166,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 103,
+          "name": "Blus",
+          "pop": 1.921,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 167,
+          "name": "Tuzur",
+          "pop": 1.763,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 201,
+          "name": "Brat",
+          "pop": 1.046,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 452,
+          "name": "Veekz",
+          "pop": 1.03,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 8,
+      "name": "Victumia",
+      "color": "#e6af7d",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 37383,
+        "military": [
+          {
+            "i": 0,
+            "a": 3219,
+            "cell": 5886,
+            "x": 1287.98,
+            "y": 756.65,
+            "bx": 1287.98,
+            "by": 756.65,
+            "u": {
+              "infantry": 1699,
+              "archers": 1127,
+              "cavalry": 356,
+              "artillery": 37
+            },
+            "n": 0,
+            "name": "1st (Modriaqu) Regiment",
+            "state": 8,
+            "icon": "⚔️"
+          },
+          {
+            "i": 1,
+            "a": 2490,
+            "cell": 6240,
+            "x": 1398.63,
+            "y": 839.88,
+            "bx": 1398.63,
+            "by": 839.88,
+            "u": {
+              "infantry": 1225,
+              "cavalry": 161,
+              "artillery": 19,
+              "archers": 1085
+            },
+            "n": 0,
+            "name": "2nd (Sarimia) Regiment",
+            "state": 8,
+            "icon": "⚔️"
+          },
+          {
+            "i": 2,
+            "a": 4,
+            "cell": 6097,
+            "x": 1364.61,
+            "y": 797.73,
+            "bx": 1364.61,
+            "by": 797.73,
+            "u": {
+              "fleet": 4
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 8,
+            "icon": "🌊"
+          },
+          {
+            "i": 3,
+            "a": 2,
+            "cell": 6149,
+            "x": 1275.03,
+            "y": 819.03,
+            "bx": 1275.03,
+            "by": 819.03,
+            "u": {
+              "fleet": 2
+            },
+            "n": 1,
+            "name": "2nd Fleet",
+            "state": 8,
+            "icon": "🌊"
+          },
+          {
+            "i": 4,
+            "a": 2,
+            "cell": 6393,
+            "x": 1433.88,
+            "y": 928,
+            "bx": 1433.88,
+            "by": 928,
+            "u": {
+              "fleet": 2
+            },
+            "n": 1,
+            "name": "3rd Fleet",
+            "state": 8,
+            "icon": "🌊"
+          },
+          {
+            "i": 5,
+            "a": 1,
+            "cell": 6377,
+            "x": 1567.73,
+            "y": 914,
+            "bx": 1567.73,
+            "by": 914,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "4th Fleet",
+            "state": 8,
+            "icon": "🌊"
+          },
+          {
+            "i": 6,
+            "a": 1,
+            "cell": 5694,
+            "x": 1324.24,
+            "y": 715.38,
+            "bx": 1324.24,
+            "by": 715.38,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "5th Fleet",
+            "state": 8,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 50,
+        "portCount": 11
+      },
+      "burgs": [
+        {
+          "id": 91,
+          "name": "Selocobri",
+          "pop": 25.971,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 67,
+          "name": "Celia",
+          "pop": 22.407,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 155,
+          "name": "Geliba",
+          "pop": 21.843,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 71,
+          "name": "Coporumbia",
+          "pop": 21.765,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 138,
+          "name": "Movium",
+          "pop": 20.601,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 333,
+          "name": "Castiamu",
+          "pop": 19.6,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 8,
+          "name": "Focelia",
+          "pop": 19.227,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 232,
+          "name": "Cormium",
+          "pop": 17.261,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 20,
+          "name": "Lolilurum",
+          "pop": 17.056,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 95,
+          "name": "Agrande",
+          "pop": 15.772,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 130,
+          "name": "Corieltauva",
+          "pop": 15.566,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 127,
+          "name": "Lequm",
+          "pop": 15.398,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 63,
+          "name": "Durodula",
+          "pop": 13.824,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 28,
+          "name": "Sugusilemi",
+          "pop": 13.23,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 49,
+          "name": "Taugugus",
+          "pop": 11.727,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 170,
+          "name": "Matiavum",
+          "pop": 11.472,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 59,
+          "name": "Plagentia",
+          "pop": 11.326,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 273,
+          "name": "Birorum",
+          "pop": 11.226,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 261,
+          "name": "Sortisigen",
+          "pop": 9.688,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 37,
+          "name": "Birilia",
+          "pop": 9.359,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 202,
+          "name": "Mangis",
+          "pop": 9.208,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 266,
+          "name": "Corsamulo",
+          "pop": 9.207,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 114,
+          "name": "Rauricorum",
+          "pop": 9.048,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 115,
+          "name": "Pornum",
+          "pop": 8.858,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 51,
+          "name": "Presanistu",
+          "pop": 8.534,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 18,
+          "name": "Lunium",
+          "pop": 8.235,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 82,
+          "name": "Viebureta",
+          "pop": 8.12,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 367,
+          "name": "Dubris",
+          "pop": 8.063,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 284,
+          "name": "Lugripodu",
+          "pop": 7.97,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 75,
+          "name": "Tungripo",
+          "pop": 5.841,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 298,
+          "name": "Adnictum",
+          "pop": 4.854,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 85,
+          "name": "Andomapurno",
+          "pop": 3.797,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 70,
+          "name": "Rerandum",
+          "pop": 3.675,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 147,
+          "name": "Tremari",
+          "pop": 3.599,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 299,
+          "name": "Louriba",
+          "pop": 3.467,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 285,
+          "name": "Nigrantiala",
+          "pop": 3.28,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 19,
+          "name": "Cortustel",
+          "pop": 2.416,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 116,
+          "name": "Racoriorie",
+          "pop": 1.971,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 478,
+          "name": "Drulalenda",
+          "pop": 1.825,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 205,
+          "name": "Lugrolirina",
+          "pop": 1.753,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 193,
+          "name": "Parsovia",
+          "pop": 1.748,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 334,
+          "name": "Castiaqu",
+          "pop": 1.73,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 294,
+          "name": "Cetidavar",
+          "pop": 1.705,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 179,
+          "name": "Cisipinium",
+          "pop": 1.702,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 377,
+          "name": "Drunum",
+          "pop": 1.66,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 208,
+          "name": "Mursoli",
+          "pop": 1.645,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 354,
+          "name": "Cabistucus",
+          "pop": 1.638,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 69,
+          "name": "Borviorimi",
+          "pop": 1.637,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 110,
+          "name": "Taraletum",
+          "pop": 1.504,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 308,
+          "name": "Cornum",
+          "pop": 1.286,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    },
+    {
+      "kind": "state",
+      "id": 9,
+      "name": "Eraisia",
+      "color": "#959edc",
+      "emblem": null,
+      "stats": {
+        "population": null,
+        "area": 47070,
+        "military": [
+          {
+            "i": 0,
+            "a": 2451,
+            "cell": 1888,
+            "x": 749.41,
+            "y": 310.94,
+            "bx": 749.41,
+            "by": 310.94,
+            "u": {
+              "infantry": 1117,
+              "archers": 611,
+              "cavalry": 709,
+              "artillery": 14
+            },
+            "n": 0,
+            "name": "1st (Chales) Regiment",
+            "state": 9,
+            "icon": "⚔️"
+          },
+          {
+            "i": 1,
+            "a": 1,
+            "cell": 1443,
+            "x": 783.1,
+            "y": 248.9,
+            "bx": 783.1,
+            "by": 248.9,
+            "u": {
+              "fleet": 1
+            },
+            "n": 1,
+            "name": "1st Fleet",
+            "state": 9,
+            "icon": "🌊"
+          }
+        ],
+        "burgCount": 39,
+        "portCount": 2
+      },
+      "burgs": [
+        {
+          "id": 121,
+          "name": "Jarquilly",
+          "pop": 27.21,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 460,
+          "name": "Chales",
+          "pop": 21.735,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 251,
+          "name": "Dunskirk",
+          "pop": 19.944,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 389,
+          "name": "Walton",
+          "pop": 15.703,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 403,
+          "name": "Bridgewent",
+          "pop": 15.38,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 9,
+          "name": "Ouvilyles",
+          "pop": 14.959,
+          "port": true,
+          "isCapital": true,
+          "emblem": null
+        },
+        {
+          "id": 238,
+          "name": "Loutiers",
+          "pop": 14.358,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 321,
+          "name": "Gives",
+          "pop": 11.862,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 134,
+          "name": "Darenneres",
+          "pop": 11.82,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 399,
+          "name": "Marignecoq",
+          "pop": 10.828,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 139,
+          "name": "Feinslozoy",
+          "pop": 10.68,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 362,
+          "name": "Creton",
+          "pop": 9.402,
+          "port": true,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 54,
+          "name": "Charcy",
+          "pop": 7.655,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 131,
+          "name": "Fihulsea",
+          "pop": 6.785,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 144,
+          "name": "Neucy",
+          "pop": 5.262,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 184,
+          "name": "Duningt",
+          "pop": 4.318,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 34,
+          "name": "Jarcillemouzo",
+          "pop": 4.146,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 350,
+          "name": "Portsham",
+          "pop": 3.24,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 209,
+          "name": "Desse",
+          "pop": 2.051,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 281,
+          "name": "Cerlin",
+          "pop": 1.808,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 371,
+          "name": "Gevillenay",
+          "pop": 1.776,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 120,
+          "name": "Doucherin",
+          "pop": 1.768,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 118,
+          "name": "Bontete",
+          "pop": 1.762,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 338,
+          "name": "Jomeille",
+          "pop": 1.75,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 119,
+          "name": "Montcondon",
+          "pop": 1.741,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 52,
+          "name": "Thoyerssie",
+          "pop": 1.72,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 90,
+          "name": "Adingford",
+          "pop": 1.67,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 173,
+          "name": "Montcren",
+          "pop": 1.658,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 157,
+          "name": "Bevillesses",
+          "pop": 1.624,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 166,
+          "name": "Azionbury",
+          "pop": 1.612,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 107,
+          "name": "Stansham",
+          "pop": 1.6,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 247,
+          "name": "Montcongy",
+          "pop": 1.595,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 93,
+          "name": "Cudmin",
+          "pop": 1.591,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 210,
+          "name": "Ormshilton",
+          "pop": 1.558,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 43,
+          "name": "Ormsfield",
+          "pop": 1.552,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 151,
+          "name": "Charcy",
+          "pop": 1.526,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 152,
+          "name": "Bonvil",
+          "pop": 1.232,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 339,
+          "name": "Ligny",
+          "pop": 1.113,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        },
+        {
+          "id": 439,
+          "name": "Thogent",
+          "pop": 1.046,
+          "port": false,
+          "isCapital": false,
+          "emblem": null
+        }
+      ]
+    }
+  ]
+}

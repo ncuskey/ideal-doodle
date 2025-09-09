@@ -16,6 +16,7 @@ LoreGen/
 │   └── burg/               # Burg-level connectivity
 ├── index/                  # Graph & indexing
 │   ├── graph.json          # DAG: burg → state → world
+│   ├── catalog.json        # UI catalog (kingdoms + burgs)
 │   ├── promptFacts/        # LLM-optimized fact packs
 │   │   ├── state/          # State prompt packs
 │   │   └── burg/           # Burg prompt packs
@@ -33,7 +34,7 @@ LoreGen/
 │   ├── lore.state.schema.json        # State lore schema
 │   ├── lore.burg.full.schema.json    # Rich burg lore schema
 │   └── lore.state.full.schema.json   # Rich state lore schema
-├── loregen-dashboard.html  # Unified HTML dashboard (test suite + pipeline runner + lore viewer)
+├── loregen-dashboard.html  # Unified HTML dashboard (test suite + pipeline runner + hierarchical lore explorer)
 ├── lore-viewer.html        # Legacy HTML viewer for generated lore
 ├── test-suite.html         # Legacy HTML test suite for functionality verification
 ├── pipeline-runner.html    # Legacy HTML pipeline runner
@@ -67,6 +68,7 @@ LoreGen/
         ├── buildDerived.ts     # Compute derived statistics
         ├── buildPromptPacks.ts # Create LLM-optimized fact packs
         ├── buildGraph.ts       # Build dependency DAG
+        ├── buildCatalog.ts     # Build UI catalog (kingdoms + burgs)
         ├── genBurgLore.ts      # Generate burg lore (full quality)
         ├── genStateLore.ts     # Generate state lore (full quality)
         ├── genBurgLoreFull.ts  # Generate rich burg lore
@@ -86,9 +88,10 @@ LoreGen/
 3. **Derived Statistics** → `facts/derived/{state,burg}/`
 4. **Prompt Pack Creation** → `index/promptFacts/{state,burg}/`
 5. **Graph Building** → `index/graph.json`
-6. **Rich Lore Generation** → `lore/{state,burg}/`
-7. **Event Application** → Updates facts + generates seeds
-8. **Dirty Regeneration** → Targeted updates based on seeds
+6. **Catalog Building** → `index/catalog.json`
+7. **Rich Lore Generation** → `lore/{state,burg}/`
+8. **Event Application** → Updates facts + generates seeds
+9. **Dirty Regeneration** → Targeted updates based on seeds
 
 ### Core Types
 - `WorldFacts`: Map name, year, era
@@ -120,6 +123,7 @@ npm run facts:build          # Extract facts from Azgaar
 npm run facts:derive         # Compute derived statistics
 npm run facts:promptpacks    # Create LLM-optimized fact packs
 npm run graph:build          # Build dependency graph
+npm run catalog:build        # Build UI catalog
 npm run lore:burg:full -- --id=1  # Generate rich burg lore
 npm run lore:state:full -- --id=1 # Generate rich state lore
 npm run events:apply -- --file=events/demo.json
@@ -168,7 +172,7 @@ python3 -m http.server 8000
 **Dashboard Features:**
 - **Test Suite**: 19 tests across 5 categories (utilities, validation, pipelines, events, integration)
 - **Pipeline Runner**: Two modes - simulated and real execution with detailed API logging
-- **Lore Viewer**: Browse generated lore files with rich display
+- **Lore Explorer**: Hierarchical navigation with kingdom cards, search, and lettermark shields
 - **Debug Panel**: Real-time logging with timestamps and detailed API request/response data
 - **Abort Control**: Stop long-running operations gracefully
 - **Validation**: Automatic validation of generated content

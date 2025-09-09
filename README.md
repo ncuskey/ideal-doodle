@@ -24,10 +24,15 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-4. **View Results**
+4. **Build Catalog**
+   ```bash
+   npm run catalog:build  # Create compact UI index
+   ```
+
+5. **View Results**
    ```bash
    python3 -m http.server 8000
-   # Open http://localhost:8000/lore-viewer.html
+   # Open http://localhost:8000/loregen-dashboard.html
    ```
 
 ## 📋 Pipelines
@@ -37,6 +42,7 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Compute derived statistics**: `npm run facts:derive`
 - **Create prompt packs**: `npm run facts:promptpacks`
 - **Build dependency graph**: `npm run graph:build`
+- **Build UI catalog**: `npm run catalog:build`
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
 - **Generate rich burg lore**: `npm run lore:burg:full -- --id=ID`
 
@@ -90,6 +96,7 @@ index/              # LLM-optimized data
 │   ├── state/      # State prompt packs
 │   └── burg/       # Burg prompt packs
 ├── graph.json      # Dependency graph
+├── catalog.json    # UI catalog (kingdoms + burgs)
 ├── dirty.seeds.json # Event-driven change seeds
 ├── validate-summary.json # Validation results
 ├── runs/           # Usage logs (daily files)
@@ -105,14 +112,17 @@ schemas/            # JSON schemas
 └── lore.burg.full.schema.json
 ```
 
-## 🎨 Lore Viewer
+## 🎨 Lore Explorer
 
-A beautiful HTML viewer to explore generated content:
+A hierarchical HTML explorer for navigating generated content:
 
-- **Modern responsive design** with tabbed navigation
-- **Organized display** of summaries, factions, notables, and adventure hooks
-- **Metadata tracking** with generation timestamps and hashes
-- **Auto-loading** of all available lore files
+- **Two-pane layout**: Left sidebar for navigation, right panel for details
+- **Kingdom cards**: Display emblem + name + quick stats (burg count, port count)
+- **Search functionality**: Filter kingdoms and burgs by name
+- **Hierarchical navigation**: Click kingdom → see state lore + burg grid → click burg → see burg lore
+- **Lettermark shields**: Automatic fallback emblems when no custom assets exist
+- **Dark theme**: Modern dark UI with cyan accents
+- **Responsive design**: Adapts to mobile with single-column layout
 
 ## 🧙‍♂️ LoreGen Dashboard
 
@@ -121,7 +131,7 @@ A unified HTML interface combining testing, pipeline execution, and lore viewing
 - **`loregen-dashboard.html`** - Complete dashboard with three main tabs:
   - **🧪 Test Suite** - Comprehensive functionality verification (19 tests across 5 categories)
   - **🏗️ Pipeline Runner** - Step-by-step world generation with detailed API logging and progress tracking
-  - **🏰 Lore Viewer** - Browse and explore generated lore files
+  - **🏰 Lore Explorer** - Hierarchical navigation of kingdoms, states, and burgs with search
 - **Real-time debugging** with shared debug panel across all tabs
 - **Visual progress tracking** with animated progress bars and status indicators
 - **Detailed API logging** showing request/response data, token usage, and timing
@@ -149,7 +159,7 @@ python3 -m http.server 8000
 ### Legacy Files
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)
 - **`pipeline-runner.html`** - Standalone pipeline runner (superseded by dashboard)
-- **`lore-viewer.html`** - Standalone lore viewer (superseded by dashboard)
+- **`lore-viewer.html`** - Standalone lore viewer (superseded by hierarchical explorer)
 
 ## ⚡ Features
 
@@ -241,8 +251,9 @@ npm run lore:burg:hooks -- --id=1  # Just refresh adventure hooks
 npx tsx src/pipelines/genBurgSummaries.ts  # Batch summaries
 ```
 
-**View Results:**
+**Build Catalog & View Results:**
 ```bash
+npm run catalog:build  # Create compact UI index
 python3 -m http.server 8000
-# Navigate to http://localhost:8000/lore-viewer.html
+# Navigate to http://localhost:8000/loregen-dashboard.html
 ```

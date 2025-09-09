@@ -222,6 +222,39 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* Lore Explorer Styles */
+        .lore-explorer { --bg:#0b0f17; --fg:#e5e7eb; --muted:#94a3b8; --card:#111827; --acc:#22d3ee; }
+        .lore-explorer { background:var(--bg); color:var(--fg); border-radius:16px; padding:16px; }
+        .lex-header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+        .lex-header h2 { margin:0; font-size:1.1rem; letter-spacing:.02em; }
+        .lex-actions { display:flex; align-items:center; gap:8px; }
+        .lex-actions input { background:#0f172a; color:var(--fg); border:1px solid #1f2937; padding:8px 10px; border-radius:10px; width:260px; }
+        .lex-actions button { background:#0ea5e9; color:#001018; border:none; padding:8px 10px; border-radius:10px; cursor:pointer; font-weight:700; }
+        .lex-grid { display:grid; grid-template-columns:320px 1fr; gap:16px; margin-top:12px; }
+        .lex-tree { background:var(--card); border:1px solid #1f2937; border-radius:14px; padding:10px; overflow:auto; max-height:70vh; }
+        .legend { font-size:.8rem; color:var(--muted); display:flex; gap:12px; padding:6px 8px; }
+        .dot { width:10px; height:10px; border-radius:999px; display:inline-block; margin-right:5px; }
+        .dot.port { background:#10b981; }
+        .dot.cap { background:#f59e0b; }
+        .kingdom-card { display:flex; gap:10px; align-items:center; padding:8px; border-radius:12px; border:1px solid #1f2937; background:#0b1220; margin-bottom:8px; cursor:pointer; }
+        .kingdom-card:hover { border-color:#374151; background:#0d1425; }
+        .kingdom-card img { width:40px; height:48px; }
+        .kingdom-meta { display:flex; flex-direction:column; gap:2px; }
+        .kingdom-name { font-weight:700; }
+        .kingdom-stats { color:var(--muted); font-size:.8rem; }
+        .burg-list { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:10px; }
+        .burg-card { display:flex; align-items:center; gap:10px; padding:8px; border:1px solid #1f2937; border-radius:12px; background:#0b1220; cursor:pointer; }
+        .burg-card img { width:30px; height:36px; }
+        .badge { font-size:.72rem; padding:2px 6px; border-radius:999px; border:1px solid #1f2937; color:#cbd5e1; }
+        .badge.port { border-color:#065f46; background:#064e3b; }
+        .badge.cap  { border-color:#7c2d12; background:#7c2d12; }
+        .lex-detail .card { background:var(--card); border:1px solid #1f2937; border-radius:14px; padding:14px; margin-bottom:12px; }
+        .lex-detail h3 { margin:0 0 8px; }
+        .empty { color:var(--muted); padding:20px; text-align:center; }
+        .hook { border-left:3px solid var(--acc); padding-left:10px; margin:8px 0; }
+        .kv { color:var(--muted); font-size:.9rem; }
+        @media (max-width: 1000px) { .lex-grid { grid-template-columns:1fr; } }
+
         /* Responsive design */
         @media (max-width: 768px) {
             .container {
@@ -259,7 +292,7 @@
                 🏗️ Pipeline Runner
             </button>
             <button class="main-tab" onclick="showMainTab('lore-viewer')">
-                🏰 Lore Viewer
+                🏰 Lore Explorer
             </button>
         </div>
 
@@ -377,30 +410,32 @@
             </div>
         </div>
 
-        <!-- Lore Viewer Tab -->
+        <!-- Lore Explorer Tab -->
         <div id="lore-viewer" class="tab-content">
-            <div class="nav-tabs" style="display: flex; justify-content: center; gap: 10px; margin: 30px; flex-wrap: wrap;">
-                <button class="nav-tab active" onclick="showLoreSection('burgs')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🏘️ Burgs</button>
-                <button class="nav-tab" onclick="showLoreSection('states')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🏛️ States</button>
-                <button class="nav-tab" onclick="showLoreSection('provinces')" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease; backdrop-filter: blur(10px);">🗺️ Provinces</button>
-            </div>
-
-            <div class="content" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); min-height: 500px; margin: 0 30px 30px;">
-                <div id="burgs" class="lore-section active" style="display: block;">
-                    <div class="loading" style="text-align: center; padding: 50px; color: #666;">Loading burg lore...</div>
-                </div>
-
-                <div id="states" class="lore-section" style="display: none;">
-                    <div class="loading" style="text-align: center; padding: 50px; color: #666;">Loading state lore...</div>
-                </div>
-
-                <div id="provinces" class="lore-section" style="display: none;">
-                    <div class="empty-state" style="text-align: center; padding: 50px; color: #666;">
-                        <h3 style="margin-bottom: 10px; color: #999;">No Province Lore Yet</h3>
-                        <p>Province lore generation hasn't been implemented yet.</p>
+            <!-- Lore Explorer -->
+            <section id="lore-explorer" class="lore-explorer">
+                <div class="lex-header">
+                    <h2>World Lore Explorer</h2>
+                    <div class="lex-actions">
+                        <input id="lex-search" placeholder="Search kingdoms & burgs…" />
+                        <button id="lex-refresh" title="Reload catalog">↻</button>
                     </div>
                 </div>
-            </div>
+
+                <div class="lex-grid">
+                    <nav id="lex-tree" class="lex-tree">
+                        <div class="legend">
+                            <span class="dot port"></span> Ports
+                            <span class="dot cap"></span> Capitals
+                        </div>
+                        <div id="lex-kingdoms" class="kingdom-list"></div>
+                    </nav>
+
+                    <main id="lex-detail" class="lex-detail">
+                        <div class="empty">Select a kingdom or burg to view generated lore.</div>
+                    </main>
+                </div>
+            </section>
         </div>
 
         <!-- Debug Panel (shared across all tabs) -->
@@ -447,7 +482,7 @@
             } else if (tabName === 'pipeline-runner' && !document.getElementById('pipelineSteps').hasChildNodes()) {
                 initializePipeline();
             } else if (tabName === 'lore-viewer') {
-                loadLoreFiles();
+                initializeLoreExplorer();
             }
         }
 
@@ -1285,168 +1320,171 @@
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
         }
 
-        // Lore Viewer functionality
-        async function loadLoreFiles() {
+        // === Fallback lettermark shield (see Prompt S) ===
+        function lettermarkShield(name, color = "#6b7280") {
+            const initials = name.split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()).join("") || "K";
+            const hue = (Array.from(name).reduce((a,c)=>a+c.charCodeAt(0),0) % 360);
+            const accent = `hsl(${hue}, 60%, 45%)`;
+            const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="96" viewBox="0 0 80 96">
+                <defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="${color}" stop-opacity="0.95"/>
+                    <stop offset="100%" stop-color="${accent}" stop-opacity="0.95"/>
+                </linearGradient></defs>
+                <path d="M10 5 h60 a5 5 0 0 1 5 5 v40 a40 40 0 0 1 -35 39 a40 40 0 0 1 -35 -39 v-40 a5 5 0 0 1 5 -5 z" fill="url(#g)" stroke="#111827" stroke-width="2"/>
+                <text x="40" y="56" font-family="ui-sans-serif, system-ui" font-size="28" fill="white" text-anchor="middle" font-weight="700">${initials}</text>
+            </svg>`;
+            return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+        }
+
+        async function fetchJson(path) {
             try {
-                const burgFiles = await fetchLoreFiles('burg');
-                loreData.burgs = burgFiles;
-                renderLoreSection('burgs', burgFiles);
-
-                const stateFiles = await fetchLoreFiles('state');
-                loreData.states = stateFiles;
-                renderLoreSection('states', stateFiles);
-
-            } catch (error) {
-                console.error('Error loading lore files:', error);
-                document.getElementById('burgs').innerHTML = '<div class="error" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0;">Error loading burg lore files. Make sure you\'re running this from the LoreGen directory.</div>';
-                document.getElementById('states').innerHTML = '<div class="error" style="background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0;">Error loading state lore files. Make sure you\'re running this from the LoreGen directory.</div>';
+                const res = await fetch(path, { cache: "no-store" });
+                if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+                return await res.json();
+            } catch (e) {
+                console.error("fetchJson failed:", path, e);
+                return null;
             }
         }
 
-        async function fetchLoreFiles(type) {
-            const files = [];
-            let id = 1;
-            
-            while (true) {
-                try {
-                    const response = await fetch(`lore/${type}/${id}.json`);
-                    if (response.ok) {
-                        const data = await response.json();
-                        files.push(data);
-                        id++;
-                    } else {
-                        break;
-                    }
-                } catch (error) {
-                    break;
-                }
+        const elTree = document.getElementById("lex-kingdoms");
+        const elDetail = document.getElementById("lex-detail");
+        const elSearch = document.getElementById("lex-search");
+        const elRefresh = document.getElementById("lex-refresh");
+
+        let CATALOG = { kingdoms: [] };
+
+        function renderTree(filter="") {
+            elTree.innerHTML = "";
+            const q = filter.trim().toLowerCase();
+            const list = (CATALOG.kingdoms || [])
+                .filter(k => !q || k.name.toLowerCase().includes(q) || (k.burgs||[]).some(b=>b.name.toLowerCase().includes(q)));
+
+            for (const k of list) {
+                const card = document.createElement("div");
+                card.className = "kingdom-card";
+                const img = document.createElement("img");
+                img.alt = `${k.name} emblem`;
+                img.src = k.emblem || lettermarkShield(k.name, k.color);
+                const meta = document.createElement("div");
+                meta.className = "kingdom-meta";
+                const name = document.createElement("div");
+                name.className = "kingdom-name";
+                name.textContent = k.name;
+                const stats = document.createElement("div");
+                stats.className = "kingdom-stats";
+                const ports = k.stats?.portCount ?? 0;
+                const burgs = k.stats?.burgCount ?? 0;
+                stats.textContent = `${burgs} burgs • ${ports} ports`;
+                meta.appendChild(name); meta.appendChild(stats);
+                card.appendChild(img); card.appendChild(meta);
+                card.addEventListener("click", () => showKingdom(k));
+                elTree.appendChild(card);
             }
-            
-            return files;
         }
 
-        function renderLoreSection(sectionId, files) {
-            const section = document.getElementById(sectionId);
-            
-            if (files.length === 0) {
-                section.innerHTML = '<div class="empty-state" style="text-align: center; padding: 50px; color: #666;"><h3 style="margin-bottom: 10px; color: #999;">No Lore Files Found</h3><p>Generate some lore first using the npm scripts.</p></div>';
+        async function showKingdom(k) {
+            const stateLore = await fetchJson(`lore/state/${k.id}.json`);
+            elDetail.innerHTML = "";
+            const top = document.createElement("div");
+            top.className = "card";
+            top.innerHTML = `
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <img src="${k.emblem || lettermarkShield(k.name, k.color)}" width="60" height="72" alt="">
+                    <div>
+                        <h3>${k.name}</h3>
+                        <div class="kv">
+                            ${k.stats?.population ? `Population: ${k.stats.population.toLocaleString()} • ` : ""}
+                            ${k.stats?.military ? `Military: ${k.stats.military.toLocaleString()} • ` : ""}
+                            Burgs: ${k.stats?.burgCount ?? 0}, Ports: ${k.stats?.portCount ?? 0}
+                        </div>
+                    </div>
+                </div>
+                ${stateLore?.summary ? `<p style="margin-top:8px">${stateLore.summary}</p>` : `<p class="kv">No generated state lore yet.</p>`}
+                ${stateLore?.geographyNotes ? `<p><strong>Geography:</strong> ${stateLore.geographyNotes}</p>` : ""}
+                ${stateLore?.societyNotes ? `<p><strong>Society:</strong> ${stateLore.societyNotes}</p>` : ""}
+                ${stateLore?.economyNotes ? `<p><strong>Economy:</strong> ${stateLore.economyNotes}</p>` : ""}
+                ${Array.isArray(stateLore?.adventureHooks) ? `<div><strong>Hooks</strong>${stateLore.adventureHooks.map(h=>`
+                    <div class="hook"><div><strong>${h.title ?? "Untitled"}</strong></div><div>${h.setup ?? ""}</div>${h.escalation?`<div><em>${h.escalation}</em></div>`:""}${h.reward?`<div>Reward: ${h.reward}</div>`:""}</div>
+                `).join("")}</div>` : ""}
+            `;
+            elDetail.appendChild(top);
+
+            // Burg grid
+            const wrap = document.createElement("div");
+            wrap.className = "card";
+            wrap.innerHTML = `<h3>Burgs</h3>`;
+            const grid = document.createElement("div");
+            grid.className = "burg-list";
+            for (const b of (k.burgs || [])) {
+                const bc = document.createElement("div");
+                bc.className = "burg-card";
+                const bi = document.createElement("img");
+                bi.alt = `${b.name} emblem`;
+                // inherit kingdom color; you can change to per-burg color if you ever add it
+                bi.src = b.emblem || lettermarkShield(b.name, k.color);
+                const meta = document.createElement("div");
+                meta.style.display = "flex"; meta.style.flexDirection = "column";
+                const nm = document.createElement("div");
+                nm.textContent = b.name;
+                const line = document.createElement("div");
+                line.className = "kv";
+                line.textContent = `${(b.pop||0).toLocaleString()} people`;
+                const tags = document.createElement("div");
+                tags.style.display = "flex"; tags.style.gap = "6px"; tags.style.marginTop = "4px";
+                if (b.port) { const t = document.createElement("span"); t.className = "badge port"; t.textContent = "Port"; tags.appendChild(t); }
+                if (b.isCapital){ const t = document.createElement("span"); t.className = "badge cap";  t.textContent = "Capital"; tags.appendChild(t); }
+                meta.appendChild(nm); meta.appendChild(line); meta.appendChild(tags);
+                bc.appendChild(bi); bc.appendChild(meta);
+                bc.addEventListener("click", ()=> showBurg(k, b));
+                grid.appendChild(bc);
+            }
+            wrap.appendChild(grid);
+            elDetail.appendChild(wrap);
+        }
+
+        async function showBurg(k, b) {
+            const burgLore = await fetchJson(`lore/burg/${b.id}.json`);
+            elDetail.innerHTML = "";
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <img src="${b.emblem || lettermarkShield(b.name, k.color)}" width="50" height="60" alt="">
+                    <div>
+                        <h3>${b.name}</h3>
+                        <div class="kv">${(b.pop||0).toLocaleString()} people ${b.port?"• Port":""} ${b.isCapital?"• Capital":""}</div>
+                        <div class="kv">Kingdom: ${k.name}</div>
+                    </div>
+                </div>
+                ${burgLore?.summary ? `<p style="margin-top:8px">${burgLore.summary}</p>` : `<p class="kv">No generated burg lore yet.</p>`}
+                ${burgLore?.localColor ? `<p><strong>Local Color:</strong> ${burgLore.localColor}</p>` : ""}
+                ${Array.isArray(burgLore?.notables) && burgLore.notables.length ? `<div><strong>Notables</strong>${burgLore.notables.map(n=>`
+                    <div class="hook"><div><strong>${n.name ?? "Unknown"}</strong> — ${n.role ?? ""}</div>${n.secret?`<div class="kv">Secret: ${n.secret}</div>`:""}</div>
+                `).join("")}</div>` : ""}
+                ${Array.isArray(burgLore?.adventureHooks) ? `<div><strong>Hooks</strong>${burgLore.adventureHooks.map(h=>`
+                    <div class="hook"><div><strong>${h.title ?? "Untitled"}</strong></div><div>${h.setup ?? ""}</div>${h.complication?`<div><em>${h.complication}</em></div>`:""}${h.reward?`<div>Reward: ${h.reward}</div>`:""}</div>
+                `).join("")}</div>` : ""}
+            `;
+            elDetail.appendChild(card);
+        }
+
+        async function loadCatalog() {
+            const data = await fetchJson("index/catalog.json");
+            if (!data) {
+                elTree.innerHTML = `<div class="kv">Catalog not found. Run <code>npm run catalog:build</code>.</div>`;
                 return;
             }
-
-            section.innerHTML = files.map(file => renderLoreItem(file)).join('');
+            CATALOG = data;
+            renderTree(elSearch.value || "");
         }
 
-        function renderLoreItem(item) {
-            const type = item.entity.type;
-            const id = item.entity.id;
-            
-            let content = `
-                <div class="lore-item" style="background: #f8f9fa; border-radius: 10px; padding: 20px; margin-bottom: 20px; border-left: 4px solid #667eea; transition: transform 0.2s ease;">
-                    <div class="lore-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
-                        <div class="lore-title" style="font-size: 1.4rem; font-weight: bold; color: #2c3e50;">${getEntityName(item)}</div>
-                        <div class="lore-id" style="background: #667eea; color: white; padding: 4px 12px; border-radius: 15px; font-size: 0.9rem;">${type.toUpperCase()} #${id}</div>
-                    </div>
-            `;
-
-            if (item.summary) {
-                content += `
-                    <div class="lore-content" style="margin-bottom: 15px;">
-                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Summary</h3>
-                        <p style="margin-bottom: 10px; color: #555;">${item.summary}</p>
-                    </div>
-                `;
-            }
-
-            if (item.factions && item.factions.length > 0) {
-                content += `
-                    <div class="factions" style="margin-top: 15px;">
-                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Factions</h3>
-                        ${item.factions.map(faction => `
-                            <div class="faction" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
-                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${faction.name}</h4>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Motive:</strong> ${faction.motive}</p>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Strength:</strong> ${faction.strength}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-            }
-
-            if (item.notables && item.notables.length > 0) {
-                content += `
-                    <div class="notables" style="margin-top: 15px;">
-                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Notable People</h3>
-                        ${item.notables.map(notable => `
-                            <div class="notable" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
-                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${notable.name}</h4>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Role:</strong> ${notable.role}</p>
-                                <div class="secret" style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 5px; padding: 8px; margin-top: 8px; font-style: italic; color: #856404;"><strong>Secret:</strong> ${notable.secret}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-            }
-
-            if (item.adventureHooks && item.adventureHooks.length > 0) {
-                content += `
-                    <div class="adventure-hooks" style="margin-top: 15px;">
-                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">Adventure Hooks</h3>
-                        ${item.adventureHooks.map(hook => `
-                            <div class="hook" style="background: white; border-radius: 8px; padding: 15px; margin-bottom: 10px; border: 1px solid #e9ecef;">
-                                <h4 style="color: #2c3e50; margin-bottom: 8px;">${hook.title}</h4>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Setup:</strong> ${hook.setup}</p>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Complication:</strong> ${hook.complication}</p>
-                                <p style="margin-bottom: 5px; color: #666;"><strong>Reward:</strong> ${hook.reward}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-            }
-
-            if (item.history && item.history.length > 0) {
-                content += `
-                    <div class="lore-content" style="margin-bottom: 15px;">
-                        <h3 style="color: #34495e; margin-bottom: 8px; font-size: 1.1rem;">History</h3>
-                        ${item.history.map(event => `<p style="margin-bottom: 10px; color: #555;">${event}</p>`).join('')}
-                    </div>
-                `;
-            }
-
-            content += `
-                <div class="metadata" style="background: #e9ecef; border-radius: 5px; padding: 10px; margin-top: 15px; font-size: 0.9rem; color: #6c757d;">
-                    <strong>Generated:</strong> ${item.lastGeneratedAt ? new Date(item.lastGeneratedAt).toLocaleString() : 'Unknown'} |
-                    <strong>Hash:</strong> ${item.hashOfInputs ? item.hashOfInputs.substring(0, 8) + '...' : 'N/A'}
-                </div>
-            </div>`;
-            return content;
-        }
-
-        function getEntityName(item) {
-            if (item.facts && item.facts.burg && item.facts.burg.name) {
-                return item.facts.burg.name;
-            }
-            if (item.facts && item.facts.state && item.facts.state.name) {
-                return item.facts.state.name;
-            }
-            return `${item.entity.type.charAt(0).toUpperCase() + item.entity.type.slice(1)} ${item.entity.id}`;
-        }
-
-        function showLoreSection(sectionName) {
-            document.querySelectorAll('.lore-section').forEach(section => {
-                section.style.display = 'none';
-            });
-            
-            document.querySelectorAll('.nav-tab').forEach(tab => {
-                tab.classList.remove('active');
-                tab.style.background = 'rgba(255,255,255,0.2)';
-                tab.style.color = 'white';
-            });
-            
-            document.getElementById(sectionName).style.display = 'block';
-            
-            event.target.classList.add('active');
-            event.target.style.background = 'white';
-            event.target.style.color = '#667eea';
+        // Lore Explorer initialization
+        function initializeLoreExplorer() {
+            if (elSearch) elSearch.addEventListener("input", ()=> renderTree(elSearch.value));
+            if (elRefresh) elRefresh.addEventListener("click", loadCatalog);
+            loadCatalog();
         }
 
         // Initialize the dashboard when page loads

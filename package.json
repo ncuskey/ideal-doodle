@@ -26,6 +26,7 @@
     "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
     "events:apply": "tsx src/pipelines/applyEvents.ts",
     "events:apply+regen": "tsx src/pipelines/applyEvents.ts && node ./node_modules/.bin/tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
+    "catalog:build": "tsx src/pipelines/buildCatalog.ts",
     "test:hash": "tsx src/tests/hash.test.ts"
   },
   "dependencies": {
