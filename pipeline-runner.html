@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoreGen Pipeline Runner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.8;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-warning {
+            background: #ffc107;
+            color: #212529;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .progress-container {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-size: 14px;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .pipeline-steps {
+            padding: 30px;
+        }
+
+        .step {
+            margin-bottom: 20px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .step.active {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+
+        .step.completed {
+            border-color: #28a745;
+            background: #f8fff9;
+        }
+
+        .step.failed {
+            border-color: #dc3545;
+            background: #fff8f8;
+        }
+
+        .step-header {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .step-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .step-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .step-icon.pending {
+            background: #e9ecef;
+            color: #6c757d;
+        }
+
+        .step-icon.running {
+            background: #667eea;
+            color: white;
+            animation: pulse 1.5s infinite;
+        }
+
+        .step-icon.completed {
+            background: #28a745;
+            color: white;
+        }
+
+        .step-icon.failed {
+            background: #dc3545;
+            color: white;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .step-status {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-running {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .status-completed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-failed {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .step-content {
+            padding: 20px;
+            display: none;
+        }
+
+        .step-content.expanded {
+            display: block;
+        }
+
+        .step-description {
+            color: #6c757d;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .step-command {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 12px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            margin-bottom: 15px;
+            word-break: break-all;
+        }
+
+        .step-output {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .step-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+        }
+
+        .step-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            padding: 15px;
+            font-size: 12px;
+        }
+
+        .summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+        }
+
+        .summary-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 15px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .debug-panel {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .debug-panel h4 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .debug-log {
+            white-space: pre-wrap;
+            line-height: 1.4;
+        }
+
+        .debug-log .error {
+            color: #e74c3c;
+        }
+
+        .debug-log .success {
+            color: #2ecc71;
+        }
+
+        .debug-log .info {
+            color: #3498db;
+        }
+
+        .debug-log .warning {
+            color: #f39c12;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .config-panel {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .config-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .config-label {
+            font-weight: 600;
+            color: #2c3e50;
+            min-width: 120px;
+        }
+
+        .config-input {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .config-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏗️ LoreGen Pipeline Runner</h1>
+            <p>Step-by-step world generation with real-time progress tracking</p>
+        </div>
+
+        <div class="config-panel">
+            <div class="config-row">
+                <div class="config-label">State ID:</div>
+                <input type="number" class="config-input" id="stateId" value="1" min="0" max="16">
+            </div>
+            <div class="config-row">
+                <div class="config-label">Burg ID:</div>
+                <input type="number" class="config-input" id="burgId" value="1" min="1" max="477">
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" onclick="runFullPipeline()">
+                🚀 Run Full Pipeline
+            </button>
+            <button class="btn btn-secondary" onclick="runStep()" id="runStepBtn" disabled>
+                ▶️ Run Next Step
+            </button>
+            <button class="btn btn-warning" onclick="resetPipeline()">
+                🔄 Reset Pipeline
+            </button>
+            <button class="btn btn-secondary" onclick="toggleDebug()">
+                🐛 Toggle Debug
+            </button>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText">Ready to run pipeline</div>
+        </div>
+
+        <div class="pipeline-steps" id="pipelineSteps">
+            <!-- Pipeline steps will be populated here -->
+        </div>
+
+        <div class="summary" id="summary" style="display: none;">
+            <div class="summary-stats">
+                <div class="stat">
+                    <div class="stat-number" id="totalSteps">0</div>
+                    <div class="stat-label">Total Steps</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="completedSteps">0</div>
+                    <div class="stat-label">Completed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="failedSteps">0</div>
+                    <div class="stat-label">Failed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="duration">0s</div>
+                    <div class="stat-label">Duration</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="debug-panel" id="debugPanel" style="display: none;">
+            <h4>🐛 Debug Log</h4>
+            <div class="debug-log" id="debugLog"></div>
+        </div>
+    </div>
+
+    <script>
+        // Pipeline configuration
+        const PIPELINE_STEPS = [
+            {
+                id: 'facts:build',
+                name: 'Build Facts',
+                description: 'Extract facts from Azgaar data export. This creates the base facts for world, states, and burgs.',
+                command: 'npm run facts:build',
+                required: true
+            },
+            {
+                id: 'facts:derive',
+                name: 'Derive Statistics',
+                description: 'Compute derived statistics and aggregations from base facts. Creates connectivity data and top-level summaries.',
+                command: 'npm run facts:derive',
+                required: true
+            },
+            {
+                id: 'facts:promptpacks',
+                name: 'Build Prompt Packs',
+                description: 'Create LLM-optimized fact packs with rich context (biomes, climate, religions, cultures, rivers, ports, trade hubs).',
+                command: 'npm run facts:promptpacks',
+                required: true
+            },
+            {
+                id: 'lore:state:full',
+                name: 'Generate State Lore',
+                description: 'Generate rich state lore using GPT-5 with full context and adventure hooks.',
+                command: 'npm run lore:state:full -- --id=',
+                required: false,
+                dynamic: true
+            },
+            {
+                id: 'lore:burg:full',
+                name: 'Generate Burg Lore',
+                description: 'Generate rich burg lore using GPT-5 with full context and adventure hooks.',
+                command: 'npm run lore:burg:full -- --id=',
+                required: false,
+                dynamic: true
+            }
+        ];
+
+        let currentStepIndex = 0;
+        let pipelineResults = {};
+        let debugMode = false;
+        let startTime = null;
+        let isRunning = false;
+
+        // Debug logging
+        function debugLog(message, type = 'info') {
+            if (!debugMode) return;
+            const debugLog = document.getElementById('debugLog');
+            const timestamp = new Date().toISOString().substr(11, 12);
+            const logEntry = document.createElement('div');
+            logEntry.className = type;
+            logEntry.textContent = `[${timestamp}] ${message}`;
+            debugLog.appendChild(logEntry);
+            debugLog.scrollTop = debugLog.scrollHeight;
+        }
+
+        function toggleDebug() {
+            debugMode = !debugMode;
+            const panel = document.getElementById('debugPanel');
+            panel.style.display = debugMode ? 'block' : 'none';
+            if (debugMode) {
+                debugLog('Debug mode enabled', 'info');
+            }
+        }
+
+        // Progress tracking
+        function updateProgress(current, total, message) {
+            const percentage = (current / total) * 100;
+            document.getElementById('progressFill').style.width = percentage + '%';
+            document.getElementById('progressText').textContent = message;
+        }
+
+        // Step management
+        function updateStepStatus(stepIndex, status, output = '', error = '') {
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            if (!stepEl) return;
+
+            const iconEl = stepEl.querySelector('.step-icon');
+            const statusEl = stepEl.querySelector('.step-status');
+            const outputEl = stepEl.querySelector('.step-output');
+            const contentEl = stepEl.querySelector('.step-content');
+
+            // Update status
+            stepEl.className = `step ${status}`;
+            iconEl.className = `step-icon ${status}`;
+            statusEl.textContent = status;
+            statusEl.className = `step-status status-${status}`;
+
+            // Update content
+            if (status === 'running') {
+                iconEl.innerHTML = '<div class="loading"></div>';
+            } else if (status === 'completed') {
+                iconEl.textContent = '✓';
+            } else if (status === 'failed') {
+                iconEl.textContent = '✗';
+            } else {
+                iconEl.textContent = stepIndex + 1;
+            }
+
+            // Update output
+            if (output || error) {
+                contentEl.style.display = 'block';
+                if (error) {
+                    outputEl.innerHTML = `<div class="step-error">${error}</div>`;
+                } else {
+                    outputEl.innerHTML = `<div class="step-success">${output}</div>`;
+                }
+            }
+
+            pipelineResults[stepIndex] = { status, output, error };
+        }
+
+        function setStepActive(stepIndex) {
+            // Remove active from all steps
+            document.querySelectorAll('.step').forEach(step => {
+                step.classList.remove('active');
+            });
+            
+            // Add active to current step
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            if (stepEl) {
+                stepEl.classList.add('active');
+            }
+        }
+
+        // Step execution
+        async function executeStep(stepIndex) {
+            const step = PIPELINE_STEPS[stepIndex];
+            if (!step) return false;
+
+            debugLog(`Executing step ${stepIndex + 1}: ${step.name}`, 'info');
+            updateStepStatus(stepIndex, 'running');
+            setStepActive(stepIndex);
+
+            try {
+                // Simulate command execution
+                const command = step.dynamic ? 
+                    step.command + (step.id.includes('state') ? document.getElementById('stateId').value : document.getElementById('burgId').value) :
+                    step.command;
+
+                debugLog(`Running command: ${command}`, 'info');
+
+                // Simulate execution time and output
+                await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 2000));
+
+                // Simulate different outputs based on step
+                let output = '';
+                switch (step.id) {
+                    case 'facts:build':
+                        output = 'World, 17 states, 478 burgs written.';
+                        break;
+                    case 'facts:derive':
+                        output = 'Derived facts built.';
+                        break;
+                    case 'facts:promptpacks':
+                        output = 'Prompt packs built.';
+                        break;
+                    case 'lore:state:full':
+                        output = 'State lore generated successfully.';
+                        break;
+                    case 'lore:burg:full':
+                        output = 'Burg lore generated successfully.';
+                        break;
+                }
+
+                updateStepStatus(stepIndex, 'completed', output);
+                debugLog(`✓ Step ${stepIndex + 1} completed: ${output}`, 'success');
+                return true;
+
+            } catch (error) {
+                updateStepStatus(stepIndex, 'failed', '', error.message);
+                debugLog(`✗ Step ${stepIndex + 1} failed: ${error.message}`, 'error');
+                return false;
+            }
+        }
+
+        // Pipeline execution
+        async function runFullPipeline() {
+            if (isRunning) return;
+            
+            startTime = Date.now();
+            isRunning = true;
+            debugLog('Starting full pipeline execution', 'info');
+            
+            document.getElementById('runStepBtn').disabled = true;
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = true);
+
+            let completed = 0;
+            let failed = 0;
+
+            for (let i = 0; i < PIPELINE_STEPS.length; i++) {
+                const success = await executeStep(i);
+                if (success) {
+                    completed++;
+                } else {
+                    failed++;
+                }
+
+                updateProgress(i + 1, PIPELINE_STEPS.length, `Completed ${i + 1}/${PIPELINE_STEPS.length} steps`);
+                
+                // Small delay for visual feedback
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+
+            const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+            updateProgress(1, 1, `Pipeline completed: ${completed}/${PIPELINE_STEPS.length} steps successful`);
+            showSummary(completed, failed, duration);
+            
+            // Re-enable buttons
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);
+            isRunning = false;
+
+            debugLog(`Pipeline completed in ${duration}s: ${completed} successful, ${failed} failed`, 
+                     failed === 0 ? 'success' : 'error');
+        }
+
+        async function runStep() {
+            if (isRunning || currentStepIndex >= PIPELINE_STEPS.length) return;
+            
+            isRunning = true;
+            document.getElementById('runStepBtn').disabled = true;
+
+            const success = await executeStep(currentStepIndex);
+            currentStepIndex++;
+
+            if (currentStepIndex < PIPELINE_STEPS.length) {
+                document.getElementById('runStepBtn').disabled = false;
+            }
+
+            updateProgress(currentStepIndex, PIPELINE_STEPS.length, 
+                          `Step ${currentStepIndex}/${PIPELINE_STEPS.length} completed`);
+            
+            isRunning = false;
+        }
+
+        function resetPipeline() {
+            currentStepIndex = 0;
+            pipelineResults = {};
+            isRunning = false;
+            
+            // Reset all steps
+            document.querySelectorAll('.step').forEach((step, index) => {
+                updateStepStatus(index, 'pending');
+            });
+            
+            document.getElementById('runStepBtn').disabled = false;
+            document.querySelectorAll('.btn').forEach(btn => btn.disabled = false);
+            
+            updateProgress(0, PIPELINE_STEPS.length, 'Pipeline reset - ready to run');
+            document.getElementById('summary').style.display = 'none';
+            
+            debugLog('Pipeline reset', 'info');
+        }
+
+        function showSummary(completed, failed, duration) {
+            document.getElementById('summary').style.display = 'block';
+            document.getElementById('totalSteps').textContent = PIPELINE_STEPS.length;
+            document.getElementById('completedSteps').textContent = completed;
+            document.getElementById('failedSteps').textContent = failed;
+            document.getElementById('duration').textContent = duration + 's';
+        }
+
+        // Initialize pipeline UI
+        function initializePipeline() {
+            const stepsEl = document.getElementById('pipelineSteps');
+            
+            PIPELINE_STEPS.forEach((step, index) => {
+                const stepEl = document.createElement('div');
+                stepEl.className = 'step';
+                stepEl.setAttribute('data-step', index);
+                
+                stepEl.innerHTML = `
+                    <div class="step-header" onclick="toggleStep(${index})">
+                        <div class="step-title">
+                            <div class="step-icon pending">${index + 1}</div>
+                            ${step.name}
+                        </div>
+                        <div class="step-status status-pending">Pending</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-description">${step.description}</div>
+                        <div class="step-command">${step.command}${step.dynamic ? '[ID]' : ''}</div>
+                        <div class="step-output"></div>
+                    </div>
+                `;
+                
+                stepsEl.appendChild(stepEl);
+            });
+        }
+
+        function toggleStep(stepIndex) {
+            const stepEl = document.querySelector(`[data-step="${stepIndex}"]`);
+            const content = stepEl.querySelector('.step-content');
+            content.classList.toggle('expanded');
+        }
+
+        // Initialize the pipeline runner when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializePipeline();
+            debugLog('Pipeline runner initialized', 'info');
+        });
+    </script>
+</body>
+</html>

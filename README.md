@@ -40,6 +40,13 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
 - **Generate rich burg lore**: `npm run lore:burg:full -- --id=ID`
 
+### Bulk Operations
+- **Generate all state lore**: `npm run lore:state:full:all`
+- **Generate all burg lore**: `npm run lore:burg:full:all`
+- **Quick smoke test**: `npm run pipeline:full:one`
+- **Full world generation**: `npm run pipeline:full:all`
+- **Full world + validation**: `npm run pipeline:full:all+validate`
+
 ### Event-Driven Updates
 - **Apply events**: `npm run events:apply -- --file=events/demo.json`
 - **Dirty regeneration**: `npm run lore:dirty -- --node=state:ID`
@@ -49,6 +56,12 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Refresh burg hooks**: `npm run lore:burg:hooks -- --id=ID`
 - **Refresh state hooks**: `npm run lore:state:hooks -- --id=ID`
 - **Batch summaries**: `npx tsx src/pipelines/genBurgSummaries.ts`
+
+### Pipeline Control
+- **Request abort**: `npm run pipeline:abort`
+- **Clear abort flag**: `npm run pipeline:abort:clear`
+- **Validate all lore**: `npm run validate:lore`
+- **Validate subset**: `npm run validate:lore:subset -- --states=1,2 --burgs=10,11`
 
 ## 🎯 Model Strategy
 
@@ -77,7 +90,10 @@ index/              # LLM-optimized data
 │   ├── state/      # State prompt packs
 │   └── burg/       # Burg prompt packs
 ├── graph.json      # Dependency graph
-└── dirty.seeds.json # Event-driven change seeds
+├── dirty.seeds.json # Event-driven change seeds
+├── validate-summary.json # Validation results
+├── runs/           # Usage logs (daily files)
+└── abort.flag      # Abort control flag
 
 lore/               # Generated lore
 ├── burg/           # Rich burg lore
@@ -127,6 +143,8 @@ python3 -m http.server 8000
 - **📊 Progress Tracking** - Real-time progress bars and step indicators
 - **🐛 Debug Logging** - Detailed API request/response data, token usage, timing
 - **⚙️ Configuration** - Set State ID and Burg ID for generation steps
+- **⏹️ Abort Control** - Stop long-running operations gracefully
+- **✅ Validation** - Automatic validation of generated content
 
 ### Legacy Files
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)
@@ -194,11 +212,27 @@ npm run lore:state:full -- --id=1  # Complete state lore with GPT-5
 npm run lore:burg:full -- --id=1   # Complete burg lore with GPT-5
 ```
 
+**Bulk Operations:**
+```bash
+npm run pipeline:full:one           # Quick smoke test
+npm run pipeline:full:all           # Full world generation
+npm run pipeline:full:all+validate  # Full world + validation
+LORE_CONCURRENCY=4 npm run lore:state:full:all  # Parallel state generation
+```
+
 **Event-Driven Updates:**
 ```bash
 npm run events:apply -- --file=events/demo.json  # Apply event
 npm run lore:dirty -- --node=state:1             # Regenerate affected
 # Or chain both: npm run events:apply+regen -- --file=events/demo.json
+```
+
+**Pipeline Control:**
+```bash
+npm run pipeline:abort              # Request abort
+npm run pipeline:abort:clear        # Clear abort flag
+npm run validate:lore               # Validate all lore
+npm run validate:lore:subset -- --states=1,2 --burgs=10,11  # Validate subset
 ```
 
 **Cost-Efficient Updates:**

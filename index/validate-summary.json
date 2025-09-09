@@ -1,0 +1,17 @@
+{
+  "ts": "2025-09-09T01:27:34.168Z",
+  "states": {
+    "passed": 0,
+    "failed": 1
+  },
+  "burgs": {
+    "passed": 2,
+    "failed": 0
+  },
+  "failures": [
+    {
+      "entity": "state:1",
+      "reason": "Too many hooks."
+    }
+  ]
+}

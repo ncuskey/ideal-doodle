@@ -15,6 +15,15 @@
     "lore:state": "tsx src/pipelines/genStateLore.ts",
     "lore:state:full": "tsx src/pipelines/genStateLoreFull.ts",
     "lore:state:hooks": "tsx src/pipelines/refreshStateHooks.ts",
+    "lore:state:full:all": "tsx src/pipelines/genAllStateLoreFull.ts",
+    "lore:burg:full:all": "tsx src/pipelines/genAllBurgLoreFull.ts",
+    "pipeline:full:one": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full -- --id=1 && npm run lore:burg:full -- --id=1",
+    "pipeline:full:all": "npm run facts:build && npm run facts:derive && npm run facts:promptpacks && npm run lore:state:full:all && npm run lore:burg:full:all",
+    "pipeline:full:all+validate": "npm run pipeline:full:all && npm run validate:lore",
+    "pipeline:abort": "tsx src/pipelines/abort.ts",
+    "pipeline:abort:clear": "tsx src/pipelines/abortClear.ts",
+    "validate:lore": "tsx src/pipelines/validateAllLore.ts",
+    "validate:lore:subset": "tsx src/pipelines/validateSubset.ts",
     "events:apply": "tsx src/pipelines/applyEvents.ts",
     "events:apply+regen": "tsx src/pipelines/applyEvents.ts && node ./node_modules/.bin/tsx src/pipelines/regenDirty.ts --event-file=index/dirty.seeds.json",
     "test:hash": "tsx src/tests/hash.test.ts"
@@ -22,6 +31,7 @@
   "dependencies": {
     "dotenv": "^17.2.2",
     "openai": "^4.57.0",
+    "p-limit": "^7.1.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {

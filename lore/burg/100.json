@@ -1,0 +1,89 @@
+{
+  "entity": {
+    "type": "burg",
+    "id": 100
+  },
+  "summary": "Oz'lush is a small, isolated Aj'Snaga-majority settlement of roughly 1,500 people within the state of Slor'th. It sits off any marked trade route, is not a port, and holds no capital status. Daily life centers on subsistence work and a modest shrine to the Slalzanian Deities, with a quiet Kobblin minority and a few families who keep older Aj'Snaga spirit customs.",
+  "localColor": "Low, tight-knit homes cluster around a communal fireyard where smoke-cured stores hang from rafters. Doorposts bear ochre spirals and knotwork in Aj'Snaga patterns, while prayer-chimes for the Slalzanian Deities tinkle above thresholds. Evenings are hushed save for soft drum patterns and story-recitals; boundary markers of carved wood line the footpaths that fade into the wild.",
+  "notables": [
+    {
+      "name": "Rethja Orun",
+      "role": "Practical reeve who coordinates stores, repairs, and disputes for Oz'lush",
+      "secret": "Has been quietly diverting a portion of communal tithes to fill an unregistered emergency granary, fearing the settlement’s isolation."
+    },
+    {
+      "name": "Mother Valzai",
+      "role": "Shrine-warden of the Slalzanian Deities and keeper of festival rites",
+      "secret": "Dreams lead her to an old Aj'Snaga spirit-site nearby; she worries acknowledgment could be branded heresy yet feels the place calls for tending."
+    },
+    {
+      "name": "Brakka Tinbraid",
+      "role": "Kobblin tinker and itinerant fixer who visits on a loose circuit",
+      "secret": "Carries discreet messages for a tiny Kobblinist circle hoping to stitch a safer footpath network between isolated hamlets."
+    },
+    {
+      "name": "Sel Vardek",
+      "role": "Youthful storykeeper who records elders’ tales and boundary lore",
+      "secret": "Claims to have mapped a hidden cut-through that halves travel time to the next habitation, but it passes a site some consider taboo."
+    }
+  ],
+  "factions": [
+    {
+      "name": "Council of Hearths",
+      "motive": "Keep Oz'lush fed, safe, and self-reliant without depending on outside aid or routes.",
+      "strength": "Deep community loyalty, detailed knowledge of nearby land, and control of food stores."
+    },
+    {
+      "name": "Shrine of the Slalzanian Deities",
+      "motive": "Maintain favored rites and moral order, and secure blessings for harvests and health.",
+      "strength": "Religious authority, festival gatherings, and a small fund of votive offerings."
+    },
+    {
+      "name": "Threadbare Roaders",
+      "motive": "Establish a discreet footpath chain linking isolated settlements for mutual support.",
+      "strength": "Mobility, secrecy, and a handful of determined Kobblin traders and guides."
+    },
+    {
+      "name": "Aj'Snaga Storykeepers",
+      "motive": "Preserve oral histories and ancestral practices without provoking conflict.",
+      "strength": "Popular youth circles, mnemonic songs, and caches of old boundary-tokens."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The Dry Larder",
+      "setup": "Pests and rot have gutted winter stores; with no trade routes in or out, lean days loom.",
+      "complication": "Whispers spread that someone hides a secret granary—trust frays as hungry nights approach.",
+      "reward": "Public gratitude, a share of reclaimed provisions, and access to the reeve’s off-book cache map."
+    },
+    {
+      "title": "Dreams in Two Tongues",
+      "setup": "The shrine-warden asks for help investigating a site that appears in her dreams and in old Aj'Snaga tales.",
+      "complication": "Revealing it may anger orthodox faithful, while quiet spirit-keepers insist it must remain unmarked.",
+      "reward": "Blessings, a protective charm from the shrine, and safe lodging whenever the party returns."
+    },
+    {
+      "title": "The Unmarked Path",
+      "setup": "Guides propose cutting a subtle footpath to the nearest burg to break isolation.",
+      "complication": "A rival clique prefers Oz'lush remain hard to find and sabotages survey stakes and waymarks.",
+      "reward": "Stake in any future tolls, a hand-drawn map of local shortcuts, and favor with the elders."
+    },
+    {
+      "title": "Bell Without a Tower",
+      "setup": "An old gathering bell of Oz'lush is rumored lost in the wild; recovering it could rally the settlement.",
+      "complication": "Different groups claim rights to it—some as a sacred relic, others as a sign of unwanted change.",
+      "reward": "Public acclaim, a permanent open invitation at longhouses, and first pick of communal work contracts."
+    }
+  ],
+  "dependsOn": [
+    {
+      "type": "state",
+      "id": 1,
+      "fields": [
+        "name",
+        "capitalBurgId"
+      ]
+    }
+  ],
+  "hashOfInputs": "d8bedd055b8132c02125d960f25aee50c917597c214f9c665bd305c75e14c670:fullv1"
+}

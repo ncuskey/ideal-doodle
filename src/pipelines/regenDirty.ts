@@ -86,6 +86,14 @@ async function main() {
     console.log(`Burg regenerated: ${bid}`);
   }
 
+  // Optional: validate only what changed
+  const { validateStateFull, validateBurgFull } = await import("../validate/rich.js");
+  let ok=0, fail=0;
+  for (const sid of states) { try { await validateStateFull(sid); ok++; } catch (e:any){ console.error(`state:${sid} ✗ ${e.message}`); fail++; } }
+  for (const bid of burgs)  { try { await validateBurgFull(bid);  ok++; } catch (e:any){ console.error(`burg:${bid} ✗ ${e.message}`);  fail++; } }
+  console.log(`Dirty-set validation → OK: ${ok}, Fail: ${fail}`);
+  if (fail) process.exitCode = 1;
+
   console.log("Dirty regeneration complete.");
 }
 main();

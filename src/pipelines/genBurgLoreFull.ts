@@ -25,7 +25,8 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.full.schema.json",
-    MODEL_FULL
+    MODEL_FULL,
+    { kind: "burg-full", entity: { type:"burg", id } }
   );
   lore.hashOfInputs = hash;
   await fs.mkdir("lore/burg", { recursive: true });

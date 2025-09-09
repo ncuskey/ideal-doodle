@@ -3,42 +3,87 @@
     "type": "burg",
     "id": 1
   },
-  "summary": "A bustling trading town known for its markets and craftsmen.",
-  "adventureHooks": [
+  "summary": "Slalzan is the modest, landlocked capital of Slor'th. It sits apart from formal trade, with no established routes connecting it to other burgs and no port to draw river or sea traffic. As the seat of governance, it hosts the state’s council and keeps the state’s seal, while serving as the principal center of worship for the Slalzanian Deities. The populace is chiefly Aj'Snaga with a notable Kobblin minority, and public life blends council edicts with temple calendars. Isolation has fostered self-reliance and tight-knit neighborhood bonds within the mix of the state’s dominant biomes.",
+  "localColor": "Days begin with temple chimes and smoke from altar fires to the Slalzanian Deities, answered by Aj'Snaga call-and-response chants in the streets. Festival ribbons and carved way-stones mark processional paths through town, since there are few true roads leading out. Market days are small but lively: handworked tools, dyed cloth, and preserved staples change hands more than exotic wares. The Kobblin quarter keeps low hearth-fires burning at dusk, a sign of welcome and watchfulness. Couriers wear the state’s colors and carry staff-tokens instead of saddlebags, for messages more than goods ply these paths.",
+  "notables": [
     {
-      "title": "State Audit from Slor'th",
-      "setup": "Officials from the state of Slor'th arrive to inspect Slalzan's accounts and levies. Their presence disrupts normal trade and civic business.",
-      "complication": "Town records are incomplete or missing; local officials press citizens to keep certain exemptions quiet. Tensions rise between the auditors and municipal authorities.",
-      "reward": "Favor with Slor'th's officials, reduced fines or official appointments; access to withheld tax revenues."
+      "name": "The High Custodian",
+      "role": "Head of the civil administration of Slor'th, presiding in Slalzan over law, levy, and the state seal.",
+      "secret": "Quietly solicits surveyors to chart a first dependable road out of Slalzan, despite resistance from conservative temple voices."
     },
     {
-      "title": "The Drying Spring",
-      "setup": "A principal well or spring that the small burg depends on is running low or has stopped flowing, threatening water for households and animals.",
-      "complication": "The spring's source appears obstructed or diverted; resolving it requires investigating recent earthworks or natural shifts on nearby land.",
-      "reward": "Gratitude from townsfolk, small material payment, or an ongoing claim to water access for those who restore the supply."
+      "name": "Keeper of the Central Shrine",
+      "role": "Chief celebrant of the Slalzanian Deities and arbiter of festival calendars and oaths sworn at the altars.",
+      "secret": "Maintains a small, hidden annex honoring Aj'Snaga Spirits to ease tensions, fearing backlash if the syncretism is revealed."
     },
     {
-      "title": "Roadside Smuggling Ring",
-      "setup": "Although Slalzan is not a port, merchants travelling the land routes report goods disappearing before they reach the burg.",
-      "complication": "Pursuit of the thieves uncovers a hidden cache or coordinated drops along the road; the network may have connections that reach into Slor'th's jurisdiction.",
-      "reward": "Recovered merchandise, monetary rewards from affected merchants, or trade concessions if the ring is broken."
+      "name": "Aj'Snaga Voice on the Council",
+      "role": "Representative for the Aj'Snaga majority, mediating customary law with state statutes.",
+      "secret": "Plans to formalize neighborhood mutual-aid compacts into recognized civic bodies, which would dilute temple influence over relief."
     },
     {
-      "title": "Void Beneath the Burg",
-      "setup": "Builders or farmers hit a void or old cellar beneath Slalzan while digging foundations, creating concern for collapsing structures.",
-      "complication": "Exploring the void reveals remnants or caches from an earlier time; excavation risks further collapses and civic panic.",
-      "reward": "Salvaged goods or valuables, materials recovered for repair, and increased standing with the burg for preventing wider damage."
+      "name": "Elder of the Kobblin Quarter",
+      "role": "Speaker for the Kobblin artisans and labor bands, known for fair weighing and careful record-keeping.",
+      "secret": "Holds old route-marks and memory lists of safe byways to distant Kobblin kin, maps that could anchor a new trade link."
     }
   ],
-  "hashOfInputs": "a5c5fc5f77e8f4bdbca684c1e2216536455bd4fcc9e342643b44065bb78aad42",
+  "factions": [
+    {
+      "name": "Council of Slor'th",
+      "motive": "Maintain stable rule from the capital, legitimize decrees, and cautiously improve overland connectivity.",
+      "strength": "Legal authority, clerks and heralds, custody of the state seal."
+    },
+    {
+      "name": "Temple Circle of the Slalzanian Deities",
+      "motive": "Preserve ritual primacy and keep the capital’s identity bound to the deity pantheon.",
+      "strength": "Public devotion, control of festivals and oath-taking, influence over moral disputes."
+    },
+    {
+      "name": "Aj'Snaga Hearthbands",
+      "motive": "Safeguard communal customs, mutual aid, and neighborhood autonomy within the capital.",
+      "strength": "Numbers, tight kin-nets, and practical know-how for living in the local biomes."
+    },
+    {
+      "name": "Kobblin Guild-Circle",
+      "motive": "Win equitable standing for Kobblin families and reopen remembered byways for modest trade.",
+      "strength": "Skilled craftspeople, precise bookkeeping, and quiet kin contacts beyond the state."
+    }
+  ],
+  "adventureHooks": [
+    {
+      "title": "The First Road Out",
+      "setup": "The Council discreetly hires escorts and surveyors to chart a reliable overland route from Slalzan.",
+      "complication": "Proposed paths cross revered markers and procession routes; the Temple Circle threatens to halt works unless rerouted.",
+      "reward": "Road-rights for tolls or land grants near the new way, plus council patronage."
+    },
+    {
+      "title": "Silence on the Processional",
+      "setup": "Pilgrims moving between two shrines have not returned, and no trade messengers come that way either.",
+      "complication": "Factions blame each other; searchers must navigate unmarked stretches where landmarks double as sacred sites.",
+      "reward": "Temple favor, blessings sworn at the altar, and a public commendation from the council."
+    },
+    {
+      "title": "The Doubled Seal",
+      "setup": "A decree bearing the state seal conflicts with one already posted in the square, threatening the council’s legitimacy.",
+      "complication": "Hardliners accuse the Kobblin quarter of forgery; the truth lies in custody lapses and a hidden rival within the archives.",
+      "reward": "Access to records and a standing writ of introduction throughout Slor'th."
+    },
+    {
+      "title": "Bridging Belief",
+      "setup": "A syncretic festival is planned to honor both Slalzanian Deities and Aj'Snaga Spirits, hoping to calm tensions.",
+      "complication": "Provocateurs aim to spoil the rites, risking street clashes between devotees and council guards.",
+      "reward": "Gratitude from both neighborhoods and the right to petition in the temple court."
+    }
+  ],
   "dependsOn": [
     {
       "type": "state",
       "id": 1,
       "fields": [
-        "name"
+        "name",
+        "capitalBurgId"
       ]
     }
   ],
-  "lastGeneratedAt": "2025-09-09T00:16:29.971Z"
+  "hashOfInputs": "0f52021e91610ccac9fab3c2b4ad2b729e6e1e26f30e7245a61e4cb89fc3e2d8:fullv1"
 }

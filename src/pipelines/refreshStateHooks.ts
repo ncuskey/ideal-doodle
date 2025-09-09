@@ -41,7 +41,8 @@ async function main() {
     SYSTEM_STATE,
     payload,
     "schemas/lore.state.schema.json",
-    MODEL_CHEAP
+    MODEL_CHEAP,
+    { kind: "state-hooks", entity: { type:"state", id } }
   );
 
   lore.adventureHooks = out.adventureHooks ?? [];

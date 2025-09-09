@@ -50,7 +50,8 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.schema.json",
-    MODEL_CHEAP
+    MODEL_CHEAP,
+    { kind: "burg-hooks", entity: { type:"burg", id } }
   );
 
   // merge: only replace hooks + bookkeeping

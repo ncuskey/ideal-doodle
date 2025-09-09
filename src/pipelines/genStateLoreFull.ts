@@ -25,7 +25,8 @@ async function main() {
     SYSTEM_STATE,
     payload,
     "schemas/lore.state.full.schema.json",
-    MODEL_FULL
+    MODEL_FULL,
+    { kind: "state-full", entity: { type:"state", id } }
   );
   lore.hashOfInputs = hash;
   await fs.mkdir("lore/state", { recursive: true });

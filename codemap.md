@@ -125,11 +125,29 @@ npm run lore:state:full -- --id=1 # Generate rich state lore
 npm run events:apply -- --file=events/demo.json
 ```
 
+### Bulk Operations
+```bash
+npm run lore:state:full:all  # Generate all state lore (parallel)
+npm run lore:burg:full:all   # Generate all burg lore (parallel)
+npm run pipeline:full:one    # Quick smoke test (1 state + 1 burg)
+npm run pipeline:full:all    # Full world generation
+npm run pipeline:full:all+validate  # Full world + validation
+LORE_CONCURRENCY=4 npm run lore:state:full:all  # Custom concurrency
+```
+
 ### Event-Driven Updates
 ```bash
 npm run lore:dirty -- --node=state:1                    # Regenerate affected nodes
 npm run lore:dirty -- --event-file=index/dirty.seeds.json # Use seed file
 npm run events:apply+regen -- --file=events/demo.json   # Chain event + regen
+```
+
+### Pipeline Control
+```bash
+npm run pipeline:abort       # Request abort (stops long-running operations)
+npm run pipeline:abort:clear # Clear abort flag
+npm run validate:lore        # Validate all lore files
+npm run validate:lore:subset -- --states=1,2 --burgs=10,11  # Validate subset
 ```
 
 ### Cost-Optimized Operations
@@ -152,6 +170,8 @@ python3 -m http.server 8000
 - **Pipeline Runner**: Two modes - simulated and real execution with detailed API logging
 - **Lore Viewer**: Browse generated lore files with rich display
 - **Debug Panel**: Real-time logging with timestamps and detailed API request/response data
+- **Abort Control**: Stop long-running operations gracefully
+- **Validation**: Automatic validation of generated content
 
 ### Legacy Interfaces
 ```bash
