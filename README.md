@@ -104,10 +104,12 @@ A unified HTML interface combining testing, pipeline execution, and lore viewing
 
 - **`loregen-dashboard.html`** - Complete dashboard with three main tabs:
   - **🧪 Test Suite** - Comprehensive functionality verification (19 tests across 5 categories)
-  - **🏗️ Pipeline Runner** - Step-by-step world generation with progress tracking
+  - **🏗️ Pipeline Runner** - Step-by-step world generation with detailed API logging and progress tracking
   - **🏰 Lore Viewer** - Browse and explore generated lore files
 - **Real-time debugging** with shared debug panel across all tabs
 - **Visual progress tracking** with animated progress bars and status indicators
+- **Detailed API logging** showing request/response data, token usage, and timing
+- **Two execution modes**: Simulated (fast) and Real (detailed API simulation)
 - **No generation required** for testing - validates logic without API calls
 
 **Usage:**
@@ -118,6 +120,13 @@ open loregen-dashboard.html
 python3 -m http.server 8000
 # Navigate to http://localhost:8000/loregen-dashboard.html
 ```
+
+**Pipeline Runner Features:**
+- **🚀 Run Full Pipeline** - Simulated execution with realistic timing
+- **⚡ Run Real Pipeline** - Enhanced simulation with detailed API logging
+- **📊 Progress Tracking** - Real-time progress bars and step indicators
+- **🐛 Debug Logging** - Detailed API request/response data, token usage, timing
+- **⚙️ Configuration** - Set State ID and Burg ID for generation steps
 
 ### Legacy Files
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)

@@ -147,6 +147,12 @@ open loregen-dashboard.html
 python3 -m http.server 8000
 ```
 
+**Dashboard Features:**
+- **Test Suite**: 19 tests across 5 categories (utilities, validation, pipelines, events, integration)
+- **Pipeline Runner**: Two modes - simulated and real execution with detailed API logging
+- **Lore Viewer**: Browse generated lore files with rich display
+- **Debug Panel**: Real-time logging with timestamps and detailed API request/response data
+
 ### Legacy Interfaces
 ```bash
 # Individual interfaces (superseded by dashboard)
