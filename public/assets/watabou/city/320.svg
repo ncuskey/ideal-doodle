@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Kencestab - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 320 | Pop: 100</text>
+  <rect x="198.1409125146456" y="88.47972958581522" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="228.1409125146456" y="111.47972958581522" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="253.74786937143654" y="74.16272797854617" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="278.74786937143654" y="102.16272797854617" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="331.4150646328926" y="95.43996462598443" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="366.4150646328926" y="113.43996462598443" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

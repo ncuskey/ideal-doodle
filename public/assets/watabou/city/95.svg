@@ -1,0 +1,15 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Agrande - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 95 | Pop: 100</text>
+  <rect x="82.21459625056013" y="55.564786712639034" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="122.21459625056013" y="88.56478671263903" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="167.47016073204577" y="81.0454209917225" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="197.47016073204577" y="104.0454209917225" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="255.5490439827554" y="88.91831509070471" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="280.5490439827554" y="116.91831509070471" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="323.7865431816317" y="119.30230585159734" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="358.7865431816317" y="137.30230585159734" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

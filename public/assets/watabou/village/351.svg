@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Sonexe - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 351 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="365.9273789357394" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="385.9273789357394" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="220.2767987512052" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="238.2767987512052" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="178.96488141268492" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="198.96488141268492" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="14.032541621476412" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="32.03254162147641" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="385.9273789357394" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="385.9273789357394" y1="136.5" x2="300" y2="235.2767987512052" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="235.2767987512052" x2="198.96488141268492" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="198.96488141268492" y1="136.5" x2="300" y2="29.032541621476412" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

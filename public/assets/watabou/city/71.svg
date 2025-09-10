@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Coporumbia - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 71 | Pop: 100</text>
+  <rect x="164.79738652706146" y="94.71714961808175" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="194.79738652706146" y="117.71714961808175" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="345.37802630802616" y="104.94608771754429" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.37802630802616" y="122.94608771754429" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="280.8099592383951" y="133.7630610493943" width="58.9044211152941" height="39.50421202927828" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="310.26216979604214" y="156.51516706403345" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

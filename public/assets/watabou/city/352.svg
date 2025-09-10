@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Gigbig - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 352 | Pop: 100</text>
+  <rect x="178.95784323336557" y="80.64455268671736" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="208.95784323336557" y="103.64455268671736" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="331.6461264737882" y="103.86457248358056" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="366.6461264737882" y="121.86457248358056" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="32.72768953349441" y="181.82560989400372" width="53.788988874293864" height="45.13008253183216" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="59.622183970641345" y="207.3906511599198" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

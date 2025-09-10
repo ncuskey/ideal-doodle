@@ -1,0 +1,15 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Sugusilemi - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 28 | Pop: 100</text>
+  <rect x="94.80812161928043" y="62.284133166540414" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="134.80812161928043" y="95.28413316654041" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="151.7297956161201" y="93.33989505190402" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="181.7297956161201" y="116.33989505190402" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="250.25897229323164" y="99.26475829211995" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="275.25897229323164" y="127.26475829211995" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="346.9433545949869" y="100.58658688561991" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="381.9433545949869" y="118.58658688561991" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

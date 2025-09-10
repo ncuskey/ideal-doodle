@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Shagaald - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 283 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="390.95420067198575" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="410.95420067198575" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="221.90043998509645" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="239.90043998509645" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="178.37423072196543" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="198.37423072196543" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="25.926213949918747" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="43.92621394991875" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="410.95420067198575" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="410.95420067198575" y1="136.5" x2="300" y2="236.90043998509645" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="236.90043998509645" x2="198.37423072196543" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="198.37423072196543" y1="136.5" x2="300" y2="40.92621394991875" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

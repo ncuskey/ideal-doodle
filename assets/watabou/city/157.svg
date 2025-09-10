@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Bevillesses - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 157 | Pop: 100</text>
+  <rect x="72.0642214640975" y="55.1951642986387" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="112.0642214640975" y="88.1951642986387" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="334.76108867907897" y="116.87042111065239" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="369.76108867907897" y="134.8704211106524" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="130.70628704037517" y="131.1377610359341" width="53.20591837633401" height="30.607867306098342" fill="#dc143c" stroke="#654321" stroke-width="1"/>
+  <text x="157.30924622854218" y="149.44169468898326" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Inn</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

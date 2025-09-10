@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Dodbrid - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 101 | Pop: 100</text>
+  <rect x="165.39660671260208" y="104.47643315419555" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="195.39660671260208" y="127.47643315419555" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="345.83767669973895" y="99.67483519110829" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.83767669973895" y="117.67483519110829" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="165.7067403011024" y="251.0370784602128" width="67.08779511041939" height="31.885323473252356" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="199.2506378563121" y="269.979740196839" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

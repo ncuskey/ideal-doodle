@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Chlaberden - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 89 | Pop: 100</text>
+  <rect x="160.99325930699706" y="88.59234266215935" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="190.99325930699706" y="111.59234266215935" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="323.85284663178027" y="119.43637097720057" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="358.85284663178027" y="137.43637097720057" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="93.66471588611603" y="241.7509571579285" width="61.67025013361126" height="35.03629173152149" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="124.49984095292166" y="262.26910302368924" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

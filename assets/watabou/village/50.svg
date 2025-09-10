@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Breszai - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 50 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="392.24941052496433" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="412.24941052496433" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="218.63367329910398" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="236.63367329910398" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="199.70059683546424" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="219.70059683546424" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="26.16574658639729" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="44.16574658639729" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="412.24941052496433" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="412.24941052496433" y1="136.5" x2="300" y2="233.63367329910398" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="233.63367329910398" x2="219.70059683546424" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="219.70059683546424" y1="136.5" x2="300" y2="41.16574658639729" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

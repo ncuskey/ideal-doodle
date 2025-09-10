@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Cathrash - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 58 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="369.71902457997203" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="389.71902457997203" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="218.04109354130924" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="236.04109354130924" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="181.54332369565964" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="201.54332369565964" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="21.21950514242053" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="39.21950514242053" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="389.71902457997203" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="389.71902457997203" y1="136.5" x2="300" y2="233.04109354130924" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="233.04109354130924" x2="201.54332369565964" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="201.54332369565964" y1="136.5" x2="300" y2="36.21950514242053" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

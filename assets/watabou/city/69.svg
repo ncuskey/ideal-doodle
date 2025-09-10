@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Borviorimi - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 69 | Pop: 100</text>
+  <rect x="278.18030723836273" y="85.08492450695485" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="303.18030723836273" y="113.08492450695485" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="315.03345905803144" y="111.23648603679612" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="350.03345905803144" y="129.23648603679612" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="206.89475988503546" y="200.77862409409136" width="50.56089707184583" height="30.514579662121832" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="232.17520842095837" y="219.03591392515227" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

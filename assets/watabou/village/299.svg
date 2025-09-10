@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Louriba - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 299 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="388.97101822309196" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="408.97101822309196" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="231.3277363460511" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="249.3277363460511" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="174.52520589344203" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="194.52520589344203" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="10.536991791799664" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="28.536991791799664" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="408.97101822309196" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="408.97101822309196" y1="136.5" x2="300" y2="246.3277363460511" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="246.3277363460511" x2="194.52520589344203" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="194.52520589344203" y1="136.5" x2="300" y2="25.536991791799664" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

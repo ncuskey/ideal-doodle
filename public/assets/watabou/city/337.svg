@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Wineford - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 337 | Pop: 100</text>
+  <rect x="191.67588537093252" y="101.49869929300621" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="221.67588537093252" y="124.49869929300621" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="244.51935059158131" y="75.73501060716808" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="269.5193505915813" y="103.73501060716808" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="325.16295668901876" y="109.10199182108045" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="360.16295668901876" y="127.10199182108045" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

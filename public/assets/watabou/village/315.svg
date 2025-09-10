@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Brybgar - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 315 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="399.94000415317714" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="419.94000415317714" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="215.76687017083168" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="233.76687017083168" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="186.5344982035458" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="206.5344982035458" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="33.61250549182296" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="51.61250549182296" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="419.94000415317714" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="419.94000415317714" y1="136.5" x2="300" y2="230.76687017083168" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="230.76687017083168" x2="206.5344982035458" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="206.5344982035458" y1="136.5" x2="300" y2="48.61250549182296" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

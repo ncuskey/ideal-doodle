@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Sioshas - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 440 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="385.8501058910042" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="405.8501058910042" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="208.44146350957453" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="226.44146350957453" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="172.98357457853854" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="192.98357457853854" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="13.610377410426736" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="31.610377410426736" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="405.8501058910042" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="405.8501058910042" y1="136.5" x2="300" y2="223.44146350957453" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="223.44146350957453" x2="192.98357457853854" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="192.98357457853854" y1="136.5" x2="300" y2="28.610377410426736" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

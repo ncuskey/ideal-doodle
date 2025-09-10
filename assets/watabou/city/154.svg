@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Siosvil - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 154 | Pop: 100</text>
+  <rect x="191.23870148323476" y="87.53749866504222" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="221.23870148323476" y="110.53749866504222" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="339.8944263346493" y="112.1651738206856" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="374.8944263346493" y="130.1651738206856" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="206.13880875054747" y="163.95595447858796" width="48.904738100245595" height="49.05830600298941" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="230.59117780067027" y="191.48510748008266" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

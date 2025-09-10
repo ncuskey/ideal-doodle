@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Lugrolirina - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 205 | Pop: 100</text>
+  <rect x="169.84305061632767" y="108.28289702767506" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="199.84305061632767" y="131.28289702767506" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="323.9928783266805" y="119.13632084615529" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="358.9928783266805" y="137.1363208461553" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="131.90804590005428" y="205.99446506705135" width="44.24991386709735" height="42.987903603352606" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="154.03300283360295" y="230.48841686872765" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

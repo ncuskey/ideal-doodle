@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Kleabsil - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 74 | Pop: 100</text>
+  <rect x="194.8359044850804" y="104.80831910157576" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="224.8359044850804" y="127.80831910157576" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="319.6553374524228" y="113.47716884454712" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="354.6553374524228" y="131.47716884454712" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="252.4357644887641" y="228.4311562590301" width="45.12286740122363" height="48.526792246848345" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="274.9971981893759" y="255.69455238245428" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

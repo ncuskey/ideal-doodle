@@ -1,0 +1,12 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Leighington - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 424 | Pop: 100</text>
+  <rect x="345.9051190293394" y="102.32381397625431" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.9051190293394" y="120.32381397625431" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="210.86842865217477" y="236.38202788308263" width="42.86020091501996" height="49.4925469532609" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="232.29852910968475" y="264.1283013597131" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

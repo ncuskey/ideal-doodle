@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Uxbrid - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 24 | Pop: 100</text>
+  <rect x="76.02366770152003" y="77.7319453121163" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="116.02366770152003" y="110.7319453121163" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="157.05166620900854" y="102.23114093532786" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="187.05166620900854" y="125.23114093532786" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="337.65769384335726" y="112.75292207719758" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="372.65769384335726" y="130.75292207719758" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

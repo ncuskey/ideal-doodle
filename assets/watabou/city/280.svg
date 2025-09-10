@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Paas - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 280 | Pop: 100</text>
+  <rect x="174.84123392496258" y="83.09137671021745" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="204.84123392496258" y="106.09137671021745" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="337.91854676092044" y="114.82620300259441" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="372.91854676092044" y="132.8262030025944" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="247.17432456556708" y="232.23946900572628" width="41.59134709974751" height="38.673845352604985" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="267.96999811544083" y="254.57639168202877" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

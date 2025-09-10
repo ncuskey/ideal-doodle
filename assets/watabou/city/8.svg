@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Focelia - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 8 | Pop: 100</text>
+  <rect x="85.1177278207615" y="77.96757132513449" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="125.1177278207615" y="110.96757132513449" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="153.31165321404114" y="86.3063943432644" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="183.31165321404114" y="109.3063943432644" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="279.47041975101456" y="99.20723127899691" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="304.47041975101456" y="127.20723127899691" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="319.46851377142593" y="100.81757368287072" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="354.46851377142593" y="118.81757368287072" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

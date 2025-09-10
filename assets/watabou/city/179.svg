@@ -1,0 +1,15 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Cisipinium - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 179 | Pop: 100</text>
+  <rect x="88.22184923337772" y="57.903538786340505" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="128.22184923337772" y="90.9035387863405" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="163.6363426456228" y="92.84880853723735" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="193.6363426456228" y="115.84880853723735" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="259.05006839428097" y="97.13822170859203" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="284.05006839428097" y="125.13822170859203" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="330.08618970634416" y="96.35844088392332" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="365.08618970634416" y="114.35844088392332" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

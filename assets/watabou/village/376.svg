@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Kas - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 376 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="387.58403164334595" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="407.58403164334595" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="204.2637770678848" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="222.2637770678848" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="172.96305476687849" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="192.96305476687849" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="11.381977019831538" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="29.381977019831538" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="407.58403164334595" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="407.58403164334595" y1="136.5" x2="300" y2="219.2637770678848" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="219.2637770678848" x2="192.96305476687849" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="192.96305476687849" y1="136.5" x2="300" y2="26.381977019831538" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

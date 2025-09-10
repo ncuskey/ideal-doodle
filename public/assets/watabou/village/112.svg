@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Abergrererch - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 112 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="365.52837614901364" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="385.52837614901364" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="228.57311555743217" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="246.57311555743217" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="193.41070774011314" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="213.41070774011314" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="33.58550723269582" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="51.58550723269582" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="385.52837614901364" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="385.52837614901364" y1="136.5" x2="300" y2="243.57311555743217" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="243.57311555743217" x2="213.41070774011314" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="213.41070774011314" y1="136.5" x2="300" y2="48.58550723269582" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Montcongy - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 247 | Pop: 100</text>
+  <rect x="73.22553414851427" y="59.98014161363244" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="113.22553414851427" y="92.98014161363244" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="301.54639531392604" y="116.60437798127532" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="336.54639531392604" y="134.60437798127532" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="230.7754297554493" y="131.1519921803847" width="44.066872282419354" height="49.67199345584959" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="252.80886589665897" y="158.9879889083095" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

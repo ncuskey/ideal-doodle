@@ -22,6 +22,7 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
 
   const cityUrl = r.maps?.city_svg_path ? dirs.publicAsset(r.maps.city_svg_path) : null;
   const villageUrl = r.maps?.village_svg_path ? dirs.publicAsset(r.maps.village_svg_path) : null;
+  const watabouUrl = r.maps?.watabou_url || null;
 
   return (
     <main className="space-y-8">
@@ -67,11 +68,18 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
           </section>
           <section className="rounded-xl border border-zinc-200 bg-white p-4">
             <h3 className="text-base font-semibold">Local Maps (Watabou)</h3>
-            {!cityUrl && !villageUrl ? <p className="text-sm text-zinc-500">No maps attached.</p> : (
+            {cityUrl || villageUrl ? (
               <div className="space-y-4">
                 {cityUrl ? (<div><p className="mb-2 text-sm font-medium text-zinc-700">City</p><img src={cityUrl} alt="City Map" className="w-full rounded border border-zinc-200"/></div>) : null}
                 {villageUrl ? (<div><p className="mb-2 text-sm font-medium text-zinc-700">Village</p><img src={villageUrl} alt="Village Map" className="w-full rounded border border-zinc-200"/></div>) : null}
               </div>
+            ) : watabouUrl ? (
+              <a href={watabouUrl} target="_blank" rel="noreferrer"
+                 className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-medium text-white hover:bg-indigo-700">
+                Open in Watabou
+              </a>
+            ) : (
+              <p className="text-sm text-zinc-500">No maps attached.</p>
             )}
           </section>
           <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-3 text-xs text-zinc-600">

@@ -12,6 +12,8 @@
     "canon:province:outline": "tsx src/pipelines/canonProvinceOutline.ts",
     "canon:burg:outline": "tsx src/pipelines/canonBurgOutline.ts",
     "canon:markers:index": "tsx src/pipelines/buildMarkerIndex.ts",
+    "canon:watabou:links": "tsx src/pipelines/buildWatabouLinks.ts",
+    "canon:watabou:assets": "tsx src/pipelines/buildWatabouAssets.ts",
     "links:suggest": "tsx src/pipelines/crossLinkSuggest.ts",
     "hooks:accept": "tsx src/pipelines/hooksAccept.ts",
     "quests:activate": "tsx src/pipelines/questsActivate.ts",
@@ -60,6 +62,7 @@
     "qa:validate": "tsx src/qa/validate.ts",
     "qa:run:safe": "LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 LORE_MAX_RETRIES=8 LORE_JITTER_MS=200 DEBUG=rl tsx src/qa/timeRun.ts --",
     "qa:dryhint": "node -e \"console.log('Use DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js before any npm script')\"",
+    "find:burg": "tsx scripts/find-burg.ts",
     "next:dev": "next dev",
     "next:build": "npm run prepare:assets && next build",
     "next:start": "next start"

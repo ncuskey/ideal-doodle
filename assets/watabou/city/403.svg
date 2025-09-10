@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Bridgewent - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 403 | Pop: 100</text>
+  <rect x="190.4355956823565" y="86.11150982091203" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="220.4355956823565" y="109.11150982091203" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="304.0468377643265" y="113.1773783499375" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="339.0468377643265" y="131.1773783499375" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="247.0878504961729" y="203.86564798420295" width="56.4033849677071" height="30.86773907300085" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="275.28954298002645" y="222.29951752070338" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

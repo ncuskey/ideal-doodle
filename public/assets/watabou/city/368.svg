@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Cocham - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 368 | Pop: 100</text>
+  <rect x="71.45761766005307" y="50.10124713880941" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="111.45761766005307" y="83.10124713880941" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="199.3650829535909" y="94.9201581813395" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="229.3650829535909" y="117.9201581813395" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="345.9665726404637" y="95.97208096878603" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.9665726404637" y="113.97208096878603" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

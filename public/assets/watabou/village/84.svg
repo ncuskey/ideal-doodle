@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Watliaq - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 84 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="376.23932372778654" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="396.23932372778654" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="226.65160937793553" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="244.65160937793553" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="166.98168358765543" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="186.98168358765543" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="21.597200199961662" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="39.59720019996166" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="396.23932372778654" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="396.23932372778654" y1="136.5" x2="300" y2="241.65160937793553" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="241.65160937793553" x2="186.98168358765543" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="186.98168358765543" y1="136.5" x2="300" y2="36.59720019996166" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

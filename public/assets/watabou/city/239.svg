@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Driordeek - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 239 | Pop: 100</text>
+  <rect x="179.56670108251274" y="109.31939210277051" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="209.56670108251274" y="132.3193921027705" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="347.7267473586835" y="116.74860901432112" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="382.7267473586835" y="134.74860901432112" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="99.62589650414884" y="253.33577492740005" width="56.08297256054357" height="35.95855669118464" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="127.66738278442062" y="274.3150532729924" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

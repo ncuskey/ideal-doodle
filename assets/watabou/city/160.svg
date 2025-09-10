@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Klilm - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 160 | Pop: 100</text>
+  <rect x="159.82994189253077" y="89.34934555087239" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="189.82994189253077" y="112.34934555087239" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="345.6530269351788" y="90.21337446989492" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.6530269351788" y="108.21337446989492" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="270.2796454820782" y="230.17741598188877" width="50.56804363615811" height="46.49413144681603" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="295.56366730015725" y="256.4244817052968" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

@@ -54,10 +54,9 @@
     "generated_at": "2025-09-09T23:27:15.164Z"
   },
   "maps": {
+    "watabou_url": "https://watabou.github.io/city-generator/?name=Slalzan&population=100&size=6&seed=8113945531658&river=0&coast=0&farms=1&citadel=1&urban_castle=0&hub=false&plaza=1&temple=1&walls=1&shantytown=1&gates=-1",
     "city_svg_path": "assets/watabou/city/1.svg",
-    "village_svg_path": "assets/watabou/village/1.svg",
-    "city_seed": "",
-    "village_seed": ""
+    "village_svg_path": null
   },
-  "generated_at": "2025-09-10T00:01:44.854Z"
+  "generated_at": "2025-09-10T01:19:07.100Z"
 }

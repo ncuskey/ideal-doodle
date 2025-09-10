@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Darenneres - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 134 | Pop: 100</text>
+  <rect x="162.2905332245864" y="89.71363654360175" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="192.2905332245864" y="112.71363654360175" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="319.469167815987" y="96.73093266785145" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="354.469167815987" y="114.73093266785145" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="313.8441365491599" y="134.96377817820758" width="59.641242197249085" height="46.011679051443934" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="343.6647576477844" y="160.96961770392954" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

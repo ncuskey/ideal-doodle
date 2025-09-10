@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Stroi - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 220 | Pop: 100</text>
+  <rect x="199.83538860687986" y="90.0609006290324" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="229.83538860687986" y="113.0609006290324" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="326.01704242406413" y="105.01487351255491" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="361.01704242406413" y="123.01487351255491" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="36.724818549118936" y="170.41329263476655" width="45.30577346449718" height="32.114008464850485" fill="#dc143c" stroke="#654321" stroke-width="1"/>
+  <text x="59.377705281367525" y="189.4702968671918" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Inn</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

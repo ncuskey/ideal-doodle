@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Aj'hishjej - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 41 | Pop: 100</text>
+  <rect x="233.02280167816207" y="83.25663880212232" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="258.02280167816207" y="111.25663880212232" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="334.63406295049936" y="100.97977944184095" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="369.63406295049936" y="118.97977944184095" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="123.07622263208032" y="244.18292672373354" width="55.511732895392925" height="44.077749932184815" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="150.83208907977678" y="269.22180168982595" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

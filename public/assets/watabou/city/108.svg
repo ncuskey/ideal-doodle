@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Stryt - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 108 | Pop: 100</text>
+  <rect x="51.69476312585175" y="75.82601816393435" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="91.69476312585175" y="108.82601816393435" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="175.81169297918677" y="85.64807111863047" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="205.81169297918677" y="108.64807111863047" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="306.50958692422137" y="102.31905243359506" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="341.50958692422137" y="120.31905243359506" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

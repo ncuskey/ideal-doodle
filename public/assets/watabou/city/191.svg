@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Etesh - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 191 | Pop: 100</text>
+  <rect x="247.70792256575078" y="79.78113311110064" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="272.7079225657508" y="107.78113311110064" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="325.847314321436" y="115.68155287764966" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="360.847314321436" y="133.68155287764966" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="242.77000793255866" y="157.5626077526249" width="58.106875945813954" height="33.32991066388786" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="271.82344590546563" y="177.22756308456883" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

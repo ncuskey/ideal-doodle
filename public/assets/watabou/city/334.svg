@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Castiaqu - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 334 | Pop: 100</text>
+  <rect x="254.29685081588104" y="96.95674841292202" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="279.29685081588104" y="124.95674841292202" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="306.46776327630505" y="102.36381883034483" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="341.46776327630505" y="120.36381883034483" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="133.99336052127182" y="198.96038421895355" width="61.848050493281335" height="31.314422362484038" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="164.9173857679125" y="217.61759540019557" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

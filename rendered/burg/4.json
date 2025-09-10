@@ -1,0 +1,38 @@
+{
+  "burg_id": 4,
+  "name": "Afordbume",
+  "state_id": 0,
+  "province_id": "unknown",
+  "heraldry_path": "assets/heraldry/burg/4.svg",
+  "tags": [
+    "crossroads",
+    "ritual-node"
+  ],
+  "economy_roles": [
+    "waystation",
+    "ritual-supply",
+    "smallholder agriculture",
+    "pack-animal trade"
+  ],
+  "problems": [
+    "scarce-imports",
+    "bandit ambushes",
+    "ritual reagent shortages"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Star-Calendar Scriptoria"
+  ],
+  "culture_notes": [
+    "speaks Riveric Dialects with Highland loanwords",
+    "feasts tied to star-calendar observances",
+    "lineage marked by carved house plaques"
+  ],
+  "overlay": null,
+  "maps": {
+    "watabou_url": "https://watabou.github.io/city-generator/?name=Afordbume&population=100&size=6&seed=5848501129075&river=0&coast=1&farms=1&citadel=1&urban_castle=0&hub=false&plaza=0&temple=0&walls=1&shantytown=0&gates=-1",
+    "city_svg_path": "assets/watabou/city/4.svg",
+    "village_svg_path": null
+  },
+  "generated_at": "2025-09-10T01:19:07.103Z"
+}

@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Cortustel - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 19 | Pop: 100</text>
+  <rect x="174.19731485424563" y="84.56954765832052" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="204.19731485424563" y="107.56954765832052" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="334.3805260024965" y="104.42767307627946" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="369.3805260024965" y="122.42767307627946" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="205.81971884705126" y="151.3310028403066" width="48.16299051977694" height="32.169841662980616" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="229.90121410693973" y="170.41592367179692" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

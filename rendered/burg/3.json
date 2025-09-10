@@ -1,0 +1,35 @@
+{
+  "burg_id": 3,
+  "name": "Itheshruz",
+  "state_id": -1,
+  "province_id": "unknown",
+  "heraldry_path": "assets/heraldry/burg/3.svg",
+  "tags": [],
+  "economy_roles": [
+    "pilgrimage-shrine-services",
+    "astrology-scriptorium",
+    "magic-component-trade",
+    "local-agriculture"
+  ],
+  "problems": [
+    "reagent-scarcity",
+    "scribal-rivalry",
+    "banditry-on-approaches"
+  ],
+  "religion_presence": [
+    "Star-Calendar Scriptoria",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Highland Cant liturgical influence",
+    "ritual-calendar governs market days",
+    "oral-ancestor-veneration customs"
+  ],
+  "overlay": null,
+  "maps": {
+    "watabou_url": "https://watabou.github.io/city-generator/?name=Itheshruz&population=100&size=6&seed=6052795427385&river=0&coast=1&farms=1&citadel=1&urban_castle=0&hub=false&plaza=1&temple=0&walls=1&shantytown=1&gates=-1",
+    "city_svg_path": "assets/watabou/city/3.svg",
+    "village_svg_path": null
+  },
+  "generated_at": "2025-09-10T01:19:07.102Z"
+}

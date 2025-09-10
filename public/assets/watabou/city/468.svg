@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Boston - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 468 | Pop: 100</text>
+  <rect x="175.48861554823816" y="84.57851036451757" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="205.48861554823816" y="107.57851036451757" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="278.956721147988" y="97.23969012266025" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="303.956721147988" y="125.23969012266025" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="302.7295342180878" y="114.66147712664679" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="337.7295342180878" y="132.6614771266468" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

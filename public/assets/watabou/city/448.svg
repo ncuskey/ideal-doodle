@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Bihulton - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 448 | Pop: 100</text>
+  <rect x="195.430490153376" y="89.72706273198128" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="225.430490153376" y="112.72706273198128" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="251.63573094876483" y="74.2920874687843" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="276.63573094876483" y="102.2920874687843" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="322.9010706883855" y="91.93740827729926" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="357.9010706883855" y="109.93740827729926" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

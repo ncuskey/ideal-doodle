@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Tremari - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 147 | Pop: 100</text>
+  <rect x="187.11249919142574" y="96.39665103750303" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="217.11249919142574" y="119.39665103750303" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="235.74891701107845" y="78.5871954401955" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="260.74891701107845" y="106.5871954401955" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="345.1080635539256" y="113.7299415632151" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="380.1080635539256" y="131.7299415632151" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "burg_id": 2,
+  "name": "Gatesin",
+  "state_id": 0,
+  "province_id": "unknown",
+  "heraldry_path": "assets/heraldry/burg/2.svg",
+  "tags": [
+    "none",
+    "gate",
+    "toll",
+    "crossroads"
+  ],
+  "economy_roles": [
+    "toll collection",
+    "innkeeping",
+    "market trading",
+    "wagon repair"
+  ],
+  "problems": [
+    "banditry",
+    "scarcity of imported reagents",
+    "corruption"
+  ],
+  "religion_presence": [
+    "Ancestor-Remembrance Cults",
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies"
+  ],
+  "culture_notes": [
+    "Riveric dialect with Highland loanwords",
+    "ritual toll ceremonies at sunrise",
+    "cuisine: smoked fish and roadside stew",
+    "local magic uses imported reagents sparingly"
+  ],
+  "overlay": null,
+  "maps": {
+    "watabou_url": "https://watabou.github.io/city-generator/?name=Gatesin&population=100&size=6&seed=2358046644367&river=0&coast=1&farms=1&citadel=1&urban_castle=0&hub=false&plaza=1&temple=0&walls=1&shantytown=0&gates=-1",
+    "city_svg_path": "assets/watabou/city/2.svg",
+    "village_svg_path": null
+  },
+  "generated_at": "2025-09-10T01:19:07.102Z"
+}

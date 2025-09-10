@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Ki'jiress - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 190 | Pop: 100</text>
+  <rect x="62.79632325749844" y="75.77529173810035" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="102.79632325749844" y="108.77529173810035" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="173.71493320679292" y="87.73682387778535" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="203.71493320679292" y="110.73682387778535" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="333.37115574395284" y="100.9962102631107" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="368.37115574395284" y="118.9962102631107" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

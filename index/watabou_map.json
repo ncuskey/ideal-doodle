@@ -1,20 +1,2873 @@
 {
-  "generated_at": "2025-09-09T23:53:23.309Z",
+  "generated_at": "2025-09-10T01:18:56.778Z",
   "items": [
     {
       "burg_id": 1,
-      "city_svg_path": "assets/watabou/city/1.svg",
-      "village_svg_path": "assets/watabou/village/1.svg"
+      "name": "Slalzan",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/1.svg"
     },
     {
       "burg_id": 2,
-      "city_svg_path": "assets/watabou/city/2.svg",
-      "village_svg_path": "assets/watabou/village/2.svg"
+      "name": "Gatesin",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/2.svg"
     },
     {
       "burg_id": 3,
-      "city_svg_path": "assets/watabou/city/3.svg",
-      "village_svg_path": "assets/watabou/village/3.svg"
+      "name": "Itheshruz",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/3.svg"
+    },
+    {
+      "burg_id": 4,
+      "name": "Afordbume",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/4.svg"
+    },
+    {
+      "burg_id": 5,
+      "name": "Ulbligz",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/5.svg"
+    },
+    {
+      "burg_id": 6,
+      "name": "Aber",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/6.svg"
+    },
+    {
+      "burg_id": 7,
+      "name": "Stroila",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/7.svg"
+    },
+    {
+      "burg_id": 8,
+      "name": "Focelia",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/8.svg"
+    },
+    {
+      "burg_id": 9,
+      "name": "Ouvilyles",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/9.svg"
+    },
+    {
+      "burg_id": 10,
+      "name": "Abermaicto",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/10.svg"
+    },
+    {
+      "burg_id": 11,
+      "name": "Bington",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/11.svg"
+    },
+    {
+      "burg_id": 12,
+      "name": "Wruilx",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/12.svg"
+    },
+    {
+      "burg_id": 13,
+      "name": "Boumaberg",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/13.svg"
+    },
+    {
+      "burg_id": 14,
+      "name": "Inwenver",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/14.svg"
+    },
+    {
+      "burg_id": 15,
+      "name": "Hob",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/15.svg"
+    },
+    {
+      "burg_id": 16,
+      "name": "Iahzit",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/16.svg"
+    },
+    {
+      "burg_id": 17,
+      "name": "Brid",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/17.svg"
+    },
+    {
+      "burg_id": 18,
+      "name": "Lunium",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/18.svg"
+    },
+    {
+      "burg_id": 19,
+      "name": "Cortustel",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/19.svg"
+    },
+    {
+      "burg_id": 20,
+      "name": "Lolilurum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/20.svg"
+    },
+    {
+      "burg_id": 21,
+      "name": "Gallbhear",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/21.svg"
+    },
+    {
+      "burg_id": 22,
+      "name": "Clifton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/22.svg"
+    },
+    {
+      "burg_id": 23,
+      "name": "Treraldierug",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/23.svg"
+    },
+    {
+      "burg_id": 24,
+      "name": "Uxbrid",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/24.svg"
+    },
+    {
+      "burg_id": 25,
+      "name": "Wartontalis",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/25.svg"
+    },
+    {
+      "burg_id": 26,
+      "name": "Trerurum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/26.svg"
+    },
+    {
+      "burg_id": 27,
+      "name": "Vupjess",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/27.svg"
+    },
+    {
+      "burg_id": 28,
+      "name": "Sugusilemi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/28.svg"
+    },
+    {
+      "burg_id": 29,
+      "name": "Gatford",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/29.svg"
+    },
+    {
+      "burg_id": 30,
+      "name": "Shan'ji",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/30.svg"
+    },
+    {
+      "burg_id": 31,
+      "name": "Klearzan",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/31.svg"
+    },
+    {
+      "burg_id": 32,
+      "name": "Northesho",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/32.svg"
+    },
+    {
+      "burg_id": 33,
+      "name": "Brutony",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/33.svg"
+    },
+    {
+      "burg_id": 34,
+      "name": "Jarcillemouzo",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/34.svg"
+    },
+    {
+      "burg_id": 35,
+      "name": "Camblewent",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/35.svg"
+    },
+    {
+      "burg_id": 36,
+      "name": "Ozbiard",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/36.svg"
+    },
+    {
+      "burg_id": 37,
+      "name": "Birilia",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/37.svg"
+    },
+    {
+      "burg_id": 38,
+      "name": "Sudmanches",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/38.svg"
+    },
+    {
+      "burg_id": 39,
+      "name": "Exningley",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/39.svg"
+    },
+    {
+      "burg_id": 40,
+      "name": "Bretlewen",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/40.svg"
+    },
+    {
+      "burg_id": 41,
+      "name": "Aj'hishjej",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/41.svg"
+    },
+    {
+      "burg_id": 42,
+      "name": "Cult'harjar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/42.svg"
+    },
+    {
+      "burg_id": 43,
+      "name": "Ormsfield",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/43.svg"
+    },
+    {
+      "burg_id": 44,
+      "name": "Sleh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/44.svg"
+    },
+    {
+      "burg_id": 45,
+      "name": "Dunston",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/45.svg"
+    },
+    {
+      "burg_id": 46,
+      "name": "Chlaber",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/46.svg"
+    },
+    {
+      "burg_id": 47,
+      "name": "Bridvelb",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/47.svg"
+    },
+    {
+      "burg_id": 48,
+      "name": "Cocking",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/48.svg"
+    },
+    {
+      "burg_id": 49,
+      "name": "Taugugus",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/49.svg"
+    },
+    {
+      "burg_id": 50,
+      "name": "Breszai",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/50.svg"
+    },
+    {
+      "burg_id": 51,
+      "name": "Presanistu",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/51.svg"
+    },
+    {
+      "burg_id": 52,
+      "name": "Thoyerssie",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/52.svg"
+    },
+    {
+      "burg_id": 53,
+      "name": "Kilwyntiga",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/53.svg"
+    },
+    {
+      "burg_id": 54,
+      "name": "Charcy",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/54.svg"
+    },
+    {
+      "burg_id": 55,
+      "name": "Chalk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/55.svg"
+    },
+    {
+      "burg_id": 56,
+      "name": "Mitford",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/56.svg"
+    },
+    {
+      "burg_id": 57,
+      "name": "Albridgerid",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/57.svg"
+    },
+    {
+      "burg_id": 58,
+      "name": "Cathrash",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/58.svg"
+    },
+    {
+      "burg_id": 59,
+      "name": "Plagentia",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/59.svg"
+    },
+    {
+      "burg_id": 60,
+      "name": "Digaberg",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/60.svg"
+    },
+    {
+      "burg_id": 61,
+      "name": "Sovertondon",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/61.svg"
+    },
+    {
+      "burg_id": 62,
+      "name": "Divaberfan",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/62.svg"
+    },
+    {
+      "burg_id": 63,
+      "name": "Durodula",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/63.svg"
+    },
+    {
+      "burg_id": 64,
+      "name": "Kesorough",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/64.svg"
+    },
+    {
+      "burg_id": 65,
+      "name": "Brybtong",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/65.svg"
+    },
+    {
+      "burg_id": 66,
+      "name": "Aberg",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/66.svg"
+    },
+    {
+      "burg_id": 67,
+      "name": "Celia",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/67.svg"
+    },
+    {
+      "burg_id": 68,
+      "name": "Portster",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/68.svg"
+    },
+    {
+      "burg_id": 69,
+      "name": "Borviorimi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/69.svg"
+    },
+    {
+      "burg_id": 70,
+      "name": "Rerandum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/70.svg"
+    },
+    {
+      "burg_id": 71,
+      "name": "Coporumbia",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/71.svg"
+    },
+    {
+      "burg_id": 72,
+      "name": "Krazashju",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/72.svg"
+    },
+    {
+      "burg_id": 73,
+      "name": "Hordhshi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/73.svg"
+    },
+    {
+      "burg_id": 74,
+      "name": "Kleabsil",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/74.svg"
+    },
+    {
+      "burg_id": 75,
+      "name": "Tungripo",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/75.svg"
+    },
+    {
+      "burg_id": 76,
+      "name": "Najas",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/76.svg"
+    },
+    {
+      "burg_id": 77,
+      "name": "Axbridford",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/77.svg"
+    },
+    {
+      "burg_id": 78,
+      "name": "Llanvergoed",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/78.svg"
+    },
+    {
+      "burg_id": 79,
+      "name": "Llanhafrwdhe",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/79.svg"
+    },
+    {
+      "burg_id": 80,
+      "name": "Dierdeek",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/80.svg"
+    },
+    {
+      "burg_id": 81,
+      "name": "Fhlaijomaber",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/81.svg"
+    },
+    {
+      "burg_id": 82,
+      "name": "Viebureta",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/82.svg"
+    },
+    {
+      "burg_id": 83,
+      "name": "Totham",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/83.svg"
+    },
+    {
+      "burg_id": 84,
+      "name": "Watliaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/84.svg"
+    },
+    {
+      "burg_id": 85,
+      "name": "Andomapurno",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/85.svg"
+    },
+    {
+      "burg_id": 86,
+      "name": "Bosdon",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/86.svg"
+    },
+    {
+      "burg_id": 87,
+      "name": "Ialsirt",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/87.svg"
+    },
+    {
+      "burg_id": 88,
+      "name": "Bridgenilbo",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/88.svg"
+    },
+    {
+      "burg_id": 89,
+      "name": "Chlaberden",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/89.svg"
+    },
+    {
+      "burg_id": 90,
+      "name": "Adingford",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/90.svg"
+    },
+    {
+      "burg_id": 91,
+      "name": "Selocobri",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/91.svg"
+    },
+    {
+      "burg_id": 92,
+      "name": "Iubhrach",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/92.svg"
+    },
+    {
+      "burg_id": 93,
+      "name": "Cudmin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/93.svg"
+    },
+    {
+      "burg_id": 94,
+      "name": "Kleab",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/94.svg"
+    },
+    {
+      "burg_id": 95,
+      "name": "Agrande",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/95.svg"
+    },
+    {
+      "burg_id": 96,
+      "name": "Lochi",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/96.svg"
+    },
+    {
+      "burg_id": 97,
+      "name": "Froi",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/97.svg"
+    },
+    {
+      "burg_id": 98,
+      "name": "Watchwark",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/98.svg"
+    },
+    {
+      "burg_id": 99,
+      "name": "Gapjesshaph",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/99.svg"
+    },
+    {
+      "burg_id": 100,
+      "name": "Oz'lush",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/100.svg"
+    },
+    {
+      "burg_id": 101,
+      "name": "Dodbrid",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/101.svg"
+    },
+    {
+      "burg_id": 102,
+      "name": "Uraz",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/102.svg"
+    },
+    {
+      "burg_id": 103,
+      "name": "Blus",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/103.svg"
+    },
+    {
+      "burg_id": 104,
+      "name": "Oz'jash",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/104.svg"
+    },
+    {
+      "burg_id": 105,
+      "name": "Kuila",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/105.svg"
+    },
+    {
+      "burg_id": 106,
+      "name": "Mithusshin",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/106.svg"
+    },
+    {
+      "burg_id": 107,
+      "name": "Stansham",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/107.svg"
+    },
+    {
+      "burg_id": 108,
+      "name": "Stryt",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/108.svg"
+    },
+    {
+      "burg_id": 109,
+      "name": "Ulbtongli",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/109.svg"
+    },
+    {
+      "burg_id": 110,
+      "name": "Taraletum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/110.svg"
+    },
+    {
+      "burg_id": 111,
+      "name": "Pyreaz",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/111.svg"
+    },
+    {
+      "burg_id": 112,
+      "name": "Abergrererch",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/112.svg"
+    },
+    {
+      "burg_id": 113,
+      "name": "Crild",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/113.svg"
+    },
+    {
+      "burg_id": 114,
+      "name": "Rauricorum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/114.svg"
+    },
+    {
+      "burg_id": 115,
+      "name": "Pornum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/115.svg"
+    },
+    {
+      "burg_id": 116,
+      "name": "Racoriorie",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/116.svg"
+    },
+    {
+      "burg_id": 117,
+      "name": "Insanfartsea",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/117.svg"
+    },
+    {
+      "burg_id": 118,
+      "name": "Bontete",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/118.svg"
+    },
+    {
+      "burg_id": 119,
+      "name": "Montcondon",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/119.svg"
+    },
+    {
+      "burg_id": 120,
+      "name": "Doucherin",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/120.svg"
+    },
+    {
+      "burg_id": 121,
+      "name": "Jarquilly",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/121.svg"
+    },
+    {
+      "burg_id": 122,
+      "name": "Horston",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/122.svg"
+    },
+    {
+      "burg_id": 123,
+      "name": "Nans",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/123.svg"
+    },
+    {
+      "burg_id": 124,
+      "name": "Helston",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/124.svg"
+    },
+    {
+      "burg_id": 125,
+      "name": "Zizad",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/125.svg"
+    },
+    {
+      "burg_id": 126,
+      "name": "Brid",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/126.svg"
+    },
+    {
+      "burg_id": 127,
+      "name": "Lequm",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/127.svg"
+    },
+    {
+      "burg_id": 128,
+      "name": "Cosxea",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/128.svg"
+    },
+    {
+      "burg_id": 129,
+      "name": "Wruil",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/129.svg"
+    },
+    {
+      "burg_id": 130,
+      "name": "Corieltauva",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/130.svg"
+    },
+    {
+      "burg_id": 131,
+      "name": "Fihulsea",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/131.svg"
+    },
+    {
+      "burg_id": 132,
+      "name": "Khuzunba",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/132.svg"
+    },
+    {
+      "burg_id": 133,
+      "name": "Zataph",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/133.svg"
+    },
+    {
+      "burg_id": 134,
+      "name": "Darenneres",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/134.svg"
+    },
+    {
+      "burg_id": 135,
+      "name": "Knutstedge",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/135.svg"
+    },
+    {
+      "burg_id": 136,
+      "name": "Rraresh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/136.svg"
+    },
+    {
+      "burg_id": 137,
+      "name": "Sku'tu",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/137.svg"
+    },
+    {
+      "burg_id": 138,
+      "name": "Movium",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/138.svg"
+    },
+    {
+      "burg_id": 139,
+      "name": "Feinslozoy",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/139.svg"
+    },
+    {
+      "burg_id": 140,
+      "name": "Skuphje",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/140.svg"
+    },
+    {
+      "burg_id": 141,
+      "name": "Cudhurstham",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/141.svg"
+    },
+    {
+      "burg_id": 142,
+      "name": "Kirkcalnin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/142.svg"
+    },
+    {
+      "burg_id": 143,
+      "name": "Lannve",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/143.svg"
+    },
+    {
+      "burg_id": 144,
+      "name": "Neucy",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/144.svg"
+    },
+    {
+      "burg_id": 145,
+      "name": "Swaton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/145.svg"
+    },
+    {
+      "burg_id": 146,
+      "name": "Driorzan",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/146.svg"
+    },
+    {
+      "burg_id": 147,
+      "name": "Tremari",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/147.svg"
+    },
+    {
+      "burg_id": 148,
+      "name": "Matenvers",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/148.svg"
+    },
+    {
+      "burg_id": 149,
+      "name": "Llanver",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/149.svg"
+    },
+    {
+      "burg_id": 150,
+      "name": "Thatcking",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/150.svg"
+    },
+    {
+      "burg_id": 151,
+      "name": "Charcy",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/151.svg"
+    },
+    {
+      "burg_id": 152,
+      "name": "Bonvil",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/152.svg"
+    },
+    {
+      "burg_id": 153,
+      "name": "Whithamney",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/153.svg"
+    },
+    {
+      "burg_id": 154,
+      "name": "Siosvil",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/154.svg"
+    },
+    {
+      "burg_id": 155,
+      "name": "Geliba",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/155.svg"
+    },
+    {
+      "burg_id": 156,
+      "name": "Avediton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/156.svg"
+    },
+    {
+      "burg_id": 157,
+      "name": "Bevillesses",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/157.svg"
+    },
+    {
+      "burg_id": 158,
+      "name": "Aberanwenve",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/158.svg"
+    },
+    {
+      "burg_id": 159,
+      "name": "Congraton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/159.svg"
+    },
+    {
+      "burg_id": 160,
+      "name": "Klilm",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/160.svg"
+    },
+    {
+      "burg_id": 161,
+      "name": "Paasheaf",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/161.svg"
+    },
+    {
+      "burg_id": 162,
+      "name": "Styr",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/162.svg"
+    },
+    {
+      "burg_id": 163,
+      "name": "Aberdynolnin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/163.svg"
+    },
+    {
+      "burg_id": 164,
+      "name": "Bratzakt",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/164.svg"
+    },
+    {
+      "burg_id": 165,
+      "name": "Uyagh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/165.svg"
+    },
+    {
+      "burg_id": 166,
+      "name": "Azionbury",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/166.svg"
+    },
+    {
+      "burg_id": 167,
+      "name": "Tuzur",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/167.svg"
+    },
+    {
+      "burg_id": 168,
+      "name": "Blandling",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/168.svg"
+    },
+    {
+      "burg_id": 169,
+      "name": "Kluird",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/169.svg"
+    },
+    {
+      "burg_id": 170,
+      "name": "Matiavum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/170.svg"
+    },
+    {
+      "burg_id": 171,
+      "name": "Pons",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/171.svg"
+    },
+    {
+      "burg_id": 172,
+      "name": "Froi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/172.svg"
+    },
+    {
+      "burg_id": 173,
+      "name": "Montcren",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/173.svg"
+    },
+    {
+      "burg_id": 174,
+      "name": "Drior",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/174.svg"
+    },
+    {
+      "burg_id": 175,
+      "name": "Hengay",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/175.svg"
+    },
+    {
+      "burg_id": 176,
+      "name": "Aberkinver",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/176.svg"
+    },
+    {
+      "burg_id": 177,
+      "name": "Moggbig",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/177.svg"
+    },
+    {
+      "burg_id": 178,
+      "name": "Axibieq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/178.svg"
+    },
+    {
+      "burg_id": 179,
+      "name": "Cisipinium",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/179.svg"
+    },
+    {
+      "burg_id": 180,
+      "name": "Rilluph",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/180.svg"
+    },
+    {
+      "burg_id": 181,
+      "name": "Gobshai",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/181.svg"
+    },
+    {
+      "burg_id": 182,
+      "name": "Cielbligz",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/182.svg"
+    },
+    {
+      "burg_id": 183,
+      "name": "Veekz",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/183.svg"
+    },
+    {
+      "burg_id": 184,
+      "name": "Duningt",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/184.svg"
+    },
+    {
+      "burg_id": 185,
+      "name": "Akkuss",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/185.svg"
+    },
+    {
+      "burg_id": 186,
+      "name": "Eszi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/186.svg"
+    },
+    {
+      "burg_id": 187,
+      "name": "Stios",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/187.svg"
+    },
+    {
+      "burg_id": 188,
+      "name": "Bingham",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/188.svg"
+    },
+    {
+      "burg_id": 189,
+      "name": "Iahniots",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/189.svg"
+    },
+    {
+      "burg_id": 190,
+      "name": "Ki'jiress",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/190.svg"
+    },
+    {
+      "burg_id": 191,
+      "name": "Etesh",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/191.svg"
+    },
+    {
+      "burg_id": 192,
+      "name": "Froibieq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/192.svg"
+    },
+    {
+      "burg_id": 193,
+      "name": "Parsovia",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/193.svg"
+    },
+    {
+      "burg_id": 194,
+      "name": "Winkley",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/194.svg"
+    },
+    {
+      "burg_id": 195,
+      "name": "Gigbig",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/195.svg"
+    },
+    {
+      "burg_id": 196,
+      "name": "Fyggan",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/196.svg"
+    },
+    {
+      "burg_id": 197,
+      "name": "Givzie",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/197.svg"
+    },
+    {
+      "burg_id": 198,
+      "name": "Maj'aj'kij",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/198.svg"
+    },
+    {
+      "burg_id": 199,
+      "name": "Chisfieldge",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/199.svg"
+    },
+    {
+      "burg_id": 200,
+      "name": "Shoroughbou",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/200.svg"
+    },
+    {
+      "burg_id": 201,
+      "name": "Brat",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/201.svg"
+    },
+    {
+      "burg_id": 202,
+      "name": "Mangis",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/202.svg"
+    },
+    {
+      "burg_id": 203,
+      "name": "Wargleyme",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/203.svg"
+    },
+    {
+      "burg_id": 204,
+      "name": "Rekx",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/204.svg"
+    },
+    {
+      "burg_id": 205,
+      "name": "Lugrolirina",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/205.svg"
+    },
+    {
+      "burg_id": 206,
+      "name": "Slutiarm",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/206.svg"
+    },
+    {
+      "burg_id": 207,
+      "name": "Hegus",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/207.svg"
+    },
+    {
+      "burg_id": 208,
+      "name": "Mursoli",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/208.svg"
+    },
+    {
+      "burg_id": 209,
+      "name": "Desse",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/209.svg"
+    },
+    {
+      "burg_id": 210,
+      "name": "Ormshilton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/210.svg"
+    },
+    {
+      "burg_id": 211,
+      "name": "Cothuss",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/211.svg"
+    },
+    {
+      "burg_id": 212,
+      "name": "Cesher",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/212.svg"
+    },
+    {
+      "burg_id": 213,
+      "name": "Tartondal",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/213.svg"
+    },
+    {
+      "burg_id": 214,
+      "name": "Westckingle",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/214.svg"
+    },
+    {
+      "burg_id": 215,
+      "name": "Gafordge",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/215.svg"
+    },
+    {
+      "burg_id": 216,
+      "name": "Zriokots",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/216.svg"
+    },
+    {
+      "burg_id": 217,
+      "name": "Rraj'aj'jaz",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/217.svg"
+    },
+    {
+      "burg_id": 218,
+      "name": "Whithore",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/218.svg"
+    },
+    {
+      "burg_id": 219,
+      "name": "Noster",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/219.svg"
+    },
+    {
+      "burg_id": 220,
+      "name": "Stroi",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/220.svg"
+    },
+    {
+      "burg_id": 221,
+      "name": "Givzie",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/221.svg"
+    },
+    {
+      "burg_id": 222,
+      "name": "Srefshas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/222.svg"
+    },
+    {
+      "burg_id": 223,
+      "name": "Bucleshover",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/223.svg"
+    },
+    {
+      "burg_id": 224,
+      "name": "Boroughbrid",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/224.svg"
+    },
+    {
+      "burg_id": 225,
+      "name": "Redcker",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/225.svg"
+    },
+    {
+      "burg_id": 226,
+      "name": "Penkseyles",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/226.svg"
+    },
+    {
+      "burg_id": 227,
+      "name": "Intaberberce",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/227.svg"
+    },
+    {
+      "burg_id": 228,
+      "name": "Shomyard",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/228.svg"
+    },
+    {
+      "burg_id": 229,
+      "name": "Ath'jas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/229.svg"
+    },
+    {
+      "burg_id": 230,
+      "name": "Gojesh",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/230.svg"
+    },
+    {
+      "burg_id": 231,
+      "name": "Phig",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/231.svg"
+    },
+    {
+      "burg_id": 232,
+      "name": "Cormium",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/232.svg"
+    },
+    {
+      "burg_id": 233,
+      "name": "Kirkcallan",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/233.svg"
+    },
+    {
+      "burg_id": 234,
+      "name": "Chisford",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/234.svg"
+    },
+    {
+      "burg_id": 235,
+      "name": "Slehzitha",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/235.svg"
+    },
+    {
+      "burg_id": 236,
+      "name": "Inve",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/236.svg"
+    },
+    {
+      "burg_id": 237,
+      "name": "Zarag",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/237.svg"
+    },
+    {
+      "burg_id": 238,
+      "name": "Loutiers",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/238.svg"
+    },
+    {
+      "burg_id": 239,
+      "name": "Driordeek",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/239.svg"
+    },
+    {
+      "burg_id": 240,
+      "name": "Shass",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/240.svg"
+    },
+    {
+      "burg_id": 241,
+      "name": "Fruict",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/241.svg"
+    },
+    {
+      "burg_id": 242,
+      "name": "Neford",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/242.svg"
+    },
+    {
+      "burg_id": 243,
+      "name": "Salseave",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/243.svg"
+    },
+    {
+      "burg_id": 244,
+      "name": "Inwenverthe",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/244.svg"
+    },
+    {
+      "burg_id": 245,
+      "name": "Broswsnaid",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/245.svg"
+    },
+    {
+      "burg_id": 246,
+      "name": "Calton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/246.svg"
+    },
+    {
+      "burg_id": 247,
+      "name": "Montcongy",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/247.svg"
+    },
+    {
+      "burg_id": 248,
+      "name": "Felhobgar",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/248.svg"
+    },
+    {
+      "burg_id": 249,
+      "name": "Kophje",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/249.svg"
+    },
+    {
+      "burg_id": 250,
+      "name": "Abeven",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/250.svg"
+    },
+    {
+      "burg_id": 251,
+      "name": "Dunskirk",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/251.svg"
+    },
+    {
+      "burg_id": 252,
+      "name": "Kuird",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/252.svg"
+    },
+    {
+      "burg_id": 253,
+      "name": "Shan'jen",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/253.svg"
+    },
+    {
+      "burg_id": 254,
+      "name": "Drior",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/254.svg"
+    },
+    {
+      "burg_id": 255,
+      "name": "Nanshigangad",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/255.svg"
+    },
+    {
+      "burg_id": 256,
+      "name": "Gob",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/256.svg"
+    },
+    {
+      "burg_id": 257,
+      "name": "Gobok",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/257.svg"
+    },
+    {
+      "burg_id": 258,
+      "name": "Givzienis",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/258.svg"
+    },
+    {
+      "burg_id": 259,
+      "name": "Whitfordle",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/259.svg"
+    },
+    {
+      "burg_id": 260,
+      "name": "Gob",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/260.svg"
+    },
+    {
+      "burg_id": 261,
+      "name": "Sortisigen",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/261.svg"
+    },
+    {
+      "burg_id": 262,
+      "name": "Wruilkeh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/262.svg"
+    },
+    {
+      "burg_id": 263,
+      "name": "Invers",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/263.svg"
+    },
+    {
+      "burg_id": 264,
+      "name": "Honk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/264.svg"
+    },
+    {
+      "burg_id": 265,
+      "name": "Crerags",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/265.svg"
+    },
+    {
+      "burg_id": 266,
+      "name": "Corsamulo",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/266.svg"
+    },
+    {
+      "burg_id": 267,
+      "name": "Titondon",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/267.svg"
+    },
+    {
+      "burg_id": 268,
+      "name": "Srurd",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/268.svg"
+    },
+    {
+      "burg_id": 269,
+      "name": "Arksas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/269.svg"
+    },
+    {
+      "burg_id": 270,
+      "name": "Raj'jess",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/270.svg"
+    },
+    {
+      "burg_id": 271,
+      "name": "Driorvaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/271.svg"
+    },
+    {
+      "burg_id": 272,
+      "name": "Bryb",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/272.svg"
+    },
+    {
+      "burg_id": 273,
+      "name": "Birorum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/273.svg"
+    },
+    {
+      "burg_id": 274,
+      "name": "Alisford",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/274.svg"
+    },
+    {
+      "burg_id": 275,
+      "name": "Stapton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/275.svg"
+    },
+    {
+      "burg_id": 276,
+      "name": "Ajashal'ar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/276.svg"
+    },
+    {
+      "burg_id": 277,
+      "name": "Canek",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/277.svg"
+    },
+    {
+      "burg_id": 278,
+      "name": "Cosvilkeh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/278.svg"
+    },
+    {
+      "burg_id": 279,
+      "name": "Vreasinx",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/279.svg"
+    },
+    {
+      "burg_id": 280,
+      "name": "Paas",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/280.svg"
+    },
+    {
+      "burg_id": 281,
+      "name": "Cerlin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/281.svg"
+    },
+    {
+      "burg_id": 282,
+      "name": "Ki'jassin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/282.svg"
+    },
+    {
+      "burg_id": 283,
+      "name": "Shagaald",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/283.svg"
+    },
+    {
+      "burg_id": 284,
+      "name": "Lugripodu",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/284.svg"
+    },
+    {
+      "burg_id": 285,
+      "name": "Nigrantiala",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/285.svg"
+    },
+    {
+      "burg_id": 286,
+      "name": "Linden",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/286.svg"
+    },
+    {
+      "burg_id": 287,
+      "name": "Darkeby",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/287.svg"
+    },
+    {
+      "burg_id": 288,
+      "name": "Merwick",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/288.svg"
+    },
+    {
+      "burg_id": 289,
+      "name": "Darlowbig",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/289.svg"
+    },
+    {
+      "burg_id": 290,
+      "name": "Bosburymock",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/290.svg"
+    },
+    {
+      "burg_id": 291,
+      "name": "Shurrush",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/291.svg"
+    },
+    {
+      "burg_id": 292,
+      "name": "Culzan",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/292.svg"
+    },
+    {
+      "burg_id": 293,
+      "name": "Stioltia",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/293.svg"
+    },
+    {
+      "burg_id": 294,
+      "name": "Cetidavar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/294.svg"
+    },
+    {
+      "burg_id": 295,
+      "name": "Rothleach",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/295.svg"
+    },
+    {
+      "burg_id": 296,
+      "name": "Towbigin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/296.svg"
+    },
+    {
+      "burg_id": 297,
+      "name": "Drior",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/297.svg"
+    },
+    {
+      "burg_id": 298,
+      "name": "Adnictum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/298.svg"
+    },
+    {
+      "burg_id": 299,
+      "name": "Louriba",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/299.svg"
+    },
+    {
+      "burg_id": 300,
+      "name": "Chearcy",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/300.svg"
+    },
+    {
+      "burg_id": 301,
+      "name": "Sidmin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/301.svg"
+    },
+    {
+      "burg_id": 302,
+      "name": "Lympsbury",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/302.svg"
+    },
+    {
+      "burg_id": 303,
+      "name": "Min'han",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/303.svg"
+    },
+    {
+      "burg_id": 304,
+      "name": "Kaszils",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/304.svg"
+    },
+    {
+      "burg_id": 305,
+      "name": "Srurdvelb",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/305.svg"
+    },
+    {
+      "burg_id": 306,
+      "name": "Dobok",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/306.svg"
+    },
+    {
+      "burg_id": 307,
+      "name": "Xar'jess",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/307.svg"
+    },
+    {
+      "burg_id": 308,
+      "name": "Cornum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/308.svg"
+    },
+    {
+      "burg_id": 309,
+      "name": "Salces",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/309.svg"
+    },
+    {
+      "burg_id": 310,
+      "name": "Preanggek",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/310.svg"
+    },
+    {
+      "burg_id": 311,
+      "name": "Kleard",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/311.svg"
+    },
+    {
+      "burg_id": 312,
+      "name": "Gobring",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/312.svg"
+    },
+    {
+      "burg_id": 313,
+      "name": "Clifractle",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/313.svg"
+    },
+    {
+      "burg_id": 314,
+      "name": "Invernantira",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/314.svg"
+    },
+    {
+      "burg_id": 315,
+      "name": "Brybgar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/315.svg"
+    },
+    {
+      "burg_id": 316,
+      "name": "Sios",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/316.svg"
+    },
+    {
+      "burg_id": 317,
+      "name": "Gagielt",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/317.svg"
+    },
+    {
+      "burg_id": 318,
+      "name": "Blandle",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/318.svg"
+    },
+    {
+      "burg_id": 319,
+      "name": "Badeby",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/319.svg"
+    },
+    {
+      "burg_id": 320,
+      "name": "Kencestab",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/320.svg"
+    },
+    {
+      "burg_id": 321,
+      "name": "Gives",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/321.svg"
+    },
+    {
+      "burg_id": 322,
+      "name": "Honk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/322.svg"
+    },
+    {
+      "burg_id": 323,
+      "name": "Joimtoilm",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/323.svg"
+    },
+    {
+      "burg_id": 324,
+      "name": "Ishzit",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/324.svg"
+    },
+    {
+      "burg_id": 325,
+      "name": "Glervaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/325.svg"
+    },
+    {
+      "burg_id": 326,
+      "name": "Slofboif",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/326.svg"
+    },
+    {
+      "burg_id": 327,
+      "name": "Arighigeryst",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/327.svg"
+    },
+    {
+      "burg_id": 328,
+      "name": "Durifigabe",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/328.svg"
+    },
+    {
+      "burg_id": 329,
+      "name": "Klilm",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/329.svg"
+    },
+    {
+      "burg_id": 330,
+      "name": "Stiag",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/330.svg"
+    },
+    {
+      "burg_id": 331,
+      "name": "Nasar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/331.svg"
+    },
+    {
+      "burg_id": 332,
+      "name": "Gob",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/332.svg"
+    },
+    {
+      "burg_id": 333,
+      "name": "Castiamu",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/333.svg"
+    },
+    {
+      "burg_id": 334,
+      "name": "Castiaqu",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/334.svg"
+    },
+    {
+      "burg_id": 335,
+      "name": "Watcheldock",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/335.svg"
+    },
+    {
+      "burg_id": 336,
+      "name": "Chafonver",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/336.svg"
+    },
+    {
+      "burg_id": 337,
+      "name": "Wineford",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/337.svg"
+    },
+    {
+      "burg_id": 338,
+      "name": "Jomeille",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/338.svg"
+    },
+    {
+      "burg_id": 339,
+      "name": "Ligny",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/339.svg"
+    },
+    {
+      "burg_id": 340,
+      "name": "Froi",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/340.svg"
+    },
+    {
+      "burg_id": 341,
+      "name": "Slofta",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/341.svg"
+    },
+    {
+      "burg_id": 342,
+      "name": "Mogg",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/342.svg"
+    },
+    {
+      "burg_id": 343,
+      "name": "Farnaahx",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/343.svg"
+    },
+    {
+      "burg_id": 344,
+      "name": "Cielb",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/344.svg"
+    },
+    {
+      "burg_id": 345,
+      "name": "Wruilbog",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/345.svg"
+    },
+    {
+      "burg_id": 346,
+      "name": "Phiggal",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/346.svg"
+    },
+    {
+      "burg_id": 347,
+      "name": "Inveram",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/347.svg"
+    },
+    {
+      "burg_id": 348,
+      "name": "Intinbrirair",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/348.svg"
+    },
+    {
+      "burg_id": 349,
+      "name": "Stapton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/349.svg"
+    },
+    {
+      "burg_id": 350,
+      "name": "Portsham",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/350.svg"
+    },
+    {
+      "burg_id": 351,
+      "name": "Sonexe",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/351.svg"
+    },
+    {
+      "burg_id": 352,
+      "name": "Gigbig",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/352.svg"
+    },
+    {
+      "burg_id": 353,
+      "name": "Treaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/353.svg"
+    },
+    {
+      "burg_id": 354,
+      "name": "Cabistucus",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/354.svg"
+    },
+    {
+      "burg_id": 355,
+      "name": "Brampton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/355.svg"
+    },
+    {
+      "burg_id": 356,
+      "name": "Indiraber",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/356.svg"
+    },
+    {
+      "burg_id": 357,
+      "name": "Gizad",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/357.svg"
+    },
+    {
+      "burg_id": 358,
+      "name": "Blusxea",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/358.svg"
+    },
+    {
+      "burg_id": 359,
+      "name": "Slukex",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/359.svg"
+    },
+    {
+      "burg_id": 360,
+      "name": "Ataph",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/360.svg"
+    },
+    {
+      "burg_id": 361,
+      "name": "Gobruing",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/361.svg"
+    },
+    {
+      "burg_id": 362,
+      "name": "Creton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/362.svg"
+    },
+    {
+      "burg_id": 363,
+      "name": "Skiptonter",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/363.svg"
+    },
+    {
+      "burg_id": 364,
+      "name": "Babiln",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/364.svg"
+    },
+    {
+      "burg_id": 365,
+      "name": "Stryt",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/365.svg"
+    },
+    {
+      "burg_id": 366,
+      "name": "Swaxai",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/366.svg"
+    },
+    {
+      "burg_id": 367,
+      "name": "Dubris",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/367.svg"
+    },
+    {
+      "burg_id": 368,
+      "name": "Cocham",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/368.svg"
+    },
+    {
+      "burg_id": 369,
+      "name": "Halingin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/369.svg"
+    },
+    {
+      "burg_id": 370,
+      "name": "Brasbury",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/370.svg"
+    },
+    {
+      "burg_id": 371,
+      "name": "Gevillenay",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/371.svg"
+    },
+    {
+      "burg_id": 372,
+      "name": "Stiag",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/372.svg"
+    },
+    {
+      "burg_id": 373,
+      "name": "Veekz",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/373.svg"
+    },
+    {
+      "burg_id": 374,
+      "name": "Buggan",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/374.svg"
+    },
+    {
+      "burg_id": 375,
+      "name": "Stioshas",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/375.svg"
+    },
+    {
+      "burg_id": 376,
+      "name": "Kas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/376.svg"
+    },
+    {
+      "burg_id": 377,
+      "name": "Drunum",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/377.svg"
+    },
+    {
+      "burg_id": 378,
+      "name": "Innyde",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/378.svg"
+    },
+    {
+      "burg_id": 379,
+      "name": "Nuradab",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/379.svg"
+    },
+    {
+      "burg_id": 380,
+      "name": "Anuzah",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/380.svg"
+    },
+    {
+      "burg_id": 381,
+      "name": "Slofzia",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/381.svg"
+    },
+    {
+      "burg_id": 382,
+      "name": "Sleh",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/382.svg"
+    },
+    {
+      "burg_id": 383,
+      "name": "Gobringai",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/383.svg"
+    },
+    {
+      "burg_id": 384,
+      "name": "Hobrin",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/384.svg"
+    },
+    {
+      "burg_id": 385,
+      "name": "Rroksas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/385.svg"
+    },
+    {
+      "burg_id": 386,
+      "name": "Dunshilme",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/386.svg"
+    },
+    {
+      "burg_id": 387,
+      "name": "Warton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/387.svg"
+    },
+    {
+      "burg_id": 388,
+      "name": "Abermaicraf",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/388.svg"
+    },
+    {
+      "burg_id": 389,
+      "name": "Walton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/389.svg"
+    },
+    {
+      "burg_id": 390,
+      "name": "Pentalisbo",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/390.svg"
+    },
+    {
+      "burg_id": 391,
+      "name": "Perscomney",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/391.svg"
+    },
+    {
+      "burg_id": 392,
+      "name": "Fyggeklig",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/392.svg"
+    },
+    {
+      "burg_id": 393,
+      "name": "Bugli",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/393.svg"
+    },
+    {
+      "burg_id": 394,
+      "name": "Bratliaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/394.svg"
+    },
+    {
+      "burg_id": 395,
+      "name": "Stios",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/395.svg"
+    },
+    {
+      "burg_id": 396,
+      "name": "Klear",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/396.svg"
+    },
+    {
+      "burg_id": 397,
+      "name": "Glam",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/397.svg"
+    },
+    {
+      "burg_id": 398,
+      "name": "Agelton",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/398.svg"
+    },
+    {
+      "burg_id": 399,
+      "name": "Marignecoq",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/399.svg"
+    },
+    {
+      "burg_id": 400,
+      "name": "Gunal",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/400.svg"
+    },
+    {
+      "burg_id": 401,
+      "name": "Wasaltonden",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/401.svg"
+    },
+    {
+      "burg_id": 402,
+      "name": "Wigley",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/402.svg"
+    },
+    {
+      "burg_id": 403,
+      "name": "Bridgewent",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/403.svg"
+    },
+    {
+      "burg_id": 404,
+      "name": "Helsbury",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/404.svg"
+    },
+    {
+      "burg_id": 405,
+      "name": "Kirk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/405.svg"
+    },
+    {
+      "burg_id": 406,
+      "name": "Phig",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/406.svg"
+    },
+    {
+      "burg_id": 407,
+      "name": "Bramney",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/407.svg"
+    },
+    {
+      "burg_id": 408,
+      "name": "Gerunos",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/408.svg"
+    },
+    {
+      "burg_id": 409,
+      "name": "Axbrolere",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/409.svg"
+    },
+    {
+      "burg_id": 410,
+      "name": "Kirukthun",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/410.svg"
+    },
+    {
+      "burg_id": 411,
+      "name": "Naram",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/411.svg"
+    },
+    {
+      "burg_id": 412,
+      "name": "Gobruing",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/412.svg"
+    },
+    {
+      "burg_id": 413,
+      "name": "Gobsil",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/413.svg"
+    },
+    {
+      "burg_id": 414,
+      "name": "Xurx",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/414.svg"
+    },
+    {
+      "burg_id": 415,
+      "name": "Treaq",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/415.svg"
+    },
+    {
+      "burg_id": 416,
+      "name": "Rrar'kij",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/416.svg"
+    },
+    {
+      "burg_id": 417,
+      "name": "Srasarjass",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/417.svg"
+    },
+    {
+      "burg_id": 418,
+      "name": "Shass",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/418.svg"
+    },
+    {
+      "burg_id": 419,
+      "name": "Diningell",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/419.svg"
+    },
+    {
+      "burg_id": 420,
+      "name": "Mackesey",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/420.svg"
+    },
+    {
+      "burg_id": 421,
+      "name": "Crild",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/421.svg"
+    },
+    {
+      "burg_id": 422,
+      "name": "Kleab",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/422.svg"
+    },
+    {
+      "burg_id": 423,
+      "name": "Yeobury",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/423.svg"
+    },
+    {
+      "burg_id": 424,
+      "name": "Leighington",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/424.svg"
+    },
+    {
+      "burg_id": 425,
+      "name": "Kilknethet",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/425.svg"
+    },
+    {
+      "burg_id": 426,
+      "name": "Thult",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/426.svg"
+    },
+    {
+      "burg_id": 427,
+      "name": "Balterbot",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/427.svg"
+    },
+    {
+      "burg_id": 428,
+      "name": "Prean",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/428.svg"
+    },
+    {
+      "burg_id": 429,
+      "name": "Sraj'jashin",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/429.svg"
+    },
+    {
+      "burg_id": 430,
+      "name": "Wruilhob",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/430.svg"
+    },
+    {
+      "burg_id": 431,
+      "name": "Qeeqeenis",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/431.svg"
+    },
+    {
+      "burg_id": 432,
+      "name": "Kas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/432.svg"
+    },
+    {
+      "burg_id": 433,
+      "name": "Ukex",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/433.svg"
+    },
+    {
+      "burg_id": 434,
+      "name": "Paas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/434.svg"
+    },
+    {
+      "burg_id": 435,
+      "name": "Ghrai",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/435.svg"
+    },
+    {
+      "burg_id": 436,
+      "name": "Brithninse",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/436.svg"
+    },
+    {
+      "burg_id": 437,
+      "name": "Zinar",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/437.svg"
+    },
+    {
+      "burg_id": 438,
+      "name": "Pyreazi",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/438.svg"
+    },
+    {
+      "burg_id": 439,
+      "name": "Thogent",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/439.svg"
+    },
+    {
+      "burg_id": 440,
+      "name": "Sioshas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/440.svg"
+    },
+    {
+      "burg_id": 441,
+      "name": "Biok",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/441.svg"
+    },
+    {
+      "burg_id": 442,
+      "name": "Heshas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/442.svg"
+    },
+    {
+      "burg_id": 443,
+      "name": "Zriokots",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/443.svg"
+    },
+    {
+      "burg_id": 444,
+      "name": "Kas",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/444.svg"
+    },
+    {
+      "burg_id": 445,
+      "name": "Fruict",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/445.svg"
+    },
+    {
+      "burg_id": 446,
+      "name": "Brybsil",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/446.svg"
+    },
+    {
+      "burg_id": 447,
+      "name": "Bodubin",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/447.svg"
+    },
+    {
+      "burg_id": 448,
+      "name": "Bihulton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/448.svg"
+    },
+    {
+      "burg_id": 449,
+      "name": "Kindumunzan",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/449.svg"
+    },
+    {
+      "burg_id": 450,
+      "name": "Grugvidh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/450.svg"
+    },
+    {
+      "burg_id": 451,
+      "name": "Nararam",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/451.svg"
+    },
+    {
+      "burg_id": 452,
+      "name": "Veekz",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/452.svg"
+    },
+    {
+      "burg_id": 453,
+      "name": "Carporton",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/453.svg"
+    },
+    {
+      "burg_id": 454,
+      "name": "Veekzi",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/454.svg"
+    },
+    {
+      "burg_id": 455,
+      "name": "Suirx",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/455.svg"
+    },
+    {
+      "burg_id": 456,
+      "name": "Chox",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/456.svg"
+    },
+    {
+      "burg_id": 457,
+      "name": "Threshai",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/457.svg"
+    },
+    {
+      "burg_id": 458,
+      "name": "Zighel",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/458.svg"
+    },
+    {
+      "burg_id": 459,
+      "name": "Knutster",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/459.svg"
+    },
+    {
+      "burg_id": 460,
+      "name": "Chales",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/460.svg"
+    },
+    {
+      "burg_id": 461,
+      "name": "Bibuzadd",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/461.svg"
+    },
+    {
+      "burg_id": 462,
+      "name": "Kingley",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/462.svg"
+    },
+    {
+      "burg_id": 463,
+      "name": "Blushair",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/463.svg"
+    },
+    {
+      "burg_id": 464,
+      "name": "Qosx",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/464.svg"
+    },
+    {
+      "burg_id": 465,
+      "name": "Pyreaz",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/465.svg"
+    },
+    {
+      "burg_id": 466,
+      "name": "Inverkurum",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/466.svg"
+    },
+    {
+      "burg_id": 467,
+      "name": "Aray",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/467.svg"
+    },
+    {
+      "burg_id": 468,
+      "name": "Boston",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/468.svg"
+    },
+    {
+      "burg_id": 469,
+      "name": "Badushizd",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/469.svg"
+    },
+    {
+      "burg_id": 470,
+      "name": "Dhodh",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/470.svg"
+    },
+    {
+      "burg_id": 471,
+      "name": "Gatholukk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/471.svg"
+    },
+    {
+      "burg_id": 472,
+      "name": "Kaszai",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/472.svg"
+    },
+    {
+      "burg_id": 473,
+      "name": "Honk",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/473.svg"
+    },
+    {
+      "burg_id": 474,
+      "name": "Salter",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/474.svg"
+    },
+    {
+      "burg_id": 475,
+      "name": "Chox",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/475.svg"
+    },
+    {
+      "burg_id": 476,
+      "name": "Phax",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/476.svg"
+    },
+    {
+      "burg_id": 477,
+      "name": "Dierm",
+      "kind": "village",
+      "village_svg_path": "assets/watabou/village/477.svg"
+    },
+    {
+      "burg_id": 478,
+      "name": "Drulalenda",
+      "kind": "city",
+      "city_svg_path": "assets/watabou/city/478.svg"
     }
   ]
 }

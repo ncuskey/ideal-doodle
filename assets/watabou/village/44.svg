@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Sleh - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 44 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="364.68071083538234" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="384.68071083538234" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="217.7369741499424" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="235.7369741499424" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="169.431131510064" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="189.431131510064" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="28.15289810858667" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="46.15289810858667" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="384.68071083538234" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="384.68071083538234" y1="136.5" x2="300" y2="232.7369741499424" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="232.7369741499424" x2="189.431131510064" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="189.431131510064" y1="136.5" x2="300" y2="43.15289810858667" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

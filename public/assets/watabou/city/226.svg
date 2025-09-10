@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Penkseyles - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 226 | Pop: 100</text>
+  <rect x="97.57208101218566" y="69.63613751344383" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="137.57208101218566" y="102.63613751344383" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="150.2462791162543" y="93.2828555512242" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="180.2462791162543" y="116.2828555512242" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="250.0187723734416" y="98.06023703655228" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="275.0187723734416" y="126.06023703655228" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="314.0918778954074" y="109.14777522208169" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="349.0918778954074" y="127.14777522208169" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

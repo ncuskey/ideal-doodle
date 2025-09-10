@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Blusxea - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 358 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="377.9203602578491" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="397.9203602578491" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="209.9558778628707" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="227.9558778628707" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="166.61414209753275" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="186.61414209753275" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="16.129264269024134" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="34.129264269024134" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="397.9203602578491" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="397.9203602578491" y1="136.5" x2="300" y2="224.9558778628707" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="224.9558778628707" x2="186.61414209753275" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="186.61414209753275" y1="136.5" x2="300" y2="31.129264269024134" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Cocking - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 48 | Pop: 100</text>
+  <rect x="84.62493710685521" y="55.11069681495428" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="124.62493710685521" y="88.11069681495428" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="162.13181648636237" y="108.80270094843581" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="192.13181648636237" y="131.8027009484358" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="255.99943954264745" y="82.11230612825602" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="280.99943954264745" y="110.11230612825602" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="324.209663446527" y="110.2267162129283" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="359.209663446527" y="128.2267162129283" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Froi - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 340 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="385.32922809012234" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="405.32922809012234" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="223.09692963585258" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="241.09692963585258" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="198.04943500086665" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="218.04943500086665" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="38.65205338783562" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="56.65205338783562" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="405.32922809012234" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="405.32922809012234" y1="136.5" x2="300" y2="238.09692963585258" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="238.09692963585258" x2="218.04943500086665" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="218.04943500086665" y1="136.5" x2="300" y2="53.65205338783562" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

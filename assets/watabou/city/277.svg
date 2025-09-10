@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Canek - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 277 | Pop: 100</text>
+  <rect x="169.1556407371536" y="93.02233996568248" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="199.1556407371536" y="116.02233996568248" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="233.28763973666355" y="76.06166322948411" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="258.28763973666355" y="104.06166322948411" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="343.38318501831964" y="111.6490273294039" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="378.38318501831964" y="129.6490273294039" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Klilm - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 329 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="397.43428074754775" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="417.43428074754775" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="229.32481793314219" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="247.32481793314219" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="176.1967233940959" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="196.1967233940959" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="15.726018683984876" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="33.726018683984876" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="417.43428074754775" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="417.43428074754775" y1="136.5" x2="300" y2="244.32481793314219" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="244.32481793314219" x2="196.1967233940959" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="196.1967233940959" y1="136.5" x2="300" y2="30.726018683984876" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

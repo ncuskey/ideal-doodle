@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Boumaberg - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 13 | Pop: 100</text>
+  <rect x="72.0272391452454" y="64.59714725846425" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="112.0272391452454" y="97.59714725846425" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="155.02271072473377" y="101.48813784355298" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="185.02271072473377" y="124.48813784355298" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="247.46111960383132" y="94.60414778674021" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="272.4611196038313" y="122.60414778674021" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="314.9688063422218" y="90.85047170519829" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="349.9688063422218" y="108.85047170519829" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

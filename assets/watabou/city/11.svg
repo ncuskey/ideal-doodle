@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Bington - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 11 | Pop: 100</text>
+  <rect x="89.9107763543725" y="58.95195404533297" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="129.9107763543725" y="91.95195404533297" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="273.67978419177234" y="77.18724202364683" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="298.67978419177234" y="105.18724202364683" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="328.74509625835344" y="101.524628684856" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="363.74509625835344" y="119.524628684856" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

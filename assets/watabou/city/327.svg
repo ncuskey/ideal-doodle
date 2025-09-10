@@ -1,0 +1,12 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Arighigeryst - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 327 | Pop: 100</text>
+  <rect x="317.5049506360665" y="112.41949784802273" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="352.5049506360665" y="130.41949784802273" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="69.43948714062572" y="131.66897340444848" width="67.67934791278094" height="42.21195947844535" fill="#dc143c" stroke="#654321" stroke-width="1"/>
+  <text x="103.27916109701619" y="155.77495314367115" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Inn</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

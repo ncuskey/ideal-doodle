@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Chisfieldge - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 199 | Pop: 100</text>
+  <rect x="50.33923307200894" y="61.864338733721524" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="90.33923307200894" y="94.86433873372152" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="231.14242007257417" y="91.96637944784015" width="50" height="50" fill="#228b22" stroke="#654321" stroke-width="1"/>
+  <text x="256.14242007257417" y="119.96637944784015" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Temple</text>
+  <rect x="333.7290558265522" y="108.77259942004457" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="368.7290558265522" y="126.77259942004457" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

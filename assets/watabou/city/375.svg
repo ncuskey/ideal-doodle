@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Stioshas - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 375 | Pop: 100</text>
+  <rect x="160.3138385573402" y="105.31723986845464" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="190.3138385573402" y="128.31723986845464" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="326.076103374362" y="111.82337816571817" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="361.076103374362" y="129.82337816571817" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="166.29785062279552" y="160.88674007216468" width="44.51849173987284" height="41.459474358707666" fill="#9370db" stroke="#654321" stroke-width="1"/>
+  <text x="188.55709649273194" y="184.61647725151852" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Shop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

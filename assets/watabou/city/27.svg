@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Vupjess - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 27 | Pop: 100</text>
+  <rect x="83.86524862144142" y="65.78734824201092" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="123.86524862144142" y="98.78734824201092" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="193.89095741789788" y="107.21452720230445" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="223.89095741789788" y="130.21452720230445" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="339.61828760802746" y="101.63695118157193" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="374.61828760802746" y="119.63695118157193" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

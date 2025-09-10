@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Culzan - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 292 | Pop: 100</text>
+  <rect x="195.78173968475312" y="103.70462906779721" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="225.78173968475312" y="126.70462906779721" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="335.24788367794827" y="95.83282924024388" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="370.24788367794827" y="113.83282924024388" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="308.0626820959151" y="153.0650292802602" width="48.56676598312333" height="31.075068106874824" fill="#ffa500" stroke="#654321" stroke-width="1"/>
+  <text x="332.34606508747675" y="171.60256333369762" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Workshop</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4"/>
+</svg>

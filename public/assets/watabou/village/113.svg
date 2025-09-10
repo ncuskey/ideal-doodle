@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Crild - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 113 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="372.64638082124293" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="392.64638082124293" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="221.6090710889548" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="239.6090710889548" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="180.86318595334888" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="200.86318595334888" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="28.406583001837134" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="46.406583001837134" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="392.64638082124293" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="392.64638082124293" y1="136.5" x2="300" y2="236.6090710889548" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="236.6090710889548" x2="200.86318595334888" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="200.86318595334888" y1="136.5" x2="300" y2="43.406583001837134" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

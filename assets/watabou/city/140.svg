@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Skuphje - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 140 | Pop: 100</text>
+  <rect x="81.22039185836911" y="77.42817546008155" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="121.22039185836911" y="110.42817546008155" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="323.05031556170434" y="102.35870384378359" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="358.05031556170434" y="120.35870384378359" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <rect x="31.661633127368987" y="171.0346294264309" width="50.06250043399632" height="45.500604305416346" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="56.69288334436715" y="196.78493157913908" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

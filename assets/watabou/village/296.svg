@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Towbigin - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 296 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="383.7129115127027" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="403.7129115127027" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="233" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="251" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="160.38243213668466" y="121.50000000000003" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="180.38243213668466" y="139.50000000000003" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="10" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="28" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="403.7129115127027" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="403.7129115127027" y1="136.5" x2="300" y2="248" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="248" x2="180.38243213668466" y2="136.50000000000003" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="180.38243213668466" y1="136.50000000000003" x2="300" y2="25" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "burg_id": 5,
+  "name": "Ulbligz",
+  "state_id": 0,
+  "province_id": "unknown",
+  "heraldry_path": "assets/heraldry/burg/5.svg",
+  "tags": [
+    "coastal",
+    "reagent-hub"
+  ],
+  "economy_roles": [
+    "reagent trade",
+    "fishing/saltworks",
+    "caravan waypoint"
+  ],
+  "problems": [
+    "reagent scarcity",
+    "smuggling",
+    "isolation",
+    "sea spirit unease"
+  ],
+  "religion_presence": [
+    "Sea-Tide Animisms",
+    "Merchant Brotherhood Liturgies",
+    "Ancestor-Remembrance Cults"
+  ],
+  "culture_notes": [
+    "Coastal Tongues dialect mix",
+    "tide-superstitions and offerings",
+    "diet of preserved fish and seaweed",
+    "rituals tied to imported reagents"
+  ],
+  "overlay": null,
+  "maps": {
+    "watabou_url": "https://watabou.github.io/city-generator/?name=Ulbligz&population=100&size=6&seed=3800865989178&river=0&coast=1&farms=1&citadel=1&urban_castle=0&hub=false&plaza=1&temple=0&walls=1&shantytown=0&gates=-1",
+    "city_svg_path": "assets/watabou/city/5.svg",
+    "village_svg_path": null
+  },
+  "generated_at": "2025-09-10T01:19:07.104Z"
+}

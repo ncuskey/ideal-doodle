@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Ishzit - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 324 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="367.6919318642467" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="387.6919318642467" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="201.96503831632435" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="219.96503831632435" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="195.20759938284755" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="215.20759938284755" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="36.10114562883973" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="54.10114562883973" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="387.6919318642467" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="387.6919318642467" y1="136.5" x2="300" y2="216.96503831632435" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="216.96503831632435" x2="215.20759938284755" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="215.20759938284755" y1="136.5" x2="300" y2="51.10114562883973" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

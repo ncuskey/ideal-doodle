@@ -12,6 +12,17 @@ const nowIso = ()=>new Date().toISOString();
 function renderOneBurg(id:number) {
   const bo = readJson<J>(`canon/burg/${id}.outline.json`); if (!bo) return;
   const ov = readJson<J>(`lore/overlays/burg/${id}.overlay.json`) || null;
+  
+  // Load Watabou links
+  const links = readJson<J>("index/watabou_links.json");
+  const linkRow = links?.items?.find((x:any)=> Number(x.burg_id) === Number(id));
+  const watabou_url = linkRow?.url || null;
+  
+  // Load Watabou SVG assets
+  const watabouMap = readJson<J>("index/watabou_map.json");
+  const mapRow = watabouMap?.items?.find((x:any)=> Number(x.burg_id) === Number(id));
+  const city_svg_path = mapRow?.city_svg_path || null;
+  const village_svg_path = mapRow?.village_svg_path || null;
 
   const doc = {
     burg_id: Number(bo.burg_id || id),
@@ -25,6 +36,11 @@ function renderOneBurg(id:number) {
     religion_presence: bo.religion_presence || [],
     culture_notes: bo.culture_notes || [],
     overlay: ov,
+    maps: {
+      watabou_url,
+      city_svg_path,
+      village_svg_path
+    },
     generated_at: nowIso()
   };
 

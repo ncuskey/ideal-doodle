@@ -1,0 +1,13 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f0f8ff"/>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Felhobgar - City Map</text>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 248 | Pop: 100</text>
+  <rect x="72.553205199074" y="75.42771400883794" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="112.553205199074" y="108.42771400883794" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Keep</text>
+  <rect x="176.69961131177843" y="85.9232261381112" width="60" height="40" fill="#4169e1" stroke="#654321" stroke-width="1"/>
+  <text x="206.69961131177843" y="108.9232261381112" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Market</text>
+  <rect x="306.4554176526144" y="105.92809279449284" width="70" height="30" fill="#ff6347" stroke="#654321" stroke-width="1"/>
+  <text x="341.4554176526144" y="123.92809279449284" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Tavern</text>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#666" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+</svg>

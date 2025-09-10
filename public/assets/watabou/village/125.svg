@@ -1,0 +1,19 @@
+<svg width="600" height="273" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="273" fill="#f0f8ff"/>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Zizad - Village Map</text>
+  <text x="300" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Burg ID: 125 | Pop: 100</text>
+  <rect x="270" y="116.5" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">Hall</text>
+  <rect x="364.3792415317148" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="384.3792415317148" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="211.9558670707047" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="229.9558670707047" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="175.27735530398786" y="121.5" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="195.27735530398786" y="139.5" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <rect x="280" y="34.686160987243056" width="40" height="30" fill="#20b2aa" stroke="#654321" stroke-width="1"/>
+  <text x="300" y="52.686160987243056" text-anchor="middle" font-family="Arial" font-size="9" fill="white">House</text>
+  <line x1="300" y1="136.5" x2="384.3792415317148" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="384.3792415317148" y1="136.5" x2="300" y2="226.9558670707047" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="226.9558670707047" x2="195.27735530398786" y2="136.5" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <line x1="195.27735530398786" y1="136.5" x2="300" y2="49.686160987243056" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+</svg>

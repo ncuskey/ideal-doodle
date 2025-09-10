@@ -11,7 +11,7 @@ export type RenderedBurg = {
   heraldry_path?: string; tags?: string[]; economy_roles?: string[]; problems?: string[];
   religion_presence?: string[]; culture_notes?: string[];
   overlay?: BurgOverlay | null;
-  maps?: { city_svg_path?: string; village_svg_path?: string; city_seed?: string; village_seed?: string } | null;
+  maps?: { city_svg_path?: string; village_svg_path?: string; city_seed?: string; village_seed?: string; watabou_url?: string } | null;
   generated_at: string;
 };
 export type RenderedState = {

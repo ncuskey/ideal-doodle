@@ -45,18 +45,25 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run heraldry:gen:burgs        # Generate burg heraldry only
    ```
 
-7. **Generate Rich Lore**
+7. **Generate Watabou Maps** (City & Village Maps)
+   ```bash
+   npm run canon:watabou:links       # Generate Watabou URLs for all burgs
+   npm run canon:watabou:assets      # Generate SVG maps for all burgs
+   npm run prepare:assets            # Copy assets to public directory
+   ```
+
+8. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-8. **Build Catalog**
+9. **Build Catalog**
    ```bash
    npm run catalog:build  # Create compact UI index
    ```
 
-9. **View Results**
+10. **View Results**
    ```bash
    # Option 1: Next.js Lore UI (Modern React Dashboard)
    npm run next:dev
@@ -100,6 +107,10 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Generate state heraldry**: `npm run heraldry:gen:states`
 - **Generate province heraldry**: `npm run heraldry:gen:provinces`
 - **Generate burg heraldry**: `npm run heraldry:gen:burgs`
+
+### Watabou Map Generation (City & Village Maps)
+- **Generate Watabou links**: `npm run canon:watabou:links`
+- **Generate SVG assets**: `npm run canon:watabou:assets`
 
 ### Rich Lore Generation
 - **Generate rich state lore**: `npm run lore:state:full -- --id=ID`
@@ -213,10 +224,13 @@ canon/              # Canon outlines (two-pass foundation)
     └── quests/     # Quest activation events
 
 assets/             # Generated assets
-└── heraldry/       # Armoria-generated coat of arms
-    ├── state/      # State heraldry (SVG files)
-    ├── province/   # Province heraldry (SVG files)
-    └── burg/       # Burg heraldry (SVG files)
+├── heraldry/       # Armoria-generated coat of arms
+│   ├── state/      # State heraldry (SVG files)
+│   ├── province/   # Province heraldry (SVG files)
+│   └── burg/       # Burg heraldry (SVG files)
+└── watabou/        # Watabou-generated city & village maps
+    ├── city/       # City maps (SVG files)
+    └── village/    # Village maps (SVG files)
 
 index/              # LLM-optimized data
 ├── promptFacts/    # Compact fact packs
@@ -229,6 +243,8 @@ index/              # LLM-optimized data
 ├── markers.json    # Marker index (Chalkvish Obelisk, Gneab Pillar, etc.)
 ├── link_suggestions.json # Cross-link suggestions (affinities + hook placements)
 ├── heraldry_map.json # Heraldry index (states, provinces, burgs → SVG paths)
+├── watabou_links.json # Watabou URLs for all burgs (city/village generator links)
+├── watabou_map.json # Watabou SVG assets index (burgs → SVG paths)
 ├── dirty.seeds.json # Event-driven change seeds
 ├── dirty.json      # Current dirty entities for regeneration
 ├── validate-summary.json # Validation results
@@ -288,7 +304,7 @@ A comprehensive, production-ready React application for exploring and managing y
 - **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
 - **States Management**: Browse all states with economy, culture, and overlay information
 - **Provinces Explorer**: Complete province information with economy niches and burg listings
-- **Burgs Explorer**: Complete burg information with heraldry, overlays, and active hooks
+- **Burgs Explorer**: Complete burg information with heraldry, overlays, active hooks, and Watabou maps
 - **Markers Index**: View all mysterious markers with legend text and runes
 - **Hooks System**: Accept hook suggestions and activate quest chains
 - **Events Pipeline**: Plan and apply player actions with real-time effects
@@ -410,6 +426,14 @@ open http://localhost:3002
 - **Multiple formats**: SVG (preferred) and PNG support
 - **Environment configuration**: ARMORIA_BASE, HERALDRY_FORMAT, HERALDRY_SIZE, HERALDRY_CONCURRENCY
 
+### Watabou Map Integration
+- **Deterministic URLs**: Stable Watabou generator links with proper parameters
+- **SVG Asset Generation**: High-quality vector maps for cities and villages
+- **Smart Classification**: Cities vs villages based on population and features
+- **Feature-Aware**: Includes citadel, walls, temple, plaza, and other burg features
+- **UI Integration**: Seamless display in burg pages with fallback to Watabou links
+- **Asset Management**: Automatic copying to public directory for deployment
+
 ### Structured Outputs
 - Uses OpenAI **Chat Completions API** with **json_schema** response_format
 - Enforced JSON structure with validation
@@ -502,6 +526,14 @@ npm run heraldry:gen               # Generate all heraldry (states, provinces, b
 npm run heraldry:gen:states        # Generate state heraldry only
 npm run heraldry:gen:provinces     # Generate province heraldry only
 npm run heraldry:gen:burgs         # Generate burg heraldry only
+```
+
+**Watabou Map Generation:**
+```bash
+npm run canon:watabou:links        # Generate Watabou URLs for all burgs
+npm run canon:watabou:assets       # Generate SVG maps for all burgs
+npm run prepare:assets             # Copy assets to public directory
+npm run render:dirty               # Update rendered burgs with map paths
 ```
 
 **Rich Lore Generation:**
