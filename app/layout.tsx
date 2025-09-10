@@ -16,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex gap-3 text-sm">
               <a className="hover:underline" href="/">Dashboard</a>
               <a className="hover:underline" href="/states">States</a>
+              <a className="hover:underline" href="/provinces">Provinces</a>
               <a className="hover:underline" href="/burgs">Burgs</a>
               <a className="hover:underline" href="/markers">Markers</a>
               <a className="hover:underline" href="/hooks">Hooks</a>

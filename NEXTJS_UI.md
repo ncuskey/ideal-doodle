@@ -26,7 +26,15 @@ This application has been updated to be fully compatible with Next.js 15, includ
 - **Heraldry Display**: Coat of arms for each state
 - **Economy Information**: Economic pillars and trade data
 - **Overlay Status**: Trade multipliers and law enforcement status
+- **Provinces Section**: Lists all provinces within each state
 - **State Details**: Click any state to view detailed information
+
+### 🏞️ Provinces (`/provinces`)
+- **Province List**: Browse all provinces with state and burg count information
+- **Province Details**: Click any province to view detailed information
+- **Economy Niches**: Detailed economic information for each province
+- **Burg Listings**: Shows burgs associated with each province
+- **Breadcrumb Navigation**: Clear navigation context from states to provinces
 
 ### 🏘️ Burgs (`/burgs`)
 - **Burg List**: Browse all burgs with search functionality
@@ -91,6 +99,9 @@ app/
 ├── states/
 │   ├── page.tsx              # States list page
 │   └── [id]/page.tsx         # State detail page
+├── provinces/
+│   ├── page.tsx              # Provinces list page
+│   └── [key]/page.tsx        # Province detail page
 ├── burgs/
 │   ├── page.tsx              # Burgs list page
 │   └── [id]/page.tsx         # Burg detail page

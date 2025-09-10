@@ -61,7 +61,7 @@ A comprehensive world-building system that generates rich lore for fantasy world
    # Option 1: Next.js Lore UI (Modern React Dashboard)
    npm run next:dev
    # Open http://localhost:3000
-   # Features: Dashboard, States, Burgs, Markers, Hooks, Events, QA
+   # Features: Dashboard, States, Provinces, Burgs, Markers, Hooks, Events, QA
    
    # Option 2: Express Dashboard (Full Pipeline Control)
    npm run server
@@ -287,6 +287,7 @@ A comprehensive, production-ready React application for exploring and managing y
 - **Next.js 15 Compatible**: Updated for Next.js 15's async params and searchParams
 - **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
 - **States Management**: Browse all states with economy, culture, and overlay information
+- **Provinces Explorer**: Complete province information with economy niches and burg listings
 - **Burgs Explorer**: Complete burg information with heraldry, overlays, and active hooks
 - **Markers Index**: View all mysterious markers with legend text and runes
 - **Hooks System**: Accept hook suggestions and activate quest chains
@@ -294,6 +295,8 @@ A comprehensive, production-ready React application for exploring and managing y
 - **QA Operations**: Build overlays, render dirty entities, and manage pipeline state
 - **Heraldry Display**: Shows coat of arms from generated SVG assets
 - **Overlay Pills**: Population, trade, law enforcement, and damage status indicators
+- **Click-through Navigation**: States → Provinces → Burgs → Burg Detail
+- **Asset Management**: Automatic SVG asset copying for deployment
 - **Responsive Design**: Works perfectly on desktop and mobile
 - **API Integration**: Secure CLI integration through whitelisted npm scripts
 - **Real-time Updates**: Live data from your pipeline outputs
@@ -302,7 +305,7 @@ A comprehensive, production-ready React application for exploring and managing y
 ```bash
 npm run next:dev
 # Open http://localhost:3000
-# Navigate to: Dashboard, States, Burgs, Markers, Hooks, Events, QA
+# Navigate to: Dashboard, States, Provinces, Burgs, Markers, Hooks, Events, QA
 ```
 
 ### Lore Explorer (HTML Dashboard)
@@ -615,7 +618,7 @@ npm run catalog:build  # Create compact UI index
 # Option 1: Next.js Lore UI (Modern React Dashboard)
 npm run next:dev
 # Open http://localhost:3000
-# Features: Dashboard, States, Burgs, Markers, Hooks, Events, QA
+# Features: Dashboard, States, Provinces, Burgs, Markers, Hooks, Events, QA
 
 # Option 2: Express Dashboard (Full Pipeline Control)
 npm run server

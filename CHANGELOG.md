@@ -1,5 +1,37 @@
 # Changelog
 
+## [2025-01-09] - SVG Asset Loading & Provinces Navigation
+
+### 🎨 New Features
+- **Provinces Navigation**: Added complete click-through layering (States → Provinces → Burgs → Burg Detail)
+- **Provinces List Page**: Browse all provinces with state and burg count information
+- **Province Detail Pages**: Detailed province information with economy niches and burg listings
+- **Enhanced State Pages**: Added provinces section to state detail pages
+- **Breadcrumb Navigation**: Clear navigation context throughout the site
+
+### 🔧 Build & Deployment Fixes
+- **SVG Asset Loading**: Fixed SVG loading issue for Netlify deployments
+- **Asset Management**: Created `scripts/prepareAssets.cjs` for automatic asset copying during build
+- **Build Process**: Updated `next:build` to include asset preparation step
+- **Symlink Resolution**: Properly handles symlinks in asset copying process
+
+### 🏗️ Technical Improvements
+- **Dynamic Routes**: Added `export const dynamic = "force-dynamic"` for proper SSR
+- **Next.js 15 Compatibility**: Fixed async params pattern for province detail pages
+- **Navigation Updates**: Added "Provinces" link to main navigation
+- **URL Structure**: Uses `stateId~provinceSlug` format for province URLs
+
+### 📚 Documentation Updates
+- Updated `README.md` with provinces navigation features
+- Updated `NEXTJS_UI.md` with new provinces section
+- Added comprehensive changelog documentation
+
+### ✅ Production Ready
+- **Netlify Deployment**: SVG assets now load correctly in production
+- **Complete Navigation**: Full click-through experience from states to burgs
+- **Asset Management**: Automatic asset copying during build process
+- **Responsive Design**: Works perfectly on all screen sizes
+
 ## [2025-01-09] - Netlify Build Fix
 
 ### 🔧 Build Fixes

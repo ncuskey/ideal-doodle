@@ -104,11 +104,32 @@ LoreGen/
 │   └── lore.state.full.schema.json        # Rich state lore schema
 ├── app/                    # Next.js App Router application
 │   ├── layout.tsx         # Root layout with global styles
-│   ├── page.tsx           # Home page with navigation links
+│   ├── page.tsx           # Dashboard page with navigation links
 │   ├── globals.css        # Tailwind CSS global styles
-│   └── burgs/             # Burg viewer pages
-│       └── [id]/          # Dynamic burg detail pages
-│           └── page.tsx   # Burg detail page with heraldry, overlays, hooks, markers
+│   ├── burgs/             # Burg viewer pages
+│   │   ├── page.tsx       # Burg list page with search
+│   │   └── [id]/          # Dynamic burg detail pages
+│   │       └── page.tsx   # Burg detail page with heraldry, overlays, hooks, markers
+│   ├── states/            # State viewer pages
+│   │   ├── page.tsx       # State list page with search
+│   │   └── [id]/          # Dynamic state detail pages
+│   │       └── page.tsx   # State detail page with heraldry, overlays, economy
+│   ├── markers/           # Marker viewer page
+│   │   └── page.tsx       # Marker cards with legend text and runes
+│   ├── hooks/             # Hook management page
+│   │   └── page.tsx       # Hook suggestions and activation
+│   ├── events/            # Event management page
+│   │   └── page.tsx       # Event planning and application
+│   ├── qa/                # QA and debug page
+│   │   └── page.tsx       # Pipeline control and debugging
+│   └── api/               # API routes for CLI integration
+│       ├── hooks/accept/route.ts    # Accept hook suggestions
+│       ├── quests/activate/route.ts # Activate quest chains
+│       ├── events/plan/route.ts     # Plan event effects
+│       ├── events/apply/route.ts    # Apply event effects
+│       └── ops/                    # Operations API routes
+│           ├── overlays/build/route.ts # Build world state overlays
+│           └── render/dirty/route.ts   # Render dirty entities
 ├── public/                # Static assets (Next.js)
 │   └── assets/            # Symlinked to ../assets for heraldry access
 ├── next.config.js         # Next.js configuration
@@ -120,8 +141,22 @@ LoreGen/
 ├── pipeline-runner.html    # Legacy HTML pipeline runner
 ├── .env                    # Environment variables (API keys)
 └── src/                    # Source code
+    ├── cli.ts              # CLI entry point
+    ├── server.ts           # Express server for API endpoints
     ├── types/              # TypeScript types
     │   └── core.ts         # Core interfaces (WorldFacts, StateFacts, BurgFacts)
+    ├── components/         # React UI components
+    │   ├── DataTable.tsx   # Client-side table with search functionality
+    │   ├── HeraldryBadge.tsx # Coat of arms display component
+    │   ├── HookBadge.tsx   # Hook status display component
+    │   ├── HookList.tsx    # Hook instances list component
+    │   ├── MarkerCard.tsx  # Marker information card component
+    │   └── OverlayPills.tsx # Status indicator pills component
+    ├── lib/                # Utility libraries
+    │   ├── fsjson.ts       # File system JSON utilities
+    │   ├── paths.ts        # Path configuration and constants
+    │   ├── run.ts          # CLI script execution with whitelist
+    │   └── types.ts        # TypeScript type definitions for UI
     ├── ingest/             # Data ingestion
     │   ├── azgaar.ts       # Azgaar loader & fact extractors with rich accessors
     │   └── canonicalNames.ts # Canonical name mapping from master JSON
@@ -136,7 +171,8 @@ LoreGen/
     │   ├── hash.ts         # SHA-256 hashing
     │   ├── cacheKey.ts     # Cache key generation
     │   ├── regenGuard.ts   # Regeneration guard
-    │   └── abort.ts        # Abort control utilities
+    │   ├── abort.ts        # Abort control utilities
+    │   └── usage.ts        # Usage tracking and cost estimation
     ├── graph/              # Graph operations
     │   ├── dag.ts          # Graph data structures
     │   └── dirty.ts        # Dirty propagation (affected nodes)
@@ -159,38 +195,46 @@ LoreGen/
     │   └── md/             # Markdown viewers
     │       ├── burgMd.ts   # Burg markdown generation
     │       └── stateMd.ts  # State markdown generation
+    ├── tests/              # Test files
+    │   └── hash.test.ts    # Hash function tests
     └── pipelines/          # Main pipelines
-        ├── buildFacts.ts       # Extract facts from Azgaar
-        ├── buildDerived.ts     # Compute derived statistics
-        ├── buildPromptPacks.ts # Create LLM-optimized fact packs
-        ├── buildGraph.ts       # Build dependency DAG
+        ├── abort.ts            # Pipeline abort control
+        ├── abortClear.ts       # Clear abort flag
+        ├── applyEvents.ts      # Apply events to facts
         ├── buildCatalog.ts     # Build UI catalog (kingdoms + burgs)
+        ├── buildDerived.ts     # Compute derived statistics
+        ├── buildFacts.ts       # Extract facts from Azgaar
+        ├── buildGraph.ts       # Build dependency DAG
         ├── buildLinkSuggestions.ts # Build cross-link suggestions (facts-based)
-        ├── crossLinkSuggest.ts  # Generate cross-link suggestions (canon-based)
         ├── buildMarkerIndex.ts  # Build marker index from Azgaar JSON
-        ├── canonWorldOutline.ts      # Generate world canon outline
-        ├── canonInterstateOutline.ts # Generate inter-state outline
-        ├── canonStateOutline.ts      # Generate state outlines
-        ├── canonProvinceOutline.ts   # Generate province outlines (synthetic from state regions)
+        ├── buildPromptPacks.ts # Create LLM-optimized fact packs
         ├── canonBurgOutline.ts       # Generate burg outlines (from fact data)
-        ├── genHeraldry.ts            # Generate heraldry (Armoria integration)
+        ├── canonInterstateOutline.ts # Generate inter-state outline
+        ├── canonProvinceOutline.ts   # Generate province outlines (synthetic from state regions)
+        ├── canonStateOutline.ts      # Generate state outlines
+        ├── canonWorldOutline.ts      # Generate world canon outline
+        ├── crossLinkSuggest.ts  # Generate cross-link suggestions (canon-based)
+        ├── eventsApply.ts      # Apply effects to world state
+        ├── eventsPlan.ts       # Plan effects for player actions via LLM
+        ├── eventsRollback.ts   # Rollback applied effects
+        ├── genAllBurgLoreFull.ts # Generate all burg lore (parallel)
+        ├── genAllStateLoreFull.ts # Generate all state lore (parallel)
         ├── genBurgLore.ts      # Generate burg lore (full quality)
-        ├── genStateLore.ts     # Generate state lore (full quality)
         ├── genBurgLoreFull.ts  # Generate rich burg lore
-        ├── genStateLoreFull.ts # Generate rich state lore
         ├── genBurgSummaries.ts # Batch burg summaries (efficient)
+        ├── genHeraldry.ts            # Generate heraldry (Armoria integration)
+        ├── genStateLore.ts     # Generate state lore (full quality)
+        ├── genStateLoreFull.ts # Generate rich state lore
+        ├── hooksAccept.ts      # Accept hook suggestions and materialize instances
+        ├── overlaysFromState.ts # Build overlays from world state
+        ├── questsActivate.ts   # Activate quest chains with sibling suppression
         ├── refreshBurgHooks.ts # Refresh burg hooks only (cheap)
         ├── refreshStateHooks.ts # Refresh state hooks only (cheap)
-        ├── applyEvents.ts      # Apply events to facts
         ├── regenDirty.ts       # Dirty regeneration pipeline
-        ├── hooksAccept.ts      # Accept hook suggestions and materialize instances
-        ├── questsActivate.ts   # Activate quest chains with sibling suppression
-        ├── eventsPlan.ts       # Plan effects for player actions via LLM
-        ├── eventsApply.ts      # Apply effects to world state
-        ├── eventsRollback.ts   # Rollback applied effects
-        ├── overlaysFromState.ts # Build overlays from world state
         ├── renderDirty.ts      # Render UI-ready JSON from overlays
-        └── renderMarkdown.ts   # Generate markdown viewers
+        ├── renderMarkdown.ts   # Generate markdown viewers
+        ├── validateAllLore.ts  # Validate all lore files
+        └── validateSubset.ts   # Validate subset of lore files
 ```
 
 ## Key Components
@@ -247,6 +291,13 @@ LoreGen/
 - **Hash Generation**: `cacheKeyForEntity()` computes deterministic hashes
 - **Regeneration Guard**: `shouldRegen()` skips when hash matches
 - **Dirty Propagation**: `affectedBy()` finds nodes needing regeneration
+
+### Usage Tracking System
+- **Cost Estimation**: Real-time cost calculation for OpenAI API usage
+- **Usage Logging**: NDJSON logs in `index/runs/` with timestamps and token counts
+- **Model Pricing**: Configurable pricing via environment variables (GPT5_INPUT_USD, GPT5_OUTPUT_USD, etc.)
+- **Entity Tracking**: Links usage to specific entities (states, burgs) and operation types
+- **Daily Logs**: Separate log files per day for easy analysis
 
 ### Validation
 - **Schema Compliance**: JSON schemas enforce structure
@@ -364,17 +415,48 @@ DRY_RUN=1 NODE_OPTIONS=--require=./src/qa/patchDryRun.js npm run canon:burg:outl
 LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
 ```
 
-### Next.js Burg Viewer
+### Next.js UI Dashboard
 ```bash
 npm run next:dev                                # Start development server
 npm run next:build                              # Build for production
 npm run next:start                              # Start production server
 
-# Access burg viewer at http://localhost:3000/burgs/[id]
-# Example: http://localhost:3000/burgs/1
+# Access dashboard at http://localhost:3000
+# Features:
+# - Dashboard: Overview with dirty queue, heraldry count, hook instances
+# - States: Browse all states with search and heraldry display
+# - Burgs: Browse all burgs with search and heraldry display
+# - Markers: View mysterious markers with legend text and runes
+# - Hooks: Manage hook suggestions and activation
+# - Events: Plan and apply event effects
+# - QA: Pipeline control and debugging tools
 ```
 
-### Unified Dashboard
+### Next.js UI Architecture
+
+The Next.js UI provides a modern, production-ready interface for the LoreGen system:
+
+#### Component Architecture
+- **Server Components**: Data fetching and server-side rendering for performance
+- **Client Components**: Interactive features with minimal JavaScript
+- **Shared Components**: Reusable UI components across all pages
+- **API Routes**: Secure CLI integration with whitelisted script execution
+
+#### Key Features
+- **Dashboard**: Overview with dirty queue, heraldry count, and hook instances
+- **State Management**: Browse states with search, heraldry display, and economy information
+- **Burg Explorer**: Browse burgs with search, heraldry display, and overlay status
+- **Marker Viewer**: Visual cards showing mysterious markers with legend text and runes
+- **Hook Management**: Accept hook suggestions and activate quest chains
+- **Event System**: Plan and apply event effects with pipeline integration
+- **QA Tools**: Pipeline control, debugging, and validation tools
+
+#### Security Features
+- **Whitelisted Scripts**: Only approved npm scripts can be executed via API
+- **Server-side Execution**: All CLI commands run on the server
+- **No Shell Injection**: Prevents arbitrary command execution
+
+### Unified Dashboard (Legacy)
 ```bash
 # Open unified dashboard in browser
 open loregen-dashboard.html
@@ -382,7 +464,7 @@ open loregen-dashboard.html
 python3 -m http.server 8000
 ```
 
-**Dashboard Features:**
+**Legacy Dashboard Features:**
 - **Test Suite**: 19 tests across 5 categories (utilities, validation, pipelines, events, integration)
 - **Pipeline Runner**: Three modes - simulated, real execution, and full world pipeline with concurrency control
 - **Scope Selection**: Choose between All/One/Dirty execution modes
@@ -410,6 +492,7 @@ Intelligent model selection for cost optimization:
 
 ## Dependencies
 
+### Core Dependencies
 - **OpenAI**: GPT-5 models with structured outputs
 - **dotenv**: Environment variable management
 - **TypeScript**: ES2022 modules
@@ -418,7 +501,23 @@ Intelligent model selection for cost optimization:
 - **cross-env**: Cross-platform environment variable support
 - **p-limit**: Concurrency control for parallel operations
 - **ajv**: JSON schema validation for QA utilities
-- **Next.js**: React framework for burg viewer UI
-- **React**: UI library for burg viewer components
+- **express**: HTTP server for API endpoints
+- **zod**: Runtime type validation
+- **zustand**: State management for React components
+
+### Next.js UI Dependencies
+- **Next.js 15**: React framework with App Router and async params support
+- **React 19**: UI library with latest features and performance improvements
+- **React DOM**: React rendering for web
 - **Tailwind CSS**: Utility-first CSS framework for styling
 - **@tailwindcss/postcss**: PostCSS plugin for Tailwind CSS
+- **autoprefixer**: CSS vendor prefixing
+- **postcss**: CSS processing
+- **lucide-react**: Icon library for UI components
+
+### Development Dependencies
+- **tsx**: TypeScript execution for development
+- **@types/node**: Node.js type definitions
+- **@types/react**: React type definitions
+- **@types/react-dom**: React DOM type definitions
+- **@types/express**: Express type definitions
