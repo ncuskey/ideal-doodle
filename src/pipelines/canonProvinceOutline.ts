@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
-import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { openai, withRateLimitRetry } from "../gen/openaiClient";
 import { buildNameMaps } from "../ingest/canonicalNames";
 
 type J = any;
@@ -102,7 +102,7 @@ function buildPrompt(ctx: ReturnType<typeof gather>, s: {id:number; name:string;
     "Keep it tight; no paragraphs."
   ].join("\n");
 
-  return { sys, user: { role: "user", content: [{ type: "text", text }] as const } };
+  return { sys, user: { role: "user" as const, content: text } };
 }
 
 async function main() {
@@ -166,9 +166,9 @@ async function main() {
     const model = process.env.LORE_OUTLINE_MODEL || "gpt-5-mini";
 
     const res = await withRateLimitRetry(() =>
-      client.chat.completions.create({
+      openai.chat.completions.create({
         model,
-        messages: [{ role: "system", content: sys }, user],
+        messages: [{ role: "system" as const, content: sys }, user],
         response_format: { type: "json_schema", json_schema: { name: "province_outline", schema } }
       })
     );

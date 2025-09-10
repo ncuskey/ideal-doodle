@@ -284,6 +284,7 @@ schemas/            # JSON schemas
 A comprehensive, production-ready React application for exploring and managing your world:
 
 - **Modern UI**: Built with Next.js 15, React 19, and Tailwind CSS
+- **Next.js 15 Compatible**: Updated for Next.js 15's async params and searchParams
 - **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
 - **States Management**: Browse all states with economy, culture, and overlay information
 - **Burgs Explorer**: Complete burg information with heraldry, overlays, and active hooks

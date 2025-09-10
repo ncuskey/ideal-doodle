@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 import fs from "node:fs";
 import path from "node:path";
-import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { openai, withRateLimitRetry } from "../gen/openaiClient";
 
 type J = any;
 const readJson = <T=any>(p: string): T | null => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return null; } };
@@ -69,7 +69,7 @@ function buildPrompt(action: J, ctx: ReturnType<typeof loadCtx>) {
     "Do not invent new global lore. Keep it local unless justified by magnitude."
   ].join("\n");
 
-  return { sys, user: { role: "user", content: [{ type: "text", text }] as const } };
+  return { sys, user: { role: "user" as const, content: text } };
 }
 
 async function main() {
@@ -101,9 +101,9 @@ async function main() {
     const model = process.env.LORE_OUTLINE_MODEL || "gpt-5-mini";
 
     const res = await withRateLimitRetry(() =>
-      client.chat.completions.create({
+      openai.chat.completions.create({
         model,
-        messages: [{ role: "system", content: sys }, user],
+        messages: [{ role: "system" as const, content: sys }, user],
         response_format: { type: "json_schema", json_schema: { name: "effects_bundle", schema } }
       })
     );

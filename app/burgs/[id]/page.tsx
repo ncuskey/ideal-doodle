@@ -9,8 +9,9 @@ import { MarkerIndex, RenderedBurg } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-export default async function BurgPage({ params }: { params: { id: string } }) {
-  const id = Number(params.id);
+export default async function BurgPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id: idParam } = await params;
+  const id = Number(idParam);
   const r = await readJson<RenderedBurg>(dirs.rendered(`burg/${id}.json`));
   const markers = await readJson<MarkerIndex>(dirs.index("markers.json")).catch(() => ({ markers: [] }));
   const nearby = markers.markers.filter(m => (m.near_burg_ids_hint || []).includes(id));

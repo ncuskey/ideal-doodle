@@ -7,6 +7,7 @@
 1. **Netlify Account**: Sign up at [netlify.com](https://netlify.com)
 2. **GitHub Repository**: Your LoreGen project should be in a GitHub repository
 3. **OpenAI API Key**: Added to Netlify secrets as `OPENAI_API_KEY`
+4. **Next.js 15 Compatibility**: All TypeScript errors resolved for Next.js 15 deployment
 
 ### Deployment Steps
 
@@ -117,8 +118,9 @@ These routes require the LoreGen CLI to be available in the deployment environme
 #### Build Failures
 
 1. **Missing Dependencies**: Ensure all dependencies are in `package.json`
-2. **TypeScript Errors**: Fix any TypeScript compilation errors
+2. **TypeScript Errors**: Fix any TypeScript compilation errors (Next.js 15 compatibility resolved)
 3. **Missing Data**: Ensure required data files exist
+4. **Next.js 15 Issues**: All async params and type issues have been resolved
 
 #### Runtime Issues
 

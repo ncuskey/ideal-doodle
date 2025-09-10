@@ -9,7 +9,7 @@ const readJson = <T=any>(p:string):T|null=>{try{return JSON.parse(fs.readFileSyn
 function isDir(p:string) { try { return fs.statSync(p).isDirectory(); } catch { return false; } }
 function listJson(p:string){ return fs.readdirSync(p).filter(f=>f.endsWith(".json")).map(f=>path.join(p,f)); }
 
-function normalize(obj:any, ignore:Set<string>){
+function normalize(obj:any, ignore:Set<string>): any {
   if (obj === null || typeof obj !== "object") return obj;
   if (Array.isArray(obj)) return obj.map(x=>normalize(x, ignore));
   const out:any = {};

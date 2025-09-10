@@ -4,8 +4,9 @@ import HeraldryBadge from "@/components/HeraldryBadge";
 import OverlayPills from "@/components/OverlayPills";
 import { RenderedState } from "@/lib/types";
 
-export default async function StatePage({ params }: { params: { id: string } }) {
-  const id = Number(params.id);
+export default async function StatePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id: idParam } = await params;
+  const id = Number(idParam);
   const r = await readJson<RenderedState>(dirs.rendered(`state/${id}.json`));
   const law = r.overlay?.law_enforcement?.status || null;
 

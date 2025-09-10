@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
-import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { openai, withRateLimitRetry } from "../gen/openaiClient";
 import { buildNameMaps } from "../ingest/canonicalNames";
 
 type Json = any;
@@ -107,7 +107,7 @@ function buildPromptForState(g: ReturnType<typeof gatherBasics>, s: {id:number;n
 
   return {
     sys,
-    user: { role: "user", content: [{ type: "text", text }] as const }
+    user: { role: "user" as const, content: text }
   };
 }
 
@@ -133,9 +133,9 @@ async function generateOne(g: ReturnType<typeof gatherBasics>, s: {id:number;nam
   const model = process.env.LORE_OUTLINE_MODEL || "gpt-5-mini";
 
   const res = await withRateLimitRetry(() =>
-    client.chat.completions.create({
+    openai.chat.completions.create({
       model,
-      messages: [{ role: "system", content: sys }, user],
+        messages: [{ role: "system" as const, content: sys }, user],
       response_format: { type: "json_schema", json_schema: { name: "state_outline", schema } }
     })
   );

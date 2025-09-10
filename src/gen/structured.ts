@@ -1,4 +1,4 @@
-import { client, withRateLimitRetry } from "./openaiClient.js";
+import { openai, withRateLimitRetry } from "./openaiClient.js";
 import fs from "fs/promises";
 import { logUsage, estimateCostUSD } from "../util/usage.js";
 
@@ -11,7 +11,7 @@ export async function generateStructured<T>(
 ): Promise<T> {
   const json_schema = JSON.parse(await fs.readFile(schemaPath,"utf8"));
   const res = await withRateLimitRetry(() =>
-    client.chat.completions.create({
+    openai.chat.completions.create({
       model,
       messages: [
         { role: "system", content: system },

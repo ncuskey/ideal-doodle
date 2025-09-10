@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 import fs from "node:fs";
 import path from "node:path";
-import { client, withRateLimitRetry } from "../gen/openaiClient";
+import { openai, withRateLimitRetry } from "../gen/openaiClient";
 
 // ===== Helpers =====
 const readJson = <T=any>(p: string): T | null => {
@@ -65,12 +65,8 @@ function buildPrompt(ctx: ReturnType<typeof gatherWorldContext>) {
   ].join(" ");
 
   const user = {
-    role: "user",
-    content: [
-      {
-        type: "text",
-        text:
-`Build a WORLD CANON OUTLINE (not full lore) for the map.
+    role: "user" as const,
+    content: `Build a WORLD CANON OUTLINE (not full lore) for the map.
 
 World facts (minimal):
 - World name: ${ctx.worldName}
@@ -89,9 +85,7 @@ Requirements:
 - Do NOT write prose paragraphs. Lists only. Use safe placeholders when fact is unknown.
 
 Schema is attached via response_format.`
-      }
-    ]
-  } as const;
+  };
 
   return { sys, user };
 }
@@ -121,10 +115,10 @@ async function main() {
   const model = process.env.LORE_OUTLINE_MODEL || "gpt-5-mini";
 
   const res = await withRateLimitRetry(() =>
-    client.chat.completions.create({
+    openai.chat.completions.create({
       model,
       messages: [
-        { role: "system", content: sys },
+        { role: "system" as const, content: sys },
         user
       ],
       response_format: {

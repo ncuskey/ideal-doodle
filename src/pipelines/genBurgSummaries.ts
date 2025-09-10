@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
-import { MODEL_SUMMARY } from "../gen/openaiClient.js";
+// Removed MODEL_SUMMARY import - using environment variable instead
 
 async function readJson(p:string){ return JSON.parse(await fs.readFile(p,"utf8")); }
 
@@ -13,7 +13,7 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.schema.json",
-    MODEL_SUMMARY
+    process.env.LORE_SUMMARY_MODEL || "gpt-4o-mini"
   );
   console.log("Batch done. (You can extend to write files individually.)");
 }

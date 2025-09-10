@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
-import { MODEL_FULL } from "../gen/openaiClient.js";
+// Removed MODEL_FULL import - using environment variable instead
 import { cacheKeyForEntity } from "../util/cacheKey.js";
 import { shouldRegen } from "../util/regenGuard.js";
 
@@ -25,7 +25,7 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.full.schema.json",
-    MODEL_FULL,
+    process.env.LORE_FULL_MODEL || "gpt-4o",
     { kind: "burg-full", entity: { type:"burg", id } }
   );
   lore.hashOfInputs = hash;

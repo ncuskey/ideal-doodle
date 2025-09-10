@@ -4,6 +4,15 @@
 
 The Next.js Lore UI is a production-ready React application built with Next.js 15, React 19, and Tailwind CSS. It provides a comprehensive dashboard for exploring and managing your LoreGen world data.
 
+## Next.js 15 Compatibility
+
+This application has been updated to be fully compatible with Next.js 15, including:
+
+- **Async Params**: Dynamic route parameters (`params`) are now properly handled as Promises
+- **Type Safety**: All TypeScript errors resolved for Next.js 15's stricter type checking
+- **OpenAI Client**: Updated imports and usage patterns for the latest OpenAI SDK
+- **Message Format**: Fixed OpenAI API message format to use proper TypeScript types
+
 ## Features
 
 ### 🏠 Dashboard (`/`)
@@ -55,7 +64,7 @@ The Next.js Lore UI is a production-ready React application built with Next.js 1
 ## Technical Architecture
 
 ### Framework Stack
-- **Next.js 15**: App Router with server and client components
+- **Next.js 15**: App Router with server and client components (async params support)
 - **React 19**: Latest React features and performance improvements
 - **TypeScript**: Full type safety throughout the application
 - **Tailwind CSS**: Utility-first CSS framework for styling

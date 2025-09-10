@@ -3,7 +3,7 @@ import { cacheKeyForEntity } from "../util/cacheKey.js";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
 import { shouldRegen } from "../util/regenGuard.js";
-import { MODEL_FULL } from "../gen/openaiClient.js";
+// Removed MODEL_FULL import - using environment variable instead
 
 async function readJson(p:string){ return JSON.parse(await fs.readFile(p,"utf8")); }
 
@@ -32,7 +32,7 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.schema.json",
-    MODEL_FULL
+    process.env.LORE_FULL_MODEL || "gpt-4o"
   );
   lore.hashOfInputs = hash;
   await fs.mkdir("lore/burg", { recursive: true });

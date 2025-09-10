@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { generateStructured } from "../gen/structured.js";
 import { SYSTEM_BURG } from "../gen/systemPrompts.js";
-import { MODEL_CHEAP } from "../gen/openaiClient.js";
+// Removed MODEL_CHEAP import - using environment variable instead
 import { cacheKeyForEntity } from "../util/cacheKey.js";
 
 type BurgLore = {
@@ -50,7 +50,7 @@ async function main() {
     SYSTEM_BURG,
     payload,
     "schemas/lore.burg.schema.json",
-    MODEL_CHEAP,
+    process.env.LORE_CHEAP_MODEL || "gpt-4o-mini",
     { kind: "burg-hooks", entity: { type:"burg", id } }
   );
 
