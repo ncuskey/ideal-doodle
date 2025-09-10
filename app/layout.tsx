@@ -1,31 +1,24 @@
-import "./globals.css";
-import { Metadata } from "next";
+import './globals.css';
+import { Metadata } from 'next';
+import NavBar from '@/components/NavBar';
+import { ToastProvider } from '@/components/ui/Toast';
 
-export const metadata: Metadata = {
-  title: "Lore UI",
-  description: "Worldbuilder GM dashboard"
-};
+export const metadata: Metadata = { title: 'Lore UI', description: 'Worldbuilder GM dashboard' };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-zinc-50 text-zinc-900 antialiased">
-        <div className="mx-auto max-w-7xl p-6 md:p-10 space-y-8">
-          <header className="flex items-center justify-between">
-            <h1 className="text-xl font-bold tracking-tight">Lore UI</h1>
-            <nav className="flex gap-3 text-sm">
-              <a className="hover:underline" href="/">Dashboard</a>
-              <a className="hover:underline" href="/states">States</a>
-              <a className="hover:underline" href="/provinces">Provinces</a>
-              <a className="hover:underline" href="/burgs">Burgs</a>
-              <a className="hover:underline" href="/markers">Markers</a>
-              <a className="hover:underline" href="/hooks">Hooks</a>
-              <a className="hover:underline" href="/events">Events</a>
-              <a className="hover:underline" href="/qa">QA</a>
-            </nav>
-          </header>
-          {children}
-        </div>
+      <body className="min-h-screen bg-[var(--bg)] text-[var(--ink)] antialiased">
+        <a href="#content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 rounded bg-white px-3 py-2 shadow">Skip to content</a>
+        <ToastProvider>
+          <div className="mx-auto max-w-7xl p-6 md:p-10 space-y-8">
+            <header className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <h1 className="text-xl font-bold tracking-tight">Lore UI</h1>
+              <NavBar/>
+            </header>
+            <main id="content">{children}</main>
+          </div>
+        </ToastProvider>
       </body>
     </html>
   );

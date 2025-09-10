@@ -2,11 +2,12 @@
 "use client";
 import { useMemo, useState } from "react";
 
-export default function DataTable<T>({ rows, columns, searchKeys = [], placeholder = "Search..." }: {
+export default function DataTable<T>({ rows, columns, searchKeys = [], placeholder = "Search...", caption }: {
   rows: T[];
   columns: Array<{ key: keyof T | string; header: string; render?: string }>;
   searchKeys?: Array<keyof T | string>;
   placeholder?: string;
+  caption?: string;
 }) {
   const [q, setQ] = useState("");
   const filtered = useMemo(() => {
@@ -17,9 +18,11 @@ export default function DataTable<T>({ rows, columns, searchKeys = [], placehold
   return (
     <div className="space-y-3">
       <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={placeholder}
-        className="w-full rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-200" />
-      <div className="overflow-x-auto rounded-lg border border-zinc-200 bg-white">
+        className="w-full rounded-md border border-[var(--border)] bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-[var(--ring)]" 
+        aria-label="Search table" />
+      <div className="overflow-x-auto rounded-lg border bg-white">
         <table className="min-w-full text-sm">
+          {caption && <caption className="sr-only">{caption}</caption>}
           <thead className="bg-zinc-50">
             <tr>
               {columns.map((c, i) => (

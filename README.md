@@ -301,21 +301,27 @@ A comprehensive, production-ready React application for exploring and managing y
 
 - **Modern UI**: Built with Next.js 15, React 19, and Tailwind CSS
 - **Next.js 15 Compatible**: Updated for Next.js 15's async params and searchParams
+- **Polished Design System**: Consistent brand colors, accessible components, and professional styling
 - **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
 - **States Management**: Browse all states with economy, culture, and overlay information
 - **Provinces Explorer**: Complete province information with economy niches and burg listings
 - **Burgs Explorer**: Complete burg information with heraldry, overlays, active hooks, and Watabou maps
 - **Markers Index**: View all mysterious markers with legend text and runes
-- **Hooks System**: Accept hook suggestions and activate quest chains
-- **Events Pipeline**: Plan and apply player actions with real-time effects
+- **Hooks System**: Accept hook suggestions and activate quest chains with confirmation dialogs
+- **Events Pipeline**: Plan and apply player actions with real-time effects and undo affordances
 - **QA Operations**: Build overlays, render dirty entities, and manage pipeline state
-- **Heraldry Display**: Shows coat of arms from generated SVG assets
+- **Heraldry Display**: Shows coat of arms from generated SVG assets with proper alt text
 - **Overlay Pills**: Population, trade, law enforcement, and damage status indicators
 - **Click-through Navigation**: States → Provinces → Burgs → Burg Detail
 - **Asset Management**: Automatic SVG asset copying for deployment
 - **Responsive Design**: Works perfectly on desktop and mobile
 - **API Integration**: Secure CLI integration through whitelisted npm scripts
 - **Real-time Updates**: Live data from your pipeline outputs
+- **Accessibility**: WCAG compliant with keyboard navigation, screen reader support, and proper ARIA labels
+- **Loading States**: Skeleton loaders and spinners for better perceived performance
+- **Toast Notifications**: Instant feedback for all user actions with success/error states
+- **Confirmation Dialogs**: Safe destructive operations with clear messaging
+- **Focus Management**: Proper focus rings and keyboard navigation support
 
 **Usage:**
 ```bash

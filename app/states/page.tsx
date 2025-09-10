@@ -12,7 +12,7 @@ export default async function StatesPage() {
   const rowsWithHtml = rows.map(row => ({
     ...row,
     heraldry_html: row.heraldry_path 
-      ? `<img src="${dirs.publicAsset(row.heraldry_path) || ''}" alt="Coat of Arms" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
+      ? `<img src="${dirs.publicAsset(row.heraldry_path) || ''}" alt="Heraldry for ${row.name}" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
       : `<div class="h-8 w-6 rounded border border-dashed border-zinc-300 grid place-items-center text-[10px] text-zinc-500">No heraldry</div>`,
     name_html: `<a class="hover:underline" href="/states/${row.state_id}">${row.name}</a>`,
     economy_html: row.economy_pillars?.join(", ") || "—",
@@ -25,6 +25,7 @@ export default async function StatesPage() {
       <DataTable
         rows={rowsWithHtml}
         searchKeys={["name"]}
+        caption="States list"
         columns={[
           { header: "", key: "heraldry_html", render: "heraldry_html" },
           { header: "Name", key: "name_html", render: "name_html" },
