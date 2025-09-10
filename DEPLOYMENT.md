@@ -36,11 +36,12 @@ The `netlify.toml` file is already configured with:
 
 ```toml
 [build]
-  command = "npm run next:build"
+  command = "npm install && npm run next:build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--production=false"
 
 # Serve static assets
 [[redirects]]
@@ -54,6 +55,8 @@ The `netlify.toml` file is already configured with:
   to = "/index.html"
   status = 200
 ```
+
+**Important**: The build command includes `npm install` to ensure all dependencies are properly installed before building. This prevents the "next: not found" error during deployment.
 
 #### 4. Deploy
 
@@ -121,6 +124,7 @@ These routes require the LoreGen CLI to be available in the deployment environme
 2. **TypeScript Errors**: Fix any TypeScript compilation errors (Next.js 15 compatibility resolved)
 3. **Missing Data**: Ensure required data files exist
 4. **Next.js 15 Issues**: All async params and type issues have been resolved
+5. **"next: not found" Error**: Fixed by adding `npm install` to build command in `netlify.toml`
 
 #### Runtime Issues
 

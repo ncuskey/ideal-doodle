@@ -1,5 +1,22 @@
 # Changelog
 
+## [2025-01-09] - Netlify Build Fix
+
+### 🔧 Build Fixes
+- **Netlify Deployment**: Fixed "next: not found" error during Netlify builds
+- **Build Command**: Updated `netlify.toml` to include `npm install` before build
+- **NPM Flags**: Changed `NPM_FLAGS` from `--version` to `--production=false` for proper dependency installation
+
+### 📚 Documentation Updates
+- Updated `DEPLOYMENT.md` with corrected build configuration
+- Added troubleshooting section for "next: not found" error
+- Documented the importance of explicit dependency installation
+
+### ✅ Build Status
+- **Netlify Build**: Now completes successfully without dependency errors
+- **Dependency Installation**: All packages properly installed before build
+- **Production Ready**: Ready for successful Netlify deployment
+
 ## [2025-01-09] - Next.js 15 Compatibility Update
 
 ### 🚀 Major Updates
