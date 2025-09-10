@@ -86,6 +86,24 @@ For enhanced performance and scalability, you can set up a Postgres database usi
 2. Wait for build to complete
 3. Your site will be available at `https://your-site-name.netlify.app`
 
+### Troubleshooting
+
+#### Build Failures
+
+**Database Connection Errors During Build**
+If you encounter errors like "Failed to instantiate Neon client: connection string is not provided", this is expected during the build process. The application automatically falls back to JSON files when the database connection isn't available.
+
+**Common Build Issues:**
+- **Missing NETLIFY_DATABASE_URL**: This is normal during build - pages use JSON fallback
+- **TypeScript Errors**: Ensure all pages use proper typing for JSON data structures
+- **Missing Dependencies**: Run `npm install` locally to verify all packages are available
+
+**Build Success Indicators:**
+- ✅ "Compiled successfully" message
+- ✅ "Linting and checking validity of types" passes
+- ✅ "Collecting page data" completes without errors
+- ✅ "Generating static pages" shows all routes
+
 ### Important Notes
 
 #### Data Requirements
@@ -133,6 +151,13 @@ These routes require the LoreGen CLI to be available in the deployment environme
 - Good for simple deployments and small datasets
 - No database setup required
 - All pages pre-rendered at build time
+- **Automatic Fallback**: Pages automatically use JSON files when database unavailable
+
+**Database Integration**:
+- Enhanced performance with Postgres queries
+- Real-time data updates
+- **Graceful Fallback**: Automatically falls back to JSON files during build
+- **Build Compatibility**: No database connection required for successful builds
 
 **Postgres Database (Optional)**:
 - Enhanced performance for larger datasets
