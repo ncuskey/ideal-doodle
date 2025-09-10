@@ -1,0 +1,20 @@
+{
+  "generated_at": "2025-09-09T23:53:23.309Z",
+  "items": [
+    {
+      "burg_id": 1,
+      "city_svg_path": "assets/watabou/city/1.svg",
+      "village_svg_path": "assets/watabou/village/1.svg"
+    },
+    {
+      "burg_id": 2,
+      "city_svg_path": "assets/watabou/city/2.svg",
+      "village_svg_path": "assets/watabou/village/2.svg"
+    },
+    {
+      "burg_id": 3,
+      "city_svg_path": "assets/watabou/city/3.svg",
+      "village_svg_path": "assets/watabou/village/3.svg"
+    }
+  ]
+}

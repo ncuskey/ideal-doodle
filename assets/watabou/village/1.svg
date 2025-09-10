@@ -1,0 +1,28 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#f5f5dc"/>
+  <text x="150" y="15" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Slalzan - Village Map</text>
+  <text x="150" y="30" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Burg ID: 1</text>
+  
+  <!-- Village center -->
+  <circle cx="150" cy="80" r="25" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+  <text x="150" y="85" text-anchor="middle" font-family="Arial" font-size="10" fill="white">Well</text>
+  
+  <!-- Houses around the center -->
+  <rect x="80" y="50" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="110" y="45" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="140" y="40" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="170" y="45" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="200" y="50" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  
+  <rect x="80" y="110" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="110" y="115" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="140" y="120" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="170" y="115" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  <rect x="200" y="110" width="25" height="15" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+  
+  <!-- Paths -->
+  <line x1="150" y1="55" x2="150" y2="105" stroke="#8b4513" stroke-width="2"/>
+  <line x1="105" y1="80" x2="195" y2="80" stroke="#8b4513" stroke-width="2"/>
+  
+  <text x="150" y="190" text-anchor="middle" font-family="Arial" font-size="9" fill="#666">Sample Village Layout</text>
+</svg>

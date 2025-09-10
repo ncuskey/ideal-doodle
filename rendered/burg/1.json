@@ -53,5 +53,11 @@
     "notes": [],
     "generated_at": "2025-09-09T23:27:15.164Z"
   },
-  "generated_at": "2025-09-09T23:27:22.782Z"
+  "maps": {
+    "city_svg_path": "assets/watabou/city/1.svg",
+    "village_svg_path": "assets/watabou/village/1.svg",
+    "city_seed": "",
+    "village_seed": ""
+  },
+  "generated_at": "2025-09-10T00:01:44.854Z"
 }

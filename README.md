@@ -58,9 +58,10 @@ A comprehensive world-building system that generates rich lore for fantasy world
 
 9. **View Results**
    ```bash
-   # Option 1: Next.js Burg Viewer (Modern React UI)
+   # Option 1: Next.js Lore UI (Modern React Dashboard)
    npm run next:dev
-   # Open http://localhost:3000/burgs/1
+   # Open http://localhost:3000
+   # Features: Dashboard, States, Burgs, Markers, Hooks, Events, QA
    
    # Option 2: Express Dashboard (Full Pipeline Control)
    npm run server
@@ -279,22 +280,28 @@ schemas/            # JSON schemas
 
 ## 🎨 Viewing Options
 
-### Next.js Burg Viewer (Modern React UI)
-A beautiful, responsive React application for exploring burg details:
+### Next.js Lore UI (Modern React Dashboard)
+A comprehensive, production-ready React application for exploring and managing your world:
 
 - **Modern UI**: Built with Next.js 15, React 19, and Tailwind CSS
-- **Burg Details**: Complete burg information with heraldry, overlays, and active hooks
+- **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
+- **States Management**: Browse all states with economy, culture, and overlay information
+- **Burgs Explorer**: Complete burg information with heraldry, overlays, and active hooks
+- **Markers Index**: View all mysterious markers with legend text and runes
+- **Hooks System**: Accept hook suggestions and activate quest chains
+- **Events Pipeline**: Plan and apply player actions with real-time effects
+- **QA Operations**: Build overlays, render dirty entities, and manage pipeline state
 - **Heraldry Display**: Shows coat of arms from generated SVG assets
-- **Overlay Pills**: Population, trade, law enforcement, and damage status
-- **Active Hooks**: Lists all active quest hooks with rationale
-- **Nearby Markers**: Shows markers from index with legend text and runes
+- **Overlay Pills**: Population, trade, law enforcement, and damage status indicators
 - **Responsive Design**: Works perfectly on desktop and mobile
-- **Fast Navigation**: Direct links to specific burgs via `/burgs/[id]`
+- **API Integration**: Secure CLI integration through whitelisted npm scripts
+- **Real-time Updates**: Live data from your pipeline outputs
 
 **Usage:**
 ```bash
 npm run next:dev
-# Open http://localhost:3000/burgs/1
+# Open http://localhost:3000
+# Navigate to: Dashboard, States, Burgs, Markers, Hooks, Events, QA
 ```
 
 ### Lore Explorer (HTML Dashboard)
@@ -604,9 +611,10 @@ LORE_TPM_LIMIT=30000 LORE_AVG_REQ_TOKENS=650 DEBUG=rl npm run canon:burg:outline
 ```bash
 npm run catalog:build  # Create compact UI index
 
-# Option 1: Next.js Burg Viewer (Modern React UI)
+# Option 1: Next.js Lore UI (Modern React Dashboard)
 npm run next:dev
-# Open http://localhost:3000/burgs/1
+# Open http://localhost:3000
+# Features: Dashboard, States, Burgs, Markers, Hooks, Events, QA
 
 # Option 2: Express Dashboard (Full Pipeline Control)
 npm run server
