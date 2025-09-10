@@ -1,5 +1,51 @@
 # Changelog
 
+## [2025-01-10] - Database Migration to Postgres with Netlify (Neon)
+
+### 🗄️ Major Database Integration
+- **Postgres Database**: Added full Postgres support via Netlify (Neon) integration
+- **Drizzle ORM**: Implemented type-safe database operations with Drizzle ORM
+- **Database Schema**: Created comprehensive schema for states, provinces, burgs, and markers
+- **Migration Script**: Built import script to migrate existing JSON data to Postgres
+- **Next.js Integration**: Updated all pages to use database queries instead of JSON files
+
+### 🏗️ Technical Implementation
+- **Database Client**: Created `src/db/client.ts` with Neon HTTP driver integration
+- **Schema Definition**: Built `src/db/schema.ts` with proper relationships and constraints
+- **Import Pipeline**: Developed `scripts/importToDb.ts` for seamless data migration
+- **Type Safety**: Full TypeScript support with Drizzle ORM type inference
+- **Environment Integration**: Automatic `NETLIFY_DATABASE_URL` usage
+
+### 📊 Database Schema
+- **States Table**: `stateId`, `name`, `slug`, `summary`, `heraldrySvgUrl`
+- **Provinces Table**: `stateId`, `provinceId`, `name`, `slug`, `summary` (composite primary key)
+- **Burgs Table**: `burgId`, `stateId`, `provinceId`, `name`, `kind`, `population`, coordinates, map URLs
+- **Markers Table**: `id`, `name`, `type`, `description`, `runeHtml`, location references
+
+### 🚀 Deployment Features
+- **Auto-provisioning**: Database automatically created during Netlify deployment
+- **NPM Scripts**: Added `db:init` and `db:import` commands for database management
+- **Asset Preservation**: All existing heraldry and map assets continue to work
+- **Backward Compatibility**: JSON files still supported for simple deployments
+
+### 📚 Documentation Updates
+- **README.md**: Added database migration section with schema details and benefits
+- **DEPLOYMENT.md**: Updated with Netlify database setup instructions
+- **Migration Guide**: Comprehensive documentation for database setup and import process
+
+### ✅ Production Ready
+- **Build Success**: All database code compiles without errors
+- **Type Safety**: Full TypeScript support with proper type inference
+- **Migration Ready**: Import script handles all existing data formats
+- **Netlify Compatible**: Works seamlessly with Netlify's Neon integration
+
+### 🎯 Benefits
+- **Performance**: Database queries are faster than file system operations
+- **Scalability**: Handles larger datasets more efficiently
+- **Querying**: SQL queries for complex relationships and filtering
+- **Real-time Ready**: Foundation for future real-time features
+- **Type Safety**: Compile-time type checking for all database operations
+
 ## [2025-01-09] - UI Polish Pack (v2) - Complete Design System Overhaul
 
 ### 🎨 Major UI Improvements

@@ -1,22 +1,19 @@
-import path from "node:path";
-import { listJsonFiles, readJson } from "@/lib/fsjson";
-import { dirs } from "@/lib/paths";
+import { db } from "@/db/client";
+import { states } from "@/db/schema";
 import DataTable from "@/components/DataTable";
-import { RenderedState } from "@/lib/types";
 
 export default async function StatesPage() {
-  const files = await listJsonFiles(dirs.rendered("state")).catch(() => []);
-  const rows: RenderedState[] = await Promise.all(files.map((f) => readJson<RenderedState>(f)));
+  const rows = await db.select().from(states).orderBy(states.name);
 
   // Generate HTML for each row
   const rowsWithHtml = rows.map(row => ({
     ...row,
-    heraldry_html: row.heraldry_path 
-      ? `<img src="${dirs.publicAsset(row.heraldry_path) || ''}" alt="Heraldry for ${row.name}" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
+    heraldry_html: row.heraldrySvgUrl 
+      ? `<img src="/${row.heraldrySvgUrl}" alt="Heraldry for ${row.name}" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
       : `<div class="h-8 w-6 rounded border border-dashed border-zinc-300 grid place-items-center text-[10px] text-zinc-500">No heraldry</div>`,
-    name_html: `<a class="hover:underline" href="/states/${row.state_id}">${row.name}</a>`,
-    economy_html: row.economy_pillars?.join(", ") || "—",
-    overlay_html: generateOverlayHtml("state", row.overlay?.trade_multiplier, row.overlay?.law_enforcement?.status || null)
+    name_html: `<a class="hover:underline" href="/states/${row.stateId}">${row.name}</a>`,
+    economy_html: "—", // Will be populated from other data sources
+    overlay_html: "" // Will be populated from other data sources
   }));
 
   return (
@@ -29,7 +26,7 @@ export default async function StatesPage() {
         columns={[
           { header: "", key: "heraldry_html", render: "heraldry_html" },
           { header: "Name", key: "name_html", render: "name_html" },
-          { header: "Economy", key: "economy_html", render: "economy_html" },
+          { header: "Summary", key: "summary", render: "summary" },
           { header: "Overlay", key: "overlay_html", render: "overlay_html" }
         ]}
       />

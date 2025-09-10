@@ -10,7 +10,13 @@ A comprehensive world-building system that generates rich lore for fantasy world
    cp .env.example .env  # Add your OPENAI_API_KEY
    ```
 
-2. **Build Complete World**
+2. **Initialize Database (Optional)**
+   ```bash
+   npm run db:init        # Initialize Netlify database with Drizzle boilerplate
+   npm run db:import      # Import existing JSON data to database
+   ```
+
+3. **Build Complete World**
    ```bash
    npm run facts:build        # Extract facts from Azgaar data
    npm run facts:derive       # Compute derived statistics
@@ -18,7 +24,7 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run graph:build        # Build dependency graph
    ```
 
-3. **Generate Canon Outlines** (Two-Pass Foundation)
+4. **Generate Canon Outlines** (Two-Pass Foundation)
    ```bash
    npm run canon:world:outline        # World-level context (eras, civilizations, tech/magic)
    npm run canon:interstate:outline   # Inter-state relationships (alliances, wars, trade)
@@ -27,17 +33,17 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run canon:burg:outline         # Burg outlines (from fact data)
    ```
 
-4. **Build Marker Index** (Azgaar Markers)
+5. **Build Marker Index** (Azgaar Markers)
    ```bash
    npm run canon:markers:index        # Extract markers from Azgaar JSON (Chalkvish Obelisk, etc.)
    ```
 
-5. **Generate Cross-Link Suggestions** (Deterministic Affinities + Hook Placements)
+6. **Generate Cross-Link Suggestions** (Deterministic Affinities + Hook Placements)
    ```bash
    npm run links:suggest              # Cross-state affinities + marker-driven hook placements
    ```
 
-6. **Generate Heraldry** (Armoria Integration)
+7. **Generate Heraldry** (Armoria Integration)
    ```bash
    npm run heraldry:gen              # Generate all heraldry (states, provinces, burgs)
    npm run heraldry:gen:states       # Generate state heraldry only
@@ -45,25 +51,25 @@ A comprehensive world-building system that generates rich lore for fantasy world
    npm run heraldry:gen:burgs        # Generate burg heraldry only
    ```
 
-7. **Generate Watabou Maps** (City & Village Maps)
+8. **Generate Watabou Maps** (City & Village Maps)
    ```bash
    npm run canon:watabou:links       # Generate Watabou URLs for all burgs
    npm run canon:watabou:assets      # Generate SVG maps for all burgs
    npm run prepare:assets            # Copy assets to public directory
    ```
 
-8. **Generate Rich Lore**
+9. **Generate Rich Lore**
    ```bash
    npm run lore:state:full -- --id=1  # Rich state lore with GPT-5
    npm run lore:burg:full -- --id=1   # Rich burg lore with GPT-5
    ```
 
-9. **Build Catalog**
-   ```bash
-   npm run catalog:build  # Create compact UI index
-   ```
+10. **Build Catalog**
+    ```bash
+    npm run catalog:build  # Create compact UI index
+    ```
 
-10. **View Results**
+11. **View Results**
    ```bash
    # Option 1: Next.js Lore UI (Modern React Dashboard)
    npm run next:dev
@@ -167,6 +173,10 @@ A comprehensive world-building system that generates rich lore for fantasy world
 - **Validate against schemas**: `npm run qa:validate -- --schema=<schema> --dir=<dir>`
 - **Run with rate limiting + timing**: `npm run qa:run:safe -- <command>`
 - **Show dry-run usage**: `npm run qa:dryhint`
+
+### Database Operations
+- **Initialize database**: `npm run db:init`
+- **Import JSON data**: `npm run db:import`
 
 ### Next.js Burg Viewer
 - **Start development server**: `npm run next:dev`
@@ -389,6 +399,34 @@ open http://localhost:3002
 - **`test-suite.html`** - Standalone test suite (superseded by dashboard)
 - **`pipeline-runner.html`** - Standalone pipeline runner (superseded by dashboard)
 - **`lore-viewer.html`** - Standalone lore viewer (superseded by hierarchical explorer)
+
+## 🗄️ Database Migration
+
+### Postgres Integration with Netlify (Neon)
+
+The project now supports both JSON file storage and Postgres database storage:
+
+#### Database Schema
+- **States**: `stateId`, `name`, `slug`, `summary`, `heraldrySvgUrl`
+- **Provinces**: `stateId`, `provinceId`, `name`, `slug`, `summary`
+- **Burgs**: `burgId`, `stateId`, `provinceId`, `name`, `kind`, `population`, `lat`, `lon`, `citySvgUrl`, `villageSvgUrl`, `watabouUrl`
+- **Markers**: `id`, `name`, `type`, `description`, `runeHtml`, `stateId`, `provinceId`, `burgId`
+
+#### Migration Process
+1. **Initialize**: `npm run db:init` - Sets up Netlify database with Drizzle ORM
+2. **Import**: `npm run db:import` - Migrates existing JSON data to Postgres
+3. **Deploy**: Database automatically provisions on Netlify deployment
+
+#### Benefits
+- **Better Performance**: Database queries are faster than file system operations
+- **Easier Querying**: SQL queries for complex relationships and filtering
+- **Scalability**: Handles larger datasets more efficiently
+- **Real-time Updates**: Foundation for future real-time features
+
+#### Next.js Integration
+- **Server Components**: All pages now use database queries instead of JSON files
+- **Type Safety**: Drizzle ORM provides full TypeScript support
+- **Automatic Environment**: Uses `NETLIFY_DATABASE_URL` automatically
 
 ## ⚡ Features
 

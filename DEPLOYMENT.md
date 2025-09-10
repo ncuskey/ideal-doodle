@@ -8,6 +8,7 @@
 2. **GitHub Repository**: Your LoreGen project should be in a GitHub repository
 3. **OpenAI API Key**: Added to Netlify secrets as `OPENAI_API_KEY`
 4. **Next.js 15 Compatibility**: All TypeScript errors resolved for Next.js 15 deployment
+5. **Database Setup**: Optional Postgres database via Netlify (Neon) for enhanced performance
 
 ### Deployment Steps
 
@@ -29,6 +30,7 @@ In Netlify dashboard, go to Site settings > Environment variables:
 - `OPENAI_API_KEY`: Your OpenAI API key (already added as secret)
 - `NODE_ENV`: `production`
 - `DATA_ROOT`: Leave empty (defaults to current directory)
+- `NETLIFY_DATABASE_URL`: Automatically set when using Netlify database (optional)
 
 #### 3. Build Configuration
 
@@ -58,7 +60,31 @@ The `netlify.toml` file is already configured with:
 
 **Important**: The build command includes `npm install` to ensure all dependencies are properly installed before building. This prevents the "next: not found" error during deployment.
 
-#### 4. Deploy
+#### 4. Database Setup (Optional)
+
+For enhanced performance and scalability, you can set up a Postgres database:
+
+1. **Initialize Database Locally**:
+   ```bash
+   npm run db:init
+   ```
+
+2. **Import Existing Data**:
+   ```bash
+   npm run db:import
+   ```
+
+3. **Auto-provision on Deploy**:
+   - Install `@netlify/neon` package (already included)
+   - Database will be automatically created during build
+   - Connection string will be available as `NETLIFY_DATABASE_URL`
+
+4. **Claim Database** (Important):
+   - Go to Netlify → Extensions → Neon → Claim database
+   - Prevents auto-deletion after 7 days
+   - Unlocks full database capacity
+
+#### 5. Deploy
 
 1. Click "Deploy site" in Netlify
 2. Wait for build to complete
@@ -103,6 +129,21 @@ The UI includes API routes that execute CLI commands:
 - `/api/ops/render/dirty` - Render dirty entities
 
 These routes require the LoreGen CLI to be available in the deployment environment.
+
+#### Database vs JSON Files
+
+**JSON Files (Default)**:
+- All data stored in static JSON files
+- Good for simple deployments and small datasets
+- No database setup required
+- All pages pre-rendered at build time
+
+**Postgres Database (Optional)**:
+- Enhanced performance for larger datasets
+- Better querying capabilities with SQL
+- Foundation for real-time features
+- Automatic provisioning on Netlify
+- Type-safe queries with Drizzle ORM
 
 #### Static vs Dynamic
 

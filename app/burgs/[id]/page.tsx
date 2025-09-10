@@ -1,68 +1,59 @@
-import path from "node:path";
-import { readJson } from "@/lib/fsjson";
-import { dirs } from "@/lib/paths";
+import { db } from "@/db/client";
+import { burgs, markers } from "@/db/schema";
+import { eq } from "drizzle-orm";
 import HeraldryBadge from "@/components/HeraldryBadge";
 import OverlayPills from "@/components/OverlayPills";
 import HookList from "@/components/HookList";
 import MarkerCard from "@/components/MarkerCard";
-import { MarkerIndex, RenderedBurg } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
 export default async function BurgPage({ params }: { params: Promise<{ id: string }> }) {
   const { id: idParam } = await params;
   const id = Number(idParam);
-  const r = await readJson<RenderedBurg>(dirs.rendered(`burg/${id}.json`));
-  const markers = await readJson<MarkerIndex>(dirs.index("markers.json")).catch(() => ({ markers: [] }));
-  const nearby = markers.markers.filter(m => (m.near_burg_ids_hint || []).includes(id));
+  
+  // Get burg data from database
+  const [burg] = await db.select().from(burgs).where(eq(burgs.burgId, id)).limit(1);
+  if (!burg) {
+    return <div>Burg not found</div>;
+  }
 
-  const ov = r.overlay || undefined;
-  const law = ov?.law_enforcement?.status || null;
-  const damaged = ov?.assets_destroyed?.length || 0;
+  // Get nearby markers
+  const nearby = await db.select().from(markers).where(eq(markers.burgId, id));
 
-  const cityUrl = r.maps?.city_svg_path ? dirs.publicAsset(r.maps.city_svg_path) : null;
-  const villageUrl = r.maps?.village_svg_path ? dirs.publicAsset(r.maps.village_svg_path) : null;
-  const watabouUrl = r.maps?.watabou_url || null;
+  const cityUrl = burg.citySvgUrl ? `/${burg.citySvgUrl}` : null;
+  const villageUrl = burg.villageSvgUrl ? `/${burg.villageSvgUrl}` : null;
+  const watabouUrl = burg.watabouUrl || null;
 
   return (
     <main className="space-y-8">
       <header className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div className="flex items-start gap-4">
-          <HeraldryBadge path={r.heraldry_path} className="h-20 w-16" />
+          <HeraldryBadge path={null} className="h-20 w-16" />
           <div>
-            <h1 className="text-2xl font-bold tracking-tight">{r.name}</h1>
-            <p className="text-sm text-zinc-600">Burg {r.burg_id} • State {r.state_id}{r.province_id ? ` • Province ${r.province_id}` : ""}</p>
-            {r.tags?.length ? (
-              <div className="mt-2 flex flex-wrap gap-1">{r.tags.map((t, i) => (<span key={`${t}-${i}`} className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">{t}</span>))}</div>
-            ) : null}
+            <h1 className="text-2xl font-bold tracking-tight">{burg.name}</h1>
+            <p className="text-sm text-zinc-600">Burg {burg.burgId} • State {burg.stateId} • Province {burg.provinceId}</p>
+            <div className="mt-2 flex flex-wrap gap-1">
+              <span className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">{burg.kind}</span>
+              {burg.population && <span className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">Pop: {burg.population}</span>}
+            </div>
           </div>
         </div>
-        <OverlayPills kind="burg" popMul={ov?.population_multiplier} tradeMul={ov?.state_trade_multiplier} law={law} damaged={damaged} />
       </header>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-5">
         <div className="lg:col-span-3 space-y-6">
           <section className="rounded-xl border border-zinc-200 bg-white p-4">
-            <h3 className="text-base font-semibold">Economy Roles</h3>
-            <ul className="mt-2 list-disc pl-5 text-sm">{(r.economy_roles || []).map((x, i) => (<li key={i}>{x}</li>))}</ul>
-          </section>
-          <section className="rounded-xl border border-zinc-200 bg-white p-4">
-            <h3 className="text-base font-semibold">Problems</h3>
-            <ul className="mt-2 list-disc pl-5 text-sm">{(r.problems || []).map((x, i) => (<li key={i}>{x}</li>))}</ul>
-          </section>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <section className="rounded-xl border border-zinc-200 bg-white p-4"><h3 className="text-base font-semibold">Culture Notes</h3><ul className="mt-2 list-disc pl-5 text-sm">{(r.culture_notes || []).map((x, i) => (<li key={i}>{x}</li>))}</ul></section>
-            <section className="rounded-xl border border-zinc-200 bg-white p-4"><h3 className="text-base font-semibold">Religious Presence</h3><ul className="mt-2 list-disc pl-5 text-sm">{(r.religion_presence || []).map((x, i) => (<li key={i}>{x}</li>))}</ul></section>
-          </div>
-          <section className="rounded-xl border border-zinc-200 bg-white p-4">
-            <h3 className="text-base font-semibold">Active Hooks</h3>
-            <HookList items={(ov?.hooks_active || []).map(h => ({ ...h, status: "active", state_id: r.state_id, burg_id: r.burg_id })) as any} />
+            <h3 className="text-base font-semibold">Location</h3>
+            <p className="text-sm text-zinc-600">
+              {burg.lat && burg.lon ? `Coordinates: ${burg.lat.toFixed(4)}, ${burg.lon.toFixed(4)}` : 'Coordinates not available'}
+            </p>
           </section>
         </div>
         <div className="lg:col-span-2 space-y-6">
           <section className="rounded-xl border border-zinc-200 bg-white p-4">
-            <h3 className="text-base font-semibold">Nearby Mysterious Markers</h3>
-            {!nearby.length ? <p className="text-sm text-zinc-500">No indexed markers near this burg.</p> : (
+            <h3 className="text-base font-semibold">Nearby Markers</h3>
+            {!nearby.length ? <p className="text-sm text-zinc-500">No markers near this burg.</p> : (
               <ul className="mt-3 space-y-3">{nearby.map(m => (<li key={m.id}><MarkerCard m={m} /></li>))}</ul>
             )}
           </section>
@@ -82,10 +73,6 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
               <p className="text-sm text-zinc-500">No maps attached.</p>
             )}
           </section>
-          <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-3 text-xs text-zinc-600">
-            <p><strong>Generated:</strong> {new Date(r.generated_at).toLocaleString()}</p>
-            {ov?.generated_at ? <p><strong>Overlay:</strong> {new Date(ov.generated_at).toLocaleString()}</p> : null}
-          </div>
         </div>
       </div>
     </main>
