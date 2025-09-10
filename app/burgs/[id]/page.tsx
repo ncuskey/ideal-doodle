@@ -1,6 +1,5 @@
-import { db } from "@/db/client";
-import { burgs, markers } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { readJson } from "@/lib/fsjson";
+import { dirs } from "@/lib/paths";
 import HeraldryBadge from "@/components/HeraldryBadge";
 import OverlayPills from "@/components/OverlayPills";
 import HookList from "@/components/HookList";
@@ -12,18 +11,19 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
   const { id: idParam } = await params;
   const id = Number(idParam);
   
-  // Get burg data from database
-  const [burg] = await db.select().from(burgs).where(eq(burgs.burgId, id)).limit(1);
+  // Try to get burg data from JSON files (fallback for build time)
+  const burg = await readJson<any>(dirs.rendered(`burg/${id}.json`)).catch(() => null);
   if (!burg) {
     return <div>Burg not found</div>;
   }
 
-  // Get nearby markers
-  const nearby = await db.select().from(markers).where(eq(markers.burgId, id));
+  // Get nearby markers from JSON (fallback)
+  const markers = await readJson<{ markers: any[] }>(dirs.index("markers.json")).catch(() => ({ markers: [] }));
+  const nearby = markers.markers?.filter((m: any) => m.burgId === id) || [];
 
-  const cityUrl = burg.citySvgUrl ? `/${burg.citySvgUrl}` : null;
-  const villageUrl = burg.villageSvgUrl ? `/${burg.villageSvgUrl}` : null;
-  const watabouUrl = burg.watabouUrl || null;
+  const cityUrl = burg.city_svg_url ? `/${burg.city_svg_url}` : null;
+  const villageUrl = burg.village_svg_url ? `/${burg.village_svg_url}` : null;
+  const watabouUrl = burg.watabou_url || null;
 
   return (
     <main className="space-y-8">
@@ -32,9 +32,9 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
           <HeraldryBadge path={null} className="h-20 w-16" />
           <div>
             <h1 className="text-2xl font-bold tracking-tight">{burg.name}</h1>
-            <p className="text-sm text-zinc-600">Burg {burg.burgId} • State {burg.stateId} • Province {burg.provinceId}</p>
+            <p className="text-sm text-zinc-600">Burg {burg.burg_id} • State {burg.state_id} • Province {burg.province_id}</p>
             <div className="mt-2 flex flex-wrap gap-1">
-              <span className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">{burg.kind}</span>
+              <span className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">{burg.kind || 'burg'}</span>
               {burg.population && <span className="rounded-md bg-zinc-100 px-2 py-1 text-[11px] font-medium text-zinc-700">Pop: {burg.population}</span>}
             </div>
           </div>

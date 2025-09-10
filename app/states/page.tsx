@@ -1,17 +1,19 @@
-import { db } from "@/db/client";
-import { states } from "@/db/schema";
+import { readJson } from "@/lib/fsjson";
+import { dirs } from "@/lib/paths";
 import DataTable from "@/components/DataTable";
 
 export default async function StatesPage() {
-  const rows = await db.select().from(states).orderBy(states.name);
+  // Try to get states data from JSON files (fallback for build time)
+  const catalog = await readJson<{ states: any[] }>(dirs.index("catalog.json")).catch(() => ({ states: [] }));
+  const rows = catalog.states || [];
 
   // Generate HTML for each row
   const rowsWithHtml = rows.map(row => ({
     ...row,
-    heraldry_html: row.heraldrySvgUrl 
-      ? `<img src="/${row.heraldrySvgUrl}" alt="Heraldry for ${row.name}" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
+    heraldry_html: row.heraldry_svg_url 
+      ? `<img src="/${row.heraldry_svg_url}" alt="Heraldry for ${row.name}" class="h-8 w-6 rounded border border-zinc-200 bg-white p-0.5 object-contain" />`
       : `<div class="h-8 w-6 rounded border border-dashed border-zinc-300 grid place-items-center text-[10px] text-zinc-500">No heraldry</div>`,
-    name_html: `<a class="hover:underline" href="/states/${row.stateId}">${row.name}</a>`,
+    name_html: `<a class="hover:underline" href="/states/${row.state_id}">${row.name}</a>`,
     economy_html: "—", // Will be populated from other data sources
     overlay_html: "" // Will be populated from other data sources
   }));
