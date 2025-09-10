@@ -1,12 +1,27 @@
-async function plan(id: string) { "use server"; await fetch("/api/events/plan", { method: "POST", body: JSON.stringify({ id }), headers: { "content-type": "application/json" } }); }
-async function apply(id: string) { "use server"; await fetch("/api/events/apply", { method: "POST", body: JSON.stringify({ id }), headers: { "content-type": "application/json" } }); await fetch("/api/ops/overlays/build", { method: "POST" }); await fetch("/api/ops/render/dirty", { method: "POST" }); }
+async function planEvent(formData: FormData) {
+  "use server";
+  const id = String(formData.get("id") || "");
+  if (id) {
+    await fetch("/api/events/plan", { method: "POST", body: JSON.stringify({ id }), headers: { "content-type": "application/json" } });
+  }
+}
+
+async function applyEvent(formData: FormData) {
+  "use server";
+  const id = String(formData.get("id") || "");
+  if (id) {
+    await fetch("/api/events/apply", { method: "POST", body: JSON.stringify({ id }), headers: { "content-type": "application/json" } });
+    await fetch("/api/ops/overlays/build", { method: "POST" });
+    await fetch("/api/ops/render/dirty", { method: "POST" });
+  }
+}
 
 export default function EventsPage() {
   return (
     <main className="space-y-6">
       <h2 className="text-lg font-semibold">Events</h2>
       <div className="rounded-xl border border-zinc-200 bg-white p-4">
-        <form className="flex flex-wrap items-end gap-3" action={async (fd) => { const id = String(fd.get("id") || ""); if (id) await plan(id); }}>
+        <form className="flex flex-wrap items-end gap-3" action={planEvent}>
           <div>
             <label className="block text-xs text-zinc-500">Action ID (without .json)</label>
             <input name="id" className="rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm shadow-sm" placeholder="act_2025_09_08_portgrey_arson" />
@@ -15,7 +30,7 @@ export default function EventsPage() {
         </form>
       </div>
       <div className="rounded-xl border border-zinc-200 bg-white p-4">
-        <form className="flex flex-wrap items-end gap-3" action={async (fd) => { const id = String(fd.get("id") || ""); if (id) await apply(id); }}>
+        <form className="flex flex-wrap items-end gap-3" action={applyEvent}>
           <div>
             <label className="block text-xs text-zinc-500">Action ID</label>
             <input name="id" className="rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm shadow-sm" placeholder="act_2025_09_08_portgrey_arson" />
