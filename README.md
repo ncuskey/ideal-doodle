@@ -71,10 +71,10 @@ A comprehensive world-building system that generates rich lore for fantasy world
 
 11. **View Results**
    ```bash
-   # Option 1: Next.js Lore UI (Modern React Dashboard)
+   # Option 1: Next.js Lore UI (Modern React Dashboard with Scrollytelling Landing)
    npm run next:dev
    # Open http://localhost:3000
-   # Features: Dashboard, States, Provinces, Burgs, Markers, Hooks, Events, QA
+   # Features: Parallax landing page, Dashboard, States, Provinces, Burgs, Markers, Hooks, Events, QA
    
    # Option 2: Express Dashboard (Full Pipeline Control)
    npm run server
@@ -312,6 +312,14 @@ A comprehensive, production-ready React application for exploring and managing y
 - **Modern UI**: Built with Next.js 15, React 19, and Tailwind CSS
 - **Next.js 15 Compatible**: Updated for Next.js 15's async params and searchParams
 - **Polished Design System**: Consistent brand colors, accessible components, and professional styling
+- **Scrollytelling Landing Page**: Parallax hero section with scroll-triggered animations and dynamic data
+- **Landing Page Features**: 
+  - Parallax effects with reduced motion support for accessibility
+  - Dynamic stats showing States, Burgs, and Markers counts
+  - Navigation cards for different sections (States, Provinces, Burgs, Markers)
+  - "Discover by Mood" section with themed exploration tags
+  - Quest Chains section with action buttons
+  - Scroll progress indicator
 - **Dashboard**: Key metrics including dirty queue, heraldry count, and hook instances
 - **States Management**: Browse all states with economy, culture, and overlay information
 - **Provinces Explorer**: Complete province information with economy niches and burg listings
@@ -402,9 +410,9 @@ open http://localhost:3002
 
 ## 🗄️ Database Migration
 
-### Postgres Integration with Netlify (Neon)
+### Postgres Integration with Netlify DB (Neon)
 
-The project now supports both JSON file storage and Postgres database storage:
+The project now supports both JSON file storage and Postgres database storage via Netlify DB:
 
 #### Database Schema
 - **States**: `stateId`, `name`, `slug`, `summary`, `heraldrySvgUrl`
@@ -415,7 +423,7 @@ The project now supports both JSON file storage and Postgres database storage:
 #### Migration Process
 1. **Initialize**: `npm run db:init` - Sets up Netlify database with Drizzle ORM
 2. **Import**: `npm run db:import` - Migrates existing JSON data to Postgres
-3. **Deploy**: Database automatically provisions on Netlify deployment
+3. **Deploy**: Database automatically provisions on Netlify deployment with generous free tier
 
 #### Benefits
 - **Better Performance**: Database queries are faster than file system operations

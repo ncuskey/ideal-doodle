@@ -54,7 +54,7 @@ export default async function BurgPage({ params }: { params: Promise<{ id: strin
           <section className="rounded-xl border border-zinc-200 bg-white p-4">
             <h3 className="text-base font-semibold">Nearby Markers</h3>
             {!nearby.length ? <p className="text-sm text-zinc-500">No markers near this burg.</p> : (
-              <ul className="mt-3 space-y-3">{nearby.map(m => (<li key={m.id}><MarkerCard m={m} /></li>))}</ul>
+              <ul className="mt-3 space-y-3">{nearby.map(m => (<li key={m.id}><MarkerCard m={{...m, id: String(m.id)}} /></li>))}</ul>
             )}
           </section>
           <section className="rounded-xl border border-zinc-200 bg-white p-4">

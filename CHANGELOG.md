@@ -1,9 +1,32 @@
 # Changelog
 
-## [2025-01-10] - Database Migration to Postgres with Netlify (Neon)
+## [2025-01-10] - Scrollytelling Landing Page & UI Enhancements
+
+### 🎨 New Landing Page
+- **Parallax Hero Section**: Beautiful scroll-triggered animations with reduced motion support
+- **Dynamic Stats**: Real-time counts of States, Burgs, and Markers from your data
+- **Navigation Cards**: Clean cards for exploring States, Provinces, Burgs, and Markers
+- **Mood Discovery**: Themed exploration tags (Coastal towns, Trade hubs, Borderlands, etc.)
+- **Quest Chains Section**: Direct access to hooks and event simulation
+- **Scroll Progress Indicator**: Visual progress bar at the top of the page
+
+### 🧩 New Components
+- **ParallaxHero**: Scroll-based parallax effects with accessibility support
+- **ScrollReveal**: Fade-in animations for content sections
+- **Stat**: Clean metric display cards
+- **SectionCard**: Navigation cards with hover effects
+- **ScrollProgress**: Top-of-page scroll progress indicator
+
+### 🎯 Technical Improvements
+- **Framer Motion Integration**: Lightweight animations with performance optimization
+- **Accessibility**: Reduced motion support and proper focus states
+- **Responsive Design**: Mobile-first approach with smooth interactions
+- **TypeScript**: Full type safety for all new components
+
+## [2025-01-10] - Database Migration to Postgres with Netlify DB (Neon)
 
 ### 🗄️ Major Database Integration
-- **Postgres Database**: Added full Postgres support via Netlify (Neon) integration
+- **Postgres Database**: Added full Postgres support via Netlify DB (Neon) integration
 - **Drizzle ORM**: Implemented type-safe database operations with Drizzle ORM
 - **Database Schema**: Created comprehensive schema for states, provinces, burgs, and markers
 - **Migration Script**: Built import script to migrate existing JSON data to Postgres
@@ -23,7 +46,7 @@
 - **Markers Table**: `id`, `name`, `type`, `description`, `runeHtml`, location references
 
 ### 🚀 Deployment Features
-- **Auto-provisioning**: Database automatically created during Netlify deployment
+- **Auto-provisioning**: Database automatically created during Netlify deployment with generous free tier
 - **NPM Scripts**: Added `db:init` and `db:import` commands for database management
 - **Asset Preservation**: All existing heraldry and map assets continue to work
 - **Backward Compatibility**: JSON files still supported for simple deployments

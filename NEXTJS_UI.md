@@ -15,6 +15,14 @@ This application has been updated to be fully compatible with Next.js 15, includ
 
 ## Features
 
+### 🏠 Landing Page (`/`)
+- **Parallax Hero**: Beautiful scroll-triggered animations with reduced motion support
+- **Dynamic Stats**: Real-time counts of States, Burgs, and Markers from your data
+- **Navigation Cards**: Clean cards for exploring States, Provinces, Burgs, and Markers
+- **Mood Discovery**: Themed exploration tags (Coastal towns, Trade hubs, Borderlands, etc.)
+- **Quest Chains**: Direct access to hooks and event simulation
+- **Scroll Progress**: Visual progress indicator at the top of the page
+
 ### 🏠 Dashboard (`/`)
 - **Dirty Queue**: Shows entities needing regeneration (burgs and states)
 - **Heraldry Count**: Total number of generated coat of arms
@@ -134,6 +142,25 @@ src/
 ```
 
 ## Key Components
+
+### Landing Page Components
+
+### ParallaxHero
+Scroll-triggered parallax hero section with reduced motion support for accessibility. Features background blur effects, optional world map, and call-to-action buttons.
+
+### ScrollReveal
+Wrapper component for scroll-triggered fade-in animations. Configurable delay and viewport-based triggering.
+
+### Stat
+Clean metric display card showing values and labels with consistent styling.
+
+### SectionCard
+Navigation card component with hover effects and optional images for section exploration.
+
+### ScrollProgress
+Top-of-page scroll progress indicator with smooth spring animations.
+
+### Core Components
 
 ### HeraldryBadge
 Displays coat of arms from generated SVG assets with fallback for missing heraldry.

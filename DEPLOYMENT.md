@@ -62,7 +62,7 @@ The `netlify.toml` file is already configured with:
 
 #### 4. Database Setup (Optional)
 
-For enhanced performance and scalability, you can set up a Postgres database:
+For enhanced performance and scalability, you can set up a Postgres database using Netlify DB (powered by Neon):
 
 1. **Initialize Database Locally**:
    ```bash
@@ -78,13 +78,9 @@ For enhanced performance and scalability, you can set up a Postgres database:
    - Install `@netlify/neon` package (already included)
    - Database will be automatically created during build
    - Connection string will be available as `NETLIFY_DATABASE_URL`
+   - Database is permanently provisioned with generous free tier
 
-4. **Claim Database** (Important):
-   - Go to Netlify → Extensions → Neon → Claim database
-   - Prevents auto-deletion after 7 days
-   - Unlocks full database capacity
-
-#### 5. Deploy
+#### 4. Deploy
 
 1. Click "Deploy site" in Netlify
 2. Wait for build to complete
