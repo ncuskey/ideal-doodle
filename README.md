@@ -1,5 +1,22 @@
 # Southia Lore (Facts → Lore)
 
+> Update (2025-09-11): New Lore UI surface implemented per Lore UI Philosophy and token stack.
+>
+> - Identity: parchment background, serif headings, purple primary; tokens only (HSL) with --radius controlling rounding.
+> - IA: hero • features • how-it-works • workbench (PromptConsole • MapPanel • LoreOutputTabs).
+> - Components: `SectionHeader`, `FeatureCard`, `MapPanel`, `PromptConsole`, `LoreOutputTabs`, composed via `LoreWorkbench`.
+> - Accessibility: tabs/controls use shadcn primitives with correct roles and keyboard behavior; visible focus rings.
+> - Tests: Playwright smoke test for `/` validating H1, Generate button, and tabs switching.
+>
+> Quick run:
+> ```bash
+> npm run next:dev
+> # Open http://localhost:3000 (dev may choose a different free port, check terminal)
+> 
+> # Run smoke test (adjust BASE_URL to your dev port)
+> PLAYWRIGHT_BASE_URL=http://localhost:3000 npm run test:e2e
+> ```
+
 A comprehensive world-building system that generates rich lore for fantasy worlds using AI models with intelligent cost optimization and dependency tracking.
 
 ## 🚀 Quick Start

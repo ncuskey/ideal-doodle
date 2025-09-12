@@ -1,5 +1,16 @@
 # Deployment Guide
 
+> Update (2025-09-11): The new Lore UI surface (hero • features • how‑it‑works • workbench) is live and token-aligned (parchment background, purple primary, serif headings via next/font). A Playwright smoke test for `/` is included.
+>
+> Quick dev + smoke test:
+> ```bash
+> npm run next:dev
+> # open the port printed in the terminal (e.g., http://localhost:3000 or 3005)
+> 
+> # adjust BASE_URL to your dev port
+> PLAYWRIGHT_BASE_URL=http://localhost:3000 npm run test:e2e
+> ```
+
 ## UI Guidelines
 
 All UI work in this repo follows the UI Guidelines at `.clinerules/ui-guidelines.md`. Treat them as non‑negotiable defaults for Next.js pages/components, Tailwind styles, and shadcn/ui primitives.

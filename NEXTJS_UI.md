@@ -4,6 +4,22 @@
 
 The Next.js Lore UI is a production-ready React application built with Next.js 15, React 19, and Tailwind CSS. It provides a comprehensive dashboard for exploring and managing your LoreGen world data.
 
+Update (2025-09-11): A new Lore UI surface has been implemented per the Lore UI Philosophy.
+- Identity & tokens: parchment background, purple primary, serif headings via next/font (Lora) and sans body (Inter); all colors through HSL tokens; radius via --radius.
+- IA: hero • features • how-it-works • workbench (PromptConsole • MapPanel • LoreOutputTabs).
+- Components added: components/marketing/{SectionHeader,FeatureCard,MapPanel,PromptConsole,LoreOutputTabs,LoreWorkbench}.
+- Accessibility: shadcn/ui tabs and focus-visible rings; keyboard/ARIA roles correct; aria-live status on console.
+- Test: Playwright smoke test for `/` asserting H1, Generate button, and tabs visibility/switch.
+
+Quick start for the new surface:
+```bash
+npm run next:dev
+# open the port shown in terminal (e.g., http://localhost:3000 or 3005)
+
+# smoke test (adjust BASE_URL to your dev port)
+PLAYWRIGHT_BASE_URL=http://localhost:3000 npm run test:e2e
+```
+
 ## UI Guidelines
 
 All UI work in this repo follows the UI Guidelines at `.clinerules/ui-guidelines.md`. Treat them as non‑negotiable defaults for Next.js pages/components, Tailwind styles, and shadcn/ui primitives.

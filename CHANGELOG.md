@@ -1,5 +1,22 @@
 # Changelog
 
+## [2025-09-11] - Lore UI surface & token alignment
+
+- Implemented new Lore UI surface per `.clinerules/lore-ui-philosophy.md`:
+  - IA: hero • features • how-it-works • workbench (PromptConsole • MapPanel • LoreOutputTabs)
+  - Components: `components/marketing/{SectionHeader,FeatureCard,MapPanel,PromptConsole,LoreOutputTabs,LoreWorkbench}`
+- Token discipline:
+  - Parchment background via `--background`, purple primary via `--primary`, rounding via `--radius=1.5rem`
+  - Serif headings via `next/font` (Lora) and sans body (Inter); Tailwind `fontFamily` maps to CSS vars
+  - No inline hex; HSL variables only; soft shadows via `shadow-soft`
+- Accessibility & responsiveness:
+  - Tabs with correct roles/keyboard using shadcn primitives; visible focus rings
+  - aria-live status in PromptConsole; mobile-first layouts; dark/light parity
+- Tests:
+  - Playwright smoke test for `/` validating H1, Generate button, tabs render/switch
+- Docs:
+  - Updated `README.md`, `NEXTJS_UI.md`, and `DEPLOYMENT.md` with new surface, tokens, and smoke test instructions
+
 ## [2025-01-10] - Scrollytelling Landing Page & UI Enhancements
 
 ### 🎨 New Landing Page

@@ -2,28 +2,105 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
+/* Design tokens */
+:root {
+  --background: 40 40% 96%;
+  --foreground: 222 47% 11%;
 
-/* ---- Design tokens ---- */
-:root{
-  --brand-50:#eef2ff; --brand-100:#e0e7ff; --brand-200:#c7d2fe; --brand-300:#a5b4fc; --brand-400:#818cf8; --brand-500:#6366f1; --brand-600:#4f46e5; --brand-700:#4338ca; --brand-800:#3730a3; --brand-900:#312e81;
-  --ink:#111827;         /* text */
-  --muted:#6b7280;       /* secondary text */
-  --bg:#f8fafc;          /* page bg */
-  --card:#ffffff;        /* surfaces */
-  --border:#e5e7eb;      /* hairlines */
-  --ring:#c7d2fe;        /* focus ring */
-  --danger:#dc2626;      /* errors */
-  --success:#16a34a;     /* success */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  /* Brand: tweak these two to set your look */
+  --primary: 259 90% 60%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 222 15% 96%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 9% 46%;
+
+  --accent: 260 100% 97%;
+  --accent-foreground: 259 90% 30%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 259 90% 55%;
+
+  --radius: 1.5rem;
 }
 
-html, body { background: var(--bg); color: var(--ink); }
+.dark {
+  --background: 224 36% 4%;
+  --foreground: 213 31% 91%;
 
-/* Focus visibility: keyboard users see a clear ring */
-*:focus-visible{ outline: none; box-shadow: 0 0 0 3px var(--ring); border-radius: 8px; }
+  --card: 224 36% 6%;
+  --card-foreground: 213 31% 91%;
 
-/* Motion conservative micro-animations */
-@media (prefers-reduced-motion:no-preference){
-  .fade-in{ animation: fade-in .2s ease-in-out both; }
-  @keyframes fade-in{ from{opacity:.0; transform: translateY(2px);} to{opacity:1; transform:none;} }
+  --popover: 224 36% 6%;
+  --popover-foreground: 213 31% 91%;
+
+  --primary: 259 90% 64%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 223 35% 11%;
+  --secondary-foreground: 213 31% 91%;
+
+  --muted: 223 35% 11%;
+  --muted-foreground: 215 20% 65%;
+
+  --accent: 257 40% 18%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 223 35% 16%;
+  --input: 223 35% 16%;
+  --ring: 259 90% 60%;
+}
+
+/* Map tokens to Tailwind v4 theme variables so utilities like bg-background work */
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  --shadow-soft: 0 10px 30px -12px rgba(0,0,0,0.15);
+}
+
+@layer base {
+  * { border-color: hsl(var(--border)); }
+  body { @apply bg-background text-foreground antialiased; }
+}
+
+@layer utilities {
+  .container-tight { max-width: 48rem; margin-left: auto; margin-right: auto; }
+  .lead { font-size: 1.125rem; line-height: 1.75rem; color: hsl(var(--muted-foreground)); }
 }
