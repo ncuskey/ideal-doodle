@@ -4,6 +4,18 @@
 
 The Next.js Lore UI is a production-ready React application built with Next.js 15, React 19, and Tailwind CSS. It provides a comprehensive dashboard for exploring and managing your LoreGen world data.
 
+## UI Guidelines
+
+All UI work in this repo follows the UI Guidelines at `.clinerules/ui-guidelines.md`. Treat them as non‑negotiable defaults for Next.js pages/components, Tailwind styles, and shadcn/ui primitives.
+
+Key points:
+- Semantic HTML, keyboard support, and visible focus.
+- Use design tokens (CSS variables) via Tailwind; avoid hard-coded colors.
+- Compose shadcn/ui primitives; use `cva` for variants; use `cn()` to merge classes.
+- Mobile-first responsive; dark/light compatible; no console errors.
+- Forms: react-hook-form + zod; global state with Zustand only when needed.
+- Add/maintain Playwright smoke tests for new routes.
+
 ## Next.js 15 Compatibility
 
 This application has been updated to be fully compatible with Next.js 15, including:

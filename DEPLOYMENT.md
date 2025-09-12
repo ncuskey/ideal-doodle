@@ -1,5 +1,17 @@
 # Deployment Guide
 
+## UI Guidelines
+
+All UI work in this repo follows the UI Guidelines at `.clinerules/ui-guidelines.md`. Treat them as non‑negotiable defaults for Next.js pages/components, Tailwind styles, and shadcn/ui primitives.
+
+Key points for deploy-ready UI:
+- Semantic HTML with keyboard support and visible focus states.
+- Use design tokens (CSS variables) via Tailwind; avoid hard-coded colors/sizes.
+- Compose shadcn/ui primitives; use `cva` for variants; use `cn()` to merge classes.
+- Mobile-first responsive; dark/light compatible; no console errors.
+- Forms: react-hook-form + zod; lift to Zustand only when truly global.
+- Add/maintain a minimal Playwright smoke test for any new route.
+
 ## Netlify Deployment
 
 ### Prerequisites

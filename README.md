@@ -85,6 +85,18 @@ A comprehensive world-building system that generates rich lore for fantasy world
    # Open http://localhost:8000/loregen-dashboard.html
    ```
 
+## UI Guidelines
+
+All UI work in this repo follows the UI Guidelines at `.clinerules/ui-guidelines.md`. Treat them as non‑negotiable defaults for Next.js pages/components, Tailwind styles, and shadcn/ui primitives.
+
+Key points:
+- Semantic HTML, keyboard support, and visible focus.
+- Use design tokens (CSS variables) via Tailwind; avoid hard-coded colors.
+- Compose shadcn/ui primitives; use `cva` for variants; use `cn()` to merge classes.
+- Mobile-first responsive; dark/light compatible; no console errors.
+- Forms: react-hook-form + zod; global state with Zustand only when needed.
+- Add/maintain Playwright smoke tests for new routes.
+
 ## 📋 Pipelines
 
 ### Core Generation
